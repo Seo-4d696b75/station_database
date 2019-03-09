@@ -1,23 +1,22 @@
-このデータ群の作成には以下の外部サービスから提供されたデータを活用しています。
-そのためデータ利用に関して各サービスの利用規約の順守が要求されます。
+# 利用規約
+このデータ群の作成には以下の外部サービスから提供されたデータを活用しています。  
+そのためデータ利用に関して各サービスの利用規約の遵守が要求されます。
 
-駅データ.jp Copyright(c) CodePlus Co.,Ltd.
-サイト： http://www.ekidata.jp/
+* 駅データ.jp Copyright(c) CodePlus Co.,Ltd.  
+サイト： http://www.ekidata.jp/  
 利用規約: http://www.ekidata.jp/agreement.php
 
-【駅メモ！】ステーションメモリーズ！情報wiki
-Copyright (c) 【駅メモ！】ステーションメモリーズ！情報wiki.
+* 【駅メモ！】ステーションメモリーズ！情報wiki  
+Copyright (c) 【駅メモ！】ステーションメモリーズ！情報wiki.  
 サイト: https://ekimemo.wiki.fc2.com/
 
-国土数値情報ダウンロードサービス
-http://nlftp.mlit.go.jp/ksj/index.html
-4.交通＞鉄道 2008/2017年度版
-利用約款： http://nlftp.mlit.go.jp/ksj/other/yakkan.html
+* 国土数値情報ダウンロードサービス  
+http://nlftp.mlit.go.jp/ksj/index.html  
+4.交通＞鉄道 2008/2017年度版  
+利用約款： http://nlftp.mlit.go.jp/ksj/other/yakkan.html  
 
 
-/////////////////////////////////////////
-//////注意///////////////////////////////
-/////////////////////////////////////////
+**注意**
 
 # データの適用限界に関する警告
 この駅・路線データ群は整備者があくまで趣味の範疇で作成した代物であり、
