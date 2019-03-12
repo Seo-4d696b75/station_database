@@ -1,9 +1,9 @@
 2018/10/21
 
-** 駅データ収集のマニュアル **
+**駅データ収集のマニュアル**
 
 # 変更履歴
-2019/02/28
+2019/02/28  
 固定データファイルの名称を変更
 駅詳細データに関してバージョン毎にデータを保存して管理するように変更
 
@@ -11,21 +11,21 @@
 
 # 固定データファイル一覧
 
-	* prefecture.csv	都道府県コードの一覧表、以下都道府県はこのコードで表現する
-	* color.csv	HTMLカラーコードの一覧表 解析時に必要
+* prefecture.csv	都道府県コードの一覧表、以下都道府県はこのコードで表現する
+* color.csv	HTMLカラーコードの一覧表 解析時に必要
 	
 
 # 基本情報の収集
 **毎回**  
-	作業ディテクトリ： ./${version}/
-	これがそのままバージョン区分になるのでディレクトリ管理は徹底すべし
+作業ディテクトリ： ./${version}/  
+これがそのままバージョン区分になるのでディレクトリ管理は徹底すべし
 
 ## 取得方法
-	駅データ.jp　の無償APIを利用
-	ＡＰＩの詳細： ../ekidata_API.txt
-	
-	./extriever.rb で全駅分を一括ダウンロード可能
-	$ ruby "../extriever.rb"
+駅データ.jp　の無償APIを利用  
+[ＡＰＩの詳細](./ekidata_API.txt)  
+	  
+./extriever.rb で全駅分を一括ダウンロード可能  
+`$ ruby ../extriever.rb`
 	
 ### 出力ファイル
 		lines_raw.json		全路線のデータ(コード、路線名)
@@ -42,12 +42,12 @@
 			....
 			]
 		
-	(注意)この段階では駅メモ仕様と差異あり
+(注意)この段階では駅メモ仕様と差異あり
 	
 # 差分の解決
 **毎回**
 
-	作業ディテクトリ： ./${version}/
+作業ディテクトリ： ./${version}/
 	
 ## 差分修正データの用意
 		
@@ -81,11 +81,11 @@
 		
 ## 路線登録駅定義ファイルの用意
 		
-		check_list.txt
-		一行ごとに、東京メトロ丸ノ内線28....
+check_list.txt  
+一行ごとに、東京メトロ丸ノ内線28....
 		
 ## 差分解決ファイルとの結合
-		../merge.rb で処理する
+../merge.rb で処理する
 		
 		$ load("../merge.rb")
 		$ parse = DataParser.new("./lines_raw.json","./stations_raw.json")
@@ -96,27 +96,27 @@
 		$ parse.write()
 		
 ### 出力ファイル
-			フォーマットは解決前のrawファイルと同等
-			lines.json, stations.json
+フォーマットは解決前のrawファイルと同等  
+lines.json, stations.json
 			
 # 路線ポリラインデータ
 **初回/差分**
 
-	以下作業ディレクトリ：./polyline/
+以下作業ディレクトリ：./polyline/
 
 ## データの取得
-		http://nlftp.mlit.go.jp/ksj/gml/cgi-bin/download.php
-		国土数値情報ダウンロードサービス
-		(JPGIS2.1(GML)準拠及びSHAPE形式データ)
-		2008年版
+http://nlftp.mlit.go.jp/ksj/gml/cgi-bin/download.php  
+国土数値情報ダウンロードサービス  
+(JPGIS2.1(GML)準拠及びSHAPE形式データ)  
+2008年版  
 		
-		N02-08.xml
+N02-08.xml
 	
 ## データの解析
-		そのままだと、XMLのオーバヘッドが巨大すぎて扱いづらいので変換
-		jp.ac.u_tokyo.t.eeic.seo.station.LineMerge.java
+そのままだと、XMLのオーバヘッドが巨大すぎて扱いづらいので変換  
+jp.ac.u_tokyo.t.eeic.seo.station.LineMerge.java
 		
-		$ new LineMerge("./N02-08.xml", "出力ファイル");
+`$ new LineMerge("./N02-08.xml", "出力ファイル");`
 		
 ### 出力ファイル
 			
@@ -137,8 +137,8 @@
 		
 ## データの編集
 	
-		そのままだと使い物にならないので頑張って編集
-		jp.ac.u_tokyo.eeic.seo.station.LineCurveEditor.java
+そのままだと使い物にならないので頑張って編集  
+jp.ac.u_tokyo.eeic.seo.station.LineCurveEditor.java
 		
 		$ new LineCurveEditor(
 			"./N02-08.json", 
@@ -164,8 +164,8 @@
 		
 ## データの確認と圧縮
 		
-		データのフォーマット・整合性を確認
-		jp.ac.u_tokyo.eeic.seo.station.LineCurveEditor.java
+データのフォーマット・整合性を確認
+jp.ac.u_tokyo.eeic.seo.station.LineCurveEditor.java
 		
 		$ ../polyline_check.bat {version}
 		
@@ -188,31 +188,31 @@
 # 駅詳細データの収集
 **初回/差分**
 
-	作業ディレクトリ ./{version}/
+作業ディレクトリ ./{version}/
 	
 ## データの用意
-		有志によって整備されているwikiから各路線に登録された駅データを取得
-		https://ekimemo.wiki.fc2.com/wiki/%E8%B7%AF%E7%B7%9A%E5%90%8D%E4%B8%80%E8%A6%A7
+有志によって整備されているwikiから各路線に登録された駅データを取得  
+https://ekimemo.wiki.fc2.com/wiki/%E8%B7%AF%E7%B7%9A%E5%90%8D%E4%B8%80%E8%A6%A7
 		
 ### ダウンロードリストの用意
-			上記の一覧から抽出するだけ
-			./details/list.txt
+上記の一覧から抽出するだけ
+./details/list.txt
 			
 ### 一括ダウンロード
-			./download.rb
+./download.rb
 			
 			$ mkdir details
 			$ copy *** details/list.txt
 			$ mkdir details/raw
 			$ ruby ../details.rb
 			
-			./raw/ ディレクトリ下にHTMLファイルが路線数だけダウンロードされる
+./raw/ ディレクトリ下にHTMLファイルが路線数だけダウンロードされる
 			
 ## 路線の読み仮名リストの用意
-		自分で用意するしかない。 ./details/lines_phonetic.txt
+自分で用意するしかない。 ./details/lines_phonetic.txt
 	
 ## データの編集
-		色々間違えや表記の揺れがあるので適切に指示を与える
+色々間違えや表記の揺れがあるので適切に指示を与える
 		
 		$ mkdir details/solved
 		$ copy {previous}/*.json
@@ -220,14 +220,16 @@
 		
 		
 ### 出力ファイル
-			駅の詳細
+駅の詳細  
+
 			./stations.json
 			[
 			{"code":1110101,"station":"函館","phonetic":"はこだて","prefecture":1},
 			....
 			]
 			
-			路線の詳細は./solved/ディレクトリ下に保存
+路線の詳細は./solved/ディレクトリ下に保存  
+
 			{
 			"code":11101,
 			"line":"JR函館本線(函館～長万部)",
@@ -243,15 +245,16 @@
 # データの統合
 **毎回**
 
-	作業ディレクトリ： ./${version}/
-	出力ディレクトリ  ./${version}/out/
+作業ディレクトリ： ./${version}/   
+出力ディレクトリ  ./${version}/out/  
 
-	ここまで集めてきた駅・路線データ、詳細データ、路線ポリラインデータを統合
-	同時に駅のボロノイ境界を計算
+ここまで集めてきた駅・路線データ、詳細データ、路線ポリラインデータを統合  
+同時に駅のボロノイ境界を計算  
 	
-	$ data_merge.bat {version}
+	`$ data_merge.bat {version}`
 	
 ## 必要ファイル一覧	
+
 	$ new DataMerge(
 		"./lines.json",				//差分解決済み路線一覧データ
 		"./stations.json",			//差分解決済み駅基本データ
@@ -335,7 +338,7 @@
 		}
 		
 ### 圧縮データのフォーマット
-		全データをひとつのファイルに統合
+全データをひとつのファイルに統合
 		
 		./out/data.json
 		{
