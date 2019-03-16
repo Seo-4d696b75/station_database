@@ -146,6 +146,8 @@ jp.ac.u_tokyo.eeic.seo.station.LineCurveEditor.java
 			"確認ファイル", 			//編集した路線を記録するファイル
 			"出力ファイルのディレクトリ"
 		);
+
+http://memopad.bitter.jp/web/GoogleMap/V3/myMap/tools/gpsDataDisplay.html
 		
 ### 出力ファイル
 			

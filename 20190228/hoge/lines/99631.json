@@ -1,0 +1,14 @@
+{
+"code":99631,
+"line":"神戸高速南北線",
+"phonetic":"こうべこうそくなんぼくせん",
+"symbol":"KB",
+"list_size":2,
+"station_list":[
+  {"numbering":[{"color":"#DD0033","index":"01"}],"code":9963006},
+  {"numbering":[{"color":"#DD0033","index":"02"}],"code":9963102}
+],
+"point_list":[
+  {"start":"湊川","pivot":[135.16579,34.67959],"end":"新開地","points":[0,0,66,-61,227,-207,52,-56]}
+]
+}
