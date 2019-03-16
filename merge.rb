@@ -226,12 +226,13 @@ class DataParser
 							next item
 						elsif item.kind_of?(Hash) && item.key?("station") && item.key?("lon") && item.key?("lat")
 							stations.push(item)
+							next nil if item.key?("skip") && !!item["skip"]
 							next item["station"].to_s
 						else
 							puts "Error > invalid station item in a line : %s \nentry : %s" % [e["line"], item.to_s]
 							return
 						end
-					end
+					end.compact!
 				end
 			elsif e.key?("station")
 				stations.push(e)
@@ -346,6 +347,11 @@ class DataParser
 						puts "Error > station code duplicated %d" % code 
 						return 
 					end
+					##過去にコード指定済みで新たにコードを指定する場合
+					if e.key?("skip") && !!e["skip"]
+						puts "Log > skip station code:#{code} at #{name}"
+						next false
+					end
 					s = StationItem.new(e, nil, [])
 					@station_map[s.code] = s
 					@station.push(s)
@@ -353,6 +359,19 @@ class DataParser
 				end
 				s = @station_map[code]
 				if s == nil
+					##廃駅になってもコードはそのままで
+					if e.key?("closed") && !!e["closed"]
+						if @station_set.add?(code)
+							puts "Log > closed station name:#{name} code:#{code}"
+							s = StationItem.new(e, nil, [])
+							@station_map[s.code] = s
+							@station.push(s)
+							next false
+						else
+							puts "Error > code duplicated code:#{code}"
+							return
+						end
+					end
 					puts "Error > target station not found name:%s code:%d" % [name, code]
 					return
 				elsif s.name != name
@@ -435,7 +454,7 @@ class DataParser
 		lines.each do |e|
 			if e.key?("add_station") || e.key?("remove_station")
 				name = e.key?("rename") ? e["rename"] : e["line"]
-				remove = e.key?("remove") && e["remove"]
+				remove = e.key?("remove") && !!e["remove"]
 				if line = remove ? removed_line_map[name] : @line_name_map[name]
 					if e.key?("add_station") 
 						if remove
