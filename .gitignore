@@ -3,8 +3,12 @@
 details_master/list
 details_master/*.pem
 polyline/src/*
+polyline/kml/*
+polyline/raw/*
 polyline/*.html
+polyline/*.json
+polyline/*.txt
 *.lnk
 *.rb
-polyline/*.json
-manual.md
+*.txt
+./manual.md

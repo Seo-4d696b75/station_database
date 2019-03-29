@@ -216,7 +216,7 @@ https://ekimemo.wiki.fc2.com/wiki/%E8%B7%AF%E7%B7%9A%E5%90%8D%E4%B8%80%E8%A6%A7
 ## データの編集
 色々間違えや表記の揺れがあるので適切に指示を与える
 		
-		$ mkdir details/solved
+		$ mkdir details/lines
 		$ copy {previous}/*.json
 		$ ../details.bat
 		
