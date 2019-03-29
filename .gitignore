@@ -1,7 +1,10 @@
 *.bat
 *.zip
-details_master/list
-details_master/*.pem
+details/list/*
+details/raw/*
+details/solved/*
+details/*.pem
+details/*.txt
 polyline/src/*
 polyline/kml/*
 polyline/raw/*
@@ -11,4 +14,4 @@ polyline/*.txt
 *.lnk
 *.rb
 *.txt
-./manual.md
+manual.md
