@@ -274,11 +274,11 @@
 ]},
 {"code":11110,"line":"JR石勝線","add_station":[
 ## 20190426 夕張支線の廃線化
-	{"code":1111008,"station":"沼ノ沢","closed":true,"lon":142.030836,"lat":42.957586,"lines":[11110]},
-	{"code":1111009,"station":"南清水沢","closed":true,"lon":142.006597,"lat":42.985272,"lines":[11110]},
-	{"code":1111010,"station":"清水沢","closed":true,"lon":142.007285,"lat":42.998270,"lines":[11110]},
-	{"code":1111011,"station":"鹿ノ谷","closed":true,"lon":141.964476,"lat":43.039447,"lines":[11110]},
-	{"code":1111012,"station":"夕張","closed":true,"lon":141.967472,"lat":43.050926,"lines":[11110]},
+	{"code":1111008,"station":"沼ノ沢","closed":true,"lon":142.030836,"lat":42.957586},
+	{"code":1111009,"station":"南清水沢","closed":true,"lon":142.006597,"lat":42.985272},
+	{"code":1111010,"station":"清水沢","closed":true,"lon":142.007285,"lat":42.998270},
+	{"code":1111011,"station":"鹿ノ谷","closed":true,"lon":141.964476,"lat":43.039447},
+	{"code":1111012,"station":"夕張","closed":true,"lon":141.967472,"lat":43.050926},
 	{"code":5000019,"station":"東追分","closed":true,"lat":42.903012,"lon":141.833052},
 	{"code":5000020,"station":"十三里","closed":true,"lat":42.914810,"lon":142.024429}
 ]},
