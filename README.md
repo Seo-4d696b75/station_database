@@ -40,9 +40,11 @@ http://nlftp.mlit.go.jp/ksj/index.html
   ├─ lines_raw.json     駅データ.jpからダウンロードしたままの路線データ
   ├─ stations_raw.json  駅データ.jpからダウンロードしたままの駅データ
   ├─ merge.json         駅データ.jpと駅メモのデータの差分を定義する
+  ├─ lines.json     路線一覧データ
+  ├─ stations.json  駅一覧データ
   └─ out
-      ├─ lines.json     完成した路線データ
-      ├─ stations.json  完成した駅データ
+      ├─ lines.json     完成した路線詳細一覧データ
+      ├─ stations.json  完成した駅詳細一覧データ
       └─ data.json      完成したデータの一つにまとめたもの
 ```
 
