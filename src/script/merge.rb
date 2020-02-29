@@ -19,12 +19,25 @@ def read_json(path)
 	str = ""
 	File.open(path, "r:utf-8") do |file|
 		file.each_line do |line|
-			if line[0] != "#"
-				str += line
-			end
+			str += line
 		end
 	end
 	return JSON.parse(str)
+end
+
+def flatten_data(obj,list)
+	if children = obj["data"]
+		children.each{|child| flatten_data(child,list)}
+	else
+		list << obj
+	end
+end
+
+def read_data(path)
+	root = read_json(path)
+	list = []
+	flatten_data(root,list)
+	return list
 end
 
 class LineItem
@@ -214,7 +227,7 @@ class DataParser
 		end
 		
 		str = read(data_path)
-		data = read_json(data_path)
+		data = read_data(data_path)
 		
 		#駅名は以降の読み込みが終了したら改めて登録する
 		lines = []
@@ -225,20 +238,13 @@ class DataParser
 				lines.push(e)
 				if e.key?("add_station")
 					e["add_station"].map! do |item|
-						if item.kind_of?(String)
+						if item.kind_of?(String) || item.kind_of?(Integer)
 							next item
 						elsif item.kind_of?(Hash) && item.key?("station") && item.key?("lon") && item.key?("lat")
-							if item.key?("skip") && !!item["skip"]
-								## "skip"の場合はこの路線への追加を中止する
-								## ただし"code"は新規には与えないように予約しておく
-								stations.push(item)
-								next nil
-							else
 								## 新規駅の追加
 								item["add"] = true
 								stations.push(item)
 								next item["station"].to_s
-							end
 						else
 							puts "Error > invalid station item in a line : %s \nentry : %s" % [e["line"], item.to_s]
 							return
@@ -255,25 +261,6 @@ class DataParser
 		
 		removed_line_map = Hash.new()
 		
-		lines.delete_if  do |e|
-			
-			if e.key?("skip") && !!e["skip"]
-				if !e.key?("code")
-					puts "Error > node not found at skipped item : " + e.to_s
-					return
-				end
-				code = e["code"].to_i
-				##路線の指定済みコードの読み飛ばし
-				##このコードは新規に割り当てないように予約
-				if !@line_set.add?(code) then 
-					puts "Error > line code duplicated. %d" % code 
-					return
-				end
-				puts "Log > skip line : " + e.to_s
-				next true
-			end
-			next false
-		end
 		## 路線から評価する
 		lines.select do |e|
 			name = e["line"]
@@ -281,6 +268,16 @@ class DataParser
 				##codeを指定されたアイテムは既存エントリの編集
 				##一応名前でも確認とる（人間にも編集しやすい
 				code = e["code"].to_i
+				if e.key?("code_old")
+					##路線の指定済みコードの読み飛ばし
+					##このコードは新規に割り当てないように予約
+					old = e["code_old"].to_i
+					if !@line_set.add?(old) then 
+						puts "Error > line code duplicated %d at 'code_old' of %s" % [code,e.to_s] 
+						return
+					end
+					puts "Log > code:%d will be skipped. specified by %s" % [old,e.to_s]
+				end
 				if e.key?("add") && !!e["add"]
 					##路線の追加(コード指定済み)
 					if !@line_set.add?(code) then 
@@ -303,11 +300,6 @@ class DataParser
 				end
 				##エントリから消去
 				if e.key?("remove") && !!e["remove"]
-					if !e.key?("code")
-						puts "Error > node not found at removed item : " + e.to_s
-						return
-					end
-					code = e["code"].to_i
 					if (line = @line_map.delete(code)) && @line.delete(line)
 						puts "Log > remove line entry : " + line.to_json
 					else
@@ -386,34 +378,23 @@ class DataParser
 					return
 				end
 				code = e["code"].to_i
-				if !@station_set.add?(code) then 
-					puts "Error > station code duplicated %d" % code 
-					return 
-				end
-				puts "Log > skip station code:#{code} at #{name}"
+				
 				next true
 			end
 			
-				##エントリから消去
-			if e.key?("remove") && e["remove"]
-				if !e.key?("code") 
-					puts "Error > code not found at removed station : " + e.to_s
-					return
-				end
-				code = e["code"].to_i
-				if (s = @station_map.delete(code)) && @station.delete(s)
-					puts "Log > remove station entry ; " + s.to_json
-				else
-					puts "Error > fail to remove station entry code:#{code}"
-					return
-				end
-				removed_station_set.add(name)
-				next true
-			end
-			next false
+				
 		end
 		stations.select do |e|
 			name = e["station"]
+
+			if e.key?("code_old")
+				old = e["code_old"].to_i
+				if !@station_set.add?(old) then 
+					puts "Error > station code duplicated %d" % old 
+					return 
+				end
+				puts "Log > skip station code:#{old} at #{name}"
+			end
 			if e.key?("code")
 				##codeを指定されたアイテムは既存エントリの編集
 				##一応名前でも確認とる（人間にも編集しやすい
@@ -438,6 +419,18 @@ class DataParser
 				elsif s.name != name
 					puts "Error > target station name mismatched %s <> %s" % [name, s.name]
 					return
+				end
+				##エントリから消去
+				if e.key?("remove") && e["remove"]
+					if (s = @station_map.delete(code)) && @station.delete(s)
+						puts "Log > remove station entry ; " + s.to_json
+					else
+						puts "Error > fail to remove station entry code:#{code}"
+						return
+					end
+					removed_station_set.add(name)
+					removed_station_set.add(code)
+					next false
 				end
 				##名称の変更
 				if e.key?("rename")
@@ -512,8 +505,8 @@ class DataParser
 							return
 						end
 						puts "Log > add station item to line : " + line.to_json
-						e["add_station"].each do |name|
-							if add_station_item(line,name)
+						e["add_station"].each do |item|
+							if name = add_station_item(line,item)
 								print name + ", "
 							else return end
 						end
@@ -521,9 +514,9 @@ class DataParser
 					end
 					if e.key?("remove_station")
 						puts "Log > remove station item from line : " + line.to_json
-						e["remove_station"].each do |name|
-							removed = removed_station_set.include?(name)
-							if removed || add_station_item(line,name,true)
+						e["remove_station"].each do |item|
+							removed = removed_station_set.include?(item)
+							if removed || (name = add_station_item(line,item,true))
 								print name
 								print "(removed)" if removed
 								print ", "
@@ -559,16 +552,22 @@ class DataParser
 		end
 	end
 	
-	def add_station_item(line, station_name, remove=false)
-		if s = @station_name_map[station_name]
+	def add_station_item(line, station, remove=false)
+		s = nil
+		if station.kind_of?(String)
+			s = @station_name_map[station]
+		elsif station.kind_of?(Integer)
+			s = @station_map[station]
+		end
+		if s
 			if remove
-				return s.remove_line(line.code)
+				return (s.remove_line(line.code) ? s.name : nil)
 			else
-				return s.add_line(line)
+				return (s.add_line(line) ? s.name : nil)
 			end
 		end
-		puts "Error > add/remove station item requested, but station not found. name:" + station_name
-		return false
+		puts "Error > add/remove station item requested, but station not found. id:#{station}"
+		return nil
 	end
 	
 	def check(data_path="check_list.txt")
@@ -772,3 +771,5 @@ def split_block(stations)
 	return true
 end
 
+
+conf.return_format = "=> %.128s\n"
