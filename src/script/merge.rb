@@ -41,7 +41,7 @@ def read_data(path)
 end
 
 class LineItem
-	attr_accessor :cnt :data
+	attr_accessor :cnt, :data
 	def initialize(data)
 		@data = data
 	end
@@ -73,11 +73,8 @@ class StationItem
 		@data = data
 		
 	end
-	def to_json()
-		return "{\"code\":%d,\"station\":\"%s\",\"lon\":%f,\"lat\":%f,\"lines\":[%s]%s}" % [@code, @name, @lon, @lat, @lines.join(","), (@closed ? ",\"closed\":true" : "")]
-	end
 	def to_s()
-		return "station{code:%d, name:%s, lines:[%s]%s}" % [@code, @name, @lines.join(","), (@closed ? ", closed:true" : "")]
+		return JSON.dump(@data)
 	end
 	def rename(name)
 		if name == nil || name == @data['name']
@@ -121,7 +118,7 @@ class StationItem
 	end
 end
 
-class DataParser
+class Merge
 	def init(path_line="mid/line.json", path_station="mid/station.json")
 		@line = []
 		read_json(path_line).each do |e|
@@ -147,7 +144,7 @@ class DataParser
 	
 	def init_line(data)
 		cp = {}
-		['code','company_code','name','name_formal','lng','lat','zoom'].each do |key|
+		['code','company_code','name','name_formal'].each do |key|
 			if !data.key?(key)
 				puts "Error > imcompleted line data key:#{key} data:#{data.to_s}" 
 				return nil
@@ -209,7 +206,7 @@ class DataParser
 				return
 			end
 			if !@line_name_set.add?(e.data['name'])
-				puts "Warning > line name duplicated : " + e.name
+				puts "Warning > line name duplicated : " + e.data['name']
 			end
 			@line_map[e.data['code']] = e
 		end
@@ -246,7 +243,9 @@ class DataParser
 						elsif item.kind_of?(Hash) && item.key?("station")
 								## 新規駅の追加
 								item["add"] = true
+								item["name"] = item.delete("station")
 								stations.push(item)
+								## 新たに駅を追加するので"rename"はない・"name"は一意（重複のない駅メモ仕様での名称）と仮定
 								next item["name"].to_s
 						else
 							puts "Error > invalid station item in a line : %s \nentry : %s" % [e["line"], item.to_s]
@@ -263,7 +262,7 @@ class DataParser
 			end
 		end
 		
-		removed_line_map = Hash.new()
+		removed_line_set = Set.new()
 		
 		## 路線から評価する
 		lines.each do |e|
@@ -289,7 +288,7 @@ class DataParser
 					puts "Error > target line not found name:%s code:%d" % [name, code]
 					return
 				elsif line.data['name'] != name
-					puts "Error > target line name mismatched %s <> %s" % [name, line.name]
+					puts "Error > target line name mismatched %s <> %s" % [name, line.data['name']]
 					return
 				end
 				##エントリから消去
@@ -300,7 +299,8 @@ class DataParser
 						puts "Error > fail to remove line entry. code:#{code}"
 						return
 					end
-					removed_line_map[name] = line
+					removed_line_set.add(line.data['code'])
+					removed_line_set.add(line.data['name'])
 					next
 				end
 				##名称の変更
@@ -314,6 +314,14 @@ class DataParser
 						puts "Error > line new name has already existed : " + rename
 						return
 					end
+				end
+				if e.key?('recode')
+					val = e["recode"].to_i
+					if !@line_set.add?(val)
+						puts "Error > try to recode, but duplicated. " + e.to_s
+						return 
+					end
+					line.data['code'] = val.to_i
 				end
 				##廃線情報の更新
 				if e.key?("closed")
@@ -373,7 +381,7 @@ class DataParser
 				##エントリから消去
 				if e.key?("remove") && e["remove"]
 					if (s = @station_map.delete(code)) && @station.delete(s)
-						puts "Log > remove station entry ; " + s.to_json
+						puts "Log > remove station entry ; " + s.to_s
 					else
 						puts "Error > fail to remove station entry code:#{code}"
 						return
@@ -386,6 +394,14 @@ class DataParser
 				if e.key?("rename")
 					rename = e["rename"]
 					return if !s.rename(rename)
+				end
+				if e.key?("recode")
+					val = e['recode'].to_i
+					if !@station_set.add?(val)
+						puts "Error > try to recode, but value duplicated. " + e.to_s
+						return
+					end
+					s.data['code'] = val
 				end
 				#位置情報の更新
 				if e.key?("lng") && e.key?("lat")
@@ -419,11 +435,12 @@ class DataParser
 				end
 				line.uniq!
 				puts "relative %d lines are here : " % line.length
-				line.each{|code| puts "\t" + @line_map[code].to_json}
+				line.each{|code| puts "\t" + @line_map[code].to_s}
 				puts "you must add items in completion data to avoid name crash"
 				return
 			end
 			@station_name_map[name] = e
+			e.data["lines"].delete_if{|code| removed_line_set.include?(code)}
 		end
 		
 		#路線の駅情報を更新
@@ -431,13 +448,12 @@ class DataParser
 		lines.each do |e|
 			if e.key?("add_station") || e.key?("remove_station")
 				name = e.key?("rename") ? e["rename"] : e["name"]
-				line_removed = removed_line_map.key?(name)
-				if line = ( line_removed ? removed_line_map[name] : @line_name_map[name])
+				if  removed_line_set.include?(name) || removed_line_set.include?(e['code'])
+					puts "Error > removed line has invalid attr. #{e.to_s}"
+					return
+				end
+				if line = @line_name_map[name]
 					if e.key?("add_station") 
-						if line_removed
-							puts "Error > cannot add stations to removed line : " + line.to_json
-							return
-						end
 						puts "Log > add station item to line : " + line.to_s
 						e["add_station"].each do |item|
 							if name = add_station_item(line,item)
@@ -447,7 +463,7 @@ class DataParser
 						puts "size=%d" % e["add_station"].length
 					end
 					if e.key?("remove_station")
-						puts "Log > remove station item from line : " + line.to_json
+						puts "Log > remove station item from line : " + line.to_s
 						e["remove_station"].each do |item|
 							removed = removed_station_set.include?(item)
 							if removed || (name = add_station_item(line,item,true))
@@ -479,7 +495,7 @@ class DataParser
 		end
 		if s
 			if remove
-				return (s.remove_line(line['code']) ? s.data['name'] : nil)
+				return (s.remove_line(line.data['code']) ? s.data['name'] : nil)
 			else
 				return (s.add_line(line) ? s.data['name'] : nil)
 			end
@@ -530,12 +546,12 @@ class DataParser
 		@line.each{|e| e.cnt = 0}
 		@station.each do |s|
 			if s.data['lines'].length == 0
-				puts "Error > line not registered, station : " + s.to_json
+				puts "Error > line not registered, station : " + s.to_s
 				return 
 			end
 			s.data['lines'].each do |code| 
 				if line = @line_map[code] then line.cnt += 1 else
-					puts "Error > requested line with code not found. code:%d station:%s" % [code, s.to_json]
+					puts "Error > requested line with code not found. code:%d station:%s" % [code, s.to_s]
 					return
 				end
 			end
@@ -543,7 +559,7 @@ class DataParser
 		comparison.each do |e|
 			line = @line_name_map[e[0]]
 			if e[1] != line.cnt
-				puts "Error > station list size mismatch(expected:%d, actual:%d) on line : \n%s" % [e[1], line.cnt, line.to_json]
+				puts "Error > station list size mismatch(expected:%d, actual:%d) on line : \n%s" % [e[1], line.cnt, line.to_s]
 				return
 			end
 			line.data['size'] = line.cnt
