@@ -1,16 +1,16 @@
 {
 "code":32009,
 "name":"南海汐見橋線",
-"phonetic":"なんかいしおみばしせん",
+"name_kana":"なんかいしおみばしせん",
 "symbol":"NK",
 "color":"#009A41",
 "list_size":6,
 "station_list":[
-  {"code":3200901,"name":"汐見橋","station":"汐見橋","numbering":[{"index":"06-5"}]},
-  {"code":3200902,"name":"芦原町","station":"芦原町","numbering":[{"index":"06-4"}]},
-  {"code":3200903,"name":"木津川","station":"木津川","numbering":[{"index":"06-3"}]},
-  {"code":3200904,"name":"津守","station":"津守","numbering":[{"index":"06-2"}]},
-  {"code":3200905,"name":"西天下茶屋","station":"西天下茶屋","numbering":[{"index":"06-1"}]},
-  {"code":3200104,"name":"岸里玉出","station":"岸里玉出","numbering":[{"index":"06"}]}
+  {"code":3200901,"name":"汐見橋","numbering":[{"index":"06-5"}]},
+  {"code":3200902,"name":"芦原町","numbering":[{"index":"06-4"}]},
+  {"code":3200903,"name":"木津川","numbering":[{"index":"06-3"}]},
+  {"code":3200904,"name":"津守","numbering":[{"index":"06-2"}]},
+  {"code":3200905,"name":"西天下茶屋","numbering":[{"index":"06-1"}]},
+  {"code":3200104,"name":"岸里玉出","numbering":[{"index":"06"}]}
 ]
 }

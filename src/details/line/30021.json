@@ -1,12 +1,12 @@
 {
 "code":30021,
 "name":"名鉄羽島線",
-"phonetic":"めいてつはしません",
+"name_kana":"めいてつはしません",
 "symbol":"TH",
 "color":"#DAA520",
 "list_size":2,
 "station_list":[
-  {"code":3002009,"name":"江吉良","station":"江吉良","numbering":[{"index":"08"}]},
-  {"code":3002102,"name":"新羽島","station":"新羽島","numbering":[{"index":"09"}]}
+  {"code":3002009,"name":"江吉良","numbering":[{"index":"08"}]},
+  {"code":3002102,"name":"新羽島","numbering":[{"index":"09"}]}
 ]
 }

@@ -1,21 +1,21 @@
 {
 "code":23006,
 "name":"京成成田空港線(成田スカイアクセス)",
-"phonetic":"けいせいなりたくうこうせん(なりたすかいあくせす)",
+"name_kana":"けいせいなりたくうこうせん(なりたすかいあくせす)",
 "symbol":"KS",
 "color":"#FF8620",
 "list_size":11,
 "station_list":[
-  {"code":2300101,"name":"京成上野","station":"京成上野","numbering":[{"index":"01"}]},
-  {"code":1130218,"name":"日暮里","station":"日暮里","numbering":[{"index":"02"}]},
-  {"code":2300109,"name":"青砥","station":"青砥","numbering":[{"index":"09"}]},
-  {"code":2300110,"name":"京成高砂","station":"京成高砂","numbering":[{"index":"10"}]},
-  {"code":1130521,"name":"東松戸","station":"東松戸","numbering":[{"symbol":"HS","index":"05"}]},
-  {"code":2100430,"name":"新鎌ヶ谷","station":"新鎌ヶ谷","numbering":[{"symbol":"HS","index":"08"}]},
-  {"code":9934013,"name":"千葉ニュータウン中央","station":"千葉ニュータウン中央","numbering":[{"symbol":"HS","index":"12"}]},
-  {"code":9934015,"name":"印旛日本医大","station":"印旛日本医大","numbering":[{"symbol":"HS","index":"14"}]},
-  {"code":2300609,"name":"成田湯川","station":"成田湯川","numbering":[{"index":"43"}]},
-  {"code":1132813,"name":"空港第２ビル（成田第２・第３ターミナル）","station":"空港第２ビル（成田第２・第３ターミナル）","numbering":[{"index":"41"}]},
-  {"code":1132705,"name":"成田空港（成田第１ターミナル）","station":"成田空港（成田第１ターミナル）","numbering":[{"index":"42"}]}
+  {"code":2300101,"name":"京成上野","numbering":[{"index":"01"}]},
+  {"code":1130218,"name":"日暮里","numbering":[{"index":"02"}]},
+  {"code":2300109,"name":"青砥","numbering":[{"index":"09"}]},
+  {"code":2300110,"name":"京成高砂","numbering":[{"index":"10"}]},
+  {"code":1130521,"name":"東松戸","numbering":[{"symbol":"HS","index":"05"}]},
+  {"code":2100430,"name":"新鎌ヶ谷","numbering":[{"symbol":"HS","index":"08"}]},
+  {"code":9934013,"name":"千葉ニュータウン中央","numbering":[{"symbol":"HS","index":"12"}]},
+  {"code":9934015,"name":"印旛日本医大","numbering":[{"symbol":"HS","index":"14"}]},
+  {"code":2300609,"name":"成田湯川","numbering":[{"index":"43"}]},
+  {"code":1132813,"name":"空港第２ビル（成田第２・第３ターミナル）","numbering":[{"index":"41"}]},
+  {"code":1132705,"name":"成田空港（成田第１ターミナル）","numbering":[{"index":"42"}]}
 ]
 }

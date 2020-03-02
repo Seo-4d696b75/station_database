@@ -23,7 +23,7 @@ def get_all(src,des)
         puts "Error > code : " + res.code
         next
       end
-      name = des + m[1] + ".txt"
+      name = des + m[1] + ".html"
       f = File.open(name,"w")
       f.puts(res.body)
 			f.close
@@ -33,4 +33,4 @@ def get_all(src,des)
   end
 end
 
-get_all("./details/url_list.txt","./details/raw2/")
+get_all("./details/url_list.txt","./details/html/")

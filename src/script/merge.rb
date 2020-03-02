@@ -5,6 +5,34 @@ require 'json'
 require 'set'
 
 
+##=====注意============================
+##
+##  駅の同一判定の基準に関して以下の違いがある
+##  (A) ekidata.jp　の定義
+##      同一改札内の駅である、または異なる改札でも乗り換え可能(改札間が約200m以内)なら同一扱い(同じ駅グループＩＤ)
+##      http://www.ekidata.jp/doc/station_g.php
+##  (B) 駅メモ！　の定義(推定)
+##      原則として異なる駅名場合は異なる駅として扱う(京王永山・小田急永山、永田町・赤坂見附など)
+##      両者とも、”同一駅名でも極端に距離が離れている乗り換え不能の場合は異なる駅扱い(早稲田前など)”は同じ
+##
+##      (A)基準を(B)に合わせるため、以下の判定基準を用いている
+##
+##  (1) 異なる駅グループcodeを持つ駅は別扱い
+##  (2) 同じ駅グループcodeを持つ場合でも異なる駅名の場合は別扱い
+##  ただし、基準(1)が(2)より優先される
+##  
+##  ekidata.jp では同一駅（乗り換え可能駅）でも登録されている路線ごとに駅コードが割り振られている
+##  1駅に対し駅コードひとつを次に従って決める
+##  (3) 新幹線駅である場合はその新幹線に登録されているコードを採用
+##	(4) 駅グループコードと同じ駅コード・駅名をもつ駅があるならばグループコードを採用
+##      存在しないならば同じ駅名をもつ駅（駅メモでの同一駅）のcodeのうち最も小さい値で代表させる
+##  (5) 路線や駅の登録の違いにより一部例外もある
+##
+##  もっともこれでも駅総数は合わない廃駅を考慮しても合わない…orz
+##  データファイルのエンコーディングはUTF-8を前提としているので注意
+##======================================
+
+
 def read(path)
 	str = ""
 	File.open(path, "r:utf-8") do |file|
@@ -144,7 +172,7 @@ class Merge
 	
 	def init_line(data)
 		cp = {}
-		['code','company_code','name','name_formal'].each do |key|
+		['code','name'].each do |key|
 			if !data.key?(key)
 				puts "Error > imcompleted line data key:#{key} data:#{data.to_s}" 
 				return nil
@@ -152,12 +180,14 @@ class Merge
 			cp[key] = data[key]
 		end
 		if !!data['closed'] then cp['closed'] = true end
+		if data.key?('company_code') then cp['company_code'] = data['company_code'] end
+		cp['name_formal'] = ( data.key?('name_formal') ? data['name_formal'] : data['name'])
 		return LineItem.new(cp)
 	end
 
 	def init_station(data)
 		cp = {}
-		['code','prefecture','name','post_number','address','lat','lng'].each do |key|
+		['code','name','lat','lng'].each do |key|
 			if !data.key?(key)
 				puts "Error > imcompleted station data key:#{key} data:#{data.to_s}" 
 				return nil
@@ -166,6 +196,9 @@ class Merge
 		end
 		if !!data['closed'] then cp['closed'] = true end
 		cp['lines'] = (data.key?('lines') ? data['lines'] : [])
+		if post = data['postal_code'] then cp['postal_code'] = post end
+		if adr = data['address'] then cp['address'] = adr end
+		if prf = data['prefecture'] then cp['prefecture'] = prf end
 		return StationItem.new (cp)
 	end
 	
@@ -341,7 +374,7 @@ class Merge
 		@line.each do |item|
 			name = item.data['name']
 			if @line_name_map.key?(name)
-				puts "Error > line name dupulicated : " + item.name
+				puts "Error > line name dupulicated : " + name
 				return
 			end
 			@line_name_map[name] = item
@@ -375,7 +408,7 @@ class Merge
 					puts "Error > target station not found name:%s code:%d" % [name, code]
 					return
 				elsif s.data['name'] != name
-					puts "Error > target station name mismatched %s <> %s" % [name, s.name]
+					puts "Error > target station name mismatched %s <> %s" % [name, s.data['name']]
 					return
 				end
 				##エントリから消去
@@ -421,6 +454,7 @@ class Merge
 		
 		##駅名の重複を確認（駅メモ仕様に合わせる）
 		@station_name_map = Hash.new()
+		duplicated_set = Set.new()
 		@station.each do |e|
 			name = e.data['name']
 			if @station_name_map.key?(name)
@@ -437,6 +471,12 @@ class Merge
 				puts "relative %d lines are here : " % line.length
 				line.each{|code| puts "\t" + @line_map[code].to_s}
 				puts "you must add items in completion data to avoid name crash"
+				return
+			end
+			if m = name.match(/(.+?)\(.+\)/)
+				duplicated_set.add(m[1])
+			elsif duplicated_set.include?(name)
+				puts "Error > name my duplicated : #{name}(***)"
 				return
 			end
 			@station_name_map[name] = e
@@ -465,12 +505,12 @@ class Merge
 					if e.key?("remove_station")
 						puts "Log > remove station item from line : " + line.to_s
 						e["remove_station"].each do |item|
-							removed = removed_station_set.include?(item)
-							if removed || (name = add_station_item(line,item,true))
-								print name
-								print "(removed)" if removed
-								print ", "
-							else return end
+							if (name = add_station_item(line,item,true)) || removed_station_set.include?(item)
+								print "#{name}(removed) "
+							else
+								puts "Error > remove station item requested, but station not found. #{item}" 
+								return 
+							end
 						end
 						puts "size=%d" % e["remove_station"].length
 					end
@@ -500,11 +540,10 @@ class Merge
 				return (s.add_line(line) ? s.data['name'] : nil)
 			end
 		end
-		puts "Error > add/remove station item requested, but station not found. id:#{station}"
 		return nil
 	end
 	
-	def check(data_path="check_list.txt")
+	def check(data_path="check/line.csv")
 		
 		if !@merge
 			puts "Error > merge with completion data in ahead"
@@ -516,7 +555,7 @@ class Merge
 		comparison = []
 		File.open(data_path, "r:utf-8") do |file|
 			file.each_line do |line|
-				if matcher = line.match(/^(.+?)\s*([0-9]+)$/)
+				if matcher = line.match(/^(.+?),([0-9]+)$/)
 					comparison.push([matcher[1],matcher[2].to_i])
 				else
 					puts "Error > can not resolve line : " + line
@@ -560,6 +599,11 @@ class Merge
 			line = @line_name_map[e[0]]
 			if e[1] != line.cnt
 				puts "Error > station list size mismatch(expected:%d, actual:%d) on line : \n%s" % [e[1], line.cnt, line.to_s]
+				@station.each do |s|
+					if s.data['lines'].include?(line.data['code'])
+						puts s.to_s
+					end
+				end
 				return
 			end
 			line.data['size'] = line.cnt

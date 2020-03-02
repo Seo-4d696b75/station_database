@@ -2,7 +2,7 @@
 "summary":{
   "brief":"このデータは駅データ.jpから入手可能な日本全国の駅データと駅メモ！で実装された駅データの差分を解決します",
   "author":"Seo-4d696b75 @ekimemo4d696b75",
-  "version":"20191031",
+  "version":"20200228",
   "data_structure":"データ要素は駅または路線単位で記述される。'data'タグで指定される配列に要素が羅列される。'data'属性を有するオブジェクトはグルーピングされた要素を'data'以下にネストさせる",
   "data_description":"まず'code'と名称'line'または'station'タグの値で編集する要素を指定し、その要素の各属性を以降で説明するタグを用いて編集する",
   "tag_description":[
@@ -11,7 +11,7 @@
     {"tag":"station","description":"駅の名称を表す文字列、'line'タグとともに両方有する要素は許可しない"},
     {"tag":"line","description":"路線の名称を表す文字列、'station'タグとともに両方を有する要素は許可しない"},
     {"tag":"rename","description":"駅または路線の要素の名称を指定した文字列に変更する"},
-    {"tag":"lon","description":"駅を表す要素に対しのみ有効。駅の所在地の経度を十進小数点以下6位までの値で指定し上書きする"},
+    {"tag":"lng","description":"駅を表す要素に対しのみ有効。駅の所在地の経度を十進小数点以下6位までの値で指定し上書きする"},
     {"tag":"lat","description":"駅を表す要素に対しのみ有効。駅の所在地の緯度を十進小数点以下6位までの値で指定し上書きする"},
     {"tag":"closed","description":"駅または路線が廃止された状態であることを真偽値で指定し上書きする"},
     {"tag":"remove","description":"指定された真偽値が'true'ならば駅または路線を表す要素を削除する"},
@@ -24,68 +24,6 @@
   ]
 },
 "data":[
-
-{
-  "comment":"ケとヶの表記が揺れいている駅データ.jpとは違うらしい",
-  "data":[
-    {"code":1131102,"station":"四ツ谷","rename":"四ツ谷(四ッ谷)"},
-    {"code":1180810,"station":"西ケ方","rename":"西ヶ方"},
-    {"code":1120428,"station":"北金ケ沢","rename":"北金ヶ沢"},
-    {"code":1120431,"station":"鰺ケ沢","rename":"鰺ヶ沢"},
-    {"code":1122203,"station":"榴ケ岡","rename":"榴ヶ岡"},
-    {"code":1131706,"station":"箱根ケ崎","rename":"箱根ヶ崎"},
-    {"code":1132507,"station":"姉ケ崎","rename":"姉ヶ崎"},
-    {"code":1132509,"station":"袖ケ浦","rename":"袖ヶ浦"},
-    {"code":1110111,"station":"駒ケ岳","rename":"駒ヶ岳"},
-    {"code":1163209,"station":"青野ケ原","rename":"青野ヶ原"},
-    {"code":1192904,"station":"万ケ塚","rename":"万ヶ塚"},
-    {"code":1170507,"station":"弓ケ浜","rename":"弓ヶ浜"},
-    {"code":1120253,"station":"碇ケ関","rename":"碇ヶ関"},
-    {"code":1120263,"station":"鶴ケ坂","rename":"鶴ヶ坂"},
-    {"code":1111408,"station":"千代ケ岡","rename":"千代ヶ岡"},
-    {"code":1170210,"station":"越ケ浜","rename":"越ヶ浜"},
-    {"code":1170232,"station":"梅ケ峠","rename":"梅ヶ峠"},
-    {"code":1161215,"station":"櫛ケ浜","rename":"櫛ヶ浜"},
-    {"code":1123021,"station":"駒ケ嶺","rename":"駒ヶ嶺"},
-    {"code":1193016,"station":"宮ケ浜","rename":"宮ヶ浜"},
-    {"code":1193032,"station":"松ケ浦","rename":"松ヶ浦"},
-    {"code":1190727,"station":"蓮ケ池","rename":"蓮ヶ池"},
-    {"code":1190754,"station":"竜ケ水","rename":"竜ヶ水"},
-    {"code":1190627,"station":"柳ケ浦","rename":"柳ヶ浦"},
-    {"code":1111218,"station":"月ケ岡","rename":"月ヶ岡"},
-    {"code":1111221,"station":"豊ケ岡","rename":"豊ヶ岡"},
-    {"code":1150311,"station":"醒ケ井","rename":"醒ヶ井"},
-    {"code":1150308,"station":"関ケ原","rename":"関ヶ原"},
-    {"code":1150217,"station":"三ケ根","rename":"三ヶ根"},
-    {"code":1122503,"station":"安子ケ島","rename":"安子ヶ島"},
-    {"code":1172204,"station":"四郎ケ原","rename":"四郎ヶ原"},
-    {"code":1121402,"station":"京ケ瀬","rename":"京ヶ瀬"},
-    {"code":1121423,"station":"鼠ケ関","rename":"鼠ヶ関"},
-    {"code":1142114,"station":"牛ケ原","rename":"牛ヶ原"},
-    {"code":1142120,"station":"柿ケ島","rename":"柿ヶ島"},
-    {"code":1190504,"station":"吉野ケ里公園","rename":"吉野ヶ里公園"},
-    {"code":1140706,"station":"立ケ花","rename":"立ヶ花"},
-    {"code":1140733,"station":"内ケ巻","rename":"内ヶ巻"},
-    {"code":1141605,"station":"各務ケ原","rename":"各務ヶ原"}
-  ]
-},
-
-{
-  "comment":"なんか表記が違う",
-  "data":[
-    {"code":9941319,"station":"富山トヨペット本社前","rename":"富山トヨペット本社前（五福末広町）"},
-    {"code":9941321,"station":"中町（西町北）","rename":"中町"},
-    {"code":9980222,"station":"綾川（イオンモール綾川）","rename":"綾川"},
-    {"code":9980805,"station":"松山駅前","rename":"JR松山駅前"},
-    {"code":9980808,"station":"萱町六丁目","rename":"萱町６丁目"},
-    {"code":9980809,"station":"本町六丁目","rename":"本町６丁目"},
-    {"code":9981202,"station":"本町五丁目","rename":"本町５丁目"},
-    {"code":9981203,"station":"本町四丁目","rename":"本町４丁目"},
-    {"code":9981204,"station":"本町三丁目","rename":"本町３丁目"},
-    {"code":9981205,"station":"本町一丁目","rename":"本町１丁目"},
-    {"code":9980815,"station":"平和通一丁目","rename":"平和通１丁目"}
-  ]
-},
 
 {
   "comment":"路線名称の変更",
@@ -148,7 +86,6 @@
     {"code":99511,"line":"愛知環状鉄道線","rename":"愛知環状鉄道"},
     {"code":99910,"line":"西九州線(有田～伊万里)","rename":"松浦鉄道西九州線(有田～伊万里)"},
     {"code":99312,"line":"わたらせ渓谷線","rename":"わたらせ渓谷鐵道"},
-    {"code":31013,"line":"内部線","rename":"近鉄内部線","add_station":["近鉄四日市（あすなろう四日市）"],"remove_station":["あすなろう四日市"]},
     {"code":99530,"line":"伊勢鉄道伊勢線","rename":"伊勢鉄道"},
     {"code":99632,"line":"有馬線","rename":"神鉄有馬線"},
     {"code":99321,"line":"ニューシャトル","rename":"埼玉新都市交通伊奈線"},
@@ -252,413 +189,130 @@
     {"code":99339,"line":"箱根登山鉄道鉄道線","rename":"箱根登山鉄道"},
     {"code":99317,"line":"金沢シーサイドライン","rename":"横浜新都市交通金沢シーサイドライン"},
     {"code":99503,"line":"岳南鉄道線","rename":"岳南鉄道"},
-    {"code":99526,"line":"樽見鉄道樽見線","rename":"樽見鉄道"}
+    {"code":99526,"line":"樽見鉄道樽見線","rename":"樽見鉄道"},
+    {"code":11108,"line":"花咲線","rename":"JR根室本線(花咲線)(釧路～根室)"},
+    {"code":99642,"line":"三木鉄道三木線","rename":"三木線"}
   ]
 },
 
 
 {
-  "comment":"廃路線の追加 データはWiki参照 2018/04/14 following data(station name and its line) has been last modified on 2018-04-08 23:43:37. location data(latitude and longitude in decimal fraction) is retrieved from GoogleMapAPI",
-  "url":"https://ekimemo.wiki.fc2.com/wiki/%E5%BB%83%E9%A7%85%E6%83%85%E5%A0%B1",
+  "comment":"ケとヶの表記が揺れいている駅データ.jpとは違うらしい",
   "data":[
-    {"code":11106,"line":"JR根室本線(滝川～新得)","add_station":[
-      {"code":5000000,"station":"島ノ下","closed":true,"lon":142.350407,"lat":43.374403}
-    ]},
-    {"code":11107,"line":"JR根室本線(新得～釧路)","add_station":[
-      {"code":5000001,"station":"羽帯","closed":true,"lon":142.906647,"lat":42.957501},
-      {"code":5000002,"station":"稲士別","closed":true,"lon":143.297528,"lat":42.903967},
-      {"code":5000003,"station":"上厚内","closed":true,"lon":143.749785,"lat":42.831885}
-    ]},
+    {"code":1131102,"station":"四ツ谷","rename":"四ツ谷(四ッ谷)"},
+    {"code":1180810,"station":"西ケ方","rename":"西ヶ方"},
+    {"code":1120428,"station":"北金ケ沢","rename":"北金ヶ沢"},
+    {"code":1120431,"station":"鰺ケ沢","rename":"鰺ヶ沢"},
+    {"code":1122203,"station":"榴ケ岡","rename":"榴ヶ岡"},
+    {"code":1131706,"station":"箱根ケ崎","rename":"箱根ヶ崎"},
+    {"code":1132507,"station":"姉ケ崎","rename":"姉ヶ崎"},
+    {"code":1132509,"station":"袖ケ浦","rename":"袖ヶ浦"},
+    {"code":1110111,"station":"駒ケ岳","rename":"駒ヶ岳"},
+    {"code":1163209,"station":"青野ケ原","rename":"青野ヶ原"},
+    {"code":1192904,"station":"万ケ塚","rename":"万ヶ塚"},
+    {"code":1170507,"station":"弓ケ浜","rename":"弓ヶ浜"},
+    {"code":1120253,"station":"碇ケ関","rename":"碇ヶ関"},
+    {"code":1120263,"station":"鶴ケ坂","rename":"鶴ヶ坂"},
+    {"code":1111408,"station":"千代ケ岡","rename":"千代ヶ岡"},
+    {"code":1170210,"station":"越ケ浜","rename":"越ヶ浜"},
+    {"code":1170232,"station":"梅ケ峠","rename":"梅ヶ峠"},
+    {"code":1161215,"station":"櫛ケ浜","rename":"櫛ヶ浜"},
+    {"code":1123021,"station":"駒ケ嶺","rename":"駒ヶ嶺"},
+    {"code":1193016,"station":"宮ケ浜","rename":"宮ヶ浜"},
+    {"code":1193032,"station":"松ケ浦","rename":"松ヶ浦"},
+    {"code":1190727,"station":"蓮ケ池","rename":"蓮ヶ池"},
+    {"code":1190754,"station":"竜ケ水","rename":"竜ヶ水"},
+    {"code":1190627,"station":"柳ケ浦","rename":"柳ヶ浦"},
+    {"code":1111218,"station":"月ケ岡","rename":"月ヶ岡"},
+    {"code":1111221,"station":"豊ケ岡","rename":"豊ヶ岡"},
+    {"code":1150311,"station":"醒ケ井","rename":"醒ヶ井"},
+    {"code":1150308,"station":"関ケ原","rename":"関ヶ原"},
+    {"code":1150217,"station":"三ケ根","rename":"三ヶ根"},
+    {"code":1122503,"station":"安子ケ島","rename":"安子ヶ島"},
+    {"code":1172204,"station":"四郎ケ原","rename":"四郎ヶ原"},
+    {"code":1121402,"station":"京ケ瀬","rename":"京ヶ瀬"},
+    {"code":1121423,"station":"鼠ケ関","rename":"鼠ヶ関"},
+    {"code":1142114,"station":"牛ケ原","rename":"牛ヶ原"},
+    {"code":1142120,"station":"柿ケ島","rename":"柿ヶ島"},
+    {"code":1190504,"station":"吉野ケ里公園","rename":"吉野ヶ里公園"},
+    {"code":1140706,"station":"立ケ花","rename":"立ヶ花"},
+    {"code":1140733,"station":"内ケ巻","rename":"内ヶ巻"},
+    {"code":1141605,"station":"各務ケ原","rename":"各務ヶ原"},
+    
+    {"code":1131315,"station":"市ケ谷","rename":"市ケ谷(市ヶ谷)","lng":139.735238,"lat":35.691107},
+    {"code":9930404,"station":"市ヶ谷","remove":true},
+    {"code":99304,"line":"都営新宿線","remove_station":["市ヶ谷"],"add_station":["市ケ谷(市ヶ谷)"]},
 
-    {"code":11108,"line":"花咲線","rename":"JR根室本線(花咲線)(釧路～根室)","add_station":[
-      {"code":5000004,"station":"花咲","closed":true,"lon":145.575046,"lat":43.295390}
-    ]},
-    {"code":11116,"line":"JR石北本線","add_station":[
-      {"code":5000005,"station":"金華","closed":true,"lon":143.571139,"lat":43.803486},
-      {"code":5000006,"station":"下白滝","closed":true,"lon":143.276092,"lat":43.944557},	
-      {"code":5000007,"station":"旧白滝","closed":true,"lon":143.236731,"lat":43.919907},
-      {"code":5000008,"station":"上白滝","closed":true,"lon":143.144401,"lat":43.876503}
-    ]},
-    {"code":11117,"line":"JR釧網本線","add_station":[
-      {"code":5000009,"station":"五十石","closed":true,"lon":144.545546,"lat":43.238746}
-    ]},
-    {"code":11113,"line":"JR留萌本線","add_station":[
-    	{"code":5000010,"station":"瀬越","closed":true,"lon":141.634536,"lat":43.934989},
-      {"code":5000011,"station":"礼受","closed":true,"lon":141.611351,"lat":43.904754},
-      {"code":5000012,"station":"阿分","closed":true,"lon":141.605597,"lat":43.894343},
-      {"code":5000013,"station":"信砂","closed":true,"lon":141.589040,"lat":43.874481},
-      {"code":5000014,"station":"舎熊","closed":true,"lon":141.580066,"lat":43.869116},
-      {"code":5000015,"station":"朱文別","closed":true,"lon":141.564329,"lat":43.860682},
-      {"code":5000016,"station":"箸別","closed":true,"lon":141.551638,"lat":43.859128},
-      {"code":5000017,"station":"増毛","closed":true,"lon":141.527560,"lat":43.856527}
-    ]},
-    {"code":11109,"line":"JR千歳線","add_station":[
-      {"code":5000018,"station":"美々","closed":true,"lon":141.711390,"lat":42.777422}
-    ]},
-    {"code":11110,"line":"JR石勝線","date":20190426, "comment":"夕張支線の廃線化","add_station":[
-    	{"code":1111008,"station":"沼ノ沢","closed":true,"lon":142.030836,"lat":42.957586},
-    	{"code":1111009,"station":"南清水沢","closed":true,"lon":142.006597,"lat":42.985272},
-    	{"code":1111010,"station":"清水沢","closed":true,"lon":142.007285,"lat":42.998270},
-    	{"code":1111011,"station":"鹿ノ谷","closed":true,"lon":141.964476,"lat":43.039447},
-    	{"code":1111012,"station":"夕張","closed":true,"lon":141.967472,"lat":43.050926},
-    	{"code":5000019,"station":"東追分","closed":true,"lon":141.832366,"lat":42.902440},
-      {"code":5000020,"station":"十三里","closed":true,"lon":142.024476,"lat":42.914668}
-    ]},
-    {"code":11101,"line":"JR函館本線(函館～長万部)","add_station":[
-      {"code":5000021,"station":"鷲ノ巣","closed":true,"lon":140.269918,"lat":42.278392},
-      {"code":5000022,"station":"東山(北海道)","closed":true,"lon":140.605228,"lat":42.061722},
-      {"code":5000023,"station":"姫川(北海道)","closed":true,"lon":140.591635,"lat":42.081317},
-      {"code":5000024,"station":"桂川(北海道)","closed":true,"lon":140.542810,"lat":42.115592},
-      {"code":5000025,"station":"北豊津","closed":true,"lon":140.297866,"lat":42.400974}
-    ]},
-    {"code":11102,"line":"JR函館本線(長万部～小樽)","add_station":[
-      {"code":5000026,"station":"蕨岱","closed":true,"lon":140.313355,"lat":42.626342}
-    ]},
-    {"code":50000,"line":"JR江差線","add":true,"closed":true,"add_station":[
-      {"code":5000027,"station":"江差","closed":true,"lon":140.127931,"lat":41.856727},
-      {"code":5000028,"station":"上ノ国","closed":true,"lon":140.124110,"lat":41.805568},
-      {"code":5000029,"station":"中須田","closed":true,"lon":140.149324,"lat":41.787219},
-      {"code":5000030,"station":"桂岡","closed":true,"lon":140.166073,"lat":41.773099},
-      {"code":5000031,"station":"宮越","closed":true,"lon":140.184997,"lat":41.762408},
-      {"code":5000032,"station":"湯ノ岱","closed":true,"lon":140.243696,"lat":41.750315},
-      {"code":5000033,"station":"神明(北海道)","closed":true,"lon":140.265709,"lat":41.734450},
-      {"code":5000034,"station":"吉堀","closed":true,"lon":140.379230,"lat":41.684062},
-      {"code":5000035,"station":"渡島鶴岡","closed":true,"lon":140.411369,"lat":41.671037},
-      "木古内","札苅","泉沢","釜谷","渡島当別","茂辺地","上磯","清川口","久根別","東久根別","七重浜","五稜郭","函館"
-    ]},
-    {"code":11118,"line":"JR海峡線","closed":true,"comment":"奥津軽いまべつ駅傍に位置する津軽今別駅（廃駅：ＪＲ海峡線）は同一扱いで後者は未実装","add_station":[
-    	"奥津軽いまべつ",
-    	{"code":5000036,"station":"知内","closed":true,"lon":140.334947,"lat":41.601097},
-    	{"code":5000037,"station":"竜飛海底","closed":true,"lon":140.347949,"lat":41.257229}
-    ]},
-    {"code":1111802,"station":"津軽今別","remove":true},
-    {"code":5000038,"add":true,"station":"奥津軽いまべつ","lon":140.515630,"lat":41.144877},
-    {"code":50001,"line":"十和田観光電鉄","add": true,"closed":true,"add_station":[
-    	"三沢(青森)",
-    	{"code":5000039,"station":"大曲(青森)","closed":true,"lon":141.342861,"lat":40.648216},
-    	{"code":5000040,"station":"柳沢","closed":true,"lon":141.320890,"lat":40.642978},
-    	{"code":5000041,"station":"七百","closed":true,"lon":141.305851,"lat":40.643637},
-    	{"code":5000042,"station":"古里(青森)","closed":true,"lon":141.284859,"lat":40.638765},
-    	{"code":5000043,"station":"三農校前","closed":true,"lon":141.267245,"lat":40.636863},
-    	{"code":5000044,"station":"高清水","closed":true,"lon":141.259048,"lat":40.635005},
-    	{"code":5000045,"station":"北里大学前","closed":true,"lon":141.236837,"lat":40.628672},
-    	{"code":5000046,"station":"工業高校前","closed":true,"lon":141.229259,"lat":40.627342},
-    	{"code":5000047,"station":"ひがし野団地","closed":true,"lon":141.223716,"lat":40.626627},
-    	{"code":5000048,"station":"十和田市","closed":true,"lon":141.214060,"lat":40.623750}
-    ]},
-    {"code":50002,"line":"南部縦貫鉄道線","add": true,"closed":true,"add_station":[
-    	"野辺地",
-      {"code":5000049,"station":"西千曳","closed":true,"lon":141.131398,"lat":40.810193},
-    	{"code":5000050,"station":"後平","closed":true,"lon":141.150543,"lat":40.791154},
-    	{"code":5000051,"station":"坪","closed":true,"lon":141.146820,"lat":40.777350},
-    	{"code":5000052,"station":"坪川","closed":true,"lon":141.147994,"lat":40.768221},
-    	{"code":5000053,"station":"道ノ上","closed":true,"lon":141.152704,"lat":40.751259},
-    	{"code":5000054,"station":"天間林","closed":true,"lon":141.157135,"lat":40.743482},
-    	{"code":5000055,"station":"中野(青森)","closed":true,"lon":141.163632,"lat":40.735203},
-    	{"code":5000056,"station":"営農大学校前","closed":true,"lon":141.159019,"lat":40.721156},
-    	{"code":5000057,"station":"盛田牧場前","closed":true,"lon":141.168565,"lat":40.713090},
-    	{"code":5000058,"station":"七戸","closed":true,"lon":141.165168,"lat":40.696639}
-    ]},
-    {"code":50003,"line":"JR岩泉線","add": true,"closed":true,"add_station":[
-    	"茂市",
-    	{"code":5000059,"station":"岩手刈屋","closed":true,"lon":141.759301,"lat":39.642691},
-    	{"code":5000060,"station":"中里(岩手)","closed":true,"lon":141.736070,"lat":39.661839},
-    	{"code":5000061,"station":"岩手和井内","closed":true,"lon":141.715704,"lat":39.679909},
-    	{"code":5000062,"station":"押角","closed":true,"lon":141.693181,"lat":39.724032},
-    	{"code":5000063,"station":"岩手大川","closed":true,"lon":141.671913,"lat":39.800213},
-    	{"code":5000064,"station":"浅内","closed":true,"lon":141.727014,"lat":39.819482},
-    	{"code":5000065,"station":"二升石","closed":true,"lon":141.745742,"lat":39.836744},
-    	{"code":5000066,"station":"岩泉","closed":true,"lon":141.786446,"lat":39.845046}
-    ]},
-    {"code":11213,"line":"JR山田線","add_station":[
-    	{"code":5000067,"station":"大志田","closed":true,"lon":141.280845,"lat":39.741808},
-    	{"code":5000068,"station":"浅岸","closed":true,"lon":141.339147,"lat":39.711214}
-    ]},
-
-    {"code":11227,"line":"JR只見線","add_station":[
-    	{"code":5000081,"station":"田子倉","closed":true,"lon":139.255139,"lat":37.317874},
-    	{"code":5000082,"station":"柿ノ木","closed":true,"lon":139.089331,"lat":37.341198}
-    ]},
-    {"code":50004,"line":"横荘線","add": true,"closed":true,"add_station":[
-    	{"code":5000083,"station":"羽後大森","closed":true,"lon":140.422199,"lat":39.338726},
-    	{"code":5000084,"station":"羽後里見","closed":true,"lon":140.449695,"lat":39.280615}
-    ]},
-    {"code":50005,"line":"雄勝線","add": true,"closed":true,"add_station":[
-    	{"code":5000085,"station":"羽後山田","closed":true,"lon":140.465031,"lat":39.164725},
-    	{"code":5000086,"station":"羽後三輪","closed":true,"lon":140.438087,"lat":39.193722}
-    ]},
-    {"code":50006,"line":"鹿島臨海鉄道鹿島臨港線","add": true,"closed":true,"add_station":[
-    	{"code":5000087,"station":"居切","closed":true,"lon":140.650561,"lat":35.929979},
-    	{"code":5000088,"station":"鹿島港南","closed":true,"lon":140.691106,"lat":35.878613}
-    ]},
-    {"code":50007,"line":"京王御陵線","add": true,"closed":true,"add_station":[
-    	{"code":5000089,"station":"武蔵横山","closed":true,"lon":139.301475,"lat":35.652032},
-    	{"code":5000090,"station":"多摩御陵前","closed":true,"lon":139.289861,"lat":35.650114}
-    ]},
-    {"code":21002,"line":"東武伊勢崎線","add_station":[
-    	{"code":5000091,"station":"中千住","closed":true,"lon":139.804997,"lat":35.745976}
-    ]},
-    {"code":22001,"line":"西武池袋線","add_station":[
-    	{"code":5000092,"station":"上り屋敷","closed":true,"lon":139.704778,"lat":35.725281}
-    ]},
-    {"code":22011,"line":"西武多摩湖線","add_station":[
-    	{"code":5000093,"station":"東国分寺","closed":true,"lon":139.478056,"lat":35.707616}
-    ]},
-    {"code":23001,"line":"京成本線","add_station":[
-    	{"code":5000094,"station":"西千住","closed":true,"lon":139.793168,"lat":35.744336},
-    	{"code":5000095,"station":"博物館動物園","closed":true,"lon":139.773474,"lat":35.718642}
-    ]},
-    {"code":50008,"line":"鉄道院中央本線","add": true,"closed":true,"add_station":[
-    	{"code":5000096,"station":"昌平橋","closed":true,"lon":139.768583,"lat":35.698281}
-    ]},
-    {"code":50009,"line":"湘南軌道","add": true,"closed":true,"add_station":[
-    	"秦野",
-    	{"code":5000097,"station":"台町","closed":true,"lon":139.232195,"lat":35.370031},
-    	{"code":5000098,"station":"大竹(神奈川)","closed":true,"lon":139.234725,"lat":35.360280},
-    	{"code":5000099,"station":"上井ノ口","closed":true,"lon":139.232222,"lat":35.343061},
-    	{"code":5000100,"station":"下井ノ口","closed":true,"lon":139.235282,"lat":35.331114},
-    	{"code":5000101,"station":"一色","closed":true,"lon":139.242027,"lat":35.318976},
-    	{"code":5000102,"station":"中里(神奈川)","closed":true,"lon":139.249387,"lat":35.308529},
-    	{"code":5000103,"station":"二宮(湘南軌道)","closed":true,"lon":139.257777,"lat":35.298782}
-    ]},
-    {"code":50010,"line":"長野電鉄屋代線","add": true,"closed":true,"add_station":[
-    	"屋代",
-    	{"code":5000104,"station":"東屋代","closed":true,"lon":138.132085,"lat":36.542322},
-    	{"code":5000105,"station":"雨宮","closed":true,"lon":138.148090,"lat":36.548869},
-    	{"code":5000106,"station":"岩野","closed":true,"lon":138.162879,"lat":36.560633},
-    	{"code":5000107,"station":"象山口","closed":true,"lon":138.188599,"lat":36.561214},
-    	{"code":5000108,"station":"松代","closed":true,"lon":138.198086,"lat":36.565878},
-    	{"code":5000109,"station":"金井山","closed":true,"lon":138.201443,"lat":36.591284},
-    	{"code":5000110,"station":"大室","closed":true,"lon":138.223692,"lat":36.601026},
-    	{"code":5000111,"station":"信濃川田","closed":true,"lon":138.238509,"lat":36.605489},
-    	{"code":5000112,"station":"若穂","closed":true,"lon":138.252938,"lat":36.610782},
-    	{"code":5000113,"station":"綿内","closed":true,"lon":138.259611,"lat":36.625078},
-    	{"code":5000114,"station":"井上","closed":true,"lon":138.280755,"lat":36.638377},
-    	"須坂"
-    ]},
-    {"code":50011,"line":"福井鉄道鯖浦線","add": true,"closed":true,"add_station":[
-    	"鯖江",
-    	{"code":5000115,"station":"東鯖江","closed":true,"lon":136.188614,"lat":35.947308},
-    	{"code":5000116,"station":"越前平井","closed":true,"lon":136.164614,"lat":35.961670},
-    	{"code":5000117,"station":"川去","closed":true,"lon":136.145974,"lat":35.963087},
-    	{"code":5000118,"station":"西田中","closed":true,"lon":136.131085,"lat":35.972585},
-    	{"code":5000119,"station":"佐々生","closed":true,"lon":136.121250,"lat":35.954142},
-    	{"code":5000120,"station":"陶の谷","closed":true,"lon":136.113638,"lat":35.938531},
-    	{"code":5000121,"station":"樫津","closed":true,"lon":136.087252,"lat":35.941003},
-    	{"code":5000122,"station":"下江波","closed":true,"lon":136.074583,"lat":35.941837},
-    	{"code":5000123,"station":"江波(福井)","closed":true,"lon":136.063943,"lat":35.939474},
-    	{"code":5000124,"station":"矢倉(福井)","closed":true,"lon":136.059445,"lat":35.949145},
-    	{"code":5000125,"station":"織田","closed":true,"lon":136.058806,"lat":35.958557}
-    ]},
-    {"code":50012,"line":"北丹鉄道","add": true,"closed":true,"add_station":[
-    	"福知山",
-    	{"code":5000126,"station":"福知山西","closed":true,"lon":135.117472,"lat":35.303530},
-    	{"code":5000127,"station":"下川停留所","closed":true,"lon":135.109777,"lat":35.330050},
-    	{"code":5000128,"station":"上天津","closed":true,"lon":135.108142,"lat":35.340338},
-    	{"code":5000129,"station":"下天津(北丹鉄道)","closed":true,"lon":135.113303,"lat":35.357476},
-    	{"code":5000130,"station":"公庄(北丹鉄道)","closed":true,"lon":135.127947,"lat":35.371558},
-    	{"code":5000131,"station":"蓼原停留所","closed":true,"lon":135.141279,"lat":35.383145},
-    	{"code":5000132,"station":"河守","closed":true,"lon":135.146445,"lat":35.389004}
-    ]},
-    {"code":99628,"line":"阪堺電軌上町線","add_station":[
-    	{"code":5000133,"station":"住吉公園","closed":true,"lon":135.490543,"lat":34.613090}
-    ]},
-    {"code":50013,"line":"三木線","add": true,"closed":true,"add_station":[
-      "厄神",	
-      {"code":5000134,"station":"国包","closed":true,"lon":134.916602,"lat":34.797400},
-    	{"code":5000135,"station":"宗佐","closed":true,"lon":134.922513,"lat":34.798177},
-    	{"code":5000136,"station":"下石野","closed":true,"lon":134.927631,"lat":34.797072},
-    	{"code":5000137,"station":"石野","closed":true,"lon":134.933939,"lat":34.794963},
-    	{"code":5000138,"station":"西這田","closed":true,"lon":134.951751,"lat":34.795030},
-    	{"code":5000139,"station":"別所","closed":true,"lon":134.963350,"lat":34.794464,"date":20190524,"comment":"駅名変更 別所(兵庫)->別所"},
-    	{"code":5000140,"station":"高木(兵庫)","closed":true,"lon":134.970382,"lat":34.793671},
-    	{"code":5000141,"station":"三木(三木鉄道)","closed":true,"lon":134.977477,"lat":34.794675}
-    ]},
-    {"code":50014,"line":"倉吉線","add": true,"closed":true,"add_station":[
-    	"倉吉",
-    	{"code":5000142,"station":"上灘","closed":true,"lon":133.841487,"lat":35.439611},
-    	{"code":5000143,"station":"打吹","closed":true,"lon":133.824402,"lat":35.434461},
-    	{"code":5000144,"station":"西倉吉","closed":true,"lon":133.804767,"lat":35.427214},
-    	{"code":5000145,"station":"小鴨","closed":true,"lon":133.799347,"lat":35.410146},
-    	{"code":5000146,"station":"上小鴨","closed":true,"lon":133.786679,"lat":35.398166},
-    	{"code":5000147,"station":"関金","closed":true,"lon":133.755550,"lat":35.370777},
-    	{"code":5000148,"station":"泰久寺","closed":true,"lon":133.724149,"lat":35.366096},
-    	{"code":5000149,"station":"山守","closed":true,"lon":133.709263,"lat":35.360684}
-    ]},
-    {"code":50015,"line":"下津井電鉄","add": true,"closed":true,"add_station":[
-    	{"code":5000150,"station":"下津井","closed":true,"lon":133.789556,"lat":34.439004},
-    	{"code":5000151,"station":"東下津井","closed":true,"lon":133.802223,"lat":34.441532},
-    	{"code":5000152,"station":"鷲羽山","closed":true,"lon":133.806559,"lat":34.440034},
-    	{"code":5000153,"station":"琴海","closed":true,"lon":133.808254,"lat":34.447828},
-    	{"code":5000154,"station":"阿津","closed":true,"lon":133.803697,"lat":34.455464},
-    	{"code":5000155,"station":"備前赤崎","closed":true,"lon":133.799838,"lat":34.458761},
-    	{"code":5000156,"station":"児島(下津井電鉄)","closed":true,"lon":133.802171,"lat":34.467200},
-    	{"code":5000157,"station":"児島小川","closed":true,"lon":133.799912,"lat":34.481002},
-    	{"code":5000158,"station":"柳田(岡山)","closed":true,"lon":133.798701,"lat":34.488197},
-    	{"code":5000159,"station":"稗田","closed":true,"lon":133.804301,"lat":34.499198},
-    	{"code":5000160,"station":"福田","closed":true,"lon":133.797964,"lat":34.527062},
-    	{"code":5000161,"station":"林(岡山)","closed":true,"lon":133.814748,"lat":34.542705},
-    	{"code":5000162,"station":"藤戸","closed":true,"lon":133.819731,"lat":34.557524},
-    	{"code":5000163,"station":"天城","closed":true,"lon":133.816706,"lat":34.562227},
-    	"茶屋町"
-    ]},
-    {"code":50016,"line":"鍛冶屋原線","add": true,"closed":true,"add_station":[
-    	"板野",
-    	{"code":5000164,"station":"犬伏","closed":true,"lon":134.452139,"lat":34.141029},
-    	{"code":5000165,"station":"羅漢","closed":true,"lon":134.433087,"lat":34.134115},
-    	{"code":5000166,"station":"神宅","closed":true,"lon":134.415028,"lat":34.130807},
-    	{"code":5000167,"station":"鍛冶屋原","closed":true,"lon":134.400474,"lat":34.119559}
-    ]},
-    {"code":50017,"line":"伊予鉄道森松線","add": true,"closed":true,"add_station":[
-    	{"code":5000168,"station":"伊予立花","closed":true,"lon":132.773326,"lat":33.827560},
-    	{"code":5000169,"station":"石井(愛媛)","closed":true,"lon":132.780255,"lat":33.809280},
-    	{"code":5000170,"station":"森松","closed":true,"lon":132.788892,"lat":33.790419}
-    ]},
-    {"code":50018,"line":"勝田線","add": true,"closed":true,"add_station":[
-    	"吉塚",
-    	{"code":5000171,"station":"御手洗","closed":true,"lon":130.451582,"lat":33.606696},
-    	{"code":5000172,"station":"上亀山","closed":true,"lon":130.459642,"lat":33.602196},
-    	{"code":5000173,"station":"志免","closed":true,"lon":130.483917,"lat":33.590614},
-    	{"code":5000174,"station":"下宇美","closed":true,"lon":130.506139,"lat":33.572974},
-    	"宇美",
-    	{"code":5000175,"station":"筑前勝田","closed":true,"lon":130.528475,"lat":33.555198}
-    ]},
-    {"code":50019,"line":"宮之城線","add": true,"closed":true,"add_station":[
-    	"川内(鹿児島)",
-    	{"code":5000176,"station":"薩摩白浜","closed":true,"lon":130.322640,"lat":31.855948},
-    	{"code":5000177,"station":"楠元","closed":true,"lon":130.336167,"lat":31.860642},
-    	{"code":5000178,"station":"吉野山","closed":true,"lon":130.360001,"lat":31.838059},
-    	{"code":5000179,"station":"樋脇","closed":true,"lon":130.380863,"lat":31.820030},
-    	{"code":5000180,"station":"上樋脇","closed":true,"lon":130.402114,"lat":31.825364},
-    	{"code":5000181,"station":"入来","closed":true,"lon":130.429945,"lat":31.822669},
-    	{"code":5000182,"station":"薩摩山崎","closed":true,"lon":130.450556,"lat":31.858020},
-    	{"code":5000183,"station":"船木","closed":true,"lon":130.450670,"lat":31.882169},
-    	{"code":5000184,"station":"宮之城","closed":true,"lon":130.456916,"lat":31.905365},
-    	{"code":5000185,"station":"佐志","closed":true,"lon":130.483557,"lat":31.918751},
-    	{"code":5000186,"station":"薩摩湯田","closed":true,"lon":130.473301,"lat":31.931835},
-    	{"code":5000187,"station":"薩摩鶴田","closed":true,"lon":130.493111,"lat":31.942835},
-    	{"code":5000188,"station":"薩摩求名","closed":true,"lon":130.526714,"lat":31.935201},
-    	{"code":5000189,"station":"広橋","closed":true,"lon":130.544110,"lat":31.923807},
-    	{"code":5000190,"station":"薩摩永野","closed":true,"lon":130.588251,"lat":31.924754},
-    	{"code":5000191,"station":"針持","closed":true,"lon":130.580834,"lat":31.979780},
-    	{"code":5000192,"station":"西太良","closed":true,"lon":130.603723,"lat":32.008027},
-    	{"code":5000193,"station":"羽月","closed":true,"lon":130.596582,"lat":32.032029},
-    	{"code":5000194,"station":"薩摩大口","closed":true,"lon":130.609029,"lat":32.060977}
-    ]},
-    {"code":50020,"line":"嘉手納線","add": true,"closed":true,"add_station":[
-    	{"code":5000195,"station":"嘉手納","closed":true,"lon":127.755192,"lat":26.362752},
-    	{"code":5000196,"station":"城間","closed":true,"lon":127.710279,"lat":26.258114},
-    	{"code":5000197,"station":"与儀","closed":true,"lon":127.691919,"lat":26.208863}
-    ]},
-    {"code":50021,"line":"JR三江線","add": true,"closed":true,"add_station":[
-    	"江津",
-    	{"code":5000198,"station":"江津本町","lon":132.230266,"lat":35.007212,"closed":true},
-    	{"code":5000199,"station":"千金","lon":132.249822,"lat":35.001635,"closed":true},
-    	{"code":5000200,"station":"川平","lon":132.284411,"lat":34.996969,"closed":true},
-    	{"code":5000201,"station":"川戸","lon":132.333583,"lat":34.959735,"closed":true},
-    	{"code":5000202,"station":"田津","lon":132.384492,"lat":34.951875,"closed":true},
-    	{"code":5000203,"station":"石見川越","lon":132.415400,"lat":34.950276,"closed":true},
-    	{"code":5000204,"station":"鹿賀","lon":132.445753,"lat":34.962967,"closed":true},
-    	{"code":5000205,"station":"因原","lon":132.473262,"lat":34.966514,"closed":true},
-    	{"code":5000206,"station":"石見川本","lon":132.492624,"lat":34.991290,"closed":true},
-    	{"code":5000207,"station":"木路原","lon":132.508325,"lat":34.997514,"closed":true},
-    	{"code":5000208,"station":"竹","lon":132.529753,"lat":35.012676,"closed":true},
-    	{"code":5000209,"station":"乙原","lon":132.547479,"lat":35.026135,"closed":true},
-    	{"code":5000210,"station":"石見簗瀬","lon":132.565521,"lat":35.042339,"closed":true},
-    	{"code":5000211,"station":"明塚","lon":132.583933,"lat":35.048799,"closed":true},
-    	{"code":5000212,"station":"粕淵","lon":132.592926,"lat":35.072447,"closed":true},
-    	{"code":5000213,"station":"浜原","lon":132.599564,"lat":35.060043,"closed":true},
-    	{"code":5000214,"station":"沢谷","lon":132.634682,"lat":35.057894,"closed":true},
-    	{"code":5000215,"station":"潮","lon":132.632425,"lat":35.016034,"closed":true},
-    	{"code":5000216,"station":"石見松原","lon":132.615042,"lat":34.992792,"closed":true},
-    	{"code":5000217,"station":"石見都賀","lon":132.642711,"lat":34.956356,"closed":true},
-    	{"code":5000218,"station":"宇都井","lon":132.629657,"lat":34.906557,"closed":true},
-    	{"code":5000219,"station":"伊賀和志","lon":132.660940,"lat":34.895039,"closed":true},
-    	{"code":5000220,"station":"口羽","lon":132.671234,"lat":34.884442,"closed":true},
-    	{"code":5000221,"station":"江平","lon":132.702219,"lat":34.875252,"closed":true},
-    	{"code":5000222,"station":"作木口","lon":132.707061,"lat":34.860170,"closed":true},
-    	{"code":5000223,"station":"香淀","lon":132.713850,"lat":34.827113,"closed":true},
-    	{"code":5000224,"station":"式敷","lon":132.712598,"lat":34.815809,"closed":true},
-    	{"code":5000225,"station":"信木","lon":132.730502,"lat":34.812983,"closed":true},
-    	{"code":5000226,"station":"所木","lon":132.751210,"lat":34.809925,"closed":true},
-    	{"code":5000227,"station":"船佐","lon":132.766153,"lat":34.808086,"closed":true},
-    	{"code":5000228,"station":"長谷(広島)","lon":132.788146,"lat":34.803142,"closed":true},
-    	{"code":5000229,"station":"粟屋","lon":132.812892,"lat":34.810197,"closed":true},
-    	{"code":5000230,"station":"尾関山","lon":132.841700,"lat":34.812737,"closed":true},
-    	"三次"
-    ]}
+    
+    {"code":1162610,"station":"三国ケ丘","remove":true}, 
+    {"code":3200713,"station":"三国ヶ丘","lng":135.492746,"lat":34.566318},
+    {"code":11626,"line":"阪和線(天王寺～和歌山)","rename":"JR阪和線(天王寺～和歌山)",
+    "remove_station":["三国ケ丘"],"add_station":["三国ヶ丘"]}
   ]
 },
+
 
 {
-  "comment":"東日本大震災によりBRTへ変換された区間",
-  "date":20170331,
-  "url":"https://ekimemo.com/news/20170331141000_1",
+  "comment":"駅名中のJRは基本半角",
   "data":[
-    {
-      "comment":"JR大船渡線の不通区間を走るBRT駅のうち既存駅と同名のものとBRTの新設駅",
-      "data":[
-        {"code":1120815,"station":"鹿折唐桑","lon":141.580968,"lat":38.915610},
-        {"code":1120816,"station":"上鹿折","lon":141.566825,"lat":38.960166},
-        {"code":1120817,"station":"陸前矢作","lon":141.579459,"lat":39.022659},
-        {"code":1120818,"station":"竹駒","lon":141.609488,"lat":39.033909},
-        {"code":1120819,"station":"陸前高田","lon":141.629226,"lat":39.014919},
-        {"code":1120820,"station":"脇ノ沢","lon":141.671756,"lat":39.011886},
-        {"code":1120821,"station":"小友","lon":141.699531,"lat":38.989292},
-        {"code":1120822,"station":"細浦","lon":141.713725,"lat":39.016027},
-        {"code":1120823,"station":"下船渡","lon":141.720865,"lat":39.038329},
-        {"code":1120824,"station":"大船渡","lon":141.720807,"lat":39.063550}
-      ]
-    },
-    {"code":11208,"line":"ドラゴンレール大船渡線","rename":"JR大船渡線(ドラゴンレール大船渡線)", "comment":"JR大船渡線の不通区間を走るBRT新設駅","add_station":[
-      {"code":5000069,"station":"八幡大橋（東陵高校）","lon":141.585300,"lat":38.920964},
-      {"code":5000266,"station":"唐桑大沢","lon":141.631470,"lat":38.961776},
-      {"code":5000070,"station":"長部","lon":141.618657,"lat":38.986110},
-      "奇跡の一本松",
-      {"code":5000072,"station":"栃ヶ沢公園","lon":141.625438,"lat":39.026988},
-      {"code":5000073,"station":"まちなか陸前高田","closed":true,"lon":141.630296,"lat":39.015483},
-      {"code":5000074,"station":"高田高校前","lon":141.640223,"lat":39.016279,"comment":"座標更新","date":20190329},
-      {"code":5000075,"station":"高田病院","lon":141.641608,"lat":39.025507},
-      {"code":5000267,"station":"西下","lon":141.688578,"lat":39.001384},
-      {"code":5000076,"station":"碁石海岸口","lon":141.711049,"lat":39.002760,"comment":"座標修正(20190426では修正前の情報を参照してた？)","date":"20190524"},
-      {"code":5000077,"station":"大船渡魚市場前","lon":141.720752,"lat":39.051280}
-    ]},
-    {
-      "comment":"JR気仙沼線の不通区間を走るBRT駅のうち既存駅と同名のもの（BRT駅のうち既存駅と同名なもの一部駅は旧鉄道の位置と離れているため新しい座標を反映",
-      "data":[
-        {"code":1122406,"station":"柳津","lon":141.306369,"lat":38.611869,"rename":"柳津(宮城)"},
-        {"code":1122407,"station":"陸前横山","lon":141.354200,"lat":38.631022},
-        {"code":1122408,"station":"陸前戸倉","lon":141.433373,"lat":38.647755},
-        {"code":1122409,"station":"志津川","lon":141.449628,"lat":38.676668},
-        {"code":1122410,"station":"清水浜","lon":141.489625,"lat":38.691892,"date":20190628,"comment":"座標修正"},
-        {"code":1122411,"station":"歌津","lon":141.519751,"lat":38.718299,"date":20190628,"comment":"座標修正"},
-        {"code":1122412,"station":"陸前港","lon":141.531026,"lat":38.739204},
-        {"code":1122413,"station":"蔵内","lon":141.525003,"lat":38.753579},
-        {"code":1122414,"station":"陸前小泉","lon":141.509176,"lat":38.765547},
-        {"code":1122415,"station":"本吉","lon":141.502619,"lat":38.786740},
-        {"code":1122416,"station":"小金沢","lon":141.533989,"lat":38.796362},
-        {"code":1122417,"station":"大谷海岸","lon":141.567141,"lat":38.814268},
-        {"code":1122418,"station":"陸前階上","lon":141.580275,"lat":38.837434},
-        {"code":1122419,"station":"最知","lon":141.581270,"lat":38.853379},
-        {"code":1122420,"station":"松岩","lon":141.583141,"lat":38.873700},
-        {"code":1122421,"station":"南気仙沼","lon":141.567321,"lat":38.894765},
-        {"code":1122422,"station":"不動の沢","lon":141.562678,"lat":38.898486}
-      ]
-    },
-    {"code":11224,"line":"JR気仙沼線","comment":"東日本大震災の影響による不通区間を走るBRTの新設駅","add_station":[
-      {"code":5000078,"station":"南三陸町役場・病院前","lon":141.462452,"lat":38.678776},
-      {"code":5000079,"station":"気仙沼市立病院","lon":141.565670,"lat":38.887597},
-      {"code":5000080,"station":"志津川中央団地","lon":141.450742,"lat":38.683806},
-      {"code":5000268,"station":"岩月","lon":141.584078,"lat":38.862282}
-    ]}
+    {"code":1164104,"station":"ＪＲ俊徳道","rename":"JR俊徳道"},
+    {"code":1161705,"station":"ＪＲ三山木","rename":"JR三山木"},
+    {"code":1161804,"station":"ＪＲ藤森","rename":"JR藤森"},
+    {"code":1161810,"station":"ＪＲ小倉","rename":"JR小倉"},
+    {"code":1164103,"station":"ＪＲ河内永和","rename":"JR河内永和"},
+    {"code":1164105,"station":"ＪＲ長瀬","rename":"JR長瀬"},
+    {"code":1163605,"station":"ＪＲ五位堂","rename":"JR五位堂"},
+    {"code":1160722,"station":"ＪＲ難波","rename":"JR難波"},
+    {"code":1171005,"station":"児島","rename":"児島(JR)"},
+    {"code":11607,"line":"大和路線","rename":"JR関西本線(大和路線)(加茂～ＪＲ難波)","comment":"何故かここだけ全角ＪＲ"}
   ]
 },
+
+
+{
+  "comment":"なんか表記が違う",
+  "data":[
+    {"code":9941319,"station":"富山トヨペット本社前","rename":"富山トヨペット本社前（五福末広町）"},
+    {"code":9941321,"station":"中町（西町北）","rename":"中町"},
+    {"code":9980222,"station":"綾川（イオンモール綾川）","rename":"綾川"},
+    {"code":9980805,"station":"松山駅前","rename":"JR松山駅前"},
+    {"code":9980808,"station":"萱町六丁目","rename":"萱町６丁目"},
+    {"code":9980809,"station":"本町六丁目","rename":"本町６丁目"},
+    {"code":9981202,"station":"本町五丁目","rename":"本町５丁目"},
+    {"code":9981203,"station":"本町四丁目","rename":"本町４丁目"},
+    {"code":9981204,"station":"本町三丁目","rename":"本町３丁目"},
+    {"code":9981205,"station":"本町一丁目","rename":"本町１丁目"},
+    {"code":9980815,"station":"平和通一丁目","rename":"平和通１丁目"},
+    
+    {"code":2100203,"station":"押上〈スカイツリー前〉","remove":true},
+    {"code":21002,"line":"東武伊勢崎線","remove_station":["押上〈スカイツリー前〉"],"add_station":["押上（スカイツリー前）"]},
+    {"code":28008,"line":"東京メトロ半蔵門線","remove_station":["押上〈スカイツリー前〉"],"add_station":["押上（スカイツリー前）"]},
+
+    {"code":1120245,"station":"鷹ノ巣","rename":"鷹ノ巣(鷹巣)"},
+    {"code":9920901,"station":"鷹巣","remove":true},
+    {"code":99209,"line":"秋田内陸縦貫鉄道","remove_station":["鷹巣"],"add_station":["鷹ノ巣(鷹巣)"]},
+
+    {"code":1192515,"station":"人吉","rename":"人吉(人吉温泉)"},
+    {"code":9992001,"station":"人吉温泉","remove":true},
+    {"code":99920,"line":"湯前線","rename":"くま川鉄道湯前線","remove_station":["人吉温泉"],"add_station":["人吉(人吉温泉)"]},
+
+    {"code":3400116,"station":"神戸三宮","remove":true},
+    {"code":9963001,"station":"三宮","rename":"三宮(神戸三宮)","lng":135.195106,"lat":34.693507},
+    {"code":34001,"line":"阪急神戸本線","remove_station":["神戸三宮"],"add_station":["三宮(神戸三宮)"]},
+    {"code":35001,"line":"阪神本線","remove_station":["神戸三宮"],"add_station":["三宮(神戸三宮)"]},
+
+    {"code":9980801,"station":"松山市駅前","rename":"松山市駅"},
+    {"code":1130113,"station":"二宮","rename":"二宮(JR)"}
+  ]
+},
+
 
 {
   "comment":"駅名の変更 駅メモ実装では同名(読みは考慮せず漢字表記が同一の場合も含む)の駅名はその駅の所在県・事業者名・路線などの識別子を末尾につけて区別している 日本全国を見渡せば同名駅のまあ多いことorz",
   "url":"https://ekimemo.com/news/20161014183000_1",
   "data":[
     {"code":1190533,"station":"東園","rename":"東園(長崎)"},
+    {"code":1110113,"station":"姫川","rename":"姫川(北海道)"},
     {"code":1140941,"station":"姫川","rename":"姫川(新潟)"},
     {"code":1110317,"station":"白石","rename":"白石(JR)"},
     {"code":9910113,"station":"白石","rename":"白石(札幌市交通局)"},
@@ -715,7 +369,6 @@
     {"code":9952103,"station":"新川","rename":"新川(愛知)"},
     {"code":9980510,"station":"新川","rename":"新川(愛媛)"},
     {"code":1111522,"station":"日進","rename":"日進(北海道)"},
-    {"code":1132202,"station":"日進","rename":"日進(埼玉)"},
     {"code":3000608,"station":"日進","rename":"日進(愛知)"},
     {"code":1110319,"station":"森林公園","rename":"森林公園(北海道)"},
     {"code":2100130,"station":"森林公園","rename":"森林公園(埼玉)"},
@@ -1024,7 +677,7 @@
     {"code":9941512,"station":"競輪場前","rename":"競輪場前(富山)"},
     {"code":9952111,"station":"競輪場前","rename":"競輪場前(愛知)"},
     {"code":9920203,"station":"運動公園前","rename":"運動公園前(青森)"},
-    {"code":9952114,"station":"運動公園前","rename":"運動公園前(愛知)"},
+    {"code":9952202,"station":"運動公園前","rename":"運動公園前(愛知)"},
     {"code":9952508,"station":"関","rename":"関(岐阜)"},
     {"code":1150902,"station":"関","rename":"関(三重)"},
     {"code":1123134,"station":"大河原","rename":"大河原(宮城)"},
@@ -1057,9 +710,7 @@
     {"code":1141918,"station":"徳田","rename":"徳田(石川)"},
     {"code":9953005,"station":"徳田","rename":"徳田(三重)"},
     {"code":9941405,"station":"広小路","rename":"広小路(富山)"},
-    {"code":9953105,"station":"広小路","rename":"広小路(三重)"},
     {"code":9932109,"station":"丸山","rename":"丸山(埼玉)"},
-    {"code":9953111,"station":"丸山","rename":"丸山(三重)"},
     {"code":9963203,"station":"丸山","rename":"丸山(兵庫)"},
     {"code":9951117,"station":"篠原","rename":"篠原(愛知)"},
     {"code":1160109,"station":"篠原","rename":"篠原(滋賀)"},
@@ -1236,7 +887,7 @@
     {"code":1190622,"station":"中津","rename":"中津(大分)"},
     {"code":2600506,"station":"長原","rename":"長原(東京)"},
     {"code":9961925,"station":"長原","rename":"長原(大阪)"},
-    {"code":3100503,"station":"今里","rename":"今里(近畿日本鉄道)"},
+    {"code":3100105,"station":"今里","rename":"今里(近畿日本鉄道)"},
     {"code":9962210,"station":"今里","rename":"今里(OsakaMetro)"},
     {"code":1121413,"station":"平林","rename":"平林(新潟)"},
     {"code":9962509,"station":"平林","rename":"平林(大阪)"},
@@ -1247,7 +898,6 @@
     {"code":9951313,"station":"今池","rename":"今池(愛知)"},
     {"code":9962903,"station":"今池","rename":"今池(大阪)"},
     {"code":9990907,"station":"今池","rename":"今池(福岡)"},
-    {"code":9953207,"station":"石津","rename":"石津(岐阜)"},
     {"code":9962928,"station":"石津","rename":"石津(大阪)"},
     {"code":3400207,"station":"曽根","rename":"曽根(大阪)"},
     {"code":1160818,"station":"曽根","rename":"曽根(兵庫)"},
@@ -1265,6 +915,7 @@
     {"code":1163417,"station":"古見","rename":"古見(岡山)"},
     {"code":9932012,"station":"長谷","rename":"長谷(神奈川)"},
     {"code":1163513,"station":"長谷","rename":"長谷(兵庫)"},
+    {"code":1170732,"station":"長谷","rename":"長谷(広島)"},
     {"code":1111625,"station":"生野","rename":"生野(北海道)"},
     {"code":1163514,"station":"生野","rename":"生野(兵庫)"},
     {"code":1140315,"station":"新井","rename":"新井(新潟)"},
@@ -1308,6 +959,7 @@
     {"code":1163622,"station":"大谷","rename":"大谷(和歌山)"},
     {"code":9920608,"station":"筒井","rename":"筒井(青森)"},
     {"code":3100206,"station":"筒井","rename":"筒井(奈良)"},
+    {"code":1110112,"station":"東山","rename":"東山(北海道)"},
     {"code":9961110,"station":"東山","rename":"東山(京都)"},
     {"code":3101606,"station":"東山","rename":"東山(奈良)"},
     {"code":9970610,"station":"東山","rename":"東山・おかでんミュージアム駅"},
@@ -1484,6 +1136,7 @@
     {"code":9990710,"station":"別府","rename":"別府(福岡)"},
     {"code":9960804,"station":"牧","rename":"牧(京都)"},
     {"code":1190644,"station":"牧","rename":"牧(大分)"},
+    {"code":1110124,"station":"桂川","rename":"桂川(北海道)"},
     {"code":1160216,"station":"桂川","rename":"桂川(京都)"},
     {"code":1190801,"station":"桂川","rename":"桂川(福岡)"},
     {"code":9970405,"station":"浦田","rename":"浦田(岡山)"},
@@ -1612,125 +1265,771 @@
     {"code":9992619,"station":"中郡","rename":"中郡(鹿児島)"},
     {"code":9992614,"station":"市立病院前","rename":"市立病院前(鹿児島)"},
     {"code":9992713,"station":"市立病院前","rename":"市立病院前(沖縄)"},
+    {"code":1111907,"station":"神明","rename":"神明(北海道)"},
     {"code":9942108,"station":"神明","rename":"神明(福井)"},
     {"code":1120220,"station":"大曲","rename":"大曲(秋田)"},
+    {"code":9920402,"station":"大曲","rename":"大曲(青森)"},
     {"code":1131522,"station":"古里","rename":"古里(東京)"},
+    {"code":9920405,"station":"古里","rename":"古里(青森)"},
     {"code":9991138,"station":"中里","rename":"中里(長崎)"},
+    {"code":1120703,"station":"中里","rename":"中里(岩手)"},
     {"code":1161127,"station":"大竹","rename":"大竹(広島)"},
     {"code":9971420,"station":"江波","rename":"江波(広島)"},
     {"code":1133510,"station":"矢倉","rename":"矢倉(群馬)"},
     {"code":1172013,"station":"高木","rename":"高木(広島)"},
+    {"code":9964208,"station":"高木","rename":"高木(兵庫)"},
     {"code":9963514,"station":"三木","rename":"三木(神戸電鉄)"},
+    {"code":9964209,"station":"三木","rename":"三木(三木鉄道)"},
     {"code":1120216,"station":"柳田","rename":"柳田(秋田)"},
     {"code":1141703,"station":"林","rename":"林(富山)"}
   ]
 },
 
+  
 {
   "comment":"新幹線の追加 駅データ.jpの無償APIでは新幹線のデータは取得できない",
   "data":[
-    {"code":50022,"line":"東北新幹線","add": true,"add_station":[
-      "東京","上野","大宮(埼玉)","小山","宇都宮","那須塩原","新白河","郡山(福島)","福島(福島)",
-      {"code":5000231,"station":"白石蔵王","lon":140.633002,"lat":37.995499},
-      "仙台(JR)","古川",
-      {"code":5000232,"station":"くりこま高原","lon":141.071800,"lat":38.749102},
+    {"code":1002,"line":"東海道新幹線","add_station":[
+      "東京",
+      "品川",
+      "新横浜",
+      "小田原",
+      "熱海",
+      "三島",
+      {"code":100207,"station":"新富士(静岡)","lng":138.663299,"lat":35.142000,"prefecture":22,"postal_code":"416-0939","address":"静岡県富士市川成島６５４−１０"},
+      "静岡",
+      "掛川",
+      "浜松",
+      "豊橋",
+      "三河安城",
+      "名古屋",
+      {"code":100214,"station":"岐阜羽島","lng":136.685501,"lat":35.315800,"prefecture":21,"postal_code":"501-6257","address":"岐阜県羽島市福寿町平方"},
+      "米原",
+      "京都",
+      "新大阪"
+    ]},
+    {"code":1130101,"recode":100201,"station":"東京"},
+    {"code":1130103,"recode":100202,"station":"品川"},
+    {"code":1130604,"recode":100203,"station":"新横浜"},
+    {"code":1130116,"recode":100204,"station":"小田原"},
+    {"code":1130121,"recode":100205,"station":"熱海"},
+    {"code":1150103,"recode":100206,"station":"三島"},
+    {"code":1150118,"recode":100208,"station":"静岡"},
+    {"code":1150128,"recode":100209,"station":"掛川"},
+    {"code":1150201,"recode":100210,"station":"浜松"},
+    {"code":1141301,"recode":100211,"station":"豊橋"},
+    {"code":1150222,"recode":100212,"station":"三河安城"},
+    {"code":1141101,"recode":100213,"station":"名古屋"},
+    {"code":1141501,"recode":100215,"station":"米原"},
+    {"code":1160120,"recode":100216,"station":"京都"},
+    {"code":1160213,"recode":100217,"station":"新大阪"},
+    
+    {"code":1003,"line":"山陽新幹線","add_station":[
+      "新大阪",
+      "新神戸",
+      "西明石",
+      "姫路",
+      "相生(兵庫)",
+      "岡山",
+      "新倉敷",
+      "福山",
+      {"code":100309,"station":"新尾道","lng":133.190301,"lat":34.430001,"prefecture":34,"postal_code":"722-0022","address":"広島県尾道市栗原町"},
+      "三原",
+      {"code":100311,"station":"東広島","lng":132.759702,"lat":34.389300,"prefecture":34,"postal_code":"739-0026","address":"広島県東広島市三永１丁目４"},
+      "広島",
+      {"code":100313,"station":"新岩国","lng":132.149795,"lat":34.164998,"prefecture":35,"postal_code":"741-0083","address":"山口県岩国市御庄１０２−１"},
+      "徳山",
+      "新山口",
+      "厚狭",
+      "新下関",
+      "小倉(福岡)",
+      "博多"
+    ]},
+    {"code":9963601,"recode":100302,"station":"新神戸"},
+    {"code":1160811,"recode":100303,"station":"西明石"},
+    {"code":1160821,"recode":100304,"station":"姫路"},
+    {"code":1160905,"recode":100305,"station":"相生(兵庫)"},
+    {"code":1160917,"recode":100306,"station":"岡山"},
+    {"code":1161007,"recode":100307,"station":"新倉敷"},
+    {"code":1161014,"recode":100308,"station":"福山"},
+    {"code":1161020,"recode":100310,"station":"三原"},
+    {"code":1161115,"recode":100312,"station":"広島"},
+    {"code":1161216,"recode":100314,"station":"徳山"},
+    {"code":1161224,"recode":100315,"station":"新山口"},
+    {"code":1161230,"recode":100316,"station":"厚狭"},
+    {"code":1161234,"recode":100317,"station":"新下関"},
+    {"code":1190205,"recode":100318,"station":"小倉(福岡)"},
+    {"code":1190101,"recode":100319,"station":"博多"},
+
+    
+    {"code":1004,"line":"東北新幹線","add_station":[
+      "東京",
+      "上野",
+      "大宮(埼玉)",
+      "小山",
+      "宇都宮",
+      "那須塩原",
+      "新白河",
+      "郡山(福島)",
+      "福島(福島)",
+      {"code":100410,"station":"白石蔵王","lng":140.633002,"lat":37.995499,"prefecture":4,"postal_code":"989-0213","address":"宮城県白石市大鷹沢三沢桜田１１−１"},
+      "仙台(JR)",
+      "古川",
+      {"code":5000232,"recode":100413,"station":"くりこま高原","lng":141.071800,"lat":38.749102,"prefecture":4,"postal_code":"989-5612","address":"宮城県栗原市志波姫新熊谷２８４"},
       "一ノ関",
-      {"code":5000233,"station":"水沢江刺","lon":141.188703,"lat":39.145301},
-      "北上","新花巻","盛岡","いわて沼宮内","二戸","八戸",
-      {"code":5000234,"station":"七戸十和田","lon":141.153999,"lat":40.719801},
+      {"code":100415,"station":"水沢江刺","lng":141.188703,"lat":39.145301,"prefecture":3,"postal_code":"023-0104","address":"岩手県奥州市水沢羽田町駅前１丁目"},
+      "北上",
+      "新花巻",
+      "盛岡",
+      "いわて沼宮内",
+      "二戸",
+      "八戸",
+      {"code":100422,"station":"七戸十和田","lng":141.153999,"lat":40.719801,"prefecture":2,"postal_code":"039-2501","address":"青森県上北郡七戸町字荒熊内"},
       "新青森"
     ]},
-    {"code":50023,"line":"上越新幹線","add": true,"add_station":[
-      "東京","上野","大宮(埼玉)","熊谷",
-      {"code":5000235,"station":"本庄早稲田","lon":139.179499,"lat":36.218802},
+    {"code":1130220,"recode":100402,"station":"上野"},
+    {"code":1131906,"recode":100403,"station":"大宮(埼玉)"},
+    {"code":1131918,"recode":100404,"station":"小山"},
+    {"code":1131923,"recode":100405,"station":"宇都宮"},
+    {"code":1131932,"recode":100406,"station":"那須塩原"},
+    {"code":1123106,"recode":100407,"station":"新白河"},
+    {"code":1123114,"recode":100408,"station":"郡山(福島)"},
+    {"code":1123124,"recode":100409,"station":"福島(福島)"},
+    {"code":1123143,"recode":100411,"station":"仙台(JR)"},
+    {"code":1122104,"recode":100412,"station":"古川"},
+    {"code":5000232,"recode":100413,"station":"くりこま高原","lng":141.071800,"lat":38.749102},
+    {"code":1123166,"recode":100414,"station":"一ノ関"},
+    {"code":1123174,"recode":100416,"station":"北上"},
+    {"code":1120903,"recode":100417,"station":"新花巻"},
+    {"code":1123185,"recode":100418,"station":"盛岡"},
+    {"code":9920509,"recode":100419,"station":"いわて沼宮内"},
+    {"code":9920515,"recode":100420,"station":"二戸"},
+    {"code":1120601,"recode":100421,"station":"八戸"},
+    {"code":1120265,"recode":100423,"station":"新青森"},
+
+
+    {"code":1005,"line":"上越新幹線","add_station":[
+      "東京",
+      "上野",
+      "大宮(埼玉)",
+      "熊谷",
+      {"code":100505,"station":"本庄早稲田","lng":139.179499,"lat":36.218802,"prefecture":11,"postal_code":"367-0031","address":"埼玉県本庄市北堀"},
       "高崎",
-      {"code":5000236,"station":"上毛高原","lon":138.977600,"lat":36.693201},
-      "越後湯沢","浦佐","長岡","燕三条","新潟"
+      {"code":100507,"station":"上毛高原","lng":138.977600,"lat":36.693201,"prefecture":10,"postal_code":"379-1313","address":"群馬県利根郡みなかみ町月夜野１７５６"},
+      "越後湯沢",
+      "浦佐",
+      "長岡",
+      "燕三条",
+      "新潟"
     ]},
-    {"code":50024,"line":"東海道新幹線","add": true,"add_station":[
-      "東京","品川","新横浜","小田原","熱海","三島",
-      {"code":5000237,"station":"新富士(静岡)","lon":138.663299,"lat":35.142000},
-      "静岡","掛川","浜松","豊橋","三河安城","名古屋",
-      {"code":5000238,"station":"岐阜羽島","lon":136.685501,"lat":35.315800},
-      "米原","京都","新大阪"
+    {"code":1132316,"recode":100504,"station":"熊谷"},
+    {"code":1131816,"recode":100506,"station":"高崎"},
+    {"code":1134220,"recode":100508,"station":"越後湯沢"},
+    {"code":1134227,"recode":100509,"station":"浦佐"},
+    {"code":1134236,"recode":100510,"station":"長岡"},
+    {"code":1141006,"recode":100511,"station":"燕三条"},
+    {"code":1140442,"recode":100512,"station":"新潟"},
+
+
+    {"code":1006,"line":"上越新幹線(ガーラ湯沢支線)","rename":"上越新幹線(上越線)","add_station":[
+      "越後湯沢",
+      {"code":100602,"station":"ガーラ湯沢","lng":138.799503,"lat":36.950795,"prefecture":15,"postal_code":"949-6101","address":"新潟県南魚沼郡湯沢町大字湯沢"}
     ]},
-    {"code":50025,"line":"山陽新幹線","add": true,"add_station":[
-      "新大阪","新神戸","西明石","姫路","相生(兵庫)","岡山","新倉敷","福山",
-      {"code":5000239,"station":"新尾道","lon":133.190301,"lat":34.430001},
-      "三原",
-      {"code":5000240,"station":"東広島","lon":132.759702,"lat":34.389300},
-      "広島",
-      {"code":5000241,"station":"新岩国","lon":132.149795,"lat":34.164998},
-      "徳山","新山口","厚狭","新下関","小倉(福岡)","博多"
-    ]},
-    {"code":50027,"line":"上越新幹線(上越線)","add": true,"add_station":[
-      "越後湯沢",{"code":5000242,"station":"ガーラ湯沢","lon":138.799503,"lat":36.950795}
-    ]},
-    {"code":50028,"line":"北陸新幹線","add": true,"add_station":[
+
+
+    {"code":1007,"line":"山形新幹線","remove":true},
+    {"code":1008,"line":"秋田新幹線","remove":true},
+
+
+    {"code":1009,"line":"北陸新幹線","add_station":[
       "高崎",
-      {"code":5000243,"station":"安中榛名","lon":138.849399,"lat":36.362398},
-      "軽井沢","佐久平","上田","長野","飯山","上越妙高","糸魚川",
-      {"code":5000244,"station":"黒部宇奈月温泉","lon":137.481115,"lat":36.874104},
-      "富山","新高岡","金沢"
+      {"code":100902,"station":"安中榛名","lng":138.849399,"lat":36.362398,"prefecture":10,"postal_code":"379-0102","address":"群馬県安中市東上秋間"},
+      "軽井沢",
+      "佐久平",
+      "上田",
+      "長野",
+      "飯山",
+      "上越妙高",
+      "糸魚川",
+      {"code":100910,"station":"黒部宇奈月温泉","lng":137.481115,"lat":36.874104,"prefecture":16,"postal_code":"938-0000","address":"富山県黒部市荻生"},
+      "富山",
+      "新高岡",
+      "金沢"
     ]},
-    {"code":50029,"line":"九州新幹線","add": true,"add_station":[
-      "博多","新鳥栖","久留米","筑後船小屋",
-      {"code":5000245,"station":"新大牟田","lon":130.488702,"lat":33.071201},
-      {"code":5000246,"station":"新玉名","lon":130.573498,"lat":32.942500},
-      "熊本","新八代","新水俣","出水","川内(鹿児島)","鹿児島中央"
+    {"code":9940301,"recode":100903,"station":"軽井沢"},
+    {"code":1140125,"recode":100904,"station":"佐久平"},
+    {"code":9940311,"recode":100905,"station":"上田"},
+    {"code":1140305,"recode":100906,"station":"長野"},
+    {"code":1140710,"recode":100907,"station":"飯山"},
+    {"code":1140317,"recode":100908,"station":"上越妙高"},
+    {"code":1140516,"recode":100909,"station":"糸魚川"},
+    {"code":1141555,"recode":100911,"station":"富山"},
+    {"code":1141714,"recode":100912,"station":"新高岡"},
+    {"code":1141543,"recode":100913,"station":"金沢"},
+
+
+    {"code":1010,"line":"九州新幹線","add_station":[
+      "博多",
+      "新鳥栖",
+      "久留米",
+      "筑後船小屋",
+      {"code":101005,"station":"新大牟田","lng":130.488702,"lat":33.071201,"prefecture":40,"postal_code":"837-0913","address":"福岡県大牟田市大字岩本２５０９－３"},
+      {"code":101006,"station":"新玉名","lng":130.573498,"lat":32.942500,"prefecture":43,"postal_code":"865-0005","address":"熊本県玉名市玉名１２２９－３"},
+      "熊本",
+      "新八代",
+      "新水俣",
+      "出水",
+      "川内(鹿児島)",
+      "鹿児島中央"
     ]},
-    {"code":50039,"line":"北海道新幹線","add": true,"add_station":[
-    "新青森","奥津軽いまべつ","木古内","新函館北斗"
+    {"code":1190542,"recode":101002,"station":"新鳥栖"},
+    {"code":1190318,"recode":101003,"station":"久留米"},
+    {"code":1190322,"recode":101004,"station":"筑後船小屋"},
+    {"code":1190341,"recode":101007,"station":"熊本"},
+    {"code":1190348,"recode":101008,"station":"新八代"},
+    {"code":9992112,"recode":101009,"station":"新水俣"},
+    {"code":9992116,"recode":101010,"station":"出水"},
+    {"code":1190401,"recode":101011,"station":"川内(鹿児島)"},
+    {"code":1190411,"recode":101012,"station":"鹿児島中央"},
+
+
+    {"code":1011,"line":"北海道新幹線","add_station":[
+      "新青森",
+      {"code":101102,"station":"奥津軽いまべつ","lng":140.515630,"lat":41.144877,"prefecture":2,"postal_code":"030-1505","address":"青森県東津軽郡今別町大字大川平清川"},
+      "木古内",
+      "新函館北斗"
+    ]},
+    {"code":1111806,"recode":101103,"station":"木古内"},
+    {"code":1110106,"recode":101104,"station":"新函館北斗"}
+
+  ]
+},
+
+
+
+{
+  "comment":"廃路線の追加 データはWiki参照 2018/04/14 following data(station name and its line) has been last modified on 2018-04-08 23:43:37. location data(latitude and lnggitude in decimal fraction) is retrieved from GoogleMapAPI",
+  "url":"https://ekimemo.wiki.fc2.com/wiki/%E5%BB%83%E9%A7%85%E6%83%85%E5%A0%B1",
+  "data":[
+    {"code":11119,"line":"JR江差線","closed":true,"add_station":[
+     "木古内","札苅","泉沢","釜谷","渡島当別","茂辺地","上磯","清川口","久根別","東久根別","七重浜","五稜郭","函館"
+    ]},
+    {"code":11118,"line":"JR海峡線","closed":true,"comment":"奥津軽いまべつ駅傍に位置する津軽今別駅（廃駅：ＪＲ海峡線）は同一扱いで後者は未実装","add_station":[
+    	"奥津軽いまべつ"]},
+    {"code":1111802,"station":"津軽今別","remove":true},
+    {"code":1111804,"station":"吉岡海底","remove":true},
+    {"code":99220,"line":"南部縦貫鉄道線","name_formal":"南部縦貫鉄道線","add": true,"closed":true,"add_station":[
+    	"野辺地",
+      {"code":9922002,"station":"西千曳","closed":true,"lng":141.131398,"lat":40.810193,"prefecture":2},
+    	{"code":9922003,"station":"後平","closed":true,"lng":141.150543,"lat":40.791154,"prefecture":2},
+    	{"code":9922004,"station":"坪","closed":true,"lng":141.146820,"lat":40.777350,"prefecture":2},
+    	{"code":9922005,"station":"坪川","closed":true,"lng":141.147994,"lat":40.768221,"prefecture":2},
+    	{"code":9922006,"station":"道ノ上","closed":true,"lng":141.152704,"lat":40.751259,"prefecture":2},
+    	{"code":9922007,"station":"天間林","closed":true,"lng":141.157135,"lat":40.743482,"prefecture":2},
+    	{"code":9922008,"station":"中野(青森)","closed":true,"lng":141.163632,"lat":40.735203,"prefecture":2},
+    	{"code":9922009,"station":"営農大学校前","closed":true,"lng":141.159019,"lat":40.721156,"prefecture":2},
+    	{"code":9922010,"station":"盛田牧場前","closed":true,"lng":141.168565,"lat":40.713090,"prefecture":2},
+    	{"code":9922011,"station":"七戸","closed":true,"lng":141.165168,"lat":40.696639,"prefecture":2}
+    ]},
+
+    {"code":99221,"line":"横荘線","name_formal":"羽後交通横荘線","add": true,"closed":true,"add_station":[
+    	{"code":9922101,"station":"羽後大森","closed":true,"lng":140.422199,"lat":39.338726,"prefecture":5},
+    	{"code":9922102,"station":"羽後里見","closed":true,"lng":140.449695,"lat":39.280615,"prefecture":5}
+    ]},
+    {"code":99222,"line":"雄勝線","name_formal":"羽後交通雄勝線","add": true,"closed":true,"add_station":[
+    	{"code":9922201,"station":"羽後山田","closed":true,"lng":140.465031,"lat":39.164725,"prefecture":5},
+    	{"code":9922202,"station":"羽後三輪","closed":true,"lng":140.438087,"lat":39.193722,"prefecture":5}
+    ]},
+    {"code":99347,"line":"鹿島臨海鉄道鹿島臨港線","company_code":136,"add": true,"closed":true,"add_station":[
+    	{"code":9934701,"station":"居切","closed":true,"lng":140.650561,"lat":35.929979},
+    	{"code":9934702,"station":"鹿島港南","closed":true,"lng":140.691106,"lat":35.878613}
+    ]},
+    {"code":99348,"line":"京王御陵線","company_code":14,"add": true,"closed":true,"add_station":[
+    	{"code":9934801,"station":"武蔵横山","closed":true,"lng":139.301475,"lat":35.652032},
+    	{"code":9934802,"station":"多摩御陵前","closed":true,"lng":139.289861,"lat":35.650114}
+    ]},
+    {"code":21002,"line":"東武伊勢崎線","add_station":[
+    	{"code":2100256,"station":"中千住","closed":true,"lng":139.804997,"lat":35.745976,"prefecture":13,"postal_code":"120-0025","address":"東京都足立区千住東１丁目２３"}
+    ]},
+    {"code":22001,"line":"西武池袋線","add_station":[
+    	{"code":2200132,"station":"上り屋敷","closed":true,"lng":139.704778,"lat":35.725281,"prefecture":13,"postal_code":"171-0021","address":"東京都豊島区西池袋２丁目５−６"}
+    ]},
+    {"code":22011,"line":"西武多摩湖線","add_station":[
+    	{"code":2201109,"station":"東国分寺","closed":true,"lng":139.478056,"lat":35.707616,"prefectre":13,"postal_code":"185-0011","address":"東京都国分寺市本多２丁目７−２３"}
+    ]},
+    {"code":23001,"line":"京成本線","add_station":[
+    	{"code":2300144,"station":"西千住","closed":true,"lng":139.793168,"lat":35.744336,"prefectre":13,"postal_code":"120-0044","address":"東京都足立区１２ 千住緑町２丁目１５−３"},
+    	{"code":2300145,"station":"博物館動物園","closed":true,"lng":139.773474,"lat":35.718642,"prefectre":13,"postal_code":"110-0007","address":"東京都台東区上野公園１３−２３"}
+    ]},
+    {"code":99349,"line":"鉄道院中央本線","add": true,"closed":true,"add_station":[
+    	{"code":9934901,"station":"昌平橋","closed":true,"lng":139.768583,"lat":35.698281}
+    ]},
+    {"code":99350,"line":"湘南軌道","name_formal":"湘南軌道","add": true,"closed":true,"add_station":[
+    	"秦野",
+    	{"code":5000097,"station":"台町","closed":true,"lng":139.232195,"lat":35.370031,"prefecture":14,"postal_code":"257-0035","address":"神奈川県秦野市１１"},
+    	{"code":5000098,"station":"大竹(神奈川)","closed":true,"lng":139.234725,"lat":35.360280,"prefecture":14,"postal_code":"257-0012","address":"神奈川県秦野市"},
+    	{"code":5000099,"station":"上井ノ口","closed":true,"lng":139.232222,"lat":35.343061,"prefecture":14,"postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    	{"code":5000100,"station":"下井ノ口","closed":true,"lng":139.235282,"lat":35.331114,"prefecture":14,"postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    	{"code":5000101,"station":"一色","closed":true,"lng":139.242027,"lat":35.318976,"prefecture":14,"postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    	{"code":5000102,"station":"中里(神奈川)","closed":true,"lng":139.249387,"lat":35.308529,"prefecture":14,"postal_code":"259-0131","address":"神奈川県中郡二宮町中里"},
+    	{"code":5000103,"station":"二宮(湘南軌道)","closed":true,"lng":139.257777,"lat":35.298782,"prefecture":14,"postal_code":"259-0123","address":"中郡二宮町二宮"}
+    ]},
+    {"code":99428,"line":"福井鉄道鯖浦線","add": true,"closed":true,"company_code":168,"add_station":[
+    	"鯖江",
+    	{"code":9942802,"station":"東鯖江","closed":true,"prefecture":18,"lng":136.188614,"lat":35.947308},
+    	{"code":9942803,"station":"越前平井","closed":true,"prefecture":18,"lng":136.164614,"lat":35.961670},
+    	{"code":9942804,"station":"川去","closed":true,"prefecture":18,"lng":136.145974,"lat":35.963087},
+    	{"code":9942805,"station":"西田中","closed":true,"prefecture":18,"lng":136.131085,"lat":35.972585},
+    	{"code":9942806,"station":"佐々生","closed":true,"prefecture":18,"lng":136.121250,"lat":35.954142},
+    	{"code":9942807,"station":"陶の谷","closed":true,"prefecture":18,"lng":136.113638,"lat":35.938531},
+    	{"code":9942809,"station":"樫津","closed":true,"prefecture":18,"lng":136.087252,"lat":35.941003},
+    	{"code":9942810,"station":"下江波","closed":true,"prefecture":18,"lng":136.074583,"lat":35.941837},
+    	{"code":9942811,"station":"江波(福井)","closed":true,"prefecture":18,"lng":136.063943,"lat":35.939474},
+    	{"code":9942812,"station":"矢倉(福井)","closed":true,"prefecture":18,"lng":136.059445,"lat":35.949145},
+    	{"code":9942813,"station":"織田","closed":true,"prefecture":18,"lng":136.058806,"lat":35.958557}
+    ]},
+    {"code":99656,"line":"北丹鉄道","add": true,"closed":true,"add_station":[
+    	"福知山",
+    	{"code":9965602,"station":"福知山西","closed":true,"prefecture":26,"lng":135.117472,"lat":35.303530},
+    	{"code":9965603,"station":"下川停留所","closed":true,"prefecture":26,"lng":135.109777,"lat":35.330050},
+    	{"code":9965604,"station":"上天津","closed":true,"prefecture":26,"lng":135.108142,"lat":35.340338},
+    	{"code":9965605,"station":"下天津(北丹鉄道)","closed":true,"prefecture":26,"lng":135.113303,"lat":35.357476},
+    	{"code":9965606,"station":"公庄(北丹鉄道)","closed":true,"prefecture":26,"lng":135.127947,"lat":35.371558},
+    	{"code":9965607,"station":"蓼原停留所","closed":true,"prefecture":26,"lng":135.141279,"lat":35.383145},
+    	{"code":9965608,"station":"河守","closed":true,"prefecture":26,"lng":135.146445,"lat":35.389004}
+    ]},
+    {"code":11725,"line":"倉吉線","name_formal":"国鉄倉吉線","add": true,"closed":true,"add_station":[
+    	"倉吉",
+    	{"code":1172502,"station":"上灘","closed":true,"lng":133.841487,"lat":35.439611,"prefecture":31},
+    	{"code":1172503,"station":"打吹","closed":true,"lng":133.824402,"lat":35.434461,"prefecture":31},
+    	{"code":1172504,"station":"西倉吉","closed":true,"lng":133.804767,"lat":35.427214,"prefecture":31},
+    	{"code":1172505,"station":"小鴨","closed":true,"lng":133.799347,"lat":35.410146,"prefecture":31},
+    	{"code":1172506,"station":"上小鴨","closed":true,"lng":133.786679,"lat":35.398166,"prefecture":31},
+    	{"code":1172507,"station":"関金","closed":true,"lng":133.755550,"lat":35.370777,"prefecture":31},
+    	{"code":1172508,"station":"泰久寺","closed":true,"lng":133.724149,"lat":35.366096,"prefecture":31},
+    	{"code":1172509,"station":"山守","closed":true,"lng":133.709263,"lat":35.360684,"prefecture":31}
+    ]},
+    {"code":99719,"line":"下津井電鉄","add": true,"closed":true,"add_station":[
+    	{"code":9971901,"station":"下津井","closed":true,"lng":133.789556,"lat":34.439004,"prefecture":33},
+    	{"code":9971902,"station":"東下津井","closed":true,"lng":133.802223,"lat":34.441532,"prefecture":33},
+    	{"code":9971903,"station":"鷲羽山","closed":true,"lng":133.806559,"lat":34.440034,"prefecture":33},
+    	{"code":9971904,"station":"琴海","closed":true,"lng":133.808254,"lat":34.447828,"prefecture":33},
+    	{"code":9971905,"station":"阿津","closed":true,"lng":133.803697,"lat":34.455464,"prefecture":33},
+    	{"code":9971906,"station":"備前赤崎","closed":true,"lng":133.799838,"lat":34.458761,"prefecture":33},
+    	{"code":9971907,"station":"児島(下津井電鉄)","closed":true,"lng":133.802171,"lat":34.467200,"prefecture":33},
+    	{"code":9971908,"station":"児島小川","closed":true,"lng":133.799912,"lat":34.481002,"prefecture":33},
+    	{"code":9971909,"station":"柳田(岡山)","closed":true,"lng":133.798701,"lat":34.488197,"prefecture":33},
+    	{"code":9971910,"station":"稗田","closed":true,"lng":133.804301,"lat":34.499198,"prefecture":33},
+    	{"code":9971911,"station":"福田","closed":true,"lng":133.797964,"lat":34.527062,"prefecture":33},
+    	{"code":9971912,"station":"林(岡山)","closed":true,"lng":133.814748,"lat":34.542705,"prefecture":33},
+    	{"code":9971913,"station":"藤戸","closed":true,"lng":133.819731,"lat":34.557524,"prefecture":33},
+    	{"code":9971914,"station":"天城","closed":true,"lng":133.816706,"lat":34.562227,"prefecture":33},
+    	"茶屋町"
+    ]},
+    {"code":11809,"line":"鍛冶屋原線","add": true,"closed":true,"add_station":[
+    	"板野",
+    	{"code":1180902,"station":"犬伏","closed":true,"lng":134.452139,"lat":34.141029,"prefecture":36},
+    	{"code":1180903,"station":"羅漢","closed":true,"lng":134.433087,"lat":34.134115,"prefecture":36},
+    	{"code":1180904,"station":"神宅","closed":true,"lng":134.415028,"lat":34.130807,"prefecture":36},
+    	{"code":1180905,"station":"鍛冶屋原","closed":true,"lng":134.400474,"lat":34.119559,"prefecture":36}
+    ]},
+    {"code":99813,"line":"伊予鉄道森松線","add": true,"closed":true,"add_station":[
+    	{"code":9981301,"station":"伊予立花","closed":true,"lng":132.773326,"lat":33.827560,"prefecture":38},
+    	{"code":9981302,"station":"石井(愛媛)","closed":true,"lng":132.780255,"lat":33.809280,"prefecture":38},
+    	{"code":9981303,"station":"森松","closed":true,"lng":132.788892,"lat":33.790419,"prefecture":38}
+    ]},
+    {"code":11931,"line":"勝田線","name_formal":"国鉄勝田線","add": true,"closed":true,"add_station":[
+    	"吉塚",
+    	{"code":1193102,"station":"御手洗","closed":true,"lng":130.451582,"lat":33.606696,"prefecture":40},
+    	{"code":1193103,"station":"上亀山","closed":true,"lng":130.459642,"lat":33.602196,"prefecture":40},
+    	{"code":1193104,"station":"志免","closed":true,"lng":130.483917,"lat":33.590614,"prefecture":40},
+    	{"code":1193105,"station":"下宇美","closed":true,"lng":130.506139,"lat":33.572974,"prefecture":40},
+    	"宇美",
+    	{"code":1193107,"station":"筑前勝田","closed":true,"lng":130.528475,"lat":33.555198,"prefecture":40}
+    ]},
+    {"code":11932,"line":"宮之城線","name_formal":"国鉄宮之城線","add": true,"closed":true,"add_station":[
+    	"川内(鹿児島)",
+    	{"code":1193202,"station":"薩摩白浜","closed":true,"lng":130.322640,"lat":31.855948,"prefecture":46},
+    	{"code":1193203,"station":"楠元","closed":true,"lng":130.336167,"lat":31.860642,"prefecture":46},
+    	{"code":1193204,"station":"吉野山","closed":true,"lng":130.360001,"lat":31.838059,"prefecture":46},
+    	{"code":1193205,"station":"樋脇","closed":true,"lng":130.380863,"lat":31.820030,"prefecture":46},
+    	{"code":1193206,"station":"上樋脇","closed":true,"lng":130.402114,"lat":31.825364,"prefecture":46},
+    	{"code":1193207,"station":"入来","closed":true,"lng":130.429945,"lat":31.822669,"prefecture":46},
+    	{"code":1193208,"station":"薩摩山崎","closed":true,"lng":130.450556,"lat":31.858020,"prefecture":46},
+    	{"code":1193209,"station":"船木","closed":true,"lng":130.450670,"lat":31.882169,"prefecture":46},
+    	{"code":1193210,"station":"宮之城","closed":true,"lng":130.456916,"lat":31.905365,"prefecture":46},
+    	{"code":1193211,"station":"佐志","closed":true,"lng":130.483557,"lat":31.918751,"prefecture":46},
+    	{"code":1193212,"station":"薩摩湯田","closed":true,"lng":130.473301,"lat":31.931835,"prefecture":46},
+    	{"code":1193213,"station":"薩摩鶴田","closed":true,"lng":130.493111,"lat":31.942835,"prefecture":46},
+    	{"code":1193214,"station":"薩摩求名","closed":true,"lng":130.526714,"lat":31.935201,"prefecture":46},
+    	{"code":1193215,"station":"広橋","closed":true,"lng":130.544110,"lat":31.923807,"prefecture":46},
+    	{"code":1193216,"station":"薩摩永野","closed":true,"lng":130.588251,"lat":31.924754,"prefecture":46},
+    	{"code":1193217,"station":"針持","closed":true,"lng":130.580834,"lat":31.979780,"prefecture":46},
+    	{"code":1193218,"station":"西太良","closed":true,"lng":130.603723,"lat":32.008027,"prefecture":46},
+    	{"code":1193219,"station":"羽月","closed":true,"lng":130.596582,"lat":32.032029,"prefecture":46},
+    	{"code":1193220,"station":"薩摩大口","closed":true,"lng":130.609029,"lat":32.060977,"prefecture":46}
+    ]},
+    {"code":99929,"line":"嘉手納線","name_formal":"沖縄県営鉄道嘉手納線","add": true,"closed":true,"add_station":[
+    	{"code":9992901,"station":"嘉手納","closed":true,"lng":127.755192,"lat":26.362752,"prefecture":47},
+    	{"code":9992902,"station":"城間","closed":true,"lng":127.710279,"lat":26.258114,"prefecture":47},
+    	{"code":9992903,"station":"与儀","closed":true,"lng":127.691919,"lat":26.208863,"prefecture":47}
+    ]},
+    {"code":11201,"line":"JR東北本線(八戸～青森)","comment":"ekidata.jpでは八戸しか登録されていない","closed":true,"add_station":[
+      "陸奥市川","下田","向山","三沢(青森)","小川原","上北町","乙供","千曳","野辺地","狩場沢","清水川","小湊","西平内","浅虫温泉","野内","矢田前","小柳(青森)","東青森","青森"
+    ]},
+    {"code":11405,"line":"JR北陸本線(富山～直江津)","closed":true,"add_station":[
+      "富山","東富山","水橋","滑川","東滑川","魚津","黒部","生地","西入善","入善","泊(富山)","越中宮崎","市振","親不知","青海(新潟)","糸魚川","梶屋敷","浦本","能生","筒石","名立","有間川","谷浜","直江津"
     ]}
+  ]
+},
+
+
+{
+  "date":20200228,
+  "comment":"駅メモでは未実装な廃駅・廃線",
+  "data":[
+
+
+    {
+      "comment":"近鉄から分離した路線、近鉄の廃線として登録されているが駅メモでは未登録.廃線の近鉄路線は抹消したのち、駅コードも移管後の路線コードに合わせる",
+      "data":[
+        {"code":31006,"line":"近鉄伊賀線","remove":true},
+        {"code":3100602,"recode":9953102,"station":"新居"},
+        {"code":3100603,"recode":9953103,"station":"西大手"},
+        {"code":3100604,"recode":9953104,"station":"上野市"},
+        {"code":3100605,"recode":9953105,"station":"広小路","rename":"広小路(三重)"},
+        {"code":3100606,"recode":9953106,"station":"茅町"},
+        {"code":3100607,"recode":9953107,"station":"桑町"},
+        {"code":3100608,"recode":9953108,"station":"猪田道"},
+        {"code":3100609,"recode":9953109,"station":"市部"},
+        {"code":3100610,"recode":9953110,"station":"依那古"},
+        {"code":3100611,"recode":9953111,"station":"丸山","rename":"丸山(三重)"},
+        {"code":3100612,"recode":9953112,"station":"上林"},
+        {"code":3100613,"recode":9953113,"station":"比土"},
+
+        {"code":31004,"line":"近鉄養老線","remove":true},
+        {"code":3100402,"recode":9953202,"station":"播磨"},
+        {"code":3100403,"recode":9953203,"station":"下深谷"},
+        {"code":3100404,"recode":9953204,"station":"下野代"},
+        {"code":3100405,"recode":9953205,"station":"多度"},
+        {"code":3100406,"recode":9953206,"station":"美濃松山"},
+        {"code":3100407,"recode":9953207,"station":"石津","rename":"石津(岐阜)"},
+        {"code":3100408,"recode":9953208,"station":"美濃山崎"},
+        {"code":3100409,"recode":9953209,"station":"駒野"},
+        {"code":3100410,"recode":9953210,"station":"美濃津屋"},
+        {"code":3100411,"recode":9953211,"station":"養老"},
+        {"code":3100412,"recode":9953212,"station":"美濃高田"},
+        {"code":3100413,"recode":9953213,"station":"烏江"},
+        {"code":3100414,"recode":9953214,"station":"大外羽"},
+        {"code":3100415,"recode":9953215,"station":"友江"},
+        {"code":3100416,"recode":9953216,"station":"美濃青柳"},
+        {"code":3100417,"recode":9953217,"station":"西大垣"},
+        {"code":3100419,"recode":9953219,"station":"室"},
+        {"code":3100420,"recode":9953220,"station":"北大垣"},
+        {"code":3100421,"recode":9953221,"station":"東赤坂"},
+        {"code":3100422,"recode":9953222,"station":"広神戸"},
+        {"code":3100423,"recode":9953223,"station":"北神戸"},
+        {"code":3100424,"recode":9953224,"station":"池野"},
+        {"code":3100425,"recode":9953225,"station":"北池野"},
+        {"code":3100426,"recode":9953226,"station":"美濃本郷"},
+        {"code":3100427,"recode":9953227,"station":"揖斐"}
+      
+
+      ]
+    },
+    {
+      "comment":"廃線となるも駅メモ未実装",
+      "data":[
+        {"code":99107,"line":"ふるさと銀河線","remove":true,"comment":"旧国鉄池北線、2006年廃止"},
+        {"code":9910702,"station":"様舞","remove":true},
+        {"code":9910703,"station":"高島","remove":true},
+        {"code":9910704,"station":"大森","remove":true},
+        {"code":9910705,"station":"勇足","remove":true},
+        {"code":9910706,"station":"南本別","remove":true},
+        {"code":9910707,"station":"岡女堂","remove":true},
+        {"code":9910708,"station":"本別","remove":true},
+        {"code":9910709,"station":"仙美里","remove":true},
+        {"code":9910710,"station":"足寄","remove":true},
+        {"code":9910711,"station":"愛冠","remove":true},
+        {"code":9910712,"station":"西一線","remove":true},
+        {"code":9910713,"station":"塩幌","remove":true},
+        {"code":9910714,"station":"上利別","remove":true},
+        {"code":9910715,"station":"笹森","remove":true},
+        {"code":9910716,"station":"大誉地","remove":true},
+        {"code":9910717,"station":"薫別","remove":true},
+        {"code":9910718,"station":"陸別","remove":true},
+        {"code":9910719,"station":"分線","remove":true},
+        {"code":9910720,"station":"川上","remove":true},
+        {"code":9910721,"station":"小利別","remove":true},
+        {"code":9910722,"station":"置戸","remove":true},
+        {"code":9910723,"station":"豊住","remove":true},
+        {"code":9910724,"station":"境野","remove":true},
+        {"code":9910725,"station":"西訓子府","remove":true},
+        {"code":9910726,"station":"西富","remove":true},
+        {"code":9910727,"station":"訓子府","remove":true},
+        {"code":9910728,"station":"穂波","remove":true},
+        {"code":9910729,"station":"日ノ出","remove":true},
+        {"code":9910730,"station":"広郷","remove":true},
+        {"code":9910731,"station":"上常呂","remove":true},
+        {"code":9910732,"station":"北光社","remove":true},
+
+        {"code":99212,"line":"くりはら田園鉄道線","remove":true,"comment":"旧栗原電鉄、2007年廃止"},
+        {"code":9921202,"station":"荒町","remove":true},
+        {"code":9921203,"station":"若柳","remove":true},
+        {"code":9921204,"station":"谷地畑","remove":true},
+        {"code":9921205,"station":"大岡小前","remove":true},
+        {"code":9921206,"station":"大岡","remove":true},
+        {"code":9921207,"station":"沢辺","remove":true},
+        {"code":9921208,"station":"津久毛","remove":true},
+        {"code":9921209,"station":"杉橋","remove":true},
+        {"code":9921210,"station":"鳥矢崎","remove":true},
+        {"code":9921211,"station":"栗駒","remove":true},
+        {"code":9921212,"station":"栗原田町","remove":true},
+        {"code":9921213,"station":"尾松","remove":true},
+        {"code":9921214,"station":"鶯沢","remove":true},
+        {"code":9921215,"station":"鶯沢工業高校前","remove":true},
+        {"code":9921216,"station":"細倉マインパーク前","remove":true},
+        
+        {"code":99322,"line":"鹿島鉄道線","remove":true},
+        {"code":9932201,"station":"鉾田","remove":true},
+        {"code":9932202,"station":"坂戸","remove":true},
+        {"code":9932203,"station":"巴川","remove":true},
+        {"code":9932204,"station":"借宿前","remove":true},
+        {"code":9932205,"station":"榎本","remove":true},
+        {"code":9932206,"station":"玉造町","remove":true},
+        {"code":9932207,"station":"浜","remove":true},
+        {"code":9932208,"station":"八木蒔","remove":true},
+        {"code":9932209,"station":"桃浦","remove":true},
+        {"code":9932210,"station":"小川高校下","remove":true},
+        {"code":9932211,"station":"常陸小川","remove":true},
+        {"code":9932212,"station":"四箇村","remove":true},
+        {"code":9932213,"station":"新高浜","remove":true},
+        {"code":9932214,"station":"玉里","remove":true},
+        {"code":9932215,"station":"東田中","remove":true},
+        {"code":9932216,"station":"石岡南台","remove":true},
+
+        {"code":11420,"line":"敦賀港線","remove":true},
+        {"code":1142002,"station":"敦賀港","remove":true},
+
+        {"code":30019,"line":"犬山モノレール","remove":true},
+        {"code":3001902,"station":"成田山","remove":true},
+        {"code":3001903,"station":"動物園","remove":true},
+
+        {"code":99519,"line":"ピーチライナー","remove":true},
+        {"code":9951903,"station":"東田中","remove":true},
+        {"code":9951904,"station":"上末","remove":true},
+        {"code":9951905,"station":"桃花台西","remove":true},
+        {"code":9951906,"station":"桃花台センター","remove":true},
+        {"code":9951907,"station":"桃花台東","remove":true},
+
+        
+        {"code":99411,"line":"神岡鉄道神岡線","remove":true,"comment":"旧国鉄神岡線から3セクに転換後、2006年廃止"},
+        {"code":9941102,"station":"飛騨中山","remove":true},
+        {"code":9941103,"station":"茂住","remove":true},
+        {"code":9941104,"station":"漆山","remove":true},
+        {"code":9941105,"station":"神岡鉱山前","remove":true},
+        {"code":9941106,"station":"飛騨神岡","remove":true},
+        {"code":9941107,"station":"神岡大橋","remove":true},
+        {"code":9941108,"station":"奥飛騨温泉口","remove":true},
+        
+        {"code":99522,"line":"豊橋鉄道運動公園前線","closed":false,"comment":"なぜか廃線あつかい？"}
+      ]
+    },
+
+    {
+      "comment":"2019年、山田線の宮古～釜石間の三陸鉄道への移管により、この区間の駅は山田線所属ではなくなった.ekidata.jpでは三陸鉄道の同名駅とは別扱いの廃駅として登録されているが、駅メモでは存在しない",
+      "data":[
+        {"code":1121319,"station":"磯鶏","remove":true},
+        {"code":1121320,"station":"津軽石","remove":true},
+        {"code":1121321,"station":"豊間根","remove":true},
+        {"code":1121322,"station":"陸中山田","remove":true},
+        {"code":1121323,"station":"織笠","remove":true},
+        {"code":1121324,"station":"岩手船越","remove":true},
+        {"code":1121325,"station":"浪板海岸","remove":true},
+        {"code":1121326,"station":"吉里吉里","remove":true},
+        {"code":1121327,"station":"大槌","remove":true},
+        {"code":1121328,"station":"鵜住居","remove":true},
+        {"code":1121329,"station":"両石","remove":true},
+        {"code":11213,"line":"JR山田線","remove_station":["釜石"]}
+      ]
+    },
+    {
+      "comment":"島原鉄道の島原港より先の区間は2008年に廃止、駅メモ未実装",
+      "data":[
+        {"code":9991225,"station":"秩父が浦","remove":true},
+        {"code":9991226,"station":"安徳","remove":true},
+        {"code":9991227,"station":"瀬野深江","remove":true},
+        {"code":9991228,"station":"深江","remove":true},
+        {"code":9991229,"station":"布津新田","remove":true},
+        {"code":9991230,"station":"布津","remove":true},
+        {"code":9991231,"station":"堂崎","remove":true},
+        {"code":9991232,"station":"蒲河","remove":true},
+        {"code":9991233,"station":"有家","remove":true},
+        {"code":9991234,"station":"西有家","remove":true},
+        {"code":9991235,"station":"龍石","remove":true},
+        {"code":9991236,"station":"北有馬","remove":true},
+        {"code":9991237,"station":"常光寺前","remove":true},
+        {"code":9991238,"station":"浦田観音","remove":true},
+        {"code":9991239,"station":"原城","remove":true},
+        {"code":9991240,"station":"有馬吉川","remove":true},
+        {"code":9991241,"station":"東大屋","remove":true},
+        {"code":9991242,"station":"口之津","remove":true},
+        {"code":9991243,"station":"白浜海水浴場前","remove":true},
+        {"code":9991244,"station":"加津佐","remove":true}
+
+      ]
+    },
+    {
+      "comment":"未実装の廃駅",
+      "data":[
+        {"code":3000312,"station":"鎌谷","remove":true},
+        {"code":3000314,"station":"三河荻原","remove":true},
+
+        {"code":3001402,"station":"弥富口","remove":true},
+
+        {"code":3000909,"station":"椋岡","remove":true},
+        {"code":3000919,"station":"布土","remove":true},
+
+        {"code":9963205,"station":"菊水山","remove":true},
+        {"code":9963216,"station":"新有馬","remove":true},
+
+        {"code":3600411,"station":"古賀ゴルフ場前","remove":true},
+        {"code":3600412,"station":"西鉄古賀","remove":true},
+        {"code":3600413,"station":"花見","remove":true},
+        {"code":3600414,"station":"西鉄福間","remove":true},
+        {"code":3600415,"station":"宮地岳","remove":true},
+        {"code":3600416,"station":"津屋崎","remove":true},
+
+        {"code":1111116,"station":"静内海水浴場","remove":true},
+
+        {"code":1120608,"station":"プレイピア白浜","remove":true},
+
+        {"code":1121711,"station":"西仙台ハイランド","remove":true},
+        {"code":1121713,"station":"八ツ森","remove":true},
+
+        {"code":1161605,"station":"きりはまビーチ","remove":true},
+
+        {"code":1111314,"station":"浜中海水浴場","remove":true,"comment":"留萌本線の留萌～増毛廃線区間にある臨時駅"},
+   
+        {"code":9941617,"station":"中鶴来","remove":true},
+        {"code":9941618,"station":"加賀一の宮","remove":true}
+      ]
+    }
+  ]
+},
+
+
+
+{
+  "comment":"東日本大震災によりBRTへ変換された区間",
+  "date":20170331,
+  "url":"https://ekimemo.com/news/20170331141000_1",
+  "data":[
+    {
+      "comment":"JR大船渡線の不通区間を走るBRT駅のうち既存駅と同名のもの",
+      "data":[
+        {"code":1120815,"station":"鹿折唐桑","lng":141.580968,"lat":38.915610},
+        {"code":1120816,"station":"上鹿折","lng":141.566825,"lat":38.960166},
+        {"code":1120817,"station":"陸前矢作","lng":141.579459,"lat":39.022659},
+        {"code":1120818,"station":"竹駒","lng":141.609488,"lat":39.033909},
+        {"code":1120819,"station":"陸前高田","lng":141.629226,"lat":39.014919},
+        {"code":1120820,"station":"脇ノ沢","lng":141.671756,"lat":39.011886},
+        {"code":1120821,"station":"小友","lng":141.699531,"lat":38.989292},
+        {"code":1120822,"station":"細浦","lng":141.713725,"lat":39.016027},
+        {"code":1120823,"station":"下船渡","lng":141.720865,"lat":39.038329},
+        {"code":1120824,"station":"大船渡","lng":141.720807,"lat":39.063550},
+        {"code":11208,"line":"ドラゴンレール大船渡線","rename":"JR大船渡線(ドラゴンレール大船渡線)", "comment":"JR大船渡線の不通区間を走るBRT新設駅","add_station":[
+          {"code":1120826,"station":"八幡大橋（東陵高校）","lng":141.585300,"lat":38.920964,"prefecture":4},
+          {"code":1120827,"station":"唐桑大沢","lng":141.631470,"lat":38.961776,"prefecture":4},
+          {"code":1120828,"station":"長部","lng":141.618657,"lat":38.986110,"prefecture":3},
+          {"code":1120829,"station":"陸前今泉","prefecture":3,"lng":141.613479,"lat":39.004122,"comment":"新規追加","date":20200228},
+          {"code":1120830,"station":"奇跡の一本松","lng":141.627134,"lat":39.007864,"prefecture":3},
+          {"code":1120831,"station":"栃ヶ沢公園","lng":141.625438,"lat":39.026988,"prefecture":3},
+          {"code":1120832,"station":"まちなか陸前高田","closed":true,"lng":141.630296,"lat":39.015483,"prefecture":3},
+          {"code":1120833,"station":"高田高校前","lng":141.640223,"lat":39.016279,"prefecture":3,"comment":"座標更新","date":20190329},
+          {"code":1120834,"station":"高田病院","lng":141.641608,"lat":39.025507,"prefecture":3},
+          {"code":1120835,"station":"西下","lng":141.688578,"lat":39.001384,"prefecture":3},
+          {"code":1120836,"station":"碁石海岸口","lng":141.711049,"lat":39.002760,"prefecture":3,"comment":"座標修正(20190426では修正前の情報を参照してた？)","date":"20190524"},
+          {"code":1120837,"station":"大船渡丸森","prefecture":3,"lng":141.712638,"lat":39.028716,"comment":"新規追加","date":20200228},
+          {"code":1120838,"station":"大船渡魚市場前","lng":141.720752,"lat":39.051280,"prefecture":3},
+          {"code":1120839,"station":"地ノ森","prefecture":3,"lat":39.071676,"lng":141.718181,"comment":"新規追加","date":20200228},
+          {"code":1120840,"station":"田茂山","prefecture":3,"lng":141.713408,"lat":39.080179,"comment":"新規追加","date":20200228}
+        ]}
+      ]
+    },
+    
+    {
+      "comment":"JR気仙沼線の不通区間を走るBRT駅のうち既存駅と同名のもの（BRT駅のうち既存駅と同名なもの一部駅は旧鉄道の位置と離れているため新しい座標を反映",
+      "data":[
+        {"code":1122406,"station":"柳津","lng":141.306369,"lat":38.611869,"rename":"柳津(宮城)"},
+        {"code":1122407,"station":"陸前横山","lng":141.354200,"lat":38.631022},
+        {"code":1122408,"station":"陸前戸倉","lng":141.433373,"lat":38.647755},
+        {"code":1122409,"station":"志津川","lng":141.449628,"lat":38.676668},
+        {"code":1122410,"station":"清水浜","lng":141.489625,"lat":38.691892,"date":20190628,"comment":"座標修正"},
+        {"code":1122411,"station":"歌津","lng":141.519751,"lat":38.718299,"date":20190628,"comment":"座標修正"},
+        {"code":1122412,"station":"陸前港","lng":141.531026,"lat":38.739204},
+        {"code":1122413,"station":"蔵内","lng":141.525003,"lat":38.753579},
+        {"code":1122414,"station":"陸前小泉","lng":141.509176,"lat":38.765547},
+        {"code":1122415,"station":"本吉","lng":141.502619,"lat":38.786740},
+        {"code":1122416,"station":"小金沢","lng":141.533989,"lat":38.796362},
+        {"code":1122417,"station":"大谷海岸","lng":141.567141,"lat":38.814268},
+        {"code":1122418,"station":"陸前階上","lng":141.580275,"lat":38.837434},
+        {"code":1122419,"station":"最知","lng":141.581270,"lat":38.853379},
+        {"code":1122420,"station":"松岩","lng":141.583141,"lat":38.873700},
+        {"code":1122421,"station":"南気仙沼","lng":141.567321,"lat":38.894765},
+        {"code":1122422,"station":"不動の沢","lng":141.562678,"lat":38.898486},
+        {"code":11224,"line":"JR気仙沼線","comment":"東日本大震災の影響による不通区間を走るBRTの新設駅","add_station":[
+          {"code":1122424,"station":"南三陸町役場・病院前","lng":141.462452,"lat":38.678776,"prefecture":4},
+          {"code":1122425,"station":"赤岩港","prefecture":4,"comment":"新規追加","date":20200228,"lng":141.582468,"lat":38.884380},
+          {"code":1122426,"station":"気仙沼市立病院","lng":141.565670,"lat":38.887597,"prefecture":4},
+          {"code":1122427,"station":"志津川中央団地","lng":141.450742,"lat":38.683806,"prefecture":4},
+          {"code":1122428,"station":"岩月","lng":141.584078,"lat":38.862282,"prefecture":4}
+        ]}
+        
+      ]
+    }
   ]
 },
 
 {
   "comment":"駅データ.jpには未登録の駅メモ実装路線",
   "data":[
-    {"code":50030,"line":"ディズニーリゾートライン線","add": true,"add_station":[
-      {"code":5000247,"station":"リゾートゲートウェイ・ステーション","lon":139.885141,"lat":35.635269},
-      {"code":5000248,"station":"東京ディズニーランド・ステーション","lon":139.878646,"lat":35.635891},
-      {"code":5000249,"station":"ベイサイド・ステーション","lon":139.876414,"lat":35.627947},
-      {"code":5000250,"station":"東京ディズニーシー・ステーション","lon":139.889468,"lat":35.627394}
+    {"code":99345,"line":"ディズニーリゾートライン線","name_formal":"舞浜リゾートラインディズニーリゾートライン線","add": true,"add_station":[
+      {"code":9934501,"station":"リゾートゲートウェイ・ステーション","lng":139.885141,"lat":35.635269,"prefecture":12,"postal_code":"279-0031","address":"千葉県浦安市舞浜"},
+      {"code":9934502,"station":"東京ディズニーランド・ステーション","lng":139.878646,"lat":35.635891,"prefecture":12,"postal_code":"279-0031","address":"千葉県浦安市舞浜"},
+      {"code":9934503,"station":"ベイサイド・ステーション","lng":139.876414,"lat":35.627947,"prefecture":12,"postal_code":"279-0031","address":"千葉県浦安市舞浜"},
+      {"code":9934504,"station":"東京ディズニーシー・ステーション","lng":139.889468,"lat":35.627394,"prefecture":12,"postal_code":"279-0031","address":"千葉県浦安市舞浜"}
     ]},
     {
-      "comment":"駅メモでは四日市駅は同一駅扱い",
+      "comment":"駅メモでは別路線扱い",
       "data":[
-        {"code":31014,"line":"八王子線","rename":"近鉄八王子線","add_station":["近鉄四日市（あすなろう四日市）"],"remove_station":["あすなろう四日市"]},
-        {"code":50031,"line":"四日市あすなろう鉄道内部線","add": true,"add_station":[
+        {"code":31013,"line":"内部線","rename":"四日市あすなろう鉄道内部線","add_station":["近鉄四日市（あすなろう四日市）"],"remove_station":["あすなろう四日市"]},
+        {"code":31014,"line":"八王子線","rename":"四日市あすなろう鉄道八王子線","remove_station":["あすなろう四日市","赤堀"]},
+
+        {"code":31028,"line":"近鉄内部線","name_formal":"近鉄内部線","company_code":21,"add": true,"add_station":[
           "近鉄四日市（あすなろう四日市）","赤堀","日永","南日永","泊(三重)","追分(三重)","小古曽","内部"
         ]},
         {"code":3100801,"station":"近鉄四日市","rename":"近鉄四日市（あすなろう四日市）"},
-        {"code":3101301,"station":"あすなろう四日市","remove":true}
+        {"code":3101301,"station":"あすなろう四日市","remove":true},
+        {"code":31029,"line":"近鉄八王子線","name_formal":"近鉄八王子線","company_code":21,"add": true,"add_station":[
+          "近鉄四日市（あすなろう四日市）","赤堀","日永","西日野"
+        ]}
       ]
     },
-    {"code":50032,"line":"四日市あすなろう鉄道八王子線","add": true,"add_station":[
-      "日永","西日野"
-    ]},
-    {"code":50033,"line":"北近畿タンゴ鉄道宮津線","add": true,"add_station":[
+    {"code":99654,"line":"北近畿タンゴ鉄道宮津線","name_formal":"北近畿タンゴ鉄道宮津線","add": true,"add_station":[
       "西舞鶴","四所","東雲(京都)","丹後神崎","丹後由良","栗田","宮津","天橋立","岩滝口","与謝野","京丹後大宮","峰山","網野","夕日ヶ浦木津温泉","小天橋","かぶと山","久美浜","コウノトリの郷","豊岡(兵庫)"
     ]},
-    {"code":50034,"line":"北近畿タンゴ鉄道宮福線","add": true,"add_station":[
+    {"code":99655,"line":"北近畿タンゴ鉄道宮福線","name_formal":"北近畿タンゴ鉄道宮福線","add": true,"add_station":[
       "福知山","福知山市民病院口","荒河かしの木台","牧(京都)","下天津(京都丹後鉄道)","公庄(京都丹後鉄道)","大江(京都)","大江高校前","二俣","大江山口内宮","辛皮","喜多","宮村","宮津"
     ]},
     {"code":9960805,"station":"下天津","rename":"下天津(京都丹後鉄道)"},
     {"code":9960806,"station":"公庄","rename":"公庄(京都丹後鉄道)"},
-    {"code":50035,"line":"上野懸垂線(上野動物園モノレール)","add": true,"add_station":[
-      {"code":5000251,"station":"東園(東京)","lon":139.770141,"lat":35.715835},
-      {"code":5000252,"station":"西園","lon":139.769722,"lat":35.714308}
+    {"code":99346,"line":"上野懸垂線(上野動物園モノレール)","name_formal":"上野懸垂線","company_code":119,"add": true,"add_station":[
+      {"code":9934601,"station":"東園(東京)","lng":139.770141,"lat":35.715835,"prefecture":13,"postal_code":"110-0007","address":"東京都台東区上野公園９"},
+      {"code":9934602,"station":"西園","lng":139.769722,"lat":35.714308,"prefecture":13,"postal_code":"110-0007","address":"東京都台東区上野公園３"}
     ]},
-    {"code":50026,"line":"JR仙石東北ライン","add": true,"add_station":[
+    {"code":11232,"line":"JR仙石東北ライン","name_formal":"JR仙石東北ライン","company_code":2,"add": true,"add_station":[
       "仙台(JR)","東仙台","岩切","陸前山王","国府多賀城","塩釜","高城町","野蒜","陸前小野","矢本","陸前赤井","蛇田","陸前山下","石巻"
-    ]},
-    {"code":50036,"line":"JR東北本線(八戸～青森)","add": true,"closed":true,"add_station":[
-    "八戸","陸奥市川","下田","向山","三沢(青森)","小川原","上北町","乙供","千曳","野辺地","狩場沢","清水川","小湊","西平内","浅虫温泉","野内","矢田前","小柳(青森)","東青森","青森"
-    ]},
-    {"code":50037,"line":"JR北陸本線(富山～直江津)","add": true,"closed":true,"add_station":[
-    "富山","東富山","水橋","滑川","東滑川","魚津","黒部","生地","西入善","入善","泊(富山)","越中宮崎","市振","親不知","青海(新潟)","糸魚川","梶屋敷","浦本","能生","筒石","名立","有間川","谷浜","直江津"
-    ]},
-    {"code":50038,"line":"豊橋鉄道運動公園前線","add": true,"add_station":[
-    "井原(愛知)","運動公園前(愛知)"
     ]}
   ]
 },    
@@ -1739,9 +2038,7 @@
 {
   "comment":"路線に登録された駅の調整",
   "data":[
-    {"code":24007,"line":"京王新線","remove":true,"remove_station":[
-      "新線新宿","初台","幡ヶ谷","笹塚"
-    ],"comment":"京王線の新線（都営新宿線へ直通する路線）は京王京王線と同一視されて実装されている"},
+    {"code":24007,"line":"京王新線","remove":true,"comment":"京王線の新線（都営新宿線へ直通する路線）は京王京王線と同一視されて実装されている"},
     {"code":2400701,"station":"新線新宿","remove":true},
 
     {"code":11328,"line":"JR成田エクスプレス", "add_station":["佐倉"]},
@@ -1755,7 +2052,24 @@
       "電鉄富山駅・エスタ前","富山駅","中町","荒町","桜橋(富山)","電気ビル前","地鉄ビル前","新富町(富山)","県庁前(富山)"
     ],"add_station":["西町"]},
     {"code":9992525,"station":"郡元南","remove":true},
-    {"code":99108,"line":"道南いさりび鉄道線","remove_station":["函館"]}
+    {"code":99108,"line":"道南いさりび鉄道線","remove_station":["函館"]},
+    
+    {"code":31001,"line":"近鉄難波線","remove_station":[
+      "鶴橋","今里(近畿日本鉄道)","布施"
+    ]},
+    
+    {
+      "comment":"川越線の一部（川越～大宮）が埼京線に追加されているが、駅メモでは川越線のみの登録、相鉄線の直通運転開始と関係か？",
+      "data":[
+        {"code":29003,"line":"相鉄・JR直通線","rename":"相鉄新横浜線"},
+        {"code":11321,"line":"JR埼京線","remove_station":["日進(埼玉)","指扇","南古谷","川越" ]},
+        {"code":1132120,"recode":1132202,"station":"日進","rename":"日進(埼玉)"},
+        {"code":1132121,"recode":1132203,"station":"指扇"},
+        {"code":1132122,"recode":1132204,"station":"南古谷"},
+        {"code":1132123,"recode":1132205,"station":"川越"}
+
+      ]
+    }
   ]
 },
 
@@ -1763,9 +2077,7 @@
 {
   "comment":"箱根登山ケーブルカーは未実装",
   "data":[
-    {"code":99344,"line":"箱根登山ケーブルカー","remove":true,"remove_station":[
-      "強羅","公園下","公園上","中強羅","上強羅","早雲山"
-    ]},
+    {"code":99344,"line":"箱根登山ケーブルカー","remove":true},
     {"code":9934402,"station":"公園下","remove":true},
     {"code":9934403,"station":"公園上","remove":true},
     {"code":9934404,"station":"中強羅","remove":true},
@@ -1777,95 +2089,15 @@
 
 
 {
-  "comment":"ヶケがが含まれる？と予想ほかにもありそう…距離が近い＆駅名が似てるを頼りに9000^2以上の組み合わせを全数チェック",
-  "data":[
-
-    {"code":1131315,"station":"市ケ谷","rename":"市ケ谷(市ヶ谷)","lon":139.735238,"lat":35.691107},
-    {"code":9930404,"station":"市ヶ谷","remove":true},
-    {"code":99304,"line":"都営新宿線","remove_station":["市ヶ谷"],"add_station":["市ケ谷(市ヶ谷)"]},
-
-    {"code":1162610,"station":"三国ケ丘","remove":true}, 
-    {"code":3200713,"station":"三国ヶ丘","lon":135.492746,"lat":34.566318},
-    {"code":11626,"line":"阪和線(天王寺～和歌山)","rename":"JR阪和線(天王寺～和歌山)",
-    "remove_station":["三国ケ丘"],"add_station":["三国ヶ丘"]},
-
-    {"code":2100203,"station":"押上〈スカイツリー前〉","remove":true},
-    {"code":21002,"line":"東武伊勢崎線","remove_station":["押上〈スカイツリー前〉"],"add_station":["押上（スカイツリー前）"]},
-    {"code":28008,"line":"東京メトロ半蔵門線","remove_station":["押上〈スカイツリー前〉"],"add_station":["押上（スカイツリー前）"]},
-
-    {"code":1120245,"station":"鷹ノ巣","rename":"鷹ノ巣(鷹巣)"},
-    {"code":9920901,"station":"鷹巣","remove":true},
-    {"code":99209,"line":"秋田内陸縦貫鉄道","remove_station":["鷹巣"],"add_station":["鷹ノ巣(鷹巣)"]},
-
-    {"code":1192515,"station":"人吉","rename":"人吉(人吉温泉)"},
-    {"code":9992001,"station":"人吉温泉","remove":true},
-    {"code":99920,"line":"湯前線","rename":"くま川鉄道湯前線","remove_station":["人吉温泉"],"add_station":["人吉(人吉温泉)"]},
-
-    {"code":3400116,"station":"神戸三宮","remove":true},
-    {"code":9963001,"station":"三宮","rename":"三宮(神戸三宮)","lon":135.195106,"lat":34.693507},
-    {"code":34001,"line":"阪急神戸本線","remove_station":["神戸三宮"],"add_station":["三宮(神戸三宮)"]},
-    {"code":35001,"line":"阪神本線","remove_station":["神戸三宮"],"add_station":["三宮(神戸三宮)"]},
-
-    {"code":9980801,"station":"松山市駅前","rename":"松山市駅"},
-    {"code":1130113,"station":"二宮","rename":"二宮(JR)"}
-  ]
-},
-{
-  "comment":"駅名中のJRは基本半角",
-  "data":[
-    {"code":1164104,"station":"ＪＲ俊徳道","rename":"JR俊徳道"},
-    {"code":1161705,"station":"ＪＲ三山木","rename":"JR三山木"},
-    {"code":1161804,"station":"ＪＲ藤森","rename":"JR藤森"},
-    {"code":1161810,"station":"ＪＲ小倉","rename":"JR小倉"},
-    {"code":1164103,"station":"ＪＲ河内永和","rename":"JR河内永和"},
-    {"code":1164105,"station":"ＪＲ長瀬","rename":"JR長瀬"},
-    {"code":1163605,"station":"ＪＲ五位堂","rename":"JR五位堂"},
-    {"code":1160722,"station":"ＪＲ難波","rename":"JR難波"},
-    {"code":1171005,"station":"児島","rename":"児島(JR)"},
-    {"code":11607,"line":"大和路線","rename":"JR関西本線(大和路線)(加茂～ＪＲ難波)","comment":"何故かここだけ全角ＪＲ"}
-  ]
-},
-
-{
-  "comment":"座標修正、反映済み",
-  "url":"https://ekimemo.com/news/20160701160000_1",
-  "date":20160701,
-  "data":[]
-},
-
-{
-  "comment":"駅名変更 同一駅名の表示に関する改定　反映済み",
-  "date":20161020,
-  "url":"https://ekimemo.com/news/20161020170000_1",
-  "data":[]
-},
-
-{
-  "comment":"廃駅更新 JR留萌本線（留萌～増毛）が廃線にそれに伴う廃駅属性の更新　反映済み",
-  "date":20161205,
-  "url":"https://ekimemo.com/news/20161205110000_1",
-  "data":[]
-},
-
-
-{
   "comment":"駅名改称 => 西新湊駅（旧：射水市新湊庁舎前駅） 反映済み  駅名修正 => JR久留里線　祗園->祇園(千葉) しめすへんの表記がネ,示で揺れているが（駅メモではネ）文字コード(U+7947)は同一で表記はフォント依存 参考：https://glyphwiki.org/wiki/u7947 なお祗(U+7957),祇は別の文字である",
   "date":20161222,
   "url":"https://ekimemo.com/news/20161222103000_1",
   "data":[
-    {"code":9941419,"station":"西新湊","lon":137.078505,"lat":36.781234},
-    {"code":9981732,"station":"デンテツターミナルビル前","lon":133.544081,"lat":33.559332},
-    {"code":9981906,"station":"桟橋通一丁目","lon":133.546241,"lat":33.550108},
-    {"code":1160918,"station":"はりま勝原","lon":134.613855,"lat":34.810071}
+    {"code":9941419,"station":"西新湊","lng":137.078505,"lat":36.781234},
+    {"code":9981732,"station":"デンテツターミナルビル前","lng":133.544081,"lat":33.559332},
+    {"code":9981906,"station":"桟橋通一丁目","lng":133.546241,"lat":33.550108},
+    {"code":1160918,"station":"はりま勝原","lng":134.613855,"lat":34.810071}
   ]
-},
-
-
-{
-  "comment":"新駅追加 河戸帆待川,あき亀山,寺家 反映済み",
-  "date":20170307,
-  "uel":"https://ekimemo.com/news/20170307174500_2",
-  "data":[]
 },
 
 {
@@ -1873,10 +2105,10 @@
   "url":"https://ekimemo.com/news/20170331141000_1",
   "comment":"R大船渡線・気仙沼線のBRT駅を追加=>反映済み 駅名変更=>反映済み 廃駅更新=>反映済み 座標修正=>",
   "data":[
-    {"code":9960203,"station":"スクリーン","lon":136.267206,"lat":35.233142},
-    {"code":1160822,"station":"須磨海浜公園","lon":135.126675,"lat":34.647185,"lines":[11608]},
-    {"code":1190322,"station":"筑後船小屋","lon":130.491529,"lat":33.178058,"lines":[11903]},
-    {"code":2700207,"station":"羽田空港国際線ターミナル","lon":139.767214,"lat":35.544915}
+    {"code":9960203,"station":"スクリーン","lng":136.267206,"lat":35.233142},
+    {"code":1160822,"station":"須磨海浜公園","lng":135.126675,"lat":34.647185,"lines":[11608]},
+    {"code":1190322,"station":"筑後船小屋","lng":130.491529,"lat":33.178058,"lines":[11903]},
+    {"code":2700207,"station":"羽田空港国際線ターミナル","lng":139.767214,"lat":35.544915}
   ]
 },
 
@@ -1885,7 +2117,7 @@
   "uel":"https://ekimemo.com/news/20170428120000_1",
   "comment":"駅名変更 「 東山(岡山)」→「東山・おかでんミュージアム駅」 反映済み 座標修正=>",
   "data":[
-    {"code":9920717,"station":"十府ヶ浦海岸","lon":141.824171,"lat":40.096834}
+    {"code":9920717,"station":"十府ヶ浦海岸","lng":141.824171,"lat":40.096834}
   ]
 },
 
@@ -1895,9 +2127,9 @@
   "comment":"駅追加  東武ワールドスクウェア 駅データ.jp反映済み その他駅名修正と座標修正",
   "data":[
     {"code":2100217,"station":"獨協大学前駅〈草加松原〉","rename":"獨協大学前〈草加松原〉"},
-    {"code":1123022,"station":"新地","lon":140.925648,"lat":37.879250},
-    {"code":1123023,"station":"坂元","lon":140.900938,"lat":37.924330},
-    {"code":1123024,"station":"山下(宮城)","lon":140.888995,"lat":37.966472}
+    {"code":1123022,"station":"新地","lng":140.925648,"lat":37.879250},
+    {"code":1123023,"station":"坂元","lng":140.900938,"lat":37.924330},
+    {"code":1123024,"station":"山下(宮城)","lng":140.888995,"lat":37.966472}
   ]
 },
 
@@ -1906,10 +2138,10 @@
   "url":"https://ekimemo.com/news/20170731100000_1",
   "comment":"座標修正",
   "data":[
-    {"code":9965201,"station":"井高野","lon":135.547353,"lat":34.760166},
-    {"code":9965202,"station":"瑞光四丁目","lon":135.544612,"lat":34.752317},
-    {"code":9965205,"station":"清水(大阪)","lon":135.560772,"lat":34.721646},
-    {"code":3300603,"station":"京阪石山","lon":135.899651,"lat":34.979639}
+    {"code":9965201,"station":"井高野","lng":135.547353,"lat":34.760166},
+    {"code":9965202,"station":"瑞光四丁目","lng":135.544612,"lat":34.752317},
+    {"code":9965205,"station":"清水(大阪)","lng":135.560772,"lat":34.721646},
+    {"code":3300603,"station":"京阪石山","lng":135.899651,"lat":34.979639}
   ]
 },
 
@@ -1918,9 +2150,9 @@
   "url":"https://ekimemo.com/news/20170831140000_1",
   "comment":"座標修正",
   "data":[
-    {"code":9910109,"station":"大通","lon":141.352508,"lat":43.060307},
-    {"code":9971023,"station":"宇品四丁目","lon":132.463925,"lat":34.360079},
-    {"code":9971024,"station":"宇品五丁目","lon":132.463786,"lat":34.358131}
+    {"code":9910109,"station":"大通","lng":141.352508,"lat":43.060307},
+    {"code":9971023,"station":"宇品四丁目","lng":132.463925,"lat":34.360079},
+    {"code":9971024,"station":"宇品五丁目","lng":132.463786,"lat":34.358131}
       ]
 },
 
@@ -1929,8 +2161,8 @@
   "url":"https://ekimemo.com/news/20170929102000_1",
   "comment":"座標修正",
   "data":[
-    {"code":1111414,"station":"ラベンダー畑","lon":142.430682,"lat":43.416922},
-    {"code":1132211,"station":"西大宮","lon":139.579848,"lat":35.922298}
+    {"code":1111414,"station":"ラベンダー畑","lng":142.430682,"lat":43.416922},
+    {"code":1132211,"station":"西大宮","lng":139.579848,"lat":35.922298}
   ]
 },
     
@@ -1939,10 +2171,10 @@
   "url":"https://ekimemo.com/news/20171031161000_1",
   "comment":"座標修正",
   "data":[
-    {"code":1160719,"station":"天王寺","lon":135.513227,"lat":34.647844},
-    {"code":3100301,"station":"大阪阿部野橋","lon":135.515057,"lat":34.645497},
-    {"code":1141555,"station":"富山","lon":137.213255,"lat":36.701613},
-    {"code":9941322,"station":"富山駅","lon":137.212583,"lat":36.701479}
+    {"code":1160719,"station":"天王寺","lng":135.513227,"lat":34.647844},
+    {"code":3100301,"station":"大阪阿部野橋","lng":135.515057,"lat":34.645497},
+    {"code":1141555,"station":"富山","lng":137.213255,"lat":36.701613},
+    {"code":9941322,"station":"富山駅","lng":137.212583,"lat":36.701479}
   ]
 },
     
@@ -1951,26 +2183,26 @@
   "url":"https://ekimemo.com/news/20171226114000_1",
   "comment":"座標修正",
   "data":[
-    {"code":9920213,"station":"田んぼアート","lon":140.573849,"lat":40.632659},
-    {"code":9920716,"station":"山口団地","lon":141.933231,"lat":39.646350},
-    {"code":9921704,"station":"仙台空港","lon":140.928763,"lat":38.137267},
-    {"code":1130525,"station":"越谷レイクタウン","lon":139.822101,"lat":35.876177},
-    {"code":1130526,"station":"吉川美南","lon":139.858446,"lat":35.868028},
-    {"code":2300609,"station":"成田湯川","lon":140.291084,"lat":35.799661},
-    {"code":1141645,"station":"婦中鵜坂","lon":137.168917,"lat":36.678140},
-    {"code":1141714,"station":"新高岡","lon":137.012408,"lat":36.726966},
-    {"code":9942125,"station":"泰澄の里","lon":136.198261,"lat":35.999197},
-    {"code":1141215,"station":"平田(長野)","lon":137.962518,"lat":36.191562},
-    {"code":9950539,"station":"森町病院前","lon":137.917730,"lat":34.826157},
-    {"code":1150242,"station":"相見","lon":137.160325,"lat":34.887676},
-    {"code":1150240,"station":"野田新町","lon":137.028085,"lat":34.983528},
-    {"code":1160919,"station":"西川原","lon":133.937855,"lat":34.679039},
-    {"code":1161131,"station":"寺家","lon":132.722715,"lat":34.439249},
-    {"code":1170240,"station":"梶栗郷台地","lon":130.923601,"lat":34.013477},
-    {"code":1180161,"station":"小村神社前","lon":133.392863,"lat":33.539989},
-    {"code":9981834,"station":"北内","lon":133.442221,"lat":33.549800},
-    {"code":1191337,"station":"久留米高校前","lon":130.516379,"lat":33.298438},
-    {"code":1191429,"station":"歓遊舎ひこさん","lon":130.859727,"lat":33.548853}
+    {"code":9920213,"station":"田んぼアート","lng":140.573849,"lat":40.632659},
+    {"code":9920716,"station":"山口団地","lng":141.933231,"lat":39.646350},
+    {"code":9921704,"station":"仙台空港","lng":140.928763,"lat":38.137267},
+    {"code":1130525,"station":"越谷レイクタウン","lng":139.822101,"lat":35.876177},
+    {"code":1130526,"station":"吉川美南","lng":139.858446,"lat":35.868028},
+    {"code":2300609,"station":"成田湯川","lng":140.291084,"lat":35.799661},
+    {"code":1141645,"station":"婦中鵜坂","lng":137.168917,"lat":36.678140},
+    {"code":1141714,"station":"新高岡","lng":137.012408,"lat":36.726966},
+    {"code":9942125,"station":"泰澄の里","lng":136.198261,"lat":35.999197},
+    {"code":1141215,"station":"平田(長野)","lng":137.962518,"lat":36.191562},
+    {"code":9950539,"station":"森町病院前","lng":137.917730,"lat":34.826157},
+    {"code":1150242,"station":"相見","lng":137.160325,"lat":34.887676},
+    {"code":1150240,"station":"野田新町","lng":137.028085,"lat":34.983528},
+    {"code":1160919,"station":"西川原","lng":133.937855,"lat":34.679039},
+    {"code":1161131,"station":"寺家","lng":132.722715,"lat":34.439249},
+    {"code":1170240,"station":"梶栗郷台地","lng":130.923601,"lat":34.013477},
+    {"code":1180161,"station":"小村神社前","lng":133.392863,"lat":33.539989},
+    {"code":9981834,"station":"北内","lng":133.442221,"lat":33.549800},
+    {"code":1191337,"station":"久留米高校前","lng":130.516379,"lat":33.298438},
+    {"code":1191429,"station":"歓遊舎ひこさん","lng":130.859727,"lat":33.548853}
   ]
 },
     
@@ -1979,11 +2211,11 @@
   "date":20180131,
   "url":"https://ekimemo.com/news/20180130123500_1",
   "data":[
-    {"code":9971304,"station":"段原一丁目","lon":132.474071,"lat":34.390306},
-    {"code":9971305,"station":"比治山下","lon":132.471005,"lat":34.386963},
-    {"code":1180608,"station":"八十場","lon":133.885306,"lat":34.312804},
-    {"code":1180611,"station":"丸亀","lon":133.792918,"lat":34.291976},
-    {"code":1132617,"station":"千葉みなと","lon":140.102477,"lat":35.607390}
+    {"code":9971304,"station":"段原一丁目","lng":132.474071,"lat":34.390306},
+    {"code":9971305,"station":"比治山下","lng":132.471005,"lat":34.386963},
+    {"code":1180608,"station":"八十場","lng":133.885306,"lat":34.312804},
+    {"code":1180611,"station":"丸亀","lng":133.792918,"lat":34.291976},
+    {"code":1132617,"station":"千葉みなと","lng":140.102477,"lat":35.607390}
   ]
 },
     
@@ -1993,32 +2225,24 @@
   "date":20180228,
   "url":"https://ekimemo.com/news/20180228134000_1",
   "data":[
-    {"code":1120808,"station":"摺沢","lon":141.321156,"lat":38.996016}
+    {"code":1120808,"station":"摺沢","lng":141.321156,"lat":38.996016}
   ]
 },
-
-{
-  "date":20180330,
-  "url":"https://ekimemo.com/news/20180330182500_1",
-  "comment":"JR大船渡線変更　反映済み",
-  "data":[]
-},
-
 {
   "date":20180425,
   "url":"https://ekimemo.com/news/20180425123000_1",
   "comment":"大阪市交通局->OsakaMetro 反映済み  座標修正=>",
   "data":[
-    {"code":1121205,"station":"北森","lon":141.071647,"lat":39.956786},
-    {"code":1133212,"station":"王子","lon":139.738478,"lat":35.752165},
-    {"code":9930516,"station":"王子駅前","lon":139.737874,"lat":35.752998},
-    {"code":1131339,"station":"千葉","lon":140.113479,"lat":35.612927},
-    {"code":2300409,"station":"京成千葉","lon":140.114265,"lat":35.611620},
-    {"code":9941408,"station":"江尻","lon":137.030603,"lat":36.762295},
-    {"code":9941404,"station":"急患医療センター前","lon":137.018736,"lat":36.750686},
-    {"code":3002003,"station":"柳津(岐阜)","lon":136.739651,"lat":35.365114},
-    {"code":9910403,"station":"中央区役所前","lon":141.340843,"lat":43.057370},
-    {"code":9950605,"station":"助信","lon":137.738609,"lat":34.724537}
+    {"code":1121205,"station":"北森","lng":141.071647,"lat":39.956786},
+    {"code":1133212,"station":"王子","lng":139.738478,"lat":35.752165},
+    {"code":9930516,"station":"王子駅前","lng":139.737874,"lat":35.752998},
+    {"code":1131339,"station":"千葉","lng":140.113479,"lat":35.612927},
+    {"code":2300409,"station":"京成千葉","lng":140.114265,"lat":35.611620},
+    {"code":9941408,"station":"江尻","lng":137.030603,"lat":36.762295},
+    {"code":9941404,"station":"急患医療センター前","lng":137.018736,"lat":36.750686},
+    {"code":3002003,"station":"柳津(岐阜)","lng":136.739651,"lat":35.365114},
+    {"code":9910403,"station":"中央区役所前","lng":141.340843,"lat":43.057370},
+    {"code":9950605,"station":"助信","lng":137.738609,"lat":34.724537}
   ]
 },
 
@@ -2027,9 +2251,9 @@
   "url":"https://ekimemo.com/news/20180530143000_1",
   "comment":"駅名修正　阿佐ヶ谷->阿佐ケ谷　反映済み  座標修正=>",
   "data":[
-    {"code":3400328,"station":"西山天王山","lon":135.688508,"lat":34.912700},
-    {"code":9981821,"station":"朝倉駅前","lon":133.485844,"lat":33.550828},
-    {"code":9932915,"station":"北初富","lon":139.992325,"lat":35.777237}
+    {"code":3400328,"station":"西山天王山","lng":135.688508,"lat":34.912700},
+    {"code":9981821,"station":"朝倉駅前","lng":133.485844,"lat":33.550828},
+    {"code":9932915,"station":"北初富","lng":139.992325,"lat":35.777237}
   ]
 },
     
@@ -2039,21 +2263,21 @@
   "date":20180629,
   "url":"https://ekimemo.com/news/20180628150000_1",
   "data":[
-    {"code":1123009,"station":"富岡","lon":141.022274,"lat":37.335264},
-    {"code":9930918,"station":"万博記念公園(茨城)","lon":140.059327,"lat":36.058431},
-    {"code":9950606,"station":"曳馬","lon":137.741256,"lat":34.733255},
-    {"code":9950607,"station":"上島","lon":137.745233,"lat":34.741573},
-    {"code":9950616,"station":"遠州芝本","lon":137.798600,"lat":34.823599},
-    {"code":9910402,"station":"西８丁目","lon":141.346121,"lat":43.058120},
-    {"code":9910404,"station":"西１５丁目","lon":141.335151,"lat":43.056313},
-    {"code":9910406,"station":"西線９条旭山公園通","lon":141.335370,"lat":43.047897},
-    {"code":9910408,"station":"西線１４条","lon":141.336403,"lat":43.040288},
-    {"code":9910409,"station":"西線１６条","lon":141.336857,"lat":43.036960},
-    {"code":9910411,"station":"電車事業所前","lon":141.337647,"lat":43.030512},
-    {"code":9910414,"station":"東屯田通","lon":141.348261,"lat":43.030954},
-    {"code":9910420,"station":"山鼻９条","lon":141.349730,"lat":43.048620},
-    {"code":9910421,"station":"東本願寺前","lon":141.349454,"lat":43.051398},
-    {"code":9910422,"station":"資生館小学校前","lon":141.348984,"lat":43.055063}
+    {"code":1123009,"station":"富岡","lng":141.022274,"lat":37.335264},
+    {"code":9930918,"station":"万博記念公園(茨城)","lng":140.059327,"lat":36.058431},
+    {"code":9950606,"station":"曳馬","lng":137.741256,"lat":34.733255},
+    {"code":9950607,"station":"上島","lng":137.745233,"lat":34.741573},
+    {"code":9950616,"station":"遠州芝本","lng":137.798600,"lat":34.823599},
+    {"code":9910402,"station":"西８丁目","lng":141.346121,"lat":43.058120},
+    {"code":9910404,"station":"西１５丁目","lng":141.335151,"lat":43.056313},
+    {"code":9910406,"station":"西線９条旭山公園通","lng":141.335370,"lat":43.047897},
+    {"code":9910408,"station":"西線１４条","lng":141.336403,"lat":43.040288},
+    {"code":9910409,"station":"西線１６条","lng":141.336857,"lat":43.036960},
+    {"code":9910411,"station":"電車事業所前","lng":141.337647,"lat":43.030512},
+    {"code":9910414,"station":"東屯田通","lng":141.348261,"lat":43.030954},
+    {"code":9910420,"station":"山鼻９条","lng":141.349730,"lat":43.048620},
+    {"code":9910421,"station":"東本願寺前","lng":141.349454,"lat":43.051398},
+    {"code":9910422,"station":"資生館小学校前","lng":141.348984,"lat":43.055063}
   ]
 },
     
@@ -2063,18 +2287,8 @@
   "comment":"駅情報更新 主に長崎電軌の駅名称変更=>2019/03/16の更新で反映された 　何か浜町アーケードは重複してる？あと５系統には登録されていない？",
   "data":[
     {"code":9991613,"station":"浜町アーケード","remove":true},
-    {"code":9991511,"code_old":5000253,"station":"浜町アーケード"},
+    {"code":9991511,"station":"浜町アーケード","comment":"こっち残す方"},
     {"code":99916,"line":"長崎電軌５系統","add_station":["浜町アーケード"]}
-  ]
-},
-
-
-{
-  "comment":"駅情報更新",
-  "date":20180928,
-  "url":"https://ekimemo.com/news/20180921150000_1",
-  "data":[
-    {"code":9930637,"code_old":5000254,"station":"ふかや花園","comment":"2019/03/16の更新で反映された"}
   ]
 },
 
@@ -2082,8 +2296,8 @@
   "comment":"座標修正",
   "date":20181107,
   "data":[
-    {"code":1130222,"station":"秋葉原","lon":139.773290,"lat":35.698620},
-    {"code":1130307,"station":"武蔵小杉","lon":139.659634,"lat":35.576692}
+    {"code":1130222,"station":"秋葉原","lng":139.773290,"lat":35.698620},
+    {"code":1130307,"station":"武蔵小杉","lng":139.659634,"lat":35.576692}
   ]
 },
     
@@ -2092,7 +2306,8 @@
   "date":20181031,
   "data":[
     {"code":11103,"line":"JR函館本線(小樽～旭川)","add_station":[
-      {"code":5000255,"station":"神居古潭","lon":142.202224,"lat":43.732834}
+      {"code":1110343,"station":"神居古潭","lng":142.202224,"lat":43.732834,
+      "comment":"codeは南小樽02~旭川42が使用済み","prefecture":1,"postal_code":"078-0185","address":"北海道旭川市神居町神居古潭"}
     ]}
   ]
 },
@@ -2102,8 +2317,8 @@
   "comment":"座標修正  三越前　反映済み",
   "date":20181122,
   "data":[
-    {"code":1131402,"station":"新日本橋","lon":139.774265,"lat":35.689016},
-    {"code":9941318,"station":"安野屋","lon":137.204382,"lat":36.692522}
+    {"code":1131402,"station":"新日本橋","lng":139.774265,"lat":35.689016},
+    {"code":9941318,"station":"安野屋","lng":137.204382,"lat":36.692522}
   ]
 },
     
@@ -2112,18 +2327,8 @@
   "comment":"駅情報更新 新駅・路線追加=>2019/03/16の更新で反映された20190426 座標修正=>苗穂",
   "date":20190222,
   "data":[
-  	{"code_old":5000256,"code":9971813,"station":"清流みはらし"},
-	  {"code_old":5000257,"code":1164110,"station":"南吹田"},
-	  {"code_old":5000258,"code":1164111,"station":"JR淡路"},
-	  {"code_old":5000259,"code":1164112,"station":"城北公園通"},
-	  {"code_old":5000260,"code":1164113,"station":"JR野江"},
-	  {"code_old":5000261,"code":1190921,"station":"糸島高校前"},
-    {"code_old":5000262,"code":1161416,"station":"梅小路京都西"},
-    {"code_old":5000263,"code":9941016,"station":"栄町","rename":"栄町(富山)","lon":137.233494,"lat":36.692032},
-    {"code":1110316,"station":"苗穂","lon":141.373477,"lat":43.068262},
-    {"code":99208,"code_old":50040,"line":"三陸鉄道リアス線"},
-	  {"code_old":5000264,"code":9920820,"station":"払川"},
-	  {"code_old":5000265,"code":9920822,"station":"八木沢・宮古短大"}
+    {"code":9941016,"station":"栄町","rename":"栄町(富山)","lng":137.233494,"lat":36.692032},
+    {"code":1110316,"station":"苗穂","lng":141.373477,"lat":43.068262}
   ]
 },
 
@@ -2132,19 +2337,12 @@
   "date":20190316,
   "comment":"JR春のダイヤ改正 ekidata.jp でも大きなデータ更新があった模様   長崎電軌１系統の名称は駅メモの方が誤り",
   "data":[
-    {"code":2800518,"station":"明治神宮前〈原宿〉","lon":139.703995,"lat":35.669072},
-    {"code":2800208,"station":"大手町(東京)","lon":139.766193,"lat":35.686563},
-    {"code":9931614,"station":"高島町","lon":139.623745,"lat":35.458575},
-    {"code":11107,"line":"JR根室本線(新得～釧路)","add_station":[
-      {"code":1110721,"station":"直別","closed": true,"lon":143.863607,"lat":42.852205},
-      {"code":1110722,"station":"尺別","closed": true,"lon":143.904331,"lat":42.869163}
-    ]},
-    {"code":11108,"line":"JR根室本線(花咲線)(釧路～根室)","add_station":[
-      {"code":1110814,"station":"初田牛","closed":true,"lon":145.322770,"lat":43.204542}
-    ]},
-    {"code":11409,"line":"JR大糸線","add_station":[
-      {"code":1140926,"station":"ヤナバスキー場前","closed":true,"lon":137.855039,"lat":36.605851}
-    ]},
+    {"code":2800518,"station":"明治神宮前〈原宿〉","lng":139.703995,"lat":35.669072},
+    {"code":2800208,"station":"大手町(東京)","lng":139.766193,"lat":35.686563},
+    {"code":9931614,"station":"高島町","lng":139.623745,"lat":35.458575},
+    {"code":11107,"line":"JR根室本線(新得～釧路)","comment":"廃駅となった直別・尺別はそのまま"},
+    {"code":11108,"line":"JR根室本線(花咲線)(釧路～根室)","comment":"廃駅となった初田牛そのまま"},
+    {"code":11409,"line":"JR大糸線","comment":"廃駅となったヤナバスキー場前そのまま"},
     {"code":9991303,"station":"昭和町通","rename":"昭和町通り"},
     {"code":9991324,"station":"観光通","rename":"観光通り"},
     {"code":9991610,"station":"大浦海岸通","rename":"大浦海岸通り"}
@@ -2154,12 +2352,12 @@
 {
   "date":20190329,
   "data":[
-    {"code":1161005,"station":"倉敷","lon":133.765676,"lat":34.602072},
-    {"code":9970401,"station":"倉敷市","lon":133.765076,"lat":34.600998},
+    {"code":1161005,"station":"倉敷","lng":133.765676,"lat":34.602072},
+    {"code":9970401,"station":"倉敷市","lng":133.765076,"lat":34.600998},
     {"code":1132813,"station":"空港第２ビル（第２旅客ターミナル）","rename":"空港第２ビル（成田第２・第３ターミナル）"},
     {"code":1132705,"station":"成田空港（第１旅客ターミナル）","rename":"成田空港（成田第１ターミナル）"},
     {"code":1123035,"station":"Jヴィレッジ","comment":"駅データ.jpに反映されてた20190426"},
-    {"code":99207,"line":"三陸鉄道北リアス線","add": true,"closed":true,"add_station":[
+    {"code":99207,"line":"三陸鉄道北リアス線","closed":true,"comment":"ekidata.jpにも路線自体は廃線として残っているが、なぜか駅がひとつも登録されていない","add_station":[
       "宮古",
       "山口団地",
       "一の渡",
@@ -2178,7 +2376,8 @@
       "陸中宇部",
       "久慈"
     ]},
-    {"code":50041,"add":true,"line":"三陸鉄道南リアス線","closed":true,"add_station":[
+    {"code":99219,"add":true,"line":"三陸鉄道南リアス線","company_code":109,"name_formal":"三陸鉄道南リアス線",
+      "closed":true,"comment":"もともとはcode:99207だったが山田線移管に伴い三陸鉄道リアス線が割り当てられた","add_station":[
       "盛",
       "陸前赤崎",
       "綾里",
@@ -2200,7 +2399,7 @@
 {
   "date":20190524,
   "data":[
-    {"code":9992203,"station":"熊本駅前","lon":130.689662,"lat":32.789559}
+    {"code":9992203,"station":"熊本駅前","lng":130.689662,"lat":32.789559}
   ]
 },
 
@@ -2210,26 +2409,15 @@
   "url":"https://ekimemo.com/news/20190724150000_1",
   "data":[
     {"code":11722,"line":"JR美祢線","remove_station":["仙崎"]},
-    {"code":11702,"line":"JR山陰本線(益田～下関)","rename":"JR山陰本線(益田・仙崎～下関)","add_station":["仙崎"]},
-    {"code":9920822,"station":"八木沢・宮古短大","lon":141.946409,"lat":39.619304},
-    {"code":9920817,"station":"織笠","lon":141.955284,"lat":39.454055},
-    {"code":1122314,"station":"女川","lon":141.443954,"lat":38.446767},
-    {"code":1120815,"station":"鹿折唐桑","lon":141.579464,"lat":38.915929},
-    
-    {"code_old":5000269,"code":9990417,"station":"令和コスタ行橋","comment":"駅データで反映された","date":20190930}
+    {"code":11702,"line":"JR山陰本線(益田～下関)","rename":"JR山陰本線(益田・仙崎～下関)",
+      "add_station":["仙崎"],"remove_station":["門司"]},
+    {"code":9920822,"station":"八木沢・宮古短大","lng":141.946409,"lat":39.619304},
+    {"code":9920817,"station":"織笠","lng":141.955284,"lat":39.454055},
+    {"code":1122314,"station":"女川","lng":141.443954,"lat":38.446767},
+    {"code":1120815,"station":"鹿折唐桑","lng":141.579464,"lat":38.915929}
   ]
 },
 
-{
-  "date":20190930,
-  "comment":"駅情報更新 この段階で駅名変更×22駅統合×1が反映されていない分は翌月に反映",
-  "url":"https://ekimemo.com/news/20190920150000_2",
-  "data":[
-    
-    {"code":5000071,"station":"奇跡の一本松","lon":141.627134,"lat":39.007864,"add":true}
-    
-  ]
-},
 
 
 {
@@ -2242,8 +2430,8 @@
       "url":"https://www.keihan.co.jp/corporate/release/upload/2019-09-18_ekimei-henko2.pdf",
       "data":[
         {"code":33005,"line":"石清水八幡宮参道ケーブル","rename":"京阪石清水八幡宮参道ケーブル"},
-        {"code":3300115,"station":"石清水八幡宮","lon":135.700352,"lat":34.884540},
-        {"code":3300501,"station":"ケーブル八幡宮口","lon":135.699473,"lat":34.884516,"comment":"京阪本線とは別駅扱いになるらしい"},
+        {"code":3300115,"station":"石清水八幡宮","lng":135.700352,"lat":34.884540},
+        {"code":3300501,"station":"ケーブル八幡宮口","lng":135.699473,"lat":34.884516,"comment":"京阪本線とは別駅扱いになるらしい"},
         {"code":3300502,"station":"ケーブル八幡宮山上","comment":"今回反映"},
         {"code":3300108,"station":"龍谷大前深草","comment":"今回反映"}
       ]
@@ -2254,7 +2442,7 @@
       "data":[
         {"code":3400301,"station":"京都河原町","comment":"今回反映"},
         {"code":3400211,"station":"石橋阪大前","comment":"今回反映"},
-        {"code":3400101,"station":"大阪梅田","rename":"大阪梅田(阪急電鉄)","lon":135.498313,"lat":34.705515,"comment":"ekidata.jpでは阪急・阪神の大阪梅田は同一駅扱いだが駅メモでは別"}
+        {"code":3400101,"station":"大阪梅田","rename":"大阪梅田(阪急電鉄)","lng":135.498313,"lat":34.705515,"comment":"ekidata.jpでは阪急・阪神の大阪梅田は同一駅扱いだが駅メモでは別"}
       ]
     },
     {
@@ -2262,7 +2450,7 @@
       "url":"https://www.hanshin.co.jp/company/press/detail/2642",
       "data":[
         {"code":35001,"line":"阪神本線","remove_station":[3400101],"add_station":[
-          {"code":3500101,"station":"大阪梅田(阪神電気鉄道)","lon":135.496446,"lat":34.700972,"comment":"ekidata.jpでは阪急・阪神の大阪梅田は同一駅扱いだが駅メモでは別"}
+          {"code":3500101,"station":"大阪梅田(阪神電気鉄道)","lng":135.496446,"lat":34.700972,"prefecture":27,"postal_code":"530-0012","address":"大阪市北区芝田一丁目1-2","comment":"ekidata.jpでは阪急・阪神の大阪梅田は同一駅扱いだが駅メモでは別"}
         ]},
         {"code":3500113,"station":"鳴尾・武庫川女子大前","comment":"今回反映"}
       ]
@@ -2274,7 +2462,7 @@
         {"code":9962603,"station":"柴原阪大前","comment":"今回反映"}
       ]
     },
-    {"code":9961806, "station":"梅田","lon":135.497708,"lat":34.703188,"comment":"Osakametroのみ"},
+    {"code":9961806, "station":"梅田","lng":135.497708,"lat":34.703188,"comment":"Osakametroのみ"},
     {"code":9931508,"station":"工機前","comment":"今回反映","url":"http://www.hitachinaka-rail.co.jp/blog/2019/09/17/6707.html"},
     {"code":2600325,"station":"南町田グランベリーパーク","comment":"今回反映","url":"https://www.tokyu.co.jp/image/news/pdf/20190807-3-1.pdf"},
 
@@ -2284,7 +2472,7 @@
       "url":"http://www.kotsu-kumamoto.jp/kihon/pub/detail.aspx?c_id=3&id=1021&pg=1",
       "data":[
         {"code":99923,"line":"熊本市電Ｂ系統","remove_station":[1190340],"add_station":[
-          {"code":9992301,"station":"上熊本(熊本市交通局)","lon":130.699266,"lat":32.817160,"comment":"旧上熊本駅前、駅メモでは市電だけ別駅扱い"}
+          {"code":9992301,"station":"上熊本(熊本市交通局)","lng":130.699266,"lat":32.817160,"prefecture":43,"postal_code":"860-0079","address":"熊本市上熊本２丁目","comment":"旧上熊本駅前、駅メモでは市電だけ別駅扱い"}
         ]},
         {"code":9992222,"station":"神水交差点","comment":"今回反映"}
       ]
@@ -2311,14 +2499,30 @@
         {"code":9991223,"station":"島原船津","comment":"今回反映"},
         {"code":9991224,"station":"島原港","comment":"今回反映"}
       ]
-    },
+    }
+    
+  ]
+},
 
-    {"code":29003,"line":"相鉄新横浜線","add":true,"add_station":[
-      "西谷",
-      {"code":2900301,"station":"羽沢横浜国大","lon":139.586100,"lat":35.481204}
-    ]}
-
+{
+  "comment":"駅情報更新",
+  "url":"https://ekimemo.com/news/20200221170000_1",
+  "date":20200228,
+  "data":[
+    {"code":99415,"line":"富山ライトレール","rename":"富山地鉄富山港線","comment":"富山地鉄へ吸収合併"},
+    {"code":9991116,"station":"御厨","rename":"御厨(長崎)"},
+    {"code":11807,"line":"JR予讃・内子線","add_station":[
+      {"code":1180741,"station":"南伊予","lng":132.737292,"lat":33.777727}
+    ]},
+    {"code":11501,"line":"JR東海道本線(熱海～浜松)","add_station":[
+      {"code":1150135,"station":"御厨(静岡)","lng":137.885340,"lat":34.718447}
+    ]},
+    {"code":1130230,"station":"高輪ゲートウェイ","add":true,"lng":139.740749,"lat":35.635468},
+    {"code":11302,"line":"JR山手線","add_station":["高輪ゲートウェイ"]},
+    {"code":11332,"line":"JR京浜東北線","add_station":["高輪ゲートウェイ"]}
   ]
 }
+
+
 
 ]}

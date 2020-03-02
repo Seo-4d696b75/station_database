@@ -1,18 +1,18 @@
 {
 "code":33002,
 "name":"京阪宇治線",
-"phonetic":"けいはんうじせん",
+"name_kana":"けいはんうじせん",
 "symbol":"KH",
 "color":"#66CC33",
 "list_size":8,
 "station_list":[
-  {"code":3300113,"name":"中書島","station":"中書島","numbering":[{"index":"28"}]},
-  {"code":3300202,"name":"観月橋","station":"観月橋","numbering":[{"index":"71"}]},
-  {"code":3300203,"name":"桃山南口","station":"桃山南口","numbering":[{"index":"72"}]},
-  {"code":3300204,"name":"六地蔵(京阪電気鉄道)","station":"六地蔵(京阪電気鉄道)","numbering":[{"index":"73"}]},
-  {"code":3300205,"name":"木幡(京阪電気鉄道)","station":"木幡(京阪電気鉄道)","numbering":[{"index":"74"}]},
-  {"code":1161808,"name":"黄檗","station":"黄檗","numbering":[{"index":"75"}]},
-  {"code":3300207,"name":"三室戸","station":"三室戸","numbering":[{"index":"76"}]},
-  {"code":3300208,"name":"宇治(京阪電気鉄道)","station":"宇治(京阪電気鉄道)","numbering":[{"index":"77"}]}
+  {"code":3300113,"name":"中書島","numbering":[{"index":"28"}]},
+  {"code":3300202,"name":"観月橋","numbering":[{"index":"71"}]},
+  {"code":3300203,"name":"桃山南口","numbering":[{"index":"72"}]},
+  {"code":3300204,"name":"六地蔵(京阪電気鉄道)","numbering":[{"index":"73"}]},
+  {"code":3300205,"name":"木幡(京阪電気鉄道)","numbering":[{"index":"74"}]},
+  {"code":1161808,"name":"黄檗","numbering":[{"index":"75"}]},
+  {"code":3300207,"name":"三室戸","numbering":[{"index":"76"}]},
+  {"code":3300208,"name":"宇治(京阪電気鉄道)","numbering":[{"index":"77"}]}
 ]
 }

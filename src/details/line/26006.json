@@ -1,17 +1,17 @@
 {
 "code":26006,
 "name":"東急多摩川線",
-"phonetic":"とうきゅうたまがわせん",
+"name_kana":"とうきゅうたまがわせん",
 "symbol":"TM",
 "color":"#AE0378",
 "list_size":7,
 "station_list":[
-  {"code":2600109,"name":"多摩川","station":"多摩川","numbering":[{"index":"01"}]},
-  {"code":2600602,"name":"沼部","station":"沼部","numbering":[{"index":"02"}]},
-  {"code":2600603,"name":"鵜の木","station":"鵜の木","numbering":[{"index":"03"}]},
-  {"code":2600604,"name":"下丸子","station":"下丸子","numbering":[{"index":"04"}]},
-  {"code":2600605,"name":"武蔵新田","station":"武蔵新田","numbering":[{"index":"05"}]},
-  {"code":2600606,"name":"矢口渡","station":"矢口渡","numbering":[{"index":"06"}]},
-  {"code":1133230,"name":"蒲田","station":"蒲田","numbering":[{"index":"07"}]}
+  {"code":2600109,"name":"多摩川","numbering":[{"index":"01"}]},
+  {"code":2600602,"name":"沼部","numbering":[{"index":"02"}]},
+  {"code":2600603,"name":"鵜の木","numbering":[{"index":"03"}]},
+  {"code":2600604,"name":"下丸子","numbering":[{"index":"04"}]},
+  {"code":2600605,"name":"武蔵新田","numbering":[{"index":"05"}]},
+  {"code":2600606,"name":"矢口渡","numbering":[{"index":"06"}]},
+  {"code":1133230,"name":"蒲田","numbering":[{"index":"07"}]}
 ]
 }

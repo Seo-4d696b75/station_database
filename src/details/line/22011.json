@@ -1,18 +1,18 @@
 {
 "code":22011,
 "name":"西武多摩湖線",
-"phonetic":"せいぶたまこせん",
+"name_kana":"せいぶたまこせん",
 "symbol":"ST",
 "color":"#FFCC33",
 "list_size":8,
 "station_list":[
-  {"code":1131106,"name":"国分寺","station":"国分寺","numbering":[{"color":"#FFD900","index":"01"}]},
-  {"code":5000093,"name":"東国分寺","station":"東国分寺"},
-  {"code":2201102,"name":"一橋学園","station":"一橋学園","numbering":[{"index":"02"}]},
-  {"code":2201103,"name":"青梅街道","station":"青梅街道","numbering":[{"index":"03"}]},
-  {"code":2200802,"name":"萩山","station":"萩山","numbering":[{"index":"04"}]},
-  {"code":2201106,"name":"八坂(東京)","station":"八坂(東京)","numbering":[{"index":"05"}]},
-  {"code":2201107,"name":"武蔵大和","station":"武蔵大和","numbering":[{"index":"06"}]},
-  {"code":2200601,"name":"西武遊園地","station":"西武遊園地","numbering":[{"index":"07"}]}
+  {"code":1131106,"name":"国分寺","numbering":[{"color":"#FFD900","index":"01"}]},
+  {"code":5000093,"name":"東国分寺"},
+  {"code":2201102,"name":"一橋学園","numbering":[{"index":"02"}]},
+  {"code":2201103,"name":"青梅街道","numbering":[{"index":"03"}]},
+  {"code":2200802,"name":"萩山","numbering":[{"index":"04"}]},
+  {"code":2201106,"name":"八坂(東京)","numbering":[{"index":"05"}]},
+  {"code":2201107,"name":"武蔵大和","numbering":[{"index":"06"}]},
+  {"code":2200601,"name":"西武遊園地","numbering":[{"index":"07"}]}
 ]
 }

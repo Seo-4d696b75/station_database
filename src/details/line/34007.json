@@ -1,14 +1,14 @@
 {
 "code":34007,
 "name":"阪急箕面線",
-"phonetic":"はんきゅうみのおせん",
+"name_kana":"はんきゅうみのおせん",
 "symbol":"HK",
 "color":"#FFA500",
 "list_size":4,
 "station_list":[
-  {"code":3400211,"name":"石橋阪大前","station":"石橋阪大前","numbering":[{"index":"48"}]},
-  {"code":3400702,"name":"桜井(大阪)","station":"桜井(大阪)","numbering":[{"index":"57"}]},
-  {"code":3400703,"name":"牧落","station":"牧落","numbering":[{"index":"58"}]},
-  {"code":3400704,"name":"箕面","station":"箕面","numbering":[{"index":"59"}]}
+  {"code":3400211,"name":"石橋阪大前","numbering":[{"index":"48"}]},
+  {"code":3400702,"name":"桜井(大阪)","numbering":[{"index":"57"}]},
+  {"code":3400703,"name":"牧落","numbering":[{"index":"58"}]},
+  {"code":3400704,"name":"箕面","numbering":[{"index":"59"}]}
 ]
 }

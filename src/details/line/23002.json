@@ -1,17 +1,17 @@
 {
 "code":23002,
 "name":"京成押上線",
-"phonetic":"けいせいおしあげせん",
+"name_kana":"けいせいおしあげせん",
 "symbol":"KS",
 "color":"#005AAA",
 "list_size":7,
 "station_list":[
-  {"code":2300201,"name":"押上（スカイツリー前）","station":"押上（スカイツリー前）","numbering":[{"index":"45"}]},
-  {"code":2300202,"name":"京成曳舟","station":"京成曳舟","numbering":[{"index":"46"}]},
-  {"code":2300203,"name":"八広","station":"八広","numbering":[{"index":"47"}]},
-  {"code":2300204,"name":"四ツ木","station":"四ツ木","numbering":[{"index":"48"}]},
-  {"code":2300205,"name":"京成立石","station":"京成立石","numbering":[{"index":"49"}]},
-  {"code":2300109,"name":"青砥","station":"青砥","numbering":[{"index":"09"}]},
-  {"code":2300110,"name":"京成高砂","station":"京成高砂","numbering":[{"index":"10"}]}
+  {"code":2300201,"name":"押上（スカイツリー前）","numbering":[{"index":"45"}]},
+  {"code":2300202,"name":"京成曳舟","numbering":[{"index":"46"}]},
+  {"code":2300203,"name":"八広","numbering":[{"index":"47"}]},
+  {"code":2300204,"name":"四ツ木","numbering":[{"index":"48"}]},
+  {"code":2300205,"name":"京成立石","numbering":[{"index":"49"}]},
+  {"code":2300109,"name":"青砥","numbering":[{"index":"09"}]},
+  {"code":2300110,"name":"京成高砂","numbering":[{"index":"10"}]}
 ]
 }

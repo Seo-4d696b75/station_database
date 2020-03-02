@@ -1,23 +1,23 @@
 {
 "code":26002,
 "name":"東急目黒線",
-"phonetic":"とうきゅうめぐろせん",
+"name_kana":"とうきゅうめぐろせん",
 "symbol":"MG",
 "color":"#009CD2",
 "list_size":13,
 "station_list":[
-  {"code":1130203,"name":"目黒","station":"目黒","numbering":[{"index":"01"}]},
-  {"code":2600202,"name":"不動前","station":"不動前","numbering":[{"index":"02"}]},
-  {"code":2600203,"name":"武蔵小山","station":"武蔵小山","numbering":[{"index":"03"}]},
-  {"code":2600204,"name":"西小山","station":"西小山","numbering":[{"index":"04"}]},
-  {"code":2600205,"name":"洗足","station":"洗足","numbering":[{"index":"05"}]},
-  {"code":2600206,"name":"大岡山","station":"大岡山","numbering":[{"index":"06"}]},
-  {"code":2600207,"name":"奥沢","station":"奥沢","numbering":[{"index":"07"}]},
-  {"code":2600108,"name":"田園調布","station":"田園調布","numbering":[{"index":"08"}]},
-  {"code":2600109,"name":"多摩川","station":"多摩川","numbering":[{"index":"09"}]},
-  {"code":2600110,"name":"新丸子","station":"新丸子","numbering":[{"index":"10"}]},
-  {"code":1130307,"name":"武蔵小杉","station":"武蔵小杉","numbering":[{"index":"11"}]},
-  {"code":2600112,"name":"元住吉","station":"元住吉","numbering":[{"index":"12"}]},
-  {"code":2600113,"name":"日吉(神奈川)","station":"日吉(神奈川)","numbering":[{"index":"13"}]}
+  {"code":1130203,"name":"目黒","numbering":[{"index":"01"}]},
+  {"code":2600202,"name":"不動前","numbering":[{"index":"02"}]},
+  {"code":2600203,"name":"武蔵小山","numbering":[{"index":"03"}]},
+  {"code":2600204,"name":"西小山","numbering":[{"index":"04"}]},
+  {"code":2600205,"name":"洗足","numbering":[{"index":"05"}]},
+  {"code":2600206,"name":"大岡山","numbering":[{"index":"06"}]},
+  {"code":2600207,"name":"奥沢","numbering":[{"index":"07"}]},
+  {"code":2600108,"name":"田園調布","numbering":[{"index":"08"}]},
+  {"code":2600109,"name":"多摩川","numbering":[{"index":"09"}]},
+  {"code":2600110,"name":"新丸子","numbering":[{"index":"10"}]},
+  {"code":1130307,"name":"武蔵小杉","numbering":[{"index":"11"}]},
+  {"code":2600112,"name":"元住吉","numbering":[{"index":"12"}]},
+  {"code":2600113,"name":"日吉(神奈川)","numbering":[{"index":"13"}]}
 ]
 }

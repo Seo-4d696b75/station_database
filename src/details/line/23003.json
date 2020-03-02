@@ -1,13 +1,13 @@
 {
 "code":23003,
 "name":"京成金町線",
-"phonetic":"けいせいかなまちせん",
+"name_kana":"けいせいかなまちせん",
 "symbol":"KS",
 "color":"#005AAA",
 "list_size":3,
 "station_list":[
-  {"code":2300110,"name":"京成高砂","station":"京成高砂","numbering":[{"index":"10"}]},
-  {"code":2300302,"name":"柴又","station":"柴又","numbering":[{"index":"50"}]},
-  {"code":2300303,"name":"京成金町","station":"京成金町","numbering":[{"index":"51"}]}
+  {"code":2300110,"name":"京成高砂","numbering":[{"index":"10"}]},
+  {"code":2300302,"name":"柴又","numbering":[{"index":"50"}]},
+  {"code":2300303,"name":"京成金町","numbering":[{"index":"51"}]}
 ]
 }

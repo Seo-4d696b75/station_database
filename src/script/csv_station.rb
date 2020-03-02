@@ -122,7 +122,7 @@ def add_item(cells, groups)
 		'name'=>cells[2],
 		'line_code'=>cells[5].to_i,
 		'prefecture'=>cells[6].to_i,
-		'post_number'=>cells[7],
+		'postal_code'=>cells[7],
 		'address'=>cells[8],
 		'lng'=>cells[9].to_f,
 		'lat'=>cells[10].to_f

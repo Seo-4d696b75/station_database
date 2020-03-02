@@ -1,16 +1,16 @@
 {
 "code":99616,
 "name":"泉北高速鉄道線",
-"phonetic":"せんぼくこうそくてつどう",
+"name_kana":"せんぼくこうそくてつどう",
 "symbol":"SB",
 "color":"#007FFF",
 "list_size":6,
 "station_list":[
-  {"code":3200715,"name":"中百舌鳥","station":"中百舌鳥","numbering":[{"index":"01"}]},
-  {"code":9961602,"name":"深井","station":"深井","numbering":[{"index":"02"}]},
-  {"code":9961603,"name":"泉ヶ丘","station":"泉ヶ丘","numbering":[{"index":"03"}]},
-  {"code":9961604,"name":"栂・美木多","station":"栂・美木多","numbering":[{"index":"04"}]},
-  {"code":9961605,"name":"光明池","station":"光明池","numbering":[{"index":"05"}]},
-  {"code":9961606,"name":"和泉中央","station":"和泉中央","numbering":[{"index":"06"}]}
+  {"code":3200715,"name":"中百舌鳥","numbering":[{"index":"01"}]},
+  {"code":9961602,"name":"深井","numbering":[{"index":"02"}]},
+  {"code":9961603,"name":"泉ヶ丘","numbering":[{"index":"03"}]},
+  {"code":9961604,"name":"栂・美木多","numbering":[{"index":"04"}]},
+  {"code":9961605,"name":"光明池","numbering":[{"index":"05"}]},
+  {"code":9961606,"name":"和泉中央","numbering":[{"index":"06"}]}
 ]
 }

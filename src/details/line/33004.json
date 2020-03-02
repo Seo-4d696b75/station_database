@@ -1,13 +1,13 @@
 {
 "code":33004,
 "name":"京阪鴨東線",
-"phonetic":"けいはんおうとうせん",
+"name_kana":"けいはんおうとうせん",
 "symbol":"KH",
 "color":"#66CC33",
 "list_size":3,
 "station_list":[
-  {"code":3300401,"name":"出町柳","station":"出町柳","numbering":[{"index":"42"}]},
-  {"code":3300402,"name":"神宮丸太町","station":"神宮丸太町","numbering":[{"index":"41"}]},
-  {"code":3300101,"name":"三条(京都)","station":"三条(京都)","numbering":[{"index":"40"}]}
+  {"code":3300401,"name":"出町柳","numbering":[{"index":"42"}]},
+  {"code":3300402,"name":"神宮丸太町","numbering":[{"index":"41"}]},
+  {"code":3300101,"name":"三条(京都)","numbering":[{"index":"40"}]}
 ]
 }

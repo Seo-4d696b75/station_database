@@ -1,14 +1,14 @@
 {
 "code":99614,
 "name":"北大阪急行電鉄",
-"phonetic":"きたおおさかきゅうこうでんてつ",
+"name_kana":"きたおおさかきゅうこうでんてつ",
 "symbol":"M",
 "color":"#E5171F",
 "list_size":4,
 "station_list":[
-  {"code":9961401,"name":"千里中央","station":"千里中央","numbering":[{"index":"08"}]},
-  {"code":9961402,"name":"桃山台","station":"桃山台","numbering":[{"index":"09"}]},
-  {"code":9961403,"name":"緑地公園","station":"緑地公園","numbering":[{"index":"10"}]},
-  {"code":9961404,"name":"江坂","station":"江坂","numbering":[{"index":"11"}]}
+  {"code":9961401,"name":"千里中央","numbering":[{"index":"08"}]},
+  {"code":9961402,"name":"桃山台","numbering":[{"index":"09"}]},
+  {"code":9961403,"name":"緑地公園","numbering":[{"index":"10"}]},
+  {"code":9961404,"name":"江坂","numbering":[{"index":"11"}]}
 ]
 }

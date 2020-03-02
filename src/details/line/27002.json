@@ -1,17 +1,17 @@
 {
 "code":27002,
 "name":"京急空港線",
-"phonetic":"けいきゅうくうこうせん",
+"name_kana":"けいきゅうくうこうせん",
 "symbol":"KK",
 "color":"#00BFFF",
 "list_size":7,
 "station_list":[
-  {"code":2700112,"name":"京急蒲田","station":"京急蒲田","numbering":[{"index":"11"}]},
-  {"code":2700202,"name":"糀谷","station":"糀谷","numbering":[{"index":"12"}]},
-  {"code":2700203,"name":"大鳥居","station":"大鳥居","numbering":[{"index":"13"}]},
-  {"code":2700204,"name":"穴守稲荷","station":"穴守稲荷","numbering":[{"index":"14"}]},
-  {"code":2700205,"name":"天空橋","station":"天空橋","numbering":[{"index":"15"}]},
-  {"code":2700207,"name":"羽田空港国際線ターミナル","station":"羽田空港国際線ターミナル","numbering":[{"index":"16"}]},
-  {"code":2700206,"name":"羽田空港国内線ターミナル","station":"羽田空港国内線ターミナル","numbering":[{"index":"17"}]}
+  {"code":2700112,"name":"京急蒲田","numbering":[{"index":"11"}]},
+  {"code":2700202,"name":"糀谷","numbering":[{"index":"12"}]},
+  {"code":2700203,"name":"大鳥居","numbering":[{"index":"13"}]},
+  {"code":2700204,"name":"穴守稲荷","numbering":[{"index":"14"}]},
+  {"code":2700205,"name":"天空橋","numbering":[{"index":"15"}]},
+  {"code":2700207,"name":"羽田空港国際線ターミナル","numbering":[{"index":"16"}]},
+  {"code":2700206,"name":"羽田空港国内線ターミナル","numbering":[{"index":"17"}]}
 ]
 }

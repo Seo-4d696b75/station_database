@@ -1,19 +1,19 @@
 {
 "code":30006,
 "name":"名鉄豊田線",
-"phonetic":"めいてつとよたせん",
+"name_kana":"めいてつとよたせん",
 "symbol":"TT",
 "color":"#9ACD32",
 "list_size":9,
 "station_list":[
-  {"code":3000609,"name":"赤池(愛知)","station":"赤池(愛知)","numbering":[{"index":"07"}]},
-  {"code":3000608,"name":"日進(愛知)","station":"日進(愛知)","numbering":[{"index":"06"}]},
-  {"code":3000607,"name":"米野木","station":"米野木","numbering":[{"index":"05"}]},
-  {"code":3000606,"name":"黒笹","station":"黒笹","numbering":[{"index":"04"}]},
-  {"code":3000605,"name":"三好ヶ丘","station":"三好ヶ丘","numbering":[{"index":"03"}]},
-  {"code":3000604,"name":"浄水","station":"浄水","numbering":[{"index":"02"}]},
-  {"code":3000603,"name":"上豊田","station":"上豊田","numbering":[{"index":"01"}]},
-  {"code":3000520,"name":"梅坪","station":"梅坪","numbering":[{"symbol":"MY","index":"08"}]},
-  {"code":3000519,"name":"豊田市","station":"豊田市","numbering":[{"symbol":"MY","index":"07"}]}
+  {"code":3000609,"name":"赤池(愛知)","numbering":[{"index":"07"}]},
+  {"code":3000608,"name":"日進(愛知)","numbering":[{"index":"06"}]},
+  {"code":3000607,"name":"米野木","numbering":[{"index":"05"}]},
+  {"code":3000606,"name":"黒笹","numbering":[{"index":"04"}]},
+  {"code":3000605,"name":"三好ヶ丘","numbering":[{"index":"03"}]},
+  {"code":3000604,"name":"浄水","numbering":[{"index":"02"}]},
+  {"code":3000603,"name":"上豊田","numbering":[{"index":"01"}]},
+  {"code":3000520,"name":"梅坪","numbering":[{"symbol":"MY","index":"08"}]},
+  {"code":3000519,"name":"豊田市","numbering":[{"symbol":"MY","index":"07"}]}
 ]
 }

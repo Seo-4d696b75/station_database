@@ -1,18 +1,18 @@
 {
 "code":30013,
 "name":"名鉄津島線",
-"phonetic":"めいてつつしません",
+"name_kana":"めいてつつしません",
 "symbol":"TB",
 "color":"#FF6347",
 "list_size":8,
 "station_list":[
-  {"code":3000142,"name":"須ヶ口","station":"須ヶ口","numbering":[{"symbol":"NH","color":"#DC143C","index":"42"}]},
-  {"code":3001302,"name":"甚目寺","station":"甚目寺","numbering":[{"index":"01"}]},
-  {"code":3001303,"name":"七宝","station":"七宝","numbering":[{"index":"02"}]},
-  {"code":3001304,"name":"木田","station":"木田","numbering":[{"index":"03"}]},
-  {"code":3001305,"name":"青塚","station":"青塚","numbering":[{"index":"04"}]},
-  {"code":3001306,"name":"勝幡","station":"勝幡","numbering":[{"index":"05"}]},
-  {"code":3001307,"name":"藤浪","station":"藤浪","numbering":[{"index":"06"}]},
-  {"code":3001308,"name":"津島","station":"津島","numbering":[{"index":"07"}]}
+  {"code":3000142,"name":"須ヶ口","numbering":[{"symbol":"NH","color":"#DC143C","index":"42"}]},
+  {"code":3001302,"name":"甚目寺","numbering":[{"index":"01"}]},
+  {"code":3001303,"name":"七宝","numbering":[{"index":"02"}]},
+  {"code":3001304,"name":"木田","numbering":[{"index":"03"}]},
+  {"code":3001305,"name":"青塚","numbering":[{"index":"04"}]},
+  {"code":3001306,"name":"勝幡","numbering":[{"index":"05"}]},
+  {"code":3001307,"name":"藤浪","numbering":[{"index":"06"}]},
+  {"code":3001308,"name":"津島","numbering":[{"index":"07"}]}
 ]
 }
