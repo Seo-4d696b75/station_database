@@ -1,0 +1,28 @@
+{
+"code":26004,
+"name":"東急大井町線",
+"phonetic":"とうきゅうおおいまちせん",
+"symbol":"OM",
+"color":"#F18C43",
+"list_size":18,
+"station_list":[
+  {"code":1133228,"name":"大井町","station":"大井町","numbering":[{"index":"01"}]},
+  {"code":2600402,"name":"下神明","station":"下神明","numbering":[{"index":"02"}]},
+  {"code":2600403,"name":"戸越公園","station":"戸越公園","numbering":[{"index":"03"}]},
+  {"code":2600404,"name":"中延","station":"中延","numbering":[{"index":"04"}]},
+  {"code":2600405,"name":"荏原町","station":"荏原町","numbering":[{"index":"05"}]},
+  {"code":2600406,"name":"旗の台","station":"旗の台","numbering":[{"index":"06"}]},
+  {"code":2600407,"name":"北千束","station":"北千束","numbering":[{"index":"07"}]},
+  {"code":2600206,"name":"大岡山","station":"大岡山","numbering":[{"index":"08"}]},
+  {"code":2600409,"name":"緑が丘(東京)","station":"緑が丘(東京)","numbering":[{"index":"09"}]},
+  {"code":2600107,"name":"自由が丘","station":"自由が丘","numbering":[{"index":"10"}]},
+  {"code":2600411,"name":"九品仏","station":"九品仏","numbering":[{"index":"11"}]},
+  {"code":2600412,"name":"尾山台","station":"尾山台","numbering":[{"index":"12"}]},
+  {"code":2600413,"name":"等々力","station":"等々力","numbering":[{"index":"13"}]},
+  {"code":2600414,"name":"上野毛","station":"上野毛","numbering":[{"index":"14"}]},
+  {"code":2600307,"name":"二子玉川","station":"二子玉川","numbering":[{"index":"15"},{"symbol":"DT","color":"#38B48B","index":"07"}]},
+  {"code":2600308,"name":"二子新地","station":"二子新地","numbering":[{"symbol":"DT","color":"#38B48B","index":"08"}]},
+  {"code":2600309,"name":"高津(神奈川)","station":"高津(神奈川)","numbering":[{"symbol":"DT","color":"#38B48B","index":"09"}]},
+  {"code":2600310,"name":"溝の口","station":"溝の口","numbering":[{"index":"16"},{"symbol":"DT","color":"#38B48B","index":"10"}]}
+]
+}

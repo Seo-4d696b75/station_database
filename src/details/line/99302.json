@@ -1,0 +1,30 @@
+{
+"code":99302,
+"name":"都営浅草線",
+"phonetic":"とえいあさくさせん",
+"symbol":"A",
+"color":"#E85298",
+"list_size":20,
+"station_list":[
+  {"code":9930201,"name":"西馬込","station":"西馬込","numbering":[{"index":"01"}]},
+  {"code":9930202,"name":"馬込","station":"馬込","numbering":[{"index":"02"}]},
+  {"code":2600404,"name":"中延","station":"中延","numbering":[{"index":"03"}]},
+  {"code":9930204,"name":"戸越","station":"戸越","numbering":[{"index":"04"}]},
+  {"code":1130202,"name":"五反田","station":"五反田","numbering":[{"index":"05"}]},
+  {"code":9930206,"name":"高輪台","station":"高輪台","numbering":[{"index":"06"}]},
+  {"code":2700101,"name":"泉岳寺","station":"泉岳寺","numbering":[{"index":"07"}]},
+  {"code":9930208,"name":"三田(東京)","station":"三田(東京)","numbering":[{"index":"08"}]},
+  {"code":9930121,"name":"大門(東京)","station":"大門(東京)","numbering":[{"index":"09"}]},
+  {"code":1130102,"name":"新橋","station":"新橋","numbering":[{"index":"10"}]},
+  {"code":2800313,"name":"東銀座","station":"東銀座","numbering":[{"index":"11"}]},
+  {"code":9930212,"name":"宝町(東京)","station":"宝町(東京)","numbering":[{"index":"12"}]},
+  {"code":2800109,"name":"日本橋(東京)","station":"日本橋(東京)","numbering":[{"index":"13"}]},
+  {"code":2800309,"name":"人形町","station":"人形町","numbering":[{"index":"14"}]},
+  {"code":9930215,"name":"東日本橋","station":"東日本橋","numbering":[{"index":"15"}]},
+  {"code":1131320,"name":"浅草橋","station":"浅草橋","numbering":[{"index":"16"}]},
+  {"code":9930112,"name":"蔵前","station":"蔵前","numbering":[{"index":"17"}]},
+  {"code":2100201,"name":"浅草(その他)","station":"浅草(その他)","numbering":[{"index":"18"}]},
+  {"code":9930219,"name":"本所吾妻橋","station":"本所吾妻橋","numbering":[{"index":"19"}]},
+  {"code":2300201,"name":"押上（スカイツリー前）","station":"押上（スカイツリー前）","numbering":[{"index":"20"}]}
+]
+}

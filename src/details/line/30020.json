@@ -1,0 +1,19 @@
+{
+"code":30020,
+"name":"名鉄竹鼻線",
+"phonetic":"めいてつたけはなせん",
+"symbol":"TH",
+"color":"#DAA520",
+"list_size":9,
+"station_list":[
+  {"code":3000156,"name":"笠松","station":"笠松","numbering":[{"symbol":"NH","color":"#DC143C","index":"56"}]},
+  {"code":3002002,"name":"西笠松","station":"西笠松","numbering":[{"index":"01"}]},
+  {"code":3002003,"name":"柳津(岐阜)","station":"柳津(岐阜)","numbering":[{"index":"02"}]},
+  {"code":3002004,"name":"南宿","station":"南宿","numbering":[{"index":"03"}]},
+  {"code":3002005,"name":"須賀","station":"須賀","numbering":[{"index":"04"}]},
+  {"code":3002006,"name":"不破一色","station":"不破一色","numbering":[{"index":"05"}]},
+  {"code":3002007,"name":"竹鼻","station":"竹鼻","numbering":[{"index":"06"}]},
+  {"code":3002008,"name":"羽島市役所前","station":"羽島市役所前","numbering":[{"index":"07"}]},
+  {"code":3002009,"name":"江吉良","station":"江吉良","numbering":[{"index":"08"}]}
+]
+}

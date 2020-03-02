@@ -1,0 +1,22 @@
+{
+"code":50010,
+"name":"長野電鉄屋代線","closed":true,
+"phonetic":"ながのでんてつやしろせん",
+"symbol":"Y",
+"list_size":13,
+"station_list":[
+  {"code":9940316,"name":"屋代","station":"屋代","numbering":[{"index":"1"}]},
+  {"code":5000104,"name":"東屋代","station":"東屋代","numbering":[{"index":"2"}]},
+  {"code":5000105,"name":"雨宮","station":"雨宮","numbering":[{"index":"3"}]},
+  {"code":5000106,"name":"岩野","station":"岩野","numbering":[{"index":"4"}]},
+  {"code":5000107,"name":"象山口","station":"象山口","numbering":[{"index":"5"}]},
+  {"code":5000108,"name":"松代","station":"松代","numbering":[{"index":"6"}]},
+  {"code":5000109,"name":"金井山","station":"金井山","numbering":[{"index":"7"}]},
+  {"code":5000110,"name":"大室","station":"大室","numbering":[{"index":"8"}]},
+  {"code":5000111,"name":"信濃川田","station":"信濃川田","numbering":[{"index":"9"}]},
+  {"code":5000112,"name":"若穂","station":"若穂","numbering":[{"index":"10"}]},
+  {"code":5000113,"name":"綿内","station":"綿内","numbering":[{"index":"11"}]},
+  {"code":5000114,"name":"井上","station":"井上","numbering":[{"index":"12"}]},
+  {"code":9940513,"name":"須坂","station":"須坂","numbering":[{"symbol":"NY","index":"13"}]}
+]
+}

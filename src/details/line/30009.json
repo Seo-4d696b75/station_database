@@ -1,0 +1,29 @@
+{
+"code":30009,
+"name":"名鉄河和線",
+"phonetic":"めいてつこうわせん",
+"symbol":"KC",
+"color":"#00BFFF",
+"list_size":19,
+"station_list":[
+  {"code":3000813,"name":"太田川","station":"太田川","numbering":[{"symbol":"TA","color":"#0000CD","index":"09"}]},
+  {"code":3000902,"name":"高横須賀","station":"高横須賀","numbering":[{"index":"01"}]},
+  {"code":3000903,"name":"南加木屋","station":"南加木屋","numbering":[{"index":"03"}]},
+  {"code":3000904,"name":"八幡新田","station":"八幡新田","numbering":[{"index":"04"}]},
+  {"code":3000905,"name":"巽ヶ丘","station":"巽ヶ丘","numbering":[{"index":"05"}]},
+  {"code":3000906,"name":"白沢(愛知)","station":"白沢(愛知)","numbering":[{"index":"06"}]},
+  {"code":3000907,"name":"坂部","station":"坂部","numbering":[{"index":"07"}]},
+  {"code":3000908,"name":"阿久比","station":"阿久比","numbering":[{"index":"08"}]},
+  {"code":3000910,"name":"植大","station":"植大","numbering":[{"index":"09"}]},
+  {"code":3000911,"name":"半田口","station":"半田口","numbering":[{"index":"10"}]},
+  {"code":3000912,"name":"住吉町","station":"住吉町","numbering":[{"index":"11"}]},
+  {"code":3000913,"name":"知多半田","station":"知多半田","numbering":[{"index":"12"}]},
+  {"code":3000914,"name":"成岩","station":"成岩","numbering":[{"index":"13"}]},
+  {"code":3000915,"name":"青山(愛知)","station":"青山(愛知)","numbering":[{"index":"14"}]},
+  {"code":3000916,"name":"上ゲ","station":"上ゲ","numbering":[{"index":"15"}]},
+  {"code":3000917,"name":"知多武豊","station":"知多武豊","numbering":[{"index":"16"}]},
+  {"code":3000918,"name":"富貴","station":"富貴","numbering":[{"index":"17"}]},
+  {"code":3000920,"name":"河和口","station":"河和口","numbering":[{"index":"18"}]},
+  {"code":3000921,"name":"河和","station":"河和","numbering":[{"index":"19"}]}
+]
+}

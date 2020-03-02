@@ -1,0 +1,28 @@
+{
+"code":11320,
+"name":"JR常磐線(上野～取手)",
+"phonetic":"じぇいあーるじょうばんせん",
+"color":"#00B261",
+"list_size":19,
+"station_list":[
+  {"code":1130220,"name":"上野","station":"上野","numbering":[{"symbol":"JJ","index":"01"}]},
+  {"code":1130218,"name":"日暮里","station":"日暮里","numbering":[{"symbol":"JJ","index":"02"}]},
+  {"code":1132003,"name":"三河島","station":"三河島","numbering":[{"symbol":"JJ","index":"03"}]},
+  {"code":1132004,"name":"南千住","station":"南千住","numbering":[{"symbol":"JJ","index":"04"}]},
+  {"code":1132005,"name":"北千住","station":"北千住","numbering":[{"symbol":"JJ","index":"05"}]},
+  {"code":1132006,"name":"綾瀬","station":"綾瀬","numbering":[{"symbol":"JL","color":"#A8A39D","index":"19"}]},
+  {"code":1132007,"name":"亀有","station":"亀有","numbering":[{"symbol":"JL","color":"#A8A39D","index":"20"}]},
+  {"code":1132008,"name":"金町","station":"金町","numbering":[{"symbol":"JL","color":"#A8A39D","index":"21"}]},
+  {"code":1132009,"name":"松戸","station":"松戸","numbering":[{"symbol":"JJ","index":"06"},{"symbol":"JL","color":"#A8A39D","index":"22"}]},
+  {"code":1132010,"name":"北松戸","station":"北松戸","numbering":[{"symbol":"JL","color":"#A8A39D","index":"23"}]},
+  {"code":1132011,"name":"馬橋","station":"馬橋","numbering":[{"symbol":"JL","color":"#A8A39D","index":"24"}]},
+  {"code":1130519,"name":"新松戸","station":"新松戸","numbering":[{"symbol":"JL","color":"#A8A39D","index":"25"}]},
+  {"code":1132013,"name":"北小金","station":"北小金","numbering":[{"symbol":"JL","color":"#A8A39D","index":"26"}]},
+  {"code":1132014,"name":"南柏","station":"南柏","numbering":[{"symbol":"JL","color":"#A8A39D","index":"27"}]},
+  {"code":1132015,"name":"柏","station":"柏","numbering":[{"symbol":"JJ","index":"07"},{"symbol":"JL","color":"#A8A39D","index":"28"}]},
+  {"code":1132016,"name":"北柏","station":"北柏","numbering":[{"symbol":"JL","color":"#A8A39D","index":"29"}]},
+  {"code":1132017,"name":"我孫子","station":"我孫子","numbering":[{"symbol":"JJ","index":"08"},{"symbol":"JL","color":"#A8A39D","index":"30"}]},
+  {"code":1132018,"name":"天王台","station":"天王台","numbering":[{"symbol":"JJ","index":"09"},{"symbol":"JL","color":"#A8A39D","index":"31"}]},
+  {"code":1122901,"name":"取手","station":"取手","numbering":[{"symbol":"JJ","index":"10"},{"symbol":"JL","color":"#A8A39D","index":"32"}]}
+]
+}

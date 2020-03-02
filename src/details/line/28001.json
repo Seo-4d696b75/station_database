@@ -1,0 +1,29 @@
+{
+"code":28001,
+"name":"東京メトロ銀座線",
+"phonetic":"とうきょうめとろぎんざせん",
+"symbol":"G",
+"color":"#F39700",
+"list_size":19,
+"station_list":[
+  {"code":1130205,"name":"渋谷","station":"渋谷","numbering":[{"index":"01"}]},
+  {"code":2800118,"name":"表参道","station":"表参道","numbering":[{"index":"02"}]},
+  {"code":2800117,"name":"外苑前","station":"外苑前","numbering":[{"index":"03"}]},
+  {"code":2800116,"name":"青山一丁目","station":"青山一丁目","numbering":[{"index":"04"}]},
+  {"code":2800115,"name":"赤坂見附","station":"赤坂見附","numbering":[{"index":"05"}]},
+  {"code":2800114,"name":"溜池山王","station":"溜池山王","numbering":[{"index":"06"}]},
+  {"code":2800113,"name":"虎ノ門","station":"虎ノ門","numbering":[{"index":"07"}]},
+  {"code":1130102,"name":"新橋","station":"新橋","numbering":[{"index":"08"}]},
+  {"code":2800111,"name":"銀座","station":"銀座","numbering":[{"index":"09"}]},
+  {"code":2800110,"name":"京橋(東京)","station":"京橋(東京)","numbering":[{"index":"10"}]},
+  {"code":2800109,"name":"日本橋(東京)","station":"日本橋(東京)","numbering":[{"index":"11"}]},
+  {"code":2800108,"name":"三越前","station":"三越前","numbering":[{"index":"12"}]},
+  {"code":1130223,"name":"神田(東京)","station":"神田(東京)","numbering":[{"index":"13"}]},
+  {"code":2800106,"name":"末広町(東京)","station":"末広町(東京)","numbering":[{"index":"14"}]},
+  {"code":2800105,"name":"上野広小路","station":"上野広小路","numbering":[{"index":"15"}]},
+  {"code":1130220,"name":"上野","station":"上野","numbering":[{"index":"16"}]},
+  {"code":2800103,"name":"稲荷町(東京)","station":"稲荷町(東京)","numbering":[{"index":"17"}]},
+  {"code":2800102,"name":"田原町(東京)","station":"田原町(東京)","numbering":[{"index":"18"}]},
+  {"code":2100201,"name":"浅草(その他)","station":"浅草(その他)","numbering":[{"index":"19"}]}
+]
+}
