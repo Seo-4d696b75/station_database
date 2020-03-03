@@ -2,8 +2,7 @@
 require 'json'
 Encoding.default_external = 'UTF-8'
 
-api_key = 'AIzaSyDKM0E4kfK-2gw4tz4ROyya1kH0SLh3ni8'
-url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=41.773709,140.726413&key=AIzaSyDKM0E4kfK-2gw4tz4ROyya1kH0SLh3ni8'
+url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=41.773709,140.726413&key=hoge'
 
 # soved された駅データ
 puts "read soved station data."

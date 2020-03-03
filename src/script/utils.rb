@@ -1,35 +1,105 @@
 
 require 'json'
 require 'set'
-
-
+require 'securerandom'
 
 Encoding.default_external = 'UTF-8'
 
-src_file = '../old/20191129/stations.json'
-src_dir = '../old/20191129/details/lines'
-dst_dir = './details/line'
 
-str = ''
-File.open(src_file,'r') {|f| f.each_line{|l| str += l}}
-station_map = {}
-JSON.parse(str).each do |s|
-	station_map[s['code'].to_i] = s['station']
-end
-puts "station name size:#{station_map.length}"
 
-Dir.glob("#{src_dir}/*.json").each do |n|
-	str = ''
-	File.open(n,'r') {|f| f.each_line{|l| str += l}}
-	j = JSON.parse(str)
-	str.gsub!('"line"','"name"')
-	j['station_list'].each do |item|
-		code = item['code']
-		if name = station_map[code]
-			str.gsub!("\"code\":#{code}","\"code\":#{code},\"name\":\"#{name}\"")
-		else
-			puts "Error > no station found. code:#{code} @ #{n}"
+def read(path)
+	str = ""
+	File.open(path, "r:utf-8") do |file|
+		file.each_line do |line|
+			str += line
 		end
 	end
-	File.open("#{dst_dir}/#{j['code']}.json","w"){|f| f.write(str)}
+	return str
+end
+
+def read_json(path)
+	str = ""
+	File.open(path, "r:utf-8") do |file|
+		file.each_line do |line|
+			str += line
+		end
+	end
+	return JSON.parse(str)
+end
+
+def flatten_data(obj,list)
+	if children = obj["data"]
+		children.each{|child| flatten_data(child,list)}
+	else
+		list << obj
+	end
+end
+
+def read_data(path)
+	root = read_json(path)
+	list = []
+	flatten_data(root,list)
+	return list
+end
+
+
+class IDSet
+
+	def initialize
+		@id = Set.new
+	end
+
+	def add?(e)
+		if id = e['id']
+			if id.match(/[0-9a-f]{6}/)
+				if @id.add?(id)
+					return true
+				else
+					puts "Error > id:#{id} duplicated  item:#{e}"
+				end
+			else
+				puts "Error > invalid id item:#{e}"
+			end
+		else
+			puts "Error > no id item:#{e}"
+		end
+		return false
+	end
+
+	def get
+		while true
+			id = SecureRandom.hex(3)
+			if @id.add?(id)
+				return id
+			end
+		end
+	end
+end
+
+
+def sort_hash(data)
+	keys = [
+		'id',
+		'code',
+		'name',
+		'name_kana',
+		'name_formal',
+		'size',
+		'company_code',
+		'lat',
+		'lng',
+		'prefecture',
+		'lines',
+		'postal_code',
+		'address'
+	]
+	data.sort do |a,b|
+		a = keys.find_index(a)
+		b = keys.file_index(b)
+		if a
+			next b ? a <=> b : -1
+		else
+			next b ? 1 : 0
+		end
+	end
 end

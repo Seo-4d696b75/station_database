@@ -6,10 +6,10 @@ Encoding.default_external = 'UTF-8'
 
 # 駅・路線に固有かつ定常な値を決定する
 
-src_station = 'solved/station.json'
-src_line = 'solved/staton.json'
-dst_station = 'identified/station.json'
-dst_line = 'identified/line.json'
+station_src = '../old/20191129/stations.json'
+station_dst = './station.json'
+line_src = '../old/20191129/lines.json'
+line_dst = './line.json'
 
 
 class IDSet
@@ -20,7 +20,7 @@ class IDSet
 
 	def add?(e)
 		if id = e['id']
-			if id.match(/[0-9a-f]{8}/)
+			if id.match(/[0-9a-f]{6}/)
 				if @id.add?(id)
 					return true
 				else
@@ -37,7 +37,7 @@ class IDSet
 
 	def get
 		while true
-			id = SecureRandom.hex(4)
+			id = SecureRandom.hex(3)
 			if @id.add?(id)
 				return id
 			end
@@ -63,12 +63,37 @@ def load_list(file_name, map, set)
 	
 end
 
-stations_old = {}
-if File.exits?(file_station)
-	load_list(file_station, stations_old, set)
+str = ''
+File.open(line_src,'r'){|f| f.each_line{|l| str += l}}
+lines = []
+JSON.parse(str).each do |e|
+	id = set.get
+	data = {}
+	data['id'] = id
+	e.each_key{|key| data[key] = e[key]}
+	lines << data
 end
 
-lines_old = {}
-if File.exits?(file_line)
-	load_list(file_line, lines_old, set)
+str = ''
+
+File.open(station_src,'r'){|f| f.each_line{|l| str += l}}
+stations = []
+JSON.parse(str).each do |e|
+	id = set.get
+	data = {}
+	data['id'] = id
+	e.each_key{|key| data[key] = e[key]}
+	stations << data
+end
+
+File.open(line_dst, 'w') do |f|
+	f.puts('[')
+	f.puts(lines.map{|e| JSON.dump(e)}.join(",\n"))
+	f.puts(']')
+end
+
+File.open(station_dst, 'w') do |f|
+	f.puts('[')
+	f.puts(stations.map{|e| JSON.dump(e)}.join(",\n"))
+	f.puts(']')
 end

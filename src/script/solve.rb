@@ -1,3 +1,4 @@
+load('script/utils.rb')
 
 Encoding.default_external = "utf-8"
 
@@ -31,42 +32,6 @@ require 'set'
 ##  もっともこれでも駅総数は合わない廃駅を考慮しても合わない…orz
 ##  データファイルのエンコーディングはUTF-8を前提としているので注意
 ##======================================
-
-
-def read(path)
-	str = ""
-	File.open(path, "r:utf-8") do |file|
-		file.each_line do |line|
-			str += line
-		end
-	end
-	return str
-end
-
-def read_json(path)
-	str = ""
-	File.open(path, "r:utf-8") do |file|
-		file.each_line do |line|
-			str += line
-		end
-	end
-	return JSON.parse(str)
-end
-
-def flatten_data(obj,list)
-	if children = obj["data"]
-		children.each{|child| flatten_data(child,list)}
-	else
-		list << obj
-	end
-end
-
-def read_data(path)
-	root = read_json(path)
-	list = []
-	flatten_data(root,list)
-	return list
-end
 
 class LineItem
 	attr_accessor :cnt, :data
@@ -115,7 +80,7 @@ class StationItem
 		end
 	end
 	def relocate(lng,lat)
-		puts "Log > relocate station %s (%.6f,%.6f) => (%.6f,%.6f)" % [@data['name'],@data['lat'],@data['lng'],lat,lng]
+		# puts "Log > relocate station %s (%.6f,%.6f) => (%.6f,%.6f)" % [@data['name'],@data['lat'],@data['lng'],lat,lng]
 		@data['lng'] = lng
 		@data['lat'] = lat
 	end
@@ -125,7 +90,7 @@ class StationItem
 			return false
 		end
 		if line.data['closed'] && !@data['closed']
-		    puts "Wanning > closed attributed crash\nstation:%s\nline:%s" % [to_s, line.to_s]
+		    puts "Wanning > closed attributed crash. station:#{data['name']} line:#{line.data['name']}(closed)"
 		end
 		@data['lines'] << line.data['code']
 		return true
@@ -146,8 +111,10 @@ class StationItem
 	end
 end
 
+
+
 class Solver
-	def init(path_line="mid/line.json", path_station="mid/station.json")
+	def init(path_line="parsed/line.json", path_station="parsed/station.json")
 		@line = []
 		read_json(path_line).each do |e|
 			if item =  init_line(e)
@@ -210,7 +177,7 @@ class Solver
 		return @station.clone
 	end
 	
-	def solve(data_path="solution.json")
+	def solve(data_path="solution.json",line_id_path='line.json',station_id_path='station.json')
 	
 		##deep copy of array
 		if @_station && @_line
@@ -327,7 +294,7 @@ class Solver
 				##エントリから消去
 				if e.key?("remove") && !!e["remove"]
 					if (line = @line_map.delete(code)) && @line.delete(line)
-						puts "Log > remove line entry : " + line.to_s
+						# puts "Log > remove line entry : " + line.to_s
 					else
 						puts "Error > fail to remove line entry. code:#{code}"
 						return
@@ -355,6 +322,14 @@ class Solver
 						return 
 					end
 					line.data['code'] = val.to_i
+				end
+				if id = e['id']
+					if id.match(/[0-9a-f]{6}/)
+						line.data['id'] = id
+					else
+						puts "Error > invalid id format #{e}"
+						return
+					end
 				end
 				##廃線情報の更新
 				if e.key?("closed")
@@ -414,7 +389,7 @@ class Solver
 				##エントリから消去
 				if e.key?("remove") && e["remove"]
 					if (s = @station_map.delete(code)) && @station.delete(s)
-						puts "Log > remove station entry ; " + s.to_s
+						# puts "Log > remove station entry ; " + s.to_s
 					else
 						puts "Error > fail to remove station entry code:#{code}"
 						return
@@ -435,6 +410,14 @@ class Solver
 						return
 					end
 					s.data['code'] = val
+				end
+				if id = e['id']
+					if id.match(/[0-9a-f]{6}/)
+						s.data['id'] = id
+					else
+						puts "Error > invalid id format #{e}"
+						return
+					end
 				end
 				#位置情報の更新
 				if e.key?("lng") && e.key?("lat")
@@ -494,25 +477,25 @@ class Solver
 				end
 				if line = @line_name_map[name]
 					if e.key?("add_station") 
-						puts "Log > add station item to line : " + line.to_s
+						# puts "Log > add station item to line : " + line.to_s
 						e["add_station"].each do |item|
 							if name = add_station_item(line,item)
-								print "#{name} "
+								# print "#{name} "
 							else return end
 						end
-						puts "size=%d" % e["add_station"].length
+						# puts "size=%d" % e["add_station"].length
 					end
 					if e.key?("remove_station")
-						puts "Log > remove station item from line : " + line.to_s
+						# puts "Log > remove station item from line : " + line.to_s
 						e["remove_station"].each do |item|
 							if (name = add_station_item(line,item,true)) || removed_station_set.include?(item)
-								print "#{name}(removed) "
+								# print "#{name}(removed) "
 							else
 								puts "Error > remove station item requested, but station not found. #{item}" 
 								return 
 							end
 						end
-						puts "size=%d" % e["remove_station"].length
+						# puts "size=%d" % e["remove_station"].length
 					end
 				else
 					puts "Error > adding/removing station item is requested, but line has deleted yet. line:" + name
@@ -521,8 +504,123 @@ class Solver
 			end
 		end
 
-		
 		puts "Log > success to merge with completion data"
+		puts "Log > solve id for line/station item"
+
+		# 最後にidの確認
+		line_map = {}
+		station_map = {}
+		id_set = IDSet.new
+		read_json(line_id_path).each do |e|
+			return if !id_set.add?(e)
+			line_map[e['id']] = e
+		end
+		read_json(station_id_path).each do |e|
+			return if !id_set.add?(e)
+			station_map[e['id']] = e
+		end
+		diff = File.open('diff.txt','w')
+		## 明示的にidを指定する場合
+		## 対応する要素が既存とする
+		@line.each do |line|
+			if id = line.data['id']
+				if old = line_map.delete(id)
+					name = line.data['name']
+					code = line.data['code']
+					if old['name'] != name
+						# 要チェック
+						puts "Warning > id:#{id} line name changed. #{old['name']} > #{name} at #{line.data}"
+					elsif old['name'] != name || old['code'] != code
+						# 変更有
+						diff.puts("[line] name/code changed")
+						diff.puts("\told:#{JSON.dump(old)}")
+						diff.puts("\tnew:#{JSON.dump(line.data)}")
+					end
+				else
+					puts "Error > no line found in old version id:#{id} new item:#{line.data}"
+					return
+				end
+			end
+		end
+		@station.each do |s|
+			if id = s.data['id']
+				## 明示的にidを指定する場合
+				if old = station_map.delete(id)
+					## 対応する要素が既存のハズ
+					name = s.data['name']
+					code = s.data['code']
+					if old['name'] != name
+						# 要チェック
+						puts "Warning > id:#{id} station name changed. #{old['name']} > #{name} at #{line.data}"
+					elsif old['name'] != name || old['code'] != code
+						# 変更有
+						diff.puts("[station] name/code changed")
+						diff.puts("\told:#{JSON.dump(old)}")
+						diff.puts("\tnew:#{JSON.dump(line.data)}")
+					end
+				else
+					puts "Error > no station found in old version id:#{id} new_item:#{s.data}"
+					return
+				end
+			end
+		end
+		## 残りの既存の要素はどれかに対応するはず
+		## 廃線・廃駅になっても消えたりはしない
+		line_map.each_key do |key|
+			e = line_map[key]
+			name = e['name']
+			if line = @line_name_map[name]
+				# 路線名は不変とする
+				if id = line.data['id']
+					# 別の要素に対応済み！？
+					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
+					return
+				else
+					line.data['id'] = key
+				end
+			else
+				## 名前で対応する要素がない
+				puts "Error > no line found at new version. name:#{name} old:#{e}"
+				return
+			end
+		end
+		station_map.each_key do |key|
+			e = line_map[key]
+			name = e['name']
+			if s = @station_name_map[name]
+				# 路線名は不変とする
+				if id = s.data['id']
+					# 別の要素に対応済み！？
+					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
+					return
+				else
+					s.data['id'] = key
+				end
+			else
+				## 名前で対応する要素がない
+				puts "Error > no line found at new version. name:#{name} old:#{e}"
+				return
+			end
+		end
+		## 既存の要素に対応するものがないなら新規追加した要素
+		@line.select{|line| !line.data.key?('id')}.each do |line|
+			line.data['id'] = id_set.get
+			diff.puts("[line] add")
+			diff.puts("\tnew:#{JSON.dump(line.data)}")
+		end
+		@station.select{|s| !s.data.key?('id')}.each do |s|
+			s.data['id'] = id_set.get
+			diff.puts("[station] add")
+			diff.puts("\tnew:#{JSON.dump(s.data)}")
+		end
+			
+		diff.close
+
+		## sort
+		@line.map!{|e| sort_hash(e)}
+		@station.map!{|e| sort_hash(e)}
+
+		puts "Success to solve station and line data."
 		@merge = true
 	end
 
