@@ -1,0 +1,58 @@
+[line] name/code changed
+	old:{"id":"6143ed","code":99415,"name":"富山ライトレール","size":13}
+	new:{"code":99415,"name":"富山地鉄富山港線","company_code":160,"name_formal":"富山ライトレール","id":"6143ed"}
+[station] name/code changed
+	old:{"id":"8caa10","code":1120918,"name":"足ケ瀬","lon":141.645807,"lat":39.254766,"lines":[11209]}
+	new:{"code":1120918,"name":"足ヶ瀬","lat":39.254766,"lng":141.645807,"lines":[11209],"postal_code":"028-0772","address":"岩手県遠野市上郷町細越38","prefecture":3,"id":"8caa10"}
+[station] name/code changed
+	old:{"id":"2232d2","code":1121710,"name":"熊ケ根","lon":140.680633,"lat":38.297947,"lines":[11217]}
+	new:{"code":1121710,"name":"熊ヶ根","lat":38.297947,"lng":140.680633,"lines":[11217],"postal_code":"989-3432","address":"仙台市青葉区熊ヶ根字檀の原一番","prefecture":4,"id":"2232d2"}
+[station] name/code changed
+	old:{"id":"5e58d4","code":1123159,"name":"梅ケ沢","lon":141.085278,"lat":38.681678,"lines":[11231]}
+	new:{"code":1123159,"name":"梅ヶ沢","lat":38.681678,"lng":141.085278,"lines":[11231],"postal_code":"989-4601","address":"宮城県登米市迫町新田字外沢田53","prefecture":4,"id":"5e58d4"}
+[station] name/code changed
+	old:{"id":"e354d7","code":1123172,"name":"金ケ崎","lon":141.112894,"lat":39.199615,"lines":[11231]}
+	new:{"code":1123172,"name":"金ヶ崎","lat":39.199615,"lng":141.112894,"lines":[11231],"postal_code":"029-4503","address":"岩手県胆沢郡金ケ崎町西根杉土手2-1","prefecture":3,"id":"e354d7"}
+[station] name/code changed
+	old:{"id":"12e106","code":1141428,"name":"駒ケ根","lon":137.936862,"lat":35.736219,"lines":[11414]}
+	new:{"code":1141428,"name":"駒ヶ根","lat":35.736219,"lng":137.936862,"lines":[11414],"postal_code":"399-4106","address":"長野県駒ヶ根市東町1-1","prefecture":20,"id":"12e106"}
+[station] name/code changed
+	old:{"id":"79194f","code":1150908,"name":"島ケ原","lon":136.054184,"lat":34.767686,"lines":[11509]}
+	new:{"code":1150908,"name":"島ヶ原","lat":34.767686,"lng":136.054184,"lines":[11509],"postal_code":"519-1711","address":"三重県伊賀市島ヶ原広垣内5770","prefecture":24,"id":"79194f"}
+[station] name/code changed
+	old:{"id":"8f8afe","code":1150909,"name":"月ケ瀬口","lon":136.023703,"lat":34.762813,"lines":[11509]}
+	new:{"code":1150909,"name":"月ヶ瀬口","lat":34.762813,"lng":136.023703,"lines":[11509],"postal_code":"619-1411","address":"京都府相楽郡南山城村大字北大河原小字殿田平尾53-3","prefecture":26,"id":"8f8afe"}
+[station] name/code changed
+	old:{"id":"5ffd67","code":1151020,"name":"梅ケ谷","lon":136.356555,"lat":34.258098,"lines":[11510]}
+	new:{"code":1151020,"name":"梅ヶ谷","lat":34.258098,"lng":136.356555,"lines":[11510],"postal_code":"519-3111","address":"三重県度会郡大紀町大内山1135","prefecture":24,"id":"5ffd67"}
+[station] name/code changed
+	old:{"id":"8b2e1d","code":1151207,"name":"五十鈴ケ丘","lon":136.739797,"lat":34.495884,"lines":[11512]}
+	new:{"code":1151207,"name":"五十鈴ヶ丘","lat":34.495884,"lng":136.739797,"lines":[11512],"postal_code":"516-0018","address":"三重県伊勢市黒瀬町1342","prefecture":24,"id":"8b2e1d"}
+[station] name/code changed
+	old:{"id":"819556","code":1161716,"name":"忍ケ丘","lon":135.645232,"lat":34.745762,"lines":[11617]}
+	new:{"code":1161716,"name":"忍ヶ丘","lat":34.745762,"lng":135.645232,"lines":[11617],"postal_code":"575-0003","address":"大阪府四條畷市岡山東一丁目10-8","prefecture":27,"id":"819556"}
+[station] name/code changed
+	old:{"id":"6efc8e","code":1162604,"name":"鶴ケ丘","lon":135.517088,"lat":34.617999,"lines":[11626]}
+	new:{"code":1162604,"name":"鶴ヶ丘","lat":34.617999,"lng":135.517088,"lines":[11626],"postal_code":"545-0014","address":"大阪市阿倍野区西田辺町二丁目3-18","prefecture":27,"id":"6efc8e"}
+[station] name/code changed
+	old:{"id":"b4d2b3","code":1191316,"name":"天ケ瀬","lon":131.023877,"lat":33.254747,"lines":[11913]}
+	new:{"code":1191316,"name":"天ヶ瀬","lat":33.254747,"lng":131.023877,"lines":[11913],"postal_code":"879-4201","address":"大分県日田市天瀬町桜竹","prefecture":44,"id":"b4d2b3"}
+[station] name/code changed
+	old:{"id":"722720","code":9991116,"name":"御厨","lon":129.662502,"lat":33.365947,"lines":[99911]}
+	new:{"code":9991116,"name":"御厨(長崎)","lat":33.365947,"lng":129.662502,"lines":[99911],"postal_code":"859-4752","address":"松浦市御厨町里免","prefecture":42,"id":"722720"}
+[station] add
+	new:{"code":1120829,"name":"陸前今泉","lat":39.004122,"lng":141.613479,"lines":[11208],"prefecture":3,"id":"7b00d9"}
+[station] add
+	new:{"code":1120837,"name":"大船渡丸森","lat":39.028716,"lng":141.712638,"lines":[11208],"prefecture":3,"id":"ce9131"}
+[station] add
+	new:{"code":1120839,"name":"地ノ森","lat":39.071676,"lng":141.718181,"lines":[11208],"prefecture":3,"id":"d9b487"}
+[station] add
+	new:{"code":1120840,"name":"田茂山","lat":39.080179,"lng":141.713408,"lines":[11208],"prefecture":3,"id":"1ab93c"}
+[station] add
+	new:{"code":1122425,"name":"赤岩港","lat":38.88438,"lng":141.582468,"lines":[11224],"prefecture":4,"id":"53e8af"}
+[station] add
+	new:{"code":1180741,"name":"南伊予","lat":33.777727,"lng":132.737292,"lines":[11807],"id":"c8528b"}
+[station] add
+	new:{"code":1150135,"name":"御厨(静岡)","lat":34.718447,"lng":137.88534,"lines":[11501],"id":"865e32"}
+[station] add
+	new:{"code":1130230,"name":"高輪ゲートウェイ","lat":35.635468,"lng":139.740749,"lines":[11302,11332],"id":"06f72f"}

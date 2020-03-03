@@ -529,8 +529,9 @@ class Solver
 					code = line.data['code']
 					if old['name'] != name
 						# 要チェック
-						puts "Warning > id:#{id} line name changed. #{old['name']} > #{name} at #{line.data}"
-					elsif old['name'] != name || old['code'] != code
+						puts "Warning > id:#{id} line name changed. #{old['name']} > #{name}"
+					end
+					if old['name'] != name || old['code'] != code
 						# 変更有
 						diff.puts("[line] name/code changed")
 						diff.puts("\told:#{JSON.dump(old)}")
@@ -551,12 +552,13 @@ class Solver
 					code = s.data['code']
 					if old['name'] != name
 						# 要チェック
-						puts "Warning > id:#{id} station name changed. #{old['name']} > #{name} at #{line.data}"
-					elsif old['name'] != name || old['code'] != code
+						puts "Warning > id:#{id} station name changed. #{old['name']} > #{name}"
+					end
+					if old['name'] != name || old['code'] != code
 						# 変更有
 						diff.puts("[station] name/code changed")
 						diff.puts("\told:#{JSON.dump(old)}")
-						diff.puts("\tnew:#{JSON.dump(line.data)}")
+						diff.puts("\tnew:#{JSON.dump(s.data)}")
 					end
 				else
 					puts "Error > no station found in old version id:#{id} new_item:#{s.data}"
@@ -585,7 +587,7 @@ class Solver
 			end
 		end
 		station_map.each_key do |key|
-			e = line_map[key]
+			e = station_map[key]
 			name = e['name']
 			if s = @station_name_map[name]
 				# 路線名は不変とする
@@ -617,8 +619,8 @@ class Solver
 		diff.close
 
 		## sort
-		@line.map!{|e| sort_hash(e)}
-		@station.map!{|e| sort_hash(e)}
+		@line.each{|e| e.data = sort_hash(e.data)}
+		@station.each{|e| e.data = sort_hash(e.data)}
 
 		puts "Success to solve station and line data."
 		@merge = true

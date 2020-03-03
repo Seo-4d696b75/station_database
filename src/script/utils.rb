@@ -86,6 +86,7 @@ def sort_hash(data)
 		'name_formal',
 		'size',
 		'company_code',
+		'closed',
 		'lat',
 		'lng',
 		'prefecture',
@@ -94,12 +95,12 @@ def sort_hash(data)
 		'address'
 	]
 	data.sort do |a,b|
-		a = keys.find_index(a)
-		b = keys.file_index(b)
+		a = keys.find_index(a[0])
+		b = keys.find_index(b[0])
 		if a
 			next b ? a <=> b : -1
 		else
 			next b ? 1 : 0
 		end
-	end
+	end.to_h
 end

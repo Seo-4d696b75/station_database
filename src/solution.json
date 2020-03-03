@@ -188,7 +188,7 @@
     {"code":99329,"line":"新京成線","rename":"新京成電鉄線"},
     {"code":99339,"line":"箱根登山鉄道鉄道線","rename":"箱根登山鉄道"},
     {"code":99317,"line":"金沢シーサイドライン","rename":"横浜新都市交通金沢シーサイドライン"},
-    {"code":99503,"line":"岳南鉄道線","rename":"岳南鉄道"},
+    {"code":99503,"line":"岳南鉄道線","rename":"岳南線"},
     {"code":99526,"line":"樽見鉄道樽見線","rename":"樽見鉄道"},
     {"code":11108,"line":"花咲線","rename":"JR根室本線(花咲線)(釧路～根室)"},
     {"code":99642,"line":"三木鉄道三木線","rename":"三木線"}
@@ -250,18 +250,18 @@
     "remove_station":["三国ケ丘"],"add_station":["三国ヶ丘"]},
 
     
-    {"code":1191316,"station":"天ケ瀬","rename":"天ヶ瀬"},
-    {"code":1120918,"station":"足ケ瀬","rename":"足ヶ瀬"},
-    {"code":1121710,"station":"熊ケ根","rename":"熊ヶ根"},
-    {"code":1123159,"station":"梅ケ沢","rename":"梅ヶ沢"},
-    {"code":1123172,"station":"金ケ崎","rename":"金ヶ崎"},
-    {"code":1141428,"station":"駒ケ根","rename":"駒ヶ根"},
-    {"code":1150908,"station":"島ケ原","rename":"島ヶ原"},
-    {"code":1150909,"station":"月ケ瀬口","rename":"月ヶ瀬口"},
-    {"code":1151020,"station":"梅ケ谷","rename":"梅ヶ谷"},
-    {"code":1151207,"station":"五十鈴ケ丘","rename":"五十鈴ヶ丘"},
-    {"code":1161716,"station":"忍ケ丘","rename":"忍ヶ丘"},
-    {"code":1162604,"station":"鶴ケ丘","rename":"鶴ヶ丘"},
+    {"code":1191316,"station":"天ケ瀬","rename":"天ヶ瀬","id":"b4d2b3"},
+    {"code":1120918,"station":"足ケ瀬","rename":"足ヶ瀬","id":"8caa10"},
+    {"code":1121710,"station":"熊ケ根","rename":"熊ヶ根","id":"2232d2"},
+    {"code":1123159,"station":"梅ケ沢","rename":"梅ヶ沢","id":"5e58d4"},
+    {"code":1123172,"station":"金ケ崎","rename":"金ヶ崎","id":"e354d7"},
+    {"code":1141428,"station":"駒ケ根","rename":"駒ヶ根","id":"12e106"},
+    {"code":1150908,"station":"島ケ原","rename":"島ヶ原","id":"79194f"},
+    {"code":1150909,"station":"月ケ瀬口","rename":"月ヶ瀬口","id":"8f8afe"},
+    {"code":1151020,"station":"梅ケ谷","rename":"梅ヶ谷","id":"5ffd67"},
+    {"code":1151207,"station":"五十鈴ケ丘","rename":"五十鈴ヶ丘","id":"8b2e1d"},
+    {"code":1161716,"station":"忍ケ丘","rename":"忍ヶ丘","id":"819556"},
+    {"code":1162604,"station":"鶴ケ丘","rename":"鶴ヶ丘","id":"6efc8e"},
 
     {
       "comment":"'ケ'を含むのは12駅のみ",
@@ -2541,8 +2541,8 @@
   "url":"https://ekimemo.com/news/20200221170000_1",
   "date":20200228,
   "data":[
-    {"code":99415,"line":"富山ライトレール","rename":"富山地鉄富山港線","comment":"富山地鉄へ吸収合併"},
-    {"code":9991116,"station":"御厨","rename":"御厨(長崎)"},
+    {"id":"6143ed","code":99415,"line":"富山ライトレール","rename":"富山地鉄富山港線","comment":"富山地鉄へ吸収合併"},
+    {"code":9991116,"station":"御厨","rename":"御厨(長崎)","id":"722720"},
     {"code":11807,"line":"JR予讃・内子線","add_station":[
       {"code":1180741,"station":"南伊予","lng":132.737292,"lat":33.777727}
     ]},
