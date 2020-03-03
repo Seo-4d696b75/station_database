@@ -146,7 +146,7 @@ class StationItem
 	end
 end
 
-class Merge
+class Solver
 	def init(path_line="mid/line.json", path_station="mid/station.json")
 		@line = []
 		read_json(path_line).each do |e|
@@ -210,7 +210,7 @@ class Merge
 		return @station.clone
 	end
 	
-	def merge(data_path="merge.json")
+	def solve(data_path="solution.json")
 	
 		##deep copy of array
 		if @_station && @_line
@@ -612,14 +612,14 @@ class Merge
 	end
 	
 	def write()
-		path = "lines.json"
+		path = "solved/line.json"
 		file = File.open(path, "w")
 		file.puts("[")
 		file.puts(@line.map{|e| e.to_s }.join(",\n"))
 		file.puts("]")
 		file.close
 		puts "write line list. size:%d file:%s" % [@line.length, path] 
-		path = "stations.json"
+		path = "solved/station.json"
 		file = File.open(path, "w")
 		file.puts("[")
 		file.puts(@station.map{|e| e.to_s }.join(",\n"))
