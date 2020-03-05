@@ -1,0 +1,477 @@
+{
+  "station": "吉野山",
+  "lat": 31.838059,
+  "lng": 130.360001,
+  "plus_code": {
+    "compound_code": "R9Q6+62 日本、鹿児島県薩摩川内市中村町",
+    "global_code": "8Q3GR9Q6+62"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６９８０−４",
+          "short_name": "６９８０−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "中村町",
+          "short_name": "中村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "薩摩川内市",
+          "short_name": "薩摩川内市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-0003",
+          "short_name": "895-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒895-0003 鹿児島県薩摩川内市中村町６９８０−４",
+      "geometry": {
+        "location": {
+          "lat": 31.8382778,
+          "lng": 130.3599257
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 31.8396267802915,
+            "lng": 130.3612746802915
+          },
+          "southwest": {
+            "lat": 31.8369288197085,
+            "lng": 130.3585767197085
+          }
+        }
+      },
+      "place_id": "ChIJzU8HYu1IPjUR9Gl6Wm0r7b4",
+      "plus_code": {
+        "compound_code": "R9Q5+8X 日本、鹿児島県薩摩川内市 中村町",
+        "global_code": "8Q3GR9Q5+8X"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "中村町",
+          "short_name": "中村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "薩摩川内市",
+          "short_name": "薩摩川内市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-0003",
+          "short_name": "895-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 中村町 薩摩川内市 鹿児島県 895-0003 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 31.8386548,
+            "lng": 130.3600749
+          },
+          "southwest": {
+            "lat": 31.8379711,
+            "lng": 130.35912
+          }
+        },
+        "location": {
+          "lat": 31.8383185,
+          "lng": 130.3596028
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 31.8396619302915,
+            "lng": 130.3609464302915
+          },
+          "southwest": {
+            "lat": 31.8369639697085,
+            "lng": 130.3582484697085
+          }
+        }
+      },
+      "place_id": "ChIJteArmfJIPjUROFRyGnvnRF0",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "895-0003",
+          "short_name": "895-0003",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "中村町",
+          "short_name": "中村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "薩摩川内市",
+          "short_name": "薩摩川内市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒895-0003",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 31.8584656,
+            "lng": 130.3865348
+          },
+          "southwest": {
+            "lat": 31.8236197,
+            "lng": 130.3384753
+          }
+        },
+        "location": {
+          "lat": 31.8396141,
+          "lng": 130.3649922
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 31.8584656,
+            "lng": 130.3865348
+          },
+          "southwest": {
+            "lat": 31.8236197,
+            "lng": 130.3384753
+          }
+        }
+      },
+      "place_id": "ChIJzU8HYu1IPjURareMwfRK8s4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中村町",
+          "short_name": "中村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "薩摩川内市",
+          "short_name": "薩摩川内市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鹿児島県薩摩川内市中村町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 31.858466,
+            "lng": 130.3865348
+          },
+          "southwest": {
+            "lat": 31.8236199,
+            "lng": 130.338475
+          }
+        },
+        "location": {
+          "lat": 31.8396141,
+          "lng": 130.3649922
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 31.858466,
+            "lng": 130.3865348
+          },
+          "southwest": {
+            "lat": 31.8236199,
+            "lng": 130.338475
+          }
+        }
+      },
+      "place_id": "ChIJ3bj2ju5IPjURhvzLGo7atiA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "薩摩川内市",
+          "short_name": "薩摩川内市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鹿児島県薩摩川内市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 31.978532,
+            "lng": 130.590051
+          },
+          "southwest": {
+            "lat": 31.440338,
+            "lng": 129.657397
+          }
+        },
+        "location": {
+          "lat": 31.8132856,
+          "lng": 130.3034644
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 31.978532,
+            "lng": 130.590051
+          },
+          "southwest": {
+            "lat": 31.440338,
+            "lng": 129.657397
+          }
+        }
+      },
+      "place_id": "ChIJw8NNiBgjPjURNdkDNOt8Akw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鹿児島県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.3106641,
+            "lng": 131.2053659
+          },
+          "southwest": {
+            "lat": 27.0186809,
+            "lng": 128.3953454
+          }
+        },
+        "location": {
+          "lat": 31.3911958,
+          "lng": 130.8778586
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.3106641,
+            "lng": 131.2053659
+          },
+          "southwest": {
+            "lat": 27.0186809,
+            "lng": 128.3953454
+          }
+        }
+      },
+      "place_id": "ChIJA4AW0cJbGDURcNZa6PLRr40",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

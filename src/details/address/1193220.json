@@ -1,0 +1,648 @@
+{
+  "station": "薩摩大口",
+  "lat": 32.060977,
+  "lng": 130.609029,
+  "plus_code": {
+    "compound_code": "3J65+9J 日本、鹿児島県伊佐市",
+    "global_code": "8Q4G3J65+9J"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "大口上町",
+          "short_name": "大口上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒895-2513 鹿児島県伊佐市大口上町２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.0607555,
+            "lng": 130.6091236
+          },
+          "southwest": {
+            "lat": 32.0606018,
+            "lng": 130.608984
+          }
+        },
+        "location": {
+          "lat": 32.0606833,
+          "lng": 130.6090377
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 32.0620276302915,
+            "lng": 130.6104027802915
+          },
+          "southwest": {
+            "lat": 32.0593296697085,
+            "lng": 130.6077048197085
+          }
+        }
+      },
+      "place_id": "ChIJVSaLtaanPzURwvh0u9MMm8Y",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２８７１",
+          "short_name": "２８７１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大口上町",
+          "short_name": "大口上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒895-2513 鹿児島県伊佐市大口上町２８７１",
+      "geometry": {
+        "location": {
+          "lat": 32.0607234,
+          "lng": 130.6093092
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 32.0620723802915,
+            "lng": 130.6106581802915
+          },
+          "southwest": {
+            "lat": 32.0593744197085,
+            "lng": 130.6079602197085
+          }
+        }
+      },
+      "place_id": "ChIJp24sNaGnPzURTeHmFHHdcB8",
+      "plus_code": {
+        "compound_code": "3J65+7P 日本、鹿児島県 伊佐市",
+        "global_code": "8Q4G3J65+7P"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大口バスセンター（バス）",
+          "short_name": "大口バスセンター（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "大口上町",
+          "short_name": "大口上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒895-2513 鹿児島県伊佐市大口上町 大口バスセンター（バス）",
+      "geometry": {
+        "location": {
+          "lat": 32.06083,
+          "lng": 130.6085
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 32.0621789802915,
+            "lng": 130.6098489802915
+          },
+          "southwest": {
+            "lat": 32.0594810197085,
+            "lng": 130.6071510197085
+          }
+        }
+      },
+      "place_id": "ChIJrWf1uKanPzURsCeKl_PoipQ",
+      "plus_code": {
+        "compound_code": "3J65+89 日本、鹿児島県 伊佐市",
+        "global_code": "8Q4G3J65+89"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 伊佐市 鹿児島県 895-2513 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.060977,
+            "lng": 130.6090708
+          },
+          "southwest": {
+            "lat": 32.060887,
+            "lng": 130.6087368
+          }
+        },
+        "location": {
+          "lat": 32.060932,
+          "lng": 130.6089038
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 32.0622809802915,
+            "lng": 130.6102527802915
+          },
+          "southwest": {
+            "lat": 32.0595830197085,
+            "lng": 130.6075548197085
+          }
+        }
+      },
+      "place_id": "ChIJfzNzyaanPzURoodKcKlCUe4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大口上町",
+          "short_name": "大口上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒895-2513 鹿児島県伊佐市大口上町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.064286,
+            "lng": 130.6096219
+          },
+          "southwest": {
+            "lat": 32.0588779,
+            "lng": 130.6039659
+          }
+        },
+        "location": {
+          "lat": 32.0619294,
+          "lng": 130.6073909
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.064286,
+            "lng": 130.6096219
+          },
+          "southwest": {
+            "lat": 32.0588779,
+            "lng": 130.6039659
+          }
+        }
+      },
+      "place_id": "ChIJi5BT9aanPzURXeR6Ednxopk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "895-2513",
+          "short_name": "895-2513",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大口上町",
+          "short_name": "大口上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒895-2513",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.0642925,
+            "lng": 130.6096219
+          },
+          "southwest": {
+            "lat": 32.058878,
+            "lng": 130.6039662
+          }
+        },
+        "location": {
+          "lat": 32.0619294,
+          "lng": 130.6073909
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.0642925,
+            "lng": 130.6096219
+          },
+          "southwest": {
+            "lat": 32.058878,
+            "lng": 130.6039662
+          }
+        }
+      },
+      "place_id": "ChIJ0eUHhaanPzURIGpnZL_qJTI",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "伊佐市",
+          "short_name": "伊佐市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鹿児島県伊佐市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.18756,
+            "lng": 130.7218629
+          },
+          "southwest": {
+            "lat": 31.93486099999999,
+            "lng": 130.475495
+          }
+        },
+        "location": {
+          "lat": 32.0570092,
+          "lng": 130.6131107
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.18756,
+            "lng": 130.7218629
+          },
+          "southwest": {
+            "lat": 31.93486099999999,
+            "lng": 130.475495
+          }
+        }
+      },
+      "place_id": "ChIJzZfwzK2nPzUR1qjPvHyAu00",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鹿児島県",
+          "short_name": "鹿児島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鹿児島県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.3106641,
+            "lng": 131.2053659
+          },
+          "southwest": {
+            "lat": 27.0186809,
+            "lng": 128.3953454
+          }
+        },
+        "location": {
+          "lat": 31.3911958,
+          "lng": 130.8778586
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.3106641,
+            "lng": 131.2053659
+          },
+          "southwest": {
+            "lat": 27.0186809,
+            "lng": 128.3953454
+          }
+        }
+      },
+      "place_id": "ChIJA4AW0cJbGDURcNZa6PLRr40",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

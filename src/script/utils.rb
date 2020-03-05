@@ -91,6 +91,7 @@ def sort_hash(data)
 		'lng',
 		'prefecture',
 		'lines',
+		'attr',
 		'postal_code',
 		'address'
 	]

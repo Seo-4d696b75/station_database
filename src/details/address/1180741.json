@@ -1,0 +1,481 @@
+{
+  "station": "南伊予",
+  "lat": 33.777727,
+  "lng": 132.737292,
+  "plus_code": {
+    "compound_code": "QPHP+3W 日本、愛媛県伊予市",
+    "global_code": "8Q5JQPHP+3W"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "甲３８０",
+          "short_name": "甲３８０",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上三谷",
+          "short_name": "上三谷",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊予市",
+          "short_name": "伊予市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "799-3104",
+          "short_name": "799-3104",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒799-3104 愛媛県伊予市上三谷甲３８０",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.7771898,
+            "lng": 132.7392802
+          },
+          "southwest": {
+            "lat": 33.7770635,
+            "lng": 132.7391107
+          }
+        },
+        "location": {
+          "lat": 33.7771352,
+          "lng": 132.7392007
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7784756302915,
+            "lng": 132.7405444302915
+          },
+          "southwest": {
+            "lat": 33.7757776697085,
+            "lng": 132.7378464697085
+          }
+        }
+      },
+      "place_id": "ChIJu-cY2XruTzURrOmV_ZlpyHQ",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "伊予市",
+          "short_name": "伊予市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "799-3104",
+          "short_name": "799-3104",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 伊予市 愛媛県 799-3104 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.77826,
+            "lng": 132.7371321
+          },
+          "southwest": {
+            "lat": 33.7777793,
+            "lng": 132.7359541
+          }
+        },
+        "location": {
+          "lat": 33.7780197,
+          "lng": 132.7365431
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7793686302915,
+            "lng": 132.7378920802915
+          },
+          "southwest": {
+            "lat": 33.7766706697085,
+            "lng": 132.7351941197085
+          }
+        }
+      },
+      "place_id": "ChIJd5VGc3DuTzUR7CxKttP9-fM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "799-3104",
+          "short_name": "799-3104",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上三谷",
+          "short_name": "上三谷",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊予市",
+          "short_name": "伊予市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒799-3104",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.7780037,
+            "lng": 132.7500309
+          },
+          "southwest": {
+            "lat": 33.7400691,
+            "lng": 132.7285072
+          }
+        },
+        "location": {
+          "lat": 33.7618306,
+          "lng": 132.7393724
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7780037,
+            "lng": 132.7500309
+          },
+          "southwest": {
+            "lat": 33.7400691,
+            "lng": 132.7285072
+          }
+        }
+      },
+      "place_id": "ChIJnwII-HjuTzURPtqIA9nIW9U",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上三谷",
+          "short_name": "上三谷",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊予市",
+          "short_name": "伊予市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "799-3104",
+          "short_name": "799-3104",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒799-3104 愛媛県伊予市上三谷",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.778004,
+            "lng": 132.7500309
+          },
+          "southwest": {
+            "lat": 33.7400691,
+            "lng": 132.728507
+          }
+        },
+        "location": {
+          "lat": 33.7618306,
+          "lng": 132.7393724
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.778004,
+            "lng": 132.7500309
+          },
+          "southwest": {
+            "lat": 33.7400691,
+            "lng": 132.728507
+          }
+        }
+      },
+      "place_id": "ChIJWycoM87tTzUR8FbJ4PIdV2Y",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "伊予市",
+          "short_name": "伊予市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、愛媛県伊予市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.791307,
+            "lng": 132.782125
+          },
+          "southwest": {
+            "lat": 33.601984,
+            "lng": 132.5309281
+          }
+        },
+        "location": {
+          "lat": 33.7576929,
+          "lng": 132.7038611
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.791307,
+            "lng": 132.782125
+          },
+          "southwest": {
+            "lat": 33.601984,
+            "lng": 132.5309281
+          }
+        }
+      },
+      "place_id": "ChIJ_zTPAPeMTzURknm7Xmiikbg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、愛媛県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.30157640000001,
+            "lng": 133.692784
+          },
+          "southwest": {
+            "lat": 32.8850058,
+            "lng": 132.0123104
+          }
+        },
+        "location": {
+          "lat": 33.6025306,
+          "lng": 132.7857583
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.30157640000001,
+            "lng": 133.692784
+          },
+          "southwest": {
+            "lat": 32.8850058,
+            "lng": 132.0123104
+          }
+        }
+      },
+      "place_id": "ChIJraqWR5CVTzUR272f78CTlP8",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

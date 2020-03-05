@@ -1,0 +1,733 @@
+{
+  "station": "森松",
+  "lat": 33.790419,
+  "lng": 132.788892,
+  "plus_code": {
+    "compound_code": "QQRQ+5H 日本、愛媛県松山市",
+    "global_code": "8Q5JQQRQ+5H"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５２９−２",
+          "short_name": "５２９−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町５２９−２",
+      "geometry": {
+        "location": {
+          "lat": 33.7904062,
+          "lng": 132.7889166
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7917551802915,
+            "lng": 132.7902655802915
+          },
+          "southwest": {
+            "lat": 33.7890572197085,
+            "lng": 132.7875676197085
+          }
+        }
+      },
+      "place_id": "ChIJYbQ1sNPoTzUR2xWvgaFVixM",
+      "plus_code": {
+        "compound_code": "QQRQ+5H 日本、愛媛県 松山市",
+        "global_code": "8Q5JQQRQ+5H"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５２９−２",
+          "short_name": "５２９−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町５２９−２",
+      "geometry": {
+        "location": {
+          "lat": 33.7903872,
+          "lng": 132.788926
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 33.79173618029149,
+            "lng": 132.7902749802915
+          },
+          "southwest": {
+            "lat": 33.78903821970849,
+            "lng": 132.7875770197085
+          }
+        }
+      },
+      "place_id": "ChIJYbQ1sNPoTzUR5lSf8SVEKOo",
+      "plus_code": {
+        "compound_code": "QQRQ+5H 日本、愛媛県 松山市",
+        "global_code": "8Q5JQQRQ+5H"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "伊予鉄バス森松営業所",
+          "short_name": "伊予鉄バス森松営業所",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "５２９−２",
+          "short_name": "５２９−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町５２９−２ 伊予鉄バス森松営業所",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.7905926,
+            "lng": 132.7890414
+          },
+          "southwest": {
+            "lat": 33.7902389,
+            "lng": 132.7888176
+          }
+        },
+        "location": {
+          "lat": 33.7903947,
+          "lng": 132.788942
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 33.79176473029149,
+            "lng": 132.7902784802915
+          },
+          "southwest": {
+            "lat": 33.7890667697085,
+            "lng": 132.7875805197085
+          }
+        }
+      },
+      "place_id": "ChIJtWVdsNPoTzURGsq2aOw3nzM",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "森松本町（バス）",
+          "short_name": "森松本町（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町 森松本町（バス）",
+      "geometry": {
+        "location": {
+          "lat": 33.79029,
+          "lng": 132.7887
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 33.79163898029149,
+            "lng": 132.7900489802915
+          },
+          "southwest": {
+            "lat": 33.7889410197085,
+            "lng": 132.7873510197085
+          }
+        }
+      },
+      "place_id": "ChIJxxbjpNPoTzURPlTy7y7BtRU",
+      "plus_code": {
+        "compound_code": "QQRQ+4F 日本、愛媛県 松山市",
+        "global_code": "8Q5JQQRQ+4F"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "久谷森松(T)線",
+          "short_name": "県道194号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町 県道194号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.790589,
+            "lng": 132.7887676
+          },
+          "southwest": {
+            "lat": 33.7902671,
+            "lng": 132.7886277
+          }
+        },
+        "location": {
+          "lat": 33.7904281,
+          "lng": 132.7886977
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7917770302915,
+            "lng": 132.7900466302915
+          },
+          "southwest": {
+            "lat": 33.7890790697085,
+            "lng": 132.7873486697085
+          }
+        }
+      },
+      "place_id": "ChIJYzF7pdPoTzUREjfwCZ8Rxm8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒791-1113",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.7959992,
+            "lng": 132.8029099
+          },
+          "southwest": {
+            "lat": 33.78281380000001,
+            "lng": 132.780073
+          }
+        },
+        "location": {
+          "lat": 33.7908062,
+          "lng": 132.7918586
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.7959992,
+            "lng": 132.8029099
+          },
+          "southwest": {
+            "lat": 33.78281380000001,
+            "lng": 132.780073
+          }
+        }
+      },
+      "place_id": "ChIJUZGehtPoTzUR2Q7BSM-nID8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "森松町",
+          "short_name": "森松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "791-1113",
+          "short_name": "791-1113",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒791-1113 愛媛県松山市森松町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.795999,
+            "lng": 132.8029099
+          },
+          "southwest": {
+            "lat": 33.7828141,
+            "lng": 132.7800728
+          }
+        },
+        "location": {
+          "lat": 33.7908062,
+          "lng": 132.7918586
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.795999,
+            "lng": 132.8029099
+          },
+          "southwest": {
+            "lat": 33.7828141,
+            "lng": 132.7800728
+          }
+        }
+      },
+      "place_id": "ChIJZ3ZCcNHoTzURig8xqtlFa_8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松山市",
+          "short_name": "松山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、愛媛県松山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.097342,
+            "lng": 132.926775
+          },
+          "southwest": {
+            "lat": 33.687304,
+            "lng": 132.490964
+          }
+        },
+        "location": {
+          "lat": 33.8393515,
+          "lng": 132.7653057
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.097342,
+            "lng": 132.926775
+          },
+          "southwest": {
+            "lat": 33.687304,
+            "lng": 132.490964
+          }
+        }
+      },
+      "place_id": "ChIJnThD3TLlTzURpzJmJKYS83E",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "愛媛県",
+          "short_name": "愛媛県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、愛媛県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.30157640000001,
+            "lng": 133.692784
+          },
+          "southwest": {
+            "lat": 32.8850058,
+            "lng": 132.0123104
+          }
+        },
+        "location": {
+          "lat": 33.6025306,
+          "lng": 132.7857583
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.30157640000001,
+            "lng": 133.692784
+          },
+          "southwest": {
+            "lat": 32.8850058,
+            "lng": 132.0123104
+          }
+        }
+      },
+      "place_id": "ChIJraqWR5CVTzUR272f78CTlP8",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

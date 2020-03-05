@@ -1,0 +1,567 @@
+{
+  "station": "福知山西",
+  "lat": 35.30353,
+  "lng": 135.117472,
+  "plus_code": {
+    "compound_code": "8438+CX 日本、京都府福知山市",
+    "global_code": "8Q7Q8438+CX"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１６１−７１",
+          "short_name": "１６１−７１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "昭和新町",
+          "short_name": "昭和新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "620-0051",
+          "short_name": "620-0051",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒620-0051 京都府福知山市昭和新町１６１−７１",
+      "geometry": {
+        "location": {
+          "lat": 35.3035687,
+          "lng": 135.117349
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3049176802915,
+            "lng": 135.1186979802915
+          },
+          "southwest": {
+            "lat": 35.3022197197085,
+            "lng": 135.1160000197085
+          }
+        }
+      },
+      "place_id": "ChIJJXYIkIwCAGARrugw3UKuGcw",
+      "plus_code": {
+        "compound_code": "8438+CW 日本、京都府 福知山市",
+        "global_code": "8Q7Q8438+CW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１６１−６８",
+          "short_name": "１６１−６８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "昭和新町",
+          "short_name": "昭和新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "620-0051",
+          "short_name": "620-0051",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒620-0051 京都府福知山市昭和新町１６１−６８",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3038371,
+            "lng": 135.1175984
+          },
+          "southwest": {
+            "lat": 35.3037497,
+            "lng": 135.1174555
+          }
+        },
+        "location": {
+          "lat": 35.3037853,
+          "lng": 135.1175111
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.30514238029149,
+            "lng": 135.1188759302915
+          },
+          "southwest": {
+            "lat": 35.30244441970849,
+            "lng": 135.1161779697085
+          }
+        }
+      },
+      "place_id": "ChIJwaQ_jowCAGARMhnKaJ-t3JI",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "昭和新町",
+          "short_name": "昭和新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "620-0051",
+          "short_name": "620-0051",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 昭和新町 福知山市 京都府 620-0051 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.30379620000001,
+            "lng": 135.117713
+          },
+          "southwest": {
+            "lat": 35.3036301,
+            "lng": 135.1173816
+          }
+        },
+        "location": {
+          "lat": 35.303689,
+          "lng": 135.1175415
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3050621302915,
+            "lng": 135.1188962802915
+          },
+          "southwest": {
+            "lat": 35.3023641697085,
+            "lng": 135.1161983197085
+          }
+        }
+      },
+      "place_id": "ChIJdfbukYwCAGAR5oyAi_fP6mo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "620-0051",
+          "short_name": "620-0051",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "昭和新町",
+          "short_name": "昭和新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒620-0051",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.306462,
+            "lng": 135.1194809
+          },
+          "southwest": {
+            "lat": 35.301717,
+            "lng": 135.1157455
+          }
+        },
+        "location": {
+          "lat": 35.3047436,
+          "lng": 135.1173011
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.306462,
+            "lng": 135.1194809
+          },
+          "southwest": {
+            "lat": 35.301717,
+            "lng": 135.1157455
+          }
+        }
+      },
+      "place_id": "ChIJ06MrIY0CAGARhdrXU3reb8w",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "昭和新町",
+          "short_name": "昭和新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "620-0051",
+          "short_name": "620-0051",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒620-0051 京都府福知山市昭和新町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.306496,
+            "lng": 135.119481
+          },
+          "southwest": {
+            "lat": 35.301717,
+            "lng": 135.115746
+          }
+        },
+        "location": {
+          "lat": 35.3047436,
+          "lng": 135.1173011
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.306496,
+            "lng": 135.119481
+          },
+          "southwest": {
+            "lat": 35.301717,
+            "lng": 135.115746
+          }
+        }
+      },
+      "place_id": "ChIJB5Rii4wCAGARBVnJ2-xzoDg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "福知山市",
+          "short_name": "福知山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、京都府福知山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.469719,
+            "lng": 135.32512
+          },
+          "southwest": {
+            "lat": 35.160627,
+            "lng": 134.917131
+          }
+        },
+        "location": {
+          "lat": 35.2966988,
+          "lng": 135.1265486
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.469719,
+            "lng": 135.32512
+          },
+          "southwest": {
+            "lat": 35.160627,
+            "lng": 134.917131
+          }
+        }
+      },
+      "place_id": "ChIJf1faz4QCAGAR1PB3sOGA6iU",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "京都府",
+          "short_name": "京都府",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、京都府",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.7792551,
+            "lng": 136.0554905
+          },
+          "southwest": {
+            "lat": 34.7060574,
+            "lng": 134.8539434
+          }
+        },
+        "location": {
+          "lat": 35.1566609,
+          "lng": 135.5251982
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.7792551,
+            "lng": 136.0554905
+          },
+          "southwest": {
+            "lat": 34.7060574,
+            "lng": 134.8539434
+          }
+        }
+      },
+      "place_id": "ChIJYRsf-SB0_18ROJWxOMJ7Clk",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

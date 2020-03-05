@@ -1,0 +1,795 @@
+{
+  "station": "城間",
+  "lat": 26.258114,
+  "lng": 127.710279,
+  "plus_code": {
+    "compound_code": "7P56+64 日本、沖縄県浦添市",
+    "global_code": "7QR97P56+64"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "７",
+          "short_name": "７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間１丁目１１−７",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.2581575,
+            "lng": 127.7103641
+          },
+          "southwest": {
+            "lat": 26.2577522,
+            "lng": 127.7101144
+          }
+        },
+        "location": {
+          "lat": 26.2579237,
+          "lng": 127.7102692
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2593038302915,
+            "lng": 127.7115882302915
+          },
+          "southwest": {
+            "lat": 26.25660586970849,
+            "lng": 127.7088902697085
+          }
+        }
+      },
+      "place_id": "ChIJ-1lGnJ1r5TQRZIuCqtKUXCU",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "６",
+          "short_name": "６",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間３丁目６−１１",
+      "geometry": {
+        "location": {
+          "lat": 26.2580908,
+          "lng": 127.7105459
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2594397802915,
+            "lng": 127.7118948802915
+          },
+          "southwest": {
+            "lat": 26.25674181970849,
+            "lng": 127.7091969197085
+          }
+        }
+      },
+      "place_id": "ChIJb5GTeJ1r5TQRbE_taqiST_w",
+      "plus_code": {
+        "compound_code": "7P56+66 日本、沖縄県 浦添市",
+        "global_code": "7QR97P56+66"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道58号",
+          "short_name": "国道58号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間１丁目１１ 国道58号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.2583985,
+            "lng": 127.7104019
+          },
+          "southwest": {
+            "lat": 26.2580934,
+            "lng": 127.7101108
+          }
+        },
+        "location": {
+          "lat": 26.258245,
+          "lng": 127.7102577
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2595949302915,
+            "lng": 127.7116053302915
+          },
+          "southwest": {
+            "lat": 26.2568969697085,
+            "lng": 127.7089073697085
+          }
+        }
+      },
+      "place_id": "ChIJw2y0gZ1r5TQRyOn5bHAmiAA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間１丁目１１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.258661,
+            "lng": 127.710509
+          },
+          "southwest": {
+            "lat": 26.257357,
+            "lng": 127.7099721
+          }
+        },
+        "location": {
+          "lat": 26.2578972,
+          "lng": 127.7102277
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2593579802915,
+            "lng": 127.7115895302915
+          },
+          "southwest": {
+            "lat": 26.25666001970849,
+            "lng": 127.7088915697085
+          }
+        }
+      },
+      "place_id": "ChIJc9BMg51r5TQR3L2U0QjqYrs",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.258661,
+            "lng": 127.7110069
+          },
+          "southwest": {
+            "lat": 26.252696,
+            "lng": 127.7067399
+          }
+        },
+        "location": {
+          "lat": 26.2553776,
+          "lng": 127.70948
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.258661,
+            "lng": 127.7110069
+          },
+          "southwest": {
+            "lat": 26.252696,
+            "lng": 127.7067399
+          }
+        }
+      },
+      "place_id": "ChIJqZZmOZxr5TQRt3uKlH5XZYE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "城間",
+          "short_name": "城間",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒901-2133 沖縄県浦添市城間",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.26219,
+            "lng": 127.718127
+          },
+          "southwest": {
+            "lat": 26.251021,
+            "lng": 127.7067399
+          }
+        },
+        "location": {
+          "lat": 26.2568632,
+          "lng": 127.7118061
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.26219,
+            "lng": 127.718127
+          },
+          "southwest": {
+            "lat": 26.251021,
+            "lng": 127.7067399
+          }
+        }
+      },
+      "place_id": "ChIJJwd6vIJr5TQR4EtjX-xa6d0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "901-2133",
+          "short_name": "901-2133",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒901-2133",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.2722481,
+            "lng": 127.7181267
+          },
+          "southwest": {
+            "lat": 26.2510208,
+            "lng": 127.6989525
+          }
+        },
+        "location": {
+          "lat": 26.262672,
+          "lng": 127.7051598
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2722481,
+            "lng": 127.7181267
+          },
+          "southwest": {
+            "lat": 26.2510208,
+            "lng": 127.6989525
+          }
+        }
+      },
+      "place_id": "ChIJl6NdPnRr5TQRzSawwgWNHw4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "浦添市",
+          "short_name": "浦添市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県浦添市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.2757402,
+            "lng": 127.7527189
+          },
+          "southwest": {
+            "lat": 26.2330613,
+            "lng": 127.6668273
+          }
+        },
+        "location": {
+          "lat": 26.2457804,
+          "lng": 127.7217156
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.2757402,
+            "lng": 127.7527189
+          },
+          "southwest": {
+            "lat": 26.2330613,
+            "lng": 127.6668273
+          }
+        }
+      },
+      "place_id": "ChIJo8aBhZxr5TQRSYdieFfnIb0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 27.8858935,
+            "lng": 131.3321298
+          },
+          "southwest": {
+            "lat": 24.0455949,
+            "lng": 122.9336694
+          }
+        },
+        "location": {
+          "lat": 26.1201911,
+          "lng": 127.7025012
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 27.8858935,
+            "lng": 131.3321298
+          },
+          "southwest": {
+            "lat": 24.0455949,
+            "lng": 122.9336694
+          }
+        }
+      },
+      "place_id": "ChIJ51ur7mJw9TQR79H9hnJhuzU",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
