@@ -1,12 +1,9 @@
 {
-"code":24005,
 "name":"京王動物園線",
-"name_kana":"けいおうどうぶつえんせん",
 "symbol":"KO",
 "color":"#DD3377",
-"list_size":2,
 "station_list":[
-  {"code":2400129,"name":"高幡不動","numbering":[{"index":"29"}]},
-  {"code":2400502,"name":"多摩動物公園","numbering":[{"index":"47"}]}
+  {"name":"高幡不動","numbering":[{"index":"29"}]},
+  {"name":"多摩動物公園","numbering":[{"index":"47"}]}
 ]
 }

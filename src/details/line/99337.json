@@ -1,18 +1,15 @@
 {
-"code":99337,
 "name":"東京臨海高速鉄道",
-"name_kana":"とうきょうりんかいこうそくてつどう",
 "symbol":"R",
 "color":"#3366CC",
-"list_size":8,
 "station_list":[
-  {"code":1130201,"name":"大崎","numbering":[{"index":"08"}]},
-  {"code":1133228,"name":"大井町","numbering":[{"index":"07"}]},
-  {"code":9933706,"name":"品川シーサイド","numbering":[{"index":"06"}]},
-  {"code":9933602,"name":"天王洲アイル","numbering":[{"index":"05"}]},
-  {"code":9933704,"name":"東京テレポート","numbering":[{"index":"04"}]},
-  {"code":9933703,"name":"国際展示場","numbering":[{"index":"03"}]},
-  {"code":9933702,"name":"東雲(東京)","numbering":[{"index":"02"}]},
-  {"code":1132605,"name":"新木場","numbering":[{"index":"01"}]}
+  {"name":"大崎","numbering":[{"index":"08"}]},
+  {"name":"大井町","numbering":[{"index":"07"}]},
+  {"name":"品川シーサイド","numbering":[{"index":"06"}]},
+  {"name":"天王洲アイル","numbering":[{"index":"05"}]},
+  {"name":"東京テレポート","numbering":[{"index":"04"}]},
+  {"name":"国際展示場","numbering":[{"index":"03"}]},
+  {"name":"東雲(東京)","numbering":[{"index":"02"}]},
+  {"name":"新木場","numbering":[{"index":"01"}]}
 ]
 }

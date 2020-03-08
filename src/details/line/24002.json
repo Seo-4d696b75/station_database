@@ -1,22 +1,19 @@
 {
-"code":24002,
 "name":"京王相模原線",
-"name_kana":"けいおうさがみはらせん",
 "symbol":"KO",
 "color":"#DD3377",
-"list_size":12,
 "station_list":[
-  {"code":2400118,"name":"調布","numbering":[{"index":"18"}]},
-  {"code":2400202,"name":"京王多摩川","numbering":[{"index":"35"}]},
-  {"code":2400203,"name":"京王稲田堤","numbering":[{"index":"36"}]},
-  {"code":2400204,"name":"京王よみうりランド","numbering":[{"index":"37"}]},
-  {"code":2400205,"name":"稲城","numbering":[{"index":"38"}]},
-  {"code":2400206,"name":"若葉台","numbering":[{"index":"39"}]},
-  {"code":2400207,"name":"京王永山","numbering":[{"index":"40"}]},
-  {"code":2400208,"name":"京王多摩センター","numbering":[{"index":"41"}]},
-  {"code":2400209,"name":"京王堀之内","numbering":[{"index":"42"}]},
-  {"code":2400210,"name":"南大沢","numbering":[{"index":"43"}]},
-  {"code":2400211,"name":"多摩境","numbering":[{"index":"44"}]},
-  {"code":1130616,"name":"橋本(神奈川)","numbering":[{"index":"45"}]}
+  {"name":"調布","numbering":[{"index":"18"}]},
+  {"name":"京王多摩川","numbering":[{"index":"35"}]},
+  {"name":"京王稲田堤","numbering":[{"index":"36"}]},
+  {"name":"京王よみうりランド","numbering":[{"index":"37"}]},
+  {"name":"稲城","numbering":[{"index":"38"}]},
+  {"name":"若葉台","numbering":[{"index":"39"}]},
+  {"name":"京王永山","numbering":[{"index":"40"}]},
+  {"name":"京王多摩センター","numbering":[{"index":"41"}]},
+  {"name":"京王堀之内","numbering":[{"index":"42"}]},
+  {"name":"南大沢","numbering":[{"index":"43"}]},
+  {"name":"多摩境","numbering":[{"index":"44"}]},
+  {"name":"橋本(神奈川)","numbering":[{"index":"45"}]}
 ]
 }

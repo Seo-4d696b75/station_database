@@ -1,18 +1,15 @@
 {
-"code":29002,
 "name":"相鉄いずみ野線",
-"name_kana":"そうてついずみのせん",
 "symbol":"SO",
 "color":"#2288CC",
-"list_size":8,
 "station_list":[
-  {"code":2900110,"name":"二俣川","numbering":[{"index":"10"}]},
-  {"code":2900202,"name":"南万騎が原","numbering":[{"index":"31"}]},
-  {"code":2900203,"name":"緑園都市","numbering":[{"index":"32"}]},
-  {"code":2900204,"name":"弥生台","numbering":[{"index":"33"}]},
-  {"code":2900205,"name":"いずみ野","numbering":[{"index":"34"}]},
-  {"code":2900206,"name":"いずみ中央","numbering":[{"index":"35"}]},
-  {"code":2900207,"name":"ゆめが丘","numbering":[{"index":"36"}]},
-  {"code":2500210,"name":"湘南台","numbering":[{"index":"37"}]}
+  {"name":"二俣川","numbering":[{"index":"10"}]},
+  {"name":"南万騎が原","numbering":[{"index":"31"}]},
+  {"name":"緑園都市","numbering":[{"index":"32"}]},
+  {"name":"弥生台","numbering":[{"index":"33"}]},
+  {"name":"いずみ野","numbering":[{"index":"34"}]},
+  {"name":"いずみ中央","numbering":[{"index":"35"}]},
+  {"name":"ゆめが丘","numbering":[{"index":"36"}]},
+  {"name":"湘南台","numbering":[{"index":"37"}]}
 ]
 }

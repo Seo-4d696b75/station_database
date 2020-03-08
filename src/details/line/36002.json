@@ -1,12 +1,9 @@
 {
-"code":36002,
 "name":"西鉄太宰府線",
-"name_kana":"にしてつだざいふせん",
 "symbol":"D",
-"list_size":3,
 "station_list":[
-  {"code":3600112,"name":"西鉄二日市","numbering":[{"symbol":"T","index":"13"}]},
-  {"code":3600202,"name":"西鉄五条","numbering":[{"index":"01"}]},
-  {"code":3600203,"name":"太宰府","numbering":[{"index":"02"}]}
+  {"name":"西鉄二日市","numbering":[{"symbol":"T","index":"13"}]},
+  {"name":"西鉄五条","numbering":[{"index":"01"}]},
+  {"name":"太宰府","numbering":[{"index":"02"}]}
 ]
 }

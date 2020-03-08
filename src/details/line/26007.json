@@ -1,20 +1,17 @@
 {
-"code":26007,
 "name":"東急世田谷線",
-"name_kana":"とうきゅうせたがやせん",
 "symbol":"SG",
 "color":"#FCC70D",
-"list_size":10,
 "station_list":[
-  {"code":2600303,"name":"三軒茶屋","numbering":[{"index":"01"}]},
-  {"code":2600702,"name":"西太子堂","numbering":[{"index":"02"}]},
-  {"code":2600703,"name":"若林(東京)","numbering":[{"index":"03"}]},
-  {"code":2600704,"name":"松陰神社前","numbering":[{"index":"04"}]},
-  {"code":2600705,"name":"世田谷","numbering":[{"index":"05"}]},
-  {"code":2600706,"name":"上町","numbering":[{"index":"06"}]},
-  {"code":2600707,"name":"宮の坂","numbering":[{"index":"07"}]},
-  {"code":2600708,"name":"山下(東京)","numbering":[{"index":"08"}]},
-  {"code":2600709,"name":"松原(東京)","numbering":[{"index":"09"}]},
-  {"code":2400107,"name":"下高井戸","numbering":[{"index":"10"}]}
+  {"name":"三軒茶屋","numbering":[{"index":"01"}]},
+  {"name":"西太子堂","numbering":[{"index":"02"}]},
+  {"name":"若林(東京)","numbering":[{"index":"03"}]},
+  {"name":"松陰神社前","numbering":[{"index":"04"}]},
+  {"name":"世田谷","numbering":[{"index":"05"}]},
+  {"name":"上町","numbering":[{"index":"06"}]},
+  {"name":"宮の坂","numbering":[{"index":"07"}]},
+  {"name":"山下(東京)","numbering":[{"index":"08"}]},
+  {"name":"松原(東京)","numbering":[{"index":"09"}]},
+  {"name":"下高井戸","numbering":[{"index":"10"}]}
 ]
 }

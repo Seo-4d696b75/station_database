@@ -1,13 +1,10 @@
 {
-"code":31012,
 "name":"近鉄道明寺線",
-"name_kana":"きんてつどうみょうじせん",
 "symbol":"N",
 "color":"#006400",
-"list_size":3,
 "station_list":[
-  {"code":3100315,"name":"道明寺","numbering":[{"index":"15"}]},
-  {"code":3101202,"name":"柏原南口","numbering":[{"index":"16"}]},
-  {"code":1160712,"name":"柏原(大阪)","numbering":[{"index":"17"}]}
+  {"name":"道明寺","numbering":[{"index":"15"}]},
+  {"name":"柏原南口","numbering":[{"index":"16"}]},
+  {"name":"柏原(大阪)","numbering":[{"index":"17"}]}
 ]
 }

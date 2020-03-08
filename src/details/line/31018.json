@@ -1,14 +1,11 @@
 {
-"code":31018,
 "name":"近鉄御所線",
-"name_kana":"きんてつごせせん",
 "symbol":"P",
 "color":"#006400",
-"list_size":4,
 "station_list":[
-  {"code":3100323,"name":"尺土","numbering":[{"index":"23"}]},
-  {"code":3101802,"name":"近鉄新庄","numbering":[{"index":"24"}]},
-  {"code":3101803,"name":"忍海","numbering":[{"index":"25"}]},
-  {"code":3101804,"name":"近鉄御所","numbering":[{"index":"26"}]}
+  {"name":"尺土","numbering":[{"index":"23"}]},
+  {"name":"近鉄新庄","numbering":[{"index":"24"}]},
+  {"name":"忍海","numbering":[{"index":"25"}]},
+  {"name":"近鉄御所","numbering":[{"index":"26"}]}
 ]
 }

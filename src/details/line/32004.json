@@ -1,13 +1,10 @@
 {
-"code":32004,
 "name":"南海高師浜線",
-"name_kana":"なんかいたかしのはません",
 "symbol":"NK",
 "color":"#0065AF",
-"list_size":3,
 "station_list":[
-  {"code":3200114,"name":"羽衣","numbering":[{"index":"16"}]},
-  {"code":3200402,"name":"伽羅橋","numbering":[{"index":"16-1"}]},
-  {"code":3200403,"name":"高師浜","numbering":[{"index":"16-2"}]}
+  {"name":"羽衣","numbering":[{"index":"16"}]},
+  {"name":"伽羅橋","numbering":[{"index":"16-1"}]},
+  {"name":"高師浜","numbering":[{"index":"16-2"}]}
 ]
 }

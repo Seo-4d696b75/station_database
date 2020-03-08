@@ -1,21 +1,18 @@
 {
-"code":99108,
 "name":"道南いさりび鉄道線",
-"name_kana":"どうなんいさりびてつどう",
 "color":"#246DAC",
-"list_size":12,
 "station_list":[
-  {"code":1111806,"name":"木古内","numbering":[{"color":"#0000FF","index":"01"}]},
-  {"code":1111911,"name":"札苅","numbering":[{"color":"#0000FF","index":"02"}]},
-  {"code":1111912,"name":"泉沢","numbering":[{"color":"#0000FF","index":"03"}]},
-  {"code":1111913,"name":"釜谷","numbering":[{"color":"#0000FF","index":"04"}]},
-  {"code":1111914,"name":"渡島当別","numbering":[{"color":"#0000FF","index":"05"}]},
-  {"code":1111915,"name":"茂辺地","numbering":[{"color":"#0000FF","index":"06"}]},
-  {"code":1111916,"name":"上磯","numbering":[{"color":"#0000FF","index":"07"}]},
-  {"code":1111917,"name":"清川口","numbering":[{"color":"#0000FF","index":"08"}]},
-  {"code":1111918,"name":"久根別","numbering":[{"color":"#0000FF","index":"09"}]},
-  {"code":1111919,"name":"東久根別","numbering":[{"color":"#0000FF","index":"10"}]},
-  {"code":1111920,"name":"七重浜","numbering":[{"color":"#0000FF","index":"11"}]},
-  {"code":1110102,"name":"五稜郭","numbering":[{"symbol":"H","color":"#0000FF","index":"74"}]}
+  {"name":"木古内","numbering":[{"color":"#0000FF","index":"01"}]},
+  {"name":"札苅","numbering":[{"color":"#0000FF","index":"02"}]},
+  {"name":"泉沢","numbering":[{"color":"#0000FF","index":"03"}]},
+  {"name":"釜谷","numbering":[{"color":"#0000FF","index":"04"}]},
+  {"name":"渡島当別","numbering":[{"color":"#0000FF","index":"05"}]},
+  {"name":"茂辺地","numbering":[{"color":"#0000FF","index":"06"}]},
+  {"name":"上磯","numbering":[{"color":"#0000FF","index":"07"}]},
+  {"name":"清川口","numbering":[{"color":"#0000FF","index":"08"}]},
+  {"name":"久根別","numbering":[{"color":"#0000FF","index":"09"}]},
+  {"name":"東久根別","numbering":[{"color":"#0000FF","index":"10"}]},
+  {"name":"七重浜","numbering":[{"color":"#0000FF","index":"11"}]},
+  {"name":"五稜郭","numbering":[{"symbol":"H","color":"#0000FF","index":"74"}]}
 ]
 }

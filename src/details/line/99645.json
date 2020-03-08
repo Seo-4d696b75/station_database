@@ -1,19 +1,16 @@
 {
-"code":99645,
 "name":"神戸市営地下鉄西神線",
-"name_kana":"こうべしえいちかてつせいしんせん",
 "symbol":"S",
 "color":"#01AF98",
-"list_size":9,
 "station_list":[
-  {"code":1160803,"name":"新長田","numbering":[{"index":"09"}]},
-  {"code":9963702,"name":"板宿","numbering":[{"index":"10"}]},
-  {"code":9964503,"name":"妙法寺(兵庫)","numbering":[{"index":"11"}]},
-  {"code":9964504,"name":"名谷","numbering":[{"index":"12"}]},
-  {"code":9964505,"name":"総合運動公園","numbering":[{"index":"13"}]},
-  {"code":9964506,"name":"学園都市","numbering":[{"index":"14"}]},
-  {"code":9964507,"name":"伊川谷","numbering":[{"index":"15"}]},
-  {"code":9964508,"name":"西神南","numbering":[{"index":"16"}]},
-  {"code":9964509,"name":"西神中央","numbering":[{"index":"17"}]}
+  {"name":"新長田","numbering":[{"index":"09"}]},
+  {"name":"板宿","numbering":[{"index":"10"}]},
+  {"name":"妙法寺(兵庫)","numbering":[{"index":"11"}]},
+  {"name":"名谷","numbering":[{"index":"12"}]},
+  {"name":"総合運動公園","numbering":[{"index":"13"}]},
+  {"name":"学園都市","numbering":[{"index":"14"}]},
+  {"name":"伊川谷","numbering":[{"index":"15"}]},
+  {"name":"西神南","numbering":[{"index":"16"}]},
+  {"name":"西神中央","numbering":[{"index":"17"}]}
 ]
 }

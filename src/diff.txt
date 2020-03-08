@@ -1,6 +1,6 @@
 [line] name/code changed
 	old:{"id":"6143ed","code":99415,"name":"富山ライトレール","size":13}
-	new:{"code":99415,"name":"富山地鉄富山港線","company_code":160,"name_formal":"富山ライトレール","id":"6143ed"}
+	new:{"code":99415,"name":"富山地鉄富山港線","company_code":164,"name_formal":"富山ライトレール","id":"6143ed"}
 [station] name/code changed
 	old:{"id":"8caa10","code":1120918,"name":"足ケ瀬","lon":141.645807,"lat":39.254766,"lines":[11209]}
 	new:{"code":1120918,"name":"足ヶ瀬","lat":39.254766,"lng":141.645807,"lines":[11209],"postal_code":"028-0772","address":"岩手県遠野市上郷町細越38","prefecture":3,"id":"8caa10"}
@@ -40,19 +40,1141 @@
 [station] name/code changed
 	old:{"id":"722720","code":9991116,"name":"御厨","lon":129.662502,"lat":33.365947,"lines":[99911]}
 	new:{"code":9991116,"name":"御厨(長崎)","lat":33.365947,"lng":129.662502,"lines":[99911],"postal_code":"859-4752","address":"松浦市御厨町里免","prefecture":42,"id":"722720"}
+[line] code changed
+	old:{"id":"7b928f","code":31013,"name":"近鉄内部線","size":8}
+	new:{"code":31028,"name":"近鉄内部線","company_code":21,"name_formal":"近鉄内部線","id":"7b928f"}
+[line] code changed
+	old:{"id":"a8d277","code":31014,"name":"近鉄八王子線","size":4}
+	new:{"code":31029,"name":"近鉄八王子線","company_code":21,"name_formal":"近鉄八王子線","id":"a8d277"}
+[line] code changed
+	old:{"id":"0030da","code":50000,"name":"JR江差線","size":22,"closed":true}
+	new:{"code":11119,"name":"JR江差線","closed":true,"company_code":1,"name_formal":"JR江差線","id":"0030da"}
+[line] code changed
+	old:{"id":"d3923b","code":50001,"name":"十和田観光電鉄","size":11,"closed":true}
+	new:{"code":99204,"name":"十和田観光電鉄","closed":true,"company_code":106,"name_formal":"十和田観光電鉄","id":"d3923b"}
+[line] code changed
+	old:{"id":"5d8822","code":50002,"name":"南部縦貫鉄道線","size":11,"closed":true}
+	new:{"code":99220,"name":"南部縦貫鉄道線","closed":true,"name_formal":"南部縦貫鉄道線","id":"5d8822"}
+[line] code changed
+	old:{"id":"0597e3","code":50003,"name":"JR岩泉線","size":9,"closed":true}
+	new:{"code":11207,"name":"JR岩泉線","closed":true,"company_code":2,"name_formal":"JR岩泉線","id":"0597e3"}
+[line] code changed
+	old:{"id":"1bf7a5","code":50004,"name":"横荘線","size":2,"closed":true}
+	new:{"code":99221,"name":"横荘線","closed":true,"name_formal":"羽後交通横荘線","id":"1bf7a5"}
+[line] code changed
+	old:{"id":"0cc82d","code":50005,"name":"雄勝線","size":2,"closed":true}
+	new:{"code":99222,"name":"雄勝線","closed":true,"name_formal":"羽後交通雄勝線","id":"0cc82d"}
+[line] code changed
+	old:{"id":"7e1430","code":50006,"name":"鹿島臨海鉄道鹿島臨港線","size":2,"closed":true}
+	new:{"code":99347,"name":"鹿島臨海鉄道鹿島臨港線","closed":true,"company_code":136,"name_formal":"鹿島臨海鉄道鹿島臨港線","id":"7e1430"}
+[line] code changed
+	old:{"id":"565c30","code":50007,"name":"京王御陵線","size":2,"closed":true}
+	new:{"code":99348,"name":"京王御陵線","closed":true,"company_code":14,"name_formal":"京王御陵線","id":"565c30"}
+[line] code changed
+	old:{"id":"706519","code":50008,"name":"鉄道院中央本線","size":1,"closed":true}
+	new:{"code":99349,"name":"鉄道院中央本線","closed":true,"name_formal":"鉄道院中央本線","id":"706519"}
+[line] code changed
+	old:{"id":"2712ee","code":50009,"name":"湘南軌道","size":8,"closed":true}
+	new:{"code":99350,"name":"湘南軌道","closed":true,"name_formal":"湘南軌道","id":"2712ee"}
+[line] code changed
+	old:{"id":"ad00dc","code":50010,"name":"長野電鉄屋代線","size":13,"closed":true}
+	new:{"code":99406,"name":"長野電鉄屋代線","closed":true,"company_code":158,"name_formal":"長野電鉄屋代線","id":"ad00dc"}
+[line] code changed
+	old:{"id":"ac5120","code":50011,"name":"福井鉄道鯖浦線","size":12,"closed":true}
+	new:{"code":99428,"name":"福井鉄道鯖浦線","closed":true,"company_code":168,"name_formal":"福井鉄道鯖浦線","id":"ac5120"}
+[line] code changed
+	old:{"id":"f6eba2","code":50012,"name":"北丹鉄道","size":8,"closed":true}
+	new:{"code":99656,"name":"北丹鉄道","closed":true,"name_formal":"北丹鉄道","id":"f6eba2"}
+[line] code changed
+	old:{"id":"e2c598","code":50013,"name":"三木線","size":9,"closed":true}
+	new:{"code":99642,"name":"三木線","closed":true,"company_code":208,"name_formal":"三木鉄道三木線","id":"e2c598"}
+[line] code changed
+	old:{"id":"d7a953","code":50014,"name":"倉吉線","size":9,"closed":true}
+	new:{"code":11725,"name":"倉吉線","closed":true,"name_formal":"国鉄倉吉線","id":"d7a953"}
+[line] code changed
+	old:{"id":"ea8b6b","code":50015,"name":"下津井電鉄","size":15,"closed":true}
+	new:{"code":99719,"name":"下津井電鉄","closed":true,"name_formal":"下津井電鉄","id":"ea8b6b"}
+[line] code changed
+	old:{"id":"86a2b4","code":50016,"name":"鍛冶屋原線","size":5,"closed":true}
+	new:{"code":11809,"name":"鍛冶屋原線","closed":true,"name_formal":"鍛冶屋原線","id":"86a2b4"}
+[line] code changed
+	old:{"id":"256374","code":50017,"name":"伊予鉄道森松線","size":3,"closed":true}
+	new:{"code":99813,"name":"伊予鉄道森松線","closed":true,"name_formal":"伊予鉄道森松線","id":"256374"}
+[line] code changed
+	old:{"id":"3ee6bc","code":50018,"name":"勝田線","size":7,"closed":true}
+	new:{"code":11931,"name":"勝田線","closed":true,"name_formal":"国鉄勝田線","id":"3ee6bc"}
+[line] code changed
+	old:{"id":"cd818e","code":50019,"name":"宮之城線","size":20,"closed":true}
+	new:{"code":11932,"name":"宮之城線","closed":true,"name_formal":"国鉄宮之城線","id":"cd818e"}
+[line] code changed
+	old:{"id":"a447c8","code":50020,"name":"嘉手納線","size":3,"closed":true}
+	new:{"code":99929,"name":"嘉手納線","closed":true,"name_formal":"沖縄県営鉄道嘉手納線","id":"a447c8"}
+[line] code changed
+	old:{"id":"deb7cb","code":50021,"name":"JR三江線","size":35,"closed":true}
+	new:{"code":11707,"name":"JR三江線","closed":true,"company_code":4,"name_formal":"JR三江線","id":"deb7cb"}
+[line] code changed
+	old:{"id":"a719bd","code":50022,"name":"東北新幹線","size":23}
+	new:{"code":1004,"name":"東北新幹線","company_code":2,"name_formal":"東北新幹線","id":"a719bd"}
+[line] code changed
+	old:{"id":"d4a3f7","code":50023,"name":"上越新幹線","size":12}
+	new:{"code":1005,"name":"上越新幹線","company_code":2,"name_formal":"上越新幹線","id":"d4a3f7"}
+[line] code changed
+	old:{"id":"0096b0","code":50024,"name":"東海道新幹線","size":17}
+	new:{"code":1002,"name":"東海道新幹線","company_code":3,"name_formal":"東海道新幹線","id":"0096b0"}
+[line] code changed
+	old:{"id":"4c9e90","code":50025,"name":"山陽新幹線","size":19}
+	new:{"code":1003,"name":"山陽新幹線","company_code":4,"name_formal":"山陽新幹線","id":"4c9e90"}
+[line] code changed
+	old:{"id":"0dd500","code":50027,"name":"上越新幹線(上越線)","size":2}
+	new:{"code":1006,"name":"上越新幹線(上越線)","company_code":2,"name_formal":"上越新幹線(ガーラ湯沢支線)","id":"0dd500"}
+[line] code changed
+	old:{"id":"4e16d0","code":50028,"name":"北陸新幹線","size":13}
+	new:{"code":1009,"name":"北陸新幹線","company_code":2,"name_formal":"北陸新幹線","id":"4e16d0"}
+[line] code changed
+	old:{"id":"6b44b9","code":50029,"name":"九州新幹線","size":12}
+	new:{"code":1010,"name":"九州新幹線","company_code":6,"name_formal":"九州新幹線","id":"6b44b9"}
+[line] code changed
+	old:{"id":"444fde","code":50039,"name":"北海道新幹線","size":4}
+	new:{"code":1011,"name":"北海道新幹線","company_code":1,"name_formal":"北海道新幹線","id":"444fde"}
+[line] code changed
+	old:{"id":"3b0c2b","code":50030,"name":"ディズニーリゾートライン線","size":4}
+	new:{"code":99345,"name":"ディズニーリゾートライン線","name_formal":"舞浜リゾートラインディズニーリゾートライン線","id":"3b0c2b"}
+[line] code changed
+	old:{"id":"cbf1d8","code":50031,"name":"四日市あすなろう鉄道内部線","size":8}
+	new:{"code":31013,"name":"四日市あすなろう鉄道内部線","company_code":247,"name_formal":"内部線","id":"cbf1d8"}
+[line] code changed
+	old:{"id":"8686a0","code":50032,"name":"四日市あすなろう鉄道八王子線","size":2}
+	new:{"code":31014,"name":"四日市あすなろう鉄道八王子線","company_code":247,"name_formal":"八王子線","id":"8686a0"}
+[line] code changed
+	old:{"id":"761223","code":50033,"name":"北近畿タンゴ鉄道宮津線","size":19}
+	new:{"code":99654,"name":"北近畿タンゴ鉄道宮津線","name_formal":"北近畿タンゴ鉄道宮津線","id":"761223"}
+[line] code changed
+	old:{"id":"9c642b","code":50034,"name":"北近畿タンゴ鉄道宮福線","size":14}
+	new:{"code":99655,"name":"北近畿タンゴ鉄道宮福線","name_formal":"北近畿タンゴ鉄道宮福線","id":"9c642b"}
+[line] code changed
+	old:{"id":"be0228","code":50035,"name":"上野懸垂線(上野動物園モノレール)","size":2}
+	new:{"code":99346,"name":"上野懸垂線(上野動物園モノレール)","company_code":119,"name_formal":"上野懸垂線","id":"be0228"}
+[line] code changed
+	old:{"id":"7bdaac","code":50026,"name":"JR仙石東北ライン","size":14}
+	new:{"code":11232,"name":"JR仙石東北ライン","company_code":2,"name_formal":"JR仙石東北ライン","id":"7bdaac"}
+[line] code changed
+	old:{"id":"e27da6","code":50036,"name":"JR東北本線(八戸～青森)","size":20,"closed":true}
+	new:{"code":11201,"name":"JR東北本線(八戸～青森)","closed":true,"company_code":2,"name_formal":"JR東北本線(八戸～青森)","id":"e27da6"}
+[line] code changed
+	old:{"id":"17da13","code":50037,"name":"JR北陸本線(富山～直江津)","size":24,"closed":true}
+	new:{"code":11405,"name":"JR北陸本線(富山～直江津)","closed":true,"company_code":4,"name_formal":"JR北陸本線(富山～直江津)","id":"17da13"}
+[line] code changed
+	old:{"id":"fe0982","code":50038,"name":"豊橋鉄道運動公園前線","size":2}
+	new:{"code":99522,"name":"豊橋鉄道運動公園前線","company_code":181,"name_formal":"豊橋鉄道運動公園前線","id":"fe0982"}
+[line] code changed
+	old:{"id":"7ea4bc","code":50041,"name":"三陸鉄道南リアス線","size":10,"closed":true}
+	new:{"code":99219,"name":"三陸鉄道南リアス線","closed":true,"company_code":109,"name_formal":"三陸鉄道南リアス線","id":"7ea4bc"}
+[station] code changed
+	old:{"id":"fbe0a2","code":1110106,"name":"新函館北斗","lon":140.646525,"lat":41.9054,"lines":[11101,50039]}
+	new:{"code":101104,"name":"新函館北斗","lat":41.9054,"lng":140.646525,"lines":[11101,1011],"postal_code":"041-1242","address":"北海道北斗市市渡","prefecture":1,"id":"fbe0a2"}
+[station] code changed
+	old:{"id":"95d372","code":1111806,"name":"木古内","lon":140.434004,"lat":41.677642,"lines":[11118,99108,50000,50039]}
+	new:{"code":101103,"name":"木古内","lat":41.677642,"lng":140.434004,"lines":[11118,99108,1011,11119],"postal_code":"049-0422","address":"上磯郡木古内町本町","prefecture":1,"id":"95d372"}
+[station] code changed
+	old:{"id":"6d47f7","code":1120265,"name":"新青森","lon":140.693472,"lat":40.8275,"lines":[11202,50022,50039]}
+	new:{"code":100423,"name":"新青森","lat":40.8275,"lng":140.693472,"lines":[11202,1004,1011],"postal_code":"038-0003","address":"青森県青森市大字石江字高間140-2","prefecture":2,"id":"6d47f7"}
+[station] code changed
+	old:{"id":"614352","code":1120601,"name":"八戸","lon":141.431499,"lat":40.5092,"lines":[11206,99206,50022,50036]}
+	new:{"code":100421,"name":"八戸","lat":40.5092,"lng":141.431499,"closed":true,"lines":[11201,11206,99206,1004],"postal_code":"039-1101","address":"八戸市尻内町","prefecture":2,"id":"614352"}
+[station] code changed
+	old:{"id":"2f6f3d","code":1123185,"name":"盛岡","lon":141.136599,"lat":39.701547,"lines":[99205,11211,11213,11231,50022]}
+	new:{"code":100418,"name":"盛岡","lat":39.701547,"lng":141.136599,"lines":[11211,11213,11231,99205,1004],"postal_code":"020-0034","address":"盛岡市盛岡駅前通","prefecture":3,"id":"2f6f3d"}
+[station] code changed
+	old:{"id":"515470","code":9920509,"name":"いわて沼宮内","lon":141.216955,"lat":39.960155,"lines":[99205,50022]}
+	new:{"code":100419,"name":"いわて沼宮内","lat":39.960155,"lng":141.216955,"lines":[99205,1004],"postal_code":"028-4303","address":"岩手郡岩手町大字江刈内","prefecture":3,"id":"515470"}
+[station] code changed
+	old:{"id":"c953e7","code":9920515,"name":"二戸","lon":141.286211,"lat":40.25997,"lines":[99205,50022]}
+	new:{"code":100420,"name":"二戸","lat":40.25997,"lng":141.286211,"lines":[99205,1004],"postal_code":"028-6103","address":"二戸市石切所","prefecture":3,"id":"c953e7"}
+[station] code changed
+	old:{"id":"121ad9","code":1123166,"name":"一ノ関","lon":141.138177,"lat":38.926514,"lines":[11208,11231,50022]}
+	new:{"code":100414,"name":"一ノ関","lat":38.926514,"lng":141.138177,"lines":[11208,11231,1004],"postal_code":"021-0867","address":"一関市駅前","prefecture":3,"id":"121ad9"}
+[station] code changed
+	old:{"id":"c85451","code":1120903,"name":"新花巻","lon":141.17302,"lat":39.405839,"lines":[11209,50022]}
+	new:{"code":100417,"name":"新花巻","lat":39.405839,"lng":141.17302,"lines":[11209,1004],"postal_code":"025-0011","address":"花巻市矢沢第１０地割","prefecture":3,"id":"c85451"}
+[station] code changed
+	old:{"id":"573775","code":1123174,"name":"北上","lon":141.121221,"lat":39.281196,"lines":[11210,11231,50022]}
+	new:{"code":100416,"name":"北上","lat":39.281196,"lng":141.121221,"lines":[11210,11231,1004],"postal_code":"024-0061","address":"北上市大通り１丁目","prefecture":3,"id":"573775"}
+[station] code changed
+	old:{"id":"0044bc","code":1121314,"name":"茂市","lon":141.799288,"lat":39.620619,"lines":[11213,50003]}
+	new:{"code":1120701,"name":"茂市","lat":39.620619,"lng":141.799288,"closed":true,"lines":[11207,11213],"postal_code":"028-2101","address":"宮古市茂市","prefecture":3,"id":"0044bc"}
+[station] code changed
+	old:{"id":"050b6e","code":1123106,"name":"新白河","lon":140.188969,"lat":37.12331,"lines":[11231,50022]}
+	new:{"code":100407,"name":"新白河","lat":37.12331,"lng":140.188969,"lines":[11231,1004],"postal_code":"961-8061","address":"西白河郡西郷村小田倉","prefecture":7,"id":"050b6e"}
+[station] code changed
+	old:{"id":"4c93d9","code":1123114,"name":"郡山(福島)","lon":140.389363,"lat":37.398187,"lines":[11231,11225,11228,11338,50022]}
+	new:{"code":100408,"name":"郡山(福島)","lat":37.398187,"lng":140.389363,"lines":[11225,11228,11231,11338,1004],"postal_code":"963-8003","address":"郡山市燧田","prefecture":7,"id":"4c93d9"}
+[station] code changed
+	old:{"id":"7bfd6b","code":1123124,"name":"福島(福島)","lon":140.45968,"lat":37.754123,"lines":[11231,99213,11216,99215,50022]}
+	new:{"code":100409,"name":"福島(福島)","lat":37.754123,"lng":140.45968,"lines":[11216,11231,99213,99215,1004],"postal_code":"960-8031","address":"福島市栄町","prefecture":7,"id":"7bfd6b"}
+[station] code changed
+	old:{"id":"2c0bce","code":1123143,"name":"仙台(JR)","lon":140.882158,"lat":38.260027,"lines":[11231,11217,11222,11230,50022,50026]}
+	new:{"code":100411,"name":"仙台(JR)","lat":38.260027,"lng":140.882158,"lines":[11217,11222,11231,11230,1004,11232],"postal_code":"980-0021","address":"仙台市青葉区中央一丁目1-1","prefecture":4,"id":"2c0bce"}
+[station] code changed
+	old:{"id":"b1d78f","code":1122104,"name":"古川","lon":140.967876,"lat":38.571192,"lines":[11221,50022]}
+	new:{"code":100412,"name":"古川","lat":38.571192,"lng":140.967876,"lines":[11221,1004],"postal_code":"989-6162","address":"大崎市古川駅前大通り１丁目","prefecture":4,"id":"b1d78f"}
+[station] code changed
+	old:{"id":"93946c","code":1130220,"name":"上野","lon":139.777043,"lat":35.71379,"lines":[11319,11320,11323,11332,11302,11343,28001,28003,50022,50023]}
+	new:{"code":100402,"name":"上野","lat":35.71379,"lng":139.777043,"lines":[11302,11319,11320,11323,11332,11343,28001,28003,1004,1005],"postal_code":"110-0005","address":"東京都台東区上野七丁目1-1","prefecture":13,"id":"93946c"}
+[station] code changed
+	old:{"id":"d73fff","code":1131906,"name":"大宮(埼玉)","lon":139.62405,"lat":35.906439,"lines":[11319,11323,11321,11322,11328,11332,11333,21004,99321,50022,50023]}
+	new:{"code":100403,"name":"大宮(埼玉)","lat":35.906439,"lng":139.62405,"lines":[11319,11321,11322,11323,11328,11332,11333,21004,99321,1004,1005],"postal_code":"330-0853","address":"さいたま市大宮区錦町","prefecture":11,"id":"d73fff"}
+[station] code changed
+	old:{"id":"dec054","code":1131918,"name":"小山","lon":139.806241,"lat":36.312747,"lines":[11319,11339,11341,50022]}
+	new:{"code":100404,"name":"小山","lat":36.312747,"lng":139.806241,"lines":[11319,11339,11341,1004],"postal_code":"323-0025","address":"小山市城山町","prefecture":9,"id":"dec054"}
+[station] code changed
+	old:{"id":"734a1e","code":1131923,"name":"宇都宮","lon":139.898389,"lat":36.559246,"lines":[11319,11340,50022]}
+	new:{"code":100405,"name":"宇都宮","lat":36.559246,"lng":139.898389,"lines":[11319,11340,1004],"postal_code":"321-0965","address":"宇都宮市川向町","prefecture":9,"id":"734a1e"}
+[station] code changed
+	old:{"id":"be4860","code":1131932,"name":"那須塩原","lon":140.020694,"lat":36.931956,"lines":[11319,50022]}
+	new:{"code":100406,"name":"那須塩原","lat":36.931956,"lng":140.020694,"lines":[11319,1004],"postal_code":"329-3153","address":"那須塩原市大原間","prefecture":9,"id":"be4860"}
+[station] code changed
+	old:{"id":"4505b7","code":1131816,"name":"高崎","lon":139.012354,"lat":36.322239,"lines":[11341,11318,11323,11337,11342,99327,50023,50028]}
+	new:{"code":100506,"name":"高崎","lat":36.322239,"lng":139.012354,"lines":[11318,11323,11337,11341,11342,99327,1005,1009],"postal_code":"370-0849","address":"高崎市八島町","prefecture":10,"id":"4505b7"}
+[station] code changed
+	old:{"id":"483c88","code":1132316,"name":"熊谷","lon":139.389528,"lat":36.139627,"lines":[11323,99306,50023]}
+	new:{"code":100504,"name":"熊谷","lat":36.139627,"lng":139.389528,"lines":[11323,99306,1005],"postal_code":"360-0037","address":"熊谷市筑波２丁目","prefecture":11,"id":"483c88"}
+[station] code changed
+	old:{"id":"61e081","code":1134220,"name":"越後湯沢","lon":138.809227,"lat":36.935799,"lines":[11342,50023,50027]}
+	new:{"code":100508,"name":"越後湯沢","lat":36.935799,"lng":138.809227,"lines":[11342,1005,1006],"postal_code":"949-6101","address":"南魚沼郡湯沢町大字湯沢","prefecture":15,"id":"61e081"}
+[station] code changed
+	old:{"id":"38f14e","code":1134227,"name":"浦佐","lon":138.922798,"lat":37.167488,"lines":[11342,50023]}
+	new:{"code":100509,"name":"浦佐","lat":37.167488,"lng":138.922798,"lines":[11342,1005],"postal_code":"949-7302","address":"南魚沼市浦佐","prefecture":15,"id":"38f14e"}
+[station] code changed
+	old:{"id":"7bcf10","code":1134236,"name":"長岡","lon":138.853927,"lat":37.447787,"lines":[11342,11404,50023]}
+	new:{"code":100510,"name":"長岡","lat":37.447787,"lng":138.853927,"lines":[11342,11404,1005],"postal_code":"940-0061","address":"長岡市城内町２丁目","prefecture":15,"id":"7bcf10"}
+[station] code changed
+	old:{"id":"73e262","code":1130103,"name":"品川","lon":139.738999,"lat":35.62876,"lines":[11328,11332,11301,11302,11308,27001,50024]}
+	new:{"code":100202,"name":"品川","lat":35.62876,"lng":139.738999,"lines":[11301,11302,11308,11328,11332,27001,1002],"postal_code":"108-0074","address":"東京都港区高輪三丁目26-27","prefecture":13,"id":"73e262"}
+[station] code changed
+	old:{"id":"8b222f","code":1130101,"name":"東京","lon":139.766103,"lat":35.681391,"lines":[11328,11332,11314,11326,11301,11302,11308,11311,11312,11343,28002,50022,50023,50024]}
+	new:{"code":100201,"name":"東京","lat":35.681391,"lng":139.766103,"lines":[11301,11302,11308,11311,11312,11314,11326,11328,11332,11343,28002,1002,1004,1005],"postal_code":"100-0005","address":"東京都千代田区丸の内一丁目","prefecture":13,"id":"8b222f"}
+[station] code changed
+	old:{"id":"eaa3c7","code":1130116,"name":"小田原","lon":139.155772,"lat":35.256225,"lines":[11301,25001,99314,99339,50024]}
+	new:{"code":100204,"name":"小田原","lat":35.256225,"lng":139.155772,"lines":[11301,25001,99314,99339,1002],"postal_code":"250-0011","address":"小田原市栄町１丁目","prefecture":14,"id":"eaa3c7"}
+[station] code changed
+	old:{"id":"e9c3c7","code":1130121,"name":"熱海","lon":139.077679,"lat":35.103573,"lines":[11301,11501,11504,50024]}
+	new:{"code":100205,"name":"熱海","lat":35.103573,"lng":139.077679,"lines":[11301,11501,11504,1002],"postal_code":"413-0011","address":"熱海市田原本町","prefecture":22,"id":"e9c3c7"}
+[station] code changed
+	old:{"id":"659bd9","code":1130604,"name":"新横浜","lon":139.617348,"lat":35.506824,"lines":[11306,99316,50024]}
+	new:{"code":100203,"name":"新横浜","lat":35.506824,"lng":139.617348,"lines":[11306,99316,1002],"postal_code":"222-0026","address":"横浜市港北区篠原町","prefecture":14,"id":"659bd9"}
+[station] code changed
+	old:{"id":"503058","code":1140442,"name":"新潟","lon":139.060869,"lat":37.912299,"lines":[11404,11406,11408,50023]}
+	new:{"code":100512,"name":"新潟","lat":37.912299,"lng":139.060869,"lines":[11404,11406,11408,1005],"postal_code":"950-0086","address":"新潟市中央区花園１丁目","prefecture":15,"id":"503058"}
+[station] code changed
+	old:{"id":"194165","code":1140305,"name":"長野","lon":138.189101,"lat":36.643307,"lines":[99427,11403,99405,50028]}
+	new:{"code":100906,"name":"長野","lat":36.643307,"lng":138.189101,"lines":[11403,99405,99427,1009],"postal_code":"380-0921","address":"長野市大字栗田１０３８番地","prefecture":20,"id":"194165"}
+[station] code changed
+	old:{"id":"83b3a3","code":1140710,"name":"飯山","lon":138.359335,"lat":36.847642,"lines":[11407,50028]}
+	new:{"code":100907,"name":"飯山","lat":36.847642,"lng":138.359335,"lines":[11407,1009],"postal_code":"389-2253","address":"飯山市大字飯山","prefecture":20,"id":"83b3a3"}
+[station] code changed
+	old:{"id":"6c0a71","code":1140516,"name":"糸魚川","lon":137.861311,"lat":37.043631,"lines":[11409,99423,50028,50037]}
+	new:{"code":100909,"name":"糸魚川","lat":37.043631,"lng":137.861311,"lines":[11409,99423,1009,11405],"postal_code":"941-0061","address":"糸魚川市大町１丁目","prefecture":15,"id":"6c0a71"}
+[station] code changed
+	old:{"id":"c163ec","code":1141006,"name":"燕三条","lon":138.939274,"lat":37.648824,"lines":[11410,50023]}
+	new:{"code":100511,"name":"燕三条","lat":37.648824,"lng":138.939274,"lines":[11410,1005],"postal_code":"955-0093","address":"三条市下須頃","prefecture":15,"id":"c163ec"}
+[station] code changed
+	old:{"id":"64b8a9","code":1140317,"name":"上越妙高","lon":138.249476,"lat":37.081813,"lines":[99424,50028]}
+	new:{"code":100908,"name":"上越妙高","lat":37.081813,"lng":138.249476,"lines":[99424,1009],"postal_code":"943-0863","address":"上越市大字脇野田","prefecture":15,"id":"64b8a9"}
+[station] code changed
+	old:{"id":"7b9954","code":1141555,"name":"富山","lon":137.213255,"lat":36.701613,"lines":[99425,11416,50028,50037]}
+	new:{"code":100911,"name":"富山","lat":36.701613,"lng":137.213255,"lines":[11416,99425,1009,11405],"postal_code":"930-0001","address":"富山市明輪町","prefecture":16,"id":"7b9954"}
+[station] code changed
+	old:{"id":"307ee0","code":1141714,"name":"新高岡","lon":137.012408,"lat":36.726966,"lines":[11417,50028]}
+	new:{"code":100912,"name":"新高岡","lat":36.726966,"lng":137.012408,"lines":[11417,1009],"postal_code":"933-0852","address":"富山県高岡市下黒田1872番地","prefecture":16,"id":"307ee0"}
+[station] code changed
+	old:{"id":"85e377","code":1141501,"name":"米原","lon":136.289992,"lat":35.314657,"lines":[11415,11503,11601,99601,50024]}
+	new:{"code":100215,"name":"米原","lat":35.314657,"lng":136.289992,"lines":[11415,11503,11601,99601,1002],"postal_code":"521-0012","address":"米原市米原","prefecture":25,"id":"85e377"}
+[station] code changed
+	old:{"id":"27b8ec","code":1141543,"name":"金沢","lon":136.648166,"lat":36.578117,"lines":[11415,99426,50028]}
+	new:{"code":100913,"name":"金沢","lat":36.578117,"lng":136.648166,"lines":[11415,99426,1009],"postal_code":"920-0023","address":"金沢市北安江町","prefecture":17,"id":"27b8ec"}
+[station] code changed
+	old:{"id":"05d5c9","code":1140125,"name":"佐久平","lon":138.464367,"lat":36.277929,"lines":[11401,50028]}
+	new:{"code":100904,"name":"佐久平","lat":36.277929,"lng":138.464367,"lines":[11401,1009],"postal_code":"385-0021","address":"佐久市大字長土呂１４８８番地","prefecture":20,"id":"05d5c9"}
+[station] code changed
+	old:{"id":"91ffc2","code":1141101,"name":"名古屋","lon":136.881637,"lat":35.170694,"lines":[11411,11502,11508,99509,99513,99517,50024]}
+	new:{"code":100213,"name":"名古屋","lat":35.170694,"lng":136.881637,"lines":[11411,11502,11508,99509,99513,99517,1002],"postal_code":"450-0002","address":"名古屋市中村区名駅１丁目４番","prefecture":23,"id":"91ffc2"}
+[station] code changed
+	old:{"id":"ce07ed","code":1141301,"name":"豊橋","lon":137.382128,"lat":34.762734,"lines":[11413,11502,30001,50024]}
+	new:{"code":100211,"name":"豊橋","lat":34.762734,"lng":137.382128,"lines":[11413,11502,30001,1002],"postal_code":"440-0075","address":"豊橋市花田町西宿","prefecture":23,"id":"ce07ed"}
+[station] code changed
+	old:{"id":"796e41","code":9940301,"name":"軽井沢","lon":138.635096,"lat":36.342889,"lines":[99403,50028]}
+	new:{"code":100903,"name":"軽井沢","lat":36.342889,"lng":138.635096,"lines":[99403,1009],"postal_code":"389-0102","address":"北佐久郡軽井沢町大字軽井沢１１７８番地","prefecture":20,"id":"796e41"}
+[station] code changed
+	old:{"id":"f3b943","code":9940311,"name":"上田","lon":138.249298,"lat":36.396579,"lines":[99403,99404,50028]}
+	new:{"code":100905,"name":"上田","lat":36.396579,"lng":138.249298,"lines":[99403,99404,1009],"postal_code":"386-0025","address":"上田市天神１丁目１８８７番地","prefecture":20,"id":"f3b943"}
+[station] code changed
+	old:{"id":"24381e","code":1150201,"name":"浜松","lon":137.734759,"lat":34.703866,"lines":[11502,11501,50024]}
+	new:{"code":100210,"name":"浜松","lat":34.703866,"lng":137.734759,"lines":[11501,11502,1002],"postal_code":"430-0926","address":"浜松市中区砂山町","prefecture":22,"id":"24381e"}
+[station] code changed
+	old:{"id":"221e91","code":1150222,"name":"三河安城","lon":137.060918,"lat":34.96968,"lines":[11502,50024]}
+	new:{"code":100212,"name":"三河安城","lat":34.96968,"lng":137.060918,"lines":[11502,1002],"postal_code":"446-0054","address":"安城市二本木町二ツ池","prefecture":23,"id":"221e91"}
+[station] code changed
+	old:{"id":"909cad","code":1150103,"name":"三島","lon":138.911133,"lat":35.126253,"lines":[11501,99502,50024]}
+	new:{"code":100206,"name":"三島","lat":35.126253,"lng":138.911133,"lines":[11501,99502,1002],"postal_code":"411-0036","address":"三島市一番町","prefecture":22,"id":"909cad"}
+[station] code changed
+	old:{"id":"a16783","code":1150118,"name":"静岡","lon":138.388579,"lat":34.971629,"lines":[11501,50024]}
+	new:{"code":100208,"name":"静岡","lat":34.971629,"lng":138.388579,"lines":[11501,1002],"postal_code":"420-0851","address":"静岡市葵区黒金町","prefecture":22,"id":"a16783"}
+[station] code changed
+	old:{"id":"adfe18","code":1150128,"name":"掛川","lon":138.014937,"lat":34.769463,"lines":[11501,99505,50024]}
+	new:{"code":100209,"name":"掛川","lat":34.769463,"lng":138.014937,"lines":[11501,99505,1002],"postal_code":"436-0024","address":"掛川市南西郷","prefecture":22,"id":"adfe18"}
+[station] code changed
+	old:{"id":"4f4812","code":9952114,"name":"運動公園前(愛知)","lon":137.422314,"lat":34.75845,"lines":[99521,50038]}
+	new:{"code":9952202,"name":"運動公園前(愛知)","lat":34.75845,"lng":137.422314,"lines":[99521,99522],"postal_code":"441-0000","address":"豊橋市","prefecture":23,"id":"4f4812"}
+[station] code changed
+	old:{"id":"678b9f","code":3100503,"name":"今里(近畿日本鉄道)","lon":135.549917,"lat":34.664788,"lines":[31005]}
+	new:{"code":3100105,"name":"今里(近畿日本鉄道)","lat":34.664788,"lng":135.549917,"closed":true,"lines":[31005],"postal_code":"544-0001","address":"大阪市生野区新今里四丁目1-17","prefecture":27,"id":"678b9f"}
+[station] code changed
+	old:{"id":"988952","code":3100504,"name":"布施","lon":135.563516,"lat":34.664092,"lines":[31005,31020]}
+	new:{"code":3100106,"name":"布施","lat":34.664092,"lng":135.563516,"closed":true,"lines":[31005,31020],"postal_code":"577-0056","address":"東大阪市長堂１-１-１８","prefecture":27,"id":"988952"}
+[station] code changed
+	old:{"id":"deedbe","code":1160120,"name":"京都","lon":135.757748,"lat":34.985465,"lines":[11601,11605,11602,11614,11618,31025,99610,50024]}
+	new:{"code":100216,"name":"京都","lat":34.985465,"lng":135.757748,"lines":[11601,11602,11605,11614,11618,31025,99610,1002],"postal_code":"600-8216","address":"京都市下京区烏丸通塩小路下ル東塩小路町","prefecture":26,"id":"deedbe"}
+[station] code changed
+	old:{"id":"5d9093","code":1160213,"name":"新大阪","lon":135.501852,"lat":34.734136,"lines":[11602,11629,11641,99618,50024,50025]}
+	new:{"code":100217,"name":"新大阪","lat":34.734136,"lng":135.501852,"lines":[11602,11629,11641,99618,1002,1003],"postal_code":"532-0011","address":"大阪市淀川区西中島５丁目","prefecture":27,"id":"5d9093"}
+[station] code changed
+	old:{"id":"91c825","code":1160811,"name":"西明石","lon":134.960151,"lat":34.66591,"lines":[11608,50025]}
+	new:{"code":100303,"name":"西明石","lat":34.66591,"lng":134.960151,"lines":[11608,1003],"postal_code":"673-0005","address":"明石市小久保町２丁目","prefecture":28,"id":"91c825"}
+[station] code changed
+	old:{"id":"4491da","code":1160821,"name":"姫路","lon":134.690769,"lat":34.827659,"lines":[11608,11609,11633,11635,50025]}
+	new:{"code":100304,"name":"姫路","lat":34.827659,"lng":134.690769,"lines":[11608,11609,11633,11635,1003],"postal_code":"670-0927","address":"姫路市駅前町御殿前","prefecture":28,"id":"4491da"}
+[station] code changed
+	old:{"id":"1800c3","code":1160905,"name":"相生(兵庫)","lon":134.47341,"lat":34.818052,"lines":[11609,11631,50025]}
+	new:{"code":100305,"name":"相生(兵庫)","lat":34.818052,"lng":134.47341,"lines":[11609,11631,1003],"postal_code":"678-0006","address":"相生市本郷町","prefecture":28,"id":"1800c3"}
+[station] code changed
+	old:{"id":"a9d3b2","code":1160917,"name":"岡山","lon":133.918552,"lat":34.666572,"lines":[11609,11631,11703,11610,11709,11713,11715,50025]}
+	new:{"code":100306,"name":"岡山","lat":34.666572,"lng":133.918552,"lines":[11609,11610,11631,11703,11709,11713,11715,1003],"postal_code":"700-0024","address":"岡山市駅元町１丁目","prefecture":33,"id":"a9d3b2"}
+[station] code changed
+	old:{"id":"27f8fc","code":9963601,"name":"新神戸","lon":135.195758,"lat":34.706417,"lines":[99636,99646,50025]}
+	new:{"code":100302,"name":"新神戸","lat":34.706417,"lng":135.195758,"lines":[99636,99646,1003],"postal_code":"650-0001","address":"神戸市中央区加納町１丁目","prefecture":28,"id":"27f8fc"}
+[station] code changed
+	old:{"id":"4b4a14","code":1161224,"name":"新山口","lon":131.39657,"lat":34.093255,"lines":[11708,11612,11721,50025]}
+	new:{"code":100315,"name":"新山口","lat":34.093255,"lng":131.39657,"lines":[11612,11708,11721,1003],"postal_code":"754-0002","address":"山口市小郡下郷","prefecture":35,"id":"4b4a14"}
+[station] code changed
+	old:{"id":"d59841","code":1161007,"name":"新倉敷","lon":133.678344,"lat":34.56509,"lines":[11610,50025]}
+	new:{"code":100307,"name":"新倉敷","lat":34.56509,"lng":133.678344,"lines":[11610,1003],"postal_code":"710-0252","address":"倉敷市玉島爪崎","prefecture":33,"id":"d59841"}
+[station] code changed
+	old:{"id":"6bb02c","code":1161014,"name":"福山","lon":133.361429,"lat":34.489291,"lines":[11610,11720,50025]}
+	new:{"code":100308,"name":"福山","lat":34.489291,"lng":133.361429,"lines":[11610,11720,1003],"postal_code":"720-0066","address":"福山市三之丸町","prefecture":34,"id":"6bb02c"}
+[station] code changed
+	old:{"id":"4d901a","code":1161020,"name":"三原","lon":133.083049,"lat":34.400486,"lines":[11610,11611,11716,50025]}
+	new:{"code":100310,"name":"三原","lat":34.400486,"lng":133.083049,"lines":[11610,11611,11716,1003],"postal_code":"723-0014","address":"三原市城町","prefecture":34,"id":"4d901a"}
+[station] code changed
+	old:{"id":"5c7afb","code":1171426,"name":"三次","lon":132.855976,"lat":34.802646,"lines":[11714,11720,50021]}
+	new:{"code":1170735,"name":"三次","lat":34.802646,"lng":132.855976,"closed":true,"lines":[11707,11714,11720],"postal_code":"728-0014","address":"三次市十日市南１丁目","prefecture":34,"id":"5c7afb"}
+[station] code changed
+	old:{"id":"1f0cee","code":1161115,"name":"広島","lon":132.475593,"lat":34.397446,"lines":[11714,11611,11716,11717,50025]}
+	new:{"code":100312,"name":"広島","lat":34.397446,"lng":132.475593,"lines":[11611,11714,11716,11717,1003],"postal_code":"732-0822","address":"広島市南区松原町","prefecture":34,"id":"1f0cee"}
+[station] code changed
+	old:{"id":"7061fa","code":1161216,"name":"徳山","lon":131.8029,"lat":34.051555,"lines":[11612,11724,50025]}
+	new:{"code":100314,"name":"徳山","lat":34.051555,"lng":131.8029,"lines":[11612,11724,1003],"postal_code":"745-0034","address":"周南市御幸通り２丁目","prefecture":35,"id":"7061fa"}
+[station] code changed
+	old:{"id":"1bd787","code":1161230,"name":"厚狭","lon":131.159965,"lat":34.053361,"lines":[11612,11722,50025]}
+	new:{"code":100316,"name":"厚狭","lat":34.053361,"lng":131.159965,"lines":[11612,11722,1003],"postal_code":"757-0001","address":"山陽小野田市厚狭","prefecture":35,"id":"1bd787"}
+[station] code changed
+	old:{"id":"78a2be","code":1161234,"name":"新下関","lon":130.948021,"lat":34.005651,"lines":[11612,50025]}
+	new:{"code":100317,"name":"新下関","lat":34.005651,"lng":130.948021,"lines":[11612,1003],"postal_code":"751-0872","address":"下関市秋根南町１丁目","prefecture":35,"id":"78a2be"}
+[station] code changed
+	old:{"id":"456856","code":1190205,"name":"小倉(福岡)","lon":130.882678,"lat":33.886756,"lines":[11902,11906,11914,99908,50025]}
+	new:{"code":100318,"name":"小倉(福岡)","lat":33.886756,"lng":130.882678,"lines":[11902,11906,11914,99908,1003],"postal_code":"802-0001","address":"北九州市小倉北区浅野１丁目","prefecture":40,"id":"456856"}
+[station] code changed
+	old:{"id":"dee3bc","code":1190101,"name":"博多","lon":130.420622,"lat":33.590002,"lines":[11902,11901,11903,11908,99905,50025,50029]}
+	new:{"code":100319,"name":"博多","lat":33.590002,"lng":130.420622,"lines":[11901,11902,11903,11908,99905,1003,1010],"postal_code":"812-0012","address":"福岡市博多区博多駅中央街","prefecture":40,"id":"dee3bc"}
+[station] code changed
+	old:{"id":"2e81c7","code":1190318,"name":"久留米","lon":130.501408,"lat":33.319778,"lines":[11903,11913,50029]}
+	new:{"code":101003,"name":"久留米","lat":33.319778,"lng":130.501408,"lines":[11903,11913,1010],"postal_code":"830-0022","address":"久留米市城南町２丁目","prefecture":40,"id":"2e81c7"}
+[station] code changed
+	old:{"id":"83dba4","code":1190322,"name":"筑後船小屋","lon":130.491529,"lat":33.178058,"lines":[11903,50029]}
+	new:{"code":101004,"name":"筑後船小屋","lat":33.178058,"lng":130.491529,"lines":[11903,1010],"postal_code":"833-0015","address":"筑後市大字津島","prefecture":40,"id":"83dba4"}
+[station] code changed
+	old:{"id":"278487","code":1190341,"name":"熊本","lon":130.688499,"lat":32.789207,"lines":[11903,11923,11924,50029]}
+	new:{"code":101007,"name":"熊本","lat":32.789207,"lng":130.688499,"lines":[11903,11923,11924,1010],"postal_code":"860-0047","address":"熊本市春日３丁目","prefecture":43,"id":"278487"}
+[station] code changed
+	old:{"id":"a00705","code":1190348,"name":"新八代","lon":130.634919,"lat":32.517888,"lines":[11903,50029]}
+	new:{"code":101008,"name":"新八代","lat":32.517888,"lng":130.634919,"lines":[11903,1010],"postal_code":"866-0824","address":"八代市上日置町字女夫木４７７４-２","prefecture":43,"id":"a00705"}
+[station] code changed
+	old:{"id":"61e338","code":1190542,"name":"新鳥栖","lon":130.491111,"lat":33.370278,"lines":[11905,50029]}
+	new:{"code":101002,"name":"新鳥栖","lat":33.370278,"lng":130.491111,"lines":[11905,1010],"postal_code":"841-0071","address":"佐賀県鳥栖市原古賀町字一本松220-2","prefecture":41,"id":"61e338"}
+[station] code changed
+	old:{"id":"75b3e1","code":9992112,"name":"新水俣","lon":130.428893,"lat":32.210825,"lines":[99921,50029]}
+	new:{"code":101009,"name":"新水俣","lat":32.210825,"lng":130.428893,"lines":[99921,1010],"postal_code":"867-0002","address":"水俣市初野３０５","prefecture":43,"id":"75b3e1"}
+[station] code changed
+	old:{"id":"e87866","code":9992116,"name":"出水","lon":130.357803,"lat":32.089275,"lines":[99921,50029]}
+	new:{"code":101010,"name":"出水","lat":32.089275,"lng":130.357803,"lines":[99921,1010],"postal_code":"899-0203","address":"出水市上鯖淵","prefecture":46,"id":"e87866"}
+[station] code changed
+	old:{"id":"425db5","code":1190401,"name":"川内(鹿児島)","lon":130.31213,"lat":31.813726,"lines":[99921,11904,50019,50029]}
+	new:{"code":101011,"name":"川内(鹿児島)","lat":31.813726,"lng":130.31213,"lines":[11904,99921,1010,11932],"postal_code":"895-0024","address":"薩摩川内市鳥追町","prefecture":46,"id":"425db5"}
+[station] code changed
+	old:{"id":"4f45fc","code":1190411,"name":"鹿児島中央","lon":130.541789,"lat":31.583727,"lines":[11907,11904,11930,50029]}
+	new:{"code":101012,"name":"鹿児島中央","lat":31.583727,"lng":130.541789,"lines":[11904,11907,11930,1010],"postal_code":"890-0053","address":"鹿児島市中央町","prefecture":46,"id":"4f45fc"}
+[station] code changed
+	old:{"id":"5043bb","code":5000000,"name":"島ノ下","lon":142.350407,"lat":43.374403,"lines":[11106],"closed":true}
+	new:{"code":1110609,"name":"島ノ下","lat":43.3744,"lng":142.350406,"closed":true,"lines":[11106],"postal_code":"076-0036","address":"富良野市字島ノ下","prefecture":1,"id":"5043bb"}
+[station] code changed
+	old:{"id":"5d19f6","code":5000001,"name":"羽帯","lon":142.906647,"lat":42.957501,"lines":[11107],"closed":true}
+	new:{"code":1110703,"name":"羽帯","lat":42.957499,"lng":142.906646,"closed":true,"lines":[11107],"postal_code":"089-0356","address":"上川郡清水町字羽帯","prefecture":1,"id":"5d19f6"}
+[station] code changed
+	old:{"id":"5fba7c","code":5000002,"name":"稲士別","lon":143.297528,"lat":42.903967,"lines":[11107],"closed":true}
+	new:{"code":1110711,"name":"稲士別","lat":42.903963,"lng":143.297528,"closed":true,"lines":[11107],"postal_code":"089-0564","address":"中川郡幕別町稲志別","prefecture":1,"id":"5fba7c"}
+[station] code changed
+	old:{"id":"ce1c2d","code":5000003,"name":"上厚内","lon":143.749785,"lat":42.831885,"lines":[11107],"closed":true}
+	new:{"code":1110719,"name":"上厚内","lat":42.831881,"lng":143.749788,"closed":true,"lines":[11107],"postal_code":"089-5866","address":"十勝郡浦幌町字上厚内","prefecture":1,"id":"ce1c2d"}
+[station] code changed
+	old:{"id":"8901af","code":5000004,"name":"花咲","lon":145.575046,"lat":43.29539,"lines":[11108],"closed":true}
+	new:{"code":1110819,"name":"花咲","lat":43.295388,"lng":145.575045,"closed":true,"lines":[11108],"postal_code":"087-0032","address":"根室市花咲港","prefecture":1,"id":"8901af"}
+[station] code changed
+	old:{"id":"bbc234","code":5000005,"name":"金華","lon":143.571139,"lat":43.803486,"lines":[11116],"closed":true}
+	new:{"code":1111627,"name":"金華","lat":43.803484,"lng":143.57114,"closed":true,"lines":[11116],"postal_code":"091-0021","address":"北見市留辺蘂町金華","prefecture":1,"id":"bbc234"}
+[station] code changed
+	old:{"id":"e6f14b","code":5000006,"name":"下白滝","lon":143.276092,"lat":43.944557,"lines":[11116],"closed":true}
+	new:{"code":1111620,"name":"下白滝","lat":43.944553,"lng":143.276088,"closed":true,"lines":[11116],"postal_code":"099-0101","address":"紋別郡遠軽町下白滝","prefecture":1,"id":"e6f14b"}
+[station] code changed
+	old:{"id":"711b96","code":5000007,"name":"旧白滝","lon":143.236731,"lat":43.919907,"lines":[11116],"closed":true}
+	new:{"code":1111619,"name":"旧白滝","lat":43.919905,"lng":143.236729,"closed":true,"lines":[11116],"postal_code":"099-0102","address":"紋別郡遠軽町旧白滝","prefecture":1,"id":"711b96"}
+[station] code changed
+	old:{"id":"1a3f91","code":5000008,"name":"上白滝","lon":143.144401,"lat":43.876503,"lines":[11116],"closed":true}
+	new:{"code":1111617,"name":"上白滝","lat":43.876501,"lng":143.1444,"closed":true,"lines":[11116],"postal_code":"099-0127","address":"紋別郡遠軽町上白滝","prefecture":1,"id":"1a3f91"}
+[station] code changed
+	old:{"id":"3a1a4c","code":5000009,"name":"五十石","lon":144.545546,"lat":43.238746,"lines":[11117],"closed":true}
+	new:{"code":1111721,"name":"五十石","lat":43.238771,"lng":144.545558,"closed":true,"lines":[11117],"postal_code":"088-2331","address":"川上郡標茶町オソツベツ原野","prefecture":1,"id":"3a1a4c"}
+[station] code changed
+	old:{"id":"db5872","code":5000010,"name":"瀬越","lon":141.634536,"lat":43.934989,"lines":[11113],"closed":true}
+	new:{"code":1111313,"name":"瀬越","lat":43.934987,"lng":141.634535,"closed":true,"lines":[11113],"postal_code":"077-0047","address":"留萌市瀬越町","prefecture":1,"id":"db5872"}
+[station] code changed
+	old:{"id":"9cebb9","code":5000011,"name":"礼受","lon":141.611351,"lat":43.904754,"lines":[11113],"closed":true}
+	new:{"code":1111315,"name":"礼受","lat":43.904871,"lng":141.611358,"closed":true,"lines":[11113],"postal_code":"077-0035","address":"留萌市礼受町","prefecture":1,"id":"9cebb9"}
+[station] code changed
+	old:{"id":"5a26f2","code":5000012,"name":"阿分","lon":141.605597,"lat":43.894343,"lines":[11113],"closed":true}
+	new:{"code":1111316,"name":"阿分","lat":43.894339,"lng":141.605598,"closed":true,"lines":[11113],"postal_code":"077-0200","address":"増毛郡増毛町大字阿分村","prefecture":1,"id":"5a26f2"}
+[station] code changed
+	old:{"id":"ae95bb","code":5000013,"name":"信砂","lon":141.58904,"lat":43.874481,"lines":[11113],"closed":true}
+	new:{"code":1111317,"name":"信砂","lat":43.874479,"lng":141.589039,"closed":true,"lines":[11113],"postal_code":"077-0200","address":"増毛郡増毛町大字舎熊村字信砂","prefecture":1,"id":"ae95bb"}
+[station] code changed
+	old:{"id":"f87a3f","code":5000014,"name":"舎熊","lon":141.580066,"lat":43.869116,"lines":[11113],"closed":true}
+	new:{"code":1111318,"name":"舎熊","lat":43.869113,"lng":141.580068,"closed":true,"lines":[11113],"postal_code":"077-0200","address":"増毛郡増毛町大字舎熊村字舎熊","prefecture":1,"id":"f87a3f"}
+[station] code changed
+	old:{"id":"75b0a2","code":5000015,"name":"朱文別","lon":141.564329,"lat":43.860682,"lines":[11113],"closed":true}
+	new:{"code":1111319,"name":"朱文別","lat":43.860678,"lng":141.564328,"closed":true,"lines":[11113],"postal_code":"077-0200","address":"増毛郡増毛町大字朱文別","prefecture":1,"id":"75b0a2"}
+[station] code changed
+	old:{"id":"146929","code":5000016,"name":"箸別","lon":141.551638,"lat":43.859128,"lines":[11113],"closed":true}
+	new:{"code":1111320,"name":"箸別","lat":43.859125,"lng":141.55164,"closed":true,"lines":[11113],"postal_code":"077-0200","address":"増毛郡増毛町増毛村大字箸別","prefecture":1,"id":"146929"}
+[station] code changed
+	old:{"id":"b30956","code":5000017,"name":"増毛","lon":141.52756,"lat":43.856527,"lines":[11113],"closed":true}
+	new:{"code":1111321,"name":"増毛","lat":43.856522,"lng":141.527559,"closed":true,"lines":[11113],"postal_code":"077-0205","address":"増毛郡増毛町弁天町１丁目","prefecture":1,"id":"b30956"}
+[station] code changed
+	old:{"id":"32856f","code":5000018,"name":"美々","lon":141.71139,"lat":42.777422,"lines":[11109],"closed":true}
+	new:{"code":1110904,"name":"美々","lat":42.777418,"lng":141.711387,"closed":true,"lines":[11109],"postal_code":"066-0012","address":"千歳市美々","prefecture":1,"id":"32856f"}
+[station] code changed
+	old:{"id":"0634a1","code":5000019,"name":"東追分","lon":141.832366,"lat":42.90244,"lines":[11110],"closed":true}
+	new:{"code":1111003,"name":"東追分","lat":42.902377,"lng":141.83228,"closed":true,"lines":[11110],"postal_code":"059-1984","address":"勇払郡安平町追分向陽","prefecture":1,"id":"0634a1"}
+[station] code changed
+	old:{"id":"183285","code":5000020,"name":"十三里","lon":142.024476,"lat":42.914668,"lines":[11110],"closed":true}
+	new:{"code":1111006,"name":"十三里","lat":42.914667,"lng":142.024478,"closed":true,"lines":[11110],"postal_code":"068-0755","address":"夕張市紅葉山","prefecture":1,"id":"183285"}
+[station] code changed
+	old:{"id":"5e7ea0","code":5000021,"name":"鷲ノ巣","lon":140.269918,"lat":42.278392,"lines":[11101],"closed":true}
+	new:{"code":1110132,"name":"鷲ノ巣","lat":42.278389,"lng":140.269919,"closed":true,"lines":[11101],"postal_code":"049-3122","address":"二海郡八雲町花浦","prefecture":1,"id":"5e7ea0"}
+[station] code changed
+	old:{"id":"469432","code":5000022,"name":"東山(北海道)","lon":140.605228,"lat":42.061722,"lines":[11101],"closed":true}
+	new:{"code":1110112,"name":"東山(北海道)","lat":42.06172,"lng":140.605222,"closed":true,"lines":[11101],"postal_code":"049-2141","address":"茅部郡森町字駒ケ岳","prefecture":1,"id":"469432"}
+[station] code changed
+	old:{"id":"611954","code":5000023,"name":"姫川(北海道)","lon":140.591635,"lat":42.081317,"lines":[11101],"closed":true}
+	new:{"code":1110113,"name":"姫川(北海道)","lat":42.081312,"lng":140.591632,"closed":true,"lines":[11101],"postal_code":"049-2306","address":"茅部郡森町字姫川","prefecture":1,"id":"611954"}
+[station] code changed
+	old:{"id":"8e86e6","code":5000024,"name":"桂川(北海道)","lon":140.54281,"lat":42.115592,"lines":[11101],"closed":true}
+	new:{"code":1110124,"name":"桂川(北海道)","lat":42.1156004,"lng":140.5427876,"closed":true,"lines":[11101],"postal_code":"049-2321","address":"茅部郡森町字鷲ノ木町","prefecture":1,"id":"8e86e6"}
+[station] code changed
+	old:{"id":"499770","code":5000025,"name":"北豊津","lon":140.297866,"lat":42.400974,"lines":[11101],"closed":true}
+	new:{"code":1110135,"name":"北豊津","lat":42.400969,"lng":140.297868,"closed":true,"lines":[11101],"postal_code":"049-3464","address":"山越郡長万部町字豊津","prefecture":1,"id":"499770"}
+[station] code changed
+	old:{"id":"8fa7af","code":5000026,"name":"蕨岱","lon":140.313355,"lat":42.626342,"lines":[11102],"closed":true}
+	new:{"code":1110203,"name":"蕨岱","lat":42.626353,"lng":140.313353,"closed":true,"lines":[11102],"postal_code":"049-3503","address":"山越郡長万部町字蕨岱","prefecture":1,"id":"8fa7af"}
+[station] code changed
+	old:{"id":"17cdf2","code":5000027,"name":"江差","lon":140.127931,"lat":41.856727,"lines":[50000],"closed":true}
+	new:{"code":1111901,"name":"江差","lat":41.856727,"lng":140.127933,"closed":true,"lines":[11119],"postal_code":"043-0056","address":"檜山郡江差町字陣屋町","prefecture":1,"id":"17cdf2"}
+[station] code changed
+	old:{"id":"462359","code":5000028,"name":"上ノ国","lon":140.12411,"lat":41.805568,"lines":[50000],"closed":true}
+	new:{"code":1111902,"name":"上ノ国","lat":41.805567,"lng":140.124106,"closed":true,"lines":[11119],"postal_code":"049-0611","address":"檜山郡上ノ国町字大留","prefecture":1,"id":"462359"}
+[station] code changed
+	old:{"id":"4606c9","code":5000029,"name":"中須田","lon":140.149324,"lat":41.787219,"lines":[50000],"closed":true}
+	new:{"code":1111903,"name":"中須田","lat":41.787214,"lng":140.149321,"closed":true,"lines":[11119],"postal_code":"049-0624","address":"檜山郡上ノ国町字中須田","prefecture":1,"id":"4606c9"}
+[station] code changed
+	old:{"id":"f5d7d2","code":5000030,"name":"桂岡","lon":140.166073,"lat":41.773099,"lines":[50000],"closed":true}
+	new:{"code":1111904,"name":"桂岡","lat":41.773096,"lng":140.166071,"closed":true,"lines":[11119],"postal_code":"049-0626","address":"檜山郡上ノ国町字桂岡","prefecture":1,"id":"f5d7d2"}
+[station] code changed
+	old:{"id":"211167","code":5000031,"name":"宮越","lon":140.184997,"lat":41.762408,"lines":[50000],"closed":true}
+	new:{"code":1111905,"name":"宮越","lat":41.762404,"lng":140.184998,"closed":true,"lines":[11119],"postal_code":"049-0564","address":"檜山郡上ノ国町字早瀬","prefecture":1,"id":"211167"}
+[station] code changed
+	old:{"id":"f3550a","code":5000032,"name":"湯ノ岱","lon":140.243696,"lat":41.750315,"lines":[50000],"closed":true}
+	new:{"code":1111906,"name":"湯ノ岱","lat":41.750312,"lng":140.243698,"closed":true,"lines":[11119],"postal_code":"049-0562","address":"檜山郡上ノ国町字湯ノ岱","prefecture":1,"id":"f3550a"}
+[station] code changed
+	old:{"id":"46bf22","code":5000033,"name":"神明(北海道)","lon":140.265709,"lat":41.73445,"lines":[50000],"closed":true}
+	new:{"code":1111907,"name":"神明(北海道)","lat":41.734481,"lng":140.265709,"closed":true,"lines":[11119],"postal_code":"049-0561","address":"檜山郡上ノ国町字神明","prefecture":1,"id":"46bf22"}
+[station] code changed
+	old:{"id":"f51a2a","code":5000034,"name":"吉堀","lon":140.37923,"lat":41.684062,"lines":[50000],"closed":true}
+	new:{"code":1111908,"name":"吉堀","lat":41.684059,"lng":140.379226,"closed":true,"lines":[11119],"postal_code":"049-0453","address":"上磯郡木古内町字大川","prefecture":1,"id":"f51a2a"}
+[station] code changed
+	old:{"id":"c4c12a","code":5000035,"name":"渡島鶴岡","lon":140.411369,"lat":41.671037,"lines":[50000],"closed":true}
+	new:{"code":1111909,"name":"渡島鶴岡","lat":41.671014,"lng":140.41137,"closed":true,"lines":[11119],"postal_code":"049-0455","address":"上磯郡木古内町字鶴岡","prefecture":1,"id":"c4c12a"}
+[station] code changed
+	old:{"id":"4f0ce8","code":5000036,"name":"知内","lon":140.334947,"lat":41.601097,"lines":[11118],"closed":true}
+	new:{"code":1111805,"name":"知内","lat":41.601092,"lng":140.33494,"closed":true,"lines":[11118],"postal_code":"049-1221","address":"上磯郡知内町湯ノ里","prefecture":1,"id":"4f0ce8"}
+[station] code changed
+	old:{"id":"2f5a87","code":5000037,"name":"竜飛海底","lon":140.347949,"lat":41.257229,"lines":[11118],"closed":true}
+	new:{"code":1111803,"name":"竜飛海底","lat":41.257228,"lng":140.347946,"closed":true,"lines":[11118],"postal_code":"030-1400","address":"東津軽郡外ヶ浜町三厩宇鉄立浜","prefecture":2,"id":"2f5a87"}
+[station] code changed
+	old:{"id":"7b5595","code":5000038,"name":"奥津軽いまべつ","lon":140.51563,"lat":41.144877,"lines":[11118,50039]}
+	new:{"code":101102,"name":"奥津軽いまべつ","lat":41.144877,"lng":140.51563,"lines":[1011,11118],"postal_code":"030-1505","address":"青森県東津軽郡今別町大字大川平清川","prefecture":2,"id":"7b5595"}
+[station] code changed
+	old:{"id":"b47024","code":5000039,"name":"大曲(青森)","lon":141.342861,"lat":40.648216,"lines":[50001],"closed":true}
+	new:{"code":9920402,"name":"大曲(青森)","lat":40.648069,"lng":141.343038,"closed":true,"lines":[99204],"postal_code":"033-0071","address":"上北郡六戸町大字犬落瀬字柳沢９０-２８","prefecture":2,"id":"b47024"}
+[station] code changed
+	old:{"id":"8780df","code":5000040,"name":"柳沢","lon":141.32089,"lat":40.642978,"lines":[50001],"closed":true}
+	new:{"code":9920403,"name":"柳沢","lat":40.642973,"lng":141.320889,"closed":true,"lines":[99204],"postal_code":"033-0071","address":"上北郡六戸町大字犬落瀬字柳沢","prefecture":2,"id":"8780df"}
+[station] code changed
+	old:{"id":"5b78d1","code":5000041,"name":"七百","lon":141.305851,"lat":40.643637,"lines":[50001],"closed":true}
+	new:{"code":9920404,"name":"七百","lat":40.643631,"lng":141.305855,"closed":true,"lines":[99204],"postal_code":"033-0071","address":"上北郡六戸町大字犬落瀬字権現沢１４-６６","prefecture":2,"id":"5b78d1"}
+[station] code changed
+	old:{"id":"df9aea","code":5000042,"name":"古里(青森)","lon":141.284859,"lat":40.638765,"lines":[50001],"closed":true}
+	new:{"code":9920405,"name":"古里(青森)","lat":40.63877,"lng":141.28486,"closed":true,"lines":[99204],"postal_code":"039-2372","address":"上北郡六戸町大字折茂字古里","prefecture":2,"id":"df9aea"}
+[station] code changed
+	old:{"id":"7880b7","code":5000043,"name":"三農校前","lon":141.267245,"lat":40.636863,"lines":[50001],"closed":true}
+	new:{"code":9920406,"name":"三農校前","lat":40.636861,"lng":141.267245,"closed":true,"lines":[99204],"postal_code":"039-2372","address":"上北郡六戸町大字折茂字今熊２４７","prefecture":2,"id":"7880b7"}
+[station] code changed
+	old:{"id":"cd518f","code":5000044,"name":"高清水","lon":141.259048,"lat":40.635005,"lines":[50001],"closed":true}
+	new:{"code":9920407,"name":"高清水","lat":40.635,"lng":141.259046,"closed":true,"lines":[99204],"postal_code":"034-0041","address":"十和田市大字相坂字高清水７７-３","prefecture":2,"id":"cd518f"}
+[station] code changed
+	old:{"id":"6178ce","code":5000045,"name":"北里大学前","lon":141.236837,"lat":40.628672,"lines":[50001],"closed":true}
+	new:{"code":9920408,"name":"北里大学前","lat":40.628666,"lng":141.236837,"closed":true,"lines":[99204],"postal_code":"034-0001","address":"十和田市大字三本木字前谷地","prefecture":2,"id":"6178ce"}
+[station] code changed
+	old:{"id":"5e528f","code":5000046,"name":"工業高校前","lon":141.229259,"lat":40.627342,"lines":[50001],"closed":true}
+	new:{"code":9920409,"name":"工業高校前","lat":40.627338,"lng":141.22926,"closed":true,"lines":[99204],"postal_code":"034-0001","address":"十和田市大字三本木字下平２１５","prefecture":2,"id":"5e528f"}
+[station] code changed
+	old:{"id":"65c62b","code":5000047,"name":"ひがし野団地","lon":141.223716,"lat":40.626627,"lines":[50001],"closed":true}
+	new:{"code":9920410,"name":"ひがし野団地","lat":40.626624,"lng":141.223714,"closed":true,"lines":[99204],"postal_code":"034-0001","address":"十和田市大字三本木字下平６０","prefecture":2,"id":"65c62b"}
+[station] code changed
+	old:{"id":"e11098","code":5000048,"name":"十和田市","lon":141.21406,"lat":40.62375,"lines":[50001],"closed":true}
+	new:{"code":9920411,"name":"十和田市","lat":40.623747,"lng":141.214062,"closed":true,"lines":[99204],"postal_code":"034-0012","address":"十和田市東一番町７-２７","prefecture":2,"id":"e11098"}
+[station] code changed
+	old:{"id":"70fc8e","code":5000049,"name":"西千曳","lon":141.131398,"lat":40.810193,"lines":[50002],"closed":true}
+	new:{"code":9922002,"name":"西千曳","lat":40.810193,"lng":141.131398,"closed":true,"lines":[99220],"prefecture":2,"id":"70fc8e"}
+[station] code changed
+	old:{"id":"63380e","code":5000050,"name":"後平","lon":141.150543,"lat":40.791154,"lines":[50002],"closed":true}
+	new:{"code":9922003,"name":"後平","lat":40.791154,"lng":141.150543,"closed":true,"lines":[99220],"prefecture":2,"id":"63380e"}
+[station] code changed
+	old:{"id":"ecb1c2","code":5000051,"name":"坪","lon":141.14682,"lat":40.77735,"lines":[50002],"closed":true}
+	new:{"code":9922004,"name":"坪","lat":40.77735,"lng":141.14682,"closed":true,"lines":[99220],"prefecture":2,"id":"ecb1c2"}
+[station] code changed
+	old:{"id":"f7b136","code":5000052,"name":"坪川","lon":141.147994,"lat":40.768221,"lines":[50002],"closed":true}
+	new:{"code":9922005,"name":"坪川","lat":40.768221,"lng":141.147994,"closed":true,"lines":[99220],"prefecture":2,"id":"f7b136"}
+[station] code changed
+	old:{"id":"e4ce5f","code":5000053,"name":"道ノ上","lon":141.152704,"lat":40.751259,"lines":[50002],"closed":true}
+	new:{"code":9922006,"name":"道ノ上","lat":40.751259,"lng":141.152704,"closed":true,"lines":[99220],"prefecture":2,"id":"e4ce5f"}
+[station] code changed
+	old:{"id":"881f4d","code":5000054,"name":"天間林","lon":141.157135,"lat":40.743482,"lines":[50002],"closed":true}
+	new:{"code":9922007,"name":"天間林","lat":40.743482,"lng":141.157135,"closed":true,"lines":[99220],"prefecture":2,"id":"881f4d"}
+[station] code changed
+	old:{"id":"2156da","code":5000055,"name":"中野(青森)","lon":141.163632,"lat":40.735203,"lines":[50002],"closed":true}
+	new:{"code":9922008,"name":"中野(青森)","lat":40.735203,"lng":141.163632,"closed":true,"lines":[99220],"prefecture":2,"id":"2156da"}
+[station] code changed
+	old:{"id":"137152","code":5000056,"name":"営農大学校前","lon":141.159019,"lat":40.721156,"lines":[50002],"closed":true}
+	new:{"code":9922009,"name":"営農大学校前","lat":40.721156,"lng":141.159019,"closed":true,"lines":[99220],"prefecture":2,"id":"137152"}
+[station] code changed
+	old:{"id":"ff4bc5","code":5000057,"name":"盛田牧場前","lon":141.168565,"lat":40.71309,"lines":[50002],"closed":true}
+	new:{"code":9922010,"name":"盛田牧場前","lat":40.71309,"lng":141.168565,"closed":true,"lines":[99220],"prefecture":2,"id":"ff4bc5"}
+[station] code changed
+	old:{"id":"bc9d10","code":5000058,"name":"七戸","lon":141.165168,"lat":40.696639,"lines":[50002],"closed":true}
+	new:{"code":9922011,"name":"七戸","lat":40.696639,"lng":141.165168,"closed":true,"lines":[99220],"prefecture":2,"id":"bc9d10"}
+[station] code changed
+	old:{"id":"29226a","code":5000059,"name":"岩手刈屋","lon":141.759301,"lat":39.642691,"lines":[50003],"closed":true}
+	new:{"code":1120702,"name":"岩手刈屋","lat":39.642688,"lng":141.759296,"closed":true,"lines":[11207],"postal_code":"028-2104","address":"宮古市刈屋","prefecture":3,"id":"29226a"}
+[station] code changed
+	old:{"id":"5107e6","code":5000060,"name":"中里(岩手)","lon":141.73607,"lat":39.661839,"lines":[50003],"closed":true}
+	new:{"code":1120703,"name":"中里(岩手)","lat":39.661836,"lng":141.736067,"closed":true,"lines":[11207],"postal_code":"028-2104","address":"宮古市刈屋","prefecture":3,"id":"5107e6"}
+[station] code changed
+	old:{"id":"47e1f4","code":5000061,"name":"岩手和井内","lon":141.715704,"lat":39.679909,"lines":[50003],"closed":true}
+	new:{"code":1120704,"name":"岩手和井内","lat":39.679905,"lng":141.715705,"closed":true,"lines":[11207],"postal_code":"028-2105","address":"宮古市和井内","prefecture":3,"id":"47e1f4"}
+[station] code changed
+	old:{"id":"2039bd","code":5000062,"name":"押角","lon":141.693181,"lat":39.724032,"lines":[50003],"closed":true}
+	new:{"code":1120705,"name":"押角","lat":39.724029,"lng":141.693181,"closed":true,"lines":[11207],"postal_code":"028-2105","address":"宮古市和井内","prefecture":3,"id":"2039bd"}
+[station] code changed
+	old:{"id":"6bb58c","code":5000063,"name":"岩手大川","lon":141.671913,"lat":39.800213,"lines":[50003],"closed":true}
+	new:{"code":1120706,"name":"岩手大川","lat":39.800208,"lng":141.671909,"closed":true,"lines":[11207],"postal_code":"028-2232","address":"下閉伊郡岩泉町大字大川","prefecture":3,"id":"6bb58c"}
+[station] code changed
+	old:{"id":"0a35a6","code":5000064,"name":"浅内","lon":141.727014,"lat":39.819482,"lines":[50003],"closed":true}
+	new:{"code":1120707,"name":"浅内","lat":39.819482,"lng":141.727016,"closed":true,"lines":[11207],"postal_code":"028-2231","address":"下閉伊郡岩泉町大字浅内","prefecture":3,"id":"0a35a6"}
+[station] code changed
+	old:{"id":"aa9f56","code":5000065,"name":"二升石","lon":141.745742,"lat":39.836744,"lines":[50003],"closed":true}
+	new:{"code":1120708,"name":"二升石","lat":39.836739,"lng":141.745741,"closed":true,"lines":[11207],"postal_code":"027-0507","address":"下閉伊郡岩泉町大字二升石","prefecture":3,"id":"aa9f56"}
+[station] code changed
+	old:{"id":"ccbdca","code":5000066,"name":"岩泉","lon":141.786446,"lat":39.845046,"lines":[50003],"closed":true}
+	new:{"code":1120709,"name":"岩泉","lat":39.845044,"lng":141.786446,"closed":true,"lines":[11207],"postal_code":"027-0501","address":"下閉伊郡岩泉町大字岩泉","prefecture":3,"id":"ccbdca"}
+[station] code changed
+	old:{"id":"9f5f3e","code":5000067,"name":"大志田","lon":141.280845,"lat":39.741808,"lines":[11213],"closed":true}
+	new:{"code":1121305,"name":"大志田","lat":39.741806,"lng":141.280843,"closed":true,"lines":[11213],"postal_code":"020-0801","address":"盛岡市浅岸字大志田","prefecture":3,"id":"9f5f3e"}
+[station] code changed
+	old:{"id":"c38bd3","code":5000068,"name":"浅岸","lon":141.339147,"lat":39.711214,"lines":[11213],"closed":true}
+	new:{"code":1121306,"name":"浅岸","lat":39.711208,"lng":141.339147,"closed":true,"lines":[11213],"postal_code":"020-0803","address":"盛岡市新庄字中津川","prefecture":3,"id":"c38bd3"}
+[station] code changed
+	old:{"id":"e5a7ac","code":5000081,"name":"田子倉","lon":139.255139,"lat":37.317874,"lines":[11227],"closed":true}
+	new:{"code":1122729,"name":"田子倉","lat":37.317869,"lng":139.255142,"closed":true,"lines":[11227],"postal_code":"968-0423","address":"南会津郡只見町大字田子倉後山","prefecture":7,"id":"e5a7ac"}
+[station] code changed
+	old:{"id":"a0a94d","code":5000082,"name":"柿ノ木","lon":139.089331,"lat":37.341198,"lines":[11227],"closed":true}
+	new:{"code":1122731,"name":"柿ノ木","lat":37.341195,"lng":139.08933,"closed":true,"lines":[11227],"postal_code":"946-0304","address":"魚沼市穴沢","prefecture":15,"id":"a0a94d"}
+[station] code changed
+	old:{"id":"e8faef","code":5000083,"name":"羽後大森","lon":140.422199,"lat":39.338726,"lines":[50004],"closed":true}
+	new:{"code":9922101,"name":"羽後大森","lat":39.338726,"lng":140.422199,"closed":true,"lines":[99221],"prefecture":5,"id":"e8faef"}
+[station] code changed
+	old:{"id":"6d15fd","code":5000084,"name":"羽後里見","lon":140.449695,"lat":39.280615,"lines":[50004],"closed":true}
+	new:{"code":9922102,"name":"羽後里見","lat":39.280615,"lng":140.449695,"closed":true,"lines":[99221],"prefecture":5,"id":"6d15fd"}
+[station] code changed
+	old:{"id":"dacd82","code":5000085,"name":"羽後山田","lon":140.465031,"lat":39.164725,"lines":[50005],"closed":true}
+	new:{"code":9922201,"name":"羽後山田","lat":39.164725,"lng":140.465031,"closed":true,"lines":[99222],"prefecture":5,"id":"dacd82"}
+[station] code changed
+	old:{"id":"7bdc77","code":5000086,"name":"羽後三輪","lon":140.438087,"lat":39.193722,"lines":[50005],"closed":true}
+	new:{"code":9922202,"name":"羽後三輪","lat":39.193722,"lng":140.438087,"closed":true,"lines":[99222],"prefecture":5,"id":"7bdc77"}
+[station] code changed
+	old:{"id":"78174f","code":5000087,"name":"居切","lon":140.650561,"lat":35.929979,"lines":[50006],"closed":true}
+	new:{"code":9934701,"name":"居切","lat":35.929979,"lng":140.650561,"closed":true,"lines":[99347],"id":"78174f"}
+[station] code changed
+	old:{"id":"8e6472","code":5000088,"name":"鹿島港南","lon":140.691106,"lat":35.878613,"lines":[50006],"closed":true}
+	new:{"code":9934702,"name":"鹿島港南","lat":35.878613,"lng":140.691106,"closed":true,"lines":[99347],"id":"8e6472"}
+[station] code changed
+	old:{"id":"9bfa5d","code":5000089,"name":"武蔵横山","lon":139.301475,"lat":35.652032,"lines":[50007],"closed":true}
+	new:{"code":9934801,"name":"武蔵横山","lat":35.652032,"lng":139.301475,"closed":true,"lines":[99348],"id":"9bfa5d"}
+[station] code changed
+	old:{"id":"ec8861","code":5000090,"name":"多摩御陵前","lon":139.289861,"lat":35.650114,"lines":[50007],"closed":true}
+	new:{"code":9934802,"name":"多摩御陵前","lat":35.650114,"lng":139.289861,"closed":true,"lines":[99348],"id":"ec8861"}
+[station] code changed
+	old:{"id":"985bf0","code":5000091,"name":"中千住","lon":139.804997,"lat":35.745976,"lines":[21002],"closed":true}
+	new:{"code":2100256,"name":"中千住","lat":35.745976,"lng":139.804997,"closed":true,"lines":[21002],"postal_code":"120-0025","address":"東京都足立区千住東１丁目２３","prefecture":13,"id":"985bf0"}
+[station] code changed
+	old:{"id":"3e50cd","code":5000092,"name":"上り屋敷","lon":139.704778,"lat":35.725281,"lines":[22001],"closed":true}
+	new:{"code":2200132,"name":"上り屋敷","lat":35.725281,"lng":139.704778,"closed":true,"lines":[22001],"postal_code":"171-0021","address":"東京都豊島区西池袋２丁目５−６","prefecture":13,"id":"3e50cd"}
+[station] code changed
+	old:{"id":"8f0122","code":5000093,"name":"東国分寺","lon":139.478056,"lat":35.707616,"lines":[22011],"closed":true}
+	new:{"code":2201109,"name":"東国分寺","lat":35.707616,"lng":139.478056,"closed":true,"lines":[22011],"postal_code":"185-0011","address":"東京都国分寺市本多２丁目７−２３","id":"8f0122"}
+[station] code changed
+	old:{"id":"024cd8","code":5000094,"name":"西千住","lon":139.793168,"lat":35.744336,"lines":[23001],"closed":true}
+	new:{"code":2300144,"name":"西千住","lat":35.744336,"lng":139.793168,"closed":true,"lines":[23001],"postal_code":"120-0044","address":"東京都足立区１２ 千住緑町２丁目１５−３","id":"024cd8"}
+[station] code changed
+	old:{"id":"fb774c","code":5000095,"name":"博物館動物園","lon":139.773474,"lat":35.718642,"lines":[23001],"closed":true}
+	new:{"code":2300145,"name":"博物館動物園","lat":35.718642,"lng":139.773474,"closed":true,"lines":[23001],"postal_code":"110-0007","address":"東京都台東区上野公園１３−２３","id":"fb774c"}
+[station] code changed
+	old:{"id":"6d7c2b","code":5000096,"name":"昌平橋","lon":139.768583,"lat":35.698281,"lines":[50008],"closed":true}
+	new:{"code":9934901,"name":"昌平橋","lat":35.698281,"lng":139.768583,"closed":true,"lines":[99349],"id":"6d7c2b"}
+[station] code changed
+	old:{"id":"646f1c","code":5000104,"name":"東屋代","lon":138.132085,"lat":36.542322,"lines":[50010],"closed":true}
+	new:{"code":9940602,"name":"東屋代","lat":36.542321,"lng":138.132084,"closed":true,"lines":[99406],"postal_code":"387-0007","address":"千曲市屋代郷津７７８-４","prefecture":20,"id":"646f1c"}
+[station] code changed
+	old:{"id":"7e11cc","code":5000105,"name":"雨宮","lon":138.14809,"lat":36.548869,"lines":[50010],"closed":true}
+	new:{"code":9940603,"name":"雨宮","lat":36.548865,"lng":138.14809,"closed":true,"lines":[99406],"postal_code":"387-0001","address":"千曲市雨宮７６３-２","prefecture":20,"id":"7e11cc"}
+[station] code changed
+	old:{"id":"97acac","code":5000106,"name":"岩野","lon":138.162879,"lat":36.560633,"lines":[50010],"closed":true}
+	new:{"code":9940604,"name":"岩野","lat":36.560628,"lng":138.162877,"closed":true,"lines":[99406],"postal_code":"381-1234","address":"長野市松代町岩野山裏１８-２","prefecture":20,"id":"97acac"}
+[station] code changed
+	old:{"id":"9dda29","code":5000107,"name":"象山口","lon":138.188599,"lat":36.561214,"lines":[50010],"closed":true}
+	new:{"code":9940605,"name":"象山口","lat":36.561209,"lng":138.188596,"closed":true,"lines":[99406],"postal_code":"381-1233","address":"長野市松代町清野河原新田２０４１","prefecture":20,"id":"9dda29"}
+[station] code changed
+	old:{"id":"41c258","code":5000108,"name":"松代","lon":138.198086,"lat":36.565878,"lines":[50010],"closed":true}
+	new:{"code":9940606,"name":"松代","lat":36.565876,"lng":138.198083,"closed":true,"lines":[99406],"postal_code":"381-0000","address":"長野市松代町殿町７０","prefecture":20,"id":"41c258"}
+[station] code changed
+	old:{"id":"dbc56f","code":5000109,"name":"金井山","lon":138.201443,"lat":36.591284,"lines":[50010],"closed":true}
+	new:{"code":9940607,"name":"金井山","lat":36.591282,"lng":138.201443,"closed":true,"lines":[99406],"postal_code":"381-1214","address":"長野市松代町柴新引４６２-２","prefecture":20,"id":"dbc56f"}
+[station] code changed
+	old:{"id":"eaf747","code":5000110,"name":"大室","lon":138.223692,"lat":36.601026,"lines":[50010],"closed":true}
+	new:{"code":9940608,"name":"大室","lat":36.601024,"lng":138.223692,"closed":true,"lines":[99406],"postal_code":"381-1211","address":"長野市松代町大室村北７２５-１","prefecture":20,"id":"eaf747"}
+[station] code changed
+	old:{"id":"1bdda2","code":5000111,"name":"信濃川田","lon":138.238509,"lat":36.605489,"lines":[50010],"closed":true}
+	new:{"code":9940609,"name":"信濃川田","lat":36.605488,"lng":138.238512,"closed":true,"lines":[99406],"postal_code":"381-0103","address":"長野市若穂川田町下３１８０-２","prefecture":20,"id":"1bdda2"}
+[station] code changed
+	old:{"id":"84abb8","code":5000112,"name":"若穂","lon":138.252938,"lat":36.610782,"lines":[50010],"closed":true}
+	new:{"code":9940610,"name":"若穂","lat":36.610779,"lng":138.252938,"closed":true,"lines":[99406],"postal_code":"381-0101","address":"長野市若穂綿内田中７４８５","prefecture":20,"id":"84abb8"}
+[station] code changed
+	old:{"id":"0aefa0","code":5000113,"name":"綿内","lon":138.259611,"lat":36.625078,"lines":[50010],"closed":true}
+	new:{"code":9940611,"name":"綿内","lat":36.625075,"lng":138.25961,"closed":true,"lines":[99406],"postal_code":"381-0101","address":"長野市若穂綿内高野６４７２-２","prefecture":20,"id":"0aefa0"}
+[station] code changed
+	old:{"id":"212fd5","code":5000114,"name":"井上","lon":138.280755,"lat":36.638377,"lines":[50010],"closed":true}
+	new:{"code":9940612,"name":"井上","lat":36.638376,"lng":138.280758,"closed":true,"lines":[99406],"postal_code":"382-0045","address":"須坂市井上双六１７４０-４","prefecture":20,"id":"212fd5"}
+[station] code changed
+	old:{"id":"68654d","code":5000115,"name":"東鯖江","lon":136.188614,"lat":35.947308,"lines":[50011],"closed":true}
+	new:{"code":9942802,"name":"東鯖江","lat":35.947308,"lng":136.188614,"closed":true,"lines":[99428],"prefecture":18,"id":"68654d"}
+[station] code changed
+	old:{"id":"57ea27","code":5000116,"name":"越前平井","lon":136.164614,"lat":35.96167,"lines":[50011],"closed":true}
+	new:{"code":9942803,"name":"越前平井","lat":35.96167,"lng":136.164614,"closed":true,"lines":[99428],"prefecture":18,"id":"57ea27"}
+[station] code changed
+	old:{"id":"06b76e","code":5000117,"name":"川去","lon":136.145974,"lat":35.963087,"lines":[50011],"closed":true}
+	new:{"code":9942804,"name":"川去","lat":35.963087,"lng":136.145974,"closed":true,"lines":[99428],"prefecture":18,"id":"06b76e"}
+[station] code changed
+	old:{"id":"9f06b3","code":5000118,"name":"西田中","lon":136.131085,"lat":35.972585,"lines":[50011],"closed":true}
+	new:{"code":9942805,"name":"西田中","lat":35.972585,"lng":136.131085,"closed":true,"lines":[99428],"prefecture":18,"id":"9f06b3"}
+[station] code changed
+	old:{"id":"19ea22","code":5000119,"name":"佐々生","lon":136.12125,"lat":35.954142,"lines":[50011],"closed":true}
+	new:{"code":9942806,"name":"佐々生","lat":35.954142,"lng":136.12125,"closed":true,"lines":[99428],"prefecture":18,"id":"19ea22"}
+[station] code changed
+	old:{"id":"598078","code":5000120,"name":"陶の谷","lon":136.113638,"lat":35.938531,"lines":[50011],"closed":true}
+	new:{"code":9942807,"name":"陶の谷","lat":35.938531,"lng":136.113638,"closed":true,"lines":[99428],"prefecture":18,"id":"598078"}
+[station] code changed
+	old:{"id":"c19bb0","code":5000121,"name":"樫津","lon":136.087252,"lat":35.941003,"lines":[50011],"closed":true}
+	new:{"code":9942809,"name":"樫津","lat":35.941003,"lng":136.087252,"closed":true,"lines":[99428],"prefecture":18,"id":"c19bb0"}
+[station] code changed
+	old:{"id":"726303","code":5000122,"name":"下江波","lon":136.074583,"lat":35.941837,"lines":[50011],"closed":true}
+	new:{"code":9942810,"name":"下江波","lat":35.941837,"lng":136.074583,"closed":true,"lines":[99428],"prefecture":18,"id":"726303"}
+[station] code changed
+	old:{"id":"1ee9ae","code":5000123,"name":"江波(福井)","lon":136.063943,"lat":35.939474,"lines":[50011],"closed":true}
+	new:{"code":9942811,"name":"江波(福井)","lat":35.939474,"lng":136.063943,"closed":true,"lines":[99428],"prefecture":18,"id":"1ee9ae"}
+[station] code changed
+	old:{"id":"7f1e2a","code":5000124,"name":"矢倉(福井)","lon":136.059445,"lat":35.949145,"lines":[50011],"closed":true}
+	new:{"code":9942812,"name":"矢倉(福井)","lat":35.949145,"lng":136.059445,"closed":true,"lines":[99428],"prefecture":18,"id":"7f1e2a"}
+[station] code changed
+	old:{"id":"10bb42","code":5000125,"name":"織田","lon":136.058806,"lat":35.958557,"lines":[50011],"closed":true}
+	new:{"code":9942813,"name":"織田","lat":35.958557,"lng":136.058806,"closed":true,"lines":[99428],"prefecture":18,"id":"10bb42"}
+[station] code changed
+	old:{"id":"6ae152","code":5000126,"name":"福知山西","lon":135.117472,"lat":35.30353,"lines":[50012],"closed":true}
+	new:{"code":9965602,"name":"福知山西","lat":35.30353,"lng":135.117472,"closed":true,"lines":[99656],"prefecture":26,"id":"6ae152"}
+[station] code changed
+	old:{"id":"870620","code":5000127,"name":"下川停留所","lon":135.109777,"lat":35.33005,"lines":[50012],"closed":true}
+	new:{"code":9965603,"name":"下川停留所","lat":35.33005,"lng":135.109777,"closed":true,"lines":[99656],"prefecture":26,"id":"870620"}
+[station] code changed
+	old:{"id":"bf753c","code":5000128,"name":"上天津","lon":135.108142,"lat":35.340338,"lines":[50012],"closed":true}
+	new:{"code":9965604,"name":"上天津","lat":35.340338,"lng":135.108142,"closed":true,"lines":[99656],"prefecture":26,"id":"bf753c"}
+[station] code changed
+	old:{"id":"06941f","code":5000129,"name":"下天津(北丹鉄道)","lon":135.113303,"lat":35.357476,"lines":[50012],"closed":true}
+	new:{"code":9965605,"name":"下天津(北丹鉄道)","lat":35.357476,"lng":135.113303,"closed":true,"lines":[99656],"prefecture":26,"id":"06941f"}
+[station] code changed
+	old:{"id":"80f3a6","code":5000130,"name":"公庄(北丹鉄道)","lon":135.127947,"lat":35.371558,"lines":[50012],"closed":true}
+	new:{"code":9965606,"name":"公庄(北丹鉄道)","lat":35.371558,"lng":135.127947,"closed":true,"lines":[99656],"prefecture":26,"id":"80f3a6"}
+[station] code changed
+	old:{"id":"79ad65","code":5000131,"name":"蓼原停留所","lon":135.141279,"lat":35.383145,"lines":[50012],"closed":true}
+	new:{"code":9965607,"name":"蓼原停留所","lat":35.383145,"lng":135.141279,"closed":true,"lines":[99656],"prefecture":26,"id":"79ad65"}
+[station] code changed
+	old:{"id":"408de5","code":5000132,"name":"河守","lon":135.146445,"lat":35.389004,"lines":[50012],"closed":true}
+	new:{"code":9965608,"name":"河守","lat":35.389004,"lng":135.146445,"closed":true,"lines":[99656],"prefecture":26,"id":"408de5"}
+[station] code changed
+	old:{"id":"c9912d","code":5000133,"name":"住吉公園","lon":135.490543,"lat":34.61309,"lines":[99628],"closed":true}
+	new:{"code":9962811,"name":"住吉公園","lat":34.613086,"lng":135.490541,"closed":true,"lines":[99628],"postal_code":"558-0044","address":"大阪市住吉区長峡町１００","prefecture":27,"id":"c9912d"}
+[station] code changed
+	old:{"id":"8491b6","code":5000134,"name":"国包","lon":134.916602,"lat":34.7974,"lines":[50013],"closed":true}
+	new:{"code":9964202,"name":"国包","lat":34.797308,"lng":134.916603,"closed":true,"lines":[99642],"postal_code":"675-1213","address":"兵庫県加古川市上荘町国包","prefecture":28,"id":"8491b6"}
+[station] code changed
+	old:{"id":"760326","code":5000135,"name":"宗佐","lon":134.922513,"lat":34.798177,"lines":[50013],"closed":true}
+	new:{"code":9964203,"name":"宗佐","lat":34.798144,"lng":134.922306,"closed":true,"lines":[99642],"postal_code":"675-1201","address":"兵庫県加古川市八幡町宗佐","prefecture":28,"id":"760326"}
+[station] code changed
+	old:{"id":"69e6a0","code":5000136,"name":"下石野","lon":134.927631,"lat":34.797072,"lines":[50013],"closed":true}
+	new:{"code":9964204,"name":"下石野","lat":34.796847,"lng":134.928097,"closed":true,"lines":[99642],"postal_code":"673-0453","address":"兵庫県三木市別所町下石野1丁目","prefecture":28,"id":"69e6a0"}
+[station] code changed
+	old:{"id":"f0c4a0","code":5000137,"name":"石野","lon":134.933939,"lat":34.794963,"lines":[50013],"closed":true}
+	new:{"code":9964205,"name":"石野","lat":34.795014,"lng":134.933785,"closed":true,"lines":[99642],"postal_code":"673-0453","address":"兵庫県三木市別所町下石野3丁目","prefecture":28,"id":"f0c4a0"}
+[station] code changed
+	old:{"id":"901b13","code":5000138,"name":"西這田","lon":134.951751,"lat":34.79503,"lines":[50013],"closed":true}
+	new:{"code":9964206,"name":"西這田","lat":34.794975,"lng":134.951328,"closed":true,"lines":[99642],"postal_code":"673-0445","address":"兵庫県三木市別所町西這田1丁目","prefecture":28,"id":"901b13"}
+[station] code changed
+	old:{"id":"ec0659","code":5000139,"name":"別所","lon":134.96335,"lat":34.794464,"lines":[50013],"closed":true}
+	new:{"code":9964207,"name":"別所","lat":34.794497,"lng":134.963191,"closed":true,"lines":[99642],"postal_code":"673-0444","address":"兵庫県三木市別所町東這田","prefecture":28,"id":"ec0659"}
+[station] code changed
+	old:{"id":"1198aa","code":5000140,"name":"高木(兵庫)","lon":134.970382,"lat":34.793671,"lines":[50013],"closed":true}
+	new:{"code":9964208,"name":"高木(兵庫)","lat":34.793569,"lng":134.970599,"closed":true,"lines":[99642],"postal_code":"673-0435","address":"兵庫県三木市別所町高木","prefecture":28,"id":"1198aa"}
+[station] code changed
+	old:{"id":"e5e12c","code":5000141,"name":"三木(三木鉄道)","lon":134.977477,"lat":34.794675,"lines":[50013],"closed":true}
+	new:{"code":9964209,"name":"三木(三木鉄道)","lat":34.794616,"lng":134.977604,"closed":true,"lines":[99642],"postal_code":"673-0403","address":"兵庫県三木市末広一丁目1-35","prefecture":28,"id":"e5e12c"}
+[station] code changed
+	old:{"id":"13d086","code":5000142,"name":"上灘","lon":133.841487,"lat":35.439611,"lines":[50014],"closed":true}
+	new:{"code":1172502,"name":"上灘","lat":35.439611,"lng":133.841487,"closed":true,"lines":[11725],"prefecture":31,"id":"13d086"}
+[station] code changed
+	old:{"id":"f3554c","code":5000143,"name":"打吹","lon":133.824402,"lat":35.434461,"lines":[50014],"closed":true}
+	new:{"code":1172503,"name":"打吹","lat":35.434461,"lng":133.824402,"closed":true,"lines":[11725],"prefecture":31,"id":"f3554c"}
+[station] code changed
+	old:{"id":"14521c","code":5000144,"name":"西倉吉","lon":133.804767,"lat":35.427214,"lines":[50014],"closed":true}
+	new:{"code":1172504,"name":"西倉吉","lat":35.427214,"lng":133.804767,"closed":true,"lines":[11725],"prefecture":31,"id":"14521c"}
+[station] code changed
+	old:{"id":"ecd2da","code":5000145,"name":"小鴨","lon":133.799347,"lat":35.410146,"lines":[50014],"closed":true}
+	new:{"code":1172505,"name":"小鴨","lat":35.410146,"lng":133.799347,"closed":true,"lines":[11725],"prefecture":31,"id":"ecd2da"}
+[station] code changed
+	old:{"id":"adfa73","code":5000146,"name":"上小鴨","lon":133.786679,"lat":35.398166,"lines":[50014],"closed":true}
+	new:{"code":1172506,"name":"上小鴨","lat":35.398166,"lng":133.786679,"closed":true,"lines":[11725],"prefecture":31,"id":"adfa73"}
+[station] code changed
+	old:{"id":"96bcab","code":5000147,"name":"関金","lon":133.75555,"lat":35.370777,"lines":[50014],"closed":true}
+	new:{"code":1172507,"name":"関金","lat":35.370777,"lng":133.75555,"closed":true,"lines":[11725],"prefecture":31,"id":"96bcab"}
+[station] code changed
+	old:{"id":"491ba8","code":5000148,"name":"泰久寺","lon":133.724149,"lat":35.366096,"lines":[50014],"closed":true}
+	new:{"code":1172508,"name":"泰久寺","lat":35.366096,"lng":133.724149,"closed":true,"lines":[11725],"prefecture":31,"id":"491ba8"}
+[station] code changed
+	old:{"id":"9dfb9c","code":5000149,"name":"山守","lon":133.709263,"lat":35.360684,"lines":[50014],"closed":true}
+	new:{"code":1172509,"name":"山守","lat":35.360684,"lng":133.709263,"closed":true,"lines":[11725],"prefecture":31,"id":"9dfb9c"}
+[station] code changed
+	old:{"id":"be42a8","code":5000150,"name":"下津井","lon":133.789556,"lat":34.439004,"lines":[50015],"closed":true}
+	new:{"code":9971901,"name":"下津井","lat":34.439004,"lng":133.789556,"closed":true,"lines":[99719],"prefecture":33,"id":"be42a8"}
+[station] code changed
+	old:{"id":"0a37a1","code":5000151,"name":"東下津井","lon":133.802223,"lat":34.441532,"lines":[50015],"closed":true}
+	new:{"code":9971902,"name":"東下津井","lat":34.441532,"lng":133.802223,"closed":true,"lines":[99719],"prefecture":33,"id":"0a37a1"}
+[station] code changed
+	old:{"id":"e2a5ab","code":5000152,"name":"鷲羽山","lon":133.806559,"lat":34.440034,"lines":[50015],"closed":true}
+	new:{"code":9971903,"name":"鷲羽山","lat":34.440034,"lng":133.806559,"closed":true,"lines":[99719],"prefecture":33,"id":"e2a5ab"}
+[station] code changed
+	old:{"id":"660b85","code":5000153,"name":"琴海","lon":133.808254,"lat":34.447828,"lines":[50015],"closed":true}
+	new:{"code":9971904,"name":"琴海","lat":34.447828,"lng":133.808254,"closed":true,"lines":[99719],"prefecture":33,"id":"660b85"}
+[station] code changed
+	old:{"id":"a95eb7","code":5000154,"name":"阿津","lon":133.803697,"lat":34.455464,"lines":[50015],"closed":true}
+	new:{"code":9971905,"name":"阿津","lat":34.455464,"lng":133.803697,"closed":true,"lines":[99719],"prefecture":33,"id":"a95eb7"}
+[station] code changed
+	old:{"id":"7e7ac5","code":5000155,"name":"備前赤崎","lon":133.799838,"lat":34.458761,"lines":[50015],"closed":true}
+	new:{"code":9971906,"name":"備前赤崎","lat":34.458761,"lng":133.799838,"closed":true,"lines":[99719],"prefecture":33,"id":"7e7ac5"}
+[station] code changed
+	old:{"id":"653f4b","code":5000156,"name":"児島(下津井電鉄)","lon":133.802171,"lat":34.4672,"lines":[50015],"closed":true}
+	new:{"code":9971907,"name":"児島(下津井電鉄)","lat":34.4672,"lng":133.802171,"closed":true,"lines":[99719],"prefecture":33,"id":"653f4b"}
+[station] code changed
+	old:{"id":"afc007","code":5000157,"name":"児島小川","lon":133.799912,"lat":34.481002,"lines":[50015],"closed":true}
+	new:{"code":9971908,"name":"児島小川","lat":34.481002,"lng":133.799912,"closed":true,"lines":[99719],"prefecture":33,"id":"afc007"}
+[station] code changed
+	old:{"id":"584a28","code":5000158,"name":"柳田(岡山)","lon":133.798701,"lat":34.488197,"lines":[50015],"closed":true}
+	new:{"code":9971909,"name":"柳田(岡山)","lat":34.488197,"lng":133.798701,"closed":true,"lines":[99719],"prefecture":33,"id":"584a28"}
+[station] code changed
+	old:{"id":"3c4937","code":5000159,"name":"稗田","lon":133.804301,"lat":34.499198,"lines":[50015],"closed":true}
+	new:{"code":9971910,"name":"稗田","lat":34.499198,"lng":133.804301,"closed":true,"lines":[99719],"prefecture":33,"id":"3c4937"}
+[station] code changed
+	old:{"id":"fcc226","code":5000160,"name":"福田","lon":133.797964,"lat":34.527062,"lines":[50015],"closed":true}
+	new:{"code":9971911,"name":"福田","lat":34.527062,"lng":133.797964,"closed":true,"lines":[99719],"prefecture":33,"id":"fcc226"}
+[station] code changed
+	old:{"id":"4b7a8c","code":5000161,"name":"林(岡山)","lon":133.814748,"lat":34.542705,"lines":[50015],"closed":true}
+	new:{"code":9971912,"name":"林(岡山)","lat":34.542705,"lng":133.814748,"closed":true,"lines":[99719],"prefecture":33,"id":"4b7a8c"}
+[station] code changed
+	old:{"id":"12fcb3","code":5000162,"name":"藤戸","lon":133.819731,"lat":34.557524,"lines":[50015],"closed":true}
+	new:{"code":9971913,"name":"藤戸","lat":34.557524,"lng":133.819731,"closed":true,"lines":[99719],"prefecture":33,"id":"12fcb3"}
+[station] code changed
+	old:{"id":"c21438","code":5000163,"name":"天城","lon":133.816706,"lat":34.562227,"lines":[50015],"closed":true}
+	new:{"code":9971914,"name":"天城","lat":34.562227,"lng":133.816706,"closed":true,"lines":[99719],"prefecture":33,"id":"c21438"}
+[station] code changed
+	old:{"id":"ea3d58","code":5000164,"name":"犬伏","lon":134.452139,"lat":34.141029,"lines":[50016],"closed":true}
+	new:{"code":1180902,"name":"犬伏","lat":34.141029,"lng":134.452139,"closed":true,"lines":[11809],"prefecture":36,"id":"ea3d58"}
+[station] code changed
+	old:{"id":"b09af5","code":5000165,"name":"羅漢","lon":134.433087,"lat":34.134115,"lines":[50016],"closed":true}
+	new:{"code":1180903,"name":"羅漢","lat":34.134115,"lng":134.433087,"closed":true,"lines":[11809],"prefecture":36,"id":"b09af5"}
+[station] code changed
+	old:{"id":"775b04","code":5000166,"name":"神宅","lon":134.415028,"lat":34.130807,"lines":[50016],"closed":true}
+	new:{"code":1180904,"name":"神宅","lat":34.130807,"lng":134.415028,"closed":true,"lines":[11809],"prefecture":36,"id":"775b04"}
+[station] code changed
+	old:{"id":"4e684d","code":5000167,"name":"鍛冶屋原","lon":134.400474,"lat":34.119559,"lines":[50016],"closed":true}
+	new:{"code":1180905,"name":"鍛冶屋原","lat":34.119559,"lng":134.400474,"closed":true,"lines":[11809],"prefecture":36,"id":"4e684d"}
+[station] code changed
+	old:{"id":"0dcea2","code":5000168,"name":"伊予立花","lon":132.773326,"lat":33.82756,"lines":[50017],"closed":true}
+	new:{"code":9981301,"name":"伊予立花","lat":33.82756,"lng":132.773326,"closed":true,"lines":[99813],"prefecture":38,"id":"0dcea2"}
+[station] code changed
+	old:{"id":"931938","code":5000169,"name":"石井(愛媛)","lon":132.780255,"lat":33.80928,"lines":[50017],"closed":true}
+	new:{"code":9981302,"name":"石井(愛媛)","lat":33.80928,"lng":132.780255,"closed":true,"lines":[99813],"prefecture":38,"id":"931938"}
+[station] code changed
+	old:{"id":"bb1ee1","code":5000170,"name":"森松","lon":132.788892,"lat":33.790419,"lines":[50017],"closed":true}
+	new:{"code":9981303,"name":"森松","lat":33.790419,"lng":132.788892,"closed":true,"lines":[99813],"prefecture":38,"id":"bb1ee1"}
+[station] code changed
+	old:{"id":"2c592d","code":5000171,"name":"御手洗","lon":130.451582,"lat":33.606696,"lines":[50018],"closed":true}
+	new:{"code":1193102,"name":"御手洗","lat":33.606696,"lng":130.451582,"closed":true,"lines":[11931],"prefecture":40,"id":"2c592d"}
+[station] code changed
+	old:{"id":"ec14f1","code":5000172,"name":"上亀山","lon":130.459642,"lat":33.602196,"lines":[50018],"closed":true}
+	new:{"code":1193103,"name":"上亀山","lat":33.602196,"lng":130.459642,"closed":true,"lines":[11931],"prefecture":40,"id":"ec14f1"}
+[station] code changed
+	old:{"id":"53ba29","code":5000173,"name":"志免","lon":130.483917,"lat":33.590614,"lines":[50018],"closed":true}
+	new:{"code":1193104,"name":"志免","lat":33.590614,"lng":130.483917,"closed":true,"lines":[11931],"prefecture":40,"id":"53ba29"}
+[station] code changed
+	old:{"id":"e81c05","code":5000174,"name":"下宇美","lon":130.506139,"lat":33.572974,"lines":[50018],"closed":true}
+	new:{"code":1193105,"name":"下宇美","lat":33.572974,"lng":130.506139,"closed":true,"lines":[11931],"prefecture":40,"id":"e81c05"}
+[station] code changed
+	old:{"id":"820dec","code":5000175,"name":"筑前勝田","lon":130.528475,"lat":33.555198,"lines":[50018],"closed":true}
+	new:{"code":1193107,"name":"筑前勝田","lat":33.555198,"lng":130.528475,"closed":true,"lines":[11931],"prefecture":40,"id":"820dec"}
+[station] code changed
+	old:{"id":"e4ff2d","code":5000176,"name":"薩摩白浜","lon":130.32264,"lat":31.855948,"lines":[50019],"closed":true}
+	new:{"code":1193202,"name":"薩摩白浜","lat":31.855948,"lng":130.32264,"closed":true,"lines":[11932],"prefecture":46,"id":"e4ff2d"}
+[station] code changed
+	old:{"id":"7dc9fc","code":5000177,"name":"楠元","lon":130.336167,"lat":31.860642,"lines":[50019],"closed":true}
+	new:{"code":1193203,"name":"楠元","lat":31.860642,"lng":130.336167,"closed":true,"lines":[11932],"prefecture":46,"id":"7dc9fc"}
+[station] code changed
+	old:{"id":"3f5e1e","code":5000178,"name":"吉野山","lon":130.360001,"lat":31.838059,"lines":[50019],"closed":true}
+	new:{"code":1193204,"name":"吉野山","lat":31.838059,"lng":130.360001,"closed":true,"lines":[11932],"prefecture":46,"id":"3f5e1e"}
+[station] code changed
+	old:{"id":"bdf645","code":5000179,"name":"樋脇","lon":130.380863,"lat":31.82003,"lines":[50019],"closed":true}
+	new:{"code":1193205,"name":"樋脇","lat":31.82003,"lng":130.380863,"closed":true,"lines":[11932],"prefecture":46,"id":"bdf645"}
+[station] code changed
+	old:{"id":"c0918b","code":5000180,"name":"上樋脇","lon":130.402114,"lat":31.825364,"lines":[50019],"closed":true}
+	new:{"code":1193206,"name":"上樋脇","lat":31.825364,"lng":130.402114,"closed":true,"lines":[11932],"prefecture":46,"id":"c0918b"}
+[station] code changed
+	old:{"id":"01ba9c","code":5000181,"name":"入来","lon":130.429945,"lat":31.822669,"lines":[50019],"closed":true}
+	new:{"code":1193207,"name":"入来","lat":31.822669,"lng":130.429945,"closed":true,"lines":[11932],"prefecture":46,"id":"01ba9c"}
+[station] code changed
+	old:{"id":"6f9b44","code":5000182,"name":"薩摩山崎","lon":130.450556,"lat":31.85802,"lines":[50019],"closed":true}
+	new:{"code":1193208,"name":"薩摩山崎","lat":31.85802,"lng":130.450556,"closed":true,"lines":[11932],"prefecture":46,"id":"6f9b44"}
+[station] code changed
+	old:{"id":"b4e30e","code":5000183,"name":"船木","lon":130.45067,"lat":31.882169,"lines":[50019],"closed":true}
+	new:{"code":1193209,"name":"船木","lat":31.882169,"lng":130.45067,"closed":true,"lines":[11932],"prefecture":46,"id":"b4e30e"}
+[station] code changed
+	old:{"id":"932a43","code":5000184,"name":"宮之城","lon":130.456916,"lat":31.905365,"lines":[50019],"closed":true}
+	new:{"code":1193210,"name":"宮之城","lat":31.905365,"lng":130.456916,"closed":true,"lines":[11932],"prefecture":46,"id":"932a43"}
+[station] code changed
+	old:{"id":"4063fd","code":5000185,"name":"佐志","lon":130.483557,"lat":31.918751,"lines":[50019],"closed":true}
+	new:{"code":1193211,"name":"佐志","lat":31.918751,"lng":130.483557,"closed":true,"lines":[11932],"prefecture":46,"id":"4063fd"}
+[station] code changed
+	old:{"id":"15536d","code":5000186,"name":"薩摩湯田","lon":130.473301,"lat":31.931835,"lines":[50019],"closed":true}
+	new:{"code":1193212,"name":"薩摩湯田","lat":31.931835,"lng":130.473301,"closed":true,"lines":[11932],"prefecture":46,"id":"15536d"}
+[station] code changed
+	old:{"id":"038776","code":5000187,"name":"薩摩鶴田","lon":130.493111,"lat":31.942835,"lines":[50019],"closed":true}
+	new:{"code":1193213,"name":"薩摩鶴田","lat":31.942835,"lng":130.493111,"closed":true,"lines":[11932],"prefecture":46,"id":"038776"}
+[station] code changed
+	old:{"id":"fc6715","code":5000188,"name":"薩摩求名","lon":130.526714,"lat":31.935201,"lines":[50019],"closed":true}
+	new:{"code":1193214,"name":"薩摩求名","lat":31.935201,"lng":130.526714,"closed":true,"lines":[11932],"prefecture":46,"id":"fc6715"}
+[station] code changed
+	old:{"id":"c096eb","code":5000189,"name":"広橋","lon":130.54411,"lat":31.923807,"lines":[50019],"closed":true}
+	new:{"code":1193215,"name":"広橋","lat":31.923807,"lng":130.54411,"closed":true,"lines":[11932],"prefecture":46,"id":"c096eb"}
+[station] code changed
+	old:{"id":"2ac031","code":5000190,"name":"薩摩永野","lon":130.588251,"lat":31.924754,"lines":[50019],"closed":true}
+	new:{"code":1193216,"name":"薩摩永野","lat":31.924754,"lng":130.588251,"closed":true,"lines":[11932],"prefecture":46,"id":"2ac031"}
+[station] code changed
+	old:{"id":"244feb","code":5000191,"name":"針持","lon":130.580834,"lat":31.97978,"lines":[50019],"closed":true}
+	new:{"code":1193217,"name":"針持","lat":31.97978,"lng":130.580834,"closed":true,"lines":[11932],"prefecture":46,"id":"244feb"}
+[station] code changed
+	old:{"id":"9f9e1f","code":5000192,"name":"西太良","lon":130.603723,"lat":32.008027,"lines":[50019],"closed":true}
+	new:{"code":1193218,"name":"西太良","lat":32.008027,"lng":130.603723,"closed":true,"lines":[11932],"prefecture":46,"id":"9f9e1f"}
+[station] code changed
+	old:{"id":"6dd9ff","code":5000193,"name":"羽月","lon":130.596582,"lat":32.032029,"lines":[50019],"closed":true}
+	new:{"code":1193219,"name":"羽月","lat":32.032029,"lng":130.596582,"closed":true,"lines":[11932],"prefecture":46,"id":"6dd9ff"}
+[station] code changed
+	old:{"id":"6e3bf4","code":5000194,"name":"薩摩大口","lon":130.609029,"lat":32.060977,"lines":[50019],"closed":true}
+	new:{"code":1193220,"name":"薩摩大口","lat":32.060977,"lng":130.609029,"closed":true,"lines":[11932],"prefecture":46,"id":"6e3bf4"}
+[station] code changed
+	old:{"id":"110b39","code":5000195,"name":"嘉手納","lon":127.755192,"lat":26.362752,"lines":[50020],"closed":true}
+	new:{"code":9992901,"name":"嘉手納","lat":26.362752,"lng":127.755192,"closed":true,"lines":[99929],"prefecture":47,"id":"110b39"}
+[station] code changed
+	old:{"id":"a22697","code":5000196,"name":"城間","lon":127.710279,"lat":26.258114,"lines":[50020],"closed":true}
+	new:{"code":9992902,"name":"城間","lat":26.258114,"lng":127.710279,"closed":true,"lines":[99929],"prefecture":47,"id":"a22697"}
+[station] code changed
+	old:{"id":"c95ebb","code":5000197,"name":"与儀","lon":127.691919,"lat":26.208863,"lines":[50020],"closed":true}
+	new:{"code":9992903,"name":"与儀","lat":26.208863,"lng":127.691919,"closed":true,"lines":[99929],"prefecture":47,"id":"c95ebb"}
+[station] code changed
+	old:{"id":"5aa93f","code":5000198,"name":"江津本町","lon":132.230266,"lat":35.007212,"lines":[50021],"closed":true}
+	new:{"code":1170702,"name":"江津本町","lat":35.007212,"lng":132.230266,"closed":true,"lines":[11707],"postal_code":"695-0011","address":"江津市江津町","prefecture":32,"id":"5aa93f"}
+[station] code changed
+	old:{"id":"745f1b","code":5000199,"name":"千金","lon":132.249822,"lat":35.001635,"lines":[50021],"closed":true}
+	new:{"code":1170703,"name":"千金","lat":35.001635,"lng":132.249822,"closed":true,"lines":[11707],"postal_code":"695-0012","address":"江津市金田町","prefecture":32,"id":"745f1b"}
+[station] code changed
+	old:{"id":"cc6dc2","code":5000200,"name":"川平","lon":132.284411,"lat":34.996969,"lines":[50021],"closed":true}
+	new:{"code":1170704,"name":"川平","lat":34.996969,"lng":132.284411,"closed":true,"lines":[11707],"postal_code":"695-0013","address":"江津市川平町大字南川上","prefecture":32,"id":"cc6dc2"}
+[station] code changed
+	old:{"id":"03febb","code":5000201,"name":"川戸","lon":132.333583,"lat":34.959735,"lines":[50021],"closed":true}
+	new:{"code":1170705,"name":"川戸","lat":34.959735,"lng":132.333583,"closed":true,"lines":[11707],"postal_code":"699-4226","address":"江津市桜江町川戸","prefecture":32,"id":"03febb"}
+[station] code changed
+	old:{"id":"42838c","code":5000202,"name":"田津","lon":132.384492,"lat":34.951875,"lines":[50021],"closed":true}
+	new:{"code":1170706,"name":"田津","lat":34.951875,"lng":132.384492,"closed":true,"lines":[11707],"postal_code":"699-4503","address":"江津市桜江町田津","prefecture":32,"id":"42838c"}
+[station] code changed
+	old:{"id":"ed6201","code":5000203,"name":"石見川越","lon":132.4154,"lat":34.950276,"lines":[50021],"closed":true}
+	new:{"code":1170707,"name":"石見川越","lat":34.950276,"lng":132.4154,"closed":true,"lines":[11707],"postal_code":"699-4502","address":"江津市桜江町川越","prefecture":32,"id":"ed6201"}
+[station] code changed
+	old:{"id":"1adc4c","code":5000204,"name":"鹿賀","lon":132.445753,"lat":34.962967,"lines":[50021],"closed":true}
+	new:{"code":1170708,"name":"鹿賀","lat":34.962967,"lng":132.445753,"closed":true,"lines":[11707],"postal_code":"699-4501","address":"江津市桜江町鹿賀","prefecture":32,"id":"1adc4c"}
+[station] code changed
+	old:{"id":"b7d159","code":5000205,"name":"因原","lon":132.473262,"lat":34.966514,"lines":[50021],"closed":true}
+	new:{"code":1170709,"name":"因原","lat":34.966514,"lng":132.473262,"closed":true,"lines":[11707],"postal_code":"696-0003","address":"邑智郡川本町大字因原","prefecture":32,"id":"b7d159"}
+[station] code changed
+	old:{"id":"3d217d","code":5000206,"name":"石見川本","lon":132.492624,"lat":34.99129,"lines":[50021],"closed":true}
+	new:{"code":1170710,"name":"石見川本","lat":34.99129,"lng":132.492624,"closed":true,"lines":[11707],"postal_code":"696-0001","address":"邑智郡川本町大字川本","prefecture":32,"id":"3d217d"}
+[station] code changed
+	old:{"id":"0fa687","code":5000207,"name":"木路原","lon":132.508325,"lat":34.997514,"lines":[50021],"closed":true}
+	new:{"code":1170711,"name":"木路原","lat":34.997514,"lng":132.508325,"closed":true,"lines":[11707],"postal_code":"696-0001","address":"邑智郡川本町大字川本","prefecture":32,"id":"0fa687"}
+[station] code changed
+	old:{"id":"bd5ab9","code":5000208,"name":"竹","lon":132.529753,"lat":35.012676,"lines":[50021],"closed":true}
+	new:{"code":1170712,"name":"竹","lat":35.012676,"lng":132.529753,"closed":true,"lines":[11707],"postal_code":"699-4626","address":"邑智郡美郷町乙原","prefecture":32,"id":"bd5ab9"}
+[station] code changed
+	old:{"id":"a5cada","code":5000209,"name":"乙原","lon":132.547479,"lat":35.026135,"lines":[50021],"closed":true}
+	new:{"code":1170713,"name":"乙原","lat":35.026135,"lng":132.547479,"closed":true,"lines":[11707],"postal_code":"699-4626","address":"邑智郡美郷町乙原","prefecture":32,"id":"a5cada"}
+[station] code changed
+	old:{"id":"6b41d9","code":5000210,"name":"石見簗瀬","lon":132.565521,"lat":35.042339,"lines":[50021],"closed":true}
+	new:{"code":1170714,"name":"石見簗瀬","lat":35.042339,"lng":132.565521,"closed":true,"lines":[11707],"postal_code":"699-4625","address":"邑智郡美郷町簗瀬","prefecture":32,"id":"6b41d9"}
+[station] code changed
+	old:{"id":"6837f6","code":5000211,"name":"明塚","lon":132.583933,"lat":35.048799,"lines":[50021],"closed":true}
+	new:{"code":1170715,"name":"明塚","lat":35.048799,"lng":132.583933,"closed":true,"lines":[11707],"postal_code":"699-4624","address":"邑智郡美郷町明塚","prefecture":32,"id":"6837f6"}
+[station] code changed
+	old:{"id":"d5116b","code":5000212,"name":"粕淵","lon":132.592926,"lat":35.072447,"lines":[50021],"closed":true}
+	new:{"code":1170716,"name":"粕淵","lat":35.072447,"lng":132.592926,"closed":true,"lines":[11707],"postal_code":"699-4621","address":"邑智郡美郷町粕渕","prefecture":32,"id":"d5116b"}
+[station] code changed
+	old:{"id":"5dcb09","code":5000213,"name":"浜原","lon":132.599564,"lat":35.060043,"lines":[50021],"closed":true}
+	new:{"code":1170717,"name":"浜原","lat":35.060043,"lng":132.599564,"closed":true,"lines":[11707],"postal_code":"699-4701","address":"邑智郡美郷町浜原","prefecture":32,"id":"5dcb09"}
+[station] code changed
+	old:{"id":"2d904a","code":5000214,"name":"沢谷","lon":132.634682,"lat":35.057894,"lines":[50021],"closed":true}
+	new:{"code":1170718,"name":"沢谷","lat":35.057894,"lng":132.634682,"closed":true,"lines":[11707],"postal_code":"699-4715","address":"邑智郡美郷町石原","prefecture":32,"id":"2d904a"}
+[station] code changed
+	old:{"id":"75ebec","code":5000215,"name":"潮","lon":132.632425,"lat":35.016034,"lines":[50021],"closed":true}
+	new:{"code":1170719,"name":"潮","lat":35.016034,"lng":132.632425,"closed":true,"lines":[11707],"postal_code":"696-0701","address":"邑智郡美郷町潮村","prefecture":32,"id":"75ebec"}
+[station] code changed
+	old:{"id":"2c36c2","code":5000216,"name":"石見松原","lon":132.615042,"lat":34.992792,"lines":[50021],"closed":true}
+	new:{"code":1170720,"name":"石見松原","lat":34.992792,"lng":132.615042,"closed":true,"lines":[11707],"postal_code":"696-0706","address":"邑智郡美郷町長藤","prefecture":32,"id":"2c36c2"}
+[station] code changed
+	old:{"id":"884a22","code":5000217,"name":"石見都賀","lon":132.642711,"lat":34.956356,"lines":[50021],"closed":true}
+	new:{"code":1170721,"name":"石見都賀","lat":34.956356,"lng":132.642711,"closed":true,"lines":[11707],"postal_code":"696-0704","address":"邑智郡美郷町都賀本郷","prefecture":32,"id":"884a22"}
+[station] code changed
+	old:{"id":"5cc0c6","code":5000218,"name":"宇都井","lon":132.629657,"lat":34.906557,"lines":[50021],"closed":true}
+	new:{"code":1170722,"name":"宇都井","lat":34.906557,"lng":132.629657,"closed":true,"lines":[11707],"postal_code":"696-0503","address":"邑智郡邑南町宇都井","prefecture":32,"id":"5cc0c6"}
+[station] code changed
+	old:{"id":"e9cfec","code":5000219,"name":"伊賀和志","lon":132.66094,"lat":34.895039,"lines":[50021],"closed":true}
+	new:{"code":1170723,"name":"伊賀和志","lat":34.895039,"lng":132.66094,"closed":true,"lines":[11707],"postal_code":"728-0111","address":"三次市作木町伊賀和志","prefecture":34,"id":"e9cfec"}
+[station] code changed
+	old:{"id":"ac5147","code":5000220,"name":"口羽","lon":132.671234,"lat":34.884442,"lines":[50021],"closed":true}
+	new:{"code":1170724,"name":"口羽","lat":34.884442,"lng":132.671234,"closed":true,"lines":[11707],"postal_code":"696-0603","address":"邑智郡邑南町下口羽","prefecture":32,"id":"ac5147"}
+[station] code changed
+	old:{"id":"666373","code":5000221,"name":"江平","lon":132.702219,"lat":34.875252,"lines":[50021],"closed":true}
+	new:{"code":1170725,"name":"江平","lat":34.875252,"lng":132.702219,"closed":true,"lines":[11707],"postal_code":"696-0601","address":"邑智郡邑南町上田","prefecture":32,"id":"666373"}
+[station] code changed
+	old:{"id":"d2a4bb","code":5000222,"name":"作木口","lon":132.707061,"lat":34.86017,"lines":[50021],"closed":true}
+	new:{"code":1170726,"name":"作木口","lat":34.86017,"lng":132.707061,"closed":true,"lines":[11707],"postal_code":"696-0601","address":"邑智郡邑南町上田","prefecture":32,"id":"d2a4bb"}
+[station] code changed
+	old:{"id":"40e928","code":5000223,"name":"香淀","lon":132.71385,"lat":34.827113,"lines":[50021],"closed":true}
+	new:{"code":1170727,"name":"香淀","lat":34.827113,"lng":132.71385,"closed":true,"lines":[11707],"postal_code":"728-0133","address":"三次市作木町門田","prefecture":34,"id":"40e928"}
+[station] code changed
+	old:{"id":"eb0160","code":5000224,"name":"式敷","lon":132.712598,"lat":34.815809,"lines":[50021],"closed":true}
+	new:{"code":1170728,"name":"式敷","lat":34.815809,"lng":132.712598,"closed":true,"lines":[11707],"postal_code":"739-1802","address":"安芸高田市高宮町佐々部","prefecture":34,"id":"eb0160"}
+[station] code changed
+	old:{"id":"0d6bf6","code":5000225,"name":"信木","lon":132.730502,"lat":34.812983,"lines":[50021],"closed":true}
+	new:{"code":1170729,"name":"信木","lat":34.812983,"lng":132.730502,"closed":true,"lines":[11707],"postal_code":"739-1802","address":"安芸高田市高宮町佐々部","prefecture":34,"id":"0d6bf6"}
+[station] code changed
+	old:{"id":"a4f2b1","code":5000226,"name":"所木","lon":132.75121,"lat":34.809925,"lines":[50021],"closed":true}
+	new:{"code":1170730,"name":"所木","lat":34.809925,"lng":132.75121,"closed":true,"lines":[11707],"postal_code":"739-1803","address":"安芸高田市高宮町船木字上信木","prefecture":34,"id":"a4f2b1"}
+[station] code changed
+	old:{"id":"20568a","code":5000227,"name":"船佐","lon":132.766153,"lat":34.808086,"lines":[50021],"closed":true}
+	new:{"code":1170731,"name":"船佐","lat":34.808086,"lng":132.766153,"closed":true,"lines":[11707],"postal_code":"739-1803","address":"安芸高田市高宮町船木","prefecture":34,"id":"20568a"}
+[station] code changed
+	old:{"id":"355e20","code":5000228,"name":"長谷(広島)","lon":132.788146,"lat":34.803142,"lines":[50021],"closed":true}
+	new:{"code":1170732,"name":"長谷(広島)","lat":34.803142,"lng":132.788146,"closed":true,"lines":[11707],"postal_code":"728-0025","address":"三次市粟屋町長谷","prefecture":34,"id":"355e20"}
+[station] code changed
+	old:{"id":"fed988","code":5000229,"name":"粟屋","lon":132.812892,"lat":34.810197,"lines":[50021],"closed":true}
+	new:{"code":1170733,"name":"粟屋","lat":34.810197,"lng":132.812892,"closed":true,"lines":[11707],"postal_code":"728-0025","address":"三次市粟屋町","prefecture":34,"id":"fed988"}
+[station] code changed
+	old:{"id":"30163a","code":5000230,"name":"尾関山","lon":132.8417,"lat":34.812737,"lines":[50021],"closed":true}
+	new:{"code":1170734,"name":"尾関山","lat":34.812737,"lng":132.8417,"closed":true,"lines":[11707],"postal_code":"728-0021","address":"三次市三次町","prefecture":34,"id":"30163a"}
+[station] code changed
+	old:{"id":"0e7a43","code":5000069,"name":"八幡大橋（東陵高校）","lon":141.5853,"lat":38.920964,"lines":[11208]}
+	new:{"code":1120826,"name":"八幡大橋（東陵高校）","lat":38.920964,"lng":141.5853,"lines":[11208],"prefecture":4,"id":"0e7a43"}
+[station] code changed
+	old:{"id":"1c1a6e","code":5000266,"name":"唐桑大沢","lon":141.63147,"lat":38.961776,"lines":[11208]}
+	new:{"code":1120827,"name":"唐桑大沢","lat":38.961776,"lng":141.63147,"lines":[11208],"prefecture":4,"id":"1c1a6e"}
+[station] code changed
+	old:{"id":"2a8923","code":5000070,"name":"長部","lon":141.618657,"lat":38.98611,"lines":[11208]}
+	new:{"code":1120828,"name":"長部","lat":38.98611,"lng":141.618657,"lines":[11208],"prefecture":3,"id":"2a8923"}
+[station] code changed
+	old:{"id":"fb05df","code":5000072,"name":"栃ヶ沢公園","lon":141.625438,"lat":39.026988,"lines":[11208]}
+	new:{"code":1120831,"name":"栃ヶ沢公園","lat":39.026988,"lng":141.625438,"lines":[11208],"prefecture":3,"id":"fb05df"}
+[station] code changed
+	old:{"id":"1d3745","code":5000073,"name":"まちなか陸前高田","lon":141.630296,"lat":39.015483,"lines":[11208],"closed":true}
+	new:{"code":1120832,"name":"まちなか陸前高田","lat":39.015483,"lng":141.630296,"closed":true,"lines":[11208],"prefecture":3,"id":"1d3745"}
+[station] code changed
+	old:{"id":"ad4084","code":5000074,"name":"高田高校前","lon":141.640223,"lat":39.016279,"lines":[11208]}
+	new:{"code":1120833,"name":"高田高校前","lat":39.016279,"lng":141.640223,"lines":[11208],"prefecture":3,"id":"ad4084"}
+[station] code changed
+	old:{"id":"bb069d","code":5000075,"name":"高田病院","lon":141.641608,"lat":39.025507,"lines":[11208]}
+	new:{"code":1120834,"name":"高田病院","lat":39.025507,"lng":141.641608,"lines":[11208],"prefecture":3,"id":"bb069d"}
+[station] code changed
+	old:{"id":"e80a1f","code":5000267,"name":"西下","lon":141.688578,"lat":39.001384,"lines":[11208]}
+	new:{"code":1120835,"name":"西下","lat":39.001384,"lng":141.688578,"lines":[11208],"prefecture":3,"id":"e80a1f"}
+[station] code changed
+	old:{"id":"74ae73","code":5000076,"name":"碁石海岸口","lon":141.711049,"lat":39.00276,"lines":[11208]}
+	new:{"code":1120836,"name":"碁石海岸口","lat":39.00276,"lng":141.711049,"lines":[11208],"prefecture":3,"id":"74ae73"}
+[station] code changed
+	old:{"id":"129dfd","code":5000077,"name":"大船渡魚市場前","lon":141.720752,"lat":39.05128,"lines":[11208]}
+	new:{"code":1120838,"name":"大船渡魚市場前","lat":39.05128,"lng":141.720752,"lines":[11208],"prefecture":3,"id":"129dfd"}
+[station] code changed
+	old:{"id":"c32780","code":5000078,"name":"南三陸町役場・病院前","lon":141.462452,"lat":38.678776,"lines":[11224]}
+	new:{"code":1122424,"name":"南三陸町役場・病院前","lat":38.678776,"lng":141.462452,"lines":[11224],"prefecture":4,"id":"c32780"}
+[station] code changed
+	old:{"id":"9a7963","code":5000079,"name":"気仙沼市立病院","lon":141.56567,"lat":38.887597,"lines":[11224]}
+	new:{"code":1122426,"name":"気仙沼市立病院","lat":38.887597,"lng":141.56567,"lines":[11224],"prefecture":4,"id":"9a7963"}
+[station] code changed
+	old:{"id":"c648f0","code":5000080,"name":"志津川中央団地","lon":141.450742,"lat":38.683806,"lines":[11224]}
+	new:{"code":1122427,"name":"志津川中央団地","lat":38.683806,"lng":141.450742,"lines":[11224],"prefecture":4,"id":"c648f0"}
+[station] code changed
+	old:{"id":"9a173f","code":5000268,"name":"岩月","lon":141.584078,"lat":38.862282,"lines":[11224]}
+	new:{"code":1122428,"name":"岩月","lat":38.862282,"lng":141.584078,"lines":[11224],"prefecture":4,"id":"9a173f"}
+[station] code changed
+	old:{"id":"4f14a1","code":5000231,"name":"白石蔵王","lon":140.633002,"lat":37.995499,"lines":[50022]}
+	new:{"code":100410,"name":"白石蔵王","lat":37.995499,"lng":140.633002,"lines":[1004],"postal_code":"989-0213","address":"宮城県白石市大鷹沢三沢桜田１１−１","prefecture":4,"id":"4f14a1"}
+[station] code changed
+	old:{"id":"fc3fe2","code":5000232,"name":"くりこま高原","lon":141.0718,"lat":38.749102,"lines":[50022]}
+	new:{"code":100413,"name":"くりこま高原","lat":38.749102,"lng":141.0718,"lines":[1004],"postal_code":"989-5612","address":"宮城県栗原市志波姫新熊谷２８４","prefecture":4,"id":"fc3fe2"}
+[station] code changed
+	old:{"id":"9f8444","code":5000233,"name":"水沢江刺","lon":141.188703,"lat":39.145301,"lines":[50022]}
+	new:{"code":100415,"name":"水沢江刺","lat":39.145301,"lng":141.188703,"lines":[1004],"postal_code":"023-0104","address":"岩手県奥州市水沢羽田町駅前１丁目","prefecture":3,"id":"9f8444"}
+[station] code changed
+	old:{"id":"bd81c1","code":5000234,"name":"七戸十和田","lon":141.153999,"lat":40.719801,"lines":[50022]}
+	new:{"code":100422,"name":"七戸十和田","lat":40.719801,"lng":141.153999,"lines":[1004],"postal_code":"039-2501","address":"青森県上北郡七戸町字荒熊内","prefecture":2,"id":"bd81c1"}
+[station] code changed
+	old:{"id":"a3cd04","code":5000235,"name":"本庄早稲田","lon":139.179499,"lat":36.218802,"lines":[50023]}
+	new:{"code":100505,"name":"本庄早稲田","lat":36.218802,"lng":139.179499,"lines":[1005],"postal_code":"367-0031","address":"埼玉県本庄市北堀","prefecture":11,"id":"a3cd04"}
+[station] code changed
+	old:{"id":"206152","code":5000236,"name":"上毛高原","lon":138.9776,"lat":36.693201,"lines":[50023]}
+	new:{"code":100507,"name":"上毛高原","lat":36.693201,"lng":138.9776,"lines":[1005],"postal_code":"379-1313","address":"群馬県利根郡みなかみ町月夜野１７５６","prefecture":10,"id":"206152"}
+[station] code changed
+	old:{"id":"d12d73","code":5000237,"name":"新富士(静岡)","lon":138.663299,"lat":35.142,"lines":[50024]}
+	new:{"code":100207,"name":"新富士(静岡)","lat":35.142,"lng":138.663299,"lines":[1002],"postal_code":"416-0939","address":"静岡県富士市川成島６５４−１０","prefecture":22,"id":"d12d73"}
+[station] code changed
+	old:{"id":"229258","code":5000238,"name":"岐阜羽島","lon":136.685501,"lat":35.3158,"lines":[50024]}
+	new:{"code":100214,"name":"岐阜羽島","lat":35.3158,"lng":136.685501,"lines":[1002],"postal_code":"501-6257","address":"岐阜県羽島市福寿町平方","prefecture":21,"id":"229258"}
+[station] code changed
+	old:{"id":"81053f","code":5000239,"name":"新尾道","lon":133.190301,"lat":34.430001,"lines":[50025]}
+	new:{"code":100309,"name":"新尾道","lat":34.430001,"lng":133.190301,"lines":[1003],"postal_code":"722-0022","address":"広島県尾道市栗原町","prefecture":34,"id":"81053f"}
+[station] code changed
+	old:{"id":"9046b9","code":5000240,"name":"東広島","lon":132.759702,"lat":34.3893,"lines":[50025]}
+	new:{"code":100311,"name":"東広島","lat":34.3893,"lng":132.759702,"lines":[1003],"postal_code":"739-0026","address":"広島県東広島市三永１丁目４","prefecture":34,"id":"9046b9"}
+[station] code changed
+	old:{"id":"480d8f","code":5000241,"name":"新岩国","lon":132.149795,"lat":34.164998,"lines":[50025]}
+	new:{"code":100313,"name":"新岩国","lat":34.164998,"lng":132.149795,"lines":[1003],"postal_code":"741-0083","address":"山口県岩国市御庄１０２−１","prefecture":35,"id":"480d8f"}
+[station] code changed
+	old:{"id":"8efad8","code":5000242,"name":"ガーラ湯沢","lon":138.799503,"lat":36.950795,"lines":[50027]}
+	new:{"code":100602,"name":"ガーラ湯沢","lat":36.950795,"lng":138.799503,"lines":[1006],"postal_code":"949-6101","address":"新潟県南魚沼郡湯沢町大字湯沢","prefecture":15,"id":"8efad8"}
+[station] code changed
+	old:{"id":"b49f96","code":5000243,"name":"安中榛名","lon":138.849399,"lat":36.362398,"lines":[50028]}
+	new:{"code":100902,"name":"安中榛名","lat":36.362398,"lng":138.849399,"lines":[1009],"postal_code":"379-0102","address":"群馬県安中市東上秋間","prefecture":10,"id":"b49f96"}
+[station] code changed
+	old:{"id":"e42936","code":5000244,"name":"黒部宇奈月温泉","lon":137.481115,"lat":36.874104,"lines":[50028]}
+	new:{"code":100910,"name":"黒部宇奈月温泉","lat":36.874104,"lng":137.481115,"lines":[1009],"postal_code":"938-0000","address":"富山県黒部市荻生","prefecture":16,"id":"e42936"}
+[station] code changed
+	old:{"id":"c029cc","code":5000245,"name":"新大牟田","lon":130.488702,"lat":33.071201,"lines":[50029]}
+	new:{"code":101005,"name":"新大牟田","lat":33.071201,"lng":130.488702,"lines":[1010],"postal_code":"837-0913","address":"福岡県大牟田市大字岩本２５０９－３","prefecture":40,"id":"c029cc"}
+[station] code changed
+	old:{"id":"622ac6","code":5000246,"name":"新玉名","lon":130.573498,"lat":32.9425,"lines":[50029]}
+	new:{"code":101006,"name":"新玉名","lat":32.9425,"lng":130.573498,"lines":[1010],"postal_code":"865-0005","address":"熊本県玉名市玉名１２２９－３","prefecture":43,"id":"622ac6"}
+[station] code changed
+	old:{"id":"3f5f8e","code":5000247,"name":"リゾートゲートウェイ・ステーション","lon":139.885141,"lat":35.635269,"lines":[50030]}
+	new:{"code":9934501,"name":"リゾートゲートウェイ・ステーション","lat":35.635269,"lng":139.885141,"lines":[99345],"postal_code":"279-0031","address":"千葉県浦安市舞浜","prefecture":12,"id":"3f5f8e"}
+[station] code changed
+	old:{"id":"1a7596","code":5000248,"name":"東京ディズニーランド・ステーション","lon":139.878646,"lat":35.635891,"lines":[50030]}
+	new:{"code":9934502,"name":"東京ディズニーランド・ステーション","lat":35.635891,"lng":139.878646,"lines":[99345],"postal_code":"279-0031","address":"千葉県浦安市舞浜","prefecture":12,"id":"1a7596"}
+[station] code changed
+	old:{"id":"a3079b","code":5000249,"name":"ベイサイド・ステーション","lon":139.876414,"lat":35.627947,"lines":[50030]}
+	new:{"code":9934503,"name":"ベイサイド・ステーション","lat":35.627947,"lng":139.876414,"lines":[99345],"postal_code":"279-0031","address":"千葉県浦安市舞浜","prefecture":12,"id":"a3079b"}
+[station] code changed
+	old:{"id":"3f22f3","code":5000250,"name":"東京ディズニーシー・ステーション","lon":139.889468,"lat":35.627394,"lines":[50030]}
+	new:{"code":9934504,"name":"東京ディズニーシー・ステーション","lat":35.627394,"lng":139.889468,"lines":[99345],"postal_code":"279-0031","address":"千葉県浦安市舞浜","prefecture":12,"id":"3f22f3"}
+[station] code changed
+	old:{"id":"52db63","code":5000251,"name":"東園(東京)","lon":139.770141,"lat":35.715835,"lines":[50035]}
+	new:{"code":9934601,"name":"東園(東京)","lat":35.715835,"lng":139.770141,"lines":[99346],"postal_code":"110-0007","address":"東京都台東区上野公園９","prefecture":13,"id":"52db63"}
+[station] code changed
+	old:{"id":"c6395d","code":5000252,"name":"西園","lon":139.769722,"lat":35.714308,"lines":[50035]}
+	new:{"code":9934602,"name":"西園","lat":35.714308,"lng":139.769722,"lines":[99346],"postal_code":"110-0007","address":"東京都台東区上野公園３","prefecture":13,"id":"c6395d"}
+[station] code changed
+	old:{"id":"78e3a3","code":5000255,"name":"神居古潭","lon":142.202224,"lat":43.732834,"lines":[11103]}
+	new:{"code":1110343,"name":"神居古潭","lat":43.732834,"lng":142.202224,"lines":[11103],"postal_code":"078-0185","address":"北海道旭川市神居町神居古潭","prefecture":1,"id":"78e3a3"}
+[station] code changed
+	old:{"id":"36c692","code":5000071,"name":"奇跡の一本松","lon":141.627134,"lat":39.007864,"lines":[11208]}
+	new:{"code":1120830,"name":"奇跡の一本松","lat":39.007864,"lng":141.627134,"lines":[11208],"prefecture":3,"id":"36c692"}
 [station] add
-	new:{"code":1120829,"name":"陸前今泉","lat":39.004122,"lng":141.613479,"lines":[11208],"prefecture":3,"id":"7b00d9"}
+	new:{"code":1120829,"name":"陸前今泉","lat":39.004122,"lng":141.613479,"lines":[11208],"prefecture":3,"id":"ddeb03"}
 [station] add
-	new:{"code":1120837,"name":"大船渡丸森","lat":39.028716,"lng":141.712638,"lines":[11208],"prefecture":3,"id":"ce9131"}
+	new:{"code":1120837,"name":"大船渡丸森","lat":39.028716,"lng":141.712638,"lines":[11208],"prefecture":3,"id":"9eb660"}
 [station] add
-	new:{"code":1120839,"name":"地ノ森","lat":39.071676,"lng":141.718181,"lines":[11208],"prefecture":3,"id":"d9b487"}
+	new:{"code":1120839,"name":"地ノ森","lat":39.071676,"lng":141.718181,"lines":[11208],"prefecture":3,"id":"da3b77"}
 [station] add
-	new:{"code":1120840,"name":"田茂山","lat":39.080179,"lng":141.713408,"lines":[11208],"prefecture":3,"id":"1ab93c"}
+	new:{"code":1120840,"name":"田茂山","lat":39.080179,"lng":141.713408,"lines":[11208],"prefecture":3,"id":"d35679"}
 [station] add
-	new:{"code":1122425,"name":"赤岩港","lat":38.88438,"lng":141.582468,"lines":[11224],"prefecture":4,"id":"53e8af"}
+	new:{"code":1122425,"name":"赤岩港","lat":38.88438,"lng":141.582468,"lines":[11224],"prefecture":4,"id":"8e17cb"}
 [station] add
-	new:{"code":1180741,"name":"南伊予","lat":33.777727,"lng":132.737292,"lines":[11807],"id":"c8528b"}
+	new:{"code":1180741,"name":"南伊予","lat":33.777727,"lng":132.737292,"lines":[11807],"id":"06256a"}
 [station] add
-	new:{"code":1150135,"name":"御厨(静岡)","lat":34.718447,"lng":137.88534,"lines":[11501],"id":"865e32"}
+	new:{"code":1150135,"name":"御厨(静岡)","lat":34.718447,"lng":137.88534,"lines":[11501],"id":"fb262e"}
 [station] add
-	new:{"code":1130230,"name":"高輪ゲートウェイ","lat":35.635468,"lng":139.740749,"lines":[11302,11332],"id":"06f72f"}
+	new:{"code":1130230,"name":"高輪ゲートウェイ","lat":35.635468,"lng":139.740749,"lines":[11302,11332],"id":"654c8f"}

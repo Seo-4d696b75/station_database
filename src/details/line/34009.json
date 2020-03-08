@@ -1,14 +1,11 @@
 {
-"code":34009,
 "name":"阪急嵐山線",
-"name_kana":"はんきゅうあらしやません",
 "symbol":"HK",
 "color":"#32CD32",
-"list_size":4,
 "station_list":[
-  {"code":3400306,"name":"桂","numbering":[{"index":"81"}]},
-  {"code":3400902,"name":"上桂","numbering":[{"index":"96"}]},
-  {"code":3400903,"name":"松尾大社","numbering":[{"index":"97"}]},
-  {"code":3400904,"name":"嵐山(阪急電鉄)","numbering":[{"index":"98"}]}
+  {"name":"桂","numbering":[{"index":"81"}]},
+  {"name":"上桂","numbering":[{"index":"96"}]},
+  {"name":"松尾大社","numbering":[{"index":"97"}]},
+  {"name":"嵐山(阪急電鉄)","numbering":[{"index":"98"}]}
 ]
 }

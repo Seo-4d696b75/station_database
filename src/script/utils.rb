@@ -11,7 +11,7 @@ def read(path)
 	str = ""
 	File.open(path, "r:utf-8") do |file|
 		file.each_line do |line|
-			str += line
+			str << line
 		end
 	end
 	return str
@@ -21,7 +21,7 @@ def read_json(path)
 	str = ""
 	File.open(path, "r:utf-8") do |file|
 		file.each_line do |line|
-			str += line
+			str << line
 		end
 	end
 	return JSON.parse(str)
@@ -76,6 +76,65 @@ class IDSet
 	end
 end
 
+def format_json(data,flat_key:[],flat_array:[],flat:false,depth:0)
+	if data.kind_of?(String)
+		return "\"#{data.to_s}\""
+	elsif data.kind_of?(Numeric) || data == true || data == false
+		return data.to_s
+	elsif data.kind_of?(Hash)
+		return JSON.dump(data) if flat
+		str = "{\n"
+		str << ("  " * (depth+1))
+		str << data.to_a.map do |e|
+			key,value = e
+			if value.kind_of?(Array)
+				if flat_key.include?(key)
+					next "\"#{key}\":#{JSON.dump(value)}"
+				else
+					value = format_json(
+						value,
+						flat_key:flat_key,
+						flat_array:flat_array,
+						flat:flat_array.include?(key),
+						depth:(depth+1)
+					)
+					next "\"#{key}\":#{value}"
+				end
+			end
+			value = format_json(
+				value,
+				flat_key:flat_key,
+				flat_array:flat_array,
+				flat:flat_key.include?(key),
+				depth:(depth+1)
+			)
+			"\"#{key}\":#{value}"
+		end.join(",\n" + ("  " * (depth+1)))
+		str << "\n"
+		str << ("  " * depth)
+		str << "}"
+		return str
+	elsif data.kind_of?(Array)
+		str = "[\n"
+		str << ("  " * (depth+1))
+		str << data.map do |value|
+			format_json(
+				value,
+				flat_key:flat_key,
+				flat_array:flat_array,
+				flat:flat,
+				depth:(depth+1)
+			)
+		end.join(",\n" + ("  " * (depth+1)))
+		str << "\n"
+		str << ("  " * depth)
+		str << "]"
+		return str
+	else
+		raise "invalid json data: " + data.to_s
+	end
+end
+
 
 def sort_hash(data)
 	keys = [
@@ -84,16 +143,26 @@ def sort_hash(data)
 		'name',
 		'name_kana',
 		'name_formal',
-		'size',
+		'station_size',
 		'company_code',
 		'closed',
 		'lat',
 		'lng',
 		'prefecture',
 		'lines',
+		'color',
+		'symbol',
+		'station_list',
+		'north',
+		'south',
+		'east',
+		'west',
+		'point_list',
 		'attr',
 		'postal_code',
-		'address'
+		'address',
+		'next',
+		'voronoi'
 	]
 	data.sort do |a,b|
 		a = keys.find_index(a[0])

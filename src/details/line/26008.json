@@ -1,13 +1,10 @@
 {
-"code":26008,
 "name":"東急こどもの国線",
-"name_kana":"とうきゅうこどものくにせん",
 "symbol":"KD",
 "color":"#0068B7",
-"list_size":3,
 "station_list":[
-  {"code":1130609,"name":"長津田","numbering":[{"index":"01"}]},
-  {"code":2600802,"name":"恩田","numbering":[{"index":"02"}]},
-  {"code":2600803,"name":"こどもの国(神奈川)","numbering":[{"index":"03"}]}
+  {"name":"長津田","numbering":[{"index":"01"}]},
+  {"name":"恩田","numbering":[{"index":"02"}]},
+  {"name":"こどもの国(神奈川)","numbering":[{"index":"03"}]}
 ]
 }

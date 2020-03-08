@@ -1,20 +1,17 @@
 {
-"code":35002,
 "name":"阪神なんば線",
-"name_kana":"はんしんなんばせん",
 "symbol":"HS",
-"list_size":11,
 "station_list":[
-  {"code":3100101,"name":"大阪難波","numbering":[{"index":"41"}]},
-  {"code":3500210,"name":"桜川(大阪)","numbering":[{"index":"42"}]},
-  {"code":3500209,"name":"ドーム前","numbering":[{"index":"43"}]},
-  {"code":3500208,"name":"九条(大阪)","numbering":[{"index":"44"}]},
-  {"code":1162307,"name":"西九条","numbering":[{"index":"45"}]},
-  {"code":3500202,"name":"千鳥橋","numbering":[{"index":"46"}]},
-  {"code":3500203,"name":"伝法","numbering":[{"index":"47"}]},
-  {"code":3500204,"name":"福","numbering":[{"index":"48"}]},
-  {"code":3500205,"name":"出来島","numbering":[{"index":"49"}]},
-  {"code":3500108,"name":"大物","numbering":[{"index":"08"}]},
-  {"code":3500109,"name":"尼崎(阪神電気鉄道)","numbering":[{"index":"09"}]}
+  {"name":"大阪難波","numbering":[{"index":"41"}]},
+  {"name":"桜川(大阪)","numbering":[{"index":"42"}]},
+  {"name":"ドーム前","numbering":[{"index":"43"}]},
+  {"name":"九条(大阪)","numbering":[{"index":"44"}]},
+  {"name":"西九条","numbering":[{"index":"45"}]},
+  {"name":"千鳥橋","numbering":[{"index":"46"}]},
+  {"name":"伝法","numbering":[{"index":"47"}]},
+  {"name":"福","numbering":[{"index":"48"}]},
+  {"name":"出来島","numbering":[{"index":"49"}]},
+  {"name":"大物","numbering":[{"index":"08"}]},
+  {"name":"尼崎(阪神電気鉄道)","numbering":[{"index":"09"}]}
 ]
 }

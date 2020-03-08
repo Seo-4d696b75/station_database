@@ -1,0 +1,23 @@
+{
+  "code":99631,
+  "name":"神戸高速南北線",
+  "symbol":"KB",
+  "station_list":[
+    {"code":9963006,"name":"新開地","numbering":[{"color":"#DD0033","index":"01"}]},
+    {"code":9963102,"name":"湊川","numbering":[{"color":"#DD0033","index":"02"}]}
+  ],
+  "north":34.67959,
+  "south":34.67634,
+  "east":135.16923,
+  "west":135.16579,
+  "polyline_list":[
+    {
+      "start":"湊川",
+      "end":"新開地",
+      "lat":34.67959,
+      "lng":34.67959,
+      "delta_lat":[0,-61,-207,-56],
+      "delta_lng":[0,66,227,52]
+    }
+  ]
+}

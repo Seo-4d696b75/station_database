@@ -1,12 +1,9 @@
 {
-"code":31024,
 "name":"近鉄西信貴ケーブル",
-"name_kana":"きんてつにししぎけーぶる",
 "symbol":"Z",
 "color":"#F0E68C",
-"list_size":2,
 "station_list":[
-  {"code":3102103,"name":"信貴山口","numbering":[{"index":"14"}]},
-  {"code":3102402,"name":"高安山","numbering":[{"index":"15"}]}
+  {"name":"信貴山口","numbering":[{"index":"14"}]},
+  {"name":"高安山","numbering":[{"index":"15"}]}
 ]
 }

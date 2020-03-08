@@ -1,15 +1,12 @@
 {
-"code":21005,
 "name":"東武亀戸線",
-"name_kana":"とうぶかめいどせん",
 "symbol":"TS",
 "color":"#0F6CC3",
-"list_size":5,
 "station_list":[
-  {"code":1131323,"name":"亀戸","numbering":[{"index":"44"}]},
-  {"code":2100504,"name":"亀戸水神","numbering":[{"index":"43"}]},
-  {"code":2100503,"name":"東あずま","numbering":[{"index":"42"}]},
-  {"code":2100502,"name":"小村井","numbering":[{"index":"41"}]},
-  {"code":2100204,"name":"曳舟","numbering":[{"index":"04"}]}
+  {"name":"亀戸","numbering":[{"index":"44"}]},
+  {"name":"亀戸水神","numbering":[{"index":"43"}]},
+  {"name":"東あずま","numbering":[{"index":"42"}]},
+  {"name":"小村井","numbering":[{"index":"41"}]},
+  {"name":"曳舟","numbering":[{"index":"04"}]}
 ]
 }

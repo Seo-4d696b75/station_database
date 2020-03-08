@@ -1,6 +1,5 @@
+load('script/utils.rb')
 
-require 'json'
-require 'set'
 require 'nkf'
 Encoding.default_external = 'UTF-8'
 
@@ -87,9 +86,7 @@ File.open(ARGV[0], "r:utf-8") do |f|
 end
 
 File.open(ARGV[1],"w:utf-8") do |f|
-	str = "[\n  "
-	str += dst.map{|e| JSON.dump(e)}.join(",\n  ")
-	str += "\n]"
-	f.write(str)
+	
+	f.write(format_json(dst,flat:true))
 end
 puts "write into file:#{ARGV[1]}"

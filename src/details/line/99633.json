@@ -1,20 +1,17 @@
 {
-"code":99633,
 "name":"神鉄三田線",
-"name_kana":"しんてつさんだせん",
 "symbol":"KB",
 "color":"#008000",
-"list_size":10,
 "station_list":[
-  {"code":9963215,"name":"有馬口","numbering":[{"index":"15"}]},
-  {"code":9963302,"name":"五社","numbering":[{"index":"21"}]},
-  {"code":9963303,"name":"岡場","numbering":[{"index":"22"}]},
-  {"code":9963304,"name":"田尾寺","numbering":[{"index":"23"}]},
-  {"code":9963305,"name":"二郎","numbering":[{"index":"24"}]},
-  {"code":9963306,"name":"道場南口","numbering":[{"index":"25"}]},
-  {"code":9963307,"name":"神鉄道場","numbering":[{"index":"26"}]},
-  {"code":9963308,"name":"横山(兵庫)","numbering":[{"index":"27"}]},
-  {"code":9963309,"name":"三田本町","numbering":[{"index":"28"}]},
-  {"code":1162915,"name":"三田(兵庫)","numbering":[{"index":"29"}]}
+  {"name":"有馬口","numbering":[{"index":"15"}]},
+  {"name":"五社","numbering":[{"index":"21"}]},
+  {"name":"岡場","numbering":[{"index":"22"}]},
+  {"name":"田尾寺","numbering":[{"index":"23"}]},
+  {"name":"二郎","numbering":[{"index":"24"}]},
+  {"name":"道場南口","numbering":[{"index":"25"}]},
+  {"name":"神鉄道場","numbering":[{"index":"26"}]},
+  {"name":"横山(兵庫)","numbering":[{"index":"27"}]},
+  {"name":"三田本町","numbering":[{"index":"28"}]},
+  {"name":"三田(兵庫)","numbering":[{"index":"29"}]}
 ]
 }

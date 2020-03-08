@@ -1,18 +1,15 @@
 {
-"code":99646,
 "name":"神戸市営地下鉄山手線",
-"name_kana":"こうべしえいちかてつやまてせん",
 "symbol":"S",
 "color":"#01AF98",
-"list_size":8,
 "station_list":[
-  {"code":9963601,"name":"新神戸","numbering":[{"index":"02"}]},
-  {"code":9963001,"name":"三宮(神戸三宮)","numbering":[{"index":"03"}]},
-  {"code":9964603,"name":"県庁前(兵庫)","numbering":[{"index":"04"}]},
-  {"code":9964604,"name":"大倉山(兵庫)","numbering":[{"index":"05"}]},
-  {"code":9964605,"name":"湊川公園","numbering":[{"index":"06"}]},
-  {"code":9964606,"name":"上沢","numbering":[{"index":"07"}]},
-  {"code":9964607,"name":"長田(神戸市交通局)","numbering":[{"index":"08"}]},
-  {"code":1160803,"name":"新長田","numbering":[{"index":"09"}]}
+  {"name":"新神戸","numbering":[{"index":"02"}]},
+  {"name":"三宮(神戸三宮)","numbering":[{"index":"03"}]},
+  {"name":"県庁前(兵庫)","numbering":[{"index":"04"}]},
+  {"name":"大倉山(兵庫)","numbering":[{"index":"05"}]},
+  {"name":"湊川公園","numbering":[{"index":"06"}]},
+  {"name":"上沢","numbering":[{"index":"07"}]},
+  {"name":"長田(神戸市交通局)","numbering":[{"index":"08"}]},
+  {"name":"新長田","numbering":[{"index":"09"}]}
 ]
 }

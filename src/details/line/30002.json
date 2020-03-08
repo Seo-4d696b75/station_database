@@ -1,15 +1,12 @@
 {
-"code":30002,
 "name":"名鉄豊川線",
-"name_kana":"めいてつとよかわせん",
 "symbol":"TK",
 "color":"#DC143C",
-"list_size":5,
 "station_list":[
-  {"code":3000104,"name":"国府(愛知)","numbering":[{"symbol":"NH","index":"04"}]},
-  {"code":3000202,"name":"八幡(愛知)","numbering":[{"index":"01"}]},
-  {"code":3000203,"name":"諏訪町","numbering":[{"index":"02"}]},
-  {"code":3000204,"name":"稲荷口","numbering":[{"index":"03"}]},
-  {"code":3000205,"name":"豊川稲荷","numbering":[{"index":"04"}]}
+  {"name":"国府(愛知)","numbering":[{"symbol":"NH","index":"04"}]},
+  {"name":"八幡(愛知)","numbering":[{"index":"01"}]},
+  {"name":"諏訪町","numbering":[{"index":"02"}]},
+  {"name":"稲荷口","numbering":[{"index":"03"}]},
+  {"name":"豊川稲荷","numbering":[{"index":"04"}]}
 ]
 }

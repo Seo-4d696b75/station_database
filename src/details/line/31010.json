@@ -1,15 +1,12 @@
 {
-"code":31010,
 "name":"近鉄鳥羽線",
-"name_kana":"きんてつとばせん",
 "symbol":"M",
 "color":"#40E0D0",
-"list_size":5,
 "station_list":[
-  {"code":3100914,"name":"宇治山田","numbering":[{"index":"74"}]},
-  {"code":3101002,"name":"五十鈴川","numbering":[{"index":"75"}]},
-  {"code":3101003,"name":"朝熊","numbering":[{"index":"76"}]},
-  {"code":3101004,"name":"池の浦","numbering":[{"index":"77"}]},
-  {"code":1151211,"name":"鳥羽","numbering":[{"index":"78"}]}
+  {"name":"宇治山田","numbering":[{"index":"74"}]},
+  {"name":"五十鈴川","numbering":[{"index":"75"}]},
+  {"name":"朝熊","numbering":[{"index":"76"}]},
+  {"name":"池の浦","numbering":[{"index":"77"}]},
+  {"name":"鳥羽","numbering":[{"index":"78"}]}
 ]
 }

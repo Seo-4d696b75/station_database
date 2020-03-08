@@ -1,15 +1,12 @@
 {
-"code":99717,
 "name":"広電９系統(白島線)",
-"name_kana":"ひろでんきゅうけいとう(はくしません)",
 "symbol":"W",
 "color":"#696969",
-"list_size":5,
 "station_list":[
-  {"code":9971007,"name":"八丁堀(広島)","numbering":[{"index":"1"}]},
-  {"code":9971702,"name":"女学院前","numbering":[{"index":"2"}]},
-  {"code":9971703,"name":"縮景園前","numbering":[{"index":"3"}]},
-  {"code":9971704,"name":"家庭裁判所前","numbering":[{"index":"4"}]},
-  {"code":9971705,"name":"白島(広島電鉄)","numbering":[{"index":"5"}]}
+  {"name":"八丁堀(広島)","numbering":[{"index":"1"}]},
+  {"name":"女学院前","numbering":[{"index":"2"}]},
+  {"name":"縮景園前","numbering":[{"index":"3"}]},
+  {"name":"家庭裁判所前","numbering":[{"index":"4"}]},
+  {"name":"白島(広島電鉄)","numbering":[{"index":"5"}]}
 ]
 }

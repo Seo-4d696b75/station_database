@@ -1,17 +1,14 @@
 {
-"code":99630,
 "name":"神戸高速東西線",
-"name_kana":"こうべこうそくとうざいせん",
-"list_size":9,
 "station_list":[
-  {"code":9963001,"name":"三宮(神戸三宮)","numbering":[{"symbol":"HK","color":"#0000FF","index":"16"},{"symbol":"HS","color":"#0000FF","index":"32"}]},
-  {"code":9963002,"name":"花隈","numbering":[{"symbol":"HK","color":"#0000FF","index":"17"}]},
-  {"code":1160314,"name":"元町(兵庫)","numbering":[{"symbol":"HS","color":"#0000FF","index":"33"}]},
-  {"code":9963004,"name":"西元町","numbering":[{"symbol":"HS","color":"#0000FF","index":"34"}]},
-  {"code":9963005,"name":"高速神戸","numbering":[{"symbol":"HS","color":"#0000FF","index":"35"}]},
-  {"code":9963006,"name":"新開地","numbering":[{"symbol":"HS","color":"#0000FF","index":"36"}]},
-  {"code":9963007,"name":"大開","numbering":[{"symbol":"HS","color":"#0000FF","index":"37"}]},
-  {"code":9963008,"name":"高速長田","numbering":[{"symbol":"HS","color":"#0000FF","index":"38"}]},
-  {"code":9963009,"name":"西代","numbering":[{"symbol":"HS","color":"#0000FF","index":"39"},{"symbol":"SY","color":"#FA2B08","index":"01"}]}
+  {"name":"三宮(神戸三宮)","numbering":[{"symbol":"HK","color":"#0000FF","index":"16"},{"symbol":"HS","color":"#0000FF","index":"32"}]},
+  {"name":"花隈","numbering":[{"symbol":"HK","color":"#0000FF","index":"17"}]},
+  {"name":"元町(兵庫)","numbering":[{"symbol":"HS","color":"#0000FF","index":"33"}]},
+  {"name":"西元町","numbering":[{"symbol":"HS","color":"#0000FF","index":"34"}]},
+  {"name":"高速神戸","numbering":[{"symbol":"HS","color":"#0000FF","index":"35"}]},
+  {"name":"新開地","numbering":[{"symbol":"HS","color":"#0000FF","index":"36"}]},
+  {"name":"大開","numbering":[{"symbol":"HS","color":"#0000FF","index":"37"}]},
+  {"name":"高速長田","numbering":[{"symbol":"HS","color":"#0000FF","index":"38"}]},
+  {"name":"西代","numbering":[{"symbol":"HS","color":"#0000FF","index":"39"},{"symbol":"SY","color":"#FA2B08","index":"01"}]}
 ]
 }

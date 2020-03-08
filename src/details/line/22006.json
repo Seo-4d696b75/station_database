@@ -1,13 +1,10 @@
 {
-"code":22006,
 "name":"西武山口線",
-"name_kana":"せいぶやまぐちせん",
 "symbol":"SY",
 "color":"#FF3333",
-"list_size":3,
 "station_list":[
-  {"code":2200601,"name":"西武遊園地","numbering":[{"index":"01"}]},
-  {"code":2200602,"name":"遊園地西","numbering":[{"index":"02"}]},
-  {"code":2200503,"name":"西武球場前","numbering":[{"index":"03"}]}
+  {"name":"西武遊園地","numbering":[{"index":"01"}]},
+  {"name":"遊園地西","numbering":[{"index":"02"}]},
+  {"name":"西武球場前","numbering":[{"index":"03"}]}
 ]
 }

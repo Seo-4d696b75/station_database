@@ -1,23 +1,20 @@
 {
-"code":99905,
 "name":"福岡市営地下鉄空港線",
-"name_kana":"ふくおかしえいちかてつくうこうせん",
 "symbol":"K",
 "color":"#EE5511",
-"list_size":13,
 "station_list":[
-  {"code":1190901,"name":"姪浜","numbering":[{"index":"01"}]},
-  {"code":9990512,"name":"室見","numbering":[{"index":"02"}]},
-  {"code":9990511,"name":"藤崎(福岡)","numbering":[{"index":"03"}]},
-  {"code":9990510,"name":"西新","numbering":[{"index":"04"}]},
-  {"code":9990509,"name":"唐人町","numbering":[{"index":"05"}]},
-  {"code":9990508,"name":"大濠公園","numbering":[{"index":"06"}]},
-  {"code":9990507,"name":"赤坂(福岡)","numbering":[{"index":"07"}]},
-  {"code":9990506,"name":"天神","numbering":[{"index":"08"}]},
-  {"code":9990505,"name":"中洲川端","numbering":[{"index":"09"},{"symbol":"H","color":"#0077CC","index":"01"}]},
-  {"code":9990504,"name":"祇園(福岡)","numbering":[{"index":"10"}]},
-  {"code":1190101,"name":"博多","numbering":[{"index":"11"}]},
-  {"code":9990502,"name":"東比恵","numbering":[{"index":"12"}]},
-  {"code":9990501,"name":"福岡空港","numbering":[{"index":"13"}]}
+  {"name":"姪浜","numbering":[{"index":"01"}]},
+  {"name":"室見","numbering":[{"index":"02"}]},
+  {"name":"藤崎(福岡)","numbering":[{"index":"03"}]},
+  {"name":"西新","numbering":[{"index":"04"}]},
+  {"name":"唐人町","numbering":[{"index":"05"}]},
+  {"name":"大濠公園","numbering":[{"index":"06"}]},
+  {"name":"赤坂(福岡)","numbering":[{"index":"07"}]},
+  {"name":"天神","numbering":[{"index":"08"}]},
+  {"name":"中洲川端","numbering":[{"index":"09"},{"symbol":"H","color":"#0077CC","index":"01"}]},
+  {"name":"祇園(福岡)","numbering":[{"index":"10"}]},
+  {"name":"博多","numbering":[{"index":"11"}]},
+  {"name":"東比恵","numbering":[{"index":"12"}]},
+  {"name":"福岡空港","numbering":[{"index":"13"}]}
 ]
 }

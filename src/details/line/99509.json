@@ -1,20 +1,17 @@
 {
-"code":99509,
 "name":"西名古屋港線(あおなみ線)",
-"name_kana":"にしなごやこうせん",
 "symbol":"AN",
-"list_size":11,
 "station_list":[
-  {"code":1141101,"name":"名古屋","numbering":[{"index":"01"}]},
-  {"code":9950902,"name":"ささしまライブ","numbering":[{"index":"02"}]},
-  {"code":9950903,"name":"小本","numbering":[{"index":"03"}]},
-  {"code":9950904,"name":"荒子","numbering":[{"index":"04"}]},
-  {"code":9950905,"name":"南荒子","numbering":[{"index":"05"}]},
-  {"code":9950906,"name":"中島(愛知)","numbering":[{"index":"06"}]},
-  {"code":9950907,"name":"名古屋競馬場前","numbering":[{"index":"07"}]},
-  {"code":9950908,"name":"荒子川公園","numbering":[{"index":"08"}]},
-  {"code":9950909,"name":"稲永","numbering":[{"index":"09"}]},
-  {"code":9950910,"name":"野跡","numbering":[{"index":"10"}]},
-  {"code":9950911,"name":"金城ふ頭","numbering":[{"index":"11"}]}
+  {"name":"名古屋","numbering":[{"index":"01"}]},
+  {"name":"ささしまライブ","numbering":[{"index":"02"}]},
+  {"name":"小本","numbering":[{"index":"03"}]},
+  {"name":"荒子","numbering":[{"index":"04"}]},
+  {"name":"南荒子","numbering":[{"index":"05"}]},
+  {"name":"中島(愛知)","numbering":[{"index":"06"}]},
+  {"name":"名古屋競馬場前","numbering":[{"index":"07"}]},
+  {"name":"荒子川公園","numbering":[{"index":"08"}]},
+  {"name":"稲永","numbering":[{"index":"09"}]},
+  {"name":"野跡","numbering":[{"index":"10"}]},
+  {"name":"金城ふ頭","numbering":[{"index":"11"}]}
 ]
 }

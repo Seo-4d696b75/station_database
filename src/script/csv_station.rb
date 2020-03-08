@@ -1,6 +1,5 @@
+load('script/utils.rb')
 
-require 'json'
-require 'set'
 require 'nkf'
 Encoding.default_external = 'UTF-8'
 
@@ -181,9 +180,6 @@ puts "station size:#{stations.length}"
 
 
 File.open(ARGV[1],"w:utf-8") do |f|
-	str = "[\n  "
-	str += stations.map{|e| JSON.dump(e.data)}.join(",\n  ")
-	str += "\n]"
-	f.write(str)
+	f.write(format_json(stations.map{|e| e.data},flat:true))
 end
 puts "write into file:#{ARGV[1]}"

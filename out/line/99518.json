@@ -1,0 +1,24 @@
+{
+  "code":99518,
+  "name":"名古屋市営地下鉄上飯田線",
+  "color":"#E979B9",
+  "symbol":"K",
+  "station_list":[
+    {"code":9951403,"name":"平安通","numbering":[{"index":"02"}]},
+    {"code":3001801,"name":"上飯田","numbering":[{"index":"01"}]}
+  ],
+  "north":35.2045,
+  "south":35.19521,
+  "east":136.92979,
+  "west":136.92968,
+  "polyline_list":[
+    {
+      "start":"上飯田",
+      "end":"平安通",
+      "lat":35.2045,
+      "lng":35.2045,
+      "delta_lat":[0,-179,-549,-201],
+      "delta_lng":[0,0,6,6]
+    }
+  ]
+}

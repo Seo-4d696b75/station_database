@@ -1,12 +1,9 @@
 {
-"code":11343,
 "name":"JR上野東京ライン",
-"name_kana":"じぇいあーるうえのとうきょうらいん",
 "symbol":"JU",
 "color":"#F68B1E",
-"list_size":2,
 "station_list":[
-  {"code":1130101,"name":"東京","numbering":[{"index":"01"}]},
-  {"code":1130220,"name":"上野","numbering":[{"index":"02"}]}
+  {"name":"東京","numbering":[{"index":"01"}]},
+  {"name":"上野","numbering":[{"index":"02"}]}
 ]
 }

@@ -1,13 +1,10 @@
 {
-"code":31021,
 "name":"近鉄信貴線",
-"name_kana":"きんてつしぎせん",
 "symbol":"J",
 "color":"#77BBFF",
-"list_size":3,
 "station_list":[
-  {"code":3100510,"name":"河内山本","numbering":[{"index":"12"}]},
-  {"code":3102102,"name":"服部川","numbering":[{"index":"13"}]},
-  {"code":3102103,"name":"信貴山口","numbering":[{"index":"14"}]}
+  {"name":"河内山本","numbering":[{"index":"12"}]},
+  {"name":"服部川","numbering":[{"index":"13"}]},
+  {"name":"信貴山口","numbering":[{"index":"14"}]}
 ]
 }

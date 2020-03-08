@@ -1,20 +1,17 @@
 {
-"code":23004,
 "name":"京成千葉線",
-"name_kana":"けいせいちばせん",
 "symbol":"KS",
 "color":"#005AAA",
-"list_size":10,
 "station_list":[
-  {"code":2300126,"name":"京成津田沼","numbering":[{"index":"26"}]},
-  {"code":2300402,"name":"京成幕張本郷","numbering":[{"index":"52"}]},
-  {"code":2300403,"name":"京成幕張","numbering":[{"index":"53"}]},
-  {"code":2300404,"name":"検見川","numbering":[{"index":"54"}]},
-  {"code":2300405,"name":"京成稲毛","numbering":[{"index":"55"}]},
-  {"code":2300406,"name":"みどり台","numbering":[{"index":"56"}]},
-  {"code":2300407,"name":"西登戸","numbering":[{"index":"57"}]},
-  {"code":2300408,"name":"新千葉","numbering":[{"index":"58"}]},
-  {"code":2300409,"name":"京成千葉","numbering":[{"index":"59"}]},
-  {"code":2300410,"name":"千葉中央","numbering":[{"index":"60"}]}
+  {"name":"京成津田沼","numbering":[{"index":"26"}]},
+  {"name":"京成幕張本郷","numbering":[{"index":"52"}]},
+  {"name":"京成幕張","numbering":[{"index":"53"}]},
+  {"name":"検見川","numbering":[{"index":"54"}]},
+  {"name":"京成稲毛","numbering":[{"index":"55"}]},
+  {"name":"みどり台","numbering":[{"index":"56"}]},
+  {"name":"西登戸","numbering":[{"index":"57"}]},
+  {"name":"新千葉","numbering":[{"index":"58"}]},
+  {"name":"京成千葉","numbering":[{"index":"59"}]},
+  {"name":"千葉中央","numbering":[{"index":"60"}]}
 ]
 }

@@ -1,17 +1,14 @@
 {
-"code":99515,
 "name":"名古屋市営地下鉄名港線",
-"name_kana":"なごやしえいちかてつめいこうせん",
 "symbol":"E",
 "color":"#977AD4",
-"list_size":7,
 "station_list":[
-  {"code":1141102,"name":"金山(愛知)","numbering":[{"index":"01"}]},
-  {"code":9951502,"name":"日比野(名古屋市交通局)","numbering":[{"index":"02"}]},
-  {"code":9951503,"name":"六番町","numbering":[{"index":"03"}]},
-  {"code":9951504,"name":"東海通","numbering":[{"index":"04"}]},
-  {"code":9951505,"name":"港区役所","numbering":[{"index":"05"}]},
-  {"code":9951506,"name":"築地口","numbering":[{"index":"06"}]},
-  {"code":9951507,"name":"名古屋港","numbering":[{"index":"07"}]}
+  {"name":"金山(愛知)","numbering":[{"index":"01"}]},
+  {"name":"日比野(名古屋市交通局)","numbering":[{"index":"02"}]},
+  {"name":"六番町","numbering":[{"index":"03"}]},
+  {"name":"東海通","numbering":[{"index":"04"}]},
+  {"name":"港区役所","numbering":[{"index":"05"}]},
+  {"name":"築地口","numbering":[{"index":"06"}]},
+  {"name":"名古屋港","numbering":[{"index":"07"}]}
 ]
 }

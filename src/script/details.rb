@@ -135,8 +135,6 @@ puts "All 47 prefecture checked."
 
 # write
 File.open('details/station.json','w') do |f|
-	f.puts('[')
-	f.puts( stations.map{|e| JSON.dump(sort_hash(e))}.join(",\n"))
-	f.puts(']')
+	f.write( format_json(stations.map{|e| sort_hash(e)},flat:true))
 end
 puts "write stations details to file."

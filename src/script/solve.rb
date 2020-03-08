@@ -177,7 +177,7 @@ class Solver
 		return @station.clone
 	end
 	
-	def solve(data_path="solution.json",line_id_path='line.json',station_id_path='station.json')
+	def solve(data_path="solution.json",line_id_path='previous/line.json',station_id_path='previous/station.json')
 	
 		##deep copy of array
 		if @_station && @_line
@@ -577,8 +577,12 @@ class Solver
 					# 別の要素に対応済み！？
 					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
 					return
-				else
-					line.data['id'] = key
+				end
+				line.data['id'] = key
+				if line.data['code'] != e['code']
+					diff.puts("[line] code changed")
+					diff.puts("\told:#{JSON.dump(e)}")
+					diff.puts("\tnew:#{JSON.dump(line.data)}")
 				end
 			else
 				## 名前で対応する要素がない
@@ -595,8 +599,12 @@ class Solver
 					# 別の要素に対応済み！？
 					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
 					return
-				else
-					s.data['id'] = key
+				end
+				s.data['id'] = key
+				if s.data['code'] != e['code']
+					diff.puts("[station] code changed")
+					diff.puts("\told:#{JSON.dump(e)}")
+					diff.puts("\tnew:#{JSON.dump(s.data)}")
 				end
 			else
 				## 名前で対応する要素がない
@@ -706,25 +714,21 @@ class Solver
 				end
 				return
 			end
-			line.data['size'] = line.cnt
+			line.data['station_size'] = line.cnt
 		end
 		puts "Log > all the line(size:%d) and station(size:%d) data checked." % [@line.size, @station.size]
 	end
 	
 	def write()
 		path = "solved/line.json"
-		file = File.open(path, "w")
-		file.puts("[")
-		file.puts(@line.map{|e| e.to_s }.join(",\n"))
-		file.puts("]")
-		file.close
+		File.open(path, "w") do |f|
+			f.write(format_json(@line.map{|e| e.data}, flat:true))
+		end
 		puts "write line list. size:%d file:%s" % [@line.length, path] 
 		path = "solved/station.json"
-		file = File.open(path, "w")
-		file.puts("[")
-		file.puts(@station.map{|e| e.to_s }.join(",\n"))
-		file.puts("]")
-		file.close
+		File.open(path, "w") do |f|
+			f.write(format_json(@station.map{|e| e.data}, flat:true))
+		end
 		puts "write station list. size:%d file:%s" % [@station.length, path] 
 	end
 	
