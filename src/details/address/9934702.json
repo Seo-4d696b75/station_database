@@ -1,0 +1,490 @@
+{
+  "station": "鹿島港南",
+  "lat": 35.878613,
+  "lng": 140.691106,
+  "plus_code": {
+    "compound_code": "VMHR+CC 日本、茨城県神栖市",
+    "global_code": "8R72VMHR+CC"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３０６１−４",
+          "short_name": "３０６１−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "知手",
+          "short_name": "知手",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "神栖市",
+          "short_name": "神栖市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "314-0115",
+          "short_name": "314-0115",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒314-0115 茨城県神栖市知手３０６１−４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.8778447,
+            "lng": 140.6918686
+          },
+          "southwest": {
+            "lat": 35.8774056,
+            "lng": 140.6913911
+          }
+        },
+        "location": {
+          "lat": 35.8776612,
+          "lng": 140.6916596
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.8789741302915,
+            "lng": 140.6929788302915
+          },
+          "southwest": {
+            "lat": 35.8762761697085,
+            "lng": 140.6902808697085
+          }
+        }
+      },
+      "place_id": "ChIJ8QcWvW8CI2ARv0aTHLFPvqU",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茨城県道240号",
+          "short_name": "県道240号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "知手",
+          "short_name": "知手",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "神栖市",
+          "short_name": "神栖市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "314-0115",
+          "short_name": "314-0115",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒314-0115 茨城県神栖市知手 県道240号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.8782293,
+            "lng": 140.6916368
+          },
+          "southwest": {
+            "lat": 35.8774634,
+            "lng": 140.6899748
+          }
+        },
+        "location": {
+          "lat": 35.8778401,
+          "lng": 140.6908103
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.8791953302915,
+            "lng": 140.6921547802915
+          },
+          "southwest": {
+            "lat": 35.8764973697085,
+            "lng": 140.6894568197085
+          }
+        }
+      },
+      "place_id": "ChIJr32-yG8CI2ARYv34AqFg1LM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "奥野谷",
+          "short_name": "奥野谷",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "神栖市",
+          "short_name": "神栖市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "314-0116",
+          "short_name": "314-0116",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒314-0116 茨城県神栖市奥野谷",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9117689,
+            "lng": 140.7211279
+          },
+          "southwest": {
+            "lat": 35.871395,
+            "lng": 140.6699119
+          }
+        },
+        "location": {
+          "lat": 35.8988879,
+          "lng": 140.70792
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9117689,
+            "lng": 140.7211279
+          },
+          "southwest": {
+            "lat": 35.871395,
+            "lng": 140.6699119
+          }
+        }
+      },
+      "place_id": "ChIJp6p-BBQCI2ARTng3F6I7os4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "314-0116",
+          "short_name": "314-0116",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "奥野谷",
+          "short_name": "奥野谷",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "神栖市",
+          "short_name": "神栖市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒314-0116",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9117694,
+            "lng": 140.7209757
+          },
+          "southwest": {
+            "lat": 35.8713955,
+            "lng": 140.6699243
+          }
+        },
+        "location": {
+          "lat": 35.8988879,
+          "lng": 140.70792
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9117694,
+            "lng": 140.7209757
+          },
+          "southwest": {
+            "lat": 35.8713955,
+            "lng": 140.6699243
+          }
+        }
+      },
+      "place_id": "ChIJ8bGW6nQCI2ARfXyr1yasurA",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "神栖市",
+          "short_name": "神栖市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県神栖市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.952823,
+            "lng": 140.8489998
+          },
+          "southwest": {
+            "lat": 35.739356,
+            "lng": 140.598637
+          }
+        },
+        "location": {
+          "lat": 35.8898314,
+          "lng": 140.6647405
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.952823,
+            "lng": 140.8489998
+          },
+          "southwest": {
+            "lat": 35.739356,
+            "lng": 140.598637
+          }
+        }
+      },
+      "place_id": "ChIJ99wg2SsDI2ARTxpcMtQQDJI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        },
+        "location": {
+          "lat": 36.2193571,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        }
+      },
+      "place_id": "ChIJF8In71sYImARgMV4m4P7Spo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

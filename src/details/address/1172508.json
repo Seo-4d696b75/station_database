@@ -1,0 +1,477 @@
+{
+  "station": "泰久寺",
+  "lat": 35.366096,
+  "lng": 133.724149,
+  "plus_code": {
+    "compound_code": "9P8F+CM 日本、鳥取県倉吉市",
+    "global_code": "8Q7M9P8F+CM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３４４−１",
+          "short_name": "３４４−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "関金町泰久寺",
+          "short_name": "関金町泰久寺",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0404",
+          "short_name": "682-0404",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒682-0404 鳥取県倉吉市関金町泰久寺３４４−１",
+      "geometry": {
+        "location": {
+          "lat": 35.3662044,
+          "lng": 133.7258227
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3675533802915,
+            "lng": 133.7271716802915
+          },
+          "southwest": {
+            "lat": 35.3648554197085,
+            "lng": 133.7244737197085
+          }
+        }
+      },
+      "place_id": "ChIJPfmWcEV5VjURMBqDgybt-F4",
+      "plus_code": {
+        "compound_code": "9P8G+F8 日本、鳥取県 倉吉市",
+        "global_code": "8Q7M9P8G+F8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "倉吉江府溝口線",
+          "short_name": "県道45号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "関金町泰久寺",
+          "short_name": "関金町泰久寺",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0404",
+          "short_name": "682-0404",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒682-0404 鳥取県倉吉市関金町泰久寺 県道45号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3659471,
+            "lng": 133.7243945
+          },
+          "southwest": {
+            "lat": 35.3654507,
+            "lng": 133.7234771
+          }
+        },
+        "location": {
+          "lat": 35.3656666,
+          "lng": 133.7239617
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3670478802915,
+            "lng": 133.7252847802915
+          },
+          "southwest": {
+            "lat": 35.3643499197085,
+            "lng": 133.7225868197085
+          }
+        }
+      },
+      "place_id": "ChIJpSU74k95VjURfKllHwwWgWo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "682-0404",
+          "short_name": "682-0404",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "関金町泰久寺",
+          "short_name": "関金町泰久寺",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒682-0404",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.37508810000001,
+            "lng": 133.7330665
+          },
+          "southwest": {
+            "lat": 35.36283,
+            "lng": 133.712294
+          }
+        },
+        "location": {
+          "lat": 35.3698517,
+          "lng": 133.7214344
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.37508810000001,
+            "lng": 133.7330665
+          },
+          "southwest": {
+            "lat": 35.36283,
+            "lng": 133.712294
+          }
+        }
+      },
+      "place_id": "ChIJleCHHUR5VjURE20c0kX3uTk",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "関金町泰久寺",
+          "short_name": "関金町泰久寺",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鳥取県倉吉市関金町泰久寺",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.375088,
+            "lng": 133.734636
+          },
+          "southwest": {
+            "lat": 35.36283,
+            "lng": 133.7122939
+          }
+        },
+        "location": {
+          "lat": 35.3698517,
+          "lng": 133.7214344
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.375088,
+            "lng": 133.734636
+          },
+          "southwest": {
+            "lat": 35.36283,
+            "lng": 133.7122939
+          }
+        }
+      },
+      "place_id": "ChIJo5GE0kR5VjUR0-nz41Qacjg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鳥取県倉吉市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.481413,
+            "lng": 133.88752
+          },
+          "southwest": {
+            "lat": 35.308183,
+            "lng": 133.5758449
+          }
+        },
+        "location": {
+          "lat": 35.4304213,
+          "lng": 133.8260633
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.481413,
+            "lng": 133.88752
+          },
+          "southwest": {
+            "lat": 35.308183,
+            "lng": 133.5758449
+          }
+        }
+      },
+      "place_id": "ChIJ69UgxZh5VjURu4RXXBIjNb4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鳥取県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.614654,
+            "lng": 134.515376
+          },
+          "southwest": {
+            "lat": 35.0577855,
+            "lng": 133.1358971
+          }
+        },
+        "location": {
+          "lat": 35.3573161,
+          "lng": 133.4066618
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.614654,
+            "lng": 134.515376
+          },
+          "southwest": {
+            "lat": 35.0577855,
+            "lng": 133.1358971
+          }
+        }
+      },
+      "place_id": "ChIJB0-MsELXVTUR7pLgQAxBLzs",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "station": "稗田",
+  "lat": 34.499198,
+  "lng": 133.804301,
+  "plus_code": {
+    "compound_code": "FRX3+MP 日本、岡山県倉敷市",
+    "global_code": "8Q6MFRX3+MP"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "４０１４−５",
+          "short_name": "４０１４−５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "児島稗田町",
+          "short_name": "児島稗田町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "711-0937",
+          "short_name": "711-0937",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒711-0937 岡山県倉敷市児島稗田町４０１４−５",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.4991288,
+            "lng": 133.8040781
+          },
+          "southwest": {
+            "lat": 34.4989907,
+            "lng": 133.8038892
+          }
+        },
+        "location": {
+          "lat": 34.499056,
+          "lng": 133.8039796
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 34.5004087302915,
+            "lng": 133.8053326302915
+          },
+          "southwest": {
+            "lat": 34.4977107697085,
+            "lng": 133.8026346697085
+          }
+        }
+      },
+      "place_id": "ChIJE7oY4IniUzUReczm9Z5Nl8c",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１８９７",
+          "short_name": "１８９７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "児島稗田町",
+          "short_name": "児島稗田町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "711-0937",
+          "short_name": "711-0937",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒711-0937 岡山県倉敷市児島稗田町１８９７",
+      "geometry": {
+        "location": {
+          "lat": 34.4990852,
+          "lng": 133.8046309
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 34.50043418029149,
+            "lng": 133.8059798802915
+          },
+          "southwest": {
+            "lat": 34.49773621970849,
+            "lng": 133.8032819197085
+          }
+        }
+      },
+      "place_id": "ChIJCccS-4niUzUROZhifnS1xE0",
+      "plus_code": {
+        "compound_code": "FRX3+JV 日本、岡山県 倉敷市",
+        "global_code": "8Q6MFRX3+JV"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "児島稗田町",
+          "short_name": "児島稗田町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "711-0937",
+          "short_name": "711-0937",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 児島稗田町 倉敷市 岡山県 711-0937 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.5004757,
+            "lng": 133.8049797
+          },
+          "southwest": {
+            "lat": 34.4986425,
+            "lng": 133.8032346
+          }
+        },
+        "location": {
+          "lat": 34.4992844,
+          "lng": 133.8043127
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 34.5009080802915,
+            "lng": 133.8054561302915
+          },
+          "southwest": {
+            "lat": 34.4982101197085,
+            "lng": 133.8027581697085
+          }
+        }
+      },
+      "place_id": "ChIJMTd66IniUzUR1tt0fjNG-SI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "児島稗田町",
+          "short_name": "児島稗田町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "711-0937",
+          "short_name": "711-0937",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒711-0937 岡山県倉敷市児島稗田町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.515756,
+            "lng": 133.8222601
+          },
+          "southwest": {
+            "lat": 34.491808,
+            "lng": 133.7901599
+          }
+        },
+        "location": {
+          "lat": 34.5029833,
+          "lng": 133.8051939
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.515756,
+            "lng": 133.8222601
+          },
+          "southwest": {
+            "lat": 34.491808,
+            "lng": 133.7901599
+          }
+        }
+      },
+      "place_id": "ChIJpTKqP4ziUzUReQ_TwU7i5y8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "711-0937",
+          "short_name": "711-0937",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "児島稗田町",
+          "short_name": "児島稗田町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒711-0937",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.5157556,
+            "lng": 133.8222604
+          },
+          "southwest": {
+            "lat": 34.4918077,
+            "lng": 133.7901604
+          }
+        },
+        "location": {
+          "lat": 34.5029833,
+          "lng": 133.8051939
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.5157556,
+            "lng": 133.8222604
+          },
+          "southwest": {
+            "lat": 34.4918077,
+            "lng": 133.7901604
+          }
+        }
+      },
+      "place_id": "ChIJP_ttjYziUzURk_Tk_lRxE0g",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "倉敷市",
+          "short_name": "倉敷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、岡山県倉敷市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.6694519,
+            "lng": 133.88216
+          },
+          "southwest": {
+            "lat": 34.4173279,
+            "lng": 133.602364
+          }
+        },
+        "location": {
+          "lat": 34.5849782,
+          "lng": 133.7719812
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.6694519,
+            "lng": 133.88216
+          },
+          "southwest": {
+            "lat": 34.4173279,
+            "lng": 133.602364
+          }
+        }
+      },
+      "place_id": "ChIJHRYTPbhZUTURPsJqUXABtgM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岡山県",
+          "short_name": "岡山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、岡山県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3529353,
+            "lng": 134.4128796
+          },
+          "southwest": {
+            "lat": 34.2984259,
+            "lng": 133.2667459
+          }
+        },
+        "location": {
+          "lat": 34.8963407,
+          "lng": 133.6375314
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3529353,
+            "lng": 134.4128796
+          },
+          "southwest": {
+            "lat": 34.2984259,
+            "lng": 133.2667459
+          }
+        }
+      },
+      "place_id": "ChIJh5W24jhmVDURU20vGB0GIdI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+"name":"京成成田空港線(成田スカイアクセス)",
+"symbol":"KS",
+"color":"#FF8620",
+"station_list":[
+  {"name":"京成上野","numbering":[{"index":"01"}]},
+  {"name":"日暮里","numbering":[{"index":"02"}]},
+  {"name":"青砥","numbering":[{"index":"09"}]},
+  {"name":"京成高砂","numbering":[{"index":"10"}]},
+  {"name":"東松戸","numbering":[{"symbol":"HS","index":"05"}]},
+  {"name":"新鎌ヶ谷","numbering":[{"symbol":"HS","index":"08"}]},
+  {"name":"千葉ニュータウン中央","numbering":[{"symbol":"HS","index":"12"}]},
+  {"name":"印旛日本医大","numbering":[{"symbol":"HS","index":"14"}]},
+  {"name":"成田湯川","numbering":[{"index":"43"}]},
+  {"name":"空港第２ビル（成田第２・第３ターミナル）","numbering":[{"index":"41"}]},
+  {"name":"成田空港（成田第１ターミナル）","numbering":[{"index":"42"}]}
+]
+}

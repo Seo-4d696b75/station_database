@@ -1,0 +1,755 @@
+{
+  "station": "嘉手納",
+  "lat": 26.362752,
+  "lng": 127.755192,
+  "plus_code": {
+    "compound_code": "9Q74+43 日本、沖縄県嘉手納町",
+    "global_code": "7QR99Q74+43"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２９０−４",
+          "short_name": "２９０−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "904-0203",
+          "short_name": "904-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒904-0203 沖縄県中頭郡嘉手納町字嘉手納２９０−４",
+      "geometry": {
+        "location": {
+          "lat": 26.3628269,
+          "lng": 127.755429
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.3641758802915,
+            "lng": 127.7567779802915
+          },
+          "southwest": {
+            "lat": 26.36147791970849,
+            "lng": 127.7540800197085
+          }
+        }
+      },
+      "place_id": "ChIJsyXKLtgT5TQRjVYjGuviQko",
+      "plus_code": {
+        "compound_code": "9Q74+45 日本、沖縄県 嘉手納町",
+        "global_code": "7QR99Q74+45"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４７４",
+          "short_name": "４７４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "904-0203",
+          "short_name": "904-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒904-0203 沖縄県中頭郡嘉手納町字嘉手納４７４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.3626342,
+            "lng": 127.7550706
+          },
+          "southwest": {
+            "lat": 26.3624594,
+            "lng": 127.7549061
+          }
+        },
+        "location": {
+          "lat": 26.3625199,
+          "lng": 127.7549707
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.3638957802915,
+            "lng": 127.7563373302915
+          },
+          "southwest": {
+            "lat": 26.3611978197085,
+            "lng": 127.7536393697085
+          }
+        }
+      },
+      "place_id": "ChIJZ7_-0dkT5TQRPgiMSs0QDgA",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２９０−４",
+          "short_name": "２９０−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "904-0203",
+          "short_name": "904-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒904-0203 沖縄県中頭郡嘉手納町字嘉手納２９０−４",
+      "geometry": {
+        "location": {
+          "lat": 26.362992,
+          "lng": 127.7553195
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 26.36434098029151,
+            "lng": 127.7566684802915
+          },
+          "southwest": {
+            "lat": 26.3616430197085,
+            "lng": 127.7539705197085
+          }
+        }
+      },
+      "place_id": "ChIJO10aLNgT5TQRb5hglQBzPUM",
+      "plus_code": {
+        "compound_code": "9Q74+54 日本、沖縄県 嘉手納町",
+        "global_code": "7QR99Q74+54"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南区自治会通り",
+          "short_name": "南区自治会通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "904-0203",
+          "short_name": "904-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒904-0203 沖縄県中頭郡嘉手納町字嘉手納 南区自治会通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.362535,
+            "lng": 127.7553215
+          },
+          "southwest": {
+            "lat": 26.3624853,
+            "lng": 127.7551289
+          }
+        },
+        "location": {
+          "lat": 26.3625277,
+          "lng": 127.7552262
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 26.3638591302915,
+            "lng": 127.7565741802915
+          },
+          "southwest": {
+            "lat": 26.3611611697085,
+            "lng": 127.7538762197085
+          }
+        }
+      },
+      "place_id": "ChIJX_Vm0dkT5TQRcMbJ7MdkwFw",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "904-0203",
+          "short_name": "904-0203",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒904-0203",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.3686157,
+            "lng": 127.7626195
+          },
+          "southwest": {
+            "lat": 26.3589952,
+            "lng": 127.7482963
+          }
+        },
+        "location": {
+          "lat": 26.3643859,
+          "lng": 127.7543272
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.3686157,
+            "lng": 127.7626195
+          },
+          "southwest": {
+            "lat": 26.3589952,
+            "lng": 127.7482963
+          }
+        }
+      },
+      "place_id": "ChIJPZ49F9gT5TQRqZ27tqqAQMc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字嘉手納",
+          "short_name": "字嘉手納",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県中頭郡嘉手納町字嘉手納",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.368616,
+            "lng": 127.762619
+          },
+          "southwest": {
+            "lat": 26.357886,
+            "lng": 127.748296
+          }
+        },
+        "location": {
+          "lat": 26.3643859,
+          "lng": 127.7543272
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.368616,
+            "lng": 127.762619
+          },
+          "southwest": {
+            "lat": 26.357886,
+            "lng": 127.748296
+          }
+        }
+      },
+      "place_id": "ChIJTyU-IdgT5TQRK1DqYkEu1Gg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "嘉手納町",
+          "short_name": "嘉手納町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県中頭郡嘉手納町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.4077239,
+            "lng": 127.7888338
+          },
+          "southwest": {
+            "lat": 26.339955,
+            "lng": 127.739162
+          }
+        },
+        "location": {
+          "lat": 26.3616176,
+          "lng": 127.7549744
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.4077239,
+            "lng": 127.7888338
+          },
+          "southwest": {
+            "lat": 26.339955,
+            "lng": 127.739162
+          }
+        }
+      },
+      "place_id": "ChIJ5aEumXcR5TQR07i1K5zFG9w",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中頭郡",
+          "short_name": "中頭郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県中頭郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 26.4418428,
+            "lng": 127.8289384
+          },
+          "southwest": {
+            "lat": 26.2085318,
+            "lng": 127.7113342
+          }
+        },
+        "location": {
+          "lat": 26.3350931,
+          "lng": 127.7556556
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 26.4418428,
+            "lng": 127.8289384
+          },
+          "southwest": {
+            "lat": 26.2085318,
+            "lng": 127.7113342
+          }
+        }
+      },
+      "place_id": "ChIJA6dLclQS5TQRf97nFGLAAXo",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "沖縄県",
+          "short_name": "沖縄県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、沖縄県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 27.8858935,
+            "lng": 131.3321298
+          },
+          "southwest": {
+            "lat": 24.0455949,
+            "lng": 122.9336694
+          }
+        },
+        "location": {
+          "lat": 26.1201911,
+          "lng": 127.7025012
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 27.8858935,
+            "lng": 131.3321298
+          },
+          "southwest": {
+            "lat": 24.0455949,
+            "lng": 122.9336694
+          }
+        }
+      },
+      "place_id": "ChIJ51ur7mJw9TQR79H9hnJhuzU",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

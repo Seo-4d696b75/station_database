@@ -1,0 +1,22 @@
+{
+"name":"京都市営地下鉄烏丸線",
+"symbol":"K",
+"color":"#3CB371",
+"station_list":[
+  {"name":"国際会館","numbering":[{"index":"01"}]},
+  {"name":"松ヶ崎(京都)","numbering":[{"index":"02"}]},
+  {"name":"北山(京都)","numbering":[{"index":"03"}]},
+  {"name":"北大路","numbering":[{"index":"04"}]},
+  {"name":"鞍馬口","numbering":[{"index":"05"}]},
+  {"name":"今出川","numbering":[{"index":"06"}]},
+  {"name":"丸太町","numbering":[{"index":"07"}]},
+  {"name":"烏丸御池","numbering":[{"index":"08"}]},
+  {"name":"四条","numbering":[{"index":"09"}]},
+  {"name":"五条(京都)","numbering":[{"index":"10"}]},
+  {"name":"京都","numbering":[{"index":"11"}]},
+  {"name":"九条(京都)","numbering":[{"index":"12"}]},
+  {"name":"十条(京都市交通局)","numbering":[{"index":"13"}]},
+  {"name":"くいな橋","numbering":[{"index":"14"}]},
+  {"name":"竹田(京都)","numbering":[{"index":"15"},{"symbol":"B","color":"#FFD700","index":"05"}]}
+]
+}

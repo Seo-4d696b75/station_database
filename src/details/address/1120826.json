@@ -1,0 +1,731 @@
+{
+  "station": "八幡大橋（東陵高校）",
+  "lat": 38.920964,
+  "lng": 141.5853,
+  "plus_code": {
+    "compound_code": "WHCP+94 日本、宮城県気仙沼市",
+    "global_code": "8RC3WHCP+94"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "八幡大橋［気仙沼市］（バス）",
+          "short_name": "八幡大橋［気仙沼市］（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前 八幡大橋［気仙沼市］（バス）",
+      "geometry": {
+        "location": {
+          "lat": 38.92096,
+          "lng": 141.5853
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9223089802915,
+            "lng": 141.5866489802915
+          },
+          "southwest": {
+            "lat": 38.9196110197085,
+            "lng": 141.5839510197085
+          }
+        }
+      },
+      "place_id": "ChIJPWFBUkqUiF8Rha0LN21JYt8",
+      "plus_code": {
+        "compound_code": "WHCP+94 日本、宮城県 気仙沼市",
+        "global_code": "8RC3WHCP+94"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６９−２",
+          "short_name": "６９−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前６９−２",
+      "geometry": {
+        "location": {
+          "lat": 38.9212383,
+          "lng": 141.5854052
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9225872802915,
+            "lng": 141.5867541802915
+          },
+          "southwest": {
+            "lat": 38.9198893197085,
+            "lng": 141.5840562197085
+          }
+        }
+      },
+      "place_id": "ChIJGQ4VV0qUiF8RNEOiic5WGC8",
+      "plus_code": {
+        "compound_code": "WHCP+F5 日本、宮城県 気仙沼市",
+        "global_code": "8RC3WHCP+F5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "69‐2",
+          "short_name": "69‐2",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前69‐2",
+      "geometry": {
+        "location": {
+          "lat": 38.9212383,
+          "lng": 141.5854052
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9225872802915,
+            "lng": 141.5867541802915
+          },
+          "southwest": {
+            "lat": 38.9198893197085,
+            "lng": 141.5840562197085
+          }
+        }
+      },
+      "place_id": "ChIJZweuVUqUiF8Re54GpZrLGkk",
+      "plus_code": {
+        "compound_code": "WHCP+F5 日本、宮城県 気仙沼市",
+        "global_code": "8RC3WHCP+F5"
+      },
+      "types": [
+        "atm",
+        "convenience_store",
+        "establishment",
+        "finance",
+        "food",
+        "point_of_interest",
+        "store"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "７２−２",
+          "short_name": "７２−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前７２−２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.9214666,
+            "lng": 141.585604
+          },
+          "southwest": {
+            "lat": 38.9211181,
+            "lng": 141.5852126
+          }
+        },
+        "location": {
+          "lat": 38.9213066,
+          "lng": 141.5853848
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9226413302915,
+            "lng": 141.5867572802915
+          },
+          "southwest": {
+            "lat": 38.9199433697085,
+            "lng": 141.5840593197085
+          }
+        }
+      },
+      "place_id": "ChIJJxBBV0qUiF8RL_I21-GQGlI",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "気仙沼バイパス",
+          "short_name": "国道45号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前 国道45号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.9209708,
+            "lng": 141.5858032
+          },
+          "southwest": {
+            "lat": 38.9208928,
+            "lng": 141.5850717
+          }
+        },
+        "location": {
+          "lat": 38.9209318,
+          "lng": 141.5854374
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.92228078029149,
+            "lng": 141.5867864302915
+          },
+          "southwest": {
+            "lat": 38.91958281970849,
+            "lng": 141.5840884697085
+          }
+        }
+      },
+      "place_id": "ChIJ_QcJUkqUiF8RAssRQLYDrOA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒988-0811 宮城県気仙沼市東八幡前",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.930978,
+            "lng": 141.604538
+          },
+          "southwest": {
+            "lat": 38.915554,
+            "lng": 141.5834909
+          }
+        },
+        "location": {
+          "lat": 38.9244871,
+          "lng": 141.5901265
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.930978,
+            "lng": 141.604538
+          },
+          "southwest": {
+            "lat": 38.915554,
+            "lng": 141.5834909
+          }
+        }
+      },
+      "place_id": "ChIJ-36RqTaUiF8RZL78LVnbZJ8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "988-0811",
+          "short_name": "988-0811",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "東八幡前",
+          "short_name": "東八幡前",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒988-0811",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.9309775,
+            "lng": 141.6045378
+          },
+          "southwest": {
+            "lat": 38.9155542,
+            "lng": 141.5834909
+          }
+        },
+        "location": {
+          "lat": 38.9244871,
+          "lng": 141.5901265
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9309775,
+            "lng": 141.6045378
+          },
+          "southwest": {
+            "lat": 38.9155542,
+            "lng": 141.5834909
+          }
+        }
+      },
+      "place_id": "ChIJdw2jBUqUiF8Rl5-PxNTrC5s",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県気仙沼市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.002745,
+            "lng": 141.677383
+          },
+          "southwest": {
+            "lat": 38.739654,
+            "lng": 141.3987501
+          }
+        },
+        "location": {
+          "lat": 38.907641,
+          "lng": 141.5703316
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.002745,
+            "lng": 141.677383
+          },
+          "southwest": {
+            "lat": 38.739654,
+            "lng": 141.3987501
+          }
+        }
+      },
+      "place_id": "ChIJu2OZ_v6UiF8Rd4p3l7LihwA",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        },
+        "location": {
+          "lat": 38.630612,
+          "lng": 141.1193048
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        }
+      },
+      "place_id": "ChIJcdzg-92SiF8RraQHUTi5b84",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

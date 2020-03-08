@@ -1,0 +1,585 @@
+{
+  "station": "坪川",
+  "lat": 40.768221,
+  "lng": 141.147994,
+  "plus_code": {
+    "compound_code": "Q49X+75 日本、青森県七戸町",
+    "global_code": "8RG3Q49X+75"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３８",
+          "short_name": "３８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字天間舘前川原",
+          "short_name": "字天間舘前川原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "七戸町",
+          "short_name": "七戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "039-2733",
+          "short_name": "039-2733",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒039-2733 青森県上北郡七戸町字天間舘前川原３８",
+      "geometry": {
+        "location": {
+          "lat": 40.7691664,
+          "lng": 141.1472503
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 40.7705153802915,
+            "lng": 141.1485992802915
+          },
+          "southwest": {
+            "lat": 40.7678174197085,
+            "lng": 141.1459013197085
+          }
+        }
+      },
+      "place_id": "ChIJAeaUgNBkm18RGIkLsYpoGRw",
+      "plus_code": {
+        "compound_code": "Q49W+MW 日本、青森県 七戸町",
+        "global_code": "8RG3Q49W+MW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字天間舘前川原",
+          "short_name": "字天間舘前川原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "七戸町",
+          "short_name": "七戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "039-2733",
+          "short_name": "039-2733",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字天間舘前川原 七戸町 上北郡 青森県 039-2733 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.7687998,
+            "lng": 141.1477999
+          },
+          "southwest": {
+            "lat": 40.7680725,
+            "lng": 141.147203
+          }
+        },
+        "location": {
+          "lat": 40.7682779,
+          "lng": 141.1473163
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 40.76978513029149,
+            "lng": 141.1488504302915
+          },
+          "southwest": {
+            "lat": 40.76708716970849,
+            "lng": 141.1461524697085
+          }
+        }
+      },
+      "place_id": "ChIJFVSnetpkm18Rcm58KTStP6g",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字天間舘前川原",
+          "short_name": "字天間舘前川原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "七戸町",
+          "short_name": "七戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "039-2733",
+          "short_name": "039-2733",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒039-2733 青森県上北郡七戸町字天間舘前川原",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.772439,
+            "lng": 141.160315
+          },
+          "southwest": {
+            "lat": 40.762267,
+            "lng": 141.1432649
+          }
+        },
+        "location": {
+          "lat": 40.7680468,
+          "lng": 141.1526337
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.772439,
+            "lng": 141.160315
+          },
+          "southwest": {
+            "lat": 40.762267,
+            "lng": 141.1432649
+          }
+        }
+      },
+      "place_id": "ChIJRYNOcttkm18R7rFLFM0Bl5E",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "039-2733",
+          "short_name": "039-2733",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字天間舘前川原",
+          "short_name": "字天間舘前川原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "七戸町",
+          "short_name": "七戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒039-2733",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.77243920000001,
+            "lng": 141.1603145
+          },
+          "southwest": {
+            "lat": 40.7622668,
+            "lng": 141.143265
+          }
+        },
+        "location": {
+          "lat": 40.7680468,
+          "lng": 141.1526337
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.77243920000001,
+            "lng": 141.1603145
+          },
+          "southwest": {
+            "lat": 40.7622668,
+            "lng": 141.143265
+          }
+        }
+      },
+      "place_id": "ChIJIX6J6dBkm18R3xB3P74N3Co",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "七戸町",
+          "short_name": "七戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、青森県上北郡七戸町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.816688,
+            "lng": 141.2715231
+          },
+          "southwest": {
+            "lat": 40.6332509,
+            "lng": 140.901229
+          }
+        },
+        "location": {
+          "lat": 40.6974224,
+          "lng": 141.1510243
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.816688,
+            "lng": 141.2715231
+          },
+          "southwest": {
+            "lat": 40.6332509,
+            "lng": 140.901229
+          }
+        }
+      },
+      "place_id": "ChIJS7EGqqRvm18R1ycGbaSZ_Jc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上北郡",
+          "short_name": "上北郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、青森県上北郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.157649,
+            "lng": 141.4631398
+          },
+          "southwest": {
+            "lat": 40.5626697,
+            "lng": 140.9012285
+          }
+        },
+        "location": {
+          "lat": 40.8312126,
+          "lng": 141.1799647
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.157649,
+            "lng": 141.4631398
+          },
+          "southwest": {
+            "lat": 40.5626697,
+            "lng": 140.9012285
+          }
+        }
+      },
+      "place_id": "ChIJ6eceCu99m18RGG7VrMOBnak",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、青森県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.5561335,
+            "lng": 141.6830258
+          },
+          "southwest": {
+            "lat": 40.2177282,
+            "lng": 139.4974002
+          }
+        },
+        "location": {
+          "lat": 40.7657077,
+          "lng": 140.9175879
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.5561335,
+            "lng": 141.6830258
+          },
+          "southwest": {
+            "lat": 40.2177282,
+            "lng": 139.4974002
+          }
+        }
+      },
+      "place_id": "ChIJR60vIL2bm18Ro_kApp-uBak",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

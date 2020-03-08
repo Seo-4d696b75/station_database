@@ -1,0 +1,861 @@
+{
+  "station": "下江波",
+  "lat": 35.941837,
+  "lng": 136.074583,
+  "plus_code": {
+    "compound_code": "W3RF+PR 日本、福井県越前町",
+    "global_code": "8Q7RW3RF+PR"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "７７−８",
+          "short_name": "７７−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波７７−８",
+      "geometry": {
+        "location": {
+          "lat": 35.9415874,
+          "lng": 136.0746494
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9429363802915,
+            "lng": 136.0759983802915
+          },
+          "southwest": {
+            "lat": 35.9402384197085,
+            "lng": 136.0733004197085
+          }
+        }
+      },
+      "place_id": "ChIJr8pqvbSz-F8RLfZxob1mUw8",
+      "plus_code": {
+        "compound_code": "W3RF+JV 日本、福井県 越前町",
+        "global_code": "8Q7RW3RF+JV"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "７７−８−１",
+          "short_name": "７７−８−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波７７−８−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9416409,
+            "lng": 136.0748116
+          },
+          "southwest": {
+            "lat": 35.9414986,
+            "lng": 136.0745304
+          }
+        },
+        "location": {
+          "lat": 35.9415847,
+          "lng": 136.0746818
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9429187302915,
+            "lng": 136.0760199802915
+          },
+          "southwest": {
+            "lat": 35.9402207697085,
+            "lng": 136.0733220197085
+          }
+        }
+      },
+      "place_id": "ChIJHZlqvbSz-F8RXJHAWKotV3c",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "７６",
+          "short_name": "７６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波７６",
+      "geometry": {
+        "location": {
+          "lat": 35.94213,
+          "lng": 136.0748494
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.94347898029149,
+            "lng": 136.0761983802915
+          },
+          "southwest": {
+            "lat": 35.9407810197085,
+            "lng": 136.0735004197085
+          }
+        }
+      },
+      "place_id": "ChIJEyFY7LSz-F8RaW-qogWJW6A",
+      "plus_code": {
+        "compound_code": "W3RF+VW 日本、福井県 越前町",
+        "global_code": "8Q7RW3RF+VW"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "下江波",
+          "short_name": "下江波",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波 下江波",
+      "geometry": {
+        "location": {
+          "lat": 35.941711,
+          "lng": 136.0752109
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9430599802915,
+            "lng": 136.0765598802915
+          },
+          "southwest": {
+            "lat": 35.9403620197085,
+            "lng": 136.0738619197085
+          }
+        }
+      },
+      "place_id": "ChIJvWkWv7Sz-F8R0uJfJWtAOvY",
+      "plus_code": {
+        "compound_code": "W3RG+M3 日本、福井県 越前町",
+        "global_code": "8Q7RW3RG+M3"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鯖江織田線",
+          "short_name": "県道104号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波 県道104号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9418806,
+            "lng": 136.0751268
+          },
+          "southwest": {
+            "lat": 35.9417853,
+            "lng": 136.0744773
+          }
+        },
+        "location": {
+          "lat": 35.941833,
+          "lng": 136.0748021
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9431819302915,
+            "lng": 136.0761510302915
+          },
+          "southwest": {
+            "lat": 35.9404839697085,
+            "lng": 136.0734530697085
+          }
+        }
+      },
+      "place_id": "ChIJmY2vlbSz-F8RQBLBwVi9duc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒916-0255",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9527996,
+            "lng": 136.084379
+          },
+          "southwest": {
+            "lat": 35.9256095,
+            "lng": 136.0590382
+          }
+        },
+        "location": {
+          "lat": 35.9430441,
+          "lng": 136.0703889
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9527996,
+            "lng": 136.084379
+          },
+          "southwest": {
+            "lat": 35.9256095,
+            "lng": 136.0590382
+          }
+        }
+      },
+      "place_id": "ChIJCcoWubSz-F8RqHCuScooAgc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "江波",
+          "short_name": "江波",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0255",
+          "short_name": "916-0255",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0255 福井県丹生郡越前町江波",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9528,
+            "lng": 136.0843789
+          },
+          "southwest": {
+            "lat": 35.925591,
+            "lng": 136.059036
+          }
+        },
+        "location": {
+          "lat": 35.9430441,
+          "lng": 136.0703889
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9528,
+            "lng": 136.0843789
+          },
+          "southwest": {
+            "lat": 35.925591,
+            "lng": 136.059036
+          }
+        }
+      },
+      "place_id": "ChIJ3S3TyLKz-F8R1KZomKgMZHE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県丹生郡越前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.0281241,
+            "lng": 136.1561577
+          },
+          "southwest": {
+            "lat": 35.8723612,
+            "lng": 135.9571144
+          }
+        },
+        "location": {
+          "lat": 35.9521625,
+          "lng": 136.0611399
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.0281241,
+            "lng": 136.1561577
+          },
+          "southwest": {
+            "lat": 35.8723612,
+            "lng": 135.9571144
+          }
+        }
+      },
+      "place_id": "ChIJ0Qpr95Wz-F8RIXqA0QElUdM",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県丹生郡越前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.028124,
+            "lng": 136.156158
+          },
+          "southwest": {
+            "lat": 35.872361,
+            "lng": 135.957115
+          }
+        },
+        "location": {
+          "lat": 35.974015,
+          "lng": 136.1298901
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.028124,
+            "lng": 136.156158
+          },
+          "southwest": {
+            "lat": 35.872361,
+            "lng": 135.957115
+          }
+        }
+      },
+      "place_id": "ChIJ0Qpr95Wz-F8REUjFK2QWdAI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2956473,
+            "lng": 136.8323338
+          },
+          "southwest": {
+            "lat": 35.3436705,
+            "lng": 135.4493413
+          }
+        },
+        "location": {
+          "lat": 35.896227,
+          "lng": 136.2111579
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2956473,
+            "lng": 136.8323338
+          },
+          "southwest": {
+            "lat": 35.3436705,
+            "lng": 135.4493413
+          }
+        }
+      },
+      "place_id": "ChIJEb6scKhV_18RYA7nHjFfIQo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

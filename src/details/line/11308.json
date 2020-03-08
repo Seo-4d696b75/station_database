@@ -1,0 +1,26 @@
+{
+"name":"JR横須賀線",
+"symbol":"JO",
+"color":"#007AC0",
+"station_list":[
+  {"name":"東京","numbering":[{"index":"19"}]},
+  {"name":"新橋","numbering":[{"index":"18"}]},
+  {"name":"品川","numbering":[{"index":"17"}]},
+  {"name":"西大井","numbering":[{"index":"16"},{"symbol":"JS","color":"#E21F26","index":"16"}]},
+  {"name":"武蔵小杉","numbering":[{"index":"15"},{"symbol":"JS","color":"#E21F26","index":"15"}]},
+  {"name":"新川崎","numbering":[{"index":"14"},{"symbol":"JS","color":"#E21F26","index":"14"}]},
+  {"name":"横浜","numbering":[{"index":"13"},{"symbol":"JS","color":"#E21F26","index":"13"}]},
+  {"name":"保土ケ谷","numbering":[{"index":"12"},{"symbol":"JS","color":"#E21F26","index":"12"}]},
+  {"name":"東戸塚","numbering":[{"index":"11"},{"symbol":"JS","color":"#E21F26","index":"11"}]},
+  {"name":"戸塚","numbering":[{"index":"10"},{"symbol":"JS","color":"#E21F26","index":"10"}]},
+  {"name":"大船","numbering":[{"index":"09"},{"symbol":"JS","color":"#E21F26","index":"09"}]},
+  {"name":"北鎌倉","numbering":[{"index":"08"},{"symbol":"JS","color":"#E21F26","index":"08"}]},
+  {"name":"鎌倉","numbering":[{"index":"07"},{"symbol":"JS","color":"#E21F26","index":"07"}]},
+  {"name":"逗子","numbering":[{"index":"06"},{"symbol":"JS","color":"#E21F26","index":"06"}]},
+  {"name":"東逗子","numbering":[{"index":"05"}]},
+  {"name":"田浦","numbering":[{"index":"04"}]},
+  {"name":"横須賀","numbering":[{"index":"03"}]},
+  {"name":"衣笠","numbering":[{"index":"02"}]},
+  {"name":"久里浜","numbering":[{"index":"01"}]}
+]
+}

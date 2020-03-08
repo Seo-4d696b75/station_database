@@ -1,0 +1,854 @@
+{
+  "station": "佐々生",
+  "lat": 35.954142,
+  "lng": 136.12125,
+  "plus_code": {
+    "compound_code": "X43C+MG 日本、福井県越前町",
+    "global_code": "8Q7RX43C+MG"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "４３−１１−１",
+          "short_name": "４３−１１−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生４３−１１−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9540865,
+            "lng": 136.1212826
+          },
+          "southwest": {
+            "lat": 35.953923,
+            "lng": 136.1211127
+          }
+        },
+        "location": {
+          "lat": 35.9540023,
+          "lng": 136.121213
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.95535373029151,
+            "lng": 136.1225466302915
+          },
+          "southwest": {
+            "lat": 35.95265576970851,
+            "lng": 136.1198486697085
+          }
+        }
+      },
+      "place_id": "ChIJ61KPGJqx-F8RNYPbaYRrrs4",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４３",
+          "short_name": "４３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生４３",
+      "geometry": {
+        "location": {
+          "lat": 35.9539926,
+          "lng": 136.1212058
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9553415802915,
+            "lng": 136.1225547802915
+          },
+          "southwest": {
+            "lat": 35.9526436197085,
+            "lng": 136.1198568197085
+          }
+        }
+      },
+      "place_id": "ChIJkRqnPpqx-F8RpRymlJy_0zw",
+      "plus_code": {
+        "compound_code": "X43C+HF 日本、福井県 越前町",
+        "global_code": "8Q7RX43C+HF"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生 Unnamed Road",
+      "geometry": {
+        "location": {
+          "lat": 35.95406699999999,
+          "lng": 136.121482
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9554159802915,
+            "lng": 136.1228309802915
+          },
+          "southwest": {
+            "lat": 35.9527180197085,
+            "lng": 136.1201330197085
+          }
+        }
+      },
+      "place_id": "ChIJ5yYo7cqx-F8R6xGLVHvJNjc",
+      "plus_code": {
+        "compound_code": "X43C+JH 日本、福井県 越前町",
+        "global_code": "8Q7RX43C+JH"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生 佐々生",
+      "geometry": {
+        "location": {
+          "lat": 35.953617,
+          "lng": 136.120377
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9549659802915,
+            "lng": 136.1217259802915
+          },
+          "southwest": {
+            "lat": 35.95226801970851,
+            "lng": 136.1190280197085
+          }
+        }
+      },
+      "place_id": "ChIJSRG-apqx-F8RNowrF550xqg",
+      "plus_code": {
+        "compound_code": "X43C+C5 日本、福井県 越前町",
+        "global_code": "8Q7RX43C+C5"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "寺朝日線",
+          "short_name": "県道187号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生 県道187号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9545814,
+            "lng": 136.121282
+          },
+          "southwest": {
+            "lat": 35.9536108,
+            "lng": 136.1203215
+          }
+        },
+        "location": {
+          "lat": 35.9541021,
+          "lng": 136.1207934
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9554450802915,
+            "lng": 136.1221507302915
+          },
+          "southwest": {
+            "lat": 35.9527471197085,
+            "lng": 136.1194527697085
+          }
+        }
+      },
+      "place_id": "ChIJXWpHI5qx-F8RKs3jmUorYWg",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒916-0144 福井県丹生郡越前町佐々生",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.964868,
+            "lng": 136.1388149
+          },
+          "southwest": {
+            "lat": 35.944478,
+            "lng": 136.10756
+          }
+        },
+        "location": {
+          "lat": 35.951397,
+          "lng": 136.1227
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.964868,
+            "lng": 136.1388149
+          },
+          "southwest": {
+            "lat": 35.944478,
+            "lng": 136.10756
+          }
+        }
+      },
+      "place_id": "ChIJS5UmwZmx-F8RSs-jfOMjJOk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "916-0144",
+          "short_name": "916-0144",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "佐々生",
+          "short_name": "佐々生",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒916-0144",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.9648676,
+            "lng": 136.1388391
+          },
+          "southwest": {
+            "lat": 35.9445696,
+            "lng": 136.1075603
+          }
+        },
+        "location": {
+          "lat": 35.951397,
+          "lng": 136.1227
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.9648676,
+            "lng": 136.1388391
+          },
+          "southwest": {
+            "lat": 35.9445696,
+            "lng": 136.1075603
+          }
+        }
+      },
+      "place_id": "ChIJM-Nc0Zqx-F8RjYTcNuKmJg8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県丹生郡越前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.0281241,
+            "lng": 136.1561577
+          },
+          "southwest": {
+            "lat": 35.8723612,
+            "lng": 135.9571144
+          }
+        },
+        "location": {
+          "lat": 35.9521625,
+          "lng": 136.0611399
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.0281241,
+            "lng": 136.1561577
+          },
+          "southwest": {
+            "lat": 35.8723612,
+            "lng": 135.9571144
+          }
+        }
+      },
+      "place_id": "ChIJ0Qpr95Wz-F8RIXqA0QElUdM",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "越前町",
+          "short_name": "越前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "丹生郡",
+          "short_name": "丹生郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県丹生郡越前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.028124,
+            "lng": 136.156158
+          },
+          "southwest": {
+            "lat": 35.872361,
+            "lng": 135.957115
+          }
+        },
+        "location": {
+          "lat": 35.974015,
+          "lng": 136.1298901
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.028124,
+            "lng": 136.156158
+          },
+          "southwest": {
+            "lat": 35.872361,
+            "lng": 135.957115
+          }
+        }
+      },
+      "place_id": "ChIJ0Qpr95Wz-F8REUjFK2QWdAI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "福井県",
+          "short_name": "福井県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福井県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2956473,
+            "lng": 136.8323338
+          },
+          "southwest": {
+            "lat": 35.3436705,
+            "lng": 135.4493413
+          }
+        },
+        "location": {
+          "lat": 35.896227,
+          "lng": 136.2111579
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2956473,
+            "lng": 136.8323338
+          },
+          "southwest": {
+            "lat": 35.3436705,
+            "lng": 135.4493413
+          }
+        }
+      },
+      "place_id": "ChIJEb6scKhV_18RYA7nHjFfIQo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

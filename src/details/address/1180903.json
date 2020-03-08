@@ -1,0 +1,798 @@
+{
+  "station": "羅漢",
+  "lat": 34.134115,
+  "lng": 134.433087,
+  "plus_code": {
+    "compound_code": "4CMM+J6 日本、徳島県板野町",
+    "global_code": "8Q6P4CMM+J6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１５−１",
+          "short_name": "１５−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "吉田",
+          "short_name": "吉田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒779-0114 徳島県板野郡板野町羅漢吉田１５−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1343237,
+            "lng": 134.4330909
+          },
+          "southwest": {
+            "lat": 34.1342219,
+            "lng": 134.4329152
+          }
+        },
+        "location": {
+          "lat": 34.1342651,
+          "lng": 134.4329861
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 34.13562178029149,
+            "lng": 134.4343520302915
+          },
+          "southwest": {
+            "lat": 34.13292381970849,
+            "lng": 134.4316540697085
+          }
+        }
+      },
+      "place_id": "ChIJ2wCUshx1UzURrnxp9L4qU6o",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４−２",
+          "short_name": "１４−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "吉田",
+          "short_name": "吉田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒779-0114 徳島県板野郡板野町羅漢吉田１４−２",
+      "geometry": {
+        "location": {
+          "lat": 34.1344052,
+          "lng": 134.4330193
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1357541802915,
+            "lng": 134.4343682802915
+          },
+          "southwest": {
+            "lat": 34.1330562197085,
+            "lng": 134.4316703197085
+          }
+        }
+      },
+      "place_id": "ChIJDW5FTQN1UzURdNn5nNgyURs",
+      "plus_code": {
+        "compound_code": "4CMM+Q6 日本、徳島県 板野町",
+        "global_code": "8Q6P4CMM+Q6"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "川北街道",
+          "short_name": "県道12号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "吉田",
+          "short_name": "吉田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒779-0114 徳島県板野郡板野町羅漢吉田 県道12号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1340935,
+            "lng": 134.4332079
+          },
+          "southwest": {
+            "lat": 34.1340524,
+            "lng": 134.4330227
+          }
+        },
+        "location": {
+          "lat": 34.134073,
+          "lng": 134.4331153
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1354219302915,
+            "lng": 134.4344642802915
+          },
+          "southwest": {
+            "lat": 34.1327239697085,
+            "lng": 134.4317663197085
+          }
+        }
+      },
+      "place_id": "ChIJJ6JJrhx1UzURgF1oDpckqhU",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "吉田",
+          "short_name": "吉田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒779-0114 徳島県板野郡板野町羅漢吉田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1350319,
+            "lng": 134.4344058
+          },
+          "southwest": {
+            "lat": 34.132596,
+            "lng": 134.431832
+          }
+        },
+        "location": {
+          "lat": 34.1339636,
+          "lng": 134.4332258
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1351629302915,
+            "lng": 134.4344678802915
+          },
+          "southwest": {
+            "lat": 34.1324649697085,
+            "lng": 134.4317699197085
+          }
+        }
+      },
+      "place_id": "ChIJVSCfsBx1UzURQEr73GZGsOM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒779-0114",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1392977,
+            "lng": 134.4371309
+          },
+          "southwest": {
+            "lat": 34.1277268,
+            "lng": 134.4261444
+          }
+        },
+        "location": {
+          "lat": 34.1340649,
+          "lng": 134.4311608
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1392977,
+            "lng": 134.4371309
+          },
+          "southwest": {
+            "lat": 34.1277268,
+            "lng": 134.4261444
+          }
+        }
+      },
+      "place_id": "ChIJMfxCRht1UzURM4FMOcWhQOc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "羅漢",
+          "short_name": "羅漢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "779-0114",
+          "short_name": "779-0114",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒779-0114 徳島県板野郡板野町羅漢",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.139298,
+            "lng": 134.4371309
+          },
+          "southwest": {
+            "lat": 34.12774,
+            "lng": 134.426144
+          }
+        },
+        "location": {
+          "lat": 34.1340649,
+          "lng": 134.4311608
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.139298,
+            "lng": 134.4371309
+          },
+          "southwest": {
+            "lat": 34.12774,
+            "lng": 134.426144
+          }
+        }
+      },
+      "place_id": "ChIJkbzTbRt1UzURwENHhzbx6iY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "板野町",
+          "short_name": "板野町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、徳島県板野郡板野町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1926781,
+            "lng": 134.4869699
+          },
+          "southwest": {
+            "lat": 34.114219,
+            "lng": 134.412894
+          }
+        },
+        "location": {
+          "lat": 34.1443613,
+          "lng": 134.4625881
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1926781,
+            "lng": 134.4869699
+          },
+          "southwest": {
+            "lat": 34.114219,
+            "lng": 134.412894
+          }
+        }
+      },
+      "place_id": "ChIJPTgVYEd0UzURNb5b5WtDcf8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "板野郡",
+          "short_name": "板野郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、徳島県板野郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.1926776,
+            "lng": 134.6256972
+          },
+          "southwest": {
+            "lat": 34.0878994,
+            "lng": 134.367819
+          }
+        },
+        "location": {
+          "lat": 34.1507407,
+          "lng": 134.455935
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.1926776,
+            "lng": 134.6256972
+          },
+          "southwest": {
+            "lat": 34.0878994,
+            "lng": 134.367819
+          }
+        }
+      },
+      "place_id": "ChIJVxjRPMNzUzURl7hvwIymLm4",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "徳島県",
+          "short_name": "徳島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、徳島県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.2520362,
+            "lng": 134.8222821
+          },
+          "southwest": {
+            "lat": 33.5372442,
+            "lng": 133.6606594
+          }
+        },
+        "location": {
+          "lat": 33.9419655,
+          "lng": 134.3236557
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.2520362,
+            "lng": 134.8222821
+          },
+          "southwest": {
+            "lat": 33.5372442,
+            "lng": 133.6606594
+          }
+        }
+      },
+      "place_id": "ChIJszfXrltNUjURDDHPZPlj3f0",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

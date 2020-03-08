@@ -1,0 +1,567 @@
+{
+  "station": "小鴨",
+  "lat": 35.410146,
+  "lng": 133.799347,
+  "plus_code": {
+    "compound_code": "CQ6X+3P 日本、鳥取県倉吉市",
+    "global_code": "8Q7MCQ6X+3P"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５５３",
+          "short_name": "５５３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "小鴨",
+          "short_name": "小鴨",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0931",
+          "short_name": "682-0931",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒682-0931 鳥取県倉吉市小鴨５５３",
+      "geometry": {
+        "location": {
+          "lat": 35.4100357,
+          "lng": 133.7994197
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.4113846802915,
+            "lng": 133.8007686802915
+          },
+          "southwest": {
+            "lat": 35.4086867197085,
+            "lng": 133.7980707197085
+          }
+        }
+      },
+      "place_id": "ChIJ8fKMng3YVTUR_Te0eWlTB5Y",
+      "plus_code": {
+        "compound_code": "CQ6X+2Q 日本、鳥取県 倉吉市",
+        "global_code": "8Q7MCQ6X+2Q"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５５３−６",
+          "short_name": "５５３−６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "小鴨",
+          "short_name": "小鴨",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0931",
+          "short_name": "682-0931",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒682-0931 鳥取県倉吉市小鴨５５３−６",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.410098,
+            "lng": 133.7995528
+          },
+          "southwest": {
+            "lat": 35.4099477,
+            "lng": 133.7992806
+          }
+        },
+        "location": {
+          "lat": 35.4100267,
+          "lng": 133.7994213
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.41137183029149,
+            "lng": 133.8007656802915
+          },
+          "southwest": {
+            "lat": 35.4086738697085,
+            "lng": 133.7980677197085
+          }
+        }
+      },
+      "place_id": "ChIJ2w7sng3YVTURZZk5_bvC6T8",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "小鴨",
+          "short_name": "小鴨",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0931",
+          "short_name": "682-0931",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 小鴨 倉吉市 鳥取県 682-0931 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.4101312,
+            "lng": 133.7994881
+          },
+          "southwest": {
+            "lat": 35.4096426,
+            "lng": 133.7991524
+          }
+        },
+        "location": {
+          "lat": 35.4099355,
+          "lng": 133.7992492
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.4112358802915,
+            "lng": 133.8006692302915
+          },
+          "southwest": {
+            "lat": 35.4085379197085,
+            "lng": 133.7979712697085
+          }
+        }
+      },
+      "place_id": "ChIJvbPumA3YVTURGArVFlXb6lA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中河原",
+          "short_name": "中河原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "682-0856",
+          "short_name": "682-0856",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒682-0856 鳥取県倉吉市中河原",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.416617,
+            "lng": 133.809722
+          },
+          "southwest": {
+            "lat": 35.403971,
+            "lng": 133.797259
+          }
+        },
+        "location": {
+          "lat": 35.41147910000001,
+          "lng": 133.8039983
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.416617,
+            "lng": 133.809722
+          },
+          "southwest": {
+            "lat": 35.403971,
+            "lng": 133.797259
+          }
+        }
+      },
+      "place_id": "ChIJLYtzvhLYVTURK5XnY56KoBU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "682-0856",
+          "short_name": "682-0856",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "中河原",
+          "short_name": "中河原",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒682-0856",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.4168501,
+            "lng": 133.8097215
+          },
+          "southwest": {
+            "lat": 35.4039707,
+            "lng": 133.7972683
+          }
+        },
+        "location": {
+          "lat": 35.41147910000001,
+          "lng": 133.8039983
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.4168501,
+            "lng": 133.8097215
+          },
+          "southwest": {
+            "lat": 35.4039707,
+            "lng": 133.7972683
+          }
+        }
+      },
+      "place_id": "ChIJw4UNMG3YVTUR2_sr362W6Sk",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "倉吉市",
+          "short_name": "倉吉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鳥取県倉吉市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.481413,
+            "lng": 133.88752
+          },
+          "southwest": {
+            "lat": 35.308183,
+            "lng": 133.5758449
+          }
+        },
+        "location": {
+          "lat": 35.4304213,
+          "lng": 133.8260633
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.481413,
+            "lng": 133.88752
+          },
+          "southwest": {
+            "lat": 35.308183,
+            "lng": 133.5758449
+          }
+        }
+      },
+      "place_id": "ChIJ69UgxZh5VjURu4RXXBIjNb4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鳥取県",
+          "short_name": "鳥取県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、鳥取県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.614654,
+            "lng": 134.515376
+          },
+          "southwest": {
+            "lat": 35.0577855,
+            "lng": 133.1358971
+          }
+        },
+        "location": {
+          "lat": 35.3573161,
+          "lng": 133.4066618
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.614654,
+            "lng": 134.515376
+          },
+          "southwest": {
+            "lat": 35.0577855,
+            "lng": 133.1358971
+          }
+        }
+      },
+      "place_id": "ChIJB0-MsELXVTUR7pLgQAxBLzs",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
