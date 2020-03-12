@@ -138,8 +138,11 @@ end
 
 def sort_hash(data)
 	keys = [
-		'id',
 		'code',
+		'left',
+		'right',
+		'segment',
+		'id',
 		'name',
 		'name_kana',
 		'name_formal',
