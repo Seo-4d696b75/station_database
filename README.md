@@ -29,4 +29,4 @@ http://nlftp.mlit.go.jp/ksj/index.html
 なお現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
 
 # データの仕様  
-工事中
+[詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/DataFormat)
