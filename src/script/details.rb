@@ -63,9 +63,19 @@ def get_address(station)
 		list.each{|e| return false if exception.include?(e)}
 		return true
 	end
-	station['address'] = data['address_components'].select do |c|
+	address = ''
+	previous = nil
+	pattern = /^[0-9０-９]+$/
+	data['address_components'].select do |c|
 		predicate.call(c['types'])
-	end.reverse.map{|c| c['long_name']}.join('')
+	end.reverse.map{|c| c['long_name']}.each do |c|
+		if previous && previous.match(pattern) && c.match(pattern)
+			address << '-'
+		end
+		address << c
+		previous = c
+	end
+	station['address'] = address
 			
 end
 
