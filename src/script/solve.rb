@@ -571,44 +571,61 @@ class Solver
 		line_map.each_key do |key|
 			e = line_map[key]
 			name = e['name']
-			if line = @line_name_map[name]
-				# 路線名は不変とする
+			code = e['code']
+			if line = @line_name_map[name] || line = @line_map[code]
+				# 名前優先で探索
 				if id = line.data['id']
 					# 別の要素に対応済み！？
 					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
 					return
 				end
 				line.data['id'] = key
-				if line.data['code'] != e['code']
+				if line.data['code'] != code
 					diff.puts("[line] code changed")
 					diff.puts("\told:#{JSON.dump(e)}")
 					diff.puts("\tnew:#{JSON.dump(line.data)}")
+				elsif line.data['name'] != name
+					# 要チェック
+					puts "Warning > id:#{key} line name changed. #{name} > #{line.data['name']}"
+
+					diff.puts("[line] name changed")
+					diff.puts("\told:#{JSON.dump(e)}")
+					diff.puts("\tnew:#{JSON.dump(line.data)}")
 				end
+
 			else
-				## 名前で対応する要素がない
-				puts "Error > no line found at new version. name:#{name} old:#{e}"
+				## 対応する要素がない
+				puts "Error > no line found at new version. old:#{e}"
 				return
 			end
 		end
 		station_map.each_key do |key|
 			e = station_map[key]
 			name = e['name']
-			if s = @station_name_map[name]
-				# 路線名は不変とする
+			code = e['code']
+			if s = @station_name_map[name] || s = @station_map[code]
+				# 路線名を優先に探索
 				if id = s.data['id']
 					# 別の要素に対応済み！？
 					puts "Error > id crash. new:#{id} <> old:#{key} at #{e}"
 					return
 				end
 				s.data['id'] = key
-				if s.data['code'] != e['code']
+				if s.data['code'] != code
 					diff.puts("[station] code changed")
+					diff.puts("\told:#{JSON.dump(e)}")
+					diff.puts("\tnew:#{JSON.dump(s.data)}")
+				elsif s.data['name'] != name 
+					# 要チェック
+					puts "Warning > id:#{key} station name changed. #{name} > #{s.data['name']}"
+				
+					diff.puts("[station] name changed")
 					diff.puts("\told:#{JSON.dump(e)}")
 					diff.puts("\tnew:#{JSON.dump(s.data)}")
 				end
 			else
-				## 名前で対応する要素がない
-				puts "Error > no line found at new version. name:#{name} old:#{e}"
+				## 対応する要素がない
+				puts "Error > no line found at new version. old:#{e}"
 				return
 			end
 		end
