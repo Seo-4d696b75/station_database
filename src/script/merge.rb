@@ -60,6 +60,7 @@ read_json(file_src_station).each do |s|
 		exit(0)
 	end
 	station_map[name] = s
+	station_map[s['code']] = s
 	stations << s
 end
 puts "size:#{lines.length}"
@@ -68,7 +69,7 @@ puts "size:#{lines.length}"
 
 
 
-def set_details(line,details,polyline,station_map,dir_dst)
+def set_details(line,details,polyline,station_map,dir_dst,dir_src)
 	name = line['name']
 	if name != details['name']
 		puts "Error > name mismatch(details). file:#{line['code']}.json line:#{JSON.dump(line)}"
@@ -88,16 +89,36 @@ def set_details(line,details,polyline,station_map,dir_dst)
 	line.delete('name_formal') if line['name_formal'] == name
 
 	# 路線詳細の書き出し
-	details['code'] = line['code']
+	write = false
 	details['station_list'].map! do |e|
-		s = station_map[e['name']]
-		if !s
-			puts "Error > station not found #{e['name']} at station_list #{JSON.dump(line)}"
+		s = nil
+		if !(s = station_map[e['name']]) && !(s = station_map[e['code']])
+			puts "Error > station not found #{e['name']}(#{e['code']}) at station_list #{JSON.dump(line)}"
 			exit(0)
 		end
-		e['code'] = s['code']
+		if !s['lines'].include?(line['code'])
+			puts "Error > station #{JSON.dump(s)} not registered in line #{JSON.dump(line)}"
+			exit(0)
+		end
+		if e['code'] != s['code']
+			## puts "station code chnage. #{e['name']}: #{e['code']}=>#{s['code']}"
+			e['code'] = s['code']
+			write = true
+		end
+		if e['name'] != s['name']
+			print "station name chnage. #{e['code']}: #{e['name']}=>#{s['name']} Is this OK? Y/N =>"
+			exit(0) if gets.chomp.match(/[nN]/)
+			e['name'] = s['name']
+			write = true
+		end
 		next sort_hash(e)
 	end
+	if write
+		File.open("#{dir_src}/#{line['code']}.json","w") do |f|
+			f.write(format_json(details, flat_array:['station_list']))
+		end
+	end
+	details['code'] = line['code']
 	if polyline
 		details['east'] = polyline['east']
 		details['west'] = polyline['west']
@@ -125,7 +146,7 @@ lines.each do |line|
 	if File.exists?(path)
 		polyline = read_json(path)
 	end
-	set_details(line,details,polyline,station_map,dir_dst)
+	set_details(line,details,polyline,station_map,dir_dst,dir_src_details)
 	lines_details << details
 end
 

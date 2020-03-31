@@ -152,6 +152,7 @@ def sort_hash(data)
 		'lat',
 		'lng',
 		'prefecture',
+		'numbering',
 		'lines',
 		'color',
 		'symbol',
