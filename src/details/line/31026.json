@@ -1,12 +1,12 @@
 {
-"name":"近鉄生駒ケーブル",
-"symbol":"Y",
-"color":"#F0E68C",
-"station_list":[
-  {"name":"鳥居前","numbering":[{"index":"17"}]},
-  {"name":"宝山寺","numbering":[{"index":"18"}]},
-  {"name":"梅屋敷(奈良)","numbering":[{"index":"19"}]},
-  {"name":"霞ヶ丘(奈良)","numbering":[{"index":"20"}]},
-  {"name":"生駒山上","numbering":[{"index":"21"}]}
-]
+  "name":"近鉄生駒ケーブル",
+  "symbol":"Y",
+  "color":"#F0E68C",
+  "station_list":[
+    {"code":3102601,"name":"鳥居前","numbering":[{"index":"17"}]},
+    {"code":3102602,"name":"宝山寺","numbering":[{"index":"18"}]},
+    {"code":3102603,"name":"梅屋敷(奈良)","numbering":[{"index":"19"}]},
+    {"code":3102604,"name":"霞ヶ丘(奈良)","numbering":[{"index":"20"}]},
+    {"code":3102605,"name":"生駒山上","numbering":[{"index":"21"}]}
+  ]
 }

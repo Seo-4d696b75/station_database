@@ -1,15 +1,15 @@
 {
-"name":"JR武豊線",
-"station_list":[
-  {"name":"大府","numbering":[{"symbol":"CE","index":"00"}]},
-  {"name":"尾張森岡","numbering":[{"symbol":"CE","index":"01"}]},
-  {"name":"緒川","numbering":[{"symbol":"CE","index":"02"}]},
-  {"name":"石浜","numbering":[{"symbol":"CE","index":"03"}]},
-  {"name":"東浦","numbering":[{"symbol":"CE","index":"04"}]},
-  {"name":"亀崎","numbering":[{"symbol":"CE","index":"05"}]},
-  {"name":"乙川","numbering":[{"symbol":"CE","index":"06"}]},
-  {"name":"半田","numbering":[{"symbol":"CE","index":"07"}]},
-  {"name":"東成岩","numbering":[{"symbol":"CE","index":"08"}]},
-  {"name":"武豊","numbering":[{"symbol":"CE","index":"09"}]}
-]
+  "name":"JR武豊線",
+  "station_list":[
+    {"code":1150226,"name":"大府","numbering":[{"symbol":"CE","index":"00"}]},
+    {"code":1150602,"name":"尾張森岡","numbering":[{"symbol":"CE","index":"01"}]},
+    {"code":1150603,"name":"緒川","numbering":[{"symbol":"CE","index":"02"}]},
+    {"code":1150604,"name":"石浜","numbering":[{"symbol":"CE","index":"03"}]},
+    {"code":1150605,"name":"東浦","numbering":[{"symbol":"CE","index":"04"}]},
+    {"code":1150606,"name":"亀崎","numbering":[{"symbol":"CE","index":"05"}]},
+    {"code":1150607,"name":"乙川","numbering":[{"symbol":"CE","index":"06"}]},
+    {"code":1150608,"name":"半田","numbering":[{"symbol":"CE","index":"07"}]},
+    {"code":1150609,"name":"東成岩","numbering":[{"symbol":"CE","index":"08"}]},
+    {"code":1150610,"name":"武豊","numbering":[{"symbol":"CE","index":"09"}]}
+  ]
 }

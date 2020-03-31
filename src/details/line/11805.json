@@ -1,14 +1,14 @@
 {
-"name":"JR鳴門線",
-"symbol":"N",
-"color":"#8C2C5F",
-"station_list":[
-  {"name":"池谷","numbering":[{"index":"04"}]},
-  {"name":"阿波大谷","numbering":[{"index":"05"}]},
-  {"name":"立道","numbering":[{"index":"06"}]},
-  {"name":"教会前","numbering":[{"index":"07"}]},
-  {"name":"金比羅前","numbering":[{"index":"08"}]},
-  {"name":"撫養","numbering":[{"index":"09"}]},
-  {"name":"鳴門","numbering":[{"index":"10"}]}
-]
+  "name":"JR鳴門線",
+  "symbol":"N",
+  "color":"#8C2C5F",
+  "station_list":[
+    {"code":1180225,"name":"池谷","numbering":[{"index":"04"}]},
+    {"code":1180506,"name":"阿波大谷","numbering":[{"index":"05"}]},
+    {"code":1180505,"name":"立道","numbering":[{"index":"06"}]},
+    {"code":1180504,"name":"教会前","numbering":[{"index":"07"}]},
+    {"code":1180503,"name":"金比羅前","numbering":[{"index":"08"}]},
+    {"code":1180502,"name":"撫養","numbering":[{"index":"09"}]},
+    {"code":1180501,"name":"鳴門","numbering":[{"index":"10"}]}
+  ]
 }

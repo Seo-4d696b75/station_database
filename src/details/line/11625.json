@@ -1,16 +1,16 @@
 {
-"name":"JR東西線",
-"symbol":"H",
-"color":"#FF1493",
-"station_list":[
-  {"name":"京橋(大阪)","numbering":[{"index":"41"}]},
-  {"name":"大阪城北詰","numbering":[{"index":"42"}]},
-  {"name":"大阪天満宮","numbering":[{"index":"43"}]},
-  {"name":"北新地","numbering":[{"index":"44"}]},
-  {"name":"新福島","numbering":[{"index":"45"}]},
-  {"name":"海老江","numbering":[{"index":"46"}]},
-  {"name":"御幣島","numbering":[{"index":"47"}]},
-  {"name":"加島","numbering":[{"index":"48"}]},
-  {"name":"尼崎(JR)","numbering":[{"index":"49"}]}
-]
+  "name":"JR東西線",
+  "symbol":"H",
+  "color":"#FF1493",
+  "station_list":[
+    {"code":1161724,"name":"京橋(大阪)","numbering":[{"index":"41"}]},
+    {"code":1162502,"name":"大阪城北詰","numbering":[{"index":"42"}]},
+    {"code":1162503,"name":"大阪天満宮","numbering":[{"index":"43"}]},
+    {"code":1162504,"name":"北新地","numbering":[{"index":"44"}]},
+    {"code":1162505,"name":"新福島","numbering":[{"index":"45"}]},
+    {"code":1162506,"name":"海老江","numbering":[{"index":"46"}]},
+    {"code":1162507,"name":"御幣島","numbering":[{"index":"47"}]},
+    {"code":1162508,"name":"加島","numbering":[{"index":"48"}]},
+    {"code":1160303,"name":"尼崎(JR)","numbering":[{"index":"49"}]}
+  ]
 }

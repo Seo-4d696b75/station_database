@@ -1,9 +1,9 @@
 {
-"name":"西武西武園線",
-"symbol":"SK",
-"color":"#33CC66",
-"station_list":[
-  {"name":"東村山","numbering":[{"index":"05"}]},
-  {"name":"西武園","numbering":[{"index":"06"}]}
-]
+  "name":"西武西武園線",
+  "symbol":"SK",
+  "color":"#33CC66",
+  "station_list":[
+    {"code":2200721,"name":"東村山","numbering":[{"index":"05"}]},
+    {"code":2200902,"name":"西武園","numbering":[{"index":"06"}]}
+  ]
 }

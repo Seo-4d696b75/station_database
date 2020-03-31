@@ -1,13 +1,13 @@
 {
-"name":"伊予鉄道６系統(本町線)",
-"color":"#000000",
-"station_list":[
-  {"name":"本町６丁目","numbering":[{"index":"29"}]},
-  {"name":"本町５丁目","numbering":[{"index":"28"}]},
-  {"name":"本町４丁目","numbering":[{"index":"27"}]},
-  {"name":"本町３丁目","numbering":[{"index":"26"}]},
-  {"name":"本町１丁目","numbering":[{"index":"25"}]},
-  {"name":"南堀端","numbering":[{"index":"02"}]},
-  {"name":"松山市駅","numbering":[{"index":"01"}]}
-]
+  "name":"伊予鉄道６系統(本町線)",
+  "color":"#000000",
+  "station_list":[
+    {"code":9980809,"name":"本町６丁目","numbering":[{"index":"29"}]},
+    {"code":9981202,"name":"本町５丁目","numbering":[{"index":"28"}]},
+    {"code":9981203,"name":"本町４丁目","numbering":[{"index":"27"}]},
+    {"code":9981204,"name":"本町３丁目","numbering":[{"index":"26"}]},
+    {"code":9981205,"name":"本町１丁目","numbering":[{"index":"25"}]},
+    {"code":9980802,"name":"南堀端","numbering":[{"index":"02"}]},
+    {"code":9980801,"name":"松山市駅","numbering":[{"index":"01"}]}
+  ]
 }

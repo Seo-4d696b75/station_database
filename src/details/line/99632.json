@@ -1,22 +1,22 @@
 {
-"name":"神鉄有馬線",
-"symbol":"KB",
-"color":"#FF0000",
-"station_list":[
-  {"name":"湊川","numbering":[{"index":"02"}]},
-  {"name":"長田(神戸電鉄)","numbering":[{"index":"03"}]},
-  {"name":"丸山(兵庫)","numbering":[{"index":"04"}]},
-  {"name":"鵯越","numbering":[{"index":"05"}]},
-  {"name":"鈴蘭台","numbering":[{"index":"06"}]},
-  {"name":"北鈴蘭台","numbering":[{"index":"07"}]},
-  {"name":"山の街","numbering":[{"index":"08"}]},
-  {"name":"箕谷","numbering":[{"index":"09"}]},
-  {"name":"谷上","numbering":[{"index":"10"}]},
-  {"name":"花山","numbering":[{"index":"11"}]},
-  {"name":"大池","numbering":[{"index":"12"}]},
-  {"name":"神鉄六甲","numbering":[{"index":"13"}]},
-  {"name":"唐櫃台","numbering":[{"index":"14"}]},
-  {"name":"有馬口","numbering":[{"index":"15"}]},
-  {"name":"有馬温泉","numbering":[{"index":"16"}]}
-]
+  "name":"神鉄有馬線",
+  "symbol":"KB",
+  "color":"#FF0000",
+  "station_list":[
+    {"code":9963102,"name":"湊川","numbering":[{"index":"02"}]},
+    {"code":9963202,"name":"長田(神戸電鉄)","numbering":[{"index":"03"}]},
+    {"code":9963203,"name":"丸山(兵庫)","numbering":[{"index":"04"}]},
+    {"code":9963204,"name":"鵯越","numbering":[{"index":"05"}]},
+    {"code":9963206,"name":"鈴蘭台","numbering":[{"index":"06"}]},
+    {"code":9963207,"name":"北鈴蘭台","numbering":[{"index":"07"}]},
+    {"code":9963208,"name":"山の街","numbering":[{"index":"08"}]},
+    {"code":9963209,"name":"箕谷","numbering":[{"index":"09"}]},
+    {"code":9963210,"name":"谷上","numbering":[{"index":"10"}]},
+    {"code":9963211,"name":"花山","numbering":[{"index":"11"}]},
+    {"code":9963212,"name":"大池","numbering":[{"index":"12"}]},
+    {"code":9963213,"name":"神鉄六甲","numbering":[{"index":"13"}]},
+    {"code":9963214,"name":"唐櫃台","numbering":[{"index":"14"}]},
+    {"code":9963215,"name":"有馬口","numbering":[{"index":"15"}]},
+    {"code":9963217,"name":"有馬温泉","numbering":[{"index":"16"}]}
+  ]
 }

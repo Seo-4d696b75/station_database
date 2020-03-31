@@ -1,17 +1,17 @@
 {
-"name":"阪急今津線",
-"symbol":"HK",
-"color":"#0000FF",
-"station_list":[
-  {"name":"今津(兵庫)","numbering":[{"index":"21"}]},
-  {"name":"阪神国道","numbering":[{"index":"22"}]},
-  {"name":"西宮北口","numbering":[{"index":"08"}]},
-  {"name":"門戸厄神","numbering":[{"index":"23"}]},
-  {"name":"甲東園","numbering":[{"index":"24"}]},
-  {"name":"仁川","numbering":[{"index":"25"}]},
-  {"name":"小林(兵庫)","numbering":[{"index":"26"}]},
-  {"name":"逆瀬川","numbering":[{"index":"27"}]},
-  {"name":"宝塚南口","numbering":[{"index":"28"}]},
-  {"name":"宝塚","numbering":[{"index":"56"}]}
-]
+  "name":"阪急今津線",
+  "symbol":"HK",
+  "color":"#0000FF",
+  "station_list":[
+    {"code":3400401,"name":"今津(兵庫)","numbering":[{"index":"21"}]},
+    {"code":3400402,"name":"阪神国道","numbering":[{"index":"22"}]},
+    {"code":3400108,"name":"西宮北口","numbering":[{"index":"08"}]},
+    {"code":3400404,"name":"門戸厄神","numbering":[{"index":"23"}]},
+    {"code":3400405,"name":"甲東園","numbering":[{"index":"24"}]},
+    {"code":3400406,"name":"仁川","numbering":[{"index":"25"}]},
+    {"code":3400407,"name":"小林(兵庫)","numbering":[{"index":"26"}]},
+    {"code":3400408,"name":"逆瀬川","numbering":[{"index":"27"}]},
+    {"code":3400409,"name":"宝塚南口","numbering":[{"index":"28"}]},
+    {"code":1162910,"name":"宝塚","numbering":[{"index":"56"}]}
+  ]
 }

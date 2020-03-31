@@ -1,10 +1,10 @@
 {
-"name":"仙台空港線",
-"color":"#2A5CAA",
-"station_list":[
-  {"name":"名取"},
-  {"name":"杜せきのした"},
-  {"name":"美田園"},
-  {"name":"仙台空港"}
-]
+  "name":"仙台空港線",
+  "color":"#2A5CAA",
+  "station_list":[
+    {"code":1123139,"name":"名取"},
+    {"code":9921702,"name":"杜せきのした"},
+    {"code":9921703,"name":"美田園"},
+    {"code":9921704,"name":"仙台空港"}
+  ]
 }

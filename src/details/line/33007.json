@@ -1,14 +1,14 @@
 {
-"name":"京阪京津線",
-"symbol":"OT",
-"color":"#FFCC00",
-"station_list":[
-  {"name":"御陵","numbering":[{"symbol":"T","color":"#FF4500","index":"08"}]},
-  {"name":"京阪山科","numbering":[{"index":"31"}]},
-  {"name":"四宮","numbering":[{"index":"32"}]},
-  {"name":"追分(滋賀)","numbering":[{"index":"33"}]},
-  {"name":"大谷(滋賀)","numbering":[{"index":"34"}]},
-  {"name":"上栄町","numbering":[{"index":"35"}]},
-  {"name":"びわ湖浜大津","numbering":[{"index":"12"}]}
-]
+  "name":"京阪京津線",
+  "symbol":"OT",
+  "color":"#FFCC00",
+  "station_list":[
+    {"code":3300701,"name":"御陵","numbering":[{"symbol":"T","color":"#FF4500","index":"08"}]},
+    {"code":3300702,"name":"京阪山科","numbering":[{"index":"31"}]},
+    {"code":3300703,"name":"四宮","numbering":[{"index":"32"}]},
+    {"code":3300704,"name":"追分(滋賀)","numbering":[{"index":"33"}]},
+    {"code":3300705,"name":"大谷(滋賀)","numbering":[{"index":"34"}]},
+    {"code":3300706,"name":"上栄町","numbering":[{"index":"35"}]},
+    {"code":3300612,"name":"びわ湖浜大津","numbering":[{"index":"12"}]}
+  ]
 }

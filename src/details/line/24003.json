@@ -1,14 +1,14 @@
 {
-"name":"京王高尾線",
-"symbol":"KO",
-"color":"#DD3377",
-"station_list":[
-  {"name":"北野(東京)","numbering":[{"index":"33"}]},
-  {"name":"京王片倉","numbering":[{"index":"48"}]},
-  {"name":"山田(東京)","numbering":[{"index":"49"}]},
-  {"name":"めじろ台","numbering":[{"index":"50"}]},
-  {"name":"狭間","numbering":[{"index":"51"}]},
-  {"name":"高尾(東京)","numbering":[{"index":"52"}]},
-  {"name":"高尾山口","numbering":[{"index":"53"}]}
-]
+  "name":"京王高尾線",
+  "symbol":"KO",
+  "color":"#DD3377",
+  "station_list":[
+    {"code":2400133,"name":"北野(東京)","numbering":[{"index":"33"}]},
+    {"code":2400302,"name":"京王片倉","numbering":[{"index":"48"}]},
+    {"code":2400303,"name":"山田(東京)","numbering":[{"index":"49"}]},
+    {"code":2400304,"name":"めじろ台","numbering":[{"index":"50"}]},
+    {"code":2400305,"name":"狭間","numbering":[{"index":"51"}]},
+    {"code":1131112,"name":"高尾(東京)","numbering":[{"index":"52"}]},
+    {"code":2400307,"name":"高尾山口","numbering":[{"index":"53"}]}
+  ]
 }

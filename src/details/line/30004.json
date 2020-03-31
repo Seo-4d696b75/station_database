@@ -1,17 +1,17 @@
 {
-"name":"名鉄蒲郡線",
-"symbol":"GN",
-"color":"#483D8B",
-"station_list":[
-  {"name":"吉良吉田","numbering":[{"index":"13"}]},
-  {"name":"三河鳥羽","numbering":[{"index":"14"}]},
-  {"name":"西幡豆","numbering":[{"index":"15"}]},
-  {"name":"東幡豆","numbering":[{"index":"16"}]},
-  {"name":"こどもの国(愛知)","numbering":[{"index":"17"}]},
-  {"name":"西浦","numbering":[{"index":"18"}]},
-  {"name":"形原","numbering":[{"index":"19"}]},
-  {"name":"三河鹿島","numbering":[{"index":"20"}]},
-  {"name":"蒲郡競艇場前","numbering":[{"index":"21"}]},
-  {"name":"蒲郡","numbering":[{"index":"22"}]}
-]
+  "name":"名鉄蒲郡線",
+  "symbol":"GN",
+  "color":"#483D8B",
+  "station_list":[
+    {"code":3000315,"name":"吉良吉田","numbering":[{"index":"13"}]},
+    {"code":3000402,"name":"三河鳥羽","numbering":[{"index":"14"}]},
+    {"code":3000403,"name":"西幡豆","numbering":[{"index":"15"}]},
+    {"code":3000404,"name":"東幡豆","numbering":[{"index":"16"}]},
+    {"code":3000405,"name":"こどもの国(愛知)","numbering":[{"index":"17"}]},
+    {"code":3000406,"name":"西浦","numbering":[{"index":"18"}]},
+    {"code":3000407,"name":"形原","numbering":[{"index":"19"}]},
+    {"code":3000408,"name":"三河鹿島","numbering":[{"index":"20"}]},
+    {"code":3000409,"name":"蒲郡競艇場前","numbering":[{"index":"21"}]},
+    {"code":1150215,"name":"蒲郡","numbering":[{"index":"22"}]}
+  ]
 }

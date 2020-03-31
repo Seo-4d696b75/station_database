@@ -1,20 +1,20 @@
 {
-"name":"横浜新都市交通金沢シーサイドライン",
-"color":"#F68B1E",
-"station_list":[
-  {"name":"新杉田","numbering":[{"index":"01"}]},
-  {"name":"南部市場","numbering":[{"index":"02"}]},
-  {"name":"鳥浜","numbering":[{"index":"03"}]},
-  {"name":"並木北","numbering":[{"index":"04"}]},
-  {"name":"並木中央","numbering":[{"index":"05"}]},
-  {"name":"幸浦","numbering":[{"index":"06"}]},
-  {"name":"産業振興センター","numbering":[{"index":"07"}]},
-  {"name":"福浦","numbering":[{"index":"08"}]},
-  {"name":"市大医学部","numbering":[{"index":"09"}]},
-  {"name":"八景島","numbering":[{"index":"10"}]},
-  {"name":"海の公園柴口","numbering":[{"index":"11"}]},
-  {"name":"海の公園南口","numbering":[{"index":"12"}]},
-  {"name":"野島公園","numbering":[{"index":"13"}]},
-  {"name":"金沢八景","numbering":[{"index":"14"}]}
-]
+  "name":"横浜新都市交通金沢シーサイドライン",
+  "color":"#F68B1E",
+  "station_list":[
+    {"code":1130708,"name":"新杉田","numbering":[{"index":"01"}]},
+    {"code":9931702,"name":"南部市場","numbering":[{"index":"02"}]},
+    {"code":9931703,"name":"鳥浜","numbering":[{"index":"03"}]},
+    {"code":9931704,"name":"並木北","numbering":[{"index":"04"}]},
+    {"code":9931705,"name":"並木中央","numbering":[{"index":"05"}]},
+    {"code":9931706,"name":"幸浦","numbering":[{"index":"06"}]},
+    {"code":9931707,"name":"産業振興センター","numbering":[{"index":"07"}]},
+    {"code":9931708,"name":"福浦","numbering":[{"index":"08"}]},
+    {"code":9931709,"name":"市大医学部","numbering":[{"index":"09"}]},
+    {"code":9931710,"name":"八景島","numbering":[{"index":"10"}]},
+    {"code":9931711,"name":"海の公園柴口","numbering":[{"index":"11"}]},
+    {"code":9931712,"name":"海の公園南口","numbering":[{"index":"12"}]},
+    {"code":9931713,"name":"野島公園","numbering":[{"index":"13"}]},
+    {"code":2700139,"name":"金沢八景","numbering":[{"index":"14"}]}
+  ]
 }

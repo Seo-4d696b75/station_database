@@ -1,12 +1,12 @@
 {
-"name":"西武国分寺線",
-"symbol":"SK",
-"color":"#32CD32",
-"station_list":[
-  {"name":"国分寺","numbering":[{"index":"01"}]},
-  {"name":"恋ヶ窪","numbering":[{"index":"02"}]},
-  {"name":"鷹の台","numbering":[{"index":"03"}]},
-  {"name":"小川(東京)","numbering":[{"index":"04"}]},
-  {"name":"東村山","numbering":[{"index":"05"}]}
-]
+  "name":"西武国分寺線",
+  "symbol":"SK",
+  "color":"#32CD32",
+  "station_list":[
+    {"code":1131106,"name":"国分寺","numbering":[{"index":"01"}]},
+    {"code":2201002,"name":"恋ヶ窪","numbering":[{"index":"02"}]},
+    {"code":2201003,"name":"鷹の台","numbering":[{"index":"03"}]},
+    {"code":2200803,"name":"小川(東京)","numbering":[{"index":"04"}]},
+    {"code":2200721,"name":"東村山","numbering":[{"index":"05"}]}
+  ]
 }

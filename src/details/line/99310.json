@@ -1,13 +1,13 @@
 {
-"name":"みなとみらい線",
-"symbol":"MM",
-"color":"#09357F",
-"station_list":[
-  {"name":"横浜","numbering":[{"index":"01"}]},
-  {"name":"新高島","numbering":[{"index":"02"}]},
-  {"name":"みなとみらい","numbering":[{"index":"03"}]},
-  {"name":"馬車道","numbering":[{"index":"04"}]},
-  {"name":"日本大通り","numbering":[{"index":"05"}]},
-  {"name":"元町・中華街","numbering":[{"index":"06"}]}
-]
+  "name":"みなとみらい線",
+  "symbol":"MM",
+  "color":"#09357F",
+  "station_list":[
+    {"code":1130105,"name":"横浜","numbering":[{"index":"01"}]},
+    {"code":9931002,"name":"新高島","numbering":[{"index":"02"}]},
+    {"code":9931003,"name":"みなとみらい","numbering":[{"index":"03"}]},
+    {"code":9931004,"name":"馬車道","numbering":[{"index":"04"}]},
+    {"code":9931005,"name":"日本大通り","numbering":[{"index":"05"}]},
+    {"code":9931006,"name":"元町・中華街","numbering":[{"index":"06"}]}
+  ]
 }

@@ -1,18 +1,18 @@
 {
-"name":"西鉄甘木線",
-"symbol":"A",
-"station_list":[
-  {"name":"宮の陣","numbering":[{"symbol":"T","index":"25"}]},
-  {"name":"五郎丸","numbering":[{"index":"01"}]},
-  {"name":"学校前","numbering":[{"index":"02"}]},
-  {"name":"古賀茶屋","numbering":[{"index":"03"}]},
-  {"name":"北野(福岡)","numbering":[{"index":"04"}]},
-  {"name":"大城","numbering":[{"index":"05"}]},
-  {"name":"金島(福岡)","numbering":[{"index":"06"}]},
-  {"name":"大堰","numbering":[{"index":"07"}]},
-  {"name":"本郷(福岡)","numbering":[{"index":"08"}]},
-  {"name":"上浦","numbering":[{"index":"09"}]},
-  {"name":"馬田","numbering":[{"index":"10"}]},
-  {"name":"甘木","numbering":[{"index":"11"}]}
-]
+  "name":"西鉄甘木線",
+  "symbol":"A",
+  "station_list":[
+    {"code":3600123,"name":"宮の陣","numbering":[{"symbol":"T","index":"25"}]},
+    {"code":3600302,"name":"五郎丸","numbering":[{"index":"01"}]},
+    {"code":3600303,"name":"学校前","numbering":[{"index":"02"}]},
+    {"code":3600304,"name":"古賀茶屋","numbering":[{"index":"03"}]},
+    {"code":3600305,"name":"北野(福岡)","numbering":[{"index":"04"}]},
+    {"code":3600306,"name":"大城","numbering":[{"index":"05"}]},
+    {"code":3600307,"name":"金島(福岡)","numbering":[{"index":"06"}]},
+    {"code":3600308,"name":"大堰","numbering":[{"index":"07"}]},
+    {"code":3600309,"name":"本郷(福岡)","numbering":[{"index":"08"}]},
+    {"code":3600310,"name":"上浦","numbering":[{"index":"09"}]},
+    {"code":3600311,"name":"馬田","numbering":[{"index":"10"}]},
+    {"code":3600312,"name":"甘木","numbering":[{"index":"11"}]}
+  ]
 }

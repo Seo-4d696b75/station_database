@@ -1,10 +1,10 @@
 {
-"name":"名鉄空港線",
-"symbol":"TA",
-"color":"#0000CD",
-"station_list":[
-  {"name":"常滑","numbering":[{"index":"22"}]},
-  {"name":"りんくう常滑","numbering":[{"index":"23"}]},
-  {"name":"中部国際空港","numbering":[{"index":"24"}]}
-]
+  "name":"名鉄空港線",
+  "symbol":"TA",
+  "color":"#0000CD",
+  "station_list":[
+    {"code":3000701,"name":"常滑","numbering":[{"index":"22"}]},
+    {"code":3000702,"name":"りんくう常滑","numbering":[{"index":"23"}]},
+    {"code":3000703,"name":"中部国際空港","numbering":[{"index":"24"}]}
+  ]
 }

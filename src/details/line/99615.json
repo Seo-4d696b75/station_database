@@ -1,20 +1,20 @@
 {
-"name":"能勢電鉄妙見線",
-"symbol":"NS",
-"station_list":[
-  {"name":"川西能勢口","numbering":[{"color":"#800000","index":"01"}]},
-  {"name":"絹延橋","numbering":[{"color":"#800000","index":"02"}]},
-  {"name":"滝山","numbering":[{"color":"#800000","index":"03"}]},
-  {"name":"鶯の森","numbering":[{"color":"#800000","index":"04"}]},
-  {"name":"鼓滝","numbering":[{"color":"#800000","index":"05"}]},
-  {"name":"多田(兵庫)","numbering":[{"color":"#800000","index":"06"}]},
-  {"name":"平野(兵庫)","numbering":[{"color":"#800000","index":"07"}]},
-  {"name":"一の鳥居","numbering":[{"color":"#800000","index":"08"}]},
-  {"name":"畦野","numbering":[{"color":"#800000","index":"09"}]},
-  {"name":"山下(兵庫)","numbering":[{"color":"#800000","index":"10"}]},
-  {"name":"笹部","numbering":[{"color":"#800000","index":"11"}]},
-  {"name":"光風台(大阪)","numbering":[{"color":"#800000","index":"12"}]},
-  {"name":"ときわ台(大阪)","numbering":[{"color":"#800000","index":"13"}]},
-  {"name":"妙見口","numbering":[{"color":"#800000","index":"14"}]}
-]
+  "name":"能勢電鉄妙見線",
+  "symbol":"NS",
+  "station_list":[
+    {"code":3400213,"name":"川西能勢口","numbering":[{"color":"#800000","index":"01"}]},
+    {"code":9961502,"name":"絹延橋","numbering":[{"color":"#800000","index":"02"}]},
+    {"code":9961503,"name":"滝山","numbering":[{"color":"#800000","index":"03"}]},
+    {"code":9961504,"name":"鶯の森","numbering":[{"color":"#800000","index":"04"}]},
+    {"code":9961505,"name":"鼓滝","numbering":[{"color":"#800000","index":"05"}]},
+    {"code":9961506,"name":"多田(兵庫)","numbering":[{"color":"#800000","index":"06"}]},
+    {"code":9961507,"name":"平野(兵庫)","numbering":[{"color":"#800000","index":"07"}]},
+    {"code":9961508,"name":"一の鳥居","numbering":[{"color":"#800000","index":"08"}]},
+    {"code":9961509,"name":"畦野","numbering":[{"color":"#800000","index":"09"}]},
+    {"code":9961510,"name":"山下(兵庫)","numbering":[{"color":"#800000","index":"10"}]},
+    {"code":9961511,"name":"笹部","numbering":[{"color":"#800000","index":"11"}]},
+    {"code":9961512,"name":"光風台(大阪)","numbering":[{"color":"#800000","index":"12"}]},
+    {"code":9961513,"name":"ときわ台(大阪)","numbering":[{"color":"#800000","index":"13"}]},
+    {"code":9961514,"name":"妙見口","numbering":[{"color":"#800000","index":"14"}]}
+  ]
 }

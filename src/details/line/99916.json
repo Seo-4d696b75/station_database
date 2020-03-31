@@ -1,19 +1,19 @@
 {
-"name":"長崎電軌５系統",
-"color":"#005A52",
-"station_list":[
-  {"name":"蛍茶屋","numbering":[{"index":"43"}]},
-  {"name":"新中川町","numbering":[{"index":"41"}]},
-  {"name":"新大工町","numbering":[{"index":"40"}]},
-  {"name":"諏訪神社","numbering":[{"index":"39"}]},
-  {"name":"市民会館","numbering":[{"index":"38"}]},
-  {"name":"めがね橋","numbering":[{"index":"37"}]},
-  {"name":"浜町アーケード","numbering":[{"index":"36"}]},
-  {"name":"西浜町","numbering":[{"index":"32"}]},
-  {"name":"新地中華街","numbering":[{"index":"31"}]},
-  {"name":"メディカルセンター","numbering":[{"index":"47"}]},
-  {"name":"大浦海岸通り","numbering":[{"index":"48"}]},
-  {"name":"大浦天主堂","numbering":[{"index":"50"}]},
-  {"name":"石橋(長崎)","numbering":[{"index":"51"}]}
-]
+  "name":"長崎電軌５系統",
+  "color":"#005A52",
+  "station_list":[
+    {"code":9991401,"name":"蛍茶屋","numbering":[{"index":"43"}]},
+    {"code":9991402,"name":"新中川町","numbering":[{"index":"41"}]},
+    {"code":9991403,"name":"新大工町","numbering":[{"index":"40"}]},
+    {"code":9991404,"name":"諏訪神社","numbering":[{"index":"39"}]},
+    {"code":9991405,"name":"市民会館","numbering":[{"index":"38"}]},
+    {"code":9991506,"name":"めがね橋","numbering":[{"index":"37"}]},
+    {"code":9991511,"name":"浜町アーケード","numbering":[{"index":"36"}]},
+    {"code":9991323,"name":"西浜町","numbering":[{"index":"32"}]},
+    {"code":9991322,"name":"新地中華街","numbering":[{"index":"31"}]},
+    {"code":9991609,"name":"メディカルセンター","numbering":[{"index":"47"}]},
+    {"code":9991610,"name":"大浦海岸通り","numbering":[{"index":"48"}]},
+    {"code":9991611,"name":"大浦天主堂","numbering":[{"index":"50"}]},
+    {"code":9991612,"name":"石橋(長崎)","numbering":[{"index":"51"}]}
+  ]
 }
