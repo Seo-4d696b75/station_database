@@ -1,19 +1,19 @@
 {
-"name":"JR東海道本線(岐阜～美濃赤坂・米原)",
-"symbol":"CA",
-"color":"#F57615",
-"station_list":[
-  {"name":"岐阜","numbering":[{"index":"74"}]},
-  {"name":"西岐阜","numbering":[{"index":"75"}]},
-  {"name":"穂積","numbering":[{"index":"76"}]},
-  {"name":"大垣","numbering":[{"index":"77"}]},
-  {"name":"荒尾(岐阜)"},
-  {"name":"美濃赤坂"},
-  {"name":"垂井","numbering":[{"index":"78"}]},
-  {"name":"関ヶ原","numbering":[{"index":"79"}]},
-  {"name":"柏原(滋賀)","numbering":[{"index":"80"}]},
-  {"name":"近江長岡","numbering":[{"index":"81"}]},
-  {"name":"醒ヶ井","numbering":[{"index":"82"}]},
-  {"name":"米原","numbering":[{"index":"83"}]}
-]
+  "name":"JR東海道本線(岐阜～美濃赤坂・米原)",
+  "symbol":"CA",
+  "color":"#F57615",
+  "station_list":[
+    {"code":1141601,"name":"岐阜","numbering":[{"index":"74"}]},
+    {"code":1150302,"name":"西岐阜","numbering":[{"index":"75"}]},
+    {"code":1150303,"name":"穂積","numbering":[{"index":"76"}]},
+    {"code":1150304,"name":"大垣","numbering":[{"index":"77"}]},
+    {"code":1150305,"name":"荒尾(岐阜)"},
+    {"code":1150306,"name":"美濃赤坂"},
+    {"code":1150307,"name":"垂井","numbering":[{"index":"78"}]},
+    {"code":1150308,"name":"関ヶ原","numbering":[{"index":"79"}]},
+    {"code":1150309,"name":"柏原(滋賀)","numbering":[{"index":"80"}]},
+    {"code":1150310,"name":"近江長岡","numbering":[{"index":"81"}]},
+    {"code":1150311,"name":"醒ヶ井","numbering":[{"index":"82"}]},
+    {"code":100215,"name":"米原","numbering":[{"index":"83"}]}
+  ]
 }

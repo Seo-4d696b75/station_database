@@ -1,23 +1,23 @@
 {
-"name":"近鉄志摩線",
-"symbol":"M",
-"color":"#40E0D0",
-"station_list":[
-  {"name":"鳥羽","numbering":[{"index":"78"}]},
-  {"name":"中之郷","numbering":[{"index":"79"}]},
-  {"name":"志摩赤崎","numbering":[{"index":"80"}]},
-  {"name":"船津(近畿日本鉄道)","numbering":[{"index":"81"}]},
-  {"name":"加茂(三重)","numbering":[{"index":"82"}]},
-  {"name":"松尾(三重)","numbering":[{"index":"83"}]},
-  {"name":"白木","numbering":[{"index":"84"}]},
-  {"name":"五知","numbering":[{"index":"85"}]},
-  {"name":"沓掛","numbering":[{"index":"86"}]},
-  {"name":"上之郷","numbering":[{"index":"87"}]},
-  {"name":"志摩磯部","numbering":[{"index":"88"}]},
-  {"name":"穴川(三重)","numbering":[{"index":"89"}]},
-  {"name":"志摩横山","numbering":[{"index":"90"}]},
-  {"name":"鵜方","numbering":[{"index":"91"}]},
-  {"name":"志摩神明","numbering":[{"index":"92"}]},
-  {"name":"賢島","numbering":[{"index":"93"}]}
-]
+  "name":"近鉄志摩線",
+  "symbol":"M",
+  "color":"#40E0D0",
+  "station_list":[
+    {"code":1151211,"name":"鳥羽","numbering":[{"index":"78"}]},
+    {"code":3101502,"name":"中之郷","numbering":[{"index":"79"}]},
+    {"code":3101503,"name":"志摩赤崎","numbering":[{"index":"80"}]},
+    {"code":3101504,"name":"船津(近畿日本鉄道)","numbering":[{"index":"81"}]},
+    {"code":3101505,"name":"加茂(三重)","numbering":[{"index":"82"}]},
+    {"code":3101506,"name":"松尾(三重)","numbering":[{"index":"83"}]},
+    {"code":3101507,"name":"白木","numbering":[{"index":"84"}]},
+    {"code":3101508,"name":"五知","numbering":[{"index":"85"}]},
+    {"code":3101509,"name":"沓掛","numbering":[{"index":"86"}]},
+    {"code":3101510,"name":"上之郷","numbering":[{"index":"87"}]},
+    {"code":3101511,"name":"志摩磯部","numbering":[{"index":"88"}]},
+    {"code":3101512,"name":"穴川(三重)","numbering":[{"index":"89"}]},
+    {"code":3101513,"name":"志摩横山","numbering":[{"index":"90"}]},
+    {"code":3101514,"name":"鵜方","numbering":[{"index":"91"}]},
+    {"code":3101515,"name":"志摩神明","numbering":[{"index":"92"}]},
+    {"code":3101516,"name":"賢島","numbering":[{"index":"93"}]}
+  ]
 }

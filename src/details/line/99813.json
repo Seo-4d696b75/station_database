@@ -1,8 +1,9 @@
 {
-"name":"伊予鉄道森松線","closed":true,
-"station_list":[
-  {"name":"伊予立花"},
-  {"name":"石井(愛媛)"},
-  {"name":"森松"}
-]
+  "name":"伊予鉄道森松線",
+  "closed":true,
+  "station_list":[
+    {"code":9981301,"name":"伊予立花"},
+    {"code":9981302,"name":"石井(愛媛)"},
+    {"code":9981303,"name":"森松"}
+  ]
 }

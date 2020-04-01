@@ -1,11 +1,11 @@
 {
-"name":"南海多奈川線",
-"symbol":"NK",
-"color":"#0065AF",
-"station_list":[
-  {"name":"みさき公園","numbering":[{"index":"41"}]},
-  {"name":"深日町","numbering":[{"index":"41-1"}]},
-  {"name":"深日港","numbering":[{"index":"41-2"}]},
-  {"name":"多奈川","numbering":[{"index":"41-3"}]}
-]
+  "name":"南海多奈川線",
+  "symbol":"NK",
+  "color":"#0065AF",
+  "station_list":[
+    {"code":3200137,"name":"みさき公園","numbering":[{"index":"41"}]},
+    {"code":3200602,"name":"深日町","numbering":[{"index":"41-1"}]},
+    {"code":3200603,"name":"深日港","numbering":[{"index":"41-2"}]},
+    {"code":3200604,"name":"多奈川","numbering":[{"index":"41-3"}]}
+  ]
 }

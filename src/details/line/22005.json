@@ -1,10 +1,10 @@
 {
-"name":"西武狭山線",
-"symbol":"SI",
-"color":"#FF6600",
-"station_list":[
-  {"name":"西所沢","numbering":[{"index":"18"}]},
-  {"name":"下山口","numbering":[{"index":"40"}]},
-  {"name":"西武球場前","numbering":[{"index":"41"}]}
-]
+  "name":"西武狭山線",
+  "symbol":"SI",
+  "color":"#FF6600",
+  "station_list":[
+    {"code":2200117,"name":"西所沢","numbering":[{"index":"18"}]},
+    {"code":2200502,"name":"下山口","numbering":[{"index":"40"}]},
+    {"code":2200503,"name":"西武球場前","numbering":[{"index":"41"}]}
+  ]
 }

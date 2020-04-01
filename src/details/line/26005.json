@@ -1,22 +1,22 @@
 {
-"name":"東急池上線",
-"symbol":"IK",
-"color":"#EE86A7",
-"station_list":[
-  {"name":"五反田","numbering":[{"index":"01"}]},
-  {"name":"大崎広小路","numbering":[{"index":"02"}]},
-  {"name":"戸越銀座","numbering":[{"index":"03"}]},
-  {"name":"荏原中延","numbering":[{"index":"04"}]},
-  {"name":"旗の台","numbering":[{"index":"05"}]},
-  {"name":"長原(東京)","numbering":[{"index":"06"}]},
-  {"name":"洗足池","numbering":[{"index":"07"}]},
-  {"name":"石川台","numbering":[{"index":"08"}]},
-  {"name":"雪が谷大塚","numbering":[{"index":"09"}]},
-  {"name":"御嶽山","numbering":[{"index":"10"}]},
-  {"name":"久が原","numbering":[{"index":"11"}]},
-  {"name":"千鳥町","numbering":[{"index":"12"}]},
-  {"name":"池上","numbering":[{"index":"13"}]},
-  {"name":"蓮沼","numbering":[{"index":"14"}]},
-  {"name":"蒲田","numbering":[{"index":"15"}]}
-]
+  "name":"東急池上線",
+  "symbol":"IK",
+  "color":"#EE86A7",
+  "station_list":[
+    {"code":1130202,"name":"五反田","numbering":[{"index":"01"}]},
+    {"code":2600502,"name":"大崎広小路","numbering":[{"index":"02"}]},
+    {"code":2600503,"name":"戸越銀座","numbering":[{"index":"03"}]},
+    {"code":2600504,"name":"荏原中延","numbering":[{"index":"04"}]},
+    {"code":2600406,"name":"旗の台","numbering":[{"index":"05"}]},
+    {"code":2600506,"name":"長原(東京)","numbering":[{"index":"06"}]},
+    {"code":2600507,"name":"洗足池","numbering":[{"index":"07"}]},
+    {"code":2600508,"name":"石川台","numbering":[{"index":"08"}]},
+    {"code":2600509,"name":"雪が谷大塚","numbering":[{"index":"09"}]},
+    {"code":2600510,"name":"御嶽山","numbering":[{"index":"10"}]},
+    {"code":2600511,"name":"久が原","numbering":[{"index":"11"}]},
+    {"code":2600512,"name":"千鳥町","numbering":[{"index":"12"}]},
+    {"code":2600513,"name":"池上","numbering":[{"index":"13"}]},
+    {"code":2600514,"name":"蓮沼","numbering":[{"index":"14"}]},
+    {"code":1133230,"name":"蒲田","numbering":[{"index":"15"}]}
+  ]
 }

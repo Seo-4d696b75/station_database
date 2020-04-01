@@ -1,19 +1,19 @@
 {
-"name":"近鉄生駒線",
-"symbol":"G",
-"color":"#FF0000",
-"station_list":[
-  {"name":"生駒","numbering":[{"index":"17"}]},
-  {"name":"菜畑","numbering":[{"index":"18"}]},
-  {"name":"一分","numbering":[{"index":"19"}]},
-  {"name":"南生駒","numbering":[{"index":"20"}]},
-  {"name":"萩の台","numbering":[{"index":"21"}]},
-  {"name":"東山(奈良)","numbering":[{"index":"22"}]},
-  {"name":"元山上口","numbering":[{"index":"23"}]},
-  {"name":"平群","numbering":[{"index":"24"}]},
-  {"name":"竜田川","numbering":[{"index":"25"}]},
-  {"name":"勢野北口","numbering":[{"index":"26"}]},
-  {"name":"信貴山下","numbering":[{"index":"27"}]},
-  {"name":"王寺","numbering":[{"index":"28"}]}
-]
+  "name":"近鉄生駒線",
+  "symbol":"G",
+  "color":"#FF0000",
+  "station_list":[
+    {"code":3101601,"name":"生駒","numbering":[{"index":"17"}]},
+    {"code":3101602,"name":"菜畑","numbering":[{"index":"18"}]},
+    {"code":3101603,"name":"一分","numbering":[{"index":"19"}]},
+    {"code":3101604,"name":"南生駒","numbering":[{"index":"20"}]},
+    {"code":3101605,"name":"萩の台","numbering":[{"index":"21"}]},
+    {"code":3101606,"name":"東山(奈良)","numbering":[{"index":"22"}]},
+    {"code":3101607,"name":"元山上口","numbering":[{"index":"23"}]},
+    {"code":3101608,"name":"平群","numbering":[{"index":"24"}]},
+    {"code":3101609,"name":"竜田川","numbering":[{"index":"25"}]},
+    {"code":3101610,"name":"勢野北口","numbering":[{"index":"26"}]},
+    {"code":3101611,"name":"信貴山下","numbering":[{"index":"27"}]},
+    {"code":1160708,"name":"王寺","numbering":[{"index":"28"}]}
+  ]
 }

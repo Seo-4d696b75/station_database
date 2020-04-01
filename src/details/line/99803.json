@@ -1,25 +1,25 @@
 {
-"name":"琴電長尾線",
-"symbol":"N",
-"color":"#66CC66",
-"station_list":[
-  {"name":"高松築港","numbering":[{"index":"00"}]},
-  {"name":"片原町(香川)","numbering":[{"index":"01"}]},
-  {"name":"瓦町","numbering":[{"index":"02"}]},
-  {"name":"花園(香川)","numbering":[{"index":"03"}]},
-  {"name":"林道","numbering":[{"index":"04"}]},
-  {"name":"木太東口","numbering":[{"index":"05"}]},
-  {"name":"元山(香川)","numbering":[{"index":"06"}]},
-  {"name":"水田","numbering":[{"index":"07"}]},
-  {"name":"西前田","numbering":[{"index":"08"}]},
-  {"name":"高田(香川)","numbering":[{"index":"09"}]},
-  {"name":"池戸","numbering":[{"index":"10"}]},
-  {"name":"農学部前","numbering":[{"index":"11"}]},
-  {"name":"平木","numbering":[{"index":"12"}]},
-  {"name":"学園通り","numbering":[{"index":"13"}]},
-  {"name":"白山(香川)","numbering":[{"index":"14"}]},
-  {"name":"井戸","numbering":[{"index":"15"}]},
-  {"name":"公文明","numbering":[{"index":"16"}]},
-  {"name":"長尾(香川)","numbering":[{"index":"17"}]}
-]
+  "name":"琴電長尾線",
+  "symbol":"N",
+  "color":"#66CC66",
+  "station_list":[
+    {"code":9980201,"name":"高松築港","numbering":[{"index":"00"}]},
+    {"code":9980202,"name":"片原町(香川)","numbering":[{"index":"01"}]},
+    {"code":9980203,"name":"瓦町","numbering":[{"index":"02"}]},
+    {"code":9980304,"name":"花園(香川)","numbering":[{"index":"03"}]},
+    {"code":9980305,"name":"林道","numbering":[{"index":"04"}]},
+    {"code":9980306,"name":"木太東口","numbering":[{"index":"05"}]},
+    {"code":9980307,"name":"元山(香川)","numbering":[{"index":"06"}]},
+    {"code":9980308,"name":"水田","numbering":[{"index":"07"}]},
+    {"code":9980309,"name":"西前田","numbering":[{"index":"08"}]},
+    {"code":9980310,"name":"高田(香川)","numbering":[{"index":"09"}]},
+    {"code":9980311,"name":"池戸","numbering":[{"index":"10"}]},
+    {"code":9980312,"name":"農学部前","numbering":[{"index":"11"}]},
+    {"code":9980313,"name":"平木","numbering":[{"index":"12"}]},
+    {"code":9980314,"name":"学園通り","numbering":[{"index":"13"}]},
+    {"code":9980315,"name":"白山(香川)","numbering":[{"index":"14"}]},
+    {"code":9980316,"name":"井戸","numbering":[{"index":"15"}]},
+    {"code":9980317,"name":"公文明","numbering":[{"index":"16"}]},
+    {"code":9980318,"name":"長尾(香川)","numbering":[{"index":"17"}]}
+  ]
 }

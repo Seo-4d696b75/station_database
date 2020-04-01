@@ -1,17 +1,17 @@
 {
-"name":"横浜市営地下鉄グリーンライン",
-"symbol":"G",
-"color":"#40CC40",
-"station_list":[
-  {"name":"中山(神奈川)","numbering":[{"index":"01"}]},
-  {"name":"川和町","numbering":[{"index":"02"}]},
-  {"name":"都筑ふれあいの丘","numbering":[{"index":"03"}]},
-  {"name":"センター南","numbering":[{"index":"04"}]},
-  {"name":"センター北","numbering":[{"index":"05"}]},
-  {"name":"北山田(神奈川)","numbering":[{"index":"06"}]},
-  {"name":"東山田","numbering":[{"index":"07"}]},
-  {"name":"高田(神奈川)","numbering":[{"index":"08"}]},
-  {"name":"日吉本町","numbering":[{"index":"09"}]},
-  {"name":"日吉(神奈川)","numbering":[{"index":"10"}]}
-]
+  "name":"横浜市営地下鉄グリーンライン",
+  "symbol":"G",
+  "color":"#40CC40",
+  "station_list":[
+    {"code":1130607,"name":"中山(神奈川)","numbering":[{"index":"01"}]},
+    {"code":9934302,"name":"川和町","numbering":[{"index":"02"}]},
+    {"code":9934303,"name":"都筑ふれあいの丘","numbering":[{"index":"03"}]},
+    {"code":9931604,"name":"センター南","numbering":[{"index":"04"}]},
+    {"code":9931603,"name":"センター北","numbering":[{"index":"05"}]},
+    {"code":9934306,"name":"北山田(神奈川)","numbering":[{"index":"06"}]},
+    {"code":9934307,"name":"東山田","numbering":[{"index":"07"}]},
+    {"code":9934308,"name":"高田(神奈川)","numbering":[{"index":"08"}]},
+    {"code":9934309,"name":"日吉本町","numbering":[{"index":"09"}]},
+    {"code":2600113,"name":"日吉(神奈川)","numbering":[{"index":"10"}]}
+  ]
 }

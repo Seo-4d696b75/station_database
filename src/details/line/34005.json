@@ -1,10 +1,10 @@
 {
-"name":"阪急甲陽線",
-"symbol":"HK",
-"color":"#0000FF",
-"station_list":[
-  {"name":"夙川","numbering":[{"index":"09"}]},
-  {"name":"苦楽園口","numbering":[{"index":"29"}]},
-  {"name":"甲陽園","numbering":[{"index":"30"}]}
-]
+  "name":"阪急甲陽線",
+  "symbol":"HK",
+  "color":"#0000FF",
+  "station_list":[
+    {"code":3400109,"name":"夙川","numbering":[{"index":"09"}]},
+    {"code":3400502,"name":"苦楽園口","numbering":[{"index":"29"}]},
+    {"code":3400503,"name":"甲陽園","numbering":[{"index":"30"}]}
+  ]
 }

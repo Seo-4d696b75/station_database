@@ -1,17 +1,17 @@
 {
-"name":"東武佐野線",
-"symbol":"TI",
-"color":"#FF0000",
-"station_list":[
-  {"name":"館林","numbering":[{"index":"10"}]},
-  {"name":"渡瀬(群馬)","numbering":[{"index":"31"}]},
-  {"name":"田島","numbering":[{"index":"32"}]},
-  {"name":"佐野市","numbering":[{"index":"33"}]},
-  {"name":"佐野","numbering":[{"index":"34"}]},
-  {"name":"堀米","numbering":[{"index":"35"}]},
-  {"name":"吉水","numbering":[{"index":"36"}]},
-  {"name":"田沼","numbering":[{"index":"37"}]},
-  {"name":"多田(栃木)","numbering":[{"index":"38"}]},
-  {"name":"葛生","numbering":[{"index":"39"}]}
-]
+  "name":"東武佐野線",
+  "symbol":"TI",
+  "color":"#FF0000",
+  "station_list":[
+    {"code":2100240,"name":"館林","numbering":[{"index":"10"}]},
+    {"code":2101002,"name":"渡瀬(群馬)","numbering":[{"index":"31"}]},
+    {"code":2101003,"name":"田島","numbering":[{"index":"32"}]},
+    {"code":2101004,"name":"佐野市","numbering":[{"index":"33"}]},
+    {"code":1134116,"name":"佐野","numbering":[{"index":"34"}]},
+    {"code":2101006,"name":"堀米","numbering":[{"index":"35"}]},
+    {"code":2101007,"name":"吉水","numbering":[{"index":"36"}]},
+    {"code":2101008,"name":"田沼","numbering":[{"index":"37"}]},
+    {"code":2101009,"name":"多田(栃木)","numbering":[{"index":"38"}]},
+    {"code":2101010,"name":"葛生","numbering":[{"index":"39"}]}
+  ]
 }

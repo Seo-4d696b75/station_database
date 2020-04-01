@@ -1,14 +1,14 @@
 {
-"name":"福岡市営地下鉄箱崎線",
-"symbol":"H",
-"color":"#0077CC",
-"station_list":[
-  {"name":"中洲川端","numbering":[{"index":"01"},{"symbol":"K","color":"#EE5511","index":"09"}]},
-  {"name":"呉服町(福岡)","numbering":[{"index":"02"}]},
-  {"name":"千代県庁口","numbering":[{"index":"03"}]},
-  {"name":"馬出九大病院前","numbering":[{"index":"04"}]},
-  {"name":"箱崎宮前","numbering":[{"index":"05"}]},
-  {"name":"箱崎九大前","numbering":[{"index":"06"}]},
-  {"name":"貝塚(福岡)","numbering":[{"index":"07"}]}
-]
+  "name":"福岡市営地下鉄箱崎線",
+  "symbol":"H",
+  "color":"#0077CC",
+  "station_list":[
+    {"code":9990505,"name":"中洲川端","numbering":[{"index":"01"},{"symbol":"K","color":"#EE5511","index":"09"}]},
+    {"code":9990602,"name":"呉服町(福岡)","numbering":[{"index":"02"}]},
+    {"code":9990603,"name":"千代県庁口","numbering":[{"index":"03"}]},
+    {"code":9990604,"name":"馬出九大病院前","numbering":[{"index":"04"}]},
+    {"code":9990605,"name":"箱崎宮前","numbering":[{"index":"05"}]},
+    {"code":9990606,"name":"箱崎九大前","numbering":[{"index":"06"}]},
+    {"code":3600401,"name":"貝塚(福岡)","numbering":[{"index":"07"}]}
+  ]
 }

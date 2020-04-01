@@ -1,22 +1,22 @@
 {
-"name":"伊予鉄道横河原線",
-"symbol":"IY",
-"color":"#00BBEE",
-"station_list":[
-  {"name":"松山市","numbering":[{"index":"10"}]},
-  {"name":"石手川公園","numbering":[{"index":"11"}]},
-  {"name":"いよ立花","numbering":[{"index":"12"}]},
-  {"name":"福音寺","numbering":[{"index":"13"}]},
-  {"name":"北久米","numbering":[{"index":"14"}]},
-  {"name":"久米","numbering":[{"index":"15"}]},
-  {"name":"鷹ノ子","numbering":[{"index":"16"}]},
-  {"name":"平井(愛媛)","numbering":[{"index":"17"}]},
-  {"name":"梅本","numbering":[{"index":"18"}]},
-  {"name":"牛渕団地前","numbering":[{"index":"19"}]},
-  {"name":"牛渕","numbering":[{"index":"20"}]},
-  {"name":"田窪","numbering":[{"index":"21"}]},
-  {"name":"見奈良","numbering":[{"index":"22"}]},
-  {"name":"愛大医学部南口","numbering":[{"index":"23"}]},
-  {"name":"横河原","numbering":[{"index":"24"}]}
-]
+  "name":"伊予鉄道横河原線",
+  "symbol":"IY",
+  "color":"#00BBEE",
+  "station_list":[
+    {"code":9980501,"name":"松山市","numbering":[{"index":"10"}]},
+    {"code":9980702,"name":"石手川公園","numbering":[{"index":"11"}]},
+    {"code":9980703,"name":"いよ立花","numbering":[{"index":"12"}]},
+    {"code":9980704,"name":"福音寺","numbering":[{"index":"13"}]},
+    {"code":9980705,"name":"北久米","numbering":[{"index":"14"}]},
+    {"code":9980706,"name":"久米","numbering":[{"index":"15"}]},
+    {"code":9980707,"name":"鷹ノ子","numbering":[{"index":"16"}]},
+    {"code":9980708,"name":"平井(愛媛)","numbering":[{"index":"17"}]},
+    {"code":9980709,"name":"梅本","numbering":[{"index":"18"}]},
+    {"code":9980710,"name":"牛渕団地前","numbering":[{"index":"19"}]},
+    {"code":9980711,"name":"牛渕","numbering":[{"index":"20"}]},
+    {"code":9980712,"name":"田窪","numbering":[{"index":"21"}]},
+    {"code":9980713,"name":"見奈良","numbering":[{"index":"22"}]},
+    {"code":9980714,"name":"愛大医学部南口","numbering":[{"index":"23"}]},
+    {"code":9980715,"name":"横河原","numbering":[{"index":"24"}]}
+  ]
 }

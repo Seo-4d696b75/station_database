@@ -1,14 +1,14 @@
 {
-"name":"京急空港線",
-"symbol":"KK",
-"color":"#00BFFF",
-"station_list":[
-  {"name":"京急蒲田","numbering":[{"index":"11"}]},
-  {"name":"糀谷","numbering":[{"index":"12"}]},
-  {"name":"大鳥居","numbering":[{"index":"13"}]},
-  {"name":"穴守稲荷","numbering":[{"index":"14"}]},
-  {"name":"天空橋","numbering":[{"index":"15"}]},
-  {"name":"羽田空港国際線ターミナル","numbering":[{"index":"16"}]},
-  {"name":"羽田空港国内線ターミナル","numbering":[{"index":"17"}]}
-]
+  "name":"京急空港線",
+  "symbol":"KK",
+  "color":"#00BFFF",
+  "station_list":[
+    {"code":2700112,"name":"京急蒲田","numbering":[{"index":"11"}]},
+    {"code":2700202,"name":"糀谷","numbering":[{"index":"12"}]},
+    {"code":2700203,"name":"大鳥居","numbering":[{"index":"13"}]},
+    {"code":2700204,"name":"穴守稲荷","numbering":[{"index":"14"}]},
+    {"code":2700205,"name":"天空橋","numbering":[{"index":"15"}]},
+    {"code":2700207,"name":"羽田空港第３ターミナル(京浜急行電鉄)","numbering":[{"index":"16"}]},
+    {"code":2700206,"name":"羽田空港第１・第２ターミナル","numbering":[{"index":"17"}]}
+  ]
 }

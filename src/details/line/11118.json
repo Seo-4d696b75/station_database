@@ -1,11 +1,12 @@
 {
-"name":"JR海峡線","closed":true,
-"color":"#0099FF",
-"station_list":[
-  {"name":"中小国"},
-  {"name":"奥津軽いまべつ"},
-  {"name":"竜飛海底"},
-  {"name":"知内"},
-  {"name":"木古内"}
-]
+  "name":"JR海峡線",
+  "closed":true,
+  "color":"#0099FF",
+  "station_list":[
+    {"code":1111801,"name":"中小国"},
+    {"code":101102,"name":"奥津軽いまべつ"},
+    {"code":1111803,"name":"竜飛海底"},
+    {"code":1111805,"name":"知内"},
+    {"code":101103,"name":"木古内"}
+  ]
 }

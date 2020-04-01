@@ -1,20 +1,20 @@
 {
-"name":"仙台市営地下鉄東西線",
-"symbol":"T",
-"color":"#90D7EC",
-"station_list":[
-  {"name":"八木山動物公園","numbering":[{"index":"01"}]},
-  {"name":"青葉山","numbering":[{"index":"02"}]},
-  {"name":"川内(宮城)","numbering":[{"index":"03"}]},
-  {"name":"国際センター(宮城)","numbering":[{"index":"04"}]},
-  {"name":"大町西公園","numbering":[{"index":"05"}]},
-  {"name":"青葉通一番町","numbering":[{"index":"06"}]},
-  {"name":"仙台(仙台市交通局)","numbering":[{"index":"07"}]},
-  {"name":"宮城野通","numbering":[{"index":"08"}]},
-  {"name":"連坊","numbering":[{"index":"09"}]},
-  {"name":"薬師堂(宮城)","numbering":[{"index":"10"}]},
-  {"name":"卸町(宮城)","numbering":[{"index":"11"}]},
-  {"name":"六丁の目","numbering":[{"index":"12"}]},
-  {"name":"荒井(宮城)","numbering":[{"index":"13"}]}
-]
+  "name":"仙台市営地下鉄東西線",
+  "symbol":"T",
+  "color":"#90D7EC",
+  "station_list":[
+    {"code":9921801,"name":"八木山動物公園","numbering":[{"index":"01"}]},
+    {"code":9921802,"name":"青葉山","numbering":[{"index":"02"}]},
+    {"code":9921803,"name":"川内(宮城)","numbering":[{"index":"03"}]},
+    {"code":9921804,"name":"国際センター(宮城)","numbering":[{"index":"04"}]},
+    {"code":9921805,"name":"大町西公園","numbering":[{"index":"05"}]},
+    {"code":9921806,"name":"青葉通一番町","numbering":[{"index":"06"}]},
+    {"code":9921410,"name":"仙台(仙台市交通局)","numbering":[{"index":"07"}]},
+    {"code":9921808,"name":"宮城野通","numbering":[{"index":"08"}]},
+    {"code":9921809,"name":"連坊","numbering":[{"index":"09"}]},
+    {"code":9921810,"name":"薬師堂(宮城)","numbering":[{"index":"10"}]},
+    {"code":9921811,"name":"卸町(宮城)","numbering":[{"index":"11"}]},
+    {"code":9921812,"name":"六丁の目","numbering":[{"index":"12"}]},
+    {"code":9921813,"name":"荒井(宮城)","numbering":[{"index":"13"}]}
+  ]
 }

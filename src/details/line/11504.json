@@ -1,12 +1,12 @@
 {
-"name":"JR伊東線",
-"color":"#F68B1E",
-"station_list":[
-  {"name":"熱海"},
-  {"name":"来宮"},
-  {"name":"伊豆多賀"},
-  {"name":"網代"},
-  {"name":"宇佐美"},
-  {"name":"伊東"}
-]
+  "name":"JR伊東線",
+  "color":"#F68B1E",
+  "station_list":[
+    {"code":100205,"name":"熱海"},
+    {"code":1150402,"name":"来宮"},
+    {"code":1150403,"name":"伊豆多賀"},
+    {"code":1150404,"name":"網代"},
+    {"code":1150405,"name":"宇佐美"},
+    {"code":1150406,"name":"伊東"}
+  ]
 }

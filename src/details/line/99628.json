@@ -1,17 +1,17 @@
 {
-"name":"阪堺電軌上町線",
-"symbol":"HN",
-"station_list":[
-  {"name":"天王寺駅前","numbering":[{"index":"01"}]},
-  {"name":"阿倍野","numbering":[{"index":"02"}]},
-  {"name":"松虫","numbering":[{"index":"03"}]},
-  {"name":"東天下茶屋","numbering":[{"index":"04"}]},
-  {"name":"北畠","numbering":[{"index":"05"}]},
-  {"name":"姫松","numbering":[{"index":"06"}]},
-  {"name":"帝塚山三丁目","numbering":[{"index":"07"}]},
-  {"name":"帝塚山四丁目","numbering":[{"index":"08"}]},
-  {"name":"神ノ木","numbering":[{"index":"09"}]},
-  {"name":"住吉(大阪)","numbering":[{"index":"10"}]},
-  {"name":"住吉公園","numbering":[{"index":"11"}]}
-]
+  "name":"阪堺電軌上町線",
+  "symbol":"HN",
+  "station_list":[
+    {"code":9962801,"name":"天王寺駅前","numbering":[{"index":"01"}]},
+    {"code":9961918,"name":"阿倍野","numbering":[{"index":"02"}]},
+    {"code":9962803,"name":"松虫","numbering":[{"index":"03"}]},
+    {"code":9962804,"name":"東天下茶屋","numbering":[{"index":"04"}]},
+    {"code":9962805,"name":"北畠","numbering":[{"index":"05"}]},
+    {"code":9962806,"name":"姫松","numbering":[{"index":"06"}]},
+    {"code":9962807,"name":"帝塚山三丁目","numbering":[{"index":"07"}]},
+    {"code":9962808,"name":"帝塚山四丁目","numbering":[{"index":"08"}]},
+    {"code":9962809,"name":"神ノ木","numbering":[{"index":"09"}]},
+    {"code":9962810,"name":"住吉(大阪)","numbering":[{"index":"10"}]},
+    {"code":9962811,"name":"住吉公園","numbering":[{"index":"11"}]}
+  ]
 }

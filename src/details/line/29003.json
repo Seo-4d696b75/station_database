@@ -1,9 +1,9 @@
 {
-    "name":"相鉄新横浜線",
-    "symbol":"SO",
+  "name":"相鉄新横浜線",
+  "symbol":"SO",
   "color":"#2288CC",
-    "station_list":[
-    {"name":"羽沢横浜国大","numbering":[{"index":"51"}]},
-    {"name":"西谷","numbering":[{"index":"08"}]}
+  "station_list":[
+    {"code":2900301,"name":"羽沢横浜国大","numbering":[{"index":"51"}]},
+    {"code":2900108,"name":"西谷","numbering":[{"index":"08"}]}
   ]
-  }
+}
