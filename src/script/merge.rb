@@ -60,13 +60,37 @@ read_json(file_src_station).each do |s|
 		exit(0)
 	end
 	station_map[name] = s
-	station_map[s['code']] = s
+	code = s['code']
+	if station_map.key?(code)
+		puts "Error > station code duplicated #{code}"
+		exit(0)
+	end
+	station_map[code] = s
 	stations << s
 end
 puts "size:#{lines.length}"
 
 
+# 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
+puts 'read diagram details'
+tree = read_json(file_src_diagram)
+if stations.length != tree['node_list'].length
+	puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree['node_list'].length}"
+	exit(0)
+end
 
+node_map = {}
+tree['node_list'].each do |e|
+	code = e['code']
+	s = station_map[code]
+	if !s
+		puts "Error > station not found. code:#{code}"
+		exit(0)
+	end
+	s['voronoi'] = e.delete('voronoi')
+	s['next'] = e.delete('next')
+	node_map[code] = e
+end
 
 
 def set_details(line,details,polyline,station_map,dir_dst,dir_src)
@@ -162,37 +186,8 @@ File.open("#{dir_dst}/line.json", "w") do |f|
 	f.write(format_json(lines.map{|e| sort_hash(e)}, flat:true))
 end
 
-# 駅
-station_map = {}
-stations.each do |s|
-	code = s['code']
-	if station_map.key?(code)
-		puts "Error > station code duplicated #{code}"
-		exit(0)
-	end
-	station_map[code] = s
-end
 
-# 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
-puts 'read diagram details'
-tree = read_json(file_src_diagram)
-if stations.length != tree['node_list'].length
-	puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree['node_list'].length}"
-	exit(0)
-end
 
-node_map = {}
-tree['node_list'].each do |e|
-	code = e['code']
-	s = station_map[code]
-	if !s
-		puts "Error > station not found. code:#{code}"
-		exit(0)
-	end
-	s['voronoi'] = e.delete('voronoi')
-	s['next'] = e.delete('next')
-	node_map[code] = e
-	end
 puts "write station list to file."
 File.open("#{dir_dst}/station.json","w") do |f|
 	f.write(format_json(stations.map{|e| sort_hash(e)},flat:true))

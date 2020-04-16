@@ -3,6 +3,6 @@
   "name":"鉄道院中央本線",
   "closed":true,
   "station_list":[
-    {"code":9934901,"id":"6d7c2b","name":"昌平橋","name_kana":"しょうへいばし","closed":true,"lat":35.698281,"lng":139.768583,"prefecture":13,"lines":[99349],"attr":"unknown","postal_code":"101-0063","address":"日本東京都千代田区神田淡路町２丁目９-３"}
+    {"code":9934901,"id":"6d7c2b","name":"昌平橋","name_kana":"しょうへいばし","closed":true,"lat":35.698281,"lng":139.768583,"prefecture":13,"lines":[99349],"attr":"unknown","postal_code":"101-0063","address":"日本東京都千代田区神田淡路町２丁目９-３","next":[1131203,2800509,2800207,2800106,9930407,1130222],"voronoi":{"lat":35.696347,"lng":139.769521,"delta_lat":[0,789,2853,2120,-1926,-4406],"delta_lng":[0,-2137,-233,774,2887,318]}}
   ]
 }

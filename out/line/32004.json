@@ -4,9 +4,9 @@
   "color":"#0065AF",
   "symbol":"NK",
   "station_list":[
-    {"code":3200114,"id":"dea15d","name":"羽衣","name_kana":"はごろも","lat":34.534546,"lng":135.44178,"prefecture":27,"numbering":[{"index":"16"}],"lines":[32001,32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣１-１５-１６"},
-    {"code":3200402,"id":"336956","name":"伽羅橋","name_kana":"きゃらばし","lat":34.528869,"lng":135.436847,"prefecture":27,"numbering":[{"index":"16-1"}],"lines":[32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣５-１５-１８"},
-    {"code":3200403,"id":"719dac","name":"高師浜","name_kana":"たかしのはま","lat":34.527391,"lng":135.431911,"prefecture":27,"numbering":[{"index":"16-2"}],"lines":[32004],"attr":"eco","postal_code":"592-0004","address":"高石市高師浜４-１-３７"}
+    {"code":3200114,"id":"dea15d","name":"羽衣","name_kana":"はごろも","lat":34.534546,"lng":135.44178,"prefecture":27,"numbering":[{"index":"16"}],"lines":[32001,32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣１-１５-１６","next":[1162702,1162615,3200402,3200403,9962930],"voronoi":{"lat":34.527803,"lng":135.445533,"delta_lat":[0,-711,11669,1738,-2153],"delta_lng":[0,-909,-13429,-1260,10720]}},
+    {"code":3200402,"id":"336956","name":"伽羅橋","name_kana":"きゃらばし","lat":34.528869,"lng":135.436847,"prefecture":27,"numbering":[{"index":"16-1"}],"lines":[32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣５-１５-１８","next":[3200115,3200403,3200114,1162615],"voronoi":{"lat":34.538762,"lng":135.431196,"delta_lat":[0,-13930,-3680,5941],"delta_lng":[0,4171,6630,2628]}},
+    {"code":3200403,"id":"719dac","name":"高師浜","name_kana":"たかしのはま","lat":34.527391,"lng":135.431911,"prefecture":27,"numbering":[{"index":"16-2"}],"lines":[32004],"attr":"eco","postal_code":"592-0004","address":"高石市高師浜４-１-３７","next":[9962503,9962507,3200402,3200115,3200116,9962930,3200117,3200114],"voronoi":{"lat":34.524831,"lng":135.435367,"delta_lat":[0,-1543,18583,30750,2189,-526,-33785,-1738],"delta_lng":[0,-11307,-26185,-32983,16120,6795,42129,1260]}}
   ],
   "north":34.5351,
   "south":34.52703,

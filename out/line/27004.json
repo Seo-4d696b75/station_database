@@ -4,10 +4,10 @@
   "color":"#00BFFF",
   "symbol":"KK",
   "station_list":[
-    {"code":2700139,"id":"634c7c","name":"金沢八景","name_kana":"かなざわはっけい","lat":35.331223,"lng":139.62018,"prefecture":14,"numbering":[{"index":"50"}],"lines":[27001,27004,99317],"attr":"heat","postal_code":"236-0027","address":"横浜市金沢区瀬戸１５-１"},
-    {"code":2700402,"id":"2174a5","name":"六浦","name_kana":"むつうら","lat":35.32269,"lng":139.611532,"prefecture":14,"numbering":[{"index":"51"}],"lines":[27004],"attr":"eco","postal_code":"236-0032","address":"横浜市金沢区六浦町１５３４"},
-    {"code":2700403,"id":"4dedfc","name":"神武寺","name_kana":"じんむじ","lat":35.306233,"lng":139.592947,"prefecture":14,"numbering":[{"index":"52"}],"lines":[27004],"attr":"cool","postal_code":"249-0003","address":"逗子市池子２-１１-２"},
-    {"code":2700404,"id":"85521f","name":"逗子・葉山","name_kana":"ずし・はやま","lat":35.294189,"lng":139.580359,"prefecture":14,"numbering":[{"index":"53"}],"lines":[27004],"attr":"cool","postal_code":"249-0006","address":"逗子市逗子５-１-６"}
+    {"code":2700139,"id":"634c7c","name":"金沢八景","name_kana":"かなざわはっけい","lat":35.331223,"lng":139.62018,"prefecture":14,"numbering":[{"index":"50"}],"lines":[27001,27004,99317],"attr":"heat","postal_code":"236-0027","address":"横浜市金沢区瀬戸１５-１","next":[2700402,2700140,9931713,9931712,2700138],"voronoi":{"lat":35.33917,"lng":139.603805,"delta_lat":[0,-16549,1596,10169,2218],"delta_lng":[0,16329,5327,595,-1117]}},
+    {"code":2700402,"id":"2174a5","name":"六浦","name_kana":"むつうら","lat":35.32269,"lng":139.611532,"prefecture":14,"numbering":[{"index":"51"}],"lines":[27004],"attr":"eco","postal_code":"236-0032","address":"横浜市金沢区六浦町１５３４","next":[2700139,2700403,1130814,1130811,2700140,2700138,1130710],"voronoi":{"lat":35.33917,"lng":139.603805,"delta_lat":[0,-16549,-14247,3073,27734,769,6204],"delta_lng":[0,16329,-7701,-7524,-24558,168,9229]}},
+    {"code":2700403,"id":"4dedfc","name":"神武寺","name_kana":"じんむじ","lat":35.306233,"lng":139.592947,"prefecture":14,"numbering":[{"index":"52"}],"lines":[27004],"attr":"cool","postal_code":"249-0003","address":"逗子市池子２-１１-２","next":[1130814,2700402,1130813,1130812,2700404,1130811],"voronoi":{"lat":35.336948,"lng":139.578906,"delta_lat":[0,-16116,-20431,-5056,16101,27734],"delta_lng":[0,-4760,12325,4837,13602,-24558]}},
+    {"code":2700404,"id":"85521f","name":"逗子・葉山","name_kana":"ずし・はやま","lat":35.294189,"lng":139.580359,"prefecture":14,"numbering":[{"index":"53"}],"lines":[27004],"attr":"cool","postal_code":"249-0006","address":"逗子市逗子５-１-６","next":[1130814,9932010,1130813,2700403,2700509,9932012,1130817],"voronoi":{"lat":35.233412,"lng":139.601396,"delta_lat":[0,-30221,69872,2316,25023,-5056,-57187],"delta_lng":[0,-66719,12124,895,38775,4837,12267]}}
   ],
   "north":35.33179,
   "south":35.29364,

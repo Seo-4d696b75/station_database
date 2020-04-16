@@ -4,10 +4,10 @@
   "color":"#0065AF",
   "symbol":"NK",
   "station_list":[
-    {"code":3200137,"id":"db468a","name":"みさき公園","name_kana":"みさきこうえん","lat":34.323986,"lng":135.160977,"prefecture":27,"numbering":[{"index":"41"}],"lines":[32001,32006],"attr":"heat","postal_code":"599-0301","address":"泉南郡岬町淡輪３７１４"},
-    {"code":3200602,"id":"02f7d6","name":"深日町","name_kana":"ふけちょう","lat":34.31823,"lng":135.148002,"prefecture":27,"numbering":[{"index":"41-1"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日１４３３"},
-    {"code":3200603,"id":"18f240","name":"深日港","name_kana":"ふけこう","lat":34.317386,"lng":135.141297,"prefecture":27,"numbering":[{"index":"41-2"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日２５３５-１"},
-    {"code":3200604,"id":"1ce5c3","name":"多奈川","name_kana":"たながわ","lat":34.316705,"lng":135.137181,"prefecture":27,"numbering":[{"index":"41-3"}],"lines":[32006],"attr":"eco","postal_code":"599-0300","address":"泉南郡岬町多奈川２２９０"}
+    {"code":3200137,"id":"db468a","name":"みさき公園","name_kana":"みさきこうえん","lat":34.323986,"lng":135.160977,"prefecture":27,"numbering":[{"index":"41"}],"lines":[32001,32006],"attr":"heat","postal_code":"599-0301","address":"泉南郡岬町淡輪３７１４","next":[3200602,3200136,3200138,3200604,1162803,3200603],"voronoi":{"lat":34.305715,"lng":135.161318,"delta_lat":[0,-5967,138627,9414,-53534,-40871],"delta_lng":[0,19994,-58438,-12790,16380,13707]}},
+    {"code":3200602,"id":"02f7d6","name":"深日町","name_kana":"ふけちょう","lat":34.31823,"lng":135.148002,"prefecture":27,"numbering":[{"index":"41-1"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日１４３３","next":[3200603,3200137,3200138],"voronoi":{"lat":34.353383,"lng":135.140171,"delta_lat":[0,-49301,1632],"delta_lng":[0,6206,14941]}},
+    {"code":3200603,"id":"18f240","name":"深日港","name_kana":"ふけこう","lat":34.317386,"lng":135.141297,"prefecture":27,"numbering":[{"index":"41-2"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日２５３５-１","next":[3200602,3200604,3200137,3200138],"voronoi":{"lat":34.302371,"lng":135.141667,"delta_lat":[0,91883,-40871,-49301],"delta_lng":[0,-15202,13707,6206]}},
+    {"code":3200604,"id":"1ce5c3","name":"多奈川","name_kana":"たながわ","lat":34.316705,"lng":135.137181,"prefecture":27,"numbering":[{"index":"41-3"}],"lines":[32006],"attr":"eco","postal_code":"599-0300","address":"泉南郡岬町多奈川２２９０","next":[9963712,3200507,3200509,9963710,3200137,3200138,3200141,1160807,3200603,1162803],"voronoi":{"lat":34.394255,"lng":135.126465,"delta_lat":[0,-91883,-11743,-852,2300,153942,10268,6728,6485,-21711],"delta_lng":[0,15202,-22136,-3579,-4098,-113043,34092,25244,27558,24380]}}
   ],
   "north":34.32462,
   "south":34.31668,

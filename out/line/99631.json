@@ -3,8 +3,8 @@
   "name":"神戸高速南北線",
   "symbol":"KB",
   "station_list":[
-    {"code":9963006,"id":"d9aa1c","name":"新開地","name_kana":"しんかいち","lat":34.675981,"lng":135.169291,"prefecture":28,"numbering":[{"color":"#DD0033","index":"01"}],"lines":[99630,99631],"attr":"eco","postal_code":"652-0811","address":"神戸市兵庫区新開地２-３"},
-    {"code":9963102,"id":"ea4429","name":"湊川","name_kana":"みなとがわ","lat":34.679153,"lng":135.166426,"prefecture":28,"numbering":[{"color":"#DD0033","index":"02"}],"lines":[99631,99632],"attr":"cool","postal_code":"652-0032","address":"神戸市兵庫区荒田町１-２０-３"}
+    {"code":9963006,"id":"d9aa1c","name":"新開地","name_kana":"しんかいち","lat":34.675981,"lng":135.169291,"prefecture":28,"numbering":[{"color":"#DD0033","index":"01"}],"lines":[99630,99631],"attr":"eco","postal_code":"652-0811","address":"神戸市兵庫区新開地２-３","next":[9963007,9964605,9963102,9963005,9964706,1160802],"voronoi":{"lat":34.672773,"lng":135.175082,"delta_lat":[0,6603,-2692,-1922,-2018,-2857],"delta_lng":[0,-4335,-3867,-2129,1278,4759]}},
+    {"code":9963102,"id":"ea4429","name":"湊川","name_kana":"みなとがわ","lat":34.679153,"lng":135.166426,"prefecture":28,"numbering":[{"color":"#DD0033","index":"02"}],"lines":[99631,99632],"attr":"cool","postal_code":"652-0032","address":"神戸市兵庫区荒田町１-２０-３","next":[9964604,9963006,9963007,9964606,9963202,9964605,9963204],"voronoi":{"lat":34.68816,"lng":135.166245,"delta_lat":[0,-11476,-1922,1376,5755,14919,9],"delta_lng":[0,635,-2129,-2326,-4196,2173,5]}}
   ],
   "north":34.67959,
   "south":34.67634,

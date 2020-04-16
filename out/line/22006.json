@@ -4,9 +4,9 @@
   "color":"#FF3333",
   "symbol":"SY",
   "station_list":[
-    {"code":2200601,"id":"1666ba","name":"西武遊園地","name_kana":"せいぶゆうえんち","lat":35.765881,"lng":139.442747,"prefecture":13,"numbering":[{"index":"01"}],"lines":[22006,22011],"attr":"cool","postal_code":"189-0026","address":"東村山市多摩湖町３-１５-１８"},
-    {"code":2200602,"id":"fc7f46","name":"遊園地西","name_kana":"ゆうえんちにし","lat":35.769042,"lng":139.440166,"prefecture":11,"numbering":[{"index":"02"}],"lines":[22006],"attr":"cool","postal_code":"359-1145","address":"所沢市山口２９３９"},
-    {"code":2200503,"id":"9da248","name":"西武球場前","name_kana":"せいぶきゅうじょうまえ","lat":35.77093,"lng":139.41966,"prefecture":11,"numbering":[{"index":"03"}],"lines":[22005,22006],"attr":"eco","postal_code":"359-1153","address":"所沢市上山口２０９０-３"}
+    {"code":2200601,"id":"1666ba","name":"西武遊園地","name_kana":"せいぶゆうえんち","lat":35.765881,"lng":139.442747,"prefecture":13,"numbering":[{"index":"01"}],"lines":[22006,22011],"attr":"cool","postal_code":"189-0026","address":"東村山市多摩湖町３-１５-１８","next":[2200602,2200902,2201107],"voronoi":{"lat":35.759616,"lng":139.431848,"delta_lat":[0,10593,-8530],"delta_lng":[0,12973,2498]}},
+    {"code":2200602,"id":"fc7f46","name":"遊園地西","name_kana":"ゆうえんちにし","lat":35.769042,"lng":139.440166,"prefecture":11,"numbering":[{"index":"02"}],"lines":[22006],"attr":"cool","postal_code":"359-1145","address":"所沢市山口２９３９","next":[2200601,2200502,2201107,2200503,2200902],"voronoi":{"lat":35.775146,"lng":139.430388,"delta_lat":[0,-16435,906,10593,3590],"delta_lng":[0,-1514,2974,12973,558]}},
+    {"code":2200503,"id":"9da248","name":"西武球場前","name_kana":"せいぶきゅうじょうまえ","lat":35.77093,"lng":139.41966,"prefecture":11,"numbering":[{"index":"03"}],"lines":[22005,22006],"attr":"eco","postal_code":"359-1153","address":"所沢市上山口２０９０-３","next":[2200502,1131706,9933419,2200119,2201107,2200118,2200602,2200806],"voronoi":{"lat":35.764711,"lng":139.383213,"delta_lat":[0,23596,2535,-2943,-12754,-16435,-1866,6486],"delta_lng":[0,74,37310,4746,5046,-1514,-1111,-42428]}}
   ],
   "north":35.77169,
   "south":35.76511,

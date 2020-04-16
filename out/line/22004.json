@@ -4,8 +4,8 @@
   "color":"#FF6600",
   "symbol":"SI",
   "station_list":[
-    {"code":2200106,"id":"a254f6","name":"練馬","name_kana":"ねりま","lat":35.737893,"lng":139.654368,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22001,22003,22004,99301],"attr":"heat","postal_code":"176-0001","address":"練馬区練馬１-３-５"},
-    {"code":2200402,"id":"214d8c","name":"豊島園","name_kana":"としまえん","lat":35.742054,"lng":139.647979,"prefecture":13,"numbering":[{"index":"39"}],"lines":[22004,99301],"attr":"cool","postal_code":"176-0001","address":"練馬区練馬４-１６-５"}
+    {"code":2200106,"id":"a254f6","name":"練馬","name_kana":"ねりま","lat":35.737893,"lng":139.654368,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22001,22003,22004,99301],"attr":"heat","postal_code":"176-0001","address":"練馬区練馬１-３-５","next":[2200707,2200708,2200706,2200107,2200402,2200105,2800605],"voronoi":{"lat":35.747476,"lng":139.65606,"delta_lat":[0,-15077,-249,-3187,-626,554,17057],"delta_lng":[0,-9819,16,5212,6977,1077,-1872]}},
+    {"code":2200402,"id":"214d8c","name":"豊島園","name_kana":"としまえん","lat":35.742054,"lng":139.647979,"prefecture":13,"numbering":[{"index":"39"}],"lines":[22004,99301],"attr":"cool","postal_code":"176-0001","address":"練馬区練馬４-１６-５","next":[2200107,9930137,2800604,2800605,2200106],"voronoi":{"lat":35.748168,"lng":139.655765,"delta_lat":[0,2518,-6893,-11395,15077],"delta_lng":[0,-6883,-8366,5725,9819]}}
   ],
   "north":35.74247,
   "south":35.73766,

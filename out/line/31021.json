@@ -4,9 +4,9 @@
   "color":"#77BBFF",
   "symbol":"J",
   "station_list":[
-    {"code":3100510,"id":"78e81b","name":"河内山本","name_kana":"かわちやまもと","lat":34.627892,"lng":135.619317,"prefecture":27,"numbering":[{"index":"12"}],"lines":[31005,31021],"attr":"heat","postal_code":"581-0867","address":"八尾市山本町１-１-１７"},
-    {"code":3102102,"id":"c7b923","name":"服部川","name_kana":"はっとりがわ","lat":34.626481,"lng":135.641102,"prefecture":27,"numbering":[{"index":"13"}],"lines":[31021],"attr":"heat","postal_code":"581-0865","address":"八尾市服部川４９６"},
-    {"code":3102103,"id":"7537d9","name":"信貴山口","name_kana":"しぎさんぐち","lat":34.619967,"lng":135.642118,"prefecture":27,"numbering":[{"index":"14"}],"lines":[31021,31024],"attr":"heat","postal_code":"581-0873","address":"八尾市黒谷６４６"}
+    {"code":3100510,"id":"78e81b","name":"河内山本","name_kana":"かわちやまもと","lat":34.627892,"lng":135.619317,"prefecture":27,"numbering":[{"index":"12"}],"lines":[31005,31021],"attr":"heat","postal_code":"581-0867","address":"八尾市山本町１-１-１７","next":[3102007,3102102,1160714,3100511,3102006,3100509],"voronoi":{"lat":34.645388,"lng":135.621918,"delta_lat":[0,-2028,-14682,-11610,1377,26706],"delta_lng":[0,9339,-951,-19440,-660,3206]}},
+    {"code":3102102,"id":"c7b923","name":"服部川","name_kana":"はっとりがわ","lat":34.626481,"lng":135.641102,"prefecture":27,"numbering":[{"index":"13"}],"lines":[31021],"attr":"heat","postal_code":"581-0865","address":"八尾市服部川４９６","next":[3102103,3102007,3100510,3102009,3101607,3100511,3102008,3102402],"voronoi":{"lat":34.644167,"lng":135.668487,"delta_lat":[0,1207,-1584,-430,-14682,-6768,2981,16658],"delta_lng":[0,-7470,-28680,-1080,-951,2879,19116,16802]}},
+    {"code":3102103,"id":"7537d9","name":"信貴山口","name_kana":"しぎさんぐち","lat":34.619967,"lng":135.642118,"prefecture":27,"numbering":[{"index":"14"}],"lines":[31021,31024],"attr":"heat","postal_code":"581-0873","address":"八尾市黒谷６４６","next":[3102402,3102102,3100512,3100511],"voronoi":{"lat":34.604153,"lng":135.641133,"delta_lat":[0,20739,-2981,-5762],"delta_lng":[0,11169,-19116,193]}}
   ],
   "north":34.62804,
   "south":34.61975,
