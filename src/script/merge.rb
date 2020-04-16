@@ -90,7 +90,7 @@ def set_details(line,details,polyline,station_map,dir_dst,dir_src)
 
 	# 路線詳細の書き出し
 	write = false
-	details['station_list'].map! do |e|
+	station_list = details['station_list'].map! do |e|
 		s = nil
 		if !(s = station_map[e['name']]) && !(s = station_map[e['code']])
 			puts "Error > station not found #{e['name']}(#{e['code']}) at station_list #{JSON.dump(line)}"
@@ -126,11 +126,18 @@ def set_details(line,details,polyline,station_map,dir_dst,dir_src)
 		details['south'] = polyline['south']
 		details['polyline_list'] = polyline['polyline_list']
 	end
+	details['station_list'] = station_list.map do |e|
+		detail = station_map[e['code']]
+		next sort_hash(e.merge(detail))
+	end
 	File.open("#{dir_dst}/line/#{line['code']}.json",'w') do |f|
 		f.write(format_json(sort_hash(details), flat_key:['delta_lng','delta_lat'], flat_array:['station_list']))
 	end
 	line.each{|key,value| details[key] = value}
-	details['station_list'].each{|e| e.delete('name')}
+	details['station_list'] = station_list.map do |e|
+		e.delete('name')
+		next e
+	end
 end
 
 # 路線
