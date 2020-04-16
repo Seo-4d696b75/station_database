@@ -4,9 +4,9 @@
   "color":"#FF6600",
   "symbol":"SI",
   "station_list":[
-    {"code":2200117,"name":"西所沢","numbering":[{"index":"18"}]},
-    {"code":2200502,"name":"下山口","numbering":[{"index":"40"}]},
-    {"code":2200503,"name":"西武球場前","numbering":[{"index":"41"}]}
+    {"code":2200117,"id":"403959","name":"西所沢","name_kana":"にしところざわ","lat":35.789303,"lng":139.455959,"prefecture":11,"numbering":[{"index":"18"}],"lines":[22001,22005],"attr":"eco","postal_code":"359-1144","address":"所沢市西所沢１-１１-９"},
+    {"code":2200502,"id":"5edba2","name":"下山口","name_kana":"しもやまぐち","lat":35.77941,"lng":139.441097,"prefecture":11,"numbering":[{"index":"40"}],"lines":[22005],"attr":"eco","postal_code":"359-1145","address":"所沢市山口１２５４-３"},
+    {"code":2200503,"id":"9da248","name":"西武球場前","name_kana":"せいぶきゅうじょうまえ","lat":35.77093,"lng":139.41966,"prefecture":11,"numbering":[{"index":"41"}],"lines":[22005,22006],"attr":"eco","postal_code":"359-1153","address":"所沢市上山口２０９０-３"}
   ],
   "north":35.78967,
   "south":35.77143,

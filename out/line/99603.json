@@ -3,13 +3,13 @@
   "name":"近江鉄道八日市線",
   "color":"#4BC560",
   "station_list":[
-    {"code":9960112,"name":"八日市"},
-    {"code":9960302,"name":"新八日市"},
-    {"code":9960303,"name":"太郎坊宮前"},
-    {"code":9960304,"name":"市辺"},
-    {"code":9960305,"name":"平田(滋賀)"},
-    {"code":9960306,"name":"武佐(滋賀)"},
-    {"code":1160108,"name":"近江八幡"}
+    {"code":9960112,"id":"b0f2fd","name":"八日市","name_kana":"ようかいち","lat":35.114264,"lng":136.194582,"prefecture":25,"lines":[99601,99603],"attr":"eco","postal_code":"527-0011","address":"東近江市八日市浜野町４８５"},
+    {"code":9960302,"id":"4142a0","name":"新八日市","name_kana":"しんようかいち","lat":35.110356,"lng":136.191141,"prefecture":25,"lines":[99603],"attr":"eco","postal_code":"527-0018","address":"東近江市八日市清水２-１３７-２"},
+    {"code":9960303,"id":"c9e0c3","name":"太郎坊宮前","name_kana":"たろぼうぐうまえ","lat":35.108608,"lng":136.183958,"prefecture":25,"lines":[99603],"attr":"eco","postal_code":"527-0091","address":"東近江市小脇町７５３-５"},
+    {"code":9960304,"id":"f260f6","name":"市辺","name_kana":"いちのべ","lat":35.103848,"lng":136.165641,"prefecture":25,"lines":[99603],"attr":"cool","postal_code":"527-0074","address":"東近江市市辺町２８０１"},
+    {"code":9960305,"id":"289dfd","name":"平田(滋賀)","name_kana":"ひらた","lat":35.11023,"lng":136.146612,"prefecture":25,"lines":[99603],"attr":"cool","postal_code":"527-0087","address":"東近江市平田町１２１-２"},
+    {"code":9960306,"id":"1ca386","name":"武佐(滋賀)","name_kana":"むさ","lat":35.114894,"lng":136.130692,"prefecture":25,"lines":[99603],"attr":"heat","postal_code":"523-0013","address":"近江八幡市長光寺町５５-３"},
+    {"code":1160108,"id":"fd5319","name":"近江八幡","name_kana":"おうみはちまん","lat":35.122765,"lng":136.102715,"prefecture":25,"lines":[11601,99603],"attr":"cool","postal_code":"523-0891","address":"近江八幡市鷹飼町"}
   ],
   "north":35.12356,
   "south":35.10354,

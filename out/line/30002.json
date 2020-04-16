@@ -4,11 +4,11 @@
   "color":"#DC143C",
   "symbol":"TK",
   "station_list":[
-    {"code":3000104,"name":"国府(愛知)","numbering":[{"symbol":"NH","index":"04"}]},
-    {"code":3000202,"name":"八幡(愛知)","numbering":[{"index":"01"}]},
-    {"code":3000203,"name":"諏訪町","numbering":[{"index":"02"}]},
-    {"code":3000204,"name":"稲荷口","numbering":[{"index":"03"}]},
-    {"code":3000205,"name":"豊川稲荷","numbering":[{"index":"04"}]}
+    {"code":3000104,"id":"59ae7e","name":"国府(愛知)","name_kana":"こう","lat":34.83752,"lng":137.328101,"prefecture":23,"numbering":[{"symbol":"NH","index":"04"}],"lines":[30001,30002],"attr":"cool","postal_code":"442-0856","address":"豊川市久保町葉善寺"},
+    {"code":3000202,"id":"22a25b","name":"八幡(愛知)","name_kana":"やわた","lat":34.82916,"lng":137.352113,"prefecture":23,"numbering":[{"index":"01"}],"lines":[30002],"attr":"heat","postal_code":"442-0857","address":"豊川市八幡町野路"},
+    {"code":3000203,"id":"6fff0e","name":"諏訪町","name_kana":"すわちょう","lat":34.823464,"lng":137.370479,"prefecture":23,"numbering":[{"index":"02"}],"lines":[30002],"attr":"heat","postal_code":"442-0068","address":"豊川市諏訪３-２５０"},
+    {"code":3000204,"id":"0139b2","name":"稲荷口","name_kana":"いなりぐち","lat":34.818435,"lng":137.387703,"prefecture":23,"numbering":[{"index":"03"}],"lines":[30002],"attr":"cool","postal_code":"442-0044","address":"豊川市二見町駅前通"},
+    {"code":3000205,"id":"983b66","name":"豊川稲荷","name_kana":"とよかわいなり","lat":34.821755,"lng":137.396058,"prefecture":23,"numbering":[{"index":"04"}],"lines":[30002],"attr":"eco","postal_code":"442-0033","address":"豊川市豊川町仁保通１８"}
   ],
   "north":34.83782,
   "south":34.81769,

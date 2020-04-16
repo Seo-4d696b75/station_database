@@ -4,14 +4,14 @@
   "color":"#FF6347",
   "symbol":"TB",
   "station_list":[
-    {"code":3000142,"name":"須ヶ口","numbering":[{"symbol":"NH","color":"#DC143C","index":"42"}]},
-    {"code":3001302,"name":"甚目寺","numbering":[{"index":"01"}]},
-    {"code":3001303,"name":"七宝","numbering":[{"index":"02"}]},
-    {"code":3001304,"name":"木田","numbering":[{"index":"03"}]},
-    {"code":3001305,"name":"青塚","numbering":[{"index":"04"}]},
-    {"code":3001306,"name":"勝幡","numbering":[{"index":"05"}]},
-    {"code":3001307,"name":"藤浪","numbering":[{"index":"06"}]},
-    {"code":3001308,"name":"津島","numbering":[{"index":"07"}]}
+    {"code":3000142,"id":"8aac8a","name":"須ヶ口","name_kana":"すかぐち","lat":35.198684,"lng":136.846229,"prefecture":23,"numbering":[{"symbol":"NH","color":"#DC143C","index":"42"}],"lines":[30001,30013],"attr":"heat","postal_code":"452-0912","address":"愛知県清須市須ヶ口駅前一丁目1"},
+    {"code":3001302,"id":"e991bf","name":"甚目寺","name_kana":"じもくじ","lat":35.195953,"lng":136.825492,"prefecture":23,"numbering":[{"index":"01"}],"lines":[30013],"attr":"cool","postal_code":"490-1111","address":"愛知県あま市甚目寺郷浦"},
+    {"code":3001303,"id":"b8fd0e","name":"七宝","name_kana":"しっぽう","lat":35.195775,"lng":136.806413,"prefecture":23,"numbering":[{"index":"02"}],"lines":[30013],"attr":"cool","postal_code":"497-0001","address":"愛知県あま市七宝町沖之島返上地82-1"},
+    {"code":3001304,"id":"d7d774","name":"木田","name_kana":"きだ","lat":35.195328,"lng":136.787865,"prefecture":23,"numbering":[{"index":"03"}],"lines":[30013],"attr":"cool","postal_code":"490-1222","address":"愛知県あま市木田道下54-2"},
+    {"code":3001305,"id":"aa93a2","name":"青塚","name_kana":"あおつか","lat":35.198674,"lng":136.76708,"prefecture":23,"numbering":[{"index":"04"}],"lines":[30013],"attr":"heat","postal_code":"496-0001","address":"津島市青塚町字高畑３０４-４"},
+    {"code":3001306,"id":"8a09b0","name":"勝幡","name_kana":"しょばた","lat":35.195143,"lng":136.750082,"prefecture":23,"numbering":[{"index":"05"}],"lines":[30013],"attr":"heat","postal_code":"496-8001","address":"愛西市勝幡町五俵入２２６６-４"},
+    {"code":3001307,"id":"c366f2","name":"藤浪","name_kana":"ふじなみ","lat":35.188911,"lng":136.738766,"prefecture":23,"numbering":[{"index":"06"}],"lines":[30013],"attr":"heat","postal_code":"496-8011","address":"愛西市諏訪町中島３６７"},
+    {"code":3001308,"id":"a0fec5","name":"津島","name_kana":"つしま","lat":35.177982,"lng":136.730995,"prefecture":23,"numbering":[{"index":"07"}],"lines":[30013,30014],"attr":"cool","postal_code":"496-0802","address":"津島市錦町１-１"}
   ],
   "north":35.19968,
   "south":35.17761,

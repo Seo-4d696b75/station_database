@@ -4,12 +4,12 @@
   "color":"#005AAA",
   "symbol":"KS",
   "station_list":[
-    {"code":2300410,"name":"千葉中央","numbering":[{"index":"60"}]},
-    {"code":2300502,"name":"千葉寺","numbering":[{"index":"61"}]},
-    {"code":2300503,"name":"大森台","numbering":[{"index":"62"}]},
-    {"code":2300504,"name":"学園前(千葉)","numbering":[{"index":"63"}]},
-    {"code":2300505,"name":"おゆみ野","numbering":[{"index":"64"}]},
-    {"code":2300506,"name":"ちはら台","numbering":[{"index":"65"}]}
+    {"code":2300410,"id":"2aab90","name":"千葉中央","name_kana":"ちばちゅうおう","lat":35.607354,"lng":140.117809,"prefecture":12,"numbering":[{"index":"60"}],"lines":[23004,23005],"attr":"eco","postal_code":"260-0014","address":"千葉市中央区本千葉町１５-１"},
+    {"code":2300502,"id":"b1dd3e","name":"千葉寺","name_kana":"ちばでら","lat":35.590311,"lng":140.132236,"prefecture":12,"numbering":[{"index":"61"}],"lines":[23005],"attr":"eco","postal_code":"260-0844","address":"千葉市中央区千葉寺町９１２-１"},
+    {"code":2300503,"id":"1761e4","name":"大森台","name_kana":"おおもりだい","lat":35.584126,"lng":140.149398,"prefecture":12,"numbering":[{"index":"62"}],"lines":[23005],"attr":"eco","postal_code":"260-0811","address":"千葉市中央区大森町４６３-３"},
+    {"code":2300504,"id":"3abab1","name":"学園前(千葉)","name_kana":"がくえんまえ","lat":35.560364,"lng":140.158416,"prefecture":12,"numbering":[{"index":"63"}],"lines":[23005],"attr":"cool","postal_code":"266-0032","address":"千葉市緑区おゆみ野中央１-１４-２"},
+    {"code":2300505,"id":"0a5f47","name":"おゆみ野","name_kana":"おゆみの","lat":35.550029,"lng":140.166264,"prefecture":12,"numbering":[{"index":"64"}],"lines":[23005],"attr":"cool","postal_code":"266-0033","address":"千葉市緑区おゆみ野南３-２７-１"},
+    {"code":2300506,"id":"8ceced","name":"ちはら台","name_kana":"ちはらだい","lat":35.534017,"lng":140.17029,"prefecture":12,"numbering":[{"index":"65"}],"lines":[23005],"attr":"heat","postal_code":"290-0000","address":"市原市ちはら台７-８７"}
   ],
   "north":35.60821,
   "south":35.53259,

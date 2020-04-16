@@ -3,12 +3,12 @@
   "name":"千葉都市モノレール１号線",
   "color":"#2843BA",
   "station_list":[
-    {"code":1132617,"name":"千葉みなと"},
-    {"code":9933102,"name":"市役所前(千葉)"},
-    {"code":1131339,"name":"千葉"},
-    {"code":9933104,"name":"栄町(千葉)"},
-    {"code":9933105,"name":"葭川公園"},
-    {"code":9933106,"name":"県庁前(千葉)"}
+    {"code":1132617,"id":"a974be","name":"千葉みなと","name_kana":"ちばみなと","lat":35.60739,"lng":140.102477,"prefecture":12,"lines":[11326,99331],"attr":"cool","postal_code":"260-0024","address":"千葉市中央区中央港１丁目"},
+    {"code":9933102,"id":"59aa2a","name":"市役所前(千葉)","name_kana":"しやくしょまえ","lat":35.606878,"lng":140.107757,"prefecture":12,"lines":[99331],"attr":"cool","postal_code":"260-0026","address":"千葉市中央区千葉港地先道路"},
+    {"code":1131339,"id":"76a5a4","name":"千葉","name_kana":"ちば","lat":35.612927,"lng":140.113479,"prefecture":12,"lines":[11313,11314,11324,11325,11328,99331,99332],"attr":"cool","postal_code":"260-0031","address":"千葉市中央区新千葉１丁目"},
+    {"code":9933104,"id":"5481e7","name":"栄町(千葉)","name_kana":"さかえちょう","lat":35.612822,"lng":140.118592,"prefecture":12,"lines":[99331],"attr":"cool","postal_code":"260-0016","address":"千葉市中央区栄町２９-９"},
+    {"code":9933105,"id":"8379f9","name":"葭川公園","name_kana":"よしかわこうえん","lat":35.608551,"lng":140.120142,"prefecture":12,"lines":[99331],"attr":"cool","postal_code":"260-0013","address":"千葉市中央区中央２-１"},
+    {"code":9933106,"id":"2ee215","name":"県庁前(千葉)","name_kana":"けんちょうまえ","lat":35.603958,"lng":140.12222,"prefecture":12,"lines":[99331],"attr":"cool","postal_code":"260-0855","address":"千葉市中央区市場町１-２"}
   ],
   "north":35.61374,
   "south":35.60357,

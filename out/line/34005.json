@@ -4,9 +4,9 @@
   "color":"#0000FF",
   "symbol":"HK",
   "station_list":[
-    {"code":3400109,"name":"夙川","numbering":[{"index":"09"}]},
-    {"code":3400502,"name":"苦楽園口","numbering":[{"index":"29"}]},
-    {"code":3400503,"name":"甲陽園","numbering":[{"index":"30"}]}
+    {"code":3400109,"id":"85f99d","name":"夙川","name_kana":"しゅくがわ","lat":34.742246,"lng":135.328207,"prefecture":28,"numbering":[{"index":"09"}],"lines":[34001,34005],"attr":"eco","postal_code":"662-0063","address":"西宮市相生町２-１"},
+    {"code":3400502,"id":"8429ef","name":"苦楽園口","name_kana":"くらくえんぐち","lat":34.750062,"lng":135.328885,"prefecture":28,"numbering":[{"index":"29"}],"lines":[34005],"attr":"cool","postal_code":"662-0074","address":"西宮市石刎町１-２２"},
+    {"code":3400503,"id":"60681e","name":"甲陽園","name_kana":"こうようえん","lat":34.760919,"lng":135.329965,"prefecture":28,"numbering":[{"index":"30"}],"lines":[34005],"attr":"cool","postal_code":"662-0016","address":"西宮市甲陽園若江町７-１９"}
   ],
   "north":34.76078,
   "south":34.74226,

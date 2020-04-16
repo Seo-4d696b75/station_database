@@ -4,10 +4,10 @@
   "color":"#FFA500",
   "symbol":"HK",
   "station_list":[
-    {"code":3400211,"name":"石橋阪大前","numbering":[{"index":"48"}]},
-    {"code":3400702,"name":"桜井(大阪)","numbering":[{"index":"57"}]},
-    {"code":3400703,"name":"牧落","numbering":[{"index":"58"}]},
-    {"code":3400704,"name":"箕面","numbering":[{"index":"59"}]}
+    {"code":3400211,"id":"08cf33","name":"石橋阪大前","name_kana":"いしばしはんだいまえ","lat":34.808254,"lng":135.445487,"prefecture":27,"numbering":[{"index":"48"}],"lines":[34002,34007],"attr":"heat","postal_code":"563-0032","address":"池田市石橋２-１８-１"},
+    {"code":3400702,"id":"25cec2","name":"桜井(大阪)","name_kana":"さくらい","lat":34.816801,"lng":135.460705,"prefecture":27,"numbering":[{"index":"57"}],"lines":[34007],"attr":"heat","postal_code":"562-0043","address":"箕面市桜井２-２-１"},
+    {"code":3400703,"id":"b9e895","name":"牧落","name_kana":"まきおち","lat":34.823436,"lng":135.465794,"prefecture":27,"numbering":[{"index":"58"}],"lines":[34007],"attr":"eco","postal_code":"562-0042","address":"箕面市百楽荘１-１-６"},
+    {"code":3400704,"id":"1df911","name":"箕面","name_kana":"みのお","lat":34.834404,"lng":135.46819,"prefecture":27,"numbering":[{"index":"59"}],"lines":[34007],"attr":"eco","postal_code":"562-0001","address":"箕面市箕面１-１-１"}
   ],
   "north":34.83505,
   "south":34.80776,

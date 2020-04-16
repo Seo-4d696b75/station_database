@@ -4,14 +4,14 @@
   "color":"#BFBA2F",
   "symbol":"CI",
   "station_list":[
-    {"code":1141113,"name":"多治見","numbering":[{"index":"07"}]},
-    {"code":1150702,"name":"小泉","numbering":[{"index":"06"}]},
-    {"code":1150703,"name":"根本","numbering":[{"index":"05"}]},
-    {"code":1150704,"name":"姫","numbering":[{"index":"04"}]},
-    {"code":1150705,"name":"下切","numbering":[{"index":"03"}]},
-    {"code":1150706,"name":"可児","numbering":[{"index":"02"}]},
-    {"code":1150707,"name":"美濃川合","numbering":[{"index":"01"}]},
-    {"code":1141608,"name":"美濃太田","numbering":[{"index":"00"}]}
+    {"code":1141113,"id":"be0527","name":"多治見","name_kana":"たじみ","lat":35.334774,"lng":137.120294,"prefecture":21,"numbering":[{"index":"07"}],"lines":[11411,11507],"attr":"cool","postal_code":"507-0037","address":"多治見市音羽町２丁目"},
+    {"code":1150702,"id":"39e13f","name":"小泉","name_kana":"こいずみ","lat":35.349055,"lng":137.100421,"prefecture":21,"numbering":[{"index":"06"}],"lines":[11507],"attr":"heat","postal_code":"507-0073","address":"多治見市小泉町１丁目"},
+    {"code":1150703,"id":"471e79","name":"根本","name_kana":"ねもと","lat":35.361548,"lng":137.090008,"prefecture":21,"numbering":[{"index":"05"}],"lines":[11507],"attr":"heat","postal_code":"507-0065","address":"多治見市根本町２丁目"},
+    {"code":1150704,"id":"0f233e","name":"姫","name_kana":"ひめ","lat":35.382004,"lng":137.072078,"prefecture":21,"numbering":[{"index":"04"}],"lines":[11507],"attr":"cool","postal_code":"507-0061","address":"多治見市姫町１丁目"},
+    {"code":1150705,"id":"d31dde","name":"下切","name_kana":"しもぎり","lat":35.393777,"lng":137.063734,"prefecture":21,"numbering":[{"index":"03"}],"lines":[11507],"attr":"cool","postal_code":"509-0245","address":"可児市下切字青木"},
+    {"code":1150706,"id":"0def7e","name":"可児","name_kana":"かに","lat":35.422832,"lng":137.055345,"prefecture":21,"numbering":[{"index":"02"}],"lines":[11507],"attr":"eco","postal_code":"509-0203","address":"可児市下恵土"},
+    {"code":1150707,"id":"e773b4","name":"美濃川合","name_kana":"みのかわい","lat":35.444138,"lng":137.045309,"prefecture":21,"numbering":[{"index":"01"}],"lines":[11507],"attr":"eco","postal_code":"505-0022","address":"美濃加茂市川合町"},
+    {"code":1141608,"id":"a98761","name":"美濃太田","name_kana":"みのおおた","lat":35.445617,"lng":137.019467,"prefecture":21,"numbering":[{"index":"00"}],"lines":[11416,11507,99525],"attr":"eco","postal_code":"505-0041","address":"美濃加茂市太田町立石"}
   ],
   "north":35.44579,
   "south":35.33166,

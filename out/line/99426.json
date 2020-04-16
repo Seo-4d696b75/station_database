@@ -3,11 +3,11 @@
   "name":"IRいしかわ鉄道線",
   "color":"#00A7E3",
   "station_list":[
-    {"code":100913,"name":"金沢"},
-    {"code":1141544,"name":"東金沢"},
-    {"code":1141545,"name":"森本"},
-    {"code":1141546,"name":"津幡"},
-    {"code":1141547,"name":"倶利伽羅"}
+    {"code":100913,"id":"27b8ec","name":"金沢","name_kana":"かなざわ","lat":36.578117,"lng":136.648166,"prefecture":17,"lines":[11415,99426,1009],"attr":"eco","postal_code":"920-0023","address":"金沢市北安江町"},
+    {"code":1141544,"id":"0d1d76","name":"東金沢","name_kana":"ひがしかなざわ","lat":36.593652,"lng":136.669806,"prefecture":17,"lines":[99426],"attr":"cool","postal_code":"920-0811","address":"金沢市小坂町西"},
+    {"code":1141545,"id":"2448a7","name":"森本","name_kana":"もりもと","lat":36.612144,"lng":136.689489,"prefecture":17,"lines":[99426],"attr":"cool","postal_code":"920-3115","address":"金沢市弥勒町"},
+    {"code":1141546,"id":"ab7adc","name":"津幡","name_kana":"つばた","lat":36.657895,"lng":136.730759,"prefecture":17,"lines":[11419,99426],"attr":"cool","postal_code":"929-0343","address":"河北郡津幡町字南中条"},
+    {"code":1141547,"id":"bcdcf0","name":"倶利伽羅","name_kana":"くりから","lat":36.672489,"lng":136.791605,"prefecture":17,"lines":[99425,99426],"attr":"cool","postal_code":"929-0416","address":"河北郡津幡町字刈安"}
   ],
   "north":36.67261,
   "south":36.57726,

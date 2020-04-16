@@ -4,8 +4,8 @@
   "color":"#DD3377",
   "symbol":"KO",
   "station_list":[
-    {"code":2400129,"name":"高幡不動","numbering":[{"index":"29"}]},
-    {"code":2400502,"name":"多摩動物公園","numbering":[{"index":"47"}]}
+    {"code":2400129,"id":"3129f8","name":"高幡不動","name_kana":"たかはたふどう","lat":35.662361,"lng":139.412953,"prefecture":13,"numbering":[{"index":"29"}],"lines":[24001,24005,99334],"attr":"heat","postal_code":"191-0031","address":"日野市高幡１３９"},
+    {"code":2400502,"id":"3b3e52","name":"多摩動物公園","name_kana":"たまどうぶつこうえん","lat":35.649215,"lng":139.404627,"prefecture":13,"numbering":[{"index":"47"}],"lines":[24005,99334],"attr":"cool","postal_code":"191-0042","address":"日野市程久保３-３６-３９"}
   ],
   "north":35.66267,
   "south":35.64901,

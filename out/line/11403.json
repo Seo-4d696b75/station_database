@@ -3,11 +3,11 @@
   "name":"JR信越本線(篠ノ井～長野)",
   "color":"#00BFFF",
   "station_list":[
-    {"code":1140301,"name":"篠ノ井"},
-    {"code":1140302,"name":"今井"},
-    {"code":1140303,"name":"川中島"},
-    {"code":1140304,"name":"安茂里"},
-    {"code":100906,"name":"長野"}
+    {"code":1140301,"id":"6bd549","name":"篠ノ井","name_kana":"しののい","lat":36.5771,"lng":138.138046,"prefecture":20,"lines":[11403,11412,99403],"attr":"cool","postal_code":"388-8007","address":"長野市篠ノ井布施高田"},
+    {"code":1140302,"id":"8da665","name":"今井","name_kana":"いまい","lat":36.595732,"lng":138.145347,"prefecture":20,"lines":[11403],"attr":"cool","postal_code":"381-2226","address":"長野市川中島町今井２９６番地"},
+    {"code":1140303,"id":"02d89f","name":"川中島","name_kana":"かわなかじま","lat":36.614167,"lng":138.150679,"prefecture":20,"lines":[11403],"attr":"cool","postal_code":"381-2233","address":"長野市川中島町上氷鉋"},
+    {"code":1140304,"id":"1248e7","name":"安茂里","name_kana":"あもり","lat":36.630262,"lng":138.161791,"prefecture":20,"lines":[11403],"attr":"cool","postal_code":"380-0941","address":"長野市安茂里"},
+    {"code":100906,"id":"194165","name":"長野","name_kana":"ながの","lat":36.643307,"lng":138.189101,"prefecture":20,"lines":[11403,99405,99427,1009],"attr":"cool","postal_code":"380-0921","address":"長野市大字栗田１０３８番地"}
   ],
   "north":36.64438,
   "south":36.57581,

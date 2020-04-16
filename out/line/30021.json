@@ -4,8 +4,8 @@
   "color":"#DAA520",
   "symbol":"TH",
   "station_list":[
-    {"code":3002009,"name":"江吉良","numbering":[{"index":"08"}]},
-    {"code":3002102,"name":"新羽島","numbering":[{"index":"09"}]}
+    {"code":3002009,"id":"98f5a7","name":"江吉良","name_kana":"えぎら","lat":35.31543,"lng":136.699686,"prefecture":21,"numbering":[{"index":"08"}],"lines":[30020,30021],"attr":"heat","postal_code":"501-6236","address":"羽島市江吉良町江東８３９"},
+    {"code":3002102,"id":"b10d41","name":"新羽島","name_kana":"しんはしま","lat":35.315471,"lng":136.686582,"prefecture":21,"numbering":[{"index":"09"}],"lines":[30021],"attr":"heat","postal_code":"501-6301","address":"羽島市舟橋町宮北１-１-１"}
   ],
   "north":35.31577,
   "south":35.31306,

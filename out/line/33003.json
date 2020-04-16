@@ -4,14 +4,14 @@
   "color":"#66CC33",
   "symbol":"KH",
   "station_list":[
-    {"code":3300120,"name":"枚方市","numbering":[{"index":"21"}]},
-    {"code":3300302,"name":"宮之阪","numbering":[{"index":"61"}]},
-    {"code":3300303,"name":"星ヶ丘(大阪)","numbering":[{"index":"62"}]},
-    {"code":3300304,"name":"村野","numbering":[{"index":"63"}]},
-    {"code":3300305,"name":"郡津","numbering":[{"index":"64"}]},
-    {"code":3300306,"name":"交野市","numbering":[{"index":"65"}]},
-    {"code":3300307,"name":"河内森","numbering":[{"index":"66"}]},
-    {"code":3300308,"name":"私市","numbering":[{"index":"67"}]}
+    {"code":3300120,"id":"793419","name":"枚方市","name_kana":"ひらかたし","lat":34.816171,"lng":135.648814,"prefecture":27,"numbering":[{"index":"21"}],"lines":[33001,33003],"attr":"heat","postal_code":"573-0032","address":"枚方市岡東町１９-１４"},
+    {"code":3300302,"id":"59809b","name":"宮之阪","name_kana":"みやのさか","lat":34.813649,"lng":135.65663,"prefecture":27,"numbering":[{"index":"61"}],"lines":[33003],"attr":"heat","postal_code":"573-0022","address":"枚方市宮之阪１-７５５-２"},
+    {"code":3300303,"id":"a78503","name":"星ヶ丘(大阪)","name_kana":"ほしがおか","lat":34.807696,"lng":135.659755,"prefecture":27,"numbering":[{"index":"62"}],"lines":[33003],"attr":"heat","postal_code":"573-0013","address":"大阪府枚方市星丘二丁目"},
+    {"code":3300304,"id":"ae334a","name":"村野","name_kana":"むらの","lat":34.801828,"lng":135.664221,"prefecture":27,"numbering":[{"index":"63"}],"lines":[33003],"attr":"heat","postal_code":"573-0016","address":"枚方市村野本町１-２５"},
+    {"code":3300305,"id":"08b065","name":"郡津","name_kana":"こうづ","lat":34.794376,"lng":135.669868,"prefecture":27,"numbering":[{"index":"64"}],"lines":[33003],"attr":"eco","postal_code":"576-0053","address":"交野市郡津５-１１-１"},
+    {"code":3300306,"id":"362361","name":"交野市","name_kana":"かたのし","lat":34.786924,"lng":135.675595,"prefecture":27,"numbering":[{"index":"65"}],"lines":[33003],"attr":"eco","postal_code":"576-0052","address":"交野市私部３-１８-１５"},
+    {"code":3300307,"id":"b4c8a4","name":"河内森","name_kana":"かわちもり","lat":34.77386,"lng":135.685617,"prefecture":27,"numbering":[{"index":"66"}],"lines":[33003],"attr":"cool","postal_code":"576-0033","address":"交野市私市１-２-１"},
+    {"code":3300308,"id":"08dd8a","name":"私市","name_kana":"きさいち","lat":34.767671,"lng":135.686569,"prefecture":27,"numbering":[{"index":"67"}],"lines":[33003],"attr":"cool","postal_code":"576-0032","address":"交野市私市山手３-６-３２"}
   ],
   "north":34.81695,
   "south":34.76731,

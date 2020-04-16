@@ -3,10 +3,10 @@
   "name":"仙台空港線",
   "color":"#2A5CAA",
   "station_list":[
-    {"code":1123139,"name":"名取"},
-    {"code":9921702,"name":"杜せきのした"},
-    {"code":9921703,"name":"美田園"},
-    {"code":9921704,"name":"仙台空港"}
+    {"code":1123139,"id":"66f4e8","name":"名取","name_kana":"なとり","lat":38.173017,"lng":140.882753,"prefecture":4,"lines":[11231,11230,99217],"attr":"cool","postal_code":"981-1224","address":"名取市増田２丁目５番地１"},
+    {"code":9921702,"id":"519658","name":"杜せきのした","name_kana":"もりせきのした","lat":38.165482,"lng":140.895738,"prefecture":4,"lines":[99217],"attr":"heat","postal_code":"981-1224","address":"名取市増田字関下２００番地１"},
+    {"code":9921703,"id":"12a2d9","name":"美田園","name_kana":"みたぞの","lat":38.15965,"lng":140.917404,"prefecture":4,"lines":[99217],"attr":"heat","postal_code":"981-1201","address":"名取市下増田字大橋本５４番地"},
+    {"code":9921704,"id":"dbf914","name":"仙台空港","name_kana":"せんだいくうこう","lat":38.137267,"lng":140.928763,"prefecture":4,"lines":[99217],"attr":"heat","postal_code":"981-1200","address":"名取市"}
   ],
   "north":38.17419,
   "south":38.13719,

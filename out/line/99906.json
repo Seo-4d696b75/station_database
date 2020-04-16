@@ -4,13 +4,13 @@
   "color":"#0077CC",
   "symbol":"H",
   "station_list":[
-    {"code":9990505,"name":"中洲川端","numbering":[{"index":"01"},{"symbol":"K","color":"#EE5511","index":"09"}]},
-    {"code":9990602,"name":"呉服町(福岡)","numbering":[{"index":"02"}]},
-    {"code":9990603,"name":"千代県庁口","numbering":[{"index":"03"}]},
-    {"code":9990604,"name":"馬出九大病院前","numbering":[{"index":"04"}]},
-    {"code":9990605,"name":"箱崎宮前","numbering":[{"index":"05"}]},
-    {"code":9990606,"name":"箱崎九大前","numbering":[{"index":"06"}]},
-    {"code":3600401,"name":"貝塚(福岡)","numbering":[{"index":"07"}]}
+    {"code":9990505,"id":"f0f95a","name":"中洲川端","name_kana":"なかすかわばた","lat":33.594749,"lng":130.406418,"prefecture":40,"numbering":[{"index":"01"},{"symbol":"K","color":"#EE5511","index":"09"}],"lines":[99905,99906],"attr":"eco","postal_code":"812-0026","address":"福岡市博多区上川端町"},
+    {"code":9990602,"id":"2f5d1d","name":"呉服町(福岡)","name_kana":"ごふくまち","lat":33.59829,"lng":130.409892,"prefecture":40,"numbering":[{"index":"02"}],"lines":[99906],"attr":"eco","postal_code":"812-0024","address":"福岡市博多区綱場町"},
+    {"code":9990603,"id":"293e0c","name":"千代県庁口","name_kana":"ちよけんちょうぐち","lat":33.602456,"lng":130.414336,"prefecture":40,"numbering":[{"index":"03"}],"lines":[99906],"attr":"eco","postal_code":"812-0044","address":"福岡市博多区千代４"},
+    {"code":9990604,"id":"3919b2","name":"馬出九大病院前","name_kana":"まいだしきゅうだいびょういんまえ","lat":33.6094,"lng":130.419336,"prefecture":40,"numbering":[{"index":"04"}],"lines":[99906],"attr":"heat","postal_code":"812-0054","address":"福岡市東区馬出２"},
+    {"code":9990605,"id":"dade97","name":"箱崎宮前","name_kana":"はこざきみやまえ","lat":33.615788,"lng":130.419613,"prefecture":40,"numbering":[{"index":"05"}],"lines":[99906],"attr":"heat","postal_code":"812-0054","address":"福岡市東区馬出４"},
+    {"code":9990606,"id":"e05c01","name":"箱崎九大前","name_kana":"はこざききゅうだいまえ","lat":33.622177,"lng":130.421002,"prefecture":40,"numbering":[{"index":"06"}],"lines":[99906],"attr":"cool","postal_code":"812-0053","address":"福岡市東区箱崎３"},
+    {"code":3600401,"id":"2c722a","name":"貝塚(福岡)","name_kana":"かいづか","lat":33.632906,"lng":130.425612,"prefecture":40,"numbering":[{"index":"07"}],"lines":[36004,99906],"attr":"cool","postal_code":"812-0053","address":"福岡市東区箱崎７-１-２"}
   ],
   "north":33.63302,
   "south":33.59422,

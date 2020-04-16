@@ -4,14 +4,14 @@
   "color":"#EEC900",
   "symbol":"I",
   "station_list":[
-    {"code":3101701,"name":"西田原本","numbering":[{"index":"36"}]},
-    {"code":3101702,"name":"黒田(奈良)","numbering":[{"index":"37"}]},
-    {"code":3101703,"name":"但馬","numbering":[{"index":"38"}]},
-    {"code":3101704,"name":"箸尾","numbering":[{"index":"39"}]},
-    {"code":3101705,"name":"池部","numbering":[{"index":"40"}]},
-    {"code":3101706,"name":"佐味田川","numbering":[{"index":"41"}]},
-    {"code":3101707,"name":"大輪田","numbering":[{"index":"42"}]},
-    {"code":3101708,"name":"新王寺","numbering":[{"index":"43"}]}
+    {"code":3101701,"id":"4ec96d","name":"西田原本","name_kana":"にしたわらもと","lat":34.553909,"lng":135.789512,"prefecture":29,"numbering":[{"index":"36"}],"lines":[31017],"attr":"cool","postal_code":"636-0317","address":"磯城郡田原本町大字殿町２０２-２"},
+    {"code":3101702,"id":"6d99b4","name":"黒田(奈良)","name_kana":"くろだ","lat":34.56841,"lng":135.777794,"prefecture":29,"numbering":[{"index":"37"}],"lines":[31017],"attr":"cool","postal_code":"636-0301","address":"磯城郡田原本町大字黒田２７７-２３４５"},
+    {"code":3101703,"id":"998adb","name":"但馬","name_kana":"たじま","lat":34.569462,"lng":135.768269,"prefecture":29,"numbering":[{"index":"38"}],"lines":[31017],"attr":"cool","postal_code":"636-0214","address":"磯城郡三宅町大字但馬２６３"},
+    {"code":3101704,"id":"d9cb75","name":"箸尾","name_kana":"はしお","lat":34.570287,"lng":135.751245,"prefecture":29,"numbering":[{"index":"39"}],"lines":[31017],"attr":"cool","postal_code":"635-0805","address":"北葛城郡広陵町大字萱野３１２-２"},
+    {"code":3101705,"id":"7dc258","name":"池部","name_kana":"いけべ","lat":34.578755,"lng":135.737166,"prefecture":29,"numbering":[{"index":"40"}],"lines":[31017],"attr":"eco","postal_code":"636-0053","address":"北葛城郡河合町大字池部２５５-２"},
+    {"code":3101706,"id":"6a4ed1","name":"佐味田川","name_kana":"さみたがわ","lat":34.585213,"lng":135.731047,"prefecture":29,"numbering":[{"index":"41"}],"lines":[31017],"attr":"eco","postal_code":"636-0092","address":"北葛城郡河合町大字城内１２８-１"},
+    {"code":3101707,"id":"8be333","name":"大輪田","name_kana":"おおわだ","lat":34.589173,"lng":135.720328,"prefecture":29,"numbering":[{"index":"42"}],"lines":[31017],"attr":"heat","postal_code":"636-0093","address":"北葛城郡河合町大字大輪田１８０９-２"},
+    {"code":3101708,"id":"9fa077","name":"新王寺","name_kana":"しんおうじ","lat":34.597722,"lng":135.704337,"prefecture":29,"numbering":[{"index":"43"}],"lines":[31017],"attr":"heat","postal_code":"636-0003","address":"北葛城郡王寺町久度２-１-１"}
   ],
   "north":34.59769,
   "south":34.55337,

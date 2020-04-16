@@ -2,12 +2,12 @@
   "code":99313,
   "name":"ユーカリが丘線",
   "station_list":[
-    {"code":2300133,"name":"ユーカリが丘"},
-    {"code":9931302,"name":"地区センター"},
-    {"code":9931303,"name":"公園"},
-    {"code":9931304,"name":"女子大"},
-    {"code":9931305,"name":"中学校"},
-    {"code":9931306,"name":"井野(千葉)"}
+    {"code":2300133,"id":"5d976d","name":"ユーカリが丘","name_kana":"ゆーかりがおか","lat":35.721801,"lng":140.156354,"prefecture":12,"lines":[23001,99313],"attr":"eco","postal_code":"285-0858","address":"佐倉市ユーカリが丘４-８-２"},
+    {"code":9931302,"id":"a82ba3","name":"地区センター","name_kana":"ちくせんたー","lat":35.726225,"lng":140.155041,"prefecture":12,"lines":[99313],"attr":"eco","postal_code":"285-0858","address":"佐倉市ユーカリが丘４-３-１"},
+    {"code":9931303,"id":"0d0b78","name":"公園","name_kana":"こうえん","lat":35.730758,"lng":140.153755,"prefecture":12,"lines":[99313],"attr":"eco","postal_code":"285-0858","address":"佐倉市ユーカリが丘６-５-５"},
+    {"code":9931304,"id":"3107c0","name":"女子大","name_kana":"じょしだい","lat":35.738357,"lng":140.155054,"prefecture":12,"lines":[99313],"attr":"cool","postal_code":"285-0858","address":"佐倉市ユーカリが丘５-１-１"},
+    {"code":9931305,"id":"03e3d3","name":"中学校","name_kana":"ちゅうがっこう","lat":35.740123,"lng":140.14841,"prefecture":12,"lines":[99313],"attr":"cool","postal_code":"285-0857","address":"佐倉市宮ノ台３-１-１"},
+    {"code":9931306,"id":"799ea8","name":"井野(千葉)","name_kana":"いの","lat":35.732605,"lng":140.148497,"prefecture":12,"lines":[99313],"attr":"heat","postal_code":"285-0858","address":"佐倉市ユーカリが丘７-２４-１"}
   ],
   "north":35.74122,
   "south":35.72197,

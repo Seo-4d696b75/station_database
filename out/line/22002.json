@@ -4,12 +4,12 @@
   "color":"#FF6600",
   "symbol":"SI",
   "station_list":[
-    {"code":2200130,"name":"吾野","numbering":[{"index":"31"}]},
-    {"code":2200207,"name":"西吾野","numbering":[{"index":"32"}]},
-    {"code":2200208,"name":"正丸","numbering":[{"index":"33"}]},
-    {"code":2200209,"name":"芦ヶ久保","numbering":[{"index":"34"}]},
-    {"code":2200210,"name":"横瀬","numbering":[{"index":"35"}]},
-    {"code":2200212,"name":"西武秩父","numbering":[{"index":"36"}]}
+    {"code":2200130,"id":"26e62c","name":"吾野","name_kana":"あがの","lat":35.908502,"lng":139.226787,"prefecture":11,"numbering":[{"index":"31"}],"lines":[22001,22002],"attr":"cool","postal_code":"357-0213","address":"飯能市坂石町分３２６-１"},
+    {"code":2200207,"id":"576c09","name":"西吾野","name_kana":"にしあがの","lat":35.927082,"lng":139.202425,"prefecture":11,"numbering":[{"index":"32"}],"lines":[22002],"attr":"cool","postal_code":"357-0216","address":"飯能市吾野下ノ平５７９"},
+    {"code":2200208,"id":"41c169","name":"正丸","name_kana":"しょうまる","lat":35.938324,"lng":139.181521,"prefecture":11,"numbering":[{"index":"33"}],"lines":[22002],"attr":"cool","postal_code":"357-0218","address":"飯能市坂元１６５８"},
+    {"code":2200209,"id":"2e3db4","name":"芦ヶ久保","name_kana":"あしがくぼ","lat":35.976505,"lng":139.135982,"prefecture":11,"numbering":[{"index":"34"}],"lines":[22002],"attr":"heat","postal_code":"368-0071","address":"埼玉県秩父郡横瀬町芦ヶ久保"},
+    {"code":2200210,"id":"1b819a","name":"横瀬","name_kana":"よこぜ","lat":35.985548,"lng":139.097818,"prefecture":11,"numbering":[{"index":"35"}],"lines":[22002],"attr":"heat","postal_code":"368-0072","address":"秩父郡横瀬町横瀬４０６７"},
+    {"code":2200212,"id":"7ffc58","name":"西武秩父","name_kana":"せいぶちちぶ","lat":35.990061,"lng":139.083548,"prefecture":11,"numbering":[{"index":"36"}],"lines":[22002],"attr":"eco","postal_code":"368-0033","address":"秩父市野坂町１-１６-１５"}
   ],
   "north":35.99106,
   "south":35.90829,

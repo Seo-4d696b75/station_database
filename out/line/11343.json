@@ -4,8 +4,8 @@
   "color":"#F68B1E",
   "symbol":"JU",
   "station_list":[
-    {"code":100201,"name":"東京","numbering":[{"index":"01"}]},
-    {"code":100402,"name":"上野","numbering":[{"index":"02"}]}
+    {"code":100201,"id":"8b222f","name":"東京","name_kana":"とうきょう","lat":35.681391,"lng":139.766103,"prefecture":13,"numbering":[{"index":"01"}],"lines":[11301,11302,11308,11311,11312,11314,11326,11328,11332,11343,28002,1002,1004,1005],"attr":"heat","postal_code":"100-0005","address":"東京都千代田区丸の内一丁目"},
+    {"code":100402,"id":"93946c","name":"上野","name_kana":"うえの","lat":35.71379,"lng":139.777043,"prefecture":13,"numbering":[{"index":"02"}],"lines":[11302,11319,11320,11323,11332,11343,28001,28003,1004,1005],"attr":"heat","postal_code":"110-0005","address":"東京都台東区上野七丁目1-1"}
   ],
   "north":35.71646,
   "south":35.67955,

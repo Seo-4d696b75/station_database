@@ -3,13 +3,13 @@
   "name":"JR日光線",
   "color":"#880022",
   "station_list":[
-    {"code":100405,"name":"宇都宮"},
-    {"code":1134002,"name":"鶴田"},
-    {"code":1134003,"name":"鹿沼"},
-    {"code":1134004,"name":"文挟"},
-    {"code":1134005,"name":"下野大沢"},
-    {"code":1134006,"name":"今市"},
-    {"code":1134007,"name":"日光"}
+    {"code":100405,"id":"734a1e","name":"宇都宮","name_kana":"うつのみや","lat":36.559246,"lng":139.898389,"prefecture":9,"lines":[11319,11340,1004],"attr":"heat","postal_code":"321-0965","address":"宇都宮市川向町"},
+    {"code":1134002,"id":"7af4ee","name":"鶴田","name_kana":"つるた","lat":36.538319,"lng":139.858818,"prefecture":9,"lines":[11340],"attr":"heat","postal_code":"321-0151","address":"宇都宮市西川田町"},
+    {"code":1134003,"id":"706bf0","name":"鹿沼","name_kana":"かぬま","lat":36.571222,"lng":139.762961,"prefecture":9,"lines":[11340],"attr":"heat","postal_code":"322-0021","address":"鹿沼市上野町"},
+    {"code":1134004,"id":"d63f0f","name":"文挟","name_kana":"ふばさみ","lat":36.637716,"lng":139.727778,"prefecture":9,"lines":[11340],"attr":"heat","postal_code":"321-1106","address":"日光市小倉"},
+    {"code":1134005,"id":"1fd9e0","name":"下野大沢","name_kana":"しもつけおおさわ","lat":36.686427,"lng":139.732367,"prefecture":9,"lines":[11340],"attr":"cool","postal_code":"321-1274","address":"日光市土沢"},
+    {"code":1134006,"id":"0bec71","name":"今市","name_kana":"いまいち","lat":36.720388,"lng":139.687348,"prefecture":9,"lines":[11340],"attr":"eco","postal_code":"321-1262","address":"日光市平ケ崎"},
+    {"code":1134007,"id":"f0c20f","name":"日光","name_kana":"にっこう","lat":36.7474,"lng":139.62215,"prefecture":9,"lines":[11340],"attr":"eco","postal_code":"321-1413","address":"日光市相生町"}
   ],
   "north":36.74884,
   "south":36.53734,

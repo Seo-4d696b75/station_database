@@ -3,13 +3,13 @@
   "name":"北丹鉄道",
   "closed":true,
   "station_list":[
-    {"code":1161514,"name":"福知山"},
-    {"code":9965602,"name":"福知山西"},
-    {"code":9965603,"name":"下川停留所"},
-    {"code":9965604,"name":"上天津"},
-    {"code":9965605,"name":"下天津(北丹鉄道)"},
-    {"code":9965606,"name":"公庄(北丹鉄道)"},
-    {"code":9965607,"name":"蓼原停留所"},
-    {"code":9965608,"name":"河守"}
+    {"code":1161514,"id":"19826e","name":"福知山","name_kana":"ふくちやま","lat":35.296143,"lng":135.118564,"prefecture":26,"lines":[11615,11622,11630,99608,99656,99655],"attr":"heat","postal_code":"620-0000","address":"福知山市字天田無番地"},
+    {"code":9965602,"id":"6ae152","name":"福知山西","name_kana":"ふくちやまにし","closed":true,"lat":35.30353,"lng":135.117472,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0051","address":"日本京都府福知山市昭和新町１６１−７１"},
+    {"code":9965603,"id":"870620","name":"下川停留所","name_kana":"しもかわていりゅうじょ","closed":true,"lat":35.33005,"lng":135.109777,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0075","address":"日本京都府福知山市波江"},
+    {"code":9965604,"id":"bf753c","name":"上天津","name_kana":"かみあまず","closed":true,"lat":35.340338,"lng":135.108142,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0000","address":"日本京都府福知山市字上天津１７８３"},
+    {"code":9965605,"id":"06941f","name":"下天津(北丹鉄道)","name_kana":"しもあまず","closed":true,"lat":35.357476,"lng":135.113303,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0072","address":"日本京都府福知山市字下天津２６９"},
+    {"code":9965606,"id":"80f3a6","name":"公庄(北丹鉄道)","name_kana":"ぐじょう","closed":true,"lat":35.371558,"lng":135.127947,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0312","address":"日本京都府福知山市大江町公庄２２０１"},
+    {"code":9965607,"id":"79ad65","name":"蓼原停留所","name_kana":"たではるていりゅうじょ","closed":true,"lat":35.383145,"lng":135.141279,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0311","address":"日本京都府福知山市大江町蓼原３７９−４"},
+    {"code":9965608,"id":"408de5","name":"河守","name_kana":"こうもり","closed":true,"lat":35.389004,"lng":135.146445,"prefecture":26,"lines":[99656],"attr":"unknown","postal_code":"620-0301","address":"日本京都府福知山市大江町河守２９８−７"}
   ]
 }

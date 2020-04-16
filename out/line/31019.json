@@ -4,11 +4,11 @@
   "color":"#0000FF",
   "symbol":"L",
   "station_list":[
-    {"code":3101901,"name":"伊勢若松","numbering":[{"index":"29"}]},
-    {"code":3101902,"name":"柳","numbering":[{"index":"30"}]},
-    {"code":3101903,"name":"鈴鹿市","numbering":[{"index":"31"}]},
-    {"code":3101904,"name":"三日市","numbering":[{"index":"32"}]},
-    {"code":3101905,"name":"平田町","numbering":[{"index":"33"}]}
+    {"code":3101901,"id":"fefc94","name":"伊勢若松","name_kana":"いせわかまつ","lat":34.869431,"lng":136.616765,"prefecture":24,"numbering":[{"index":"29"}],"lines":[31019,31027],"attr":"eco","postal_code":"510-0222","address":"鈴鹿市若松西４-１７-８"},
+    {"code":3101902,"id":"5676bd","name":"柳","name_kana":"やなぎ","lat":34.871381,"lng":136.595947,"prefecture":24,"numbering":[{"index":"30"}],"lines":[31019],"attr":"eco","postal_code":"513-0811","address":"鈴鹿市柳町７２６-４"},
+    {"code":3101903,"id":"030e62","name":"鈴鹿市","name_kana":"すずかし","lat":34.883899,"lng":136.582812,"prefecture":24,"numbering":[{"index":"31"}],"lines":[31019],"attr":"cool","postal_code":"513-0801","address":"鈴鹿市神戸１-１-１"},
+    {"code":3101904,"id":"a7cd32","name":"三日市","name_kana":"みっかいち","lat":34.880232,"lng":136.562316,"prefecture":24,"numbering":[{"index":"32"}],"lines":[31019],"attr":"cool","postal_code":"513-0807","address":"鈴鹿市三日市２-６-１"},
+    {"code":3101905,"id":"182b72","name":"平田町","name_kana":"ひらたちょう","lat":34.875124,"lng":136.542406,"prefecture":24,"numbering":[{"index":"33"}],"lines":[31019],"attr":"heat","postal_code":"513-0806","address":"鈴鹿市算所３-１-１"}
   ],
   "north":34.88634,
   "south":34.86627,

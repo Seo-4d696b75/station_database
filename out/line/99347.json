@@ -3,7 +3,7 @@
   "name":"鹿島臨海鉄道鹿島臨港線",
   "closed":true,
   "station_list":[
-    {"code":9934701,"name":"居切"},
-    {"code":9934702,"name":"鹿島港南"}
+    {"code":9934701,"id":"78174f","name":"居切","name_kana":"いぎり","closed":true,"lat":35.929979,"lng":140.650561,"prefecture":8,"lines":[99347],"attr":"unknown","postal_code":"314-0141","address":"日本茨城県神栖市居切５５０"},
+    {"code":9934702,"id":"8e6472","name":"鹿島港南","name_kana":"かしまこうなん","closed":true,"lat":35.878613,"lng":140.691106,"prefecture":8,"lines":[99347],"attr":"unknown","postal_code":"314-0115","address":"日本茨城県神栖市知手３０６１−４"}
   ]
 }

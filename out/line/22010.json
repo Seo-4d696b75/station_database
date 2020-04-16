@@ -4,11 +4,11 @@
   "color":"#32CD32",
   "symbol":"SK",
   "station_list":[
-    {"code":1131106,"name":"国分寺","numbering":[{"index":"01"}]},
-    {"code":2201002,"name":"恋ヶ窪","numbering":[{"index":"02"}]},
-    {"code":2201003,"name":"鷹の台","numbering":[{"index":"03"}]},
-    {"code":2200803,"name":"小川(東京)","numbering":[{"index":"04"}]},
-    {"code":2200721,"name":"東村山","numbering":[{"index":"05"}]}
+    {"code":1131106,"id":"936e1a","name":"国分寺","name_kana":"こくぶんじ","lat":35.700123,"lng":139.480841,"prefecture":13,"numbering":[{"index":"01"}],"lines":[11311,11312,11328,22010,22011],"attr":"cool","postal_code":"185-0012","address":"東京都国分寺市本町二丁目1-23"},
+    {"code":2201002,"id":"72f153","name":"恋ヶ窪","name_kana":"こいがくぼ","lat":35.711385,"lng":139.463944,"prefecture":13,"numbering":[{"index":"02"}],"lines":[22010],"attr":"heat","postal_code":"185-0003","address":"東京都国分寺市戸倉一丁目1-4"},
+    {"code":2201003,"id":"c7b6d3","name":"鷹の台","name_kana":"たかのだい","lat":35.723097,"lng":139.461155,"prefecture":13,"numbering":[{"index":"03"}],"lines":[22010],"attr":"cool","postal_code":"187-0024","address":"小平市たかの台４５-４"},
+    {"code":2200803,"id":"66c336","name":"小川(東京)","name_kana":"おがわ","lat":35.737573,"lng":139.463493,"prefecture":13,"numbering":[{"index":"04"}],"lines":[22008,22010],"attr":"cool","postal_code":"187-0031","address":"小平市小川東町１-２０-１"},
+    {"code":2200721,"id":"391782","name":"東村山","name_kana":"ひがしむらやま","lat":35.76006,"lng":139.465839,"prefecture":13,"numbering":[{"index":"05"}],"lines":[22007,22009,22010],"attr":"cool","postal_code":"189-0014","address":"東村山市本町２-３-３２"}
   ],
   "north":35.7609,
   "south":35.70011,

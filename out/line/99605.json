@@ -2,10 +2,10 @@
   "code":99605,
   "name":"嵯峨野観光鉄道",
   "station_list":[
-    {"code":9960501,"name":"トロッコ嵯峨"},
-    {"code":9960502,"name":"トロッコ嵐山"},
-    {"code":9960503,"name":"トロッコ保津峡"},
-    {"code":9960504,"name":"トロッコ亀岡"}
+    {"code":9960501,"id":"a5346c","name":"トロッコ嵯峨","name_kana":"とろっこさが","lat":35.018656,"lng":135.680704,"prefecture":26,"lines":[99605],"attr":"heat","postal_code":"616-8373","address":"京都市右京区嵯峨天龍寺車道町"},
+    {"code":9960502,"id":"712b77","name":"トロッコ嵐山","name_kana":"とろっこあらしやま","lat":35.017162,"lng":135.670252,"prefecture":26,"lines":[99605],"attr":"heat","postal_code":"616-8394","address":"京都市右京区嵯峨小倉山田渕山町"},
+    {"code":9960503,"id":"b253a6","name":"トロッコ保津峡","name_kana":"とろっこほづきょう","lat":35.026148,"lng":135.646284,"prefecture":26,"lines":[99605],"attr":"eco","postal_code":"610-0000","address":"京都市西京区嵐山北松尾山"},
+    {"code":9960504,"id":"38358a","name":"トロッコ亀岡","name_kana":"とろっこかめおか","lat":35.01314,"lng":135.606751,"prefecture":26,"lines":[99605],"attr":"eco","postal_code":"621-0825","address":"亀岡市篠町山本地黒"}
   ],
   "north":35.028,
   "south":35.01275,

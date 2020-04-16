@@ -2,8 +2,8 @@
   "code":33005,
   "name":"京阪石清水八幡宮参道ケーブル",
   "station_list":[
-    {"code":3300501,"name":"ケーブル八幡宮口"},
-    {"code":3300502,"name":"ケーブル八幡宮山上"}
+    {"code":3300501,"id":"8724e9","name":"ケーブル八幡宮口","name_kana":"けーぶるはちまんぐうぐち","lat":34.884516,"lng":135.699473,"prefecture":26,"lines":[33005],"attr":"heat","postal_code":"614-8001","address":"八幡市八幡科手１"},
+    {"code":3300502,"id":"18a6c4","name":"ケーブル八幡宮山上","name_kana":"けーぶるはちまんぐうさんじょう","lat":34.881061,"lng":135.699796,"prefecture":26,"lines":[33005],"attr":"heat","postal_code":"614-8008","address":"京都府八幡市八幡平ノ山"}
   ],
   "north":34.88458,
   "south":34.88054,

@@ -3,12 +3,12 @@
   "name":"JR伊東線",
   "color":"#F68B1E",
   "station_list":[
-    {"code":100205,"name":"熱海"},
-    {"code":1150402,"name":"来宮"},
-    {"code":1150403,"name":"伊豆多賀"},
-    {"code":1150404,"name":"網代"},
-    {"code":1150405,"name":"宇佐美"},
-    {"code":1150406,"name":"伊東"}
+    {"code":100205,"id":"e9c3c7","name":"熱海","name_kana":"あたみ","lat":35.103573,"lng":139.077679,"prefecture":22,"lines":[11301,11501,11504,1002],"attr":"heat","postal_code":"413-0011","address":"熱海市田原本町"},
+    {"code":1150402,"id":"17373e","name":"来宮","name_kana":"きのみや","lat":35.098723,"lng":139.065575,"prefecture":22,"lines":[11504],"attr":"cool","postal_code":"413-0017","address":"熱海市福道町"},
+    {"code":1150403,"id":"693d42","name":"伊豆多賀","name_kana":"いずたが","lat":35.059411,"lng":139.066847,"prefecture":22,"lines":[11504],"attr":"cool","postal_code":"413-0101","address":"熱海市上多賀"},
+    {"code":1150404,"id":"19695b","name":"網代","name_kana":"あじろ","lat":35.043545,"lng":139.081245,"prefecture":22,"lines":[11504],"attr":"heat","postal_code":"413-0102","address":"熱海市下多賀"},
+    {"code":1150405,"id":"5911d0","name":"宇佐美","name_kana":"うさみ","lat":35.005602,"lng":139.079778,"prefecture":22,"lines":[11504],"attr":"heat","postal_code":"414-0001","address":"伊東市宇佐美"},
+    {"code":1150406,"id":"e5cd24","name":"伊東","name_kana":"いとう","lat":34.9747,"lng":139.092125,"prefecture":22,"lines":[11504,99501],"attr":"eco","postal_code":"414-0002","address":"伊東市湯川３丁目"}
   ],
   "north":35.10445,
   "south":34.97401,

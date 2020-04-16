@@ -4,13 +4,13 @@
   "color":"#0072BC",
   "symbol":"M",
   "station_list":[
-    {"code":1162208,"name":"西舞鶴","numbering":[{"index":"8"}]},
-    {"code":9960902,"name":"四所","numbering":[{"index":"9"}]},
-    {"code":9960903,"name":"東雲(京都)","numbering":[{"index":"10"}]},
-    {"code":9960904,"name":"丹後神崎","numbering":[{"index":"11"}]},
-    {"code":9960905,"name":"丹後由良","numbering":[{"index":"12"}]},
-    {"code":9960906,"name":"栗田","numbering":[{"index":"13"}]},
-    {"code":9960814,"name":"宮津","numbering":[{"index":"14"}]}
+    {"code":1162208,"id":"f9685e","name":"西舞鶴","name_kana":"にしまいづる","lat":35.441784,"lng":135.330545,"prefecture":26,"numbering":[{"index":"8"}],"lines":[11622,99653,99654],"attr":"eco","postal_code":"624-0816","address":"舞鶴市字伊佐津"},
+    {"code":9960902,"id":"7343f2","name":"四所","name_kana":"ししょ","lat":35.446154,"lng":135.290471,"prefecture":26,"numbering":[{"index":"9"}],"lines":[99653,99654],"attr":"eco","postal_code":"624-0951","address":"舞鶴市上福井"},
+    {"code":9960903,"id":"bc7b93","name":"東雲(京都)","name_kana":"しののめ","lat":35.475018,"lng":135.284927,"prefecture":26,"numbering":[{"index":"10"}],"lines":[99653,99654],"attr":"eco","postal_code":"624-0965","address":"舞鶴市水間"},
+    {"code":9960904,"id":"c01203","name":"丹後神崎","name_kana":"たんごかんざき","lat":35.506463,"lng":135.293628,"prefecture":26,"numbering":[{"index":"11"}],"lines":[99653,99654],"attr":"eco","postal_code":"624-0963","address":"舞鶴市油江"},
+    {"code":9960905,"id":"48faef","name":"丹後由良","name_kana":"たんごゆら","lat":35.515736,"lng":135.279582,"prefecture":26,"numbering":[{"index":"12"}],"lines":[99653,99654],"attr":"eco","postal_code":"626-0071","address":"宮津市由良"},
+    {"code":9960906,"id":"8b5e08","name":"栗田","name_kana":"くんだ","lat":35.543757,"lng":135.235291,"prefecture":26,"numbering":[{"index":"13"}],"lines":[99653,99654],"attr":"eco","postal_code":"626-0074","address":"宮津市上司"},
+    {"code":9960814,"id":"1d24a2","name":"宮津","name_kana":"みやづ","lat":35.53441,"lng":135.199875,"prefecture":26,"numbering":[{"index":"14"}],"lines":[99608,99609,99653,99654,99655],"attr":"eco","postal_code":"626-0041","address":"宮津市鶴賀"}
   ],
   "north":35.5514,
   "south":35.43042,

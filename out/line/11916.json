@@ -2,12 +2,12 @@
   "code":11916,
   "name":"JR香椎線(海の中道線)(西戸崎～香椎)",
   "station_list":[
-    {"code":1191601,"name":"西戸崎"},
-    {"code":1191602,"name":"海ノ中道"},
-    {"code":1191603,"name":"雁ノ巣"},
-    {"code":1191604,"name":"奈多"},
-    {"code":1191605,"name":"和白"},
-    {"code":1190227,"name":"香椎"}
+    {"code":1191601,"id":"6fde6a","name":"西戸崎","name_kana":"さいとざき","lat":33.650139,"lng":130.35777,"prefecture":40,"lines":[11916],"attr":"heat","postal_code":"811-0321","address":"福岡市東区西戸崎１丁目"},
+    {"code":1191602,"id":"4d3e80","name":"海ノ中道","name_kana":"うみのなかみち","lat":33.664241,"lng":130.361633,"prefecture":40,"lines":[11916],"attr":"heat","postal_code":"811-0321","address":"福岡市東区西戸崎"},
+    {"code":1191603,"id":"77cb8b","name":"雁ノ巣","name_kana":"がんのす","lat":33.683872,"lng":130.403312,"prefecture":40,"lines":[11916],"attr":"heat","postal_code":"811-0204","address":"福岡市東区奈多"},
+    {"code":1191604,"id":"d01c93","name":"奈多","name_kana":"なた","lat":33.68646,"lng":130.411983,"prefecture":40,"lines":[11916],"attr":"eco","postal_code":"811-0204","address":"福岡市東区奈多"},
+    {"code":1191605,"id":"581d45","name":"和白","name_kana":"わじろ","lat":33.688888,"lng":130.429918,"prefecture":40,"lines":[11916,36004],"attr":"eco","postal_code":"811-0202","address":"福岡市東区和白３丁目"},
+    {"code":1190227,"id":"304596","name":"香椎","name_kana":"かしい","lat":33.659228,"lng":130.444063,"prefecture":40,"lines":[11902,11916,11917],"attr":"heat","postal_code":"813-0013","address":"福岡市東区香椎駅前１丁目"}
   ],
   "north":33.69064,
   "south":33.65006,

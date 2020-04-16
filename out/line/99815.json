@@ -3,14 +3,14 @@
   "name":"土佐くろしお鉄道宿毛線",
   "symbol":"TK",
   "station_list":[
-    {"code":9981415,"name":"中村","numbering":[{"index":"40"}]},
-    {"code":9981502,"name":"具同","numbering":[{"index":"41"}]},
-    {"code":9981503,"name":"国見(高知)","numbering":[{"index":"42"}]},
-    {"code":9981504,"name":"有岡","numbering":[{"index":"43"}]},
-    {"code":9981505,"name":"工業団地","numbering":[{"index":"44"}]},
-    {"code":9981506,"name":"平田(高知)","numbering":[{"index":"45"}]},
-    {"code":9981507,"name":"東宿毛","numbering":[{"index":"46"}]},
-    {"code":9981508,"name":"宿毛","numbering":[{"index":"47"}]}
+    {"code":9981415,"id":"6d4913","name":"中村","name_kana":"なかむら","lat":32.984641,"lng":132.943927,"prefecture":39,"numbering":[{"index":"40"}],"lines":[99814,99815],"attr":"eco","postal_code":"787-0014","address":"四万十市駅前町"},
+    {"code":9981502,"id":"0c8e39","name":"具同","name_kana":"ぐどう","lat":32.9794,"lng":132.915473,"prefecture":39,"numbering":[{"index":"41"}],"lines":[99815],"attr":"eco","postal_code":"787-0019","address":"四万十市具同"},
+    {"code":9981503,"id":"2e6c8e","name":"国見(高知)","name_kana":"くにみ","lat":32.978932,"lng":132.883716,"prefecture":39,"numbering":[{"index":"42"}],"lines":[99815],"attr":"cool","postal_code":"787-0667","address":"四万十市国見"},
+    {"code":9981504,"id":"595103","name":"有岡","name_kana":"ありおか","lat":32.961229,"lng":132.833077,"prefecture":39,"numbering":[{"index":"43"}],"lines":[99815],"attr":"cool","postal_code":"787-0771","address":"四万十市有岡"},
+    {"code":9981505,"id":"4c7a2f","name":"工業団地","name_kana":"こうぎょうだんち","lat":32.95632,"lng":132.801931,"prefecture":39,"numbering":[{"index":"44"}],"lines":[99815],"attr":"heat","postal_code":"788-0000","address":"宿毛市平田町字扇"},
+    {"code":9981506,"id":"82edca","name":"平田(高知)","name_kana":"ひらた","lat":32.955639,"lng":132.794977,"prefecture":39,"numbering":[{"index":"45"}],"lines":[99815],"attr":"heat","postal_code":"788-0783","address":"宿毛市平田町戸内"},
+    {"code":9981507,"id":"d7172e","name":"東宿毛","name_kana":"ひがしすくも","lat":32.933673,"lng":132.728736,"prefecture":39,"numbering":[{"index":"46"}],"lines":[99815],"attr":"heat","postal_code":"788-0000","address":"宿毛市宿毛字鎌田"},
+    {"code":9981508,"id":"0f03b4","name":"宿毛","name_kana":"すくも","lat":32.932534,"lng":132.71364,"prefecture":39,"numbering":[{"index":"47"}],"lines":[99815],"attr":"heat","postal_code":"788-0010","address":"宿毛市駅前町１"}
   ],
   "north":32.98863,
   "south":32.93249,

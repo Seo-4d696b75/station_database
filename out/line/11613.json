@@ -2,8 +2,8 @@
   "code":11613,
   "name":"JR山陽本線(兵庫～和田岬)",
   "station_list":[
-    {"code":1160802,"name":"兵庫"},
-    {"code":1161302,"name":"和田岬"}
+    {"code":1160802,"id":"5a8290","name":"兵庫","name_kana":"ひょうご","lat":34.668343,"lng":135.164706,"prefecture":28,"lines":[11608,11613],"attr":"eco","postal_code":"652-0897","address":"神戸市兵庫区駅南通５丁目"},
+    {"code":1161302,"id":"c5f87f","name":"和田岬","name_kana":"わだみさき","lat":34.657278,"lng":135.174268,"prefecture":28,"lines":[11613,99647],"attr":"eco","postal_code":"652-0863","address":"神戸市兵庫区和田宮通４丁目"}
   ],
   "north":34.66806,
   "south":34.65722,

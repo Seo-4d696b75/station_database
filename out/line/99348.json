@@ -3,7 +3,7 @@
   "name":"京王御陵線",
   "closed":true,
   "station_list":[
-    {"code":9934801,"name":"武蔵横山"},
-    {"code":9934802,"name":"多摩御陵前"}
+    {"code":9934801,"id":"9bfa5d","name":"武蔵横山","name_kana":"むさしよこやま","closed":true,"lat":35.652032,"lng":139.301475,"prefecture":13,"lines":[99348],"attr":"unknown","postal_code":"193-0831","address":"日本東京都八王子市並木町１３-１"},
+    {"code":9934802,"id":"ec8861","name":"多摩御陵前","name_kana":"たまごりょうまえ","closed":true,"lat":35.650114,"lng":139.289861,"prefecture":13,"lines":[99348],"attr":"unknown","postal_code":"193-0824","address":"日本東京都八王子市長房町１５６２−２９"}
   ]
 }

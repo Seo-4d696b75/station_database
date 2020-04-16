@@ -4,13 +4,13 @@
   "color":"#AE0378",
   "symbol":"TM",
   "station_list":[
-    {"code":2600109,"name":"多摩川","numbering":[{"index":"01"}]},
-    {"code":2600602,"name":"沼部","numbering":[{"index":"02"}]},
-    {"code":2600603,"name":"鵜の木","numbering":[{"index":"03"}]},
-    {"code":2600604,"name":"下丸子","numbering":[{"index":"04"}]},
-    {"code":2600605,"name":"武蔵新田","numbering":[{"index":"05"}]},
-    {"code":2600606,"name":"矢口渡","numbering":[{"index":"06"}]},
-    {"code":1133230,"name":"蒲田","numbering":[{"index":"07"}]}
+    {"code":2600109,"id":"b68259","name":"多摩川","name_kana":"たまがわ","lat":35.589591,"lng":139.668723,"prefecture":13,"numbering":[{"index":"01"}],"lines":[26001,26002,26006],"attr":"eco","postal_code":"145-0071","address":"大田区田園調布１-５３-８"},
+    {"code":2600602,"id":"688ebb","name":"沼部","name_kana":"ぬまべ","lat":35.582526,"lng":139.67326,"prefecture":13,"numbering":[{"index":"02"}],"lines":[26006],"attr":"eco","postal_code":"145-0072","address":"大田区田園調布本町２８-１"},
+    {"code":2600603,"id":"edaad6","name":"鵜の木","name_kana":"うのき","lat":35.575452,"lng":139.680554,"prefecture":13,"numbering":[{"index":"03"}],"lines":[26006],"attr":"eco","postal_code":"146-0091","address":"大田区鵜の木２-４-１"},
+    {"code":2600604,"id":"ea14ec","name":"下丸子","name_kana":"しもまるこ","lat":35.571397,"lng":139.685576,"prefecture":13,"numbering":[{"index":"04"}],"lines":[26006],"attr":"heat","postal_code":"146-0092","address":"大田区下丸子３-７-１"},
+    {"code":2600605,"id":"b596e2","name":"武蔵新田","name_kana":"むさしにった","lat":35.567806,"lng":139.692506,"prefecture":13,"numbering":[{"index":"05"}],"lines":[26006],"attr":"heat","postal_code":"146-0093","address":"大田区矢口１-１８-１"},
+    {"code":2600606,"id":"32a485","name":"矢口渡","name_kana":"やぐちのわたし","lat":35.562462,"lng":139.700389,"prefecture":13,"numbering":[{"index":"06"}],"lines":[26006],"attr":"heat","postal_code":"146-0095","address":"大田区多摩川１-２０-１５"},
+    {"code":1133230,"id":"2ed364","name":"蒲田","name_kana":"かまた","lat":35.562517,"lng":139.716032,"prefecture":13,"numbering":[{"index":"07"}],"lines":[11332,26005,26006],"attr":"cool","postal_code":"144-0052","address":"大田区蒲田５丁目"}
   ],
   "north":35.59037,
   "south":35.56107,

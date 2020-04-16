@@ -2,12 +2,12 @@
   "code":11915,
   "name":"JR後藤寺線",
   "station_list":[
-    {"code":1191113,"name":"新飯塚"},
-    {"code":1191502,"name":"上三緒"},
-    {"code":1191503,"name":"下鴨生"},
-    {"code":1191504,"name":"筑前庄内"},
-    {"code":1191505,"name":"船尾(福岡)"},
-    {"code":1191414,"name":"田川後藤寺"}
+    {"code":1191113,"id":"c18c6d","name":"新飯塚","name_kana":"しんいいづか","lat":33.644261,"lng":130.694278,"prefecture":40,"lines":[11911,11915],"attr":"heat","postal_code":"820-0003","address":"飯塚市大字立岩"},
+    {"code":1191502,"id":"9525b2","name":"上三緒","name_kana":"かみみお","lat":33.622254,"lng":130.713824,"prefecture":40,"lines":[11915],"attr":"eco","postal_code":"820-0013","address":"飯塚市大字上三緒"},
+    {"code":1191503,"id":"9312c3","name":"下鴨生","name_kana":"しもかもお","lat":33.614811,"lng":130.728209,"prefecture":40,"lines":[11915],"attr":"cool","postal_code":"820-0206","address":"嘉麻市鴨生"},
+    {"code":1191504,"id":"1c1e7c","name":"筑前庄内","name_kana":"ちくぜんしょうない","lat":33.61635,"lng":130.738475,"prefecture":40,"lines":[11915],"attr":"cool","postal_code":"820-0106","address":"飯塚市赤坂"},
+    {"code":1191505,"id":"f06e8f","name":"船尾(福岡)","name_kana":"ふなお","lat":33.630221,"lng":130.767387,"prefecture":40,"lines":[11915],"attr":"heat","postal_code":"826-0041","address":"田川市大字弓削田"},
+    {"code":1191414,"id":"525435","name":"田川後藤寺","name_kana":"たがわごとうじ","lat":33.630294,"lng":130.800232,"prefecture":40,"lines":[11914,11915,99903],"attr":"eco","postal_code":"826-0043","address":"田川市奈良"}
   ],
   "north":33.64475,
   "south":33.61333,

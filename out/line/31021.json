@@ -4,9 +4,9 @@
   "color":"#77BBFF",
   "symbol":"J",
   "station_list":[
-    {"code":3100510,"name":"河内山本","numbering":[{"index":"12"}]},
-    {"code":3102102,"name":"服部川","numbering":[{"index":"13"}]},
-    {"code":3102103,"name":"信貴山口","numbering":[{"index":"14"}]}
+    {"code":3100510,"id":"78e81b","name":"河内山本","name_kana":"かわちやまもと","lat":34.627892,"lng":135.619317,"prefecture":27,"numbering":[{"index":"12"}],"lines":[31005,31021],"attr":"heat","postal_code":"581-0867","address":"八尾市山本町１-１-１７"},
+    {"code":3102102,"id":"c7b923","name":"服部川","name_kana":"はっとりがわ","lat":34.626481,"lng":135.641102,"prefecture":27,"numbering":[{"index":"13"}],"lines":[31021],"attr":"heat","postal_code":"581-0865","address":"八尾市服部川４９６"},
+    {"code":3102103,"id":"7537d9","name":"信貴山口","name_kana":"しぎさんぐち","lat":34.619967,"lng":135.642118,"prefecture":27,"numbering":[{"index":"14"}],"lines":[31021,31024],"attr":"heat","postal_code":"581-0873","address":"八尾市黒谷６４６"}
   ],
   "north":34.62804,
   "south":34.61975,

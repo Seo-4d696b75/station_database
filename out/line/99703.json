@@ -2,11 +2,11 @@
   "code":99703,
   "name":"一畑電車大社線",
   "station_list":[
-    {"code":9970205,"name":"川跡","numbering":[{"index":"5"}]},
-    {"code":9970302,"name":"高浜(島根)","numbering":[{"index":"23"}]},
-    {"code":9970303,"name":"遙堪","numbering":[{"index":"24"}]},
-    {"code":9970304,"name":"浜山公園北口","numbering":[{"index":"25"}]},
-    {"code":9970305,"name":"出雲大社前","numbering":[{"index":"26"}]}
+    {"code":9970205,"id":"edd354","name":"川跡","name_kana":"かわと","lat":35.395127,"lng":132.776411,"prefecture":32,"numbering":[{"index":"5"}],"lines":[99702,99703],"attr":"eco","postal_code":"693-0014","address":"出雲市武志町１０２７-１"},
+    {"code":9970302,"id":"38aad3","name":"高浜(島根)","name_kana":"たかはま","lat":35.390677,"lng":132.746684,"prefecture":32,"numbering":[{"index":"23"}],"lines":[99703],"attr":"heat","postal_code":"693-0064","address":"出雲市里方町７９３-３"},
+    {"code":9970303,"id":"1a4cc9","name":"遙堪","name_kana":"ようかん","lat":35.389312,"lng":132.725637,"prefecture":32,"numbering":[{"index":"24"}],"lines":[99703],"attr":"heat","postal_code":"693-0057","address":"島根県出雲市常松町"},
+    {"code":9970304,"id":"fe044a","name":"浜山公園北口","name_kana":"はまやまこうえんきたぐち","lat":35.38926,"lng":132.70829,"prefecture":32,"numbering":[{"index":"25"}],"lines":[99703],"attr":"eco","postal_code":"699-0732","address":"出雲市大社町入南"},
+    {"code":9970305,"id":"1921d4","name":"出雲大社前","name_kana":"いずもたいしゃまえ","lat":35.393245,"lng":132.687531,"prefecture":32,"numbering":[{"index":"26"}],"lines":[99703],"attr":"eco","postal_code":"699-0711","address":"出雲市大社町杵築南"}
   ],
   "north":35.39541,
   "south":35.38894,

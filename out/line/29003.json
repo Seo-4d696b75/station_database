@@ -4,8 +4,8 @@
   "color":"#2288CC",
   "symbol":"SO",
   "station_list":[
-    {"code":2900301,"name":"羽沢横浜国大","numbering":[{"index":"51"}]},
-    {"code":2900108,"name":"西谷","numbering":[{"index":"08"}]}
+    {"code":2900301,"id":"2866fa","name":"羽沢横浜国大","name_kana":"はざわよこはまこくだい","lat":35.481389,"lng":139.586389,"prefecture":14,"numbering":[{"index":"51"}],"lines":[29003],"attr":"eco","postal_code":"221-0866","address":"横浜市神奈川区羽沢南二丁目471"},
+    {"code":2900108,"id":"5d2918","name":"西谷","name_kana":"にしや","lat":35.478092,"lng":139.565721,"prefecture":14,"numbering":[{"index":"08"}],"lines":[29001,29003],"attr":"eco","postal_code":"240-0052","address":"横浜市保土ケ谷区西谷町１１０１"}
   ],
   "north":35.57604,
   "south":35.47678,

@@ -4,8 +4,8 @@
   "color":"#DD3377",
   "symbol":"KO",
   "station_list":[
-    {"code":2400123,"name":"東府中","numbering":[{"index":"23"}]},
-    {"code":2400402,"name":"府中競馬正門前","numbering":[{"index":"46"}]}
+    {"code":2400123,"id":"ba759a","name":"東府中","name_kana":"ひがしふちゅう","lat":35.668766,"lng":139.495257,"prefecture":13,"numbering":[{"index":"23"}],"lines":[24001,24004],"attr":"eco","postal_code":"183-0015","address":"府中市清水が丘１-８-３"},
+    {"code":2400402,"id":"d2670e","name":"府中競馬正門前","name_kana":"ふちゅうけいばせいもんまえ","lat":35.668288,"lng":139.485019,"prefecture":13,"numbering":[{"index":"46"}],"lines":[24004],"attr":"cool","postal_code":"183-0016","address":"府中市八幡町１-１８"}
   ],
   "north":35.66935,
   "south":35.66829,

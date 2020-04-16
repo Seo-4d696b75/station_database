@@ -4,10 +4,10 @@
   "color":"#0065AF",
   "symbol":"NK",
   "station_list":[
-    {"code":3200137,"name":"みさき公園","numbering":[{"index":"41"}]},
-    {"code":3200602,"name":"深日町","numbering":[{"index":"41-1"}]},
-    {"code":3200603,"name":"深日港","numbering":[{"index":"41-2"}]},
-    {"code":3200604,"name":"多奈川","numbering":[{"index":"41-3"}]}
+    {"code":3200137,"id":"db468a","name":"みさき公園","name_kana":"みさきこうえん","lat":34.323986,"lng":135.160977,"prefecture":27,"numbering":[{"index":"41"}],"lines":[32001,32006],"attr":"heat","postal_code":"599-0301","address":"泉南郡岬町淡輪３７１４"},
+    {"code":3200602,"id":"02f7d6","name":"深日町","name_kana":"ふけちょう","lat":34.31823,"lng":135.148002,"prefecture":27,"numbering":[{"index":"41-1"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日１４３３"},
+    {"code":3200603,"id":"18f240","name":"深日港","name_kana":"ふけこう","lat":34.317386,"lng":135.141297,"prefecture":27,"numbering":[{"index":"41-2"}],"lines":[32006],"attr":"eco","postal_code":"599-0303","address":"泉南郡岬町深日２５３５-１"},
+    {"code":3200604,"id":"1ce5c3","name":"多奈川","name_kana":"たながわ","lat":34.316705,"lng":135.137181,"prefecture":27,"numbering":[{"index":"41-3"}],"lines":[32006],"attr":"eco","postal_code":"599-0300","address":"泉南郡岬町多奈川２２９０"}
   ],
   "north":34.32462,
   "south":34.31668,

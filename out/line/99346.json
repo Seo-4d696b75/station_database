@@ -2,8 +2,8 @@
   "code":99346,
   "name":"上野懸垂線(上野動物園モノレール)",
   "station_list":[
-    {"code":9934601,"name":"東園(東京)"},
-    {"code":9934602,"name":"西園"}
+    {"code":9934601,"id":"52db63","name":"東園(東京)","name_kana":"ひがしえん","lat":35.715835,"lng":139.770141,"prefecture":13,"lines":[99346],"attr":"heat","postal_code":"110-0007","address":"東京都台東区上野公園９"},
+    {"code":9934602,"id":"c6395d","name":"西園","name_kana":"にしえん","lat":35.714308,"lng":139.769722,"prefecture":13,"lines":[99346],"attr":"heat","postal_code":"110-0007","address":"東京都台東区上野公園３"}
   ],
   "north":35.71606,
   "south":35.71419,

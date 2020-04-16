@@ -4,14 +4,14 @@
   "color":"#66CC33",
   "symbol":"KH",
   "station_list":[
-    {"code":3300113,"name":"中書島","numbering":[{"index":"28"}]},
-    {"code":3300202,"name":"観月橋","numbering":[{"index":"71"}]},
-    {"code":3300203,"name":"桃山南口","numbering":[{"index":"72"}]},
-    {"code":3300204,"name":"六地蔵(京阪電気鉄道)","numbering":[{"index":"73"}]},
-    {"code":3300205,"name":"木幡(京阪電気鉄道)","numbering":[{"index":"74"}]},
-    {"code":1161808,"name":"黄檗","numbering":[{"index":"75"}]},
-    {"code":3300207,"name":"三室戸","numbering":[{"index":"76"}]},
-    {"code":3300208,"name":"宇治(京阪電気鉄道)","numbering":[{"index":"77"}]}
+    {"code":3300113,"id":"b49d84","name":"中書島","name_kana":"ちゅうしょじま","lat":34.926875,"lng":135.760174,"prefecture":26,"numbering":[{"index":"28"}],"lines":[33001,33002],"attr":"heat","postal_code":"612-8224","address":"京都市伏見区葭島矢倉町５９"},
+    {"code":3300202,"id":"fdf99d","name":"観月橋","name_kana":"かんげつきょう","lat":34.928103,"lng":135.768642,"prefecture":26,"numbering":[{"index":"71"}],"lines":[33002],"attr":"heat","postal_code":"612-8106","address":"京都市伏見区豊後橋町７６１"},
+    {"code":3300203,"id":"474570","name":"桃山南口","name_kana":"ももやまみなみぐち","lat":34.931056,"lng":135.783683,"prefecture":26,"numbering":[{"index":"72"}],"lines":[33002],"attr":"heat","postal_code":"612-8018","address":"京都市伏見区桃山町丹後１１"},
+    {"code":3300204,"id":"20cee5","name":"六地蔵(京阪電気鉄道)","name_kana":"ろくじぞう","lat":34.932017,"lng":135.793322,"prefecture":26,"numbering":[{"index":"73"}],"lines":[33002],"attr":"heat","postal_code":"612-8007","address":"京都市伏見区桃山町因幡2"},
+    {"code":3300205,"id":"e1a335","name":"木幡(京阪電気鉄道)","name_kana":"こわた","lat":34.925859,"lng":135.796047,"prefecture":26,"numbering":[{"index":"74"}],"lines":[33002],"attr":"cool","postal_code":"611-0002","address":"京都府宇治市木幡"},
+    {"code":1161808,"id":"56efb4","name":"黄檗","name_kana":"おうばく","lat":34.912831,"lng":135.803665,"prefecture":26,"numbering":[{"index":"75"}],"lines":[11618,33002],"attr":"heat","postal_code":"611-0011","address":"宇治市五ケ庄新開"},
+    {"code":3300207,"id":"4f6431","name":"三室戸","name_kana":"みむろど","lat":34.898976,"lng":135.806339,"prefecture":26,"numbering":[{"index":"76"}],"lines":[33002],"attr":"eco","postal_code":"611-0013","address":"宇治市菟道田中１５"},
+    {"code":3300208,"id":"27c551","name":"宇治(京阪電気鉄道)","name_kana":"うじ","lat":34.894678,"lng":135.806229,"prefecture":26,"numbering":[{"index":"77"}],"lines":[33002],"attr":"eco","postal_code":"611-0021","address":"宇治市宇治字文治"}
   ],
   "north":34.93219,
   "south":34.89473,

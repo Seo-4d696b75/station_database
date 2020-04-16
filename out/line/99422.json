@@ -2,11 +2,11 @@
   "code":99422,
   "name":"富山地鉄富山都心線",
   "station_list":[
-    {"code":9941316,"name":"丸の内(富山)"},
-    {"code":9942202,"name":"国際会議場前"},
-    {"code":9942203,"name":"大手モール"},
-    {"code":9942204,"name":"グランドプラザ前"},
-    {"code":9941308,"name":"西町"}
+    {"code":9941316,"id":"cc16f9","name":"丸の内(富山)","name_kana":"まるのうち","lat":36.692563,"lng":137.208896,"prefecture":16,"lines":[99422,99413],"attr":"eco","postal_code":"930-0085","address":"富山県富山市丸の内一丁目"},
+    {"code":9942202,"id":"63ae7a","name":"国際会議場前","name_kana":"こくさいかいぎじょうまえ","lat":36.691654,"lng":137.21139,"prefecture":16,"lines":[99422],"attr":"cool","postal_code":"930-0084","address":"富山県富山市大手町"},
+    {"code":9942203,"id":"b440ee","name":"大手モール","name_kana":"おおてもーる","lat":36.689388,"lng":137.211334,"prefecture":16,"lines":[99422],"attr":"eco","postal_code":"930-0083","address":"富山県富山市総曲輪四丁目6"},
+    {"code":9942204,"id":"d58818","name":"グランドプラザ前","name_kana":"ぐらんどぷらざまえ","lat":36.688923,"lng":137.213386,"prefecture":16,"lines":[99422],"attr":"eco","postal_code":"930-0062","address":"富山県富山市西町１"},
+    {"code":9941308,"id":"08db76","name":"西町","name_kana":"にしちょう","lat":36.689001,"lng":137.215676,"prefecture":16,"lines":[99413,99422],"attr":"cool","postal_code":"930-0062","address":"富山県富山市西町"}
   ],
   "north":36.69226,
   "south":36.68889,

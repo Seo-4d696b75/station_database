@@ -4,14 +4,14 @@
   "color":"#FF0000",
   "symbol":"TI",
   "station_list":[
-    {"code":2100248,"name":"太田(群馬)","numbering":[{"index":"18"}]},
-    {"code":2101102,"name":"三枚橋","numbering":[{"index":"51"}]},
-    {"code":2101103,"name":"治良門橋","numbering":[{"index":"52"}]},
-    {"code":2101104,"name":"藪塚","numbering":[{"index":"53"}]},
-    {"code":2101105,"name":"阿左美","numbering":[{"index":"54"}]},
-    {"code":2101106,"name":"新桐生","numbering":[{"index":"55"}]},
-    {"code":2101107,"name":"相老","numbering":[{"index":"56"}]},
-    {"code":2101108,"name":"赤城","numbering":[{"index":"57"}]}
+    {"code":2100248,"id":"9fa174","name":"太田(群馬)","name_kana":"おおた","lat":36.294228,"lng":139.378779,"prefecture":10,"numbering":[{"index":"18"}],"lines":[21002,21011,21012],"attr":"eco","postal_code":"373-0026","address":"太田市東本町"},
+    {"code":2101102,"id":"03c02a","name":"三枚橋","name_kana":"さんまいばし","lat":36.313369,"lng":139.354938,"prefecture":10,"numbering":[{"index":"51"}],"lines":[21011],"attr":"cool","postal_code":"373-0063","address":"太田市鳥山下町６４２-１"},
+    {"code":2101103,"id":"e0863f","name":"治良門橋","name_kana":"じろえんばし","lat":36.333039,"lng":139.341328,"prefecture":10,"numbering":[{"index":"52"}],"lines":[21011],"attr":"cool","postal_code":"373-0006","address":"太田市成塚町１０２４"},
+    {"code":2101104,"id":"02fbf3","name":"藪塚","name_kana":"やぶづか","lat":36.358737,"lng":139.315737,"prefecture":10,"numbering":[{"index":"53"}],"lines":[21011],"attr":"cool","postal_code":"379-2301","address":"群馬県太田市藪塚町字八石379-2"},
+    {"code":2101105,"id":"010761","name":"阿左美","name_kana":"あざみ","lat":36.38734,"lng":139.308854,"prefecture":10,"numbering":[{"index":"54"}],"lines":[21011],"attr":"heat","postal_code":"379-2311","address":"みどり市笠懸町阿左美１０５７-４"},
+    {"code":2101106,"id":"a819b0","name":"新桐生","name_kana":"しんきりゅう","lat":36.39505,"lng":139.320078,"prefecture":10,"numbering":[{"index":"55"}],"lines":[21011],"attr":"heat","postal_code":"376-0013","address":"桐生市広沢町２-２９９０-４"},
+    {"code":2101107,"id":"3c9d62","name":"相老","name_kana":"あいおい","lat":36.410261,"lng":139.304178,"prefecture":10,"numbering":[{"index":"56"}],"lines":[21011,99312],"attr":"eco","postal_code":"376-0011","address":"桐生市相生町２丁目"},
+    {"code":2101108,"id":"178230","name":"赤城","name_kana":"あかぎ","lat":36.425615,"lng":139.276784,"prefecture":10,"numbering":[{"index":"57"}],"lines":[21011,99328],"attr":"eco","postal_code":"376-0101","address":"みどり市大間々町大間々２４４５"}
   ],
   "north":36.4275,
   "south":36.2941,

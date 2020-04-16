@@ -3,12 +3,12 @@
   "name":"神戸新交通六甲アイランド線",
   "symbol":"R",
   "station_list":[
-    {"code":1160310,"name":"住吉(JR)","numbering":[{"index":"01"}]},
-    {"code":3500123,"name":"魚崎","numbering":[{"index":"02"}]},
-    {"code":9964903,"name":"南魚崎","numbering":[{"index":"03"}]},
-    {"code":9964904,"name":"アイランド北口","numbering":[{"index":"04"}]},
-    {"code":9964905,"name":"アイランドセンター","numbering":[{"index":"05"}]},
-    {"code":9964906,"name":"マリンパーク","numbering":[{"index":"06"}]}
+    {"code":1160310,"id":"e9e90a","name":"住吉(JR)","name_kana":"すみよし","lat":34.719595,"lng":135.261859,"prefecture":28,"numbering":[{"index":"01"}],"lines":[11603,99649],"attr":"eco","postal_code":"658-0051","address":"神戸市東灘区住吉本町一丁目2-9"},
+    {"code":3500123,"id":"47308c","name":"魚崎","name_kana":"うおざき","lat":34.71262,"lng":135.26924,"prefecture":28,"numbering":[{"index":"02"}],"lines":[35001,99649],"attr":"eco","postal_code":"658-0026","address":"神戸市東灘区魚崎西町４"},
+    {"code":9964903,"id":"a0110e","name":"南魚崎","name_kana":"みなみうおざき","lat":34.706751,"lng":135.267661,"prefecture":28,"numbering":[{"index":"03"}],"lines":[99649],"attr":"eco","postal_code":"658-0026","address":"神戸市東灘区魚崎西町１"},
+    {"code":9964904,"id":"9bc5e7","name":"アイランド北口","name_kana":"あいらんどきたぐち","lat":34.692853,"lng":135.26875,"prefecture":28,"numbering":[{"index":"04"}],"lines":[99649],"attr":"eco","postal_code":"658-0032","address":"神戸市東灘区向洋町中１"},
+    {"code":9964905,"id":"53a84a","name":"アイランドセンター","name_kana":"あいらんどせんたー","lat":34.689103,"lng":135.269347,"prefecture":28,"numbering":[{"index":"05"}],"lines":[99649],"attr":"cool","postal_code":"658-0032","address":"神戸市東灘区向洋町中２"},
+    {"code":9964906,"id":"75f97f","name":"マリンパーク","name_kana":"まりんぱーく","lat":34.684176,"lng":135.270077,"prefecture":28,"numbering":[{"index":"06"}],"lines":[99649],"attr":"cool","postal_code":"658-0032","address":"神戸市東灘区向洋町中４"}
   ],
   "north":34.72068,
   "south":34.68388,

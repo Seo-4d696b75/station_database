@@ -4,13 +4,13 @@
   "color":"#F15A22",
   "symbol":"JC",
   "station_list":[
-    {"code":1131506,"name":"拝島","numbering":[{"index":"55"}]},
-    {"code":1131602,"name":"熊川","numbering":[{"index":"81"}]},
-    {"code":1131603,"name":"東秋留","numbering":[{"index":"82"}]},
-    {"code":1131604,"name":"秋川","numbering":[{"index":"83"}]},
-    {"code":1131605,"name":"武蔵引田","numbering":[{"index":"84"}]},
-    {"code":1131606,"name":"武蔵増戸","numbering":[{"index":"85"}]},
-    {"code":1131607,"name":"武蔵五日市","numbering":[{"index":"86"}]}
+    {"code":1131506,"id":"d4c39b","name":"拝島","name_kana":"はいじま","lat":35.721278,"lng":139.343468,"prefecture":13,"numbering":[{"index":"55"}],"lines":[11315,11316,11317,22008],"attr":"heat","postal_code":"196-0003","address":"昭島市松原町４丁目"},
+    {"code":1131602,"id":"7500a3","name":"熊川","name_kana":"くまがわ","lat":35.728321,"lng":139.33584,"prefecture":13,"numbering":[{"index":"81"}],"lines":[11316],"attr":"heat","postal_code":"197-0003","address":"福生市熊川北"},
+    {"code":1131603,"id":"1a380e","name":"東秋留","name_kana":"ひがしあきる","lat":35.725904,"lng":139.311665,"prefecture":13,"numbering":[{"index":"82"}],"lines":[11316],"attr":"heat","postal_code":"197-0823","address":"あきる野市野辺"},
+    {"code":1131604,"id":"a32ffa","name":"秋川","name_kana":"あきがわ","lat":35.727998,"lng":139.286715,"prefecture":13,"numbering":[{"index":"83"}],"lines":[11316],"attr":"cool","postal_code":"197-0827","address":"あきる野市油平"},
+    {"code":1131605,"id":"4bd7ca","name":"武蔵引田","name_kana":"むさしひきだ","lat":35.729711,"lng":139.269907,"prefecture":13,"numbering":[{"index":"84"}],"lines":[11316],"attr":"cool","postal_code":"190-0100","address":"あきる野市下引田"},
+    {"code":1131606,"id":"1e3cf9","name":"武蔵増戸","name_kana":"むさしますこ","lat":35.730961,"lng":139.256355,"prefecture":13,"numbering":[{"index":"85"}],"lines":[11316],"attr":"eco","postal_code":"190-0142","address":"あきる野市伊奈"},
+    {"code":1131607,"id":"ad2035","name":"武蔵五日市","name_kana":"むさしいつかいち","lat":35.732248,"lng":139.228039,"prefecture":13,"numbering":[{"index":"86"}],"lines":[11316],"attr":"eco","postal_code":"190-0163","address":"あきる野市舘谷"}
   ],
   "north":35.7339,
   "south":35.72037,

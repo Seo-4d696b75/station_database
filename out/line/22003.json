@@ -4,9 +4,9 @@
   "color":"#FF6600",
   "symbol":"SI",
   "station_list":[
-    {"code":2200106,"name":"練馬","numbering":[{"index":"06"}]},
-    {"code":2200302,"name":"新桜台","numbering":[{"index":"38"}]},
-    {"code":2200301,"name":"小竹向原","numbering":[{"index":"39"}]}
+    {"code":2200106,"id":"a254f6","name":"練馬","name_kana":"ねりま","lat":35.737893,"lng":139.654368,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22001,22003,22004,99301],"attr":"heat","postal_code":"176-0001","address":"練馬区練馬１-３-５"},
+    {"code":2200302,"id":"163591","name":"新桜台","name_kana":"しんさくらだい","lat":35.74077,"lng":139.6683,"prefecture":13,"numbering":[{"index":"38"}],"lines":[22003],"attr":"cool","postal_code":"176-0002","address":"練馬区桜台１-２８-１１"},
+    {"code":2200301,"id":"46f29b","name":"小竹向原","name_kana":"こたけむかいはら","lat":35.743803,"lng":139.678572,"prefecture":13,"numbering":[{"index":"39"}],"lines":[22003,28006,28010],"attr":"eco","postal_code":"176-0004","address":"東京都練馬区小竹町二丁目16-15"}
   ],
   "north":35.74502,
   "south":35.73783,

@@ -4,11 +4,11 @@
   "closed":true,
   "color":"#0099FF",
   "station_list":[
-    {"code":1111801,"name":"中小国"},
-    {"code":101102,"name":"奥津軽いまべつ"},
-    {"code":1111803,"name":"竜飛海底"},
-    {"code":1111805,"name":"知内"},
-    {"code":101103,"name":"木古内"}
+    {"code":1111801,"id":"ae7081","name":"中小国","name_kana":"なかおぐに","lat":41.051702,"lng":140.596798,"prefecture":2,"lines":[11118,11205],"attr":"cool","postal_code":"030-1305","address":"東津軽郡外ヶ浜町蟹田小国"},
+    {"code":101102,"id":"7b5595","name":"奥津軽いまべつ","name_kana":"おくつがるいまべつ","lat":41.144877,"lng":140.51563,"prefecture":2,"lines":[1011,11118],"attr":"cool","postal_code":"030-1505","address":"青森県東津軽郡今別町大字大川平清川"},
+    {"code":1111803,"id":"2f5a87","name":"竜飛海底","name_kana":"たっぴかいてい","closed":true,"lat":41.257228,"lng":140.347946,"prefecture":2,"lines":[11118],"attr":"unknown","postal_code":"030-1400","address":"東津軽郡外ヶ浜町三厩宇鉄立浜"},
+    {"code":1111805,"id":"4f0ce8","name":"知内","name_kana":"しりうち","closed":true,"lat":41.601092,"lng":140.33494,"prefecture":1,"lines":[11118],"attr":"unknown","postal_code":"049-1221","address":"上磯郡知内町湯ノ里"},
+    {"code":101103,"id":"95d372","name":"木古内","name_kana":"きこない","lat":41.677642,"lng":140.434004,"prefecture":1,"lines":[11118,99108,1011,11119],"attr":"eco","postal_code":"049-0422","address":"上磯郡木古内町本町"}
   ],
   "north":41.67809,
   "south":41.05138,

@@ -4,11 +4,11 @@
   "color":"#0F6CC3",
   "symbol":"TS",
   "station_list":[
-    {"code":1131323,"name":"亀戸","numbering":[{"index":"44"}]},
-    {"code":2100504,"name":"亀戸水神","numbering":[{"index":"43"}]},
-    {"code":2100503,"name":"東あずま","numbering":[{"index":"42"}]},
-    {"code":2100502,"name":"小村井","numbering":[{"index":"41"}]},
-    {"code":2100204,"name":"曳舟","numbering":[{"index":"04"}]}
+    {"code":1131323,"id":"f34421","name":"亀戸","name_kana":"かめいど","lat":35.697345,"lng":139.826262,"prefecture":13,"numbering":[{"index":"44"}],"lines":[11313,21005],"attr":"heat","postal_code":"136-0071","address":"江東区亀戸５丁目"},
+    {"code":2100504,"id":"46b5c4","name":"亀戸水神","name_kana":"かめいどすいじん","lat":35.699976,"lng":139.833422,"prefecture":13,"numbering":[{"index":"43"}],"lines":[21005],"attr":"heat","postal_code":"136-0071","address":"江東区亀戸８-５-１"},
+    {"code":2100503,"id":"f004b8","name":"東あずま","name_kana":"ひがしあずま","lat":35.707067,"lng":139.831883,"prefecture":13,"numbering":[{"index":"42"}],"lines":[21005],"attr":"heat","postal_code":"131-0043","address":"墨田区立花４-２３-８"},
+    {"code":2100502,"id":"48a2bb","name":"小村井","name_kana":"おむらい","lat":35.710316,"lng":139.827595,"prefecture":13,"numbering":[{"index":"41"}],"lines":[21005],"attr":"heat","postal_code":"131-0044","address":"墨田区文花２-２０-１"},
+    {"code":2100204,"id":"e1efbf","name":"曳舟","name_kana":"ひきふね","lat":35.718418,"lng":139.816634,"prefecture":13,"numbering":[{"index":"04"}],"lines":[21002,21005],"attr":"heat","postal_code":"131-0032","address":"墨田区東向島２丁目"}
   ],
   "north":35.71936,
   "south":35.69773,

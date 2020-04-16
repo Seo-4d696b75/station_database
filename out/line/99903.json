@@ -2,12 +2,12 @@
   "code":99903,
   "name":"平成筑豊鉄道糸田線",
   "station_list":[
-    {"code":9990210,"name":"金田"},
-    {"code":9990302,"name":"豊前大熊"},
-    {"code":9990303,"name":"松山(福岡)"},
-    {"code":9990304,"name":"糸田"},
-    {"code":9990305,"name":"大藪"},
-    {"code":1191414,"name":"田川後藤寺"}
+    {"code":9990210,"id":"943449","name":"金田","name_kana":"かなだ","lat":33.682805,"lng":130.776491,"prefecture":40,"lines":[99902,99903],"attr":"heat","postal_code":"822-1201","address":"田川郡福智町金田"},
+    {"code":9990302,"id":"ae54d1","name":"豊前大熊","name_kana":"ぶぜんおおくま","lat":33.672646,"lng":130.780387,"prefecture":40,"lines":[99903],"attr":"cool","postal_code":"822-1300","address":"田川郡糸田町大字糸田"},
+    {"code":9990303,"id":"3468b3","name":"松山(福岡)","name_kana":"まつやま","lat":33.668496,"lng":130.780537,"prefecture":40,"lines":[99903],"attr":"cool","postal_code":"822-1300","address":"田川郡糸田町糸田"},
+    {"code":9990304,"id":"bca796","name":"糸田","name_kana":"いとだ","lat":33.656481,"lng":130.785773,"prefecture":40,"lines":[99903],"attr":"eco","postal_code":"822-1300","address":"田川郡糸田町大字糸田"},
+    {"code":9990305,"id":"0676f9","name":"大藪","name_kana":"おおやぶ","lat":33.64712,"lng":130.797642,"prefecture":40,"lines":[99903],"attr":"eco","postal_code":"826-0042","address":"田川市大字川宮"},
+    {"code":1191414,"id":"525435","name":"田川後藤寺","name_kana":"たがわごとうじ","lat":33.630294,"lng":130.800232,"prefecture":40,"lines":[11914,11915,99903],"attr":"eco","postal_code":"826-0043","address":"田川市奈良"}
   ],
   "north":33.68323,
   "south":33.62977,

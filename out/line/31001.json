@@ -4,9 +4,9 @@
   "color":"#FF0000",
   "symbol":"A",
   "station_list":[
-    {"code":3100101,"name":"大阪難波","numbering":[{"index":"01"}]},
-    {"code":3100102,"name":"近鉄日本橋","numbering":[{"index":"02"}]},
-    {"code":3100103,"name":"大阪上本町","numbering":[{"index":"03"}]}
+    {"code":3100101,"id":"6a42ec","name":"大阪難波","name_kana":"おおさかなんば","lat":34.667113,"lng":135.499144,"prefecture":27,"numbering":[{"index":"01"}],"lines":[31001,35002],"attr":"heat","postal_code":"542-0076","address":"大阪市中央区難波四丁目1-17"},
+    {"code":3100102,"id":"f0946f","name":"近鉄日本橋","name_kana":"きんてつにっぽんばし","lat":34.666949,"lng":135.505818,"prefecture":27,"numbering":[{"index":"02"}],"lines":[31001],"attr":"heat","postal_code":"542-0073","address":"大阪市中央区日本橋１-１８-１４"},
+    {"code":3100103,"id":"b0e96b","name":"大阪上本町","name_kana":"おおさかうえほんまち","lat":34.665513,"lng":135.522189,"prefecture":27,"numbering":[{"index":"03"}],"lines":[31001,31005],"attr":"heat","postal_code":"543-0001","address":"大阪市天王寺区上本町六丁目1-55"}
   ],
   "north":34.66711,
   "south":34.66597,

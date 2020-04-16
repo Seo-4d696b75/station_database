@@ -4,11 +4,11 @@
   "color":"#696969",
   "symbol":"W",
   "station_list":[
-    {"code":9971007,"name":"八丁堀(広島)","numbering":[{"index":"1"}]},
-    {"code":9971702,"name":"女学院前","numbering":[{"index":"2"}]},
-    {"code":9971703,"name":"縮景園前","numbering":[{"index":"3"}]},
-    {"code":9971704,"name":"家庭裁判所前","numbering":[{"index":"4"}]},
-    {"code":9971705,"name":"白島(広島電鉄)","numbering":[{"index":"5"}]}
+    {"code":9971007,"id":"e0dfd4","name":"八丁堀(広島)","name_kana":"はっちょうぼり","lat":34.393897,"lng":132.463403,"prefecture":34,"numbering":[{"index":"1"}],"lines":[99710,99711,99714,99717],"attr":"cool","postal_code":"730-0021","address":"広島市中区胡町"},
+    {"code":9971702,"id":"2a6c37","name":"女学院前","name_kana":"じょがくいんまえ","lat":34.397827,"lng":132.464776,"prefecture":34,"numbering":[{"index":"2"}],"lines":[99717],"attr":"eco","postal_code":"730-0012","address":"広島市中区上八丁堀"},
+    {"code":9971703,"id":"615146","name":"縮景園前","name_kana":"しゅっけいえんまえ","lat":34.399881,"lng":132.465334,"prefecture":34,"numbering":[{"index":"3"}],"lines":[99717],"attr":"eco","postal_code":"730-0012","address":"広島市中区上八丁堀"},
+    {"code":9971704,"id":"1903bf","name":"家庭裁判所前","name_kana":"かていさいばんしょまえ","lat":34.402289,"lng":132.466106,"prefecture":34,"numbering":[{"index":"4"}],"lines":[99717],"attr":"cool","postal_code":"730-0012","address":"広島市中区上八丁堀"},
+    {"code":9971705,"id":"82c7f4","name":"白島(広島電鉄)","name_kana":"はくしま","lat":34.404484,"lng":132.465506,"prefecture":34,"numbering":[{"index":"5"}],"lines":[99717],"attr":"cool","postal_code":"730-0012","address":"広島市中区東白島町"}
   ],
   "north":34.40426,
   "south":34.37208,

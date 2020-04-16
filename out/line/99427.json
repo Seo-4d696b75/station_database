@@ -3,14 +3,14 @@
   "name":"北しなの線",
   "color":"#999966",
   "station_list":[
-    {"code":100906,"name":"長野"},
-    {"code":1140306,"name":"北長野"},
-    {"code":1140307,"name":"三才"},
-    {"code":1140308,"name":"豊野"},
-    {"code":1140309,"name":"牟礼"},
-    {"code":1140310,"name":"古間"},
-    {"code":1140311,"name":"黒姫"},
-    {"code":1140312,"name":"妙高高原"}
+    {"code":100906,"id":"194165","name":"長野","name_kana":"ながの","lat":36.643307,"lng":138.189101,"prefecture":20,"lines":[11403,99405,99427,1009],"attr":"cool","postal_code":"380-0921","address":"長野市大字栗田１０３８番地"},
+    {"code":1140306,"id":"644734","name":"北長野","name_kana":"きたながの","lat":36.665123,"lng":138.222534,"prefecture":20,"lines":[99427],"attr":"cool","postal_code":"381-0044","address":"長野市中越"},
+    {"code":1140307,"id":"c640cc","name":"三才","name_kana":"さんさい","lat":36.686674,"lng":138.244079,"prefecture":20,"lines":[99427],"attr":"eco","postal_code":"381-0081","address":"長野市三才"},
+    {"code":1140308,"id":"31a555","name":"豊野","name_kana":"とよの","lat":36.710642,"lng":138.274458,"prefecture":20,"lines":[11407,99427],"attr":"eco","postal_code":"389-1105","address":"長野市豊野町豊野"},
+    {"code":1140309,"id":"2ba998","name":"牟礼","name_kana":"むれ","lat":36.753239,"lng":138.247121,"prefecture":20,"lines":[99427],"attr":"heat","postal_code":"389-1212","address":"上水内郡飯綱町豊野"},
+    {"code":1140310,"id":"2dd8cf","name":"古間","name_kana":"ふるま","lat":36.792295,"lng":138.230461,"prefecture":20,"lines":[99427],"attr":"heat","postal_code":"389-1312","address":"上水内郡信濃町富濃"},
+    {"code":1140311,"id":"071a42","name":"黒姫","name_kana":"くろひめ","lat":36.807214,"lng":138.197195,"prefecture":20,"lines":[99427],"attr":"heat","postal_code":"389-1305","address":"上水内郡信濃町柏原"},
+    {"code":1140312,"id":"9a4d78","name":"妙高高原","name_kana":"みょうこうこうげん","lat":36.872175,"lng":138.211953,"prefecture":15,"lines":[99424,99427],"attr":"cool","postal_code":"949-2106","address":"妙高市田口"}
   ],
   "north":36.87305,
   "south":36.64276,

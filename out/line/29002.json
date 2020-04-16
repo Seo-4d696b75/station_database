@@ -4,14 +4,14 @@
   "color":"#2288CC",
   "symbol":"SO",
   "station_list":[
-    {"code":2900110,"name":"二俣川","numbering":[{"index":"10"}]},
-    {"code":2900202,"name":"南万騎が原","numbering":[{"index":"31"}]},
-    {"code":2900203,"name":"緑園都市","numbering":[{"index":"32"}]},
-    {"code":2900204,"name":"弥生台","numbering":[{"index":"33"}]},
-    {"code":2900205,"name":"いずみ野","numbering":[{"index":"34"}]},
-    {"code":2900206,"name":"いずみ中央","numbering":[{"index":"35"}]},
-    {"code":2900207,"name":"ゆめが丘","numbering":[{"index":"36"}]},
-    {"code":2500210,"name":"湘南台","numbering":[{"index":"37"}]}
+    {"code":2900110,"id":"57dba2","name":"二俣川","name_kana":"ふたまたがわ","lat":35.463335,"lng":139.532207,"prefecture":14,"numbering":[{"index":"10"}],"lines":[29001,29002],"attr":"eco","postal_code":"241-0821","address":"横浜市旭区二俣川２-９１-７"},
+    {"code":2900202,"id":"4956f3","name":"南万騎が原","name_kana":"みなみまきがはら","lat":35.452522,"lng":139.526344,"prefecture":14,"numbering":[{"index":"31"}],"lines":[29002],"attr":"eco","postal_code":"241-0835","address":"横浜市旭区柏町１２８"},
+    {"code":2900203,"id":"377633","name":"緑園都市","name_kana":"りょくえんとし","lat":35.439502,"lng":139.521841,"prefecture":14,"numbering":[{"index":"32"}],"lines":[29002],"attr":"eco","postal_code":"245-0002","address":"横浜市泉区緑園３-１-１"},
+    {"code":2900204,"id":"9f26e5","name":"弥生台","name_kana":"やよいだい","lat":35.429933,"lng":139.506615,"prefecture":14,"numbering":[{"index":"33"}],"lines":[29002],"attr":"eco","postal_code":"245-0008","address":"横浜市泉区弥生台５-２"},
+    {"code":2900205,"id":"f07fb1","name":"いずみ野","name_kana":"いずみの","lat":35.429434,"lng":139.495135,"prefecture":14,"numbering":[{"index":"34"}],"lines":[29002],"attr":"cool","postal_code":"245-0016","address":"横浜市泉区和泉町５７３６"},
+    {"code":2900206,"id":"0d5926","name":"いずみ中央","name_kana":"いずみちゅうおう","lat":35.415385,"lng":139.48727,"prefecture":14,"numbering":[{"index":"35"}],"lines":[29002],"attr":"cool","postal_code":"245-0016","address":"横浜市泉区和泉町３５４０"},
+    {"code":2900207,"id":"97f6c5","name":"ゆめが丘","name_kana":"ゆめがおか","lat":35.405436,"lng":139.482192,"prefecture":14,"numbering":[{"index":"36"}],"lines":[29002],"attr":"cool","postal_code":"245-0017","address":"横浜市泉区下飯田町１５５５-９"},
+    {"code":2500210,"id":"23d860","name":"湘南台","name_kana":"しょうなんだい","lat":35.396488,"lng":139.466451,"prefecture":14,"numbering":[{"index":"37"}],"lines":[25002,29002,99316],"attr":"cool","postal_code":"252-0804","address":"藤沢市湘南台２-１５"}
   ],
   "north":35.464,
   "south":35.39602,

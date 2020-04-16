@@ -4,10 +4,10 @@
   "color":"#E5171F",
   "symbol":"M",
   "station_list":[
-    {"code":9961401,"name":"千里中央","numbering":[{"index":"08"}]},
-    {"code":9961402,"name":"桃山台","numbering":[{"index":"09"}]},
-    {"code":9961403,"name":"緑地公園","numbering":[{"index":"10"}]},
-    {"code":9961404,"name":"江坂","numbering":[{"index":"11"}]}
+    {"code":9961401,"id":"eb2a5f","name":"千里中央","name_kana":"せんりちゅうおう","lat":34.808655,"lng":135.495067,"prefecture":27,"numbering":[{"index":"08"}],"lines":[99614,99626],"attr":"eco","postal_code":"560-0082","address":"豊中市新千里東町１-５-４"},
+    {"code":9961402,"id":"d531e9","name":"桃山台","name_kana":"ももやまだい","lat":34.793842,"lng":135.497142,"prefecture":27,"numbering":[{"index":"09"}],"lines":[99614],"attr":"eco","postal_code":"565-0854","address":"吹田市桃山台５-１-１"},
+    {"code":9961403,"id":"f87312","name":"緑地公園","name_kana":"りょくちこうえん","lat":34.774772,"lng":135.495278,"prefecture":27,"numbering":[{"index":"10"}],"lines":[99614],"attr":"heat","postal_code":"561-0871","address":"豊中市東寺内町１８-１"},
+    {"code":9961404,"id":"04bc6b","name":"江坂","name_kana":"えさか","lat":34.758755,"lng":135.497106,"prefecture":27,"numbering":[{"index":"11"}],"lines":[99614,99618],"attr":"heat","postal_code":"564-0051","address":"吹田市豊津町９"}
   ],
   "north":34.81122,
   "south":34.75789,

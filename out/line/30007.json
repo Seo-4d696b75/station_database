@@ -4,9 +4,9 @@
   "color":"#0000CD",
   "symbol":"TA",
   "station_list":[
-    {"code":3000701,"name":"常滑","numbering":[{"index":"22"}]},
-    {"code":3000702,"name":"りんくう常滑","numbering":[{"index":"23"}]},
-    {"code":3000703,"name":"中部国際空港","numbering":[{"index":"24"}]}
+    {"code":3000701,"id":"bea5fb","name":"常滑","name_kana":"とこなめ","lat":34.891167,"lng":136.834992,"prefecture":23,"numbering":[{"index":"22"}],"lines":[30007,30008],"attr":"eco","postal_code":"479-0838","address":"常滑市鯉江本町５-１４１"},
+    {"code":3000702,"id":"411bc8","name":"りんくう常滑","name_kana":"りんくうとこなめ","lat":34.87967,"lng":136.828164,"prefecture":23,"numbering":[{"index":"23"}],"lines":[30007],"attr":"cool","postal_code":"479-0882","address":"常滑市りんくう町"},
+    {"code":3000703,"id":"7070e7","name":"中部国際空港","name_kana":"ちゅうぶこくさいくうこう","lat":34.859262,"lng":136.816382,"prefecture":23,"numbering":[{"index":"24"}],"lines":[30007],"attr":"eco","postal_code":"479-0881","address":"常滑市セントレア"}
   ],
   "north":34.89159,
   "south":34.85853,

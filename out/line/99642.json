@@ -3,14 +3,14 @@
   "name":"三木線",
   "closed":true,
   "station_list":[
-    {"code":1163204,"name":"厄神"},
-    {"code":9964202,"name":"国包"},
-    {"code":9964203,"name":"宗佐"},
-    {"code":9964204,"name":"下石野"},
-    {"code":9964205,"name":"石野"},
-    {"code":9964206,"name":"西這田"},
-    {"code":9964207,"name":"別所"},
-    {"code":9964208,"name":"高木(兵庫)"},
-    {"code":9964209,"name":"三木(三木鉄道)"}
+    {"code":1163204,"id":"957c13","name":"厄神","name_kana":"やくじん","lat":34.794623,"lng":134.90682,"prefecture":28,"lines":[11632,99642],"attr":"eco","postal_code":"675-1213","address":"加古川市上荘町国包"},
+    {"code":9964202,"id":"8491b6","name":"国包","name_kana":"くにかね","closed":true,"lat":34.797308,"lng":134.916603,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"675-1213","address":"兵庫県加古川市上荘町国包"},
+    {"code":9964203,"id":"760326","name":"宗佐","name_kana":"そうさ","closed":true,"lat":34.798144,"lng":134.922306,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"675-1201","address":"兵庫県加古川市八幡町宗佐"},
+    {"code":9964204,"id":"69e6a0","name":"下石野","name_kana":"しもいしの","closed":true,"lat":34.796847,"lng":134.928097,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0453","address":"兵庫県三木市別所町下石野1丁目"},
+    {"code":9964205,"id":"f0c4a0","name":"石野","name_kana":"いしの","closed":true,"lat":34.795014,"lng":134.933785,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0453","address":"兵庫県三木市別所町下石野3丁目"},
+    {"code":9964206,"id":"901b13","name":"西這田","name_kana":"にしほうだ","closed":true,"lat":34.794975,"lng":134.951328,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0445","address":"兵庫県三木市別所町西這田1丁目"},
+    {"code":9964207,"id":"ec0659","name":"別所","name_kana":"べっしょ","closed":true,"lat":34.794497,"lng":134.963191,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0444","address":"兵庫県三木市別所町東這田"},
+    {"code":9964208,"id":"1198aa","name":"高木(兵庫)","name_kana":"たかぎ","closed":true,"lat":34.793569,"lng":134.970599,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0435","address":"兵庫県三木市別所町高木"},
+    {"code":9964209,"id":"e5e12c","name":"三木(三木鉄道)","name_kana":"みき","closed":true,"lat":34.794616,"lng":134.977604,"prefecture":28,"lines":[99642],"attr":"unknown","postal_code":"673-0403","address":"兵庫県三木市末広一丁目1-35"}
   ]
 }

@@ -3,14 +3,14 @@
   "name":"倉吉線",
   "closed":true,
   "station_list":[
-    {"code":1161628,"name":"倉吉"},
-    {"code":1172502,"name":"上灘"},
-    {"code":1172503,"name":"打吹"},
-    {"code":1172504,"name":"西倉吉"},
-    {"code":1172505,"name":"小鴨"},
-    {"code":1172506,"name":"上小鴨"},
-    {"code":1172507,"name":"関金"},
-    {"code":1172508,"name":"泰久寺"},
-    {"code":1172509,"name":"山守"}
+    {"code":1161628,"id":"faefc8","name":"倉吉","name_kana":"くらよし","lat":35.45473,"lng":133.849661,"prefecture":31,"lines":[11616,11725],"attr":"eco","postal_code":"682-0022","address":"倉吉市上井町"},
+    {"code":1172502,"id":"13d086","name":"上灘","name_kana":"うわなだ","closed":true,"lat":35.439611,"lng":133.841487,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0803","address":"日本鳥取県倉吉市見日町４０６"},
+    {"code":1172503,"id":"f3554c","name":"打吹","name_kana":"うつぶき","closed":true,"lat":35.434461,"lng":133.824402,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0887","address":"日本鳥取県倉吉市明治町２丁目３７"},
+    {"code":1172504,"id":"14521c","name":"西倉吉","name_kana":"にしくらよし","closed":true,"lat":35.427214,"lng":133.804767,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0851","address":"日本鳥取県倉吉市西倉吉町１００−４"},
+    {"code":1172505,"id":"ecd2da","name":"小鴨","name_kana":"おがも","closed":true,"lat":35.410146,"lng":133.799347,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0931","address":"日本鳥取県倉吉市小鴨５５３"},
+    {"code":1172506,"id":"adfa73","name":"上小鴨","name_kana":"かみおがも","closed":true,"lat":35.398166,"lng":133.786679,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0934","address":"日本鳥取県倉吉市上古川２６０"},
+    {"code":1172507,"id":"96bcab","name":"関金","name_kana":"せきがね","closed":true,"lat":35.370777,"lng":133.75555,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0402","address":"日本鳥取県倉吉市関金町大鳥居"},
+    {"code":1172508,"id":"491ba8","name":"泰久寺","name_kana":"たいきゅうじ","closed":true,"lat":35.366096,"lng":133.724149,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0404","address":"日本鳥取県倉吉市関金町泰久寺３４４−１"},
+    {"code":1172509,"id":"9dfb9c","name":"山守","name_kana":"やまもり","closed":true,"lat":35.360684,"lng":133.709263,"prefecture":31,"lines":[11725],"attr":"unknown","postal_code":"682-0422","address":"日本鳥取県倉吉市関金町堀"}
   ]
 }

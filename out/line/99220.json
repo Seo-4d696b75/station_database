@@ -3,16 +3,16 @@
   "name":"南部縦貫鉄道線",
   "closed":true,
   "station_list":[
-    {"code":1120110,"name":"野辺地"},
-    {"code":9922002,"name":"西千曳"},
-    {"code":9922003,"name":"後平"},
-    {"code":9922004,"name":"坪"},
-    {"code":9922005,"name":"坪川"},
-    {"code":9922006,"name":"道ノ上"},
-    {"code":9922007,"name":"天間林"},
-    {"code":9922008,"name":"中野(青森)"},
-    {"code":9922009,"name":"営農大学校前"},
-    {"code":9922010,"name":"盛田牧場前"},
-    {"code":9922011,"name":"七戸"}
+    {"code":1120110,"id":"83ffd8","name":"野辺地","name_kana":"のへじ","lat":40.855142,"lng":141.119603,"prefecture":2,"lines":[11203,99206,99220,11201],"attr":"cool","postal_code":"039-3131","address":"上北郡野辺地町大字野辺地"},
+    {"code":9922002,"id":"70fc8e","name":"西千曳","name_kana":"にしちびき","closed":true,"lat":40.810193,"lng":141.131398,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2685","address":"日本青森県上北郡東北町字家ノ下タ４１"},
+    {"code":9922003,"id":"63380e","name":"後平","name_kana":"うしろたい","closed":true,"lat":40.791154,"lng":141.150543,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2731","address":"日本青森県上北郡七戸町字後平１５０−１１０"},
+    {"code":9922004,"id":"ecb1c2","name":"坪","name_kana":"つぼ","closed":true,"lat":40.77735,"lng":141.14682,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2731","address":"日本青森県上北郡七戸町字後平１２６−２４"},
+    {"code":9922005,"id":"f7b136","name":"坪川","name_kana":"つぼがわ","closed":true,"lat":40.768221,"lng":141.147994,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2733","address":"日本青森県上北郡七戸町字天間舘前川原３８"},
+    {"code":9922006,"id":"e4ce5f","name":"道ノ上","name_kana":"みちのかみ","closed":true,"lat":40.751259,"lng":141.152704,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2828","address":"日本青森県上北郡七戸町字森ヶ沢１９２−７"},
+    {"code":9922007,"id":"881f4d","name":"天間林","name_kana":"てんまばやし","closed":true,"lat":40.743482,"lng":141.157135,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2827","address":"日本青森県上北郡七戸町字森ノ上１３１−９"},
+    {"code":9922008,"id":"2156da","name":"中野(青森)","name_kana":"なかの","closed":true,"lat":40.735203,"lng":141.163632,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2814","address":"日本青森県上北郡七戸町字道ノ下"},
+    {"code":9922009,"id":"137152","name":"営農大学校前","name_kana":"えいのうだいがっこうまえ","closed":true,"lat":40.721156,"lng":141.159019,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2501","address":"日本青森県上北郡七戸町字荒熊内６７−５５２"},
+    {"code":9922010,"id":"ff4bc5","name":"盛田牧場前","name_kana":"もりたぼくじょうまえ","closed":true,"lat":40.71309,"lng":141.168565,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2504","address":"日本青森県上北郡七戸町字寒水６８−１"},
+    {"code":9922011,"id":"bc9d10","name":"七戸","name_kana":"しちのへ","closed":true,"lat":40.696639,"lng":141.165168,"prefecture":2,"lines":[99220],"attr":"unknown","postal_code":"039-2512","address":"日本青森県上北郡七戸町字笊田４８−１"}
   ]
 }

@@ -2,11 +2,11 @@
   "code":99650,
   "name":"紀州鉄道",
   "station_list":[
-    {"code":1163938,"name":"御坊"},
-    {"code":9965002,"name":"学門"},
-    {"code":9965003,"name":"紀伊御坊"},
-    {"code":9965004,"name":"市役所前(和歌山)"},
-    {"code":9965005,"name":"西御坊"}
+    {"code":1163938,"id":"4cb64a","name":"御坊","name_kana":"ごぼう","lat":33.907842,"lng":135.158773,"prefecture":30,"lines":[11639,99650],"attr":"heat","postal_code":"644-0012","address":"御坊市湯川町小松原"},
+    {"code":9965002,"id":"6c3790","name":"学門","name_kana":"がくもん","lat":33.89627,"lng":135.156604,"prefecture":30,"lines":[99650],"attr":"cool","postal_code":"644-0011","address":"御坊市湯川町財部７５０-２"},
+    {"code":9965003,"id":"e1c35a","name":"紀伊御坊","name_kana":"きいごぼう","lat":33.894292,"lng":135.154655,"prefecture":30,"lines":[99650],"attr":"cool","postal_code":"644-0002","address":"御坊市薗２７５"},
+    {"code":9965004,"id":"75aff9","name":"市役所前(和歌山)","name_kana":"しやくしょまえ","lat":33.889565,"lng":135.152905,"prefecture":30,"lines":[99650],"attr":"cool","postal_code":"644-0002","address":"御坊市薗３５１-２"},
+    {"code":9965005,"id":"e531f9","name":"西御坊","name_kana":"にしごぼう","lat":33.886796,"lng":135.152991,"prefecture":30,"lines":[99650],"attr":"cool","postal_code":"644-0002","address":"御坊市薗５６３"}
   ],
   "north":33.90791,
   "south":33.88607,

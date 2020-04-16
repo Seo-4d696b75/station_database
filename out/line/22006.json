@@ -4,9 +4,9 @@
   "color":"#FF3333",
   "symbol":"SY",
   "station_list":[
-    {"code":2200601,"name":"西武遊園地","numbering":[{"index":"01"}]},
-    {"code":2200602,"name":"遊園地西","numbering":[{"index":"02"}]},
-    {"code":2200503,"name":"西武球場前","numbering":[{"index":"03"}]}
+    {"code":2200601,"id":"1666ba","name":"西武遊園地","name_kana":"せいぶゆうえんち","lat":35.765881,"lng":139.442747,"prefecture":13,"numbering":[{"index":"01"}],"lines":[22006,22011],"attr":"cool","postal_code":"189-0026","address":"東村山市多摩湖町３-１５-１８"},
+    {"code":2200602,"id":"fc7f46","name":"遊園地西","name_kana":"ゆうえんちにし","lat":35.769042,"lng":139.440166,"prefecture":11,"numbering":[{"index":"02"}],"lines":[22006],"attr":"cool","postal_code":"359-1145","address":"所沢市山口２９３９"},
+    {"code":2200503,"id":"9da248","name":"西武球場前","name_kana":"せいぶきゅうじょうまえ","lat":35.77093,"lng":139.41966,"prefecture":11,"numbering":[{"index":"03"}],"lines":[22005,22006],"attr":"eco","postal_code":"359-1153","address":"所沢市上山口２０９０-３"}
   ],
   "north":35.77169,
   "south":35.76511,

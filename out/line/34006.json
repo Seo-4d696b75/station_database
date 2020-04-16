@@ -4,10 +4,10 @@
   "color":"#0000FF",
   "symbol":"HK",
   "station_list":[
-    {"code":3400106,"name":"塚口(阪急電鉄)","numbering":[{"index":"06"}]},
-    {"code":3400602,"name":"稲野","numbering":[{"index":"18"}]},
-    {"code":3400603,"name":"新伊丹","numbering":[{"index":"19"}]},
-    {"code":3400604,"name":"伊丹(阪急電鉄)","numbering":[{"index":"20"}]}
+    {"code":3400106,"id":"b09c72","name":"塚口(阪急電鉄)","name_kana":"つかぐち","lat":34.752826,"lng":135.41585,"prefecture":28,"numbering":[{"index":"06"}],"lines":[34001,34006],"attr":"eco","postal_code":"661-0001","address":"兵庫県尼崎市塚口本町一丁目"},
+    {"code":3400602,"id":"5c2bf2","name":"稲野","name_kana":"いなの","lat":34.764817,"lng":135.415532,"prefecture":28,"numbering":[{"index":"18"}],"lines":[34006],"attr":"eco","postal_code":"664-0861","address":"伊丹市稲野町１-５０-１"},
+    {"code":3400603,"id":"a6e5fc","name":"新伊丹","name_kana":"しんいたみ","lat":34.772574,"lng":135.415479,"prefecture":28,"numbering":[{"index":"19"}],"lines":[34006],"attr":"cool","postal_code":"664-0856","address":"伊丹市梅ノ木２-４-１"},
+    {"code":3400604,"id":"e4d595","name":"伊丹(阪急電鉄)","name_kana":"いたみ","lat":34.779875,"lng":135.413618,"prefecture":28,"numbering":[{"index":"20"}],"lines":[34006],"attr":"cool","postal_code":"664-0858","address":"兵庫県伊丹市西台一丁目"}
   ],
   "north":34.7803,
   "south":34.7529,

@@ -2,9 +2,9 @@
   "code":99319,
   "name":"関東鉄道竜ヶ崎線",
   "station_list":[
-    {"code":9931901,"name":"佐貫"},
-    {"code":9931902,"name":"入地"},
-    {"code":9931903,"name":"竜ヶ崎"}
+    {"code":9931901,"id":"1c62ca","name":"佐貫","name_kana":"さぬき","lat":35.929782,"lng":140.13847,"prefecture":8,"lines":[99319],"attr":"eco","postal_code":"301-0033","address":"龍ケ崎市佐貫町"},
+    {"code":9931902,"id":"bbeefe","name":"入地","name_kana":"いれじ","lat":35.91899,"lng":140.157266,"prefecture":8,"lines":[99319],"attr":"eco","postal_code":"301-0046","address":"龍ケ崎市入地町３５１"},
+    {"code":9931903,"id":"73cbf0","name":"竜ヶ崎","name_kana":"りゅうがさき","lat":35.908586,"lng":140.178937,"prefecture":8,"lines":[99319],"attr":"eco","postal_code":"301-0018","address":"茨城県龍ケ崎市米町3903"}
   ],
   "north":35.92975,
   "south":35.90843,

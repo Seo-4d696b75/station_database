@@ -3,8 +3,8 @@
   "name":"北神急行電鉄",
   "symbol":"S",
   "station_list":[
-    {"code":9963210,"name":"谷上","numbering":[{"color":"#9A6E5F","index":"01"}]},
-    {"code":100302,"name":"新神戸","numbering":[{"color":"#01AF98","index":"02"}]}
+    {"code":9963210,"id":"3c861b","name":"谷上","name_kana":"たにがみ","lat":34.761691,"lng":135.17142,"prefecture":28,"numbering":[{"color":"#9A6E5F","index":"01"}],"lines":[99632,99636],"attr":"eco","postal_code":"651-1102","address":"神戸市北区山田町下谷上字明田８-１"},
+    {"code":100302,"id":"27f8fc","name":"新神戸","name_kana":"しんこうべ","lat":34.706417,"lng":135.195758,"prefecture":28,"numbering":[{"color":"#01AF98","index":"02"}],"lines":[99636,99646,1003],"attr":"heat","postal_code":"650-0001","address":"神戸市中央区加納町１丁目"}
   ],
   "north":34.7618,
   "south":34.70439,

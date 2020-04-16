@@ -4,10 +4,10 @@
   "color":"#EEC900",
   "symbol":"H",
   "station_list":[
-    {"code":3100207,"name":"平端","numbering":[{"index":"32"}]},
-    {"code":3101102,"name":"二階堂","numbering":[{"index":"33"}]},
-    {"code":3101103,"name":"前栽","numbering":[{"index":"34"}]},
-    {"code":1163705,"name":"天理","numbering":[{"index":"35"}]}
+    {"code":3100207,"id":"0c9863","name":"平端","name_kana":"ひらはた","lat":34.606712,"lng":135.782804,"prefecture":29,"numbering":[{"index":"32"}],"lines":[31002,31011],"attr":"cool","postal_code":"639-1033","address":"大和郡山市昭和町５１"},
+    {"code":3101102,"id":"edd025","name":"二階堂","name_kana":"にかいどう","lat":34.602121,"lng":135.79553,"prefecture":29,"numbering":[{"index":"33"}],"lines":[31011],"attr":"eco","postal_code":"632-0081","address":"天理市二階堂上ノ庄町１４７-２"},
+    {"code":3101103,"id":"0b218d","name":"前栽","name_kana":"せんざい","lat":34.600996,"lng":135.816536,"prefecture":29,"numbering":[{"index":"34"}],"lines":[31011],"attr":"eco","postal_code":"632-0078","address":"天理市杉本町２９０-６"},
+    {"code":1163705,"id":"063976","name":"天理","name_kana":"てんり","lat":34.60113,"lng":135.830283,"prefecture":29,"numbering":[{"index":"35"}],"lines":[11637,31011],"attr":"eco","postal_code":"632-0016","address":"天理市川原城町"}
   ],
   "north":34.60741,
   "south":34.60072,

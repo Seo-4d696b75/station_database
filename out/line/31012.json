@@ -4,9 +4,9 @@
   "color":"#006400",
   "symbol":"N",
   "station_list":[
-    {"code":3100315,"name":"道明寺","numbering":[{"index":"15"}]},
-    {"code":3101202,"name":"柏原南口","numbering":[{"index":"16"}]},
-    {"code":1160712,"name":"柏原(大阪)","numbering":[{"index":"17"}]}
+    {"code":3100315,"id":"1335e5","name":"道明寺","name_kana":"どうみょうじ","lat":34.56834,"lng":135.620399,"prefecture":27,"numbering":[{"index":"15"}],"lines":[31003,31012],"attr":"heat","postal_code":"583-0012","address":"藤井寺市道明寺３-２９-１"},
+    {"code":3101202,"id":"1c15c7","name":"柏原南口","name_kana":"かしわらみなみぐち","lat":34.58153,"lng":135.624956,"prefecture":27,"numbering":[{"index":"16"}],"lines":[31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市２-３"},
+    {"code":1160712,"id":"dd5547","name":"柏原(大阪)","name_kana":"かしわら","lat":34.586681,"lng":135.62341,"prefecture":27,"numbering":[{"index":"17"}],"lines":[11607,31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市１"}
   ],
   "north":34.58728,
   "south":34.56766,

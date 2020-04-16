@@ -2,8 +2,8 @@
   "code":31014,
   "name":"四日市あすなろう鉄道八王子線",
   "station_list":[
-    {"code":3101303,"name":"日永"},
-    {"code":3101404,"name":"西日野"}
+    {"code":3101303,"id":"1cf5ec","name":"日永","name_kana":"ひなが","lat":34.95594,"lng":136.604409,"prefecture":24,"lines":[31013,31014,31028,31029],"attr":"eco","postal_code":"510-0885","address":"四日市市日永１-１４-６"},
+    {"code":3101404,"id":"85febb","name":"西日野","name_kana":"にしひの","lat":34.952896,"lng":136.591163,"prefecture":24,"lines":[31014,31029],"attr":"heat","postal_code":"510-0943","address":"四日市市西日野町字東浦３０"}
   ],
   "north":34.95623,
   "south":34.95283,

@@ -4,14 +4,14 @@
   "color":"#FFCC33",
   "symbol":"ST",
   "station_list":[
-    {"code":1131106,"name":"国分寺","numbering":[{"color":"#FFD900","index":"01"}]},
-    {"code":2201109,"name":"東国分寺"},
-    {"code":2201102,"name":"一橋学園","numbering":[{"index":"02"}]},
-    {"code":2201103,"name":"青梅街道","numbering":[{"index":"03"}]},
-    {"code":2200802,"name":"萩山","numbering":[{"index":"04"}]},
-    {"code":2201106,"name":"八坂(東京)","numbering":[{"index":"05"}]},
-    {"code":2201107,"name":"武蔵大和","numbering":[{"index":"06"}]},
-    {"code":2200601,"name":"西武遊園地","numbering":[{"index":"07"}]}
+    {"code":1131106,"id":"936e1a","name":"国分寺","name_kana":"こくぶんじ","lat":35.700123,"lng":139.480841,"prefecture":13,"numbering":[{"color":"#FFD900","index":"01"}],"lines":[11311,11312,11328,22010,22011],"attr":"cool","postal_code":"185-0012","address":"東京都国分寺市本町二丁目1-23"},
+    {"code":2201109,"id":"8f0122","name":"東国分寺","name_kana":"ひがしこくぶんじ","closed":true,"lat":35.707616,"lng":139.478056,"prefecture":13,"lines":[22011],"attr":"unknown","postal_code":"185-0011","address":"東京都国分寺市本多２丁目７−２３"},
+    {"code":2201102,"id":"238847","name":"一橋学園","name_kana":"ひとつばしがくえん","lat":35.72217,"lng":139.480039,"prefecture":13,"numbering":[{"index":"02"}],"lines":[22011],"attr":"cool","postal_code":"187-0045","address":"小平市学園西町２-１-１"},
+    {"code":2201103,"id":"374254","name":"青梅街道","name_kana":"おうめかいどう","lat":35.73098,"lng":139.476628,"prefecture":13,"numbering":[{"index":"03"}],"lines":[22011],"attr":"cool","postal_code":"187-0032","address":"小平市小川町２-１８４６"},
+    {"code":2200802,"id":"d798be","name":"萩山","name_kana":"はぎやま","lat":35.740759,"lng":139.476903,"prefecture":13,"numbering":[{"index":"04"}],"lines":[22008,22011],"attr":"cool","postal_code":"189-0012","address":"東村山市萩山町２-１-１"},
+    {"code":2201106,"id":"a481fb","name":"八坂(東京)","name_kana":"やさか","lat":35.744925,"lng":139.467676,"prefecture":13,"numbering":[{"index":"05"}],"lines":[22011],"attr":"cool","postal_code":"189-0013","address":"東村山市栄町３-１８-１"},
+    {"code":2201107,"id":"0a6039","name":"武蔵大和","name_kana":"むさしやまと","lat":35.756427,"lng":139.444008,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22011],"attr":"cool","postal_code":"189-0025","address":"東村山市廻田町３-９-１９"},
+    {"code":2200601,"id":"1666ba","name":"西武遊園地","name_kana":"せいぶゆうえんち","lat":35.765881,"lng":139.442747,"prefecture":13,"numbering":[{"index":"07"}],"lines":[22006,22011],"attr":"cool","postal_code":"189-0026","address":"東村山市多摩湖町３-１５-１８"}
   ],
   "north":35.76646,
   "south":35.70085,

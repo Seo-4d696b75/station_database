@@ -3,12 +3,12 @@
   "name":"勝田線",
   "closed":true,
   "station_list":[
-    {"code":1190230,"name":"吉塚"},
-    {"code":1193102,"name":"御手洗"},
-    {"code":1193103,"name":"上亀山"},
-    {"code":1193104,"name":"志免"},
-    {"code":1193105,"name":"下宇美"},
-    {"code":1191711,"name":"宇美"},
-    {"code":1193107,"name":"筑前勝田"}
+    {"code":1190230,"id":"2becef","name":"吉塚","name_kana":"よしづか","lat":33.607142,"lng":130.423674,"prefecture":40,"lines":[11902,11908,11931],"attr":"heat","postal_code":"812-0046","address":"福岡市博多区吉塚本町"},
+    {"code":1193102,"id":"2c592d","name":"御手洗","name_kana":"みたらい","closed":true,"lat":33.606696,"lng":130.451582,"prefecture":40,"lines":[11931],"attr":"unknown","postal_code":"811-2233","address":"日本福岡県糟屋郡志免町別府北２丁目９-１１志免鉄道公園 (旧御手洗駅)"},
+    {"code":1193103,"id":"ec14f1","name":"上亀山","name_kana":"かみかめやま","closed":true,"lat":33.602196,"lng":130.459642,"prefecture":40,"lines":[11931],"attr":"unknown","postal_code":"811-2205","address":"日本福岡県糟屋郡志免町別府１丁目２１-１７"},
+    {"code":1193104,"id":"53ba29","name":"志免","name_kana":"しめ","closed":true,"lat":33.590614,"lng":130.483917,"prefecture":40,"lines":[11931],"attr":"unknown","postal_code":"811-2244","address":"日本福岡県糟屋郡志免町志免中央２丁目７"},
+    {"code":1193105,"id":"e81c05","name":"下宇美","name_kana":"しもうみ","closed":true,"lat":33.572974,"lng":130.506139,"prefecture":40,"lines":[11931],"attr":"unknown","postal_code":"811-2122","address":"日本福岡県糟屋郡宇美町明神坂２丁目８"},
+    {"code":1191711,"id":"d9ebe0","name":"宇美","name_kana":"うみ","lat":33.569251,"lng":130.513426,"prefecture":40,"lines":[11917,11931],"attr":"heat","postal_code":"811-2101","address":"糟屋郡宇美町大字宇美"},
+    {"code":1193107,"id":"820dec","name":"筑前勝田","name_kana":"ちくぜんかつた","closed":true,"lat":33.555198,"lng":130.528475,"prefecture":40,"lines":[11931],"attr":"unknown","postal_code":"811-2132","address":"日本福岡県糟屋郡宇美町原田４丁目１９"}
   ]
 }

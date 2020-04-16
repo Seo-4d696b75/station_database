@@ -2,14 +2,14 @@
   "code":99326,
   "name":"湘南モノレール",
   "station_list":[
-    {"code":1130107,"name":"大船"},
-    {"code":9932602,"name":"富士見町(神奈川)"},
-    {"code":9932603,"name":"湘南町屋"},
-    {"code":9932604,"name":"湘南深沢"},
-    {"code":9932605,"name":"西鎌倉"},
-    {"code":9932606,"name":"片瀬山"},
-    {"code":9932607,"name":"目白山下"},
-    {"code":9932608,"name":"湘南江の島"}
+    {"code":1130107,"id":"92c81d","name":"大船","name_kana":"おおふな","lat":35.353466,"lng":139.531127,"prefecture":14,"lines":[11301,11307,11308,11328,11333,99326],"attr":"cool","postal_code":"247-0056","address":"鎌倉市大船１丁目"},
+    {"code":9932602,"id":"ce627c","name":"富士見町(神奈川)","name_kana":"ふじみちょう","lat":35.345389,"lng":139.529277,"prefecture":14,"lines":[99326],"attr":"heat","postal_code":"247-0061","address":"鎌倉市台２-１９-７"},
+    {"code":9932603,"id":"d209ac","name":"湘南町屋","name_kana":"しょうなんまちや","lat":35.337832,"lng":139.522666,"prefecture":14,"lines":[99326],"attr":"heat","postal_code":"247-0065","address":"鎌倉市上町屋７２２"},
+    {"code":9932604,"id":"a4af08","name":"湘南深沢","name_kana":"しょうなんふかさわ","lat":35.332865,"lng":139.518903,"prefecture":14,"lines":[99326],"attr":"heat","postal_code":"247-0063","address":"鎌倉市梶原６５８"},
+    {"code":9932605,"id":"4bd1df","name":"西鎌倉","name_kana":"にしかまくら","lat":35.319383,"lng":139.504365,"prefecture":14,"lines":[99326],"attr":"cool","postal_code":"248-0035","address":"鎌倉市西鎌倉１-２０-３５"},
+    {"code":9932606,"id":"45ef75","name":"片瀬山","name_kana":"かたせやま","lat":35.317256,"lng":139.496052,"prefecture":14,"lines":[99326],"attr":"cool","postal_code":"248-0035","address":"鎌倉市西鎌倉４-８９４-６"},
+    {"code":9932607,"id":"307784","name":"目白山下","name_kana":"めじろやました","lat":35.31402,"lng":139.491533,"prefecture":14,"lines":[99326],"attr":"eco","postal_code":"251-0032","address":"藤沢市片瀬３-２７７６"},
+    {"code":9932608,"id":"e55d58","name":"湘南江の島","name_kana":"しょうなんえのしま","lat":35.311867,"lng":139.487794,"prefecture":14,"lines":[99326],"attr":"eco","postal_code":"251-0032","address":"藤沢市片瀬３-１５-１"}
   ],
   "north":35.3531,
   "south":35.31173,

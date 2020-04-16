@@ -3,9 +3,9 @@
   "name":"西鉄太宰府線",
   "symbol":"D",
   "station_list":[
-    {"code":3600112,"name":"西鉄二日市","numbering":[{"symbol":"T","index":"13"}]},
-    {"code":3600202,"name":"西鉄五条","numbering":[{"index":"01"}]},
-    {"code":3600203,"name":"太宰府","numbering":[{"index":"02"}]}
+    {"code":3600112,"id":"270f60","name":"西鉄二日市","name_kana":"にしてつふつかいち","lat":33.502192,"lng":130.517871,"prefecture":40,"numbering":[{"symbol":"T","index":"13"}],"lines":[36001,36002],"attr":"cool","postal_code":"818-0072","address":"福岡県筑紫野市二日市中央六丁目"},
+    {"code":3600202,"id":"5fbe8c","name":"西鉄五条","name_kana":"にしてつごじょう","lat":33.51111,"lng":130.526106,"prefecture":40,"numbering":[{"index":"01"}],"lines":[36002],"attr":"cool","postal_code":"818-0125","address":"太宰府市五条２-７-１"},
+    {"code":3600203,"id":"4c67c3","name":"太宰府","name_kana":"だざいふ","lat":33.51904,"lng":130.531406,"prefecture":40,"numbering":[{"index":"02"}],"lines":[36002],"attr":"cool","postal_code":"818-0117","address":"太宰府市宰府２-５-１"}
   ],
   "north":33.51885,
   "south":33.5016,

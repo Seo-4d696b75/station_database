@@ -4,13 +4,13 @@
   "color":"#FA2B08",
   "symbol":"SY",
   "station_list":[
-    {"code":9963740,"name":"飾磨","numbering":[{"index":"40"}]},
-    {"code":9963802,"name":"西飾磨","numbering":[{"index":"51"}]},
-    {"code":9963803,"name":"夢前川","numbering":[{"index":"52"}]},
-    {"code":9963804,"name":"広畑","numbering":[{"index":"53"}]},
-    {"code":9963805,"name":"山陽天満","numbering":[{"index":"54"}]},
-    {"code":9963806,"name":"平松","numbering":[{"index":"55"}]},
-    {"code":9963807,"name":"山陽網干","numbering":[{"index":"56"}]}
+    {"code":9963740,"id":"3df978","name":"飾磨","name_kana":"しかま","lat":34.799748,"lng":134.675401,"prefecture":28,"numbering":[{"index":"40"}],"lines":[99637,99638],"attr":"cool","postal_code":"672-8051","address":"兵庫県姫路市飾磨区清水"},
+    {"code":9963802,"id":"580272","name":"西飾磨","name_kana":"にししかま","lat":34.803045,"lng":134.651176,"prefecture":28,"numbering":[{"index":"51"}],"lines":[99638],"attr":"heat","postal_code":"672-8079","address":"姫路市飾磨区今在家４"},
+    {"code":9963803,"id":"a911a1","name":"夢前川","name_kana":"ゆめさきがわ","lat":34.798695,"lng":134.639457,"prefecture":28,"numbering":[{"index":"52"}],"lines":[99638],"attr":"heat","postal_code":"671-1121","address":"姫路市広畑区東新町３"},
+    {"code":9963804,"id":"2a3104","name":"広畑","name_kana":"ひろはた","lat":34.797736,"lng":134.62815,"prefecture":28,"numbering":[{"index":"53"}],"lines":[99638],"attr":"heat","postal_code":"671-1153","address":"姫路市広畑区高浜町１"},
+    {"code":9963805,"id":"47d3d6","name":"山陽天満","name_kana":"さんようてんま","lat":34.796378,"lng":134.61741,"prefecture":28,"numbering":[{"index":"54"}],"lines":[99638],"attr":"eco","postal_code":"671-1131","address":"姫路市大津区天神町１"},
+    {"code":9963806,"id":"479fe6","name":"平松","name_kana":"ひらまつ","lat":34.790751,"lng":134.601001,"prefecture":28,"numbering":[{"index":"55"}],"lines":[99638],"attr":"eco","postal_code":"671-1145","address":"姫路市大津区平松外開"},
+    {"code":9963807,"id":"183a85","name":"山陽網干","name_kana":"さんようあぼし","lat":34.787002,"lng":134.587953,"prefecture":28,"numbering":[{"index":"56"}],"lines":[99638],"attr":"cool","postal_code":"671-1253","address":"姫路市網干区垣内中町１２-５"}
   ],
   "north":34.80477,
   "south":34.78674,

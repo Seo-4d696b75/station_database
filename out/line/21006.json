@@ -4,8 +4,8 @@
   "color":"#0F6CC3",
   "symbol":"TS",
   "station_list":[
-    {"code":2100213,"name":"西新井","numbering":[{"index":"13"}]},
-    {"code":2100602,"name":"大師前","numbering":[{"index":"51"}]}
+    {"code":2100213,"id":"e4b840","name":"西新井","name_kana":"にしあらい","lat":35.777323,"lng":139.790372,"prefecture":13,"numbering":[{"index":"13"}],"lines":[21002,21006],"attr":"eco","postal_code":"123-0843","address":"足立区西新井栄町２丁目"},
+    {"code":2100602,"id":"3ed08f","name":"大師前","name_kana":"だいしまえ","lat":35.778989,"lng":139.781647,"prefecture":13,"numbering":[{"index":"51"}],"lines":[21006],"attr":"heat","postal_code":"123-0841","address":"足立区西新井１-３-１"}
   ],
   "north":35.7795,
   "south":35.7767,

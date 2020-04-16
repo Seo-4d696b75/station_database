@@ -4,13 +4,13 @@
   "color":"#977AD4",
   "symbol":"E",
   "station_list":[
-    {"code":1141102,"name":"金山(愛知)","numbering":[{"index":"01"}]},
-    {"code":9951502,"name":"日比野(名古屋市交通局)","numbering":[{"index":"02"}]},
-    {"code":9951503,"name":"六番町","numbering":[{"index":"03"}]},
-    {"code":9951504,"name":"東海通","numbering":[{"index":"04"}]},
-    {"code":9951505,"name":"港区役所","numbering":[{"index":"05"}]},
-    {"code":9951506,"name":"築地口","numbering":[{"index":"06"}]},
-    {"code":9951507,"name":"名古屋港","numbering":[{"index":"07"}]}
+    {"code":1141102,"id":"27a817","name":"金山(愛知)","name_kana":"かなやま","lat":35.142928,"lng":136.900517,"prefecture":23,"numbering":[{"index":"01"}],"lines":[11411,11502,30001,30008,99514,99515],"attr":"heat","postal_code":"460-0022","address":"名古屋市中区金山１丁目"},
+    {"code":9951502,"id":"eed540","name":"日比野(名古屋市交通局)","name_kana":"ひびの","lat":35.132711,"lng":136.893125,"prefecture":23,"numbering":[{"index":"02"}],"lines":[99515],"attr":"eco","postal_code":"456-0062","address":"名古屋市熱田区大宝一丁目3-18"},
+    {"code":9951503,"id":"81f00f","name":"六番町","name_kana":"ろくばんちょう","lat":35.124623,"lng":136.888715,"prefecture":23,"numbering":[{"index":"03"}],"lines":[99515],"attr":"eco","postal_code":"456-0051","address":"名古屋市熱田区四番１-１０-１２"},
+    {"code":9951504,"id":"7b5e78","name":"東海通","name_kana":"とうかいどおり","lat":35.113388,"lng":136.887336,"prefecture":23,"numbering":[{"index":"04"}],"lines":[99515],"attr":"eco","postal_code":"455-0002","address":"名古屋市港区東海通３-１７７"},
+    {"code":9951505,"id":"13fa75","name":"港区役所","name_kana":"みなとくやくしょ","lat":35.105736,"lng":136.88455,"prefecture":23,"numbering":[{"index":"05"}],"lines":[99515],"attr":"heat","postal_code":"455-0014","address":"名古屋市港区港楽１-１４-２０"},
+    {"code":9951506,"id":"819eb5","name":"築地口","name_kana":"つきじぐち","lat":35.099348,"lng":136.883162,"prefecture":23,"numbering":[{"index":"06"}],"lines":[99515],"attr":"heat","postal_code":"455-0014","address":"名古屋市港区港楽３-４-１３"},
+    {"code":9951507,"id":"7f2cfa","name":"名古屋港","name_kana":"なごやこう","lat":35.09348,"lng":136.881971,"prefecture":23,"numbering":[{"index":"07"}],"lines":[99515],"attr":"cool","postal_code":"455-0032","address":"名古屋市港区入船１-８-２３"}
   ],
   "north":35.14419,
   "south":35.09286,

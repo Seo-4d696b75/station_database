@@ -4,12 +4,12 @@
   "color":"#007FFF",
   "symbol":"SB",
   "station_list":[
-    {"code":3200715,"name":"中百舌鳥","numbering":[{"index":"01"}]},
-    {"code":9961602,"name":"深井","numbering":[{"index":"02"}]},
-    {"code":9961603,"name":"泉ヶ丘","numbering":[{"index":"03"}]},
-    {"code":9961604,"name":"栂・美木多","numbering":[{"index":"04"}]},
-    {"code":9961605,"name":"光明池","numbering":[{"index":"05"}]},
-    {"code":9961606,"name":"和泉中央","numbering":[{"index":"06"}]}
+    {"code":3200715,"id":"23603e","name":"中百舌鳥","name_kana":"なかもず","lat":34.556232,"lng":135.504454,"prefecture":27,"numbering":[{"index":"01"}],"lines":[32007,99616],"attr":"heat","postal_code":"591-8023","address":"堺市北区中百舌鳥町２丁１９６"},
+    {"code":9961602,"id":"4d2e91","name":"深井","name_kana":"ふかい","lat":34.530398,"lng":135.497461,"prefecture":27,"numbering":[{"index":"02"}],"lines":[99616],"attr":"eco","postal_code":"599-8236","address":"堺市中区深井沢町３２９０"},
+    {"code":9961603,"id":"8e9c67","name":"泉ヶ丘","name_kana":"いずみがおか","lat":34.497099,"lng":135.511575,"prefecture":27,"numbering":[{"index":"03"}],"lines":[99616],"attr":"eco","postal_code":"590-0105","address":"堺市南区竹城台1丁"},
+    {"code":9961604,"id":"633f29","name":"栂・美木多","name_kana":"とが・みきた","lat":34.485087,"lng":135.490286,"prefecture":27,"numbering":[{"index":"04"}],"lines":[99616],"attr":"heat","postal_code":"590-0141","address":"堺市南区桃山台二丁１-１"},
+    {"code":9961605,"id":"18f200","name":"光明池","name_kana":"こうみょういけ","lat":34.474712,"lng":135.475572,"prefecture":27,"numbering":[{"index":"05"}],"lines":[99616],"attr":"cool","postal_code":"590-0143","address":"堺市南区新檜尾台二丁１-１"},
+    {"code":9961606,"id":"0c8c23","name":"和泉中央","name_kana":"いずみちゅうおう","lat":34.461211,"lng":135.456063,"prefecture":27,"numbering":[{"index":"06"}],"lines":[99616],"attr":"cool","postal_code":"594-0041","address":"和泉市いぶき野５-１-１"}
   ],
   "north":34.55692,
   "south":34.46057,

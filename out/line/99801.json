@@ -3,9 +3,9 @@
   "name":"阿佐海岸鉄道阿佐東線",
   "symbol":"AK",
   "station_list":[
-    {"code":1180430,"name":"海部","numbering":[{"index":"28"}]},
-    {"code":9980102,"name":"宍喰","numbering":[{"index":"29"}]},
-    {"code":9980103,"name":"甲浦","numbering":[{"index":"30"}]}
+    {"code":1180430,"id":"3df4d2","name":"海部","name_kana":"かいふ","lat":33.593453,"lng":134.351999,"prefecture":36,"numbering":[{"index":"28"}],"lines":[11804,99801],"attr":"cool","postal_code":"775-0302","address":"海部郡海陽町奥浦"},
+    {"code":9980102,"id":"81cc20","name":"宍喰","name_kana":"ししくい","lat":33.566949,"lng":134.300741,"prefecture":36,"numbering":[{"index":"29"}],"lines":[99801],"attr":"cool","postal_code":"775-0502","address":"海部郡海陽町久保字松本"},
+    {"code":9980103,"id":"7b9986","name":"甲浦","name_kana":"かんのうら","lat":33.547238,"lng":134.288242,"prefecture":39,"numbering":[{"index":"30"}],"lines":[99801],"attr":"cool","postal_code":"781-7412","address":"安芸郡東洋町大字河内字八幡山"}
   ],
   "north":33.59376,
   "south":33.54695,

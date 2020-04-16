@@ -4,10 +4,10 @@
   "color":"#0A318E",
   "symbol":"P",
   "station_list":[
-    {"code":1162307,"name":"西九条","numbering":[{"index":"14"}]},
-    {"code":1162402,"name":"安治川口","numbering":[{"index":"15"}]},
-    {"code":1162403,"name":"ユニバーサルシティ","numbering":[{"index":"16"}]},
-    {"code":1162404,"name":"桜島","numbering":[{"index":"17"}]}
+    {"code":1162307,"id":"78c266","name":"西九条","name_kana":"にしくじょう","lat":34.68269,"lng":135.466779,"prefecture":27,"numbering":[{"index":"14"}],"lines":[11623,11624,35002],"attr":"heat","postal_code":"554-0012","address":"大阪市此花区西九条１丁目"},
+    {"code":1162402,"id":"56064f","name":"安治川口","name_kana":"あじかわぐち","lat":34.673416,"lng":135.443921,"prefecture":27,"numbering":[{"index":"15"}],"lines":[11624],"attr":"heat","postal_code":"554-0024","address":"大阪市此花区島屋６丁目"},
+    {"code":1162403,"id":"d7716d","name":"ユニバーサルシティ","name_kana":"ゆにばーさるしてぃ","lat":34.667842,"lng":135.438705,"prefecture":27,"numbering":[{"index":"16"}],"lines":[11624],"attr":"eco","postal_code":"554-0024","address":"大阪市此花区島屋六丁目2-28"},
+    {"code":1162404,"id":"b35581","name":"桜島","name_kana":"さくらじま","lat":34.662065,"lng":135.432136,"prefecture":27,"numbering":[{"index":"17"}],"lines":[11624],"attr":"eco","postal_code":"554-0031","address":"大阪市此花区桜島１丁目"}
   ],
   "north":34.68342,
   "south":34.66188,

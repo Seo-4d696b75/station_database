@@ -4,9 +4,9 @@
   "color":"#0072BC",
   "symbol":"S",
   "station_list":[
-    {"code":1162626,"name":"日根野","numbering":[{"index":"45"}]},
-    {"code":1162802,"name":"りんくうタウン","numbering":[{"index":"46"}]},
-    {"code":1162803,"name":"関西空港","numbering":[{"index":"47"}]}
+    {"code":1162626,"id":"c6d191","name":"日根野","name_kana":"ひねの","lat":34.39075,"lng":135.331309,"prefecture":27,"numbering":[{"index":"45"}],"lines":[11626,11628],"attr":"cool","postal_code":"598-0021","address":"泉佐野市日根野"},
+    {"code":1162802,"id":"a00757","name":"りんくうタウン","name_kana":"りんくうたうん","lat":34.410308,"lng":135.300117,"prefecture":27,"numbering":[{"index":"46"}],"lines":[11628,32002],"attr":"heat","postal_code":"598-0048","address":"泉佐野市りんくう往来北１番"},
+    {"code":1162803,"id":"ae8df6","name":"関西空港","name_kana":"かんさいくうこう","lat":34.436,"lng":135.243419,"prefecture":27,"numbering":[{"index":"47"}],"lines":[11628,32002],"attr":"heat","postal_code":"549-0011","address":"泉南郡田尻町泉州空港中１番"}
   ],
   "north":34.4427,
   "south":34.38704,

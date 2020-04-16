@@ -4,12 +4,12 @@
   "color":"#09357F",
   "symbol":"MM",
   "station_list":[
-    {"code":1130105,"name":"横浜","numbering":[{"index":"01"}]},
-    {"code":9931002,"name":"新高島","numbering":[{"index":"02"}]},
-    {"code":9931003,"name":"みなとみらい","numbering":[{"index":"03"}]},
-    {"code":9931004,"name":"馬車道","numbering":[{"index":"04"}]},
-    {"code":9931005,"name":"日本大通り","numbering":[{"index":"05"}]},
-    {"code":9931006,"name":"元町・中華街","numbering":[{"index":"06"}]}
+    {"code":1130105,"id":"b0c711","name":"横浜","name_kana":"よこはま","lat":35.466195,"lng":139.622704,"prefecture":14,"numbering":[{"index":"01"}],"lines":[11301,11307,11308,11328,11332,11333,26001,27001,29001,99310,99316],"attr":"cool","postal_code":"220-0011","address":"横浜市西区高島２丁目"},
+    {"code":9931002,"id":"1f5eb0","name":"新高島","name_kana":"しんたかしま","lat":35.46192,"lng":139.626499,"prefecture":14,"numbering":[{"index":"02"}],"lines":[99310],"attr":"eco","postal_code":"220-0011","address":"横浜市西区高島１-３"},
+    {"code":9931003,"id":"5333cb","name":"みなとみらい","name_kana":"みなとみらい","lat":35.458028,"lng":139.632386,"prefecture":14,"numbering":[{"index":"03"}],"lines":[99310],"attr":"cool","postal_code":"220-0012","address":"横浜市西区みなとみらい３-５"},
+    {"code":9931004,"id":"106837","name":"馬車道","name_kana":"ばしゃみち","lat":35.450135,"lng":139.636175,"prefecture":14,"numbering":[{"index":"04"}],"lines":[99310],"attr":"cool","postal_code":"231-0005","address":"横浜市中区本町５-４９"},
+    {"code":9931005,"id":"ac80bb","name":"日本大通り","name_kana":"にほんおおどおり","lat":35.446821,"lng":139.642608,"prefecture":14,"numbering":[{"index":"05"}],"lines":[99310],"attr":"heat","postal_code":"231-0021","address":"横浜市中区日本大通９"},
+    {"code":9931006,"id":"0677e7","name":"元町・中華街","name_kana":"もとまち・ちゅうかがい","lat":35.44243,"lng":139.650446,"prefecture":14,"numbering":[{"index":"06"}],"lines":[99310],"attr":"heat","postal_code":"231-0023","address":"横浜市中区山下町６５"}
   ],
   "north":35.46687,
   "south":35.44165,

@@ -4,8 +4,8 @@
   "color":"#33CC66",
   "symbol":"SK",
   "station_list":[
-    {"code":2200721,"name":"東村山","numbering":[{"index":"05"}]},
-    {"code":2200902,"name":"西武園","numbering":[{"index":"06"}]}
+    {"code":2200721,"id":"391782","name":"東村山","name_kana":"ひがしむらやま","lat":35.76006,"lng":139.465839,"prefecture":13,"numbering":[{"index":"05"}],"lines":[22007,22009,22010],"attr":"cool","postal_code":"189-0014","address":"東村山市本町２-３-３２"},
+    {"code":2200902,"id":"6cc2de","name":"西武園","name_kana":"せいぶえん","lat":35.767684,"lng":139.448904,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22009],"attr":"heat","postal_code":"189-0026","address":"東村山市多摩湖町４-２９-１"}
   ],
   "north":35.76807,
   "south":35.75903,

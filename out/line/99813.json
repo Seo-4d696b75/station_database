@@ -3,8 +3,8 @@
   "name":"伊予鉄道森松線",
   "closed":true,
   "station_list":[
-    {"code":9981301,"name":"伊予立花"},
-    {"code":9981302,"name":"石井(愛媛)"},
-    {"code":9981303,"name":"森松"}
+    {"code":9981301,"id":"0dcea2","name":"伊予立花","name_kana":"いよたちばな","closed":true,"lat":33.82756,"lng":132.773326,"prefecture":38,"lines":[99813],"attr":"unknown","postal_code":"790-0966","address":"日本愛媛県松山市立花２丁目１-４２"},
+    {"code":9981302,"id":"931938","name":"石井(愛媛)","name_kana":"いしい","closed":true,"lat":33.80928,"lng":132.780255,"prefecture":38,"lines":[99813],"attr":"unknown","postal_code":"791-1104","address":"日本愛媛県松山市北土居５丁目１６"},
+    {"code":9981303,"id":"bb1ee1","name":"森松","name_kana":"もりまつ","closed":true,"lat":33.790419,"lng":132.788892,"prefecture":38,"lines":[99813],"attr":"unknown","postal_code":"791-1113","address":"日本愛媛県松山市森松町５２９−２"}
   ]
 }

@@ -4,13 +4,13 @@
   "color":"#00BFFF",
   "symbol":"KK",
   "station_list":[
-    {"code":2700112,"name":"京急蒲田","numbering":[{"index":"11"}]},
-    {"code":2700202,"name":"糀谷","numbering":[{"index":"12"}]},
-    {"code":2700203,"name":"大鳥居","numbering":[{"index":"13"}]},
-    {"code":2700204,"name":"穴守稲荷","numbering":[{"index":"14"}]},
-    {"code":2700205,"name":"天空橋","numbering":[{"index":"15"}]},
-    {"code":2700207,"name":"羽田空港第３ターミナル(京浜急行電鉄)","numbering":[{"index":"16"}]},
-    {"code":2700206,"name":"羽田空港第１・第２ターミナル","numbering":[{"index":"17"}]}
+    {"code":2700112,"id":"feadab","name":"京急蒲田","name_kana":"けいきゅうかまた","lat":35.560796,"lng":139.723681,"prefecture":13,"numbering":[{"index":"11"}],"lines":[27001,27002],"attr":"cool","postal_code":"144-0052","address":"大田区蒲田４-５０-１０"},
+    {"code":2700202,"id":"2c652e","name":"糀谷","name_kana":"こうじや","lat":35.5545,"lng":139.72962,"prefecture":13,"numbering":[{"index":"12"}],"lines":[27002],"attr":"eco","postal_code":"144-0034","address":"大田区西糀谷４-１３-１７"},
+    {"code":2700203,"id":"fe3a0f","name":"大鳥居","name_kana":"おおとりい","lat":35.552531,"lng":139.739356,"prefecture":13,"numbering":[{"index":"13"}],"lines":[27002],"attr":"eco","postal_code":"144-0034","address":"大田区西糀谷３-３７-１８"},
+    {"code":2700204,"id":"fc3558","name":"穴守稲荷","name_kana":"あなもりいなり","lat":35.550326,"lng":139.746669,"prefecture":13,"numbering":[{"index":"14"}],"lines":[27002],"attr":"heat","postal_code":"144-0043","address":"大田区羽田４-６-１１"},
+    {"code":2700205,"id":"846c56","name":"天空橋","name_kana":"てんくうばし","lat":35.548908,"lng":139.75423,"prefecture":13,"numbering":[{"index":"15"}],"lines":[27002,99336],"attr":"heat","postal_code":"144-0041","address":"大田区羽田空港１-１-２"},
+    {"code":2700207,"id":"7e6033","name":"羽田空港第３ターミナル(京浜急行電鉄)","name_kana":"はねだくうこうだいさんたーみなる","lat":35.544915,"lng":139.767214,"prefecture":13,"numbering":[{"index":"16"}],"lines":[27002],"attr":"cool","postal_code":"144-0041","address":"東京都大田区羽田空港二丁目6番5号"},
+    {"code":2700206,"id":"482730","name":"羽田空港第１・第２ターミナル","name_kana":"はねだくうこうだいいち・だいにたーみなる","lat":35.549809,"lng":139.785962,"prefecture":13,"numbering":[{"index":"17"}],"lines":[27002],"attr":"cool","postal_code":"144-0041","address":"大田区羽田空港３-３-４"}
   ],
   "north":35.56054,
   "south":35.54443,

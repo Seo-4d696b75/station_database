@@ -2,14 +2,14 @@
   "code":11418,
   "name":"JR氷見線",
   "station_list":[
-    {"code":1141551,"name":"高岡"},
-    {"code":1141802,"name":"越中中川"},
-    {"code":1141803,"name":"能町"},
-    {"code":1141804,"name":"伏木"},
-    {"code":1141805,"name":"越中国分"},
-    {"code":1141806,"name":"雨晴"},
-    {"code":1141807,"name":"島尾"},
-    {"code":1141808,"name":"氷見"}
+    {"code":1141551,"id":"81a1f9","name":"高岡","name_kana":"たかおか","lat":36.740948,"lng":137.015274,"prefecture":16,"lines":[11417,11418,99425],"attr":"eco","postal_code":"933-0021","address":"高岡市下関町"},
+    {"code":1141802,"id":"e62c52","name":"越中中川","name_kana":"えっちゅうなかがわ","lat":36.749764,"lng":137.027851,"prefecture":16,"lines":[11418],"attr":"eco","postal_code":"933-0056","address":"高岡市中川"},
+    {"code":1141803,"id":"5ae81b","name":"能町","name_kana":"のうまち","lat":36.768259,"lng":137.039885,"prefecture":16,"lines":[11418],"attr":"eco","postal_code":"933-0003","address":"高岡市能町"},
+    {"code":1141804,"id":"95ab3d","name":"伏木","name_kana":"ふしき","lat":36.792306,"lng":137.05853,"prefecture":16,"lines":[11418],"attr":"eco","postal_code":"933-0112","address":"高岡市伏木古国府"},
+    {"code":1141805,"id":"566931","name":"越中国分","name_kana":"えっちゅうこくぶ","lat":36.805361,"lng":137.050729,"prefecture":16,"lines":[11418],"attr":"heat","postal_code":"933-0101","address":"高岡市伏木国分"},
+    {"code":1141806,"id":"20da04","name":"雨晴","name_kana":"あまはらし","lat":36.816484,"lng":137.037583,"prefecture":16,"lines":[11418],"attr":"heat","postal_code":"933-0136","address":"高岡市渋谷"},
+    {"code":1141807,"id":"f3cb0f","name":"島尾","name_kana":"しまお","lat":36.828423,"lng":137.01269,"prefecture":16,"lines":[11418],"attr":"cool","postal_code":"935-0032","address":"氷見市島尾"},
+    {"code":1141808,"id":"3eb815","name":"氷見","name_kana":"ひみ","lat":36.849899,"lng":136.990631,"prefecture":16,"lines":[11418],"attr":"cool","postal_code":"935-0015","address":"氷見市伊勢大町１丁目"}
   ],
   "north":36.85048,
   "south":36.74071,

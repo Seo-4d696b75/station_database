@@ -3,8 +3,8 @@
   "name":"嘉手納線",
   "closed":true,
   "station_list":[
-    {"code":9992901,"name":"嘉手納"},
-    {"code":9992902,"name":"城間"},
-    {"code":9992903,"name":"与儀"}
+    {"code":9992901,"id":"110b39","name":"嘉手納","name_kana":"かでな","closed":true,"lat":26.362752,"lng":127.755192,"prefecture":47,"lines":[99929],"attr":"unknown","postal_code":"904-0203","address":"日本沖縄県中頭郡嘉手納町字嘉手納２９０−４"},
+    {"code":9992902,"id":"a22697","name":"城間","name_kana":"ぐすくま","closed":true,"lat":26.258114,"lng":127.710279,"prefecture":47,"lines":[99929],"attr":"unknown","postal_code":"901-2133","address":"日本沖縄県浦添市城間１丁目１１-７"},
+    {"code":9992903,"id":"c95ebb","name":"与儀","name_kana":"よぎ","closed":true,"lat":26.208863,"lng":127.691919,"prefecture":47,"lines":[99929],"attr":"unknown","postal_code":"900-0022","address":"日本沖縄県那覇市樋川２丁目１６-１７"}
   ]
 }

@@ -4,11 +4,11 @@
   "color":"#40E0D0",
   "symbol":"M",
   "station_list":[
-    {"code":3100914,"name":"宇治山田","numbering":[{"index":"74"}]},
-    {"code":3101002,"name":"五十鈴川","numbering":[{"index":"75"}]},
-    {"code":3101003,"name":"朝熊","numbering":[{"index":"76"}]},
-    {"code":3101004,"name":"池の浦","numbering":[{"index":"77"}]},
-    {"code":1151211,"name":"鳥羽","numbering":[{"index":"78"}]}
+    {"code":3100914,"id":"cfb2c2","name":"宇治山田","name_kana":"うじやまだ","lat":34.488256,"lng":136.714002,"prefecture":24,"numbering":[{"index":"74"}],"lines":[31009,31010],"attr":"heat","postal_code":"516-0037","address":"伊勢市岩渕２-１-４３"},
+    {"code":3101002,"id":"eb8eaf","name":"五十鈴川","name_kana":"いすずがわ","lat":34.476433,"lng":136.727287,"prefecture":24,"numbering":[{"index":"75"}],"lines":[31010],"attr":"heat","postal_code":"516-0028","address":"伊勢市中村町字桶子３２５"},
+    {"code":3101003,"id":"f4f041","name":"朝熊","name_kana":"あさま","lat":34.477195,"lng":136.757357,"prefecture":24,"numbering":[{"index":"76"}],"lines":[31010],"attr":"eco","postal_code":"516-0021","address":"伊勢市朝熊町小坊山１４８６"},
+    {"code":3101004,"id":"cd3509","name":"池の浦","name_kana":"いけのうら","lat":34.479104,"lng":136.818533,"prefecture":24,"numbering":[{"index":"77"}],"lines":[31010],"attr":"eco","postal_code":"517-0014","address":"鳥羽市堅神町字宮の前７８３"},
+    {"code":1151211,"id":"5d4665","name":"鳥羽","name_kana":"とば","lat":34.486516,"lng":136.84279,"prefecture":24,"numbering":[{"index":"78"}],"lines":[11512,31010,31015],"attr":"cool","postal_code":"517-0011","address":"鳥羽市鳥羽１"}
   ],
   "north":34.48885,
   "south":34.47187,

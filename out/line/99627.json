@@ -3,11 +3,11 @@
   "name":"大阪モノレール彩都線",
   "color":"#111986",
   "station_list":[
-    {"code":9962607,"name":"万博記念公園(大阪)","numbering":[{"index":"17"}]},
-    {"code":9962702,"name":"公園東口","numbering":[{"index":"51"}]},
-    {"code":9962703,"name":"阪大病院前","numbering":[{"index":"52"}]},
-    {"code":9962704,"name":"豊川(大阪)","numbering":[{"index":"53"}]},
-    {"code":9962705,"name":"彩都西","numbering":[{"index":"54"}]}
+    {"code":9962607,"id":"80eacc","name":"万博記念公園(大阪)","name_kana":"ばんぱくきねんこうえん","lat":34.806692,"lng":135.530228,"prefecture":27,"numbering":[{"index":"17"}],"lines":[99626,99627],"attr":"cool","postal_code":"565-0826","address":"吹田市千里万博公園内"},
+    {"code":9962702,"id":"b3228e","name":"公園東口","name_kana":"こうえんひがしぐち","lat":34.810427,"lng":135.539235,"prefecture":27,"numbering":[{"index":"51"}],"lines":[99627],"attr":"cool","postal_code":"565-0826","address":"吹田市千里万博公園７８-４"},
+    {"code":9962703,"id":"640899","name":"阪大病院前","name_kana":"はんだいびょういんまえ","lat":34.818474,"lng":135.530005,"prefecture":27,"numbering":[{"index":"52"}],"lines":[99627],"attr":"cool","postal_code":"567-0047","address":"茨木市美穂ケ丘４５９５-１"},
+    {"code":9962704,"id":"e620a7","name":"豊川(大阪)","name_kana":"とよかわ","lat":34.834611,"lng":135.526778,"prefecture":27,"numbering":[{"index":"53"}],"lines":[99627],"attr":"heat","postal_code":"567-0057","address":"茨木市豊川４丁目"},
+    {"code":9962705,"id":"c9779f","name":"彩都西","name_kana":"さいとにし","lat":34.855492,"lng":135.522931,"prefecture":27,"numbering":[{"index":"54"}],"lines":[99627],"attr":"heat","postal_code":"567-0085","address":"茨木市彩都あさぎ１丁目"}
   ],
   "north":34.85538,
   "south":34.80677,

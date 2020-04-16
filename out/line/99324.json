@@ -4,8 +4,8 @@
   "color":"#00A650",
   "symbol":"SR",
   "station_list":[
-    {"code":2300141,"name":"東成田","numbering":[{"symbol":"KS","index":"44"}]},
-    {"code":9932402,"name":"芝山千代田","numbering":[{"index":"01"}]}
+    {"code":2300141,"id":"579aa2","name":"東成田","name_kana":"ひがしなりた","lat":35.770091,"lng":140.387225,"prefecture":12,"numbering":[{"symbol":"KS","index":"44"}],"lines":[23001,99324],"attr":"cool","postal_code":"286-0104","address":"成田市古込字込前１２４"},
+    {"code":9932402,"id":"d6f4cb","name":"芝山千代田","name_kana":"しばやまちよだ","lat":35.754248,"lng":140.399215,"prefecture":12,"numbering":[{"index":"01"}],"lines":[99324],"attr":"eco","postal_code":"289-1601","address":"山武郡芝山町香山新田橋松１４８-１"}
   ],
   "north":35.77035,
   "south":35.75375,

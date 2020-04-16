@@ -4,10 +4,10 @@
   "color":"#006400",
   "symbol":"P",
   "station_list":[
-    {"code":3100323,"name":"尺土","numbering":[{"index":"23"}]},
-    {"code":3101802,"name":"近鉄新庄","numbering":[{"index":"24"}]},
-    {"code":3101803,"name":"忍海","numbering":[{"index":"25"}]},
-    {"code":3101804,"name":"近鉄御所","numbering":[{"index":"26"}]}
+    {"code":3100323,"id":"380e2f","name":"尺土","name_kana":"しゃくど","lat":34.508577,"lng":135.721404,"prefecture":29,"numbering":[{"index":"23"}],"lines":[31003,31018],"attr":"heat","postal_code":"639-2162","address":"葛城市尺土２２８"},
+    {"code":3101802,"id":"10fb95","name":"近鉄新庄","name_kana":"きんてつしんじょう","lat":34.489105,"lng":135.727338,"prefecture":29,"numbering":[{"index":"24"}],"lines":[31018],"attr":"cool","postal_code":"639-2111","address":"葛城市柿本１５７-４"},
+    {"code":3101803,"id":"e2b4cf","name":"忍海","name_kana":"おしみ","lat":34.476062,"lng":135.731988,"prefecture":29,"numbering":[{"index":"25"}],"lines":[31018],"attr":"cool","postal_code":"639-2123","address":"葛城市忍海３４２-２"},
+    {"code":3101804,"id":"36d145","name":"近鉄御所","name_kana":"きんてつごせ","lat":34.46468,"lng":135.732496,"prefecture":29,"numbering":[{"index":"26"}],"lines":[31018],"attr":"cool","postal_code":"639-2200","address":"御所市１８０-１"}
   ],
   "north":34.5086,
   "south":34.46416,

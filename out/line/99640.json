@@ -3,8 +3,8 @@
   "name":"能勢電鉄日生線",
   "symbol":"NS",
   "station_list":[
-    {"code":9961510,"name":"山下(兵庫)","numbering":[{"color":"#800000","index":"10"}]},
-    {"code":9964002,"name":"日生中央","numbering":[{"color":"#800000","index":"21"}]}
+    {"code":9961510,"id":"b83898","name":"山下(兵庫)","name_kana":"やました","lat":34.892926,"lng":135.412172,"prefecture":28,"numbering":[{"color":"#800000","index":"10"}],"lines":[99615,99640],"attr":"cool","postal_code":"666-0105","address":"川西市見野１-１９-１"},
+    {"code":9964002,"id":"3615ca","name":"日生中央","name_kana":"にっせいちゅうおう","lat":34.906447,"lng":135.393216,"prefecture":28,"numbering":[{"color":"#800000","index":"21"}],"lines":[99640],"attr":"heat","postal_code":"666-0261","address":"川辺郡猪名川町松尾台１-２-２"}
   ],
   "north":34.90677,
   "south":34.89268,

@@ -2,11 +2,11 @@
   "code":11912,
   "name":"JR筑豊本線(原田線)(桂川～原田)",
   "station_list":[
-    {"code":1190801,"name":"桂川(福岡)"},
-    {"code":1191202,"name":"上穂波"},
-    {"code":1191203,"name":"筑前内野"},
-    {"code":1191204,"name":"筑前山家"},
-    {"code":1190311,"name":"原田(福岡)"}
+    {"code":1190801,"id":"8835ce","name":"桂川(福岡)","name_kana":"けいせん","lat":33.584705,"lng":130.662752,"prefecture":40,"lines":[11908,11911,11912],"attr":"heat","postal_code":"820-0608","address":"嘉穂郡桂川町大字豆田"},
+    {"code":1191202,"id":"d8b4c7","name":"上穂波","name_kana":"かみほなみ","lat":33.566909,"lng":130.645151,"prefecture":40,"lines":[11912],"attr":"heat","postal_code":"820-0704","address":"飯塚市阿恵"},
+    {"code":1191203,"id":"c882bf","name":"筑前内野","name_kana":"ちくぜんうちの","lat":33.539967,"lng":130.63793,"prefecture":40,"lines":[11912],"attr":"heat","postal_code":"820-0706","address":"飯塚市内野"},
+    {"code":1191204,"id":"9f3489","name":"筑前山家","name_kana":"ちくぜんやまえ","lat":33.477472,"lng":130.574185,"prefecture":40,"lines":[11912],"attr":"heat","postal_code":"818-0003","address":"筑紫野市大字山家"},
+    {"code":1190311,"id":"4362df","name":"原田(福岡)","name_kana":"はるだ","lat":33.451769,"lng":130.539376,"prefecture":40,"lines":[11903,11912],"attr":"heat","postal_code":"818-0024","address":"筑紫野市大字原田"}
   ],
   "north":33.585,
   "south":33.45015,

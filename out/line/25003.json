@@ -4,14 +4,14 @@
   "color":"#2288CC",
   "symbol":"OT",
   "station_list":[
-    {"code":2500123,"name":"新百合ヶ丘","numbering":[{"symbol":"OH","index":"23"}]},
-    {"code":2500302,"name":"五月台","numbering":[{"index":"01"}]},
-    {"code":2500303,"name":"栗平","numbering":[{"index":"02"}]},
-    {"code":2500304,"name":"黒川(神奈川)","numbering":[{"index":"03"}]},
-    {"code":2500305,"name":"はるひ野","numbering":[{"index":"04"}]},
-    {"code":2500306,"name":"小田急永山","numbering":[{"index":"05"}]},
-    {"code":2500307,"name":"小田急多摩センター","numbering":[{"index":"06"}]},
-    {"code":2500308,"name":"唐木田","numbering":[{"index":"07"}]}
+    {"code":2500123,"id":"d914d1","name":"新百合ヶ丘","name_kana":"しんゆりがおか","lat":35.603705,"lng":139.507608,"prefecture":14,"numbering":[{"symbol":"OH","index":"23"}],"lines":[25001,25003],"attr":"cool","postal_code":"215-0004","address":"川崎市麻生区万福寺一丁目18番1号"},
+    {"code":2500302,"id":"795a88","name":"五月台","name_kana":"さつきだい","lat":35.600174,"lng":139.493542,"prefecture":14,"numbering":[{"index":"01"}],"lines":[25003],"attr":"cool","postal_code":"215-0025","address":"川崎市麻生区五力田３丁目"},
+    {"code":2500303,"id":"c990ed","name":"栗平","name_kana":"くりひら","lat":35.605731,"lng":139.481298,"prefecture":14,"numbering":[{"index":"02"}],"lines":[25003],"attr":"cool","postal_code":"215-0031","address":"川崎市麻生区栗平２-１-１"},
+    {"code":2500304,"id":"9d364f","name":"黒川(神奈川)","name_kana":"くろかわ","lat":35.613203,"lng":139.470731,"prefecture":14,"numbering":[{"index":"03"}],"lines":[25003],"attr":"eco","postal_code":"215-0034","address":"川崎市麻生区南黒川４丁目"},
+    {"code":2500305,"id":"08712f","name":"はるひ野","name_kana":"はるひの","lat":35.618885,"lng":139.464534,"prefecture":14,"numbering":[{"index":"04"}],"lines":[25003],"attr":"eco","postal_code":"215-0035","address":"川崎市麻生区黒川字谷ツ１０２１番１"},
+    {"code":2500306,"id":"ba5e6b","name":"小田急永山","name_kana":"おだきゅうながやま","lat":35.629972,"lng":139.447943,"prefecture":13,"numbering":[{"index":"05"}],"lines":[25003],"attr":"cool","postal_code":"206-0025","address":"多摩市永山１丁目"},
+    {"code":2500307,"id":"6c2cf8","name":"小田急多摩センター","name_kana":"おだきゅうたませんたー","lat":35.624902,"lng":139.424298,"prefecture":13,"numbering":[{"index":"06"}],"lines":[25003],"attr":"cool","postal_code":"206-0033","address":"多摩市落合１丁目"},
+    {"code":2500308,"id":"c6dbfc","name":"唐木田","name_kana":"からきだ","lat":35.616672,"lng":139.411622,"prefecture":13,"numbering":[{"index":"07"}],"lines":[25003],"attr":"cool","postal_code":"206-0033","address":"多摩市落合"}
   ],
   "north":35.63078,
   "south":35.59886,

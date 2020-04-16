@@ -4,11 +4,11 @@
   "color":"#66CC33",
   "symbol":"KH",
   "station_list":[
-    {"code":3300138,"name":"天満橋","numbering":[{"index":"03"}]},
-    {"code":3300802,"name":"なにわ橋","numbering":[{"index":"51"}]},
-    {"code":3300803,"name":"大江橋","numbering":[{"index":"52"}]},
-    {"code":3300804,"name":"渡辺橋","numbering":[{"index":"53"}]},
-    {"code":3300805,"name":"中之島","numbering":[{"index":"54"}]}
+    {"code":3300138,"id":"cf3a3e","name":"天満橋","name_kana":"てんまばし","lat":34.6902,"lng":135.516633,"prefecture":27,"numbering":[{"index":"03"}],"lines":[33001,33008,99619],"attr":"eco","postal_code":"540-0012","address":"大阪市中央区谷町１-２-５"},
+    {"code":3300802,"id":"0ac0d9","name":"なにわ橋","name_kana":"なにわばし","lat":34.692829,"lng":135.506594,"prefecture":27,"numbering":[{"index":"51"}],"lines":[33008],"attr":"eco","postal_code":"530-0005","address":"大阪市北区中之島一丁目"},
+    {"code":3300803,"id":"8bcd70","name":"大江橋","name_kana":"おおえばし","lat":34.694296,"lng":135.500412,"prefecture":27,"numbering":[{"index":"52"}],"lines":[33008],"attr":"eco","postal_code":"530-0005","address":"大阪市北区中之島二丁目"},
+    {"code":3300804,"id":"e62d42","name":"渡辺橋","name_kana":"わたなべばし","lat":34.693916,"lng":135.49542,"prefecture":27,"numbering":[{"index":"53"}],"lines":[33008],"attr":"heat","postal_code":"530-0005","address":"大阪市北区中之島三丁目"},
+    {"code":3300805,"id":"db40cd","name":"中之島","name_kana":"なかのしま","lat":34.691504,"lng":135.487373,"prefecture":27,"numbering":[{"index":"54"}],"lines":[33008],"attr":"heat","postal_code":"530-0005","address":"大阪市北区中之島五丁目"}
   ],
   "north":34.69436,
   "south":34.6904,

@@ -2,12 +2,12 @@
   "code":99918,
   "name":"熊本電鉄上熊本線",
   "station_list":[
-    {"code":1190340,"name":"上熊本(JR/熊本電気鉄道)"},
-    {"code":9991802,"name":"韓々坂"},
-    {"code":9991803,"name":"池田(熊本)"},
-    {"code":9991804,"name":"打越"},
-    {"code":9991805,"name":"坪井川公園"},
-    {"code":9991703,"name":"北熊本"}
+    {"code":1190340,"id":"a280ec","name":"上熊本(JR/熊本電気鉄道)","name_kana":"かみくまもと","lat":32.817305,"lng":130.698831,"prefecture":43,"lines":[11903,99918],"attr":"heat","postal_code":"860-0079","address":"熊本市上熊本２丁目"},
+    {"code":9991802,"id":"76bac5","name":"韓々坂","name_kana":"かんかんざか","lat":32.824201,"lng":130.701917,"prefecture":43,"lines":[99918],"attr":"heat","postal_code":"860-0079","address":"熊本市上熊本３-５５２"},
+    {"code":9991803,"id":"42c55f","name":"池田(熊本)","name_kana":"いけだ","lat":32.827082,"lng":130.70748,"prefecture":43,"lines":[99918],"attr":"heat","postal_code":"860-0082","address":"熊本市池田２-８１７"},
+    {"code":9991804,"id":"dda772","name":"打越","name_kana":"うちごし","lat":32.823765,"lng":130.713796,"prefecture":43,"lines":[99918],"attr":"eco","postal_code":"860-0086","address":"熊本市打越町"},
+    {"code":9991805,"id":"8b423c","name":"坪井川公園","name_kana":"つぼいがわこうえん","lat":32.821427,"lng":130.718773,"prefecture":43,"lines":[99918],"attr":"eco","postal_code":"860-0863","address":"熊本市坪井６-３６７"},
+    {"code":9991703,"id":"c6bb6b","name":"北熊本","name_kana":"きたくまもと","lat":32.827492,"lng":130.721981,"prefecture":43,"lines":[99917,99918],"attr":"heat","postal_code":"861-8072","address":"熊本市室園町２５５"}
   ],
   "north":32.82799,
   "south":32.81828,

@@ -4,12 +4,12 @@
   "color":"#0040FF",
   "symbol":"M",
   "station_list":[
-    {"code":1170908,"name":"茶屋町"},
-    {"code":1171002,"name":"植松"},
-    {"code":1171003,"name":"木見"},
-    {"code":1171004,"name":"上の町"},
-    {"code":1171005,"name":"児島(JR)"},
-    {"code":1171006,"name":"宇多津"}
+    {"code":1170908,"id":"690535","name":"茶屋町","name_kana":"ちゃやまち","lat":34.57694,"lng":133.825906,"prefecture":33,"lines":[11709,11710,99719],"attr":"eco","postal_code":"710-1101","address":"倉敷市茶屋町"},
+    {"code":1171002,"id":"be9fff","name":"植松","name_kana":"うえまつ","lat":34.551158,"lng":133.827979,"prefecture":33,"lines":[11710],"attr":"cool","postal_code":"710-0151","address":"岡山市灘崎町植松"},
+    {"code":1171003,"id":"4ba336","name":"木見","name_kana":"きみ","lat":34.52773,"lng":133.823785,"prefecture":33,"lines":[11710],"attr":"cool","postal_code":"710-0143","address":"倉敷市木見"},
+    {"code":1171004,"id":"070fb4","name":"上の町","name_kana":"かみのちょう","lat":34.490944,"lng":133.815233,"prefecture":33,"lines":[11710],"attr":"eco","postal_code":"711-0907","address":"倉敷市児島上の町２"},
+    {"code":1171005,"id":"c84376","name":"児島(JR)","name_kana":"こじま","lat":34.462817,"lng":133.807729,"prefecture":33,"lines":[11710],"attr":"eco","postal_code":"711-0921","address":"倉敷市児島駅前１丁目"},
+    {"code":1171006,"id":"60d264","name":"宇多津","name_kana":"うたづ","lat":34.306271,"lng":133.813686,"prefecture":37,"lines":[11710,11806],"attr":"cool","postal_code":"769-0203","address":"綾歌郡宇多津町浜三番丁"}
   ],
   "north":34.57799,
   "south":34.30552,

@@ -3,11 +3,11 @@
   "name":"JR東金線",
   "color":"#F15A22",
   "station_list":[
-    {"code":1132407,"name":"大網"},
-    {"code":1133102,"name":"福俵"},
-    {"code":1133103,"name":"東金"},
-    {"code":1133104,"name":"求名"},
-    {"code":1131420,"name":"成東"}
+    {"code":1132407,"id":"68b75a","name":"大網","name_kana":"おおあみ","lat":35.522427,"lng":140.311111,"prefecture":12,"lines":[11324,11331],"attr":"cool","postal_code":"299-3244","address":"千葉県大網白里市南玉21-7"},
+    {"code":1133102,"id":"df3adc","name":"福俵","name_kana":"ふくたわら","lat":35.54617,"lng":140.341904,"prefecture":12,"lines":[11331],"attr":"heat","postal_code":"283-0812","address":"東金市福俵"},
+    {"code":1133103,"id":"42e397","name":"東金","name_kana":"とうがね","lat":35.560172,"lng":140.363743,"prefecture":12,"lines":[11331],"attr":"cool","postal_code":"283-0802","address":"東金市東金"},
+    {"code":1133104,"id":"03068c","name":"求名","name_kana":"ぐみょう","lat":35.579947,"lng":140.39626,"prefecture":12,"lines":[11331],"attr":"cool","postal_code":"283-0002","address":"東金市求名"},
+    {"code":1131420,"id":"e0d49b","name":"成東","name_kana":"なるとう","lat":35.608513,"lng":140.410109,"prefecture":12,"lines":[11314,11331],"attr":"heat","postal_code":"289-1345","address":"山武市津辺"}
   ],
   "north":35.60856,
   "south":35.52278,

@@ -4,9 +4,9 @@
   "color":"#0065AF",
   "symbol":"NK",
   "station_list":[
-    {"code":3200114,"name":"羽衣","numbering":[{"index":"16"}]},
-    {"code":3200402,"name":"伽羅橋","numbering":[{"index":"16-1"}]},
-    {"code":3200403,"name":"高師浜","numbering":[{"index":"16-2"}]}
+    {"code":3200114,"id":"dea15d","name":"羽衣","name_kana":"はごろも","lat":34.534546,"lng":135.44178,"prefecture":27,"numbering":[{"index":"16"}],"lines":[32001,32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣１-１５-１６"},
+    {"code":3200402,"id":"336956","name":"伽羅橋","name_kana":"きゃらばし","lat":34.528869,"lng":135.436847,"prefecture":27,"numbering":[{"index":"16-1"}],"lines":[32004],"attr":"eco","postal_code":"592-0002","address":"高石市羽衣５-１５-１８"},
+    {"code":3200403,"id":"719dac","name":"高師浜","name_kana":"たかしのはま","lat":34.527391,"lng":135.431911,"prefecture":27,"numbering":[{"index":"16-2"}],"lines":[32004],"attr":"eco","postal_code":"592-0004","address":"高石市高師浜４-１-３７"}
   ],
   "north":34.5351,
   "south":34.52703,

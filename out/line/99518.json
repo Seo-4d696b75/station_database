@@ -4,8 +4,8 @@
   "color":"#E979B9",
   "symbol":"K",
   "station_list":[
-    {"code":9951403,"name":"平安通","numbering":[{"index":"02"}]},
-    {"code":3001801,"name":"上飯田","numbering":[{"index":"01"}]}
+    {"code":9951403,"id":"995adb","name":"平安通","name_kana":"へいあんどおり","lat":35.195934,"lng":136.929784,"prefecture":23,"numbering":[{"index":"02"}],"lines":[99514,99518],"attr":"eco","postal_code":"462-0816","address":"名古屋市北区平安通１-１３"},
+    {"code":3001801,"id":"03377e","name":"上飯田","name_kana":"かみいいだ","lat":35.203845,"lng":136.929642,"prefecture":23,"numbering":[{"index":"01"}],"lines":[30018,99518],"attr":"cool","postal_code":"462-0808","address":"名古屋市北区上飯田通２-４０"}
   ],
   "north":35.2045,
   "south":35.19521,

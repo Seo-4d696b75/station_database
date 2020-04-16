@@ -4,14 +4,14 @@
   "color":"#4682B4",
   "symbol":"SR",
   "station_list":[
-    {"code":2800901,"name":"赤羽岩淵","numbering":[{"index":"19"}]},
-    {"code":9930702,"name":"川口元郷","numbering":[{"index":"20"}]},
-    {"code":9930703,"name":"南鳩ヶ谷","numbering":[{"index":"21"}]},
-    {"code":9930704,"name":"鳩ヶ谷","numbering":[{"index":"22"}]},
-    {"code":9930705,"name":"新井宿","numbering":[{"index":"23"}]},
-    {"code":9930706,"name":"戸塚安行","numbering":[{"index":"24"}]},
-    {"code":1130513,"name":"東川口","numbering":[{"index":"25"}]},
-    {"code":9930708,"name":"浦和美園","numbering":[{"index":"26"}]}
+    {"code":2800901,"id":"146fbb","name":"赤羽岩淵","name_kana":"あかばねいわぶち","lat":35.783417,"lng":139.722103,"prefecture":13,"numbering":[{"index":"19"}],"lines":[28009,99307],"attr":"cool","postal_code":"115-0045","address":"北区赤羽１-５２-８"},
+    {"code":9930702,"id":"a5093f","name":"川口元郷","name_kana":"かわぐちもとごう","lat":35.800187,"lng":139.730043,"prefecture":11,"numbering":[{"index":"20"}],"lines":[99307],"attr":"cool","postal_code":"332-0011","address":"川口市元郷１-２-１５"},
+    {"code":9930703,"id":"c99a67","name":"南鳩ヶ谷","name_kana":"みなみはとがや","lat":35.816839,"lng":139.736059,"prefecture":11,"numbering":[{"index":"21"}],"lines":[99307],"attr":"cool","postal_code":"334-0013","address":"埼玉県川口市南鳩ヶ谷五丁目"},
+    {"code":9930704,"id":"64cce0","name":"鳩ヶ谷","name_kana":"はとがや","lat":35.830859,"lng":139.735967,"prefecture":11,"numbering":[{"index":"22"}],"lines":[99307],"attr":"cool","postal_code":"334-0005","address":"埼玉県川口市大字里1650-1"},
+    {"code":9930705,"id":"289735","name":"新井宿","name_kana":"あらいじゅく","lat":35.842974,"lng":139.737908,"prefecture":11,"numbering":[{"index":"23"}],"lines":[99307],"attr":"heat","postal_code":"333-0826","address":"川口市新井宿１５-３"},
+    {"code":9930706,"id":"50a8e7","name":"戸塚安行","name_kana":"とづかあんぎょう","lat":35.858873,"lng":139.753689,"prefecture":11,"numbering":[{"index":"24"}],"lines":[99307],"attr":"heat","postal_code":"333-0808","address":"川口市長蔵新田３３１-１"},
+    {"code":1130513,"id":"720266","name":"東川口","name_kana":"ひがしかわぐち","lat":35.875246,"lng":139.744087,"prefecture":11,"numbering":[{"index":"25"}],"lines":[11305,99307],"attr":"eco","postal_code":"333-0811","address":"川口市戸塚１丁目"},
+    {"code":9930708,"id":"b27bb4","name":"浦和美園","name_kana":"うらわみその","lat":35.893677,"lng":139.72779,"prefecture":11,"numbering":[{"index":"26"}],"lines":[99307],"attr":"eco","postal_code":"336-0963","address":"さいたま市緑区大門字宮下３８８８"}
   ],
   "north":35.89431,
   "south":35.7831,

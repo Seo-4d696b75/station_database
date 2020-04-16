@@ -2,12 +2,12 @@
   "code":11910,
   "name":"JR筑豊本線(若松線)(若松～折尾)",
   "station_list":[
-    {"code":1191001,"name":"若松"},
-    {"code":1191002,"name":"藤ノ木"},
-    {"code":1191003,"name":"奥洞海"},
-    {"code":1191004,"name":"二島"},
-    {"code":1191005,"name":"本城"},
-    {"code":1190214,"name":"折尾"}
+    {"code":1191001,"id":"d0d1df","name":"若松","name_kana":"わかまつ","lat":33.901179,"lng":130.806307,"prefecture":40,"lines":[11910],"attr":"heat","postal_code":"808-0035","address":"北九州市若松区白山１丁目"},
+    {"code":1191002,"id":"99a16b","name":"藤ノ木","name_kana":"ふじのき","lat":33.893426,"lng":130.781838,"prefecture":40,"lines":[11910],"attr":"heat","postal_code":"808-0073","address":"北九州市若松区赤島町"},
+    {"code":1191003,"id":"9077f3","name":"奥洞海","name_kana":"おくどうかい","lat":33.889165,"lng":130.76492,"prefecture":40,"lines":[11910],"attr":"heat","postal_code":"808-0075","address":"北九州市若松区赤岩町９-１"},
+    {"code":1191004,"id":"4019cd","name":"二島","name_kana":"ふたじま","lat":33.889687,"lng":130.748413,"prefecture":40,"lines":[11910],"attr":"cool","postal_code":"808-0103","address":"北九州市若松区大字二島"},
+    {"code":1191005,"id":"79295c","name":"本城","name_kana":"ほんじょう","lat":33.875135,"lng":130.722899,"prefecture":40,"lines":[11910],"attr":"eco","postal_code":"807-0802","address":"北九州市八幡西区力丸町２５番１４号"},
+    {"code":1190214,"id":"dddb7e","name":"折尾","name_kana":"おりお","lat":33.863629,"lng":130.713109,"prefecture":40,"lines":[11902,11910,11911],"attr":"cool","postal_code":"807-0861","address":"北九州市八幡西区堀川町"}
   ],
   "north":33.90107,
   "south":33.8632,

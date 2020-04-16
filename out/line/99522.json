@@ -2,8 +2,8 @@
   "code":99522,
   "name":"豊橋鉄道運動公園前線",
   "station_list":[
-    {"code":9952112,"name":"井原(愛知)","numbering":[{"index":"12"}]},
-    {"code":9952202,"name":"運動公園前(愛知)","numbering":[{"index":"14"}]}
+    {"code":9952112,"id":"486382","name":"井原(愛知)","name_kana":"いはら","lat":34.764232,"lng":137.421885,"prefecture":23,"numbering":[{"index":"12"}],"lines":[99521,99522],"attr":"cool","postal_code":"441-0000","address":"豊橋市"},
+    {"code":9952202,"id":"4f4812","name":"運動公園前(愛知)","name_kana":"うんどうこうえんまえ","lat":34.75845,"lng":137.422314,"prefecture":23,"numbering":[{"index":"14"}],"lines":[99521,99522],"attr":"cool","postal_code":"441-0000","address":"豊橋市"}
   ],
   "north":34.76413,
   "south":34.75826,

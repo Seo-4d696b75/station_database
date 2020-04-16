@@ -3,14 +3,14 @@
   "name":"JR烏山線",
   "color":"#008000",
   "station_list":[
-    {"code":1131925,"name":"宝積寺"},
-    {"code":1133402,"name":"下野花岡"},
-    {"code":1133403,"name":"仁井田(栃木)"},
-    {"code":1133404,"name":"鴻野山"},
-    {"code":1133405,"name":"大金"},
-    {"code":1133406,"name":"小塙"},
-    {"code":1133407,"name":"滝(栃木)"},
-    {"code":1133408,"name":"烏山"}
+    {"code":1131925,"id":"073c24","name":"宝積寺","name_kana":"ほうしゃくじ","lat":36.631703,"lng":139.979487,"prefecture":9,"lines":[11319,11334],"attr":"cool","postal_code":"329-1233","address":"塩谷郡高根沢町宝積寺"},
+    {"code":1133402,"id":"2348cd","name":"下野花岡","name_kana":"しもつけはなおか","lat":36.649965,"lng":140.008606,"prefecture":9,"lines":[11334],"attr":"heat","postal_code":"329-1207","address":"塩谷郡高根沢町花岡"},
+    {"code":1133403,"id":"a1a882","name":"仁井田(栃木)","name_kana":"にいた","lat":36.657271,"lng":140.029573,"prefecture":9,"lines":[11334],"attr":"heat","postal_code":"329-1204","address":"塩谷郡高根沢町文挾"},
+    {"code":1133404,"id":"9ea45f","name":"鴻野山","name_kana":"こうのやま","lat":36.666495,"lng":140.051656,"prefecture":9,"lines":[11334],"attr":"heat","postal_code":"321-0534","address":"那須烏山市鴻野山"},
+    {"code":1133405,"id":"e352d7","name":"大金","name_kana":"おおがね","lat":36.656275,"lng":140.095656,"prefecture":9,"lines":[11334],"attr":"cool","postal_code":"321-0522","address":"那須烏山市大金"},
+    {"code":1133406,"id":"934c1e","name":"小塙","name_kana":"こばな","lat":36.643095,"lng":140.11656,"prefecture":9,"lines":[11334],"attr":"cool","postal_code":"321-0513","address":"那須烏山市小塙"},
+    {"code":1133407,"id":"17bb86","name":"滝(栃木)","name_kana":"たき","lat":36.648558,"lng":140.138152,"prefecture":9,"lines":[11334],"attr":"eco","postal_code":"321-0633","address":"那須烏山市滝"},
+    {"code":1133408,"id":"45e4a9","name":"烏山","name_kana":"からすやま","lat":36.650455,"lng":140.15507,"prefecture":9,"lines":[11334],"attr":"eco","postal_code":"321-0627","address":"那須烏山市南２丁目"}
   ],
   "north":36.66751,
   "south":36.63078,

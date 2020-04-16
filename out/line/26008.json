@@ -4,9 +4,9 @@
   "color":"#0068B7",
   "symbol":"KD",
   "station_list":[
-    {"code":1130609,"name":"長津田","numbering":[{"index":"01"}]},
-    {"code":2600802,"name":"恩田","numbering":[{"index":"02"}]},
-    {"code":2600803,"name":"こどもの国(神奈川)","numbering":[{"index":"03"}]}
+    {"code":1130609,"id":"15eb4a","name":"長津田","name_kana":"ながつた","lat":35.531698,"lng":139.49468,"prefecture":14,"numbering":[{"index":"01"}],"lines":[11306,26003,26008],"attr":"cool","postal_code":"226-0027","address":"横浜市緑区長津田４丁目"},
+    {"code":2600802,"id":"645f34","name":"恩田","name_kana":"おんだ","lat":35.545535,"lng":139.492127,"prefecture":14,"numbering":[{"index":"02"}],"lines":[26008],"attr":"cool","postal_code":"227-0065","address":"横浜市青葉区恩田町２０４３"},
+    {"code":2600803,"id":"d23557","name":"こどもの国(神奈川)","name_kana":"こどものくに","lat":35.558035,"lng":139.486657,"prefecture":14,"numbering":[{"index":"03"}],"lines":[26008],"attr":"cool","postal_code":"227-0036","address":"横浜市青葉区奈良町宇島９９５-１"}
   ],
   "north":35.55839,
   "south":35.53185,

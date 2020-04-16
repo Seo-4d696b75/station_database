@@ -4,14 +4,14 @@
   "color":"#3366CC",
   "symbol":"R",
   "station_list":[
-    {"code":1130201,"name":"大崎","numbering":[{"index":"08"}]},
-    {"code":1133228,"name":"大井町","numbering":[{"index":"07"}]},
-    {"code":9933706,"name":"品川シーサイド","numbering":[{"index":"06"}]},
-    {"code":9933602,"name":"天王洲アイル","numbering":[{"index":"05"}]},
-    {"code":9933704,"name":"東京テレポート","numbering":[{"index":"04"}]},
-    {"code":9933703,"name":"国際展示場","numbering":[{"index":"03"}]},
-    {"code":9933702,"name":"東雲(東京)","numbering":[{"index":"02"}]},
-    {"code":1132605,"name":"新木場","numbering":[{"index":"01"}]}
+    {"code":1130201,"id":"d3bfe4","name":"大崎","name_kana":"おおさき","lat":35.619772,"lng":139.728439,"prefecture":13,"numbering":[{"index":"08"}],"lines":[11302,11321,11333,99337],"attr":"cool","postal_code":"141-0032","address":"東京都品川区大崎一丁目21-4"},
+    {"code":1133228,"id":"6dde5c","name":"大井町","name_kana":"おおいまち","lat":35.606257,"lng":139.73485,"prefecture":13,"numbering":[{"index":"07"}],"lines":[11332,26004,99337],"attr":"cool","postal_code":"140-0014","address":"品川区大井１丁目"},
+    {"code":9933706,"id":"c3eb4a","name":"品川シーサイド","name_kana":"しながわしーさいど","lat":35.608524,"lng":139.749549,"prefecture":13,"numbering":[{"index":"06"}],"lines":[99337],"attr":"heat","postal_code":"140-0002","address":"品川区東品川４-１２-２２"},
+    {"code":9933602,"id":"ab47d9","name":"天王洲アイル","name_kana":"てんのうずあいる","lat":35.622908,"lng":139.750675,"prefecture":13,"numbering":[{"index":"05"}],"lines":[99336,99337],"attr":"eco","postal_code":"140-0002","address":"品川区東品川２-５-１９"},
+    {"code":9933704,"id":"985a83","name":"東京テレポート","name_kana":"とうきょうてれぽーと","lat":35.62753,"lng":139.778896,"prefecture":13,"numbering":[{"index":"04"}],"lines":[99337],"attr":"heat","postal_code":"135-0064","address":"江東区青海１-２"},
+    {"code":9933703,"id":"6af921","name":"国際展示場","name_kana":"こくさいてんじじょう","lat":35.63441,"lng":139.791617,"prefecture":13,"numbering":[{"index":"03"}],"lines":[99337],"attr":"heat","postal_code":"135-0063","address":"江東区有明２-５-２５"},
+    {"code":9933702,"id":"a25021","name":"東雲(東京)","name_kana":"しののめ","lat":35.640987,"lng":139.804395,"prefecture":13,"numbering":[{"index":"02"}],"lines":[99337],"attr":"cool","postal_code":"135-0062","address":"江東区東雲２-８-１０"},
+    {"code":1132605,"id":"369de7","name":"新木場","name_kana":"しんきば","lat":35.646172,"lng":139.827402,"prefecture":13,"numbering":[{"index":"01"}],"lines":[11326,28006,99337],"attr":"cool","postal_code":"136-0082","address":"東京都江東区新木場一丁目5"}
   ],
   "north":35.64592,
   "south":35.60669,

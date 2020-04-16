@@ -4,13 +4,13 @@
   "color":"#FFCC00",
   "symbol":"OT",
   "station_list":[
-    {"code":3300701,"name":"御陵","numbering":[{"symbol":"T","color":"#FF4500","index":"08"}]},
-    {"code":3300702,"name":"京阪山科","numbering":[{"index":"31"}]},
-    {"code":3300703,"name":"四宮","numbering":[{"index":"32"}]},
-    {"code":3300704,"name":"追分(滋賀)","numbering":[{"index":"33"}]},
-    {"code":3300705,"name":"大谷(滋賀)","numbering":[{"index":"34"}]},
-    {"code":3300706,"name":"上栄町","numbering":[{"index":"35"}]},
-    {"code":3300612,"name":"びわ湖浜大津","numbering":[{"index":"12"}]}
+    {"code":3300701,"id":"d9b4e5","name":"御陵","name_kana":"みささぎ","lat":34.996158,"lng":135.801637,"prefecture":26,"numbering":[{"symbol":"T","color":"#FF4500","index":"08"}],"lines":[33007,99611],"attr":"heat","postal_code":"607-8424","address":"京都市山科区御陵原西町１７-４"},
+    {"code":3300702,"id":"a2d1dd","name":"京阪山科","name_kana":"けいはんやましな","lat":34.992039,"lng":135.816835,"prefecture":26,"numbering":[{"index":"31"}],"lines":[33007],"attr":"heat","postal_code":"607-8012","address":"京都市山科区安朱桟敷町"},
+    {"code":3300703,"id":"72e0bd","name":"四宮","name_kana":"しのみや","lat":34.991903,"lng":135.823996,"prefecture":26,"numbering":[{"index":"32"}],"lines":[33007],"attr":"cool","postal_code":"607-8045","address":"京都市山科区四ノ宮堂ノ後町"},
+    {"code":3300704,"id":"099196","name":"追分(滋賀)","name_kana":"おいわけ","lat":34.991445,"lng":135.837528,"prefecture":25,"numbering":[{"index":"33"}],"lines":[33007],"attr":"heat","postal_code":"520-0064","address":"大津市追分町６-２６"},
+    {"code":3300705,"id":"cfbb14","name":"大谷(滋賀)","name_kana":"おおたに","lat":34.994129,"lng":135.854116,"prefecture":25,"numbering":[{"index":"34"}],"lines":[33007],"attr":"heat","postal_code":"520-0062","address":"大津市大谷町２３-５"},
+    {"code":3300706,"id":"d04832","name":"上栄町","name_kana":"かみさかえまち","lat":35.00515,"lng":135.860152,"prefecture":25,"numbering":[{"index":"35"}],"lines":[33007],"attr":"cool","postal_code":"520-0045","address":"大津市札の辻１-７"},
+    {"code":3300612,"id":"43628f","name":"びわ湖浜大津","name_kana":"びわこはまおおつ","lat":35.011283,"lng":135.863982,"prefecture":25,"numbering":[{"index":"12"}],"lines":[33006,33007],"attr":"eco","postal_code":"520-0047","address":"大津市浜大津１-３-８"}
   ],
   "north":35.01152,
   "south":34.99027,

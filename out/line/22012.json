@@ -4,12 +4,12 @@
   "color":"#FF6600",
   "symbol":"SW",
   "station_list":[
-    {"code":1131221,"name":"武蔵境","numbering":[{"index":"01"}]},
-    {"code":2201202,"name":"新小金井","numbering":[{"index":"02"}]},
-    {"code":2201203,"name":"多磨","numbering":[{"index":"03"}]},
-    {"code":2201204,"name":"白糸台","numbering":[{"index":"04"}]},
-    {"code":2201205,"name":"競艇場前","numbering":[{"index":"05"}]},
-    {"code":2201206,"name":"是政","numbering":[{"index":"06"}]}
+    {"code":1131221,"id":"740f90","name":"武蔵境","name_kana":"むさしさかい","lat":35.702083,"lng":139.543402,"prefecture":13,"numbering":[{"index":"01"}],"lines":[11312,22012],"attr":"cool","postal_code":"180-0022","address":"武蔵野市境１丁目"},
+    {"code":2201202,"id":"fa0076","name":"新小金井","name_kana":"しんこがねい","lat":35.695908,"lng":139.526603,"prefecture":13,"numbering":[{"index":"02"}],"lines":[22012],"attr":"heat","postal_code":"184-0011","address":"小金井市東町４-２４-１"},
+    {"code":2201203,"id":"cc8cf2","name":"多磨","name_kana":"たま","lat":35.676821,"lng":139.51713,"prefecture":13,"numbering":[{"index":"03"}],"lines":[22012],"attr":"heat","postal_code":"183-0004","address":"府中市紅葉丘３-４２-２"},
+    {"code":2201204,"id":"eac5d2","name":"白糸台","name_kana":"しらいとだい","lat":35.666517,"lng":139.509862,"prefecture":13,"numbering":[{"index":"04"}],"lines":[22012],"attr":"heat","postal_code":"183-0011","address":"府中市白糸台２-７１-６"},
+    {"code":2201205,"id":"01e2f1","name":"競艇場前","name_kana":"きょうていじょうまえ","lat":35.656232,"lng":139.499721,"prefecture":13,"numbering":[{"index":"05"}],"lines":[22012],"attr":"heat","postal_code":"183-0013","address":"府中市小柳町４-１０-１１"},
+    {"code":2201206,"id":"7d0de2","name":"是政","name_kana":"これまさ","lat":35.656242,"lng":139.488592,"prefecture":13,"numbering":[{"index":"06"}],"lines":[22012],"attr":"heat","postal_code":"183-0014","address":"府中市是政５-８-２"}
   ],
   "north":35.70192,
   "south":35.65584,

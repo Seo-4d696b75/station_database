@@ -4,10 +4,10 @@
   "color":"#32CD32",
   "symbol":"HK",
   "station_list":[
-    {"code":3400306,"name":"桂","numbering":[{"index":"81"}]},
-    {"code":3400902,"name":"上桂","numbering":[{"index":"96"}]},
-    {"code":3400903,"name":"松尾大社","numbering":[{"index":"97"}]},
-    {"code":3400904,"name":"嵐山(阪急電鉄)","numbering":[{"index":"98"}]}
+    {"code":3400306,"id":"6adbf0","name":"桂","name_kana":"かつら","lat":34.979522,"lng":135.703302,"prefecture":26,"numbering":[{"index":"81"}],"lines":[34003,34009],"attr":"cool","postal_code":"615-8107","address":"京都市西京区川島北裏町９７-２"},
+    {"code":3400902,"id":"228abd","name":"上桂","name_kana":"かみかつら","lat":34.990201,"lng":135.696069,"prefecture":26,"numbering":[{"index":"96"}],"lines":[34009],"attr":"cool","postal_code":"615-8227","address":"京都市西京区上桂宮ノ後町３３-２"},
+    {"code":3400903,"id":"fc0936","name":"松尾大社","name_kana":"まつおたいしゃ","lat":35.000331,"lng":135.688214,"prefecture":26,"numbering":[{"index":"97"}],"lines":[34009],"attr":"cool","postal_code":"616-0023","address":"京都市西京区嵐山宮ノ前町４９"},
+    {"code":3400904,"id":"942c6f","name":"嵐山(阪急電鉄)","name_kana":"あらしやま","lat":35.010315,"lng":135.681603,"prefecture":26,"numbering":[{"index":"98"}],"lines":[34009],"attr":"eco","postal_code":"616-8384","address":"京都市右京区嵯峨天龍寺造路町"}
   ],
   "north":35.01026,
   "south":34.9775,

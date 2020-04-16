@@ -4,12 +4,12 @@
   "color":"#009A41",
   "symbol":"NK",
   "station_list":[
-    {"code":3200901,"name":"汐見橋","numbering":[{"index":"06-5"}]},
-    {"code":3200902,"name":"芦原町","numbering":[{"index":"06-4"}]},
-    {"code":3200903,"name":"木津川","numbering":[{"index":"06-3"}]},
-    {"code":3200904,"name":"津守","numbering":[{"index":"06-2"}]},
-    {"code":3200905,"name":"西天下茶屋","numbering":[{"index":"06-1"}]},
-    {"code":3200104,"name":"岸里玉出","numbering":[{"index":"06"}]}
+    {"code":3200901,"id":"5ea12e","name":"汐見橋","name_kana":"しおみばし","lat":34.667638,"lng":135.486165,"prefecture":27,"numbering":[{"index":"06-5"}],"lines":[32009],"attr":"heat","postal_code":"556-0022","address":"大阪市浪速区桜川３-８-７４"},
+    {"code":3200902,"id":"e58b2f","name":"芦原町","name_kana":"あしはらちょう","lat":34.660516,"lng":135.486462,"prefecture":27,"numbering":[{"index":"06-4"}],"lines":[32009],"attr":"heat","postal_code":"556-0029","address":"大阪市浪速区芦原２-５-３１"},
+    {"code":3200903,"id":"6163df","name":"木津川","name_kana":"きづがわ","lat":34.654703,"lng":135.483093,"prefecture":27,"numbering":[{"index":"06-3"}],"lines":[32009],"attr":"heat","postal_code":"557-0061","address":"大阪市西成区北津守１-８-６７"},
+    {"code":3200904,"id":"569a11","name":"津守","name_kana":"つもり","lat":34.647004,"lng":135.483349,"prefecture":27,"numbering":[{"index":"06-2"}],"lines":[32009],"attr":"cool","postal_code":"557-0062","address":"大阪市西成区津守１-１０-１８"},
+    {"code":3200905,"id":"3c610c","name":"西天下茶屋","name_kana":"にしてんがちゃや","lat":34.638736,"lng":135.489079,"prefecture":27,"numbering":[{"index":"06-1"}],"lines":[32009],"attr":"cool","postal_code":"557-0051","address":"大阪市西成区橘３-３-２３"},
+    {"code":3200104,"id":"857d8a","name":"岸里玉出","name_kana":"きしのさとたまで","lat":34.628291,"lng":135.494388,"prefecture":27,"numbering":[{"index":"06"}],"lines":[32001,32007,32009],"attr":"cool","postal_code":"557-0043","address":"大阪市西成区玉出東１-１-１７"}
   ],
   "north":34.66802,
   "south":34.62718,

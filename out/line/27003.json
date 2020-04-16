@@ -4,13 +4,13 @@
   "color":"#00BFFF",
   "symbol":"KK",
   "station_list":[
-    {"code":2700115,"name":"京急川崎","numbering":[{"index":"20"}]},
-    {"code":2700302,"name":"港町","numbering":[{"index":"21"}]},
-    {"code":2700303,"name":"鈴木町","numbering":[{"index":"22"}]},
-    {"code":2700304,"name":"川崎大師","numbering":[{"index":"23"}]},
-    {"code":2700305,"name":"東門前","numbering":[{"index":"24"}]},
-    {"code":2700306,"name":"大師橋","numbering":[{"index":"25"}]},
-    {"code":2700307,"name":"小島新田","numbering":[{"index":"26"}]}
+    {"code":2700115,"id":"af8ad4","name":"京急川崎","name_kana":"けいきゅうかわさき","lat":35.53285,"lng":139.700893,"prefecture":14,"numbering":[{"index":"20"}],"lines":[27001,27003],"attr":"cool","postal_code":"210-0006","address":"川崎市川崎区砂子１-３-１"},
+    {"code":2700302,"id":"800330","name":"港町","name_kana":"みなとちょう","lat":35.535014,"lng":139.712578,"prefecture":14,"numbering":[{"index":"21"}],"lines":[27003],"attr":"cool","postal_code":"210-0807","address":"川崎市川崎区港町１-１"},
+    {"code":2700303,"id":"87952b","name":"鈴木町","name_kana":"すずきちょう","lat":35.53535,"lng":139.720655,"prefecture":14,"numbering":[{"index":"22"}],"lines":[27003],"attr":"heat","postal_code":"210-0801","address":"川崎市川崎区鈴木町２-２"},
+    {"code":2700304,"id":"2f7309","name":"川崎大師","name_kana":"かわさきだいし","lat":35.535711,"lng":139.725946,"prefecture":14,"numbering":[{"index":"23"}],"lines":[27003],"attr":"heat","postal_code":"210-0802","address":"川崎市川崎区大師駅前１-１８-１"},
+    {"code":2700305,"id":"6780f7","name":"東門前","name_kana":"ひがしもんぜん","lat":35.536566,"lng":139.734298,"prefecture":14,"numbering":[{"index":"24"}],"lines":[27003],"attr":"eco","postal_code":"210-0818","address":"川崎市川崎区中瀬３-２３-１０"},
+    {"code":2700306,"id":"fdfa84","name":"大師橋","name_kana":"たいしばし","lat":35.536611,"lng":139.740381,"prefecture":14,"numbering":[{"index":"25"}],"lines":[27003],"attr":"eco","postal_code":"210-0811","address":"川崎市川崎区大師河原２-４-２５"},
+    {"code":2700307,"id":"478bff","name":"小島新田","name_kana":"こじましんでん","lat":35.534798,"lng":139.747575,"prefecture":14,"numbering":[{"index":"26"}],"lines":[27003],"attr":"eco","postal_code":"210-0822","address":"川崎市川崎区田町２-３-１５"}
   ],
   "north":35.53661,
   "south":35.53264,

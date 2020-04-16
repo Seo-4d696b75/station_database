@@ -2,12 +2,12 @@
   "code":99510,
   "name":"東海交通事業城北線",
   "station_list":[
-    {"code":1150234,"name":"枇杷島"},
-    {"code":9951002,"name":"尾張星の宮"},
-    {"code":9951003,"name":"小田井"},
-    {"code":9951004,"name":"比良(愛知)"},
-    {"code":9951005,"name":"味美(東海交通事業)"},
-    {"code":1141107,"name":"勝川"}
+    {"code":1150234,"id":"8fe63c","name":"枇杷島","name_kana":"びわじま","lat":35.198681,"lng":136.861816,"prefecture":23,"lines":[11502,99510],"attr":"eco","postal_code":"452-0064","address":"清須市西枇杷島町旭１丁目"},
+    {"code":9951002,"id":"39c73a","name":"尾張星の宮","name_kana":"おわりほしのみや","lat":35.212988,"lng":136.855011,"prefecture":23,"lines":[99510],"attr":"cool","postal_code":"452-0901","address":"清須市阿原星の宮"},
+    {"code":9951003,"id":"7ee05b","name":"小田井","name_kana":"おたい","lat":35.221043,"lng":136.880491,"prefecture":23,"lines":[99510],"attr":"cool","postal_code":"452-0815","address":"名古屋市西区八筋町"},
+    {"code":9951004,"id":"a1ea5f","name":"比良(愛知)","name_kana":"ひら","lat":35.228549,"lng":136.90178,"prefecture":23,"lines":[99510],"attr":"heat","postal_code":"452-0802","address":"名古屋市西区比良３"},
+    {"code":9951005,"id":"1ae087","name":"味美(東海交通事業)","name_kana":"あじよし","lat":35.229504,"lng":136.932263,"prefecture":23,"lines":[99510],"attr":"heat","postal_code":"486-0956","address":"愛知県春日井市中新町二丁目"},
+    {"code":1141107,"id":"3c4833","name":"勝川","name_kana":"かちがわ","lat":35.22982,"lng":136.956285,"prefecture":23,"lines":[11411,99510],"attr":"cool","postal_code":"486-0931","address":"春日井市松新町６丁目"}
   ],
   "north":35.22974,
   "south":35.19879,

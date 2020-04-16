@@ -4,8 +4,8 @@
   "color":"#0065AF",
   "symbol":"NK",
   "station_list":[
-    {"code":1164003,"name":"和歌山市","numbering":[{"index":"45"}]},
-    {"code":3200302,"name":"和歌山港","numbering":[{"index":"45-1"}]}
+    {"code":1164003,"id":"71b015","name":"和歌山市","name_kana":"わかやまし","lat":34.236717,"lng":135.166731,"prefecture":30,"numbering":[{"index":"45"}],"lines":[11640,32001,32003,32005],"attr":"eco","postal_code":"640-8203","address":"和歌山市東蔵前丁"},
+    {"code":3200302,"id":"dda159","name":"和歌山港","name_kana":"わかやまこう","lat":34.217321,"lng":135.146488,"prefecture":30,"numbering":[{"index":"45-1"}],"lines":[32003],"attr":"eco","postal_code":"640-0000","address":"和歌山市薬種畑"}
   ],
   "north":34.23621,
   "south":34.21695,

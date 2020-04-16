@@ -2,8 +2,8 @@
   "code":11901,
   "name":"JR博多南線",
   "station_list":[
-    {"code":100319,"name":"博多"},
-    {"code":1190102,"name":"博多南"}
+    {"code":100319,"id":"dee3bc","name":"博多","name_kana":"はかた","lat":33.590002,"lng":130.420622,"prefecture":40,"lines":[11901,11902,11903,11908,99905,1003,1010],"attr":"heat","postal_code":"812-0012","address":"福岡市博多区博多駅中央街"},
+    {"code":1190102,"id":"002ae3","name":"博多南","name_kana":"はかたみなみ","lat":33.517955,"lng":130.436997,"prefecture":40,"lines":[11901],"attr":"heat","postal_code":"816-0844","address":"春日市上白水柏田"}
   ],
   "north":33.59139,
   "south":33.51729,

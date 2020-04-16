@@ -4,14 +4,14 @@
   "color":"#01AF98",
   "symbol":"S",
   "station_list":[
-    {"code":100302,"name":"新神戸","numbering":[{"index":"02"}]},
-    {"code":9963001,"name":"三宮(神戸三宮)","numbering":[{"index":"03"}]},
-    {"code":9964603,"name":"県庁前(兵庫)","numbering":[{"index":"04"}]},
-    {"code":9964604,"name":"大倉山(兵庫)","numbering":[{"index":"05"}]},
-    {"code":9964605,"name":"湊川公園","numbering":[{"index":"06"}]},
-    {"code":9964606,"name":"上沢","numbering":[{"index":"07"}]},
-    {"code":9964607,"name":"長田(神戸市交通局)","numbering":[{"index":"08"}]},
-    {"code":1160803,"name":"新長田","numbering":[{"index":"09"}]}
+    {"code":100302,"id":"27f8fc","name":"新神戸","name_kana":"しんこうべ","lat":34.706417,"lng":135.195758,"prefecture":28,"numbering":[{"index":"02"}],"lines":[99636,99646,1003],"attr":"heat","postal_code":"650-0001","address":"神戸市中央区加納町１丁目"},
+    {"code":9963001,"id":"3b382f","name":"三宮(神戸三宮)","name_kana":"さんのみや(こうべさんのみや)","lat":34.693507,"lng":135.195106,"prefecture":28,"numbering":[{"index":"03"}],"lines":[99630,99646,99648,34001,35001],"attr":"heat","postal_code":"650-0001","address":"神戸市中央区加納町４-２-１"},
+    {"code":9964603,"id":"7603d9","name":"県庁前(兵庫)","name_kana":"けんちょうまえ","lat":34.690916,"lng":135.183859,"prefecture":28,"numbering":[{"index":"04"}],"lines":[99646],"attr":"heat","postal_code":"650-0011","address":"神戸市中央区下山手通５"},
+    {"code":9964604,"id":"c2e12a","name":"大倉山(兵庫)","name_kana":"おおくらやま","lat":34.684614,"lng":135.174527,"prefecture":28,"numbering":[{"index":"05"}],"lines":[99646],"attr":"heat","postal_code":"650-0017","address":"神戸市中央区楠町３"},
+    {"code":9964605,"id":"6565db","name":"湊川公園","name_kana":"みなとがわこうえん","lat":34.679188,"lng":135.167059,"prefecture":28,"numbering":[{"index":"06"}],"lines":[99646],"attr":"eco","postal_code":"652-0047","address":"神戸市兵庫区下沢通１"},
+    {"code":9964606,"id":"238247","name":"上沢","name_kana":"かみさわ","lat":34.673251,"lng":135.158331,"prefecture":28,"numbering":[{"index":"07"}],"lines":[99646],"attr":"eco","postal_code":"652-0047","address":"神戸市兵庫区下沢通８"},
+    {"code":9964607,"id":"0846e8","name":"長田(神戸市交通局)","name_kana":"ながた","lat":34.668503,"lng":135.151502,"prefecture":28,"numbering":[{"index":"08"}],"lines":[99646],"attr":"cool","postal_code":"653-0004","address":"神戸市長田区四番町7丁目"},
+    {"code":1160803,"id":"aa210e","name":"新長田","name_kana":"しんながた","lat":34.657525,"lng":135.145193,"prefecture":28,"numbering":[{"index":"09"}],"lines":[11608,99645,99646,99647],"attr":"cool","postal_code":"653-0841","address":"神戸市長田区松野通１丁目"}
   ],
   "north":34.70498,
   "south":34.65814,

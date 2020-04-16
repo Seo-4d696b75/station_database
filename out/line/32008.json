@@ -4,8 +4,8 @@
   "color":"#009A41",
   "symbol":"NK",
   "station_list":[
-    {"code":3200742,"name":"極楽橋","numbering":[{"index":"86"}]},
-    {"code":3200802,"name":"高野山","numbering":[{"index":"87"}]}
+    {"code":3200742,"id":"9926e5","name":"極楽橋","name_kana":"ごくらくばし","lat":34.23435,"lng":135.582078,"prefecture":30,"numbering":[{"index":"86"}],"lines":[32007,32008],"attr":"heat","postal_code":"648-0211","address":"伊都郡高野町大字高野山国有林第８林班"},
+    {"code":3200802,"id":"2a69ff","name":"高野山","name_kana":"こうやさん","lat":34.227789,"lng":135.577619,"prefecture":30,"numbering":[{"index":"87"}],"lines":[32008],"attr":"heat","postal_code":"648-0211","address":"和歌山県伊都郡高野町大字高野山国有林第9林班ノは"}
   ],
   "north":34.23381,
   "south":34.2276,

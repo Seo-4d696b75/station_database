@@ -3,13 +3,13 @@
   "name":"湘南軌道",
   "closed":true,
   "station_list":[
-    {"code":2500139,"name":"秦野"},
-    {"code":5000097,"name":"台町"},
-    {"code":5000098,"name":"大竹(神奈川)"},
-    {"code":5000099,"name":"上井ノ口"},
-    {"code":5000100,"name":"下井ノ口"},
-    {"code":5000101,"name":"一色"},
-    {"code":5000102,"name":"中里(神奈川)"},
-    {"code":5000103,"name":"二宮(湘南軌道)"}
+    {"code":2500139,"id":"ee0a6a","name":"秦野","name_kana":"はだの","lat":35.370075,"lng":139.226009,"prefecture":14,"lines":[25001,99350],"attr":"heat","postal_code":"257-0034","address":"秦野市大秦町１丁目"},
+    {"code":5000097,"id":"23415a","name":"台町","name_kana":"だいまち","closed":true,"lat":35.370031,"lng":139.232195,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"257-0035","address":"神奈川県秦野市１１"},
+    {"code":5000098,"id":"47b97e","name":"大竹(神奈川)","name_kana":"おおだけ","closed":true,"lat":35.36028,"lng":139.234725,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"257-0012","address":"神奈川県秦野市"},
+    {"code":5000099,"id":"bae49c","name":"上井ノ口","name_kana":"かみいのくち","closed":true,"lat":35.343061,"lng":139.232222,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    {"code":5000100,"id":"8f5e20","name":"下井ノ口","name_kana":"しもいのくち","closed":true,"lat":35.331114,"lng":139.235282,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    {"code":5000101,"id":"8fa83b","name":"一色","name_kana":"いっしき","closed":true,"lat":35.318976,"lng":139.242027,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"259-0151","address":"神奈川県足柄上郡中井町井ノ口"},
+    {"code":5000102,"id":"6f51fa","name":"中里(神奈川)","name_kana":"なかざと","closed":true,"lat":35.308529,"lng":139.249387,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"259-0131","address":"神奈川県中郡二宮町中里"},
+    {"code":5000103,"id":"c0bfe3","name":"二宮(湘南軌道)","name_kana":"にのみや","closed":true,"lat":35.298782,"lng":139.257777,"prefecture":14,"lines":[99350],"attr":"unknown","postal_code":"259-0123","address":"中郡二宮町二宮"}
   ]
 }

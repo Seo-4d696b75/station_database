@@ -4,13 +4,13 @@
   "color":"#DD3377",
   "symbol":"KO",
   "station_list":[
-    {"code":2400133,"name":"北野(東京)","numbering":[{"index":"33"}]},
-    {"code":2400302,"name":"京王片倉","numbering":[{"index":"48"}]},
-    {"code":2400303,"name":"山田(東京)","numbering":[{"index":"49"}]},
-    {"code":2400304,"name":"めじろ台","numbering":[{"index":"50"}]},
-    {"code":2400305,"name":"狭間","numbering":[{"index":"51"}]},
-    {"code":1131112,"name":"高尾(東京)","numbering":[{"index":"52"}]},
-    {"code":2400307,"name":"高尾山口","numbering":[{"index":"53"}]}
+    {"code":2400133,"id":"c5bbde","name":"北野(東京)","name_kana":"きたの","lat":35.644479,"lng":139.354489,"prefecture":13,"numbering":[{"index":"33"}],"lines":[24001,24003],"attr":"heat","postal_code":"192-0911","address":"八王子市打越町３３５-１"},
+    {"code":2400302,"id":"536dc6","name":"京王片倉","name_kana":"けいおうかたくら","lat":35.644343,"lng":139.337035,"prefecture":13,"numbering":[{"index":"48"}],"lines":[24003],"attr":"cool","postal_code":"192-0914","address":"八王子市片倉町３４-９"},
+    {"code":2400303,"id":"e0ef68","name":"山田(東京)","name_kana":"やまだ","lat":35.644411,"lng":139.321082,"prefecture":13,"numbering":[{"index":"49"}],"lines":[24003],"attr":"cool","postal_code":"193-0932","address":"八王子市緑町４３４"},
+    {"code":2400304,"id":"bf6abe","name":"めじろ台","name_kana":"めじろだい","lat":35.643601,"lng":139.308446,"prefecture":13,"numbering":[{"index":"50"}],"lines":[24003],"attr":"eco","postal_code":"193-0833","address":"八王子市めじろ台１-１００-１"},
+    {"code":2400305,"id":"d73fcc","name":"狭間","name_kana":"はざま","lat":35.640637,"lng":139.293808,"prefecture":13,"numbering":[{"index":"51"}],"lines":[24003],"attr":"eco","postal_code":"193-0834","address":"八王子市東浅川町７７３"},
+    {"code":1131112,"id":"873563","name":"高尾(東京)","name_kana":"たかお","lat":35.642026,"lng":139.282288,"prefecture":13,"numbering":[{"index":"52"}],"lines":[11311,11312,11328,24003],"attr":"eco","postal_code":"193-0844","address":"八王子市高尾町"},
+    {"code":2400307,"id":"959583","name":"高尾山口","name_kana":"たかおさんぐち","lat":35.632377,"lng":139.269856,"prefecture":13,"numbering":[{"index":"53"}],"lines":[24003],"attr":"heat","postal_code":"193-0844","address":"八王子市高尾町２２４１"}
   ],
   "north":35.64674,
   "south":35.63192,

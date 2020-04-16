@@ -2,10 +2,10 @@
   "code":99928,
   "name":"平成筑豊鉄道門司港レトロ観光線",
   "station_list":[
-    {"code":9992801,"name":"九州鉄道記念館"},
-    {"code":9992802,"name":"出光美術館"},
-    {"code":9992803,"name":"ノーフォーク広場"},
-    {"code":9992804,"name":"関門海峡めかり"}
+    {"code":9992801,"id":"e90452","name":"九州鉄道記念館","name_kana":"きゅうしゅうてつどうきねんかん","lat":33.944392,"lng":130.962439,"prefecture":40,"lines":[99928],"attr":"eco","postal_code":"800-0000","address":"福岡県北九州市門司区"},
+    {"code":9992802,"id":"66533e","name":"出光美術館","name_kana":"いでみつびじゅつかん","lat":33.947792,"lng":130.965292,"prefecture":40,"lines":[99928],"attr":"eco","postal_code":"800-0000","address":"福岡県北九州市門司区"},
+    {"code":9992803,"id":"d6367f","name":"ノーフォーク広場","name_kana":"のーふぉーくひろば","lat":33.955973,"lng":130.964254,"prefecture":40,"lines":[99928],"attr":"heat","postal_code":"801-0854","address":"福岡県北九州市門司区旧門司"},
+    {"code":9992804,"id":"a66925","name":"関門海峡めかり","name_kana":"かんもんかいきょうめかり","lat":33.960627,"lng":130.967347,"prefecture":40,"lines":[99928],"attr":"heat","postal_code":"801-0855","address":"福岡県北九州市門司区門司"}
   ],
   "north":33.96061,
   "south":33.94417,

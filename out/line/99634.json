@@ -4,12 +4,12 @@
   "color":"#CCCC33",
   "symbol":"KB",
   "station_list":[
-    {"code":1162915,"name":"三田(兵庫)","numbering":[{"index":"29"}]},
-    {"code":9963309,"name":"三田本町","numbering":[{"index":"28"}]},
-    {"code":9963308,"name":"横山(兵庫)","numbering":[{"index":"27"}]},
-    {"code":9963404,"name":"フラワータウン","numbering":[{"index":"31"}]},
-    {"code":9963405,"name":"南ウッディタウン","numbering":[{"index":"32"}]},
-    {"code":9963406,"name":"ウッディタウン中央","numbering":[{"index":"33"}]}
+    {"code":1162915,"id":"2a618f","name":"三田(兵庫)","name_kana":"さんだ","lat":34.888787,"lng":135.22979,"prefecture":28,"numbering":[{"index":"29"}],"lines":[11629,99633,99634],"attr":"heat","postal_code":"669-1528","address":"三田市駅前町１丁目"},
+    {"code":9963309,"id":"dffb49","name":"三田本町","name_kana":"さんだほんまち","lat":34.881805,"lng":135.229606,"prefecture":28,"numbering":[{"index":"28"}],"lines":[99633,99634],"attr":"heat","postal_code":"669-1526","address":"三田市相生町１２-５"},
+    {"code":9963308,"id":"8a240b","name":"横山(兵庫)","name_kana":"よこやま","lat":34.876633,"lng":135.219696,"prefecture":28,"numbering":[{"index":"27"}],"lines":[99633,99634],"attr":"heat","postal_code":"669-1535","address":"三田市南が丘２-９-１３"},
+    {"code":9963404,"id":"2e76bf","name":"フラワータウン","name_kana":"ふらわーたうん","lat":34.88546,"lng":135.202334,"prefecture":28,"numbering":[{"index":"31"}],"lines":[99634],"attr":"eco","postal_code":"669-1546","address":"三田市弥生が丘１-１１"},
+    {"code":9963405,"id":"fce311","name":"南ウッディタウン","name_kana":"みなみうっでぃたうん","lat":34.901729,"lng":135.189612,"prefecture":28,"numbering":[{"index":"32"}],"lines":[99634],"attr":"eco","postal_code":"669-1323","address":"三田市あかしあ台５-１０１-５"},
+    {"code":9963406,"id":"83d5a7","name":"ウッディタウン中央","name_kana":"うっでぃたうんちゅうおう","lat":34.909767,"lng":135.183707,"prefecture":28,"numbering":[{"index":"33"}],"lines":[99634],"attr":"cool","postal_code":"669-1324","address":"三田市ゆりのき台１-１０２"}
   ],
   "north":34.91006,
   "south":34.8745,
