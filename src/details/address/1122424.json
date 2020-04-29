@@ -1,24 +1,27 @@
 {
-  "station": "南三陸町役場・病院前",
-  "lat": 38.678776,
-  "lng": 141.462452,
+  "station": "志津川中央団地",
+  "lat": 38.683806,
+  "lng": 141.450742,
   "plus_code": {
-    "compound_code": "MFH6+GX 日本、宮城県南三陸町",
-    "global_code": "8RC3MFH6+GX"
+    "compound_code": "MFM2+G7 日本、宮城県南三陸町",
+    "global_code": "8RC3MFM2+G7"
   },
   "results": [
     {
       "address_components": [
         {
-          "long_name": "１４−３",
-          "short_name": "１４−３",
+          "long_name": "志津川中央団地駅",
+          "short_name": "志津川中央団地駅",
           "types": [
-            "premise"
+            "establishment",
+            "point_of_interest",
+            "train_station",
+            "transit_station"
           ]
         },
         {
-          "long_name": "沼田",
-          "short_name": "沼田",
+          "long_name": "新井田",
+          "short_name": "新井田",
           "types": [
             "political",
             "sublocality",
@@ -67,35 +70,132 @@
           ]
         },
         {
-          "long_name": "986-0725",
-          "short_name": "986-0725",
+          "long_name": "986-0753",
+          "short_name": "986-0753",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒986-0725 宮城県本吉郡南三陸町志津川沼田１４−３",
+      "formatted_address": "日本、〒986-0753 宮城県本吉郡南三陸町志津川新井田 志津川中央団地駅",
       "geometry": {
         "location": {
-          "lat": 38.6792197,
-          "lng": 141.4624235
+          "lat": 38.6839448,
+          "lng": 141.450516
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6852937802915,
+            "lng": 141.4518649802915
+          },
+          "southwest": {
+            "lat": 38.6825958197085,
+            "lng": 141.4491670197085
+          }
+        }
+      },
+      "place_id": "ChIJ063L16r-iF8R5hCr96bLQWE",
+      "plus_code": {
+        "compound_code": "MFM2+H6 日本、宮城県 南三陸町",
+        "global_code": "8RC3MFM2+H6"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "train_station",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１６５−１",
+          "short_name": "１６５−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "新井田",
+          "short_name": "新井田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "志津川",
+          "short_name": "志津川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南三陸町",
+          "short_name": "南三陸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "本吉郡",
+          "short_name": "本吉郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "986-0727",
+          "short_name": "986-0727",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒986-0727 宮城県本吉郡南三陸町志津川新井田１６５−１",
+      "geometry": {
+        "location": {
+          "lat": 38.6833281,
+          "lng": 141.4516559
         },
         "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 38.6805686802915,
-            "lng": 141.4637724802915
+            "lat": 38.6846770802915,
+            "lng": 141.4530048802915
           },
           "southwest": {
-            "lat": 38.6778707197085,
-            "lng": 141.4610745197085
+            "lat": 38.6819791197085,
+            "lng": 141.4503069197085
           }
         }
       },
-      "place_id": "ChIJ9YZaAk35iF8RYwfHqtV8nLc",
+      "place_id": "ChIJt0b0Nqv-iF8RaUMkIFne_hM",
       "plus_code": {
-        "compound_code": "MFH6+MX 日本、宮城県 南三陸町",
-        "global_code": "8RC3MFH6+MX"
+        "compound_code": "MFM2+8M 日本、宮城県 南三陸町",
+        "global_code": "8RC3MFM2+8M"
       },
       "types": [
         "street_address"
@@ -104,15 +204,15 @@
     {
       "address_components": [
         {
-          "long_name": "Unnamed Road",
-          "short_name": "Unnamed Road",
+          "long_name": "国道45号",
+          "short_name": "国道45号",
           "types": [
             "route"
           ]
         },
         {
-          "long_name": "袖浜",
-          "short_name": "袖浜",
+          "long_name": "城場",
+          "short_name": "城場",
           "types": [
             "political",
             "sublocality",
@@ -161,42 +261,42 @@
           ]
         },
         {
-          "long_name": "986-0717",
-          "short_name": "986-0717",
+          "long_name": "986-0753",
+          "short_name": "986-0753",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "Unnamed Road, 袖浜 志津川 南三陸町 本吉郡 宮城県 986-0717 日本",
+      "formatted_address": "日本、〒986-0753 宮城県本吉郡南三陸町志津川城場 国道45号",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.6784507,
-            "lng": 141.4624467
+            "lat": 38.6835815,
+            "lng": 141.4519599
           },
           "southwest": {
-            "lat": 38.6784304,
-            "lng": 141.4622598
+            "lat": 38.6833979,
+            "lng": 141.451874
           }
         },
         "location": {
-          "lat": 38.67844059999999,
-          "lng": 141.4623533
+          "lat": 38.6834909,
+          "lng": 141.451913
         },
         "location_type": "GEOMETRIC_CENTER",
         "viewport": {
           "northeast": {
-            "lat": 38.6797895302915,
-            "lng": 141.4637022302915
+            "lat": 38.68483868029149,
+            "lng": 141.4532659302915
           },
           "southwest": {
-            "lat": 38.6770915697085,
-            "lng": 141.4610042697085
+            "lat": 38.68214071970849,
+            "lng": 141.4505679697085
           }
         }
       },
-      "place_id": "ChIJSa4-wkz5iF8R2v6D9QWw7Bk",
+      "place_id": "ChIJPe6PNKv-iF8R7sJICC22AGM",
       "types": [
         "route"
       ]
@@ -204,103 +304,15 @@
     {
       "address_components": [
         {
-          "long_name": "沼田",
-          "short_name": "沼田",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_2"
-          ]
-        },
-        {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "宮城県",
-          "short_name": "宮城県",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "日本",
-          "short_name": "JP",
-          "types": [
-            "country",
-            "political"
-          ]
-        }
-      ],
-      "formatted_address": "日本、宮城県本吉郡南三陸町志津川沼田",
-      "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 38.690033,
-            "lng": 141.467808
-          },
-          "southwest": {
-            "lat": 38.677322,
-            "lng": 141.4576129
-          }
-        },
-        "location": {
-          "lat": 38.6831661,
-          "lng": 141.4635206
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 38.690033,
-            "lng": 141.467808
-          },
-          "southwest": {
-            "lat": 38.677322,
-            "lng": 141.4576129
-          }
-        }
-      },
-      "place_id": "ChIJh5qSoVH5iF8RYZSyjEKAqOY",
-      "types": [
-        "political",
-        "sublocality",
-        "sublocality_level_3"
-      ]
-    },
-    {
-      "address_components": [
-        {
-          "long_name": "986-0717",
-          "short_name": "986-0717",
+          "long_name": "986-0753",
+          "short_name": "986-0753",
           "types": [
             "postal_code"
           ]
         },
         {
-          "long_name": "袖浜",
-          "short_name": "袖浜",
+          "long_name": "城場",
+          "short_name": "城場",
           "types": [
             "political",
             "sublocality",
@@ -349,37 +361,125 @@
           ]
         }
       ],
-      "formatted_address": "日本 〒986-0717",
+      "formatted_address": "日本 〒986-0753",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.6792596,
-            "lng": 141.4743677
+            "lat": 38.6844358,
+            "lng": 141.4522496
           },
           "southwest": {
-            "lat": 38.669289,
-            "lng": 141.4579398
+            "lat": 38.6789199,
+            "lng": 141.4466058
           }
         },
         "location": {
-          "lat": 38.6754451,
-          "lng": 141.4674104
+          "lat": 38.6817514,
+          "lng": 141.4494876
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 38.6792596,
-            "lng": 141.4743677
+            "lat": 38.6844358,
+            "lng": 141.4522496
           },
           "southwest": {
-            "lat": 38.669289,
-            "lng": 141.4579398
+            "lat": 38.6789199,
+            "lng": 141.4466058
           }
         }
       },
-      "place_id": "ChIJNf-L1kr5iF8RVMkxykNW2-Q",
+      "place_id": "ChIJ_bSQq6v-iF8Rp0edQpk_UUk",
       "types": [
         "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新井田",
+          "short_name": "新井田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "志津川",
+          "short_name": "志津川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南三陸町",
+          "short_name": "南三陸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "本吉郡",
+          "short_name": "本吉郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県本吉郡南三陸町志津川新井田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.693374,
+            "lng": 141.458713
+          },
+          "southwest": {
+            "lat": 38.682816,
+            "lng": 141.4457851
+          }
+        },
+        "location": {
+          "lat": 38.6877791,
+          "lng": 141.4516302
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.693374,
+            "lng": 141.458713
+          },
+          "southwest": {
+            "lat": 38.682816,
+            "lng": 141.4457851
+          }
+        }
+      },
+      "place_id": "ChIJ33_I3v37iF8RylG8nKL71WM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
       ]
     },
     {
