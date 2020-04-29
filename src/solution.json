@@ -1949,79 +1949,6 @@
   ]
 },
 
-
-
-{
-  "comment":"東日本大震災によりBRTへ変換された区間",
-  "date":20170331,
-  "url":"https://ekimemo.com/news/20170331141000_1",
-  "data":[
-    {
-      "comment":"JR大船渡線の不通区間を走るBRT駅のうち既存駅と同名のもの",
-      "data":[
-        {"code":1120815,"station":"鹿折唐桑","lng":141.580968,"lat":38.915610},
-        {"code":1120816,"station":"上鹿折","lng":141.566825,"lat":38.960166},
-        {"code":1120817,"station":"陸前矢作","lng":141.579459,"lat":39.022659},
-        {"code":1120818,"station":"竹駒","lng":141.609488,"lat":39.033909},
-        {"code":1120819,"station":"陸前高田","lng":141.629226,"lat":39.014919},
-        {"code":1120820,"station":"脇ノ沢","lng":141.671756,"lat":39.011886},
-        {"code":1120821,"station":"小友","lng":141.699531,"lat":38.989292},
-        {"code":1120822,"station":"細浦","lng":141.713725,"lat":39.016027},
-        {"code":1120823,"station":"下船渡","lng":141.720865,"lat":39.038329},
-        {"code":1120824,"station":"大船渡","lng":141.720807,"lat":39.063550},
-        {"code":11208,"line":"ドラゴンレール大船渡線","rename":"JR大船渡線(ドラゴンレール大船渡線)", "comment":"JR大船渡線の不通区間を走るBRT新設駅","add_station":[
-          {"code":1120826,"station":"八幡大橋（東陵高校）","lng":141.585300,"lat":38.920964,"prefecture":4},
-          {"code":1120827,"station":"唐桑大沢","lng":141.631470,"lat":38.961776,"prefecture":4},
-          {"code":1120828,"station":"長部","lng":141.618657,"lat":38.986110,"prefecture":3},
-          {"code":1120829,"station":"陸前今泉","prefecture":3,"lng":141.613479,"lat":39.004122,"comment":"新規追加","date":20200228},
-          {"code":1120830,"station":"奇跡の一本松","lng":141.627134,"lat":39.007864,"prefecture":3},
-          {"code":1120831,"station":"栃ヶ沢公園","lng":141.625438,"lat":39.026988,"prefecture":3},
-          {"code":1120832,"station":"まちなか陸前高田","closed":true,"lng":141.630296,"lat":39.015483,"prefecture":3},
-          {"code":1120833,"station":"高田高校前","lng":141.640223,"lat":39.016279,"prefecture":3,"comment":"座標更新","date":20190329},
-          {"code":1120834,"station":"高田病院","lng":141.641608,"lat":39.025507,"prefecture":3},
-          {"code":1120835,"station":"西下","lng":141.688578,"lat":39.001384,"prefecture":3},
-          {"code":1120836,"station":"碁石海岸口","lng":141.711049,"lat":39.002760,"prefecture":3,"comment":"座標修正(20190426では修正前の情報を参照してた？)","date":"20190524"},
-          {"code":1120837,"station":"大船渡丸森","prefecture":3,"lng":141.712638,"lat":39.028716,"comment":"新規追加","date":20200228},
-          {"code":1120838,"station":"大船渡魚市場前","lng":141.720752,"lat":39.051280,"prefecture":3},
-          {"code":1120839,"station":"地ノ森","prefecture":3,"lat":39.071676,"lng":141.718181,"comment":"新規追加","date":20200228},
-          {"code":1120840,"station":"田茂山","prefecture":3,"lng":141.713408,"lat":39.080179,"comment":"新規追加","date":20200228}
-        ]}
-      ]
-    },
-    
-    {
-      "comment":"JR気仙沼線の不通区間を走るBRT駅のうち既存駅と同名のもの（BRT駅のうち既存駅と同名なもの一部駅は旧鉄道の位置と離れているため新しい座標を反映",
-      "data":[
-        {"code":1122406,"station":"柳津","lng":141.306369,"lat":38.611869,"rename":"柳津(宮城)"},
-        {"code":1122407,"station":"陸前横山","lng":141.354200,"lat":38.631022},
-        {"code":1122408,"station":"陸前戸倉","lng":141.433373,"lat":38.647755},
-        {"code":1122409,"station":"志津川","lng":141.449628,"lat":38.676668},
-        {"code":1122410,"station":"清水浜","lng":141.489625,"lat":38.691892,"date":20190628,"comment":"座標修正"},
-        {"code":1122411,"station":"歌津","lng":141.519751,"lat":38.718299,"date":20190628,"comment":"座標修正"},
-        {"code":1122412,"station":"陸前港","lng":141.531026,"lat":38.739204},
-        {"code":1122413,"station":"蔵内","lng":141.525003,"lat":38.753579},
-        {"code":1122414,"station":"陸前小泉","lng":141.509176,"lat":38.765547},
-        {"code":1122415,"station":"本吉","lng":141.502619,"lat":38.786740},
-        {"code":1122416,"station":"小金沢","lng":141.533989,"lat":38.796362},
-        {"code":1122417,"station":"大谷海岸","lng":141.567141,"lat":38.814268},
-        {"code":1122418,"station":"陸前階上","lng":141.580275,"lat":38.837434},
-        {"code":1122419,"station":"最知","lng":141.581270,"lat":38.853379},
-        {"code":1122420,"station":"松岩","lng":141.583141,"lat":38.873700},
-        {"code":1122421,"station":"南気仙沼","lng":141.567321,"lat":38.894765},
-        {"code":1122422,"station":"不動の沢","lng":141.562678,"lat":38.898486},
-        {"code":11224,"line":"JR気仙沼線","comment":"東日本大震災の影響による不通区間を走るBRTの新設駅","add_station":[
-          {"code":1122424,"station":"南三陸町役場・病院前","lng":141.462452,"lat":38.678776,"prefecture":4},
-          {"code":1122425,"station":"赤岩港","prefecture":4,"comment":"新規追加","date":20200228,"lng":141.582468,"lat":38.884380},
-          {"code":1122426,"station":"気仙沼市立病院","lng":141.565670,"lat":38.887597,"prefecture":4},
-          {"code":1122427,"station":"志津川中央団地","lng":141.450742,"lat":38.683806,"prefecture":4},
-          {"code":1122428,"station":"岩月","lng":141.584078,"lat":38.862282,"prefecture":4}
-        ]}
-        
-      ]
-    }
-  ]
-},
-
 {
   "comment":"駅データ.jpには未登録の駅メモ実装路線",
   "data":[
@@ -2570,6 +2497,92 @@
     {"code":9931901,"station":"佐貫","lng":140.138470,"lat":35.929782},
     {"code":1122421,"station":"南気仙沼","lng":141.576663,"lat":38.895078},
     {"code":2101105,"station":"阿左美","lng":139.308854,"lat":36.387340}
+  ]
+},
+
+{
+  "date":20200428,
+  "comment":"BRT区間の鉄道からの除外に伴う変更",
+  "data":[
+    
+    {"code":1120825,"recode":9920801,"station":"盛","closed":false},
+    {"code":9920716,"recode":9920825,"station":"山口団地"},
+    {"code":9920702,"recode":9920826,"station":"一の渡"},
+    {"code":9920703,"recode":9920827,"station":"佐羽根"},
+    {"code":9920704,"recode":9920828,"station":"田老"},
+    {"code":99208,"line":"三陸鉄道リアス線","add_station":[
+      {"code":9920829,"station":"新田老","lng":141.967295,"lat":39.735514}
+    ]},
+    {"code":9920705,"recode":9920830,"station":"摂待"},
+    {"code":9920706,"recode":9920831,"station":"岩泉小本"},
+    {"code":9920707,"recode":9920832,"station":"島越"},
+    {"code":9920708,"recode":9920833,"station":"田野畑"},
+    {"code":9920709,"recode":9920834,"station":"普代"},
+    {"code":9920710,"recode":9920835,"station":"白井海岸"},
+    {"code":9920711,"recode":9920836,"station":"堀内"},
+    {"code":9920712,"recode":9920837,"station":"野田玉川"},
+    {"code":9920717,"recode":9920838,"station":"十府ヶ浦海岸"},
+    {"code":9920713,"recode":9920839,"station":"陸中野田"},
+    {"code":9920714,"recode":9920840,"station":"陸中宇部"},
+
+    
+    {"code":1122406,"station":"柳津","lng":141.306369,"lat":38.611869,"rename":"柳津(宮城)"},
+    {"code":1122407,"station":"陸前横山","closed":true,"lng":141.354200,"lat":38.631022},
+    {"code":1122408,"station":"陸前戸倉","closed":true,"lng":141.433373,"lat":38.647755},
+    {"code":1122409,"station":"志津川","closed":true,"lng":141.449628,"lat":38.676668},
+    {"code":1122410,"station":"清水浜","closed":true,"lng":141.489625,"lat":38.691892,"date":20190628,"comment":"座標修正"},
+    {"code":1122411,"station":"歌津","closed":true,"lng":141.519751,"lat":38.718299,"date":20190628,"comment":"座標修正"},
+    {"code":1122412,"station":"陸前港","closed":true,"lng":141.531026,"lat":38.739204},
+    {"code":1122413,"station":"蔵内","closed":true,"lng":141.525003,"lat":38.753579},
+    {"code":1122414,"station":"陸前小泉","closed":true,"lng":141.509176,"lat":38.765547},
+    {"code":1122415,"station":"本吉","closed":true,"lng":141.502619,"lat":38.786740},
+    {"code":1122416,"station":"小金沢","closed":true,"lng":141.533989,"lat":38.796362},
+    {"code":1122417,"station":"大谷海岸","closed":true,"lng":141.567141,"lat":38.814268},
+    {"code":1122418,"station":"陸前階上","closed":true,"lng":141.580275,"lat":38.837434},
+    {"code":1122419,"station":"最知","closed":true,"lng":141.581270,"lat":38.853379},
+    {"code":1122420,"station":"松岩","closed":true,"lng":141.583141,"lat":38.873700},
+    {"code":1122421,"station":"南気仙沼","closed":true,"lng":141.567321,"lat":38.894765},
+    {"code":1122422,"station":"不動の沢","closed":true,"lng":141.562678,"lat":38.898486},
+    {"code":11224,"line":"JR気仙沼線","comment":"東日本大震災の影響による不通区間を走るBRTの新設駅","add_station":[
+      {"code":1122423,"station":"南三陸町役場・病院前","closed":true,"lng":141.462452,"lat":38.678776,"prefecture":4},
+      {"code":1122424,"station":"志津川中央団地","closed":true,"lng":141.450742,"lat":38.683806,"prefecture":4},
+      {"code":1122425,"station":"岩月","closed":true,"lng":141.584078,"lat":38.862282,"prefecture":4},
+      {"code":1122426,"station":"赤岩港","closed":true,"lng":141.582468,"lat":38.884380,"prefecture":4},
+      {"code":1122427,"station":"気仙沼市立病院","closed":true,"lng":141.565670,"lat":38.887597,"prefecture":4}
+    ],"remove_station":["気仙沼"]},
+
+
+    
+    {"code":1120815,"station":"鹿折唐桑","closed":true,"lng":141.580968,"lat":38.915610},
+    {"code":1120816,"station":"上鹿折","closed":true,"lng":141.566825,"lat":38.960166},
+    {"code":1120817,"station":"陸前矢作","closed":true,"lng":141.579459,"lat":39.022659},
+    {"code":1120818,"station":"竹駒","closed":true,"lng":141.609488,"lat":39.033909},
+    {"code":1120819,"station":"陸前高田","closed":true,"lng":141.629226,"lat":39.014919},
+    {"code":1120820,"station":"脇ノ沢","closed":true,"lng":141.671756,"lat":39.011886},
+    {"code":1120821,"station":"小友","closed":true,"lng":141.699531,"lat":38.989292},
+    {"code":1120822,"station":"細浦","closed":true,"lng":141.713725,"lat":39.016027},
+    {"code":1120823,"station":"下船渡","closed":true,"lng":141.720865,"lat":39.038329},
+    {"code":1120824,"station":"大船渡","closed":true,"lng":141.720807,"lat":39.063550},
+    {"code":11208,"line":"ドラゴンレール大船渡線","rename":"JR大船渡線(ドラゴンレール大船渡線)", "comment":"JR大船渡線の不通区間を走るBRT新設駅","add_station":[
+      {"code":1120826,"station":"八幡大橋（東陵高校）","closed":true,"lng":141.585300,"lat":38.920964,"prefecture":4},
+      {"code":1120827,"station":"唐桑大沢","closed":true,"lng":141.631470,"lat":38.961776,"prefecture":4},
+      {"code":1120828,"station":"長部","closed":true,"lng":141.618657,"lat":38.986110,"prefecture":3},
+      {"code":1120829,"station":"陸前今泉","closed":true,"prefecture":3,"lng":141.613479,"lat":39.004122,"comment":"新規追加","date":20200228},
+      {"code":1120830,"station":"奇跡の一本松","closed":true,"lng":141.627134,"lat":39.007864,"prefecture":3},
+      {"code":1120831,"station":"栃ヶ沢公園","closed":true,"lng":141.625438,"lat":39.026988,"prefecture":3},
+      {"code":1120832,"station":"まちなか陸前高田","closed":true,"lng":141.630296,"lat":39.015483,"prefecture":3},
+      {"code":1120833,"station":"高田高校前","closed":true,"lng":141.640223,"lat":39.016279,"prefecture":3,"comment":"座標更新","date":20190329},
+      {"code":1120834,"station":"高田病院","closed":true,"lng":141.641608,"lat":39.025507,"prefecture":3},
+      {"code":1120835,"station":"西下","closed":true,"lng":141.688578,"lat":39.001384,"prefecture":3},
+      {"code":1120836,"station":"碁石海岸口","closed":true,"lng":141.711049,"lat":39.002760,"prefecture":3,"comment":"座標修正(20190426では修正前の情報を参照してた？)","date":"20190524"},
+      {"code":1120837,"station":"大船渡丸森","closed":true,"prefecture":3,"lng":141.712638,"lat":39.028716,"comment":"新規追加","date":20200228},
+      {"code":1120838,"station":"大船渡魚市場前","closed":true,"lng":141.720752,"lat":39.051280,"prefecture":3},
+      {"code":1120839,"station":"地ノ森","closed":true,"prefecture":3,"lat":39.071676,"lng":141.718181,"comment":"新規追加","date":20200228},
+      {"code":1120840,"station":"田茂山","closed":true,"prefecture":3,"lng":141.713408,"lat":39.080179,"comment":"新規追加","date":20200228}
+    ],"remove_station":["盛"]}
+
+
+    
   ]
 }
 
