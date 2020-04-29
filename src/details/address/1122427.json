@@ -1,17 +1,17 @@
 {
-  "station": "志津川中央団地",
-  "lat": 38.683806,
-  "lng": 141.450742,
+  "station": "気仙沼市立病院",
+  "lat": 38.887597,
+  "lng": 141.56567,
   "plus_code": {
-    "compound_code": "MFM2+G7 日本、宮城県南三陸町",
-    "global_code": "8RC3MFM2+G7"
+    "compound_code": "VHQ8+27 日本、宮城県気仙沼市",
+    "global_code": "8RC3VHQ8+27"
   },
   "results": [
     {
       "address_components": [
         {
-          "long_name": "志津川中央団地駅",
-          "short_name": "志津川中央団地駅",
+          "long_name": "気仙沼市立病院駅",
+          "short_name": "気仙沼市立病院駅",
           "types": [
             "establishment",
             "point_of_interest",
@@ -20,17 +20,8 @@
           ]
         },
         {
-          "long_name": "新井田",
-          "short_name": "新井田",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
+          "long_name": "赤岩杉ノ沢",
+          "short_name": "赤岩杉ノ沢",
           "types": [
             "political",
             "sublocality",
@@ -38,18 +29,10 @@
           ]
         },
         {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
           "types": [
             "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
             "political"
           ]
         },
@@ -70,35 +53,35 @@
           ]
         },
         {
-          "long_name": "986-0753",
-          "short_name": "986-0753",
+          "long_name": "988-0181",
+          "short_name": "988-0181",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒986-0753 宮城県本吉郡南三陸町志津川新井田 志津川中央団地駅",
+      "formatted_address": "日本、〒988-0181 宮城県気仙沼市赤岩杉ノ沢 気仙沼市立病院駅",
       "geometry": {
         "location": {
-          "lat": 38.6839448,
-          "lng": 141.450516
+          "lat": 38.8875274,
+          "lng": 141.5654977
         },
         "location_type": "GEOMETRIC_CENTER",
         "viewport": {
           "northeast": {
-            "lat": 38.6852937802915,
-            "lng": 141.4518649802915
+            "lat": 38.88887638029149,
+            "lng": 141.5668466802915
           },
           "southwest": {
-            "lat": 38.6825958197085,
-            "lng": 141.4491670197085
+            "lat": 38.88617841970849,
+            "lng": 141.5641487197085
           }
         }
       },
-      "place_id": "ChIJ063L16r-iF8R5hCr96bLQWE",
+      "place_id": "ChIJh5GnUKOUiF8RY1tPrya7iR0",
       "plus_code": {
-        "compound_code": "MFM2+H6 日本、宮城県 南三陸町",
-        "global_code": "8RC3MFM2+H6"
+        "compound_code": "VHQ8+25 日本、宮城県 気仙沼市",
+        "global_code": "8RC3VHQ8+25"
       },
       "types": [
         "establishment",
@@ -110,24 +93,15 @@
     {
       "address_components": [
         {
-          "long_name": "１６５−１",
-          "short_name": "１６５−１",
+          "long_name": "８−２",
+          "short_name": "８−２",
           "types": [
             "premise"
           ]
         },
         {
-          "long_name": "新井田",
-          "short_name": "新井田",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
+          "long_name": "赤岩杉ノ沢",
+          "short_name": "赤岩杉ノ沢",
           "types": [
             "political",
             "sublocality",
@@ -135,18 +109,10 @@
           ]
         },
         {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
           "types": [
             "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
             "political"
           ]
         },
@@ -167,35 +133,35 @@
           ]
         },
         {
-          "long_name": "986-0727",
-          "short_name": "986-0727",
+          "long_name": "988-0181",
+          "short_name": "988-0181",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒986-0727 宮城県本吉郡南三陸町志津川新井田１６５−１",
+      "formatted_address": "日本、〒988-0181 宮城県気仙沼市赤岩杉ノ沢８−２",
       "geometry": {
         "location": {
-          "lat": 38.6833281,
-          "lng": 141.4516559
+          "lat": 38.8875372,
+          "lng": 141.5662007
         },
         "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 38.6846770802915,
-            "lng": 141.4530048802915
+            "lat": 38.8888861802915,
+            "lng": 141.5675496802915
           },
           "southwest": {
-            "lat": 38.6819791197085,
-            "lng": 141.4503069197085
+            "lat": 38.8861882197085,
+            "lng": 141.5648517197085
           }
         }
       },
-      "place_id": "ChIJt0b0Nqv-iF8RaUMkIFne_hM",
+      "place_id": "ChIJU4QDQ6OUiF8RQ_U_a7U49zw",
       "plus_code": {
-        "compound_code": "MFM2+8M 日本、宮城県 南三陸町",
-        "global_code": "8RC3MFM2+8M"
+        "compound_code": "VHQ8+2F 日本、宮城県 気仙沼市",
+        "global_code": "8RC3VHQ8+2F"
       },
       "types": [
         "street_address"
@@ -204,24 +170,15 @@
     {
       "address_components": [
         {
-          "long_name": "国道45号",
-          "short_name": "国道45号",
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
           "types": [
             "route"
           ]
         },
         {
-          "long_name": "城場",
-          "short_name": "城場",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
+          "long_name": "赤岩杉ノ沢",
+          "short_name": "赤岩杉ノ沢",
           "types": [
             "political",
             "sublocality",
@@ -229,18 +186,10 @@
           ]
         },
         {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
           "types": [
             "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
             "political"
           ]
         },
@@ -261,42 +210,42 @@
           ]
         },
         {
-          "long_name": "986-0753",
-          "short_name": "986-0753",
+          "long_name": "988-0181",
+          "short_name": "988-0181",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒986-0753 宮城県本吉郡南三陸町志津川城場 国道45号",
+      "formatted_address": "Unnamed Road, 赤岩杉ノ沢 気仙沼市 宮城県 988-0181 日本",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.6835815,
-            "lng": 141.4519599
+            "lat": 38.8874707,
+            "lng": 141.5657452
           },
           "southwest": {
-            "lat": 38.6833979,
-            "lng": 141.451874
+            "lat": 38.88714340000001,
+            "lng": 141.5653096
           }
         },
         "location": {
-          "lat": 38.6834909,
-          "lng": 141.451913
+          "lat": 38.8873969,
+          "lng": 141.5657033
         },
         "location_type": "GEOMETRIC_CENTER",
         "viewport": {
           "northeast": {
-            "lat": 38.68483868029149,
-            "lng": 141.4532659302915
+            "lat": 38.88865603029151,
+            "lng": 141.5668763802915
           },
           "southwest": {
-            "lat": 38.68214071970849,
-            "lng": 141.4505679697085
+            "lat": 38.88595806970851,
+            "lng": 141.5641784197085
           }
         }
       },
-      "place_id": "ChIJPe6PNKv-iF8R7sJICC22AGM",
+      "place_id": "ChIJ748fX6OUiF8R-Pgujq68FqA",
       "types": [
         "route"
       ]
@@ -304,257 +253,75 @@
     {
       "address_components": [
         {
-          "long_name": "986-0753",
-          "short_name": "986-0753",
+          "long_name": "赤岩杉ノ沢",
+          "short_name": "赤岩杉ノ沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "988-0181",
+          "short_name": "988-0181",
           "types": [
             "postal_code"
           ]
-        },
-        {
-          "long_name": "城場",
-          "short_name": "城場",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_2"
-          ]
-        },
-        {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "宮城県",
-          "short_name": "宮城県",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "日本",
-          "short_name": "JP",
-          "types": [
-            "country",
-            "political"
-          ]
         }
       ],
-      "formatted_address": "日本 〒986-0753",
+      "formatted_address": "日本、〒988-0181 宮城県気仙沼市赤岩杉ノ沢",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.6844358,
-            "lng": 141.4522496
+            "lat": 38.89078200000001,
+            "lng": 141.571026
           },
           "southwest": {
-            "lat": 38.6789199,
-            "lng": 141.4466058
+            "lat": 38.8857771,
+            "lng": 141.56249
           }
         },
         "location": {
-          "lat": 38.6817514,
-          "lng": 141.4494876
+          "lat": 38.88824839999999,
+          "lng": 141.5670146
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 38.6844358,
-            "lng": 141.4522496
+            "lat": 38.89078200000001,
+            "lng": 141.571026
           },
           "southwest": {
-            "lat": 38.6789199,
-            "lng": 141.4466058
+            "lat": 38.8857771,
+            "lng": 141.56249
           }
         }
       },
-      "place_id": "ChIJ_bSQq6v-iF8Rp0edQpk_UUk",
-      "types": [
-        "postal_code"
-      ]
-    },
-    {
-      "address_components": [
-        {
-          "long_name": "新井田",
-          "short_name": "新井田",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_3"
-          ]
-        },
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_2"
-          ]
-        },
-        {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "宮城県",
-          "short_name": "宮城県",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "日本",
-          "short_name": "JP",
-          "types": [
-            "country",
-            "political"
-          ]
-        }
-      ],
-      "formatted_address": "日本、宮城県本吉郡南三陸町志津川新井田",
-      "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 38.693374,
-            "lng": 141.458713
-          },
-          "southwest": {
-            "lat": 38.682816,
-            "lng": 141.4457851
-          }
-        },
-        "location": {
-          "lat": 38.6877791,
-          "lng": 141.4516302
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 38.693374,
-            "lng": 141.458713
-          },
-          "southwest": {
-            "lat": 38.682816,
-            "lng": 141.4457851
-          }
-        }
-      },
-      "place_id": "ChIJ33_I3v37iF8RylG8nKL71WM",
-      "types": [
-        "political",
-        "sublocality",
-        "sublocality_level_3"
-      ]
-    },
-    {
-      "address_components": [
-        {
-          "long_name": "志津川",
-          "short_name": "志津川",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_2"
-          ]
-        },
-        {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
-            "political"
-          ]
-        },
-        {
-          "long_name": "宮城県",
-          "short_name": "宮城県",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "日本",
-          "short_name": "JP",
-          "types": [
-            "country",
-            "political"
-          ]
-        }
-      ],
-      "formatted_address": "日本、宮城県本吉郡南三陸町志津川",
-      "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 38.727446,
-            "lng": 141.516651
-          },
-          "southwest": {
-            "lat": 38.652197,
-            "lng": 141.4066829
-          }
-        },
-        "location": {
-          "lat": 38.6953144,
-          "lng": 141.4502233
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 38.727446,
-            "lng": 141.516651
-          },
-          "southwest": {
-            "lat": 38.652197,
-            "lng": 141.4066829
-          }
-        }
-      },
-      "place_id": "ChIJA4sgpv77iF8RSeSjaTdTIoc",
+      "place_id": "ChIJX0HDLqOUiF8RgcQf-CIPO8I",
       "types": [
         "political",
         "sublocality",
@@ -564,16 +331,24 @@
     {
       "address_components": [
         {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
+          "long_name": "988-0181",
+          "short_name": "988-0181",
           "types": [
-            "administrative_area_level_2",
-            "political"
+            "postal_code"
           ]
         },
         {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
+          "long_name": "赤岩杉ノ沢",
+          "short_name": "赤岩杉ノ沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
           "types": [
             "locality",
             "political"
@@ -596,55 +371,46 @@
           ]
         }
       ],
-      "formatted_address": "日本、宮城県本吉郡南三陸町",
+      "formatted_address": "日本 〒988-0181",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.7535305,
-            "lng": 141.568707
+            "lat": 38.8907817,
+            "lng": 141.5710877
           },
           "southwest": {
-            "lat": 38.5931338,
-            "lng": 141.3675658
+            "lat": 38.8857769,
+            "lng": 141.5618777
           }
         },
         "location": {
-          "lat": 38.7051136,
-          "lng": 141.4516632
+          "lat": 38.88824839999999,
+          "lng": 141.5670146
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 38.7535305,
-            "lng": 141.568707
+            "lat": 38.8907817,
+            "lng": 141.5710877
           },
           "southwest": {
-            "lat": 38.5931338,
-            "lng": 141.3675658
+            "lat": 38.8857769,
+            "lng": 141.5618777
           }
         }
       },
-      "place_id": "ChIJWd8tuET6iF8RlHSO1VPgCd8",
+      "place_id": "ChIJld4_c6OUiF8Rhh03MJuNKJ4",
       "types": [
-        "administrative_area_level_2",
-        "political"
+        "postal_code"
       ]
     },
     {
       "address_components": [
         {
-          "long_name": "南三陸町",
-          "short_name": "南三陸町",
+          "long_name": "気仙沼市",
+          "short_name": "気仙沼市",
           "types": [
             "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "本吉郡",
-          "short_name": "本吉郡",
-          "types": [
-            "administrative_area_level_2",
             "political"
           ]
         },
@@ -665,35 +431,35 @@
           ]
         }
       ],
-      "formatted_address": "日本、宮城県本吉郡南三陸町",
+      "formatted_address": "日本、宮城県気仙沼市",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 38.7535299,
-            "lng": 141.568707
+            "lat": 39.002745,
+            "lng": 141.677383
           },
           "southwest": {
-            "lat": 38.593134,
-            "lng": 141.3675659
+            "lat": 38.739654,
+            "lng": 141.3987501
           }
         },
         "location": {
-          "lat": 38.6808906,
-          "lng": 141.4625848
+          "lat": 38.907641,
+          "lng": 141.5703316
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 38.7535299,
-            "lng": 141.568707
+            "lat": 39.002745,
+            "lng": 141.677383
           },
           "southwest": {
-            "lat": 38.593134,
-            "lng": 141.3675659
+            "lat": 38.739654,
+            "lng": 141.3987501
           }
         }
       },
-      "place_id": "ChIJRaLmusr-iF8RcXsc3nHtsbc",
+      "place_id": "ChIJu2OZ_v6UiF8Rd4p3l7LihwA",
       "types": [
         "locality",
         "political"
