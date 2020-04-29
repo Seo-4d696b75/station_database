@@ -1,47 +1,65 @@
-[station] name/code changed
-	old:{"id":"7e6033","code":2700207,"name":"羽田空港国際線ターミナル","lat":35.544915,"lng":139.767214,"prefecture":13,"lines":[27002],"postal_code":"144-0041","address":"東京都大田区羽田空港二丁目6番5号"}
-	new:{"code":2700207,"name":"羽田空港第３ターミナル(京浜急行電鉄)","lat":35.544915,"lng":139.767214,"lines":[27002],"postal_code":"144-0041","address":"東京都大田区羽田空港二丁目6番5号","prefecture":13,"id":"7e6033"}
-[station] name/code changed
-	old:{"id":"9ad5a3","code":9941509,"name":"蓮町","lat":36.742663,"lng":137.227463,"prefecture":16,"lines":[99415],"postal_code":"931-8333","address":"富山市蓮町一本木割"}
-	new:{"code":9941509,"name":"蓮町(馬場記念公園前)","lat":36.742663,"lng":137.227463,"lines":[99415],"postal_code":"931-8333","address":"富山県富山市蓮町1丁目2番地","prefecture":16,"id":"9ad5a3"}
-[station] name changed
-	old:{"id":"7f707e","code":2700124,"name":"仲木戸","lat":35.477412,"lng":139.634669,"prefecture":14,"lines":[27001],"postal_code":"221-0044","address":"横浜市神奈川区東神奈川１-１１-５"}
-	new:{"code":2700124,"name":"京急東神奈川","lat":35.477412,"lng":139.634669,"lines":[27001],"postal_code":"221-0044","address":"横浜市神奈川区東神奈川１-１１-５","prefecture":14,"id":"7f707e"}
 [station] code changed
-	old:{"id":"1c62ca","code":1122903,"name":"佐貫","lat":35.930066,"lng":140.138217,"prefecture":8,"lines":[11229,99319],"postal_code":"301-0033","address":"龍ケ崎市佐貫町"}
-	new:{"code":9931901,"name":"佐貫","lat":35.929782,"lng":140.13847,"lines":[99319],"postal_code":"301-0033","address":"龍ケ崎市佐貫町","prefecture":8,"id":"1c62ca"}
-[station] name changed
-	old:{"id":"822b2a","code":2700119,"name":"花月園前","lat":35.500358,"lng":139.672813,"prefecture":14,"lines":[27001],"postal_code":"230-0052","address":"横浜市鶴見区生麦５-１-３"}
-	new:{"code":2700119,"name":"花月総持寺","lat":35.500358,"lng":139.672813,"lines":[27001],"postal_code":"230-0052","address":"横浜市鶴見区生麦５-１-３","prefecture":14,"id":"822b2a"}
-[station] name changed
-	old:{"id":"92a138","code":9933611,"name":"羽田空港国際線ビル","lat":35.544169,"lng":139.768206,"prefecture":13,"lines":[99336],"postal_code":"144-0041","address":"東京都大田区羽田空港二丁目6-5"}
-	new:{"code":9933611,"name":"羽田空港第３ターミナル(東京モノレール)","lat":35.544169,"lng":139.768206,"lines":[99336],"id":"92a138"}
-[station] name changed
-	old:{"id":"482730","code":2700206,"name":"羽田空港国内線ターミナル","lat":35.549809,"lng":139.785962,"prefecture":13,"lines":[27002],"postal_code":"144-0041","address":"大田区羽田空港３-３-４"}
-	new:{"code":2700206,"name":"羽田空港第１・第２ターミナル","lat":35.549809,"lng":139.785962,"lines":[27002],"postal_code":"144-0041","address":"大田区羽田空港３-３-４","prefecture":13,"id":"482730"}
-[station] name changed
-	old:{"id":"d52dd8","code":9933609,"name":"羽田空港第１ビル","lat":35.549163,"lng":139.784653,"prefecture":13,"lines":[99336],"postal_code":"144-0041","address":"大田区羽田空港３-３-２"}
-	new:{"code":9933609,"name":"羽田空港第１ターミナル","lat":35.549163,"lng":139.784653,"lines":[99336],"postal_code":"144-0041","address":"大田区羽田空港３-３-２","prefecture":13,"id":"d52dd8"}
-[station] name changed
-	old:{"id":"b79d6b","code":9933610,"name":"羽田空港第２ビル","lat":35.550734,"lng":139.787979,"prefecture":13,"lines":[99336],"postal_code":"144-0041","address":"大田区羽田空港３-４-２"}
-	new:{"code":9933610,"name":"羽田空港第２ターミナル","lat":35.550734,"lng":139.787979,"lines":[99336],"postal_code":"144-0041","address":"大田区羽田空港３-４-２","prefecture":13,"id":"b79d6b"}
-[station] name changed
-	old:{"id":"fdfa84","code":2700306,"name":"産業道路","lat":35.536611,"lng":139.740381,"prefecture":14,"lines":[27003],"postal_code":"210-0811","address":"川崎市川崎区大師河原２-４-２５"}
-	new:{"code":2700306,"name":"大師橋","lat":35.536611,"lng":139.740381,"lines":[27003],"postal_code":"210-0811","address":"川崎市川崎区大師河原２-４-２５","prefecture":14,"id":"fdfa84"}
-[station] name changed
-	old:{"id":"85521f","code":2700404,"name":"新逗子","lat":35.294189,"lng":139.580359,"prefecture":14,"lines":[27004],"postal_code":"249-0006","address":"逗子市逗子５-１-６"}
-	new:{"code":2700404,"name":"逗子・葉山","lat":35.294189,"lng":139.580359,"lines":[27004],"postal_code":"249-0006","address":"逗子市逗子５-１-６","prefecture":14,"id":"85521f"}
-[station] name changed
-	old:{"id":"1b8f2d","code":9920903,"name":"小ヶ田","lat":40.204973,"lng":140.349206,"prefecture":5,"lines":[99209],"postal_code":"018-3454","address":"秋田県北秋田市脇神字小ヶ田"}
-	new:{"code":9920903,"name":"縄文小ヶ田","lat":40.204973,"lng":140.349206,"lines":[99209],"postal_code":"018-3454","address":"秋田県北秋田市脇神字小ヶ田","prefecture":5,"id":"1b8f2d"}
-[station] name changed
-	old:{"id":"12c59c","code":9941320,"name":"大学前(富山)","lat":36.698688,"lng":137.191129,"prefecture":16,"lines":[99413],"postal_code":"930-0887","address":"富山市五福"}
-	new:{"code":9941320,"name":"富山大学前","lat":36.698688,"lng":137.191129,"lines":[99413],"postal_code":"930-0887","address":"富山市五福","prefecture":16,"id":"12c59c"}
-[station] name changed
-	old:{"id":"e20a4a","code":9941510,"name":"大広田","lat":36.748602,"lng":137.228643,"prefecture":16,"lines":[99415],"postal_code":"931-8345","address":"富山市西宮"}
-	new:{"code":9941510,"name":"萩浦小学校前","lat":36.748602,"lng":137.228643,"lines":[99415],"postal_code":"931-8345","address":"富山市西宮町6番地","prefecture":16,"id":"e20a4a"}
-[station] name changed
-	old:{"id":"4dda60","code":9961308,"name":"等持院","lat":35.027828,"lng":135.723797,"prefecture":26,"lines":[99613],"postal_code":"603-8354","address":"京都市北区等持院西町１５-２"}
-	new:{"code":9961308,"name":"等持院・立命館大学衣笠キャンパス前","lat":35.027828,"lng":135.723797,"lines":[99613],"postal_code":"603-8354","address":"京都市北区等持院西町１５-２","prefecture":26,"id":"4dda60"}
+	old:{"code":1120825,"id":"30420b","name":"盛","closed":true,"lat":39.086372,"lng":141.710734,"prefecture":3,"lines":[11208,99208,99219],"postal_code":"022-0003","address":"大船渡市盛町字東町裏"}
+	new:{"code":9920801,"name":"盛","lat":39.086372,"lng":141.710734,"lines":[99208,99219],"postal_code":"022-0003","address":"大船渡市盛町字東町裏","prefecture":3,"id":"30420b"}
+[station] code changed
+	old:{"code":9920716,"id":"b6b836","name":"山口団地","lat":39.64635,"lng":141.933231,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0063","address":"岩手県宮古市山口三丁目"}
+	new:{"code":9920825,"name":"山口団地","lat":39.64635,"lng":141.933231,"lines":[99208,99207],"postal_code":"027-0063","address":"岩手県宮古市山口三丁目","prefecture":3,"id":"b6b836"}
+[station] code changed
+	old:{"code":9920702,"id":"40b59b","name":"一の渡","lat":39.686895,"lng":141.94264,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0097","address":"宮古市崎山"}
+	new:{"code":9920826,"name":"一の渡","lat":39.686895,"lng":141.94264,"lines":[99208,99207],"postal_code":"027-0097","address":"宮古市崎山","prefecture":3,"id":"40b59b"}
+[station] code changed
+	old:{"code":9920703,"id":"dd1c5e","name":"佐羽根","lat":39.711131,"lng":141.935868,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0067","address":"宮古市大字田代"}
+	new:{"code":9920827,"name":"佐羽根","lat":39.711131,"lng":141.935868,"lines":[99208,99207],"postal_code":"027-0067","address":"宮古市大字田代","prefecture":3,"id":"dd1c5e"}
+[station] code changed
+	old:{"code":9920704,"id":"03bf08","name":"田老","lat":39.731848,"lng":141.964556,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0351","address":"宮古市田老小林"}
+	new:{"code":9920828,"name":"田老","lat":39.731848,"lng":141.964556,"lines":[99208,99207],"postal_code":"027-0351","address":"宮古市田老小林","prefecture":3,"id":"03bf08"}
+[station] code changed
+	old:{"code":9920705,"id":"d13f6c","name":"摂待","lat":39.809453,"lng":141.962182,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0384","address":"宮古市田老摂待"}
+	new:{"code":9920830,"name":"摂待","lat":39.809453,"lng":141.962182,"lines":[99208,99207],"postal_code":"027-0384","address":"宮古市田老摂待","prefecture":3,"id":"d13f6c"}
+[station] code changed
+	old:{"code":9920706,"id":"2fd21e","name":"岩泉小本","lat":39.842724,"lng":141.958453,"prefecture":3,"lines":[99208,99207],"postal_code":"027-0421","address":"下閉伊郡岩泉町小本"}
+	new:{"code":9920831,"name":"岩泉小本","lat":39.842724,"lng":141.958453,"lines":[99208,99207],"postal_code":"027-0421","address":"下閉伊郡岩泉町小本","prefecture":3,"id":"2fd21e"}
+[station] code changed
+	old:{"code":9920707,"id":"7ca601","name":"島越","lat":39.915737,"lng":141.93968,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8404","address":"下閉伊郡田野畑村松前沢"}
+	new:{"code":9920832,"name":"島越","lat":39.915737,"lng":141.93968,"lines":[99208,99207],"postal_code":"028-8404","address":"下閉伊郡田野畑村松前沢","prefecture":3,"id":"7ca601"}
+[station] code changed
+	old:{"code":9920708,"id":"c028b0","name":"田野畑","lat":39.934276,"lng":141.933847,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8407","address":"下閉伊郡田野畑村和野"}
+	new:{"code":9920833,"name":"田野畑","lat":39.934276,"lng":141.933847,"lines":[99208,99207],"postal_code":"028-8407","address":"下閉伊郡田野畑村和野","prefecture":3,"id":"c028b0"}
+[station] code changed
+	old:{"code":9920709,"id":"c00464","name":"普代","lat":40.002492,"lng":141.886269,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8332","address":"下閉伊郡普代村銅屋"}
+	new:{"code":9920834,"name":"普代","lat":40.002492,"lng":141.886269,"lines":[99208,99207],"postal_code":"028-8332","address":"下閉伊郡普代村銅屋","prefecture":3,"id":"c00464"}
+[station] code changed
+	old:{"code":9920710,"id":"f1262a","name":"白井海岸","lat":40.032628,"lng":141.883121,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8311","address":"下閉伊郡普代村白井"}
+	new:{"code":9920835,"name":"白井海岸","lat":40.032628,"lng":141.883121,"lines":[99208,99207],"postal_code":"028-8311","address":"下閉伊郡普代村白井","prefecture":3,"id":"f1262a"}
+[station] code changed
+	old:{"code":9920711,"id":"c74f12","name":"堀内","lat":40.051895,"lng":141.859481,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8301","address":"下閉伊郡普代村馬場野"}
+	new:{"code":9920836,"name":"堀内","lat":40.051895,"lng":141.859481,"lines":[99208,99207],"postal_code":"028-8301","address":"下閉伊郡普代村馬場野","prefecture":3,"id":"c74f12"}
+[station] code changed
+	old:{"code":9920712,"id":"e6ac89","name":"野田玉川","lat":40.082728,"lng":141.828874,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8202","address":"九戸郡野田村大字玉川"}
+	new:{"code":9920837,"name":"野田玉川","lat":40.082728,"lng":141.828874,"lines":[99208,99207],"postal_code":"028-8202","address":"九戸郡野田村大字玉川","prefecture":3,"id":"e6ac89"}
+[station] code changed
+	old:{"code":9920717,"id":"176d79","name":"十府ヶ浦海岸","lat":40.096834,"lng":141.824171,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8201","address":"岩手県九戸郡野田村大字野田第10地割中沼10-3"}
+	new:{"code":9920838,"name":"十府ヶ浦海岸","lat":40.096834,"lng":141.824171,"lines":[99208,99207],"postal_code":"028-8201","address":"岩手県九戸郡野田村大字野田第10地割中沼10-3","prefecture":3,"id":"176d79"}
+[station] code changed
+	old:{"code":9920713,"id":"dfe7dc","name":"陸中野田","lat":40.116115,"lng":141.81899,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8201","address":"九戸郡野田村大字野田"}
+	new:{"code":9920839,"name":"陸中野田","lat":40.116115,"lng":141.81899,"lines":[99208,99207],"postal_code":"028-8201","address":"九戸郡野田村大字野田","prefecture":3,"id":"dfe7dc"}
+[station] code changed
+	old:{"code":9920714,"id":"1531a9","name":"陸中宇部","lat":40.132441,"lng":141.785904,"prefecture":3,"lines":[99208,99207],"postal_code":"028-8111","address":"久慈市宇部町"}
+	new:{"code":9920840,"name":"陸中宇部","lat":40.132441,"lng":141.785904,"lines":[99208,99207],"postal_code":"028-8111","address":"久慈市宇部町","prefecture":3,"id":"1531a9"}
+[station] code changed
+	old:{"code":1122424,"id":"c32780","name":"南三陸町役場・病院前","lat":38.678776,"lng":141.462452,"prefecture":4,"lines":[11224]}
+	new:{"code":1122423,"name":"南三陸町役場・病院前","lat":38.678776,"lng":141.462452,"closed":true,"lines":[11224],"prefecture":4,"id":"c32780"}
+[station] code changed
+	old:{"code":1122425,"id":"8e17cb","name":"赤岩港","lat":38.88438,"lng":141.582468,"prefecture":4,"lines":[11224]}
+	new:{"code":1122426,"name":"赤岩港","lat":38.88438,"lng":141.582468,"closed":true,"lines":[11224],"prefecture":4,"id":"8e17cb"}
+[station] code changed
+	old:{"code":1122426,"id":"9a7963","name":"気仙沼市立病院","lat":38.887597,"lng":141.56567,"prefecture":4,"lines":[11224]}
+	new:{"code":1122427,"name":"気仙沼市立病院","lat":38.887597,"lng":141.56567,"closed":true,"lines":[11224],"prefecture":4,"id":"9a7963"}
+[station] code changed
+	old:{"code":1122427,"id":"c648f0","name":"志津川中央団地","lat":38.683806,"lng":141.450742,"prefecture":4,"lines":[11224]}
+	new:{"code":1122424,"name":"志津川中央団地","lat":38.683806,"lng":141.450742,"closed":true,"lines":[11224],"prefecture":4,"id":"c648f0"}
+[station] code changed
+	old:{"code":1122428,"id":"9a173f","name":"岩月","lat":38.862282,"lng":141.584078,"prefecture":4,"lines":[11224]}
+	new:{"code":1122425,"name":"岩月","lat":38.862282,"lng":141.584078,"closed":true,"lines":[11224],"prefecture":4,"id":"9a173f"}
 [station] add
-	new:{"code":1122903,"name":"龍ケ崎市","lat":35.929872,"lng":140.138066,"lines":[11229],"postal_code":"301-0033","address":"龍ケ崎市佐貫町","prefecture":8,"id":"bc7e43"}
+	new:{"code":9920829,"name":"新田老","lat":39.735514,"lng":141.967295,"lines":[99208],"id":"f52e8c"}
