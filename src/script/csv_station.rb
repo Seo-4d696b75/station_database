@@ -80,6 +80,10 @@ class Station
 			end
 			#路線の追加
 			@data['lines'] << s['line_code']
+			#廃駅の確認
+			if @data['closed'] && !s['closed']
+				@data.delete('closed')
+			end
 			return true
 		end
 		return false
@@ -129,16 +133,16 @@ def add_item(cells, groups)
 	# 廃止 status == 2
 	if status == 2
 		item['closed'] = true
-		if cells[12] == '' || cells[12] == '0000-00-00'
-			# puts "station #{item['code']} #{item['name']} is closed, but no close-date"
-		else
-			item['close_date'] = cells[12]
-			puts "station #{item['code']} #{item['name']} was closed on #{cells[12]}"
-		end
+		#if cells[12] == '' || cells[12] == '0000-00-00'
+		#	# puts "station #{item['code']} #{item['name']} is closed, but no close-date"
+		#else
+		#	item['close_date'] = cells[12]
+		#	puts "station #{item['code']} #{item['name']} was closed on #{cells[12]}"
+		#end
 	end
-	if cells[11] != '' && cells[11] != '00000-00-00'
-		item['open_date'] = cells[11]
-	end
+	#if cells[11] != '' && cells[11] != '0000-00-00'
+	#	item['open_date'] = cells[11]
+	#end
 	if groups.key?(group_code)
 		groups[group_code].add(item)
 	else

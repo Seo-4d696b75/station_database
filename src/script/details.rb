@@ -119,8 +119,21 @@ stations.each do |s|
 		s['prefecture'] = prefecture
 	end
 	prefecture_cnt[prefecture] += 1
+	if attribute != 'heat' && attribute != 'cool' && attribute != 'eco' && attribute != 'unknown'
+		puts "Error > invalid attribute #{attribute} for station:#{s}";
+		exit(0)
+	end
+	closed = s.key?('closed') && s['closed']
+	if closed && attribute != 'unknown'
+		puts "Error > attr:#{attribute} not accepted for closed:#{s}"
+		exit(0)
+	elsif !closed && attribute == 'unknown'
+		puts "Error > attr:#{attribute} not accepted for station:#{s}"
+		exit(0)
+	end
 	s['attr'] = attribute
 end
+
 
 if details.length != stations.length
 	puts "Error > station size mismatch solved:#{details.length} detail:#{details.length}"
