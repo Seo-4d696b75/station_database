@@ -126,16 +126,14 @@ stations.each do |s|
 	closed = s.key?('closed') && s['closed']
 	if closed && attribute != 'unknown'
 		puts "Error > attr:#{attribute} not accepted for closed:#{s}"
-		#exit(0)
+		exit(0)
 	elsif !closed && attribute == 'unknown'
 		puts "Error > attr:#{attribute} not accepted for station:#{s}"
-		#exit(0)
+		exit(0)
 	end
 	s['attr'] = attribute
 end
 
-puts "stop"
-exit(0)
 
 if details.length != stations.length
 	puts "Error > station size mismatch solved:#{details.length} detail:#{details.length}"
