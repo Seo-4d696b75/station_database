@@ -165,6 +165,8 @@ def sort_hash(data)
 		'attr',
 		'postal_code',
 		'address',
+		'open_date',
+		'closed_date',
 		'next',
 		'voronoi'
 	]

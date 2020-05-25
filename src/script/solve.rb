@@ -166,6 +166,8 @@ class Solver
 		if post = data['postal_code'] then cp['postal_code'] = post end
 		if adr = data['address'] then cp['address'] = adr end
 		if prf = data['prefecture'] then cp['prefecture'] = prf end
+		if cd = data['closed_date'] then cp['closed_date'] = cd end
+		if od = data['open_date'] then cp['open_date'] = od end
 		return StationItem.new (cp)
 	end
 	
