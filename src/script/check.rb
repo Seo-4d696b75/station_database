@@ -365,6 +365,7 @@ File.open('check/line.csv','r') do |file|
   end
 end
 register = []
+register << ['station_code','line_code','index','numbering']
 lines.each do |line|
   path = "details/line/#{line['code']}.json"
   details = read_json(path)
@@ -411,7 +412,7 @@ lines.each do |line|
     end
     impl_size += 1 if station['impl']
     # 駅要素側にも登録路線を記憶
-    station['lines'] << line['code']
+    station['lines'] << line['code'] if station['impl']&&line['impl']
     index = i + 1
     # 駅ナンバリングを文字列表現
     numbering = 'NULL'
@@ -444,6 +445,7 @@ lines.each do |line|
         puts "Error > station size(impl) mismatch. expected(check/line):#{size} actual:#{impl_size} at station_list #{JSON.dump(line)}"
         exit(0)
       end
+      line['station_size'] = size
     else
       puts "Error > line:#{line['name']} not found at check/line. at station_list #{JSON.dump(line)}"
       exit(0)
@@ -453,11 +455,17 @@ end
 # 路線登録されているか
 stations.each do |station|
   station['lines'].uniq!
-  if station['lines'].length == 0
+  if station['lines'].length == 0 && station['impl']
     puts "Error > station not registered in any line. #{JSON.dump(station)}"
     exit(0)
   end
 end
+
+print "Write station register.csv..."
+File.open('register.csv','w') do |file|
+  register.each{|e| file.puts(e.join(','))}
+end
+puts 'OK'
 
 print "Write to json files..."
 File.open('solved/line.json','w') do |f|

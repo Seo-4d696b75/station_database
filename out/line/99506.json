@@ -1,6 +1,7 @@
 {
   "code":99506,
   "name":"遠州鉄道",
+  "name_formal":"遠州鉄道鉄道線",
   "station_list":[
     {"code":9950601,"id":"d3314a","name":"新浜松","name_kana":"しんはままつ","lat":34.703402,"lng":137.732456,"prefecture":22,"numbering":[{"index":"01"}],"lines":[99506],"attr":"heat","postal_code":"430-0933","address":"浜松市中区鍛冶町４","next":[1150203,1150131,9950602,100210],"voronoi":{"lat":34.705382,"lng":137.733255,"delta_lat":[0,2791,-446808,36756],"delta_lng":[0,-29232,113350,-2065]}},
     {"code":9950602,"id":"60125c","name":"第一通り","name_kana":"だいいちどおり","lat":34.707477,"lng":137.732845,"prefecture":22,"numbering":[{"index":"02"}],"lines":[99506],"attr":"heat","postal_code":"430-0944","address":"浜松市中区田町２３０-２８","next":[1150203,9950601,100210,9950603],"voronoi":{"lat":34.713168,"lng":137.70237,"delta_lat":[0,-4996,-2791,2922],"delta_lng":[0,1653,29232,5513]}},

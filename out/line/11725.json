@@ -1,6 +1,7 @@
 {
   "code":11725,
   "name":"倉吉線",
+  "name_formal":"国鉄倉吉線",
   "closed":true,
   "station_list":[
     {"code":1161628,"id":"faefc8","name":"倉吉","name_kana":"くらよし","lat":35.45473,"lng":133.849661,"prefecture":31,"lines":[11616,11725],"attr":"eco","postal_code":"682-0022","address":"倉吉市上井町","next":[1161627,1172503,1172502,1161629],"voronoi":{"lat":35.425585,"lng":133.885499,"delta_lat":[0,31716,3285,55442],"delta_lng":[0,-58663,-2636,37166]}},

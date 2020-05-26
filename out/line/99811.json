@@ -1,6 +1,7 @@
 {
   "code":99811,
   "name":"伊予鉄道５系統(松山駅前線)",
+  "name_formal":"伊予鉄道５系統",
   "color":"#0000FF",
   "station_list":[
     {"code":9980805,"id":"fd4757","name":"JR松山駅前","name_kana":"じぇいあーるまつやまえきまえ","lat":33.840765,"lng":132.752326,"prefecture":38,"numbering":[{"index":"05"}],"lines":[99808,99809,99811],"attr":"cool","postal_code":"790-0067","address":"松山市大手町２","next":[1180657,9980609,9980806],"voronoi":{"lat":33.84257,"lng":132.750215,"delta_lat":[0,-4306,3902],"delta_lng":[0,2967,1326]}},
