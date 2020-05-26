@@ -34,6 +34,7 @@ line_fields = [
 
 
 stations = []
+station_map = {}
 station_code_set = Set.new
 station_name_set = Set.new
 id_set = IDSet.new
@@ -231,7 +232,11 @@ csv_each_line('station.csv') do |fields|
   station['open_date'] = read_date(fields,"open_date")    
   station['closed_date'] = read_date(fields,"closed_date")
     
+  # 登録路線用
+  station['lines'] = []
   stations << station
+  station_map[code] = station
+  station_map[name] = station if impl
 end
 
 impl_size = stations.select{|s| s['impl']}.length
@@ -330,5 +335,150 @@ stations.each do |station|
   end
   write_csv(station_fields,stations) if write
 end
+
+
+print "check line details: station-list, polyline..."
+lines.each do |line|
+	# 路線の詳細情報
+	path = "details/line/#{line['code']}.json"
+	if !File.exists?(path)
+		puts "Error > file:#{path} not fount. line:#{JSON.dump(line)}"
+		exit(0)
+	end
+	# 路線ポリラインは廃線のみ欠損許す
+	path = "polyline/solved/#{line['code']}.json"
+	if !File.exists?(path) && !line['closed']
+		puts "Error > polyline not found. line:#{JSON.dump(line)}"
+		exit(0)
+	end
+end
+puts "OK"
+
+puts "checking station-list"
+line_impl_size = {}
+File.open('check/line.csv','r') do |file|
+  file.each_line do |line|
+    cells = line.chomp.split(',')
+    name = cells[0]
+    size = cells[1].to_i
+    line_impl_size[name] = size
+  end
+end
+register = []
+lines.each do |line|
+  path = "details/line/#{line['code']}.json"
+  details = read_json(path)
+	if line['name'] != details['name']
+		puts "Error > name mismatch(details). file:#{line['code']}.json line:#{JSON.dump(line)}"
+		exit(0)
+  end
+  # 登録駅数の確認
+	size = line['station_size']
+	if size != details['station_list'].length
+		puts "Error > station list size mismatch. expected:#{size} actual:#{details['station_list'].length} at #{JSON.dump(line)}"
+		exit(0)
+  end
+  line_code = line['code']
+  symbol = line['symbol']
+  impl_size = 0
+
+  write = false
+  details['station_list'].map!.each_with_index do |s,i|
+    station_code = s['code']
+    station_name = s['name']
+    # 名前解決
+    station = nil
+    if !(station=station_map[station_name]) && !(station=station_map[station_code])
+      puts "Error > station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
+			exit(0)
+    end
+    if station_code != station['code'] && station['impl']
+      # 駅メモでは駅名の重複なしのため駅名一致なら同値
+      puts "station code changed. #{station_name}@#{line['name']} #{station_code}=>#{station['code']}"
+      station_code = station['code']
+      s['code'] = station['code']
+      write = true
+    elsif station_name != station['name'] && station['imp']
+      # 駅名変更は慎重に
+			print "station name changed. #{station_code}@#{line['name']} #{station_name}=>#{station['name']} Is this OK? Y/N =>"
+      exit(0) if gets.chomp.match(/[nN]/)
+      station_name = station['name']
+      s['name'] = station['name']
+      write = true
+    elsif station_code != station['code'] || station_name != station['name']
+      puts "Error > fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
+      exit(0)
+    end
+    impl_size += 1 if station['impl']
+    # 駅要素側にも登録路線を記憶
+    station['lines'] << line['code']
+    index = i + 1
+    # 駅ナンバリングを文字列表現
+    numbering = 'NULL'
+    if s.key?('numbering')
+      numbering = s['numbering'].map do |n|
+        value = ""
+        if n.key?('symbol')
+          value << n['symbol']
+        elsif symbol
+          value << symbol
+        end
+        value << n['index']
+        next value
+      end.join('/')
+    end
+    register << [station_code,line_code,index,numbering]
+    next sort_hash(s)
+  end
+  
+  # 更新あるなら路線詳細へ反映
+	if write
+		File.open(path,"w:utf-8") do |f|
+			f.write(format_json(details, flat_array:['station_list']))
+		end
+  end
+  # 登録駅数の再度確認
+  if line['impl']
+    if size = line_impl_size[line['name']]
+      if size != impl_size
+        puts "Error > station size(impl) mismatch. expected(check/line):#{size} actual:#{impl_size} at station_list #{JSON.dump(line)}"
+        exit(0)
+      end
+    else
+      puts "Error > line:#{line['name']} not found at check/line. at station_list #{JSON.dump(line)}"
+      exit(0)
+    end
+  end
+end
+# 路線登録されているか
+stations.each do |station|
+  station['lines'].uniq!
+  if station['lines'].length == 0
+    puts "Error > station not registered in any line. #{JSON.dump(station)}"
+    exit(0)
+  end
+end
+
+print "Write to json files..."
+File.open('solved/line.json','w') do |f|
+  list = lines.select{|line| line.delete('impl')}.map do |line| 
+    line.delete_if do |key,value|
+      value==nil || (key=='closed'&&!value)
+    end
+    sort_hash(line)
+  end
+  f.write(format_json(list, flat:true))
+end
+File.open('solved/station.json','w') do |f|
+  list = stations.select{|s| s.delete('impl')}.map do |s|
+    s.delete_if do |key,value|
+      value==nil || (key=='closed'&&!value)
+    end
+    sort_hash(s)
+  end
+	f.write(format_json(list,flat:true))
+end
+puts 'OK'
+
 
 puts "All done."
