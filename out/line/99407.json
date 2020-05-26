@@ -1,7 +1,11 @@
 {
   "code":99407,
+  "id":"ed45b8",
   "name":"松本電鉄上高地線",
+  "name_kana":"まつもとでんてつかみこうちせん",
   "name_formal":"アルピコ交通上高地線",
+  "station_size":14,
+  "company_code":159,
   "station_list":[
     {"code":1140901,"id":"975a5b","name":"松本","name_kana":"まつもと","lat":36.230393,"lng":137.96445,"prefecture":20,"lines":[11409,11412,99407],"attr":"cool","postal_code":"390-0815","address":"松本市深志１丁目","next":[1141204,9940703,9940415,9940702,1140902],"voronoi":{"lat":36.231769,"lng":137.959087,"delta_lat":[0,-1545,-6766,27734,36707],"delta_lng":[0,590,19290,109430,-22813]}},
     {"code":9940702,"id":"4e4d13","name":"西松本","name_kana":"にしまつもと","lat":36.227111,"lng":137.963299,"prefecture":20,"lines":[99407],"attr":"eco","postal_code":"390-0816","address":"松本市中条３-１５","next":[9940703,1140901,1141204],"voronoi":{"lat":36.216233,"lng":137.959566,"delta_lat":[0,13991,-6766],"delta_lng":[0,112,19290]}},

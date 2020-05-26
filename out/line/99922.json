@@ -1,6 +1,10 @@
 {
   "code":99922,
+  "id":"dcc033",
   "name":"熊本市電Ａ系統",
+  "name_kana":"くまもとしでんえーけいとう",
+  "station_size":26,
+  "company_code":241,
   "station_list":[
     {"code":9992201,"id":"c2aa17","name":"田崎橋","name_kana":"たさきばし","lat":32.785398,"lng":130.68866,"prefecture":43,"numbering":[{"index":"1"}],"lines":[99922],"attr":"eco","postal_code":"860-0047","address":"熊本市春日２丁目１０-５４地先","next":[9992202,1192302,1190351,101007],"voronoi":{"lat":32.783079,"lng":130.695995,"delta_lat":[0,-10868,13047,1965],"delta_lng":[0,-2797,-52987,46490]}},
     {"code":9992202,"id":"3e1d5c","name":"二本木口","name_kana":"にほんぎぐち","lat":32.786986,"lng":130.689368,"prefecture":43,"numbering":[{"index":"2"}],"lines":[99922],"attr":"eco","postal_code":"860-0047","address":"熊本市春日２丁目９-９地先","next":[9992203,1192302,9992201,101007,9992204],"voronoi":{"lat":32.783079,"lng":130.695995,"delta_lat":[0,4144,1061,-570,-2271],"delta_lng":[0,-9294,2712,4988,2498]}},

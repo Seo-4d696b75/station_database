@@ -1,6 +1,10 @@
 {
   "code":99521,
+  "id":"26fd88",
   "name":"豊橋鉄道東田本線",
+  "name_kana":"とよはしてつどうあずまだほんせん",
+  "station_size":14,
+  "company_code":181,
   "station_list":[
     {"code":9952101,"id":"e90bad","name":"駅前","name_kana":"えきまえ","lat":34.763879,"lng":137.383132,"prefecture":23,"numbering":[{"index":"1"}],"lines":[99521],"attr":"eco","postal_code":"441-0000","address":"豊橋市","next":[9952001,100211,1141302,9952102,9952104],"voronoi":{"lat":34.774052,"lng":137.384065,"delta_lat":[0,-5595,-5428,210,5201],"delta_lng":[0,-7309,6191,1394,1353]}},
     {"code":9952102,"id":"8444d7","name":"駅前大通","name_kana":"えきまえおおどおり","lat":34.763209,"lng":137.385707,"prefecture":23,"numbering":[{"index":"2"}],"lines":[99521],"attr":"eco","postal_code":"441-0000","address":"豊橋市","next":[9952103,9952104,9952002,9952001,9952101],"voronoi":{"lat":34.76324,"lng":137.38434,"delta_lat":[0,-4543,347,5921,3476],"delta_lng":[0,1825,1058,552,-2082]}},

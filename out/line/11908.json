@@ -1,7 +1,11 @@
 {
   "code":11908,
+  "id":"08dc5a",
   "name":"JR篠栗線(福北ゆたか線)",
+  "name_kana":"じぇいあーるささぐりせん(ふくほくゆたかせん)",
   "name_formal":"JR篠栗線",
+  "station_size":12,
+  "company_code":6,
   "color":"#FFFF00",
   "station_list":[
     {"code":1190801,"id":"8835ce","name":"桂川(福岡)","name_kana":"けいせん","lat":33.584705,"lng":130.662752,"prefecture":40,"lines":[11908,11911,11912],"attr":"heat","postal_code":"820-0608","address":"嘉穂郡桂川町大字豆田","next":[1191115,1191503,1191202,1190802,1191203],"voronoi":{"lat":33.54056,"lng":130.689589,"delta_lat":[0,43218,26029,-44998,-48920],"delta_lng":[0,-43697,4238,61425,22500]}},

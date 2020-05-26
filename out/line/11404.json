@@ -1,6 +1,10 @@
 {
   "code":11404,
+  "id":"df8569",
   "name":"JR信越本線(直江津～新潟)",
+  "name_kana":"じぇいあーるしんえつほんせん",
+  "station_size":42,
+  "company_code":2,
   "color":"#00B3E6",
   "station_list":[
     {"code":1140321,"id":"54830d","name":"直江津","name_kana":"なおえつ","lat":37.170251,"lng":138.242265,"prefecture":15,"lines":[11404,11405,99423,99424],"attr":"eco","postal_code":"942-0003","address":"上越市東町１丁目","next":[1140523,1140402,1140320],"voronoi":{"lat":37.291986,"lng":138.19364,"delta_lat":[0,-122632,-20559],"delta_lng":[0,14078,62181]}},

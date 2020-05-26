@@ -1,6 +1,10 @@
 {
   "code":99406,
+  "id":"ad00dc",
   "name":"長野電鉄屋代線",
+  "name_kana":"ながのでんてつやしろせん",
+  "station_size":13,
+  "company_code":158,
   "closed":true,
   "symbol":"Y",
   "station_list":[
@@ -22,6 +26,7 @@
   "south":36.5319,
   "east":138.3046,
   "west":138.12744,
+  "closed_date":"2012-04-01",
   "polyline_list":[
     {
       "start":"屋代",

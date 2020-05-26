@@ -1,6 +1,10 @@
 {
   "code":99317,
+  "id":"15e74c",
   "name":"横浜新都市交通金沢シーサイドライン",
+  "name_kana":"よこはましんとしこうつうかなざわしーさいどらいん",
+  "station_size":14,
+  "company_code":131,
   "color":"#F68B1E",
   "station_list":[
     {"code":1130708,"id":"4dc06c","name":"新杉田","name_kana":"しんすぎた","lat":35.386863,"lng":139.619483,"prefecture":14,"numbering":[{"index":"01"}],"lines":[11307,99317],"attr":"eco","postal_code":"235-0032","address":"横浜市磯子区新杉田町","next":[1130707,2700134,9931702,2700135],"voronoi":{"lat":35.38955,"lng":139.614156,"delta_lat":[0,3625,1785,-16978],"delta_lng":[0,2915,14828,-8280]}},

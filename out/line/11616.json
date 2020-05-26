@@ -1,6 +1,10 @@
 {
   "code":11616,
+  "id":"fe4ba9",
   "name":"JR山陰本線(豊岡～米子)",
+  "name_kana":"じぇいあーるさんいんほんせん",
+  "station_size":41,
+  "company_code":4,
   "color":"#B8D200",
   "station_list":[
     {"code":1161524,"id":"0e175d","name":"豊岡(兵庫)","name_kana":"とよおか","lat":35.543825,"lng":134.813694,"prefecture":28,"lines":[11615,11616,99609,99654],"attr":"heat","postal_code":"668-0031","address":"豊岡市大手町","next":[1161523,9960918,1161602],"voronoi":{"lat":35.541899,"lng":134.730694,"delta_lat":[0,-31472,58817],"delta_lng":[0,109551,-24373]}},

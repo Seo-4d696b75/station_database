@@ -1,6 +1,10 @@
 {
   "code":99421,
+  "id":"824528",
   "name":"福井鉄道福武線",
+  "name_kana":"ふくいてつどうふくぶせん",
+  "station_size":25,
+  "company_code":168,
   "symbol":"F",
   "station_list":[
     {"code":9942101,"id":"3cf20e","name":"越前武生","name_kana":"えちぜんたけふ","lat":35.906426,"lng":136.170274,"prefecture":18,"numbering":[{"index":"0"}],"lines":[99421],"attr":"heat","postal_code":"915-0071","address":"福井県越前市府中3丁目","open_date":"1924-02-23","next":[9942102,9942104,9942124,9942103,1141518],"voronoi":{"lat":35.903434,"lng":136.163612,"delta_lat":[0,10088,2447,-50,-4302],"delta_lng":[0,10025,14294,3721,12579]}},

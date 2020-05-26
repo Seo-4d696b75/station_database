@@ -1,6 +1,10 @@
 {
   "code":11909,
+  "id":"81b9fd",
   "name":"JR筑肥線(姪浜～西唐津)",
+  "name_kana":"じぇいあーるちくひせん",
+  "station_size":21,
+  "company_code":6,
   "symbol":"JK",
   "station_list":[
     {"code":1190901,"id":"690512","name":"姪浜","name_kana":"めいのはま","lat":33.583764,"lng":130.32521,"prefecture":40,"numbering":[{"index":"01"}],"lines":[11909,99905],"attr":"heat","postal_code":"819-0002","address":"福岡市西区姪の浜４丁目","next":[1190902,1191601,9990512,9990701,9990702],"voronoi":{"lat":33.618114,"lng":130.339121,"delta_lat":[0,13578,-61472,-1728,29],"delta_lng":[0,-27680,6635,11903,211]}},

@@ -1,6 +1,10 @@
 {
   "code":11416,
+  "id":"7e050d",
   "name":"JR高山本線",
+  "name_kana":"じぇいあーるたかやまほんせん",
+  "station_size":45,
+  "company_code":3,
   "symbol":"CG",
   "station_list":[
     {"code":1141601,"id":"b0ddaa","name":"岐阜","name_kana":"ぎふ","lat":35.409532,"lng":136.756514,"prefecture":21,"numbering":[{"index":"00"}],"lines":[11416,11502,11503],"attr":"heat","postal_code":"500-8856","address":"岐阜市橋本町１丁目","next":[3000157,1150302,3000159,9952608,3002003,3000160,3002002],"voronoi":{"lat":35.395005,"lng":136.755604,"delta_lat":[0,10581,62040,-1781,-76426,-573,69],"delta_lng":[0,4830,-28016,-1095,11238,1510,1992]}},

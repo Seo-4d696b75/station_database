@@ -1,6 +1,10 @@
 {
   "code":11223,
+  "id":"4ed3cd",
   "name":"JR石巻線",
+  "name_kana":"じぇいあーるいしのまきせん",
+  "station_size":14,
+  "company_code":2,
   "color":"#ED77A4",
   "station_list":[
     {"code":1123156,"id":"ce05a9","name":"小牛田","name_kana":"こごた","lat":38.541111,"lng":141.064355,"prefecture":4,"lines":[11231,11221,11223],"attr":"eco","postal_code":"987-0001","address":"遠田郡美里町藤ケ崎","next":[1122302,1123155,1123157,1122102],"voronoi":{"lat":38.570113,"lng":141.076169,"delta_lat":[0,-37717,-22400,57682],"delta_lng":[0,8681,-59513,26168]}},

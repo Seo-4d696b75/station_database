@@ -1,6 +1,10 @@
 {
   "code":11405,
+  "id":"17da13",
   "name":"JR北陸本線(富山～直江津)",
+  "name_kana":"じぇいあーるほくりくほんせん",
+  "station_size":24,
+  "company_code":4,
   "closed":true,
   "station_list":[
     {"code":100911,"id":"7b9954","name":"富山","name_kana":"とやま","lat":36.701613,"lng":137.213255,"prefecture":16,"lines":[1009,11405,11416,99425],"attr":"eco","postal_code":"930-0001","address":"富山市明輪町","next":[9941501,9941313,9941322,9940801],"voronoi":{"lat":36.700933,"lng":137.213471,"delta_lat":[0,-19,1971,-1257],"delta_lng":[0,-426,-393,1474]}},
@@ -32,6 +36,7 @@
   "south":36.69824,
   "east":138.2436,
   "west":137.21074,
+  "closed_date":"2015-03-14",
   "polyline_list":[
     {
       "start":"富山",

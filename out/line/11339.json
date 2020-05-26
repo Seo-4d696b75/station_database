@@ -1,6 +1,10 @@
 {
   "code":11339,
+  "id":"26e059",
   "name":"JR水戸線",
+  "name_kana":"じぇいあーるみとせん",
+  "station_size":16,
+  "company_code":2,
   "color":"#3333FF",
   "station_list":[
     {"code":100404,"id":"dec054","name":"小山","name_kana":"おやま","lat":36.312747,"lng":139.806241,"prefecture":9,"lines":[1004,11319,11339,11341],"attr":"heat","postal_code":"323-0025","address":"小山市城山町","next":[1131917,1134120,1131919,1133902],"voronoi":{"lat":36.347539,"lng":139.81747,"delta_lat":[0,-39963,-50086,78489],"delta_lng":[0,-60823,60765,19871]}},

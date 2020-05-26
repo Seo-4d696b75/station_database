@@ -1,6 +1,10 @@
 {
   "code":99410,
+  "id":"e0fcf7",
   "name":"富山地鉄不二越・上滝線",
+  "name_kana":"とやまちてつふじこし・かみだきせん",
+  "station_size":16,
+  "company_code":160,
   "color":"#F77321",
   "station_list":[
     {"code":9940801,"id":"86af15","name":"電鉄富山","name_kana":"でんてつとやま","lat":36.700757,"lng":137.214163,"prefecture":16,"lines":[99408,99410],"attr":"cool","postal_code":"930-0002","address":"富山市新富町","next":[9941313,9941312,9941501,9941502,100911],"voronoi":{"lat":36.700933,"lng":137.213471,"delta_lat":[0,-1773,1879,747,-158],"delta_lng":[0,1091,2102,-829,-1709]}},

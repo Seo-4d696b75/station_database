@@ -1,6 +1,10 @@
 {
   "code":11207,
+  "id":"0597e3",
   "name":"JR岩泉線",
+  "name_kana":"じぇいあーるいわいずみせん",
+  "station_size":9,
+  "company_code":2,
   "closed":true,
   "color":"#808080",
   "station_list":[
@@ -18,6 +22,7 @@
   "south":39.62037,
   "east":141.79983,
   "west":141.66921,
+  "closed_date":"2014-04-01",
   "polyline_list":[
     {
       "start":"茂市",

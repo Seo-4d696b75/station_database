@@ -1,7 +1,11 @@
 {
   "code":99306,
+  "id":"33957a",
   "name":"秩父鉄道",
+  "name_kana":"ちちぶてつどう",
   "name_formal":"秩父鉄道秩父本線",
+  "station_size":37,
+  "company_code":120,
   "station_list":[
     {"code":2100237,"id":"67871f","name":"羽生","name_kana":"はにゅう","lat":36.170345,"lng":139.533949,"prefecture":11,"lines":[21002,99306],"attr":"cool","postal_code":"348-0053","address":"羽生市南１","next":[2100238,2100236,9930602,9930603],"voronoi":{"lat":36.191422,"lng":139.539862,"delta_lat":[0,7951,-66938,29062],"delta_lng":[0,41136,-60376,1204]}},
     {"code":9930602,"id":"9a9c9e","name":"西羽生","name_kana":"にしはにゅう","lat":36.17635,"lng":139.523986,"prefecture":11,"lines":[99306],"attr":"cool","postal_code":"348-0054","address":"羽生市西５丁目","next":[2100238,2100237,9930603],"voronoi":{"lat":36.193771,"lng":139.509804,"delta_lat":[0,-2349,-29925],"delta_lng":[0,30058,-18036]}},

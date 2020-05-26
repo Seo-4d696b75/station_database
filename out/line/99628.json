@@ -1,6 +1,10 @@
 {
   "code":99628,
+  "id":"232e25",
   "name":"阪堺電軌上町線",
+  "name_kana":"はんかいでんきうえまちせん",
+  "station_size":11,
+  "company_code":202,
   "symbol":"HN",
   "station_list":[
     {"code":9962801,"id":"e0d026","name":"天王寺駅前","name_kana":"てんのうじえきまえ","lat":34.646202,"lng":135.512929,"prefecture":27,"numbering":[{"index":"01"}],"lines":[99628],"attr":"cool","postal_code":"545-0052","address":"大阪市阿倍野区阿倍野筋１","next":[9961918,9961812,1160719,3100301],"voronoi":{"lat":34.647806,"lng":135.508762,"delta_lat":[0,-2419,-1333,2745],"delta_lng":[0,-742,5378,909]}},

@@ -1,6 +1,10 @@
 {
   "code":11222,
+  "id":"8ad2ff",
   "name":"JR仙石線",
+  "name_kana":"じぇいあーるせんせきせん",
+  "station_size":32,
+  "company_code":2,
   "color":"#00AAEE",
   "station_list":[
     {"code":1122201,"id":"73f4d2","name":"あおば通","name_kana":"あおばどおり","lat":38.260749,"lng":140.878514,"prefecture":4,"lines":[11222],"attr":"eco","postal_code":"980-0021","address":"仙台市青葉区中央３丁目２番１号","next":[9921410,9921411,9921409,100411,9921806],"voronoi":{"lat":38.255306,"lng":140.876211,"delta_lat":[0,7765,4611,-7921,-4465],"delta_lng":[0,4657,914,-6336,729]}},

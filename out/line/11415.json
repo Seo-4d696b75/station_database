@@ -1,6 +1,10 @@
 {
   "code":11415,
+  "id":"0a8372",
   "name":"JR北陸本線(米原～金沢)",
+  "name_kana":"じぇいあーるほくりくほんせん",
+  "station_size":43,
+  "company_code":4,
   "station_list":[
     {"code":100215,"id":"85e377","name":"米原","name_kana":"まいばら","lat":35.314657,"lng":136.289992,"prefecture":25,"numbering":[{"symbol":"A","color":"#0072BC","index":"12"}],"lines":[1002,11415,11503,11601,99601],"attr":"cool","postal_code":"521-0012","address":"米原市米原","next":[1141502,1160102,9960102,1150311],"voronoi":{"lat":35.314922,"lng":136.242447,"delta_lat":[0,4576,8601,-31505],"delta_lng":[0,-7289,80768,7432]}},
     {"code":1141502,"id":"710631","name":"坂田","name_kana":"さかた","lat":35.335777,"lng":136.287743,"prefecture":25,"numbering":[{"symbol":"A","color":"#0072BC","index":"11"}],"lines":[11415],"attr":"cool","postal_code":"521-0062","address":"米原市宇賀野","next":[100215,1150311,1141504,1141503,1160102],"voronoi":{"lat":35.328098,"lng":136.315927,"delta_lat":[0,28088,-28961,-1027,-6701],"delta_lng":[0,3971,-100262,-1936,17459]}},

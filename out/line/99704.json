@@ -1,7 +1,11 @@
 {
   "code":99704,
+  "id":"3f8a5a",
   "name":"水島臨海鉄道",
+  "name_kana":"みずしまりんかいてつどう",
   "name_formal":"水島臨海鉄道水島本線",
+  "station_size":10,
+  "company_code":217,
   "symbol":"MR",
   "station_list":[
     {"code":9970401,"id":"08c482","name":"倉敷市","name_kana":"くらしきし","lat":34.600998,"lng":133.765076,"prefecture":33,"lines":[99704],"attr":"eco","postal_code":"710-0055","address":"倉敷市阿知１-１-２","next":[9971914,1161005,9970402,9970403,9970405],"voronoi":{"lat":34.585606,"lng":133.79389,"delta_lat":[0,25820,-32807,-1173,-6211],"delta_lng":[0,-46217,18063,1253,16110]}},

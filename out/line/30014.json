@@ -1,6 +1,10 @@
 {
   "code":30014,
+  "id":"706221",
   "name":"名鉄尾西線",
+  "name_kana":"めいてつびさいせん",
+  "station_size":22,
+  "company_code":20,
   "color":"#FF6347",
   "station_list":[
     {"code":1150806,"id":"3b1336","name":"弥富","name_kana":"やとみ","lat":35.114026,"lng":136.725664,"prefecture":23,"numbering":[{"symbol":"TB","index":"11"}],"lines":[11508,30014],"attr":"cool","postal_code":"498-0028","address":"弥富市鯏浦町中六","next":[3102712,1150807,3102711,3001403],"voronoi":{"lat":35.112053,"lng":136.707563,"delta_lat":[0,-2779,-22246,45502],"delta_lng":[0,1470,12295,9036]}},

@@ -1,7 +1,11 @@
 {
   "code":99711,
+  "id":"562a04",
   "name":"広電２系統(宮島線)",
+  "name_kana":"ひろでんにけいとう(みやじません)",
   "name_formal":"広電２号線(宮島線)",
+  "station_size":41,
+  "company_code":222,
   "color":"#EE0000",
   "station_list":[
     {"code":9971001,"id":"da83b7","name":"広島駅","name_kana":"ひろしまえき","lat":34.396296,"lng":132.475403,"prefecture":34,"numbering":[{"symbol":"M","index":"1"}],"lines":[99710,99711,99713,99714],"attr":"heat","postal_code":"732-0822","address":"広島市南区松原町","next":[9971004,100312,9971002,9971003,9971005],"voronoi":{"lat":34.395034,"lng":132.472956,"delta_lat":[0,-118,1615,1187,-238],"delta_lng":[0,1090,3514,-7184,100]}},

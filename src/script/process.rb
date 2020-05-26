@@ -52,10 +52,7 @@ lines.each do |line|
     puts "Error > line name mismatch line:#{JSON.dump(line)}"
     exit(0)
   end
-  details['code'] = line['code']
-  details['color'] = line['color'] if line.key?('color')
-  details['symbol'] = line['symbol'] if line.key?('symbol')
-  details['name_formal'] = line['name_formal'] if line.key?('name_formal')
+  line.each{|key,value| details[key]=value}
   # 登録路線の抽出（駅メモ）
   details['station_list'].select! do |e|
     s = station_map[e['code']]

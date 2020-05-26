@@ -1,6 +1,10 @@
 {
   "code":11409,
+  "id":"061970",
   "name":"JR大糸線",
+  "name_kana":"じぇいあーるおおいとせん",
+  "station_size":42,
+  "company_code":2,
   "color":"#9370DB",
   "station_list":[
     {"code":1140901,"id":"975a5b","name":"松本","name_kana":"まつもと","lat":36.230393,"lng":137.96445,"prefecture":20,"numbering":[{"index":"42"}],"lines":[11409,11412,99407],"attr":"cool","postal_code":"390-0815","address":"松本市深志１丁目","next":[1141204,9940703,9940415,9940702,1140902],"voronoi":{"lat":36.231769,"lng":137.959087,"delta_lat":[0,-1545,-6766,27734,36707],"delta_lng":[0,590,19290,109430,-22813]}},

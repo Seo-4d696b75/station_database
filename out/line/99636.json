@@ -1,7 +1,11 @@
 {
   "code":99636,
+  "id":"6fac09",
   "name":"北神急行電鉄",
+  "name_kana":"ほくしんきゅうこうでんてつ",
   "name_formal":"北神急行電鉄北神線",
+  "station_size":2,
+  "company_code":205,
   "symbol":"S",
   "station_list":[
     {"code":9963210,"id":"3c861b","name":"谷上","name_kana":"たにがみ","lat":34.761691,"lng":135.17142,"prefecture":28,"numbering":[{"color":"#9A6E5F","index":"01"}],"lines":[99632,99636],"attr":"eco","postal_code":"651-1102","address":"神戸市北区山田町下谷上字明田８-１","next":[9963207,9963208,9963212,9963209,9963211,100302],"voronoi":{"lat":34.812667,"lng":135.155827,"delta_lat":[0,20147,-83946,-10507,-5221,5101],"delta_lng":[0,-14248,25052,8955,5928,11587]}},

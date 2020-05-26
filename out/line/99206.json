@@ -1,7 +1,11 @@
 {
   "code":99206,
+  "id":"c3749c",
   "name":"青い森鉄道",
+  "name_kana":"あおいもりてつどう",
   "name_formal":"青い森鉄道線",
+  "station_size":27,
+  "company_code":108,
   "color":"#33CBF4",
   "station_list":[
     {"code":9920518,"id":"f6e35e","name":"目時","name_kana":"めとき","lat":40.351908,"lng":141.289504,"prefecture":2,"lines":[99205,99206],"attr":"heat","postal_code":"039-0113","address":"三戸郡三戸町大字目時字村中１２番地","next":[9920517,9920603,9920602,9920516],"voronoi":{"lat":40.368811,"lng":141.357915,"delta_lat":[0,13144,-67542,3323],"delta_lng":[0,-54840,-182637,136999]}},

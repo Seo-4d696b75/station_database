@@ -1,6 +1,10 @@
 {
   "code":11110,
+  "id":"a8d423",
   "name":"JR石勝線",
+  "name_kana":"じぇいあーるせきしょうせん",
+  "station_size":15,
+  "company_code":1,
   "color":"#8CC63E",
   "station_list":[
     {"code":1110906,"id":"0a2104","name":"南千歳","name_kana":"みなみちとせ","lat":42.80804,"lng":141.675388,"prefecture":1,"numbering":[{"symbol":"H","color":"#0072BC","index":"14"}],"lines":[11109,11110],"attr":"eco","postal_code":"066-0044","address":"千歳市字平和","next":[1110506,1110905,1110907,1110904],"voronoi":{"lat":42.804502,"lng":141.703402,"delta_lat":[0,-17618,98653,-38214],"delta_lng":[0,-66431,84419,18437]}},

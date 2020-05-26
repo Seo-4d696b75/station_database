@@ -1,7 +1,11 @@
 {
   "code":99335,
+  "id":"295b43",
   "name":"銚子電鉄線",
+  "name_kana":"ちょうしでんてつせん",
   "name_formal":"銚子電気鉄道線",
+  "station_size":10,
+  "company_code":147,
   "station_list":[
     {"code":1131431,"id":"ecc941","name":"銚子","name_kana":"ちょうし","lat":35.729449,"lng":140.827557,"prefecture":12,"lines":[11314,11327,99335],"attr":"cool","postal_code":"288-0044","address":"銚子市西芝町１丁目","next":[1131430,9933502,9933504,9933510],"voronoi":{"lat":35.661635,"lng":140.789037,"delta_lat":[0,140241,-33415,-68571],"delta_lng":[0,42993,2645,-6907]}},
     {"code":9933502,"id":"e5bfd9","name":"仲ノ町","name_kana":"なかのちょう","lat":35.728813,"lng":140.833871,"prefecture":12,"lines":[99335],"attr":"eco","postal_code":"288-0056","address":"銚子市新生町２-２９７","next":[1131431,9933503,9933504,9933510],"voronoi":{"lat":35.699891,"lng":140.827769,"delta_lat":[0,68571,-10380,-50482],"delta_lng":[0,6907,1666,1124]}},

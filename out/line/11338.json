@@ -1,6 +1,10 @@
 {
   "code":11338,
+  "id":"0f46c5",
   "name":"JR水郡線",
+  "name_kana":"じぇいあーるすいぐんせん",
+  "station_size":46,
+  "company_code":2,
   "color":"#368C44",
   "station_list":[
     {"code":1122917,"id":"7204b1","name":"水戸","name_kana":"みと","lat":36.370911,"lng":140.47676,"prefecture":8,"lines":[11229,11338,99323],"attr":"eco","postal_code":"310-0015","address":"水戸市宮町１丁目","next":[9932302,1122916,1133802,9932305],"voronoi":{"lat":36.367465,"lng":140.496651,"delta_lat":[0,17561,-87423,11721],"delta_lng":[0,-28767,-9098,24289]}},

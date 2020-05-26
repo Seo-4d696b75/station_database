@@ -1,6 +1,10 @@
 {
   "code":11707,
+  "id":"deb7cb",
   "name":"JR三江線",
+  "name_kana":"じぇいあーるさんこうせん",
+  "station_size":35,
+  "company_code":4,
   "closed":true,
   "color":"#00B2E5",
   "symbol":"F",
@@ -45,6 +49,7 @@
   "south":34.80224,
   "east":132.85641,
   "west":132.22235,
+  "closed_date":"2018-04-01",
   "polyline_list":[
     {
       "start":"江津",

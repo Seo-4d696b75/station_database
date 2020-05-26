@@ -1,6 +1,10 @@
 {
   "code":11219,
+  "id":"85eecb",
   "name":"JR米坂線",
+  "name_kana":"じぇいあーるよねさかせん",
+  "station_size":20,
+  "company_code":2,
   "color":"#9E7EB9",
   "station_list":[
     {"code":1121609,"id":"e85f49","name":"米沢","name_kana":"よねざわ","lat":37.909478,"lng":140.128209,"prefecture":6,"lines":[11216,11219],"attr":"eco","postal_code":"992-0027","address":"米沢市駅前１丁目","next":[1121608,1121610,1121903,1121902],"voronoi":{"lat":37.911625,"lng":140.19831,"delta_lat":[0,27893,-20783,-34330],"delta_lng":[0,-87103,-3735,23241]}},

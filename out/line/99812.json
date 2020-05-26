@@ -1,7 +1,11 @@
 {
   "code":99812,
+  "id":"ab4f93",
   "name":"伊予鉄道６系統(本町線)",
+  "name_kana":"いよてつどうろくけいとう(ほんまちせん)",
   "name_formal":"伊予鉄道６系統",
+  "station_size":7,
+  "company_code":226,
   "color":"#000000",
   "station_list":[
     {"code":9980809,"id":"7084ee","name":"本町６丁目","name_kana":"ほんまちろくちょうめ","lat":33.853472,"lng":132.758473,"prefecture":38,"numbering":[{"index":"29"}],"lines":[99808,99809,99812],"attr":"eco","postal_code":"790-0811","address":"松山市本町６","next":[1180655,9980810,9980808,9981202,9980607],"voronoi":{"lat":33.871511,"lng":132.749594,"delta_lat":[0,4898,-23999,-297,9519],"delta_lng":[0,9920,115,-1898,-7269]}},

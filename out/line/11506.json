@@ -1,6 +1,10 @@
 {
   "code":11506,
+  "id":"8d391a",
   "name":"JR武豊線",
+  "name_kana":"じぇいあーるたけとよせん",
+  "station_size":10,
+  "company_code":3,
   "station_list":[
     {"code":1150226,"id":"2e64b6","name":"大府","name_kana":"おおぶ","lat":35.008665,"lng":136.961727,"prefecture":23,"numbering":[{"symbol":"CE","index":"00"}],"lines":[11502,11506],"attr":"cool","postal_code":"474-0025","address":"大府市中央町３丁目","next":[3000903,3000123,1150602,1150225,1150227,3000904,3000122],"voronoi":{"lat":35.02645,"lng":136.983857,"delta_lat":[0,1781,-14120,-22639,-4948,21524,17816],"delta_lng":[0,-2289,-52655,8023,3523,37347,6461]}},
     {"code":1150602,"id":"8dacc5","name":"尾張森岡","name_kana":"おわりもりおか","lat":34.993826,"lng":136.970279,"prefecture":23,"numbering":[{"symbol":"CE","index":"01"}],"lines":[11506],"attr":"heat","postal_code":"470-2101","address":"知多郡東浦町森岡字前田","next":[1150603,1150226,3000904,1150225],"voronoi":{"lat":35.008048,"lng":136.977807,"delta_lat":[0,-21524,-2783,5268],"delta_lng":[0,-37347,972,40499]}},

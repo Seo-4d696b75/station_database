@@ -1,6 +1,10 @@
 {
   "code":11204,
+  "id":"0fd853",
   "name":"JR五能線",
+  "name_kana":"じぇいあーるごのうせん",
+  "station_size":43,
+  "company_code":2,
   "color":"#0C7AAD",
   "station_list":[
     {"code":1120240,"id":"a127ac","name":"東能代","name_kana":"ひがしのしろ","lat":40.191579,"lng":140.065746,"prefecture":5,"lines":[11202,11204],"attr":"heat","postal_code":"016-0121","address":"能代市鰄渕","next":[1120402,1120239,1120403,1120241],"voronoi":{"lat":40.168032,"lng":140.035159,"delta_lat":[0,42262,22889,-67984],"delta_lng":[0,19406,29297,15849]}},

@@ -1,6 +1,10 @@
 {
   "code":99104,
+  "id":"3020a3",
   "name":"札幌市電山鼻線",
+  "name_kana":"さっぽろしでんやまはなせん",
+  "station_size":24,
+  "company_code":101,
   "symbol":"SC",
   "station_list":[
     {"code":9910401,"id":"7d8767","name":"西４丁目","name_kana":"にしよんちょうめ","lat":43.0589036,"lng":141.3521482,"prefecture":1,"numbering":[{"index":"01"}],"lines":[99104],"attr":"cool","postal_code":"060-0061","address":"札幌市中央区南１条西４","next":[9910402,9910424,9910422,9910109],"voronoi":{"lat":43.06049,"lng":141.348877,"delta_lat":[0,-2369,-1035,1957],"delta_lng":[0,308,1256,4080]}},

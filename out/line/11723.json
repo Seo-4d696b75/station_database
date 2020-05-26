@@ -1,6 +1,10 @@
 {
   "code":11723,
+  "id":"b9a0cd",
   "name":"JR小野田線",
+  "name_kana":"じぇいあーるおのだせん",
+  "station_size":12,
+  "company_code":4,
   "color":"#695FAA",
   "station_list":[
     {"code":1172115,"id":"abc42f","name":"宇部新川","name_kana":"うべしんかわ","lat":33.958369,"lng":131.242441,"prefecture":35,"lines":[11721,11723],"attr":"heat","postal_code":"755-0051","address":"宇部市上町１丁目","next":[1172112,1172114,1172116,1172311,1161227,1172117],"voronoi":{"lat":33.97693,"lng":131.243953,"delta_lat":[0,-48792,-11925,14124,63637,1235],"delta_lng":[0,-29695,1486,17023,36814,-3910]}},

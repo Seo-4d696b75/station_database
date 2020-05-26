@@ -1,6 +1,10 @@
 {
   "code":99417,
+  "id":"0e478f",
   "name":"北陸鉄道浅野川線",
+  "name_kana":"ほくりくてつどうあさのがわせん",
+  "station_size":12,
+  "company_code":165,
   "station_list":[
     {"code":9941701,"id":"eaafc5","name":"北鉄金沢","name_kana":"ほくてつかなざわ","lat":36.578637,"lng":136.649524,"prefecture":17,"lines":[99417],"attr":"heat","postal_code":"920-0847","address":"金沢市堀川町","next":[9941702,100913,1141544,9941601],"voronoi":{"lat":36.564705,"lng":136.65408,"delta_lat":[0,17860,-11903,-11286],"delta_lng":[0,-6839,23885,8356]}},
     {"code":9941702,"id":"ffdee2","name":"七ツ屋","name_kana":"ななつや","lat":36.583108,"lng":136.651752,"prefecture":17,"lines":[99417],"attr":"heat","postal_code":"920-0022","address":"金沢市北安江１","next":[9941701,1141544,9941703,100913],"voronoi":{"lat":36.570663,"lng":136.671126,"delta_lat":[0,19686,-5608,-2175],"delta_lng":[0,-11497,-15416,3028]}},

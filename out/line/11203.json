@@ -1,7 +1,11 @@
 {
   "code":11203,
+  "id":"ddb025",
   "name":"JR大湊線(はまなすベイライン大湊線)",
+  "name_kana":"じぇいあーるおおみなとせん",
   "name_formal":"JR大湊線",
+  "station_size":11,
+  "company_code":2,
   "color":"#F1AA28",
   "station_list":[
     {"code":1120110,"id":"83ffd8","name":"野辺地","name_kana":"のへじ","lat":40.855142,"lng":141.119603,"prefecture":2,"lines":[11201,11203,99206,99220],"attr":"cool","postal_code":"039-3131","address":"上北郡野辺地町大字野辺地","next":[1120111,1120302,1120109,9922002],"voronoi":{"lat":40.807558,"lng":141.029812,"delta_lat":[0,77733,-45033,-1080],"delta_lng":[0,72690,49450,-1638]}},

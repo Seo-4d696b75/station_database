@@ -1,6 +1,11 @@
 {
   "code":99207,
+  "id":"770bbf",
   "name":"三陸鉄道北リアス線",
+  "name_kana":"さんりくてつどうきたりあすせん",
+  "station_size":17,
+  "company_code":109,
+  "closed":true,
   "station_list":[
     {"code":1121318,"id":"805656","name":"宮古","name_kana":"みやこ","lat":39.640287,"lng":141.946454,"prefecture":3,"lines":[11213,99207,99208],"attr":"eco","postal_code":"027-0076","address":"宮古市栄町","open_date":"1934-11-06","next":[9920823,9920822,9920825,9920826],"voronoi":{"lat":39.663981,"lng":141.949317,"delta_lat":[0,-34159,-34,36374],"delta_lng":[0,-15662,16272,26045]}},
     {"code":9920825,"id":"b6b836","name":"山口団地","name_kana":"やまぐちだんち","lat":39.64635,"lng":141.933231,"prefecture":3,"lines":[99207,99208],"attr":"eco","postal_code":"027-0063","address":"岩手県宮古市山口三丁目","open_date":"2010-10-16","next":[1121318,1121317,9920822,9920826],"voronoi":{"lat":39.675876,"lng":141.89806,"delta_lat":[0,-47675,1621,34159],"delta_lng":[0,32267,3327,15662]}},
@@ -24,6 +29,7 @@
   "south":39.63969,
   "east":141.96906,
   "west":141.7665,
+  "closed_date":"2019-03-23",
   "polyline_list":[
     {
       "start":"宮古",

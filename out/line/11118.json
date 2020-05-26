@@ -1,6 +1,10 @@
 {
   "code":11118,
+  "id":"4030c3",
   "name":"JR海峡線",
+  "name_kana":"じぇいあーるかいきょうせん",
+  "station_size":5,
+  "company_code":1,
   "closed":true,
   "color":"#0099FF",
   "station_list":[
@@ -14,6 +18,7 @@
   "south":41.05138,
   "east":140.59738,
   "west":140.23155,
+  "closed_date":"2016-03-26",
   "polyline_list":[
     {
       "start":"中小国",

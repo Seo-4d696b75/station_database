@@ -1,7 +1,11 @@
 {
   "code":99415,
+  "id":"6143ed",
   "name":"富山地鉄富山港線",
+  "name_kana":"とやまちてつとやまこうせん",
   "name_formal":"富山港線",
+  "station_size":14,
+  "company_code":160,
   "color":"#00008B",
   "station_list":[
     {"code":9941322,"id":"f72cbd","name":"富山駅","name_kana":"とやまえき","lat":36.701479,"lng":137.212583,"prefecture":16,"lines":[99413,99415],"attr":"eco","postal_code":"930-0001","address":"富山県富山市明輪町1-227","open_date":"2015-03-14","next":[9941314,9941313,9941501,100911,9941320],"voronoi":{"lat":36.700207,"lng":137.211846,"delta_lat":[0,707,1971,19180,-16430],"delta_lng":[0,1200,-393,-13656,2137]}},

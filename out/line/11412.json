@@ -1,6 +1,10 @@
 {
   "code":11412,
+  "id":"a44152",
   "name":"JR篠ノ井線",
+  "name_kana":"じぇいあーるしののいせん",
+  "station_size":15,
+  "company_code":2,
   "color":"#F77321",
   "station_list":[
     {"code":1131153,"id":"b70254","name":"塩尻","name_kana":"しおじり","lat":36.114364,"lng":137.947961,"prefecture":20,"lines":[11311,11411,11412],"attr":"cool","postal_code":"399-0737","address":"塩尻市大門八番町９-１","next":[1141139,1131148,1141202],"voronoi":{"lat":36.133352,"lng":137.903917,"delta_lat":[0,-53332,49675],"delta_lng":[0,46615,29523]}},

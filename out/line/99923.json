@@ -1,6 +1,10 @@
 {
   "code":99923,
+  "id":"ae3954",
   "name":"熊本市電Ｂ系統",
+  "name_kana":"くまもとしでんびーけいとう",
+  "station_size":28,
+  "company_code":241,
   "station_list":[
     {"code":9992301,"id":"3706a3","name":"上熊本(熊本市交通局)","name_kana":"かみくまもと","lat":32.81716,"lng":130.699266,"prefecture":43,"numbering":[{"symbol":"B","index":"1"}],"lines":[99923],"attr":"eco","postal_code":"860-0079","address":"熊本市上熊本２丁目","next":[9991804,9992302,9991701,1190340,9991802],"voronoi":{"lat":32.816549,"lng":130.70831,"delta_lat":[0,-1636,1244,4656,-2785],"delta_lng":[0,-966,-8655,1552,7396]}},
     {"code":9992302,"id":"956c31","name":"県立体育館前","name_kana":"けんりつたいいくかんまえ","lat":32.815032,"lng":130.69896,"prefecture":43,"numbering":[{"symbol":"B","index":"2"}],"lines":[99923],"attr":"eco","postal_code":"860-0079","address":"熊本市上熊本２丁目１７-３９地先","next":[9992301,9991701,1190340,9992303],"voronoi":{"lat":32.815904,"lng":130.694231,"delta_lat":[0,253,-1244,-3143],"delta_lng":[0,4459,8655,-1346]}},

@@ -1,6 +1,10 @@
 {
   "code":11408,
+  "id":"3d62cd",
   "name":"JR越後線",
+  "name_kana":"じぇいあーるえちごせん",
+  "station_size":32,
+  "company_code":2,
   "color":"#40934D",
   "station_list":[
     {"code":1140412,"id":"f19f08","name":"柏崎","name_kana":"かしわざき","lat":37.363495,"lng":138.556303,"prefecture":15,"lines":[11404,11408],"attr":"cool","postal_code":"945-0055","address":"柏崎市駅前１丁目","next":[1140413,1140411,1140802,1140414],"voronoi":{"lat":37.359291,"lng":138.571305,"delta_lat":[0,38469,-122404,4],"delta_lng":[0,-42005,24039,2]}},

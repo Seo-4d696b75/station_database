@@ -1,7 +1,11 @@
 {
   "code":99715,
+  "id":"2dc8d9",
   "name":"広電７系統(都心線)",
+  "name_kana":"ひろでんななけいとう(としんせん)",
   "name_formal":"広電７号線",
+  "station_size":15,
+  "company_code":222,
   "color":"#00594C",
   "station_list":[
     {"code":9971501,"id":"3be35a","name":"横川駅","name_kana":"よこがわえき","lat":34.409512,"lng":132.450496,"prefecture":34,"numbering":[{"symbol":"Y","color":"#FF69B4","index":"5"}],"lines":[99715,99716],"attr":"eco","postal_code":"733-0011","address":"広島市西区横川町３","next":[9970903,1161116,9971502],"voronoi":{"lat":34.410231,"lng":132.456057,"delta_lat":[0,-823,-2131],"delta_lng":[0,-11818,10378]}},

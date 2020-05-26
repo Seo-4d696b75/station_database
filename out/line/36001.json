@@ -1,6 +1,10 @@
 {
   "code":36001,
+  "id":"88f993",
   "name":"西鉄天神大牟田線",
+  "name_kana":"にしてつてんじんおおむたせん",
+  "station_size":49,
+  "company_code":26,
   "symbol":"T",
   "station_list":[
     {"code":3600101,"id":"1adb59","name":"西鉄福岡（天神）","name_kana":"ふくおか(てんじん)","lat":33.588937,"lng":130.399733,"prefecture":40,"numbering":[{"index":"01"}],"lines":[36001],"attr":"cool","postal_code":"810-0001","address":"福岡市中央区天神二丁目11番2号","next":[9990506,3600102,9990507,9990716,9990713],"voronoi":{"lat":33.58578,"lng":130.395299,"delta_lat":[0,3236,1723,-5647,-419],"delta_lng":[0,69,6168,-2096,-1500]}},

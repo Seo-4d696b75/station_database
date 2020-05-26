@@ -1,6 +1,10 @@
 {
   "code":11721,
+  "id":"1be1cb",
   "name":"JR宇部線",
+  "name_kana":"じぇいあーるうべせん",
+  "station_size":18,
+  "company_code":4,
   "color":"#B02857",
   "station_list":[
     {"code":100315,"id":"4b4a14","name":"新山口","name_kana":"しんやまぐち","lat":34.093255,"lng":131.39657,"prefecture":35,"lines":[1003,11612,11708,11721],"attr":"cool","postal_code":"754-0002","address":"山口市小郡下郷","next":[1172102,1170803,1161223,1170802],"voronoi":{"lat":34.108822,"lng":131.38137,"delta_lat":[0,6672,-56761,24000],"delta_lng":[0,-29498,63136,6242]}},

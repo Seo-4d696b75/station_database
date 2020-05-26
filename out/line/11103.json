@@ -1,6 +1,10 @@
 {
   "code":11103,
+  "id":"1f0306",
   "name":"JR函館本線(小樽～旭川)",
+  "name_kana":"じぇいあーるはこだてほんせん",
+  "station_size":43,
+  "company_code":1,
   "station_list":[
     {"code":1110219,"id":"078e9b","name":"小樽","name_kana":"おたる","lat":43.197172,"lng":140.993653,"prefecture":1,"numbering":[{"symbol":"S","color":"#ED1C23","index":"15"}],"lines":[11102,11103],"attr":"cool","postal_code":"047-0032","address":"小樽市稲穂２丁目","next":[1110303,1110304,1111321,1110302,1110218],"voronoi":{"lat":43.128967,"lng":140.953736,"delta_lat":[0,104861,58019,322688,123450],"delta_lng":[0,78428,26913,93239,-152454]}},
     {"code":1110302,"id":"d2ca10","name":"南小樽","name_kana":"みなみおたる","lat":43.186529,"lng":141.007883,"prefecture":1,"numbering":[{"symbol":"S","color":"#ED1C23","index":"14"}],"lines":[11103],"attr":"cool","postal_code":"047-0015","address":"小樽市住吉町","next":[1110211,1110303,1110218,1110219],"voronoi":{"lat":43.128967,"lng":140.953736,"delta_lat":[0,-132593,-28622,266076],"delta_lng":[0,-25261,31074,72615]}},

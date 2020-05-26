@@ -1,6 +1,10 @@
 {
   "code":99631,
+  "id":"1b3343",
   "name":"神戸高速南北線",
+  "name_kana":"こうべこうそくなんぼくせん",
+  "station_size":2,
+  "company_code":203,
   "symbol":"KB",
   "station_list":[
     {"code":9963006,"id":"d9aa1c","name":"新開地","name_kana":"しんかいち","lat":34.675981,"lng":135.169291,"prefecture":28,"numbering":[{"color":"#DD0033","index":"01"}],"lines":[99630,99631],"attr":"eco","postal_code":"652-0811","address":"神戸市兵庫区新開地２-３","next":[9963007,9964605,9963102,9963005,9964706,1160802],"voronoi":{"lat":34.672773,"lng":135.175082,"delta_lat":[0,6603,-2692,-1922,-2018,-2857],"delta_lng":[0,-4335,-3867,-2129,1278,4759]}},

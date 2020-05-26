@@ -1,6 +1,10 @@
 {
   "code":11504,
+  "id":"b2110b",
   "name":"JR伊東線",
+  "name_kana":"じぇいあーるいとうせん",
+  "station_size":6,
+  "company_code":2,
   "color":"#F68B1E",
   "station_list":[
     {"code":100205,"id":"e9c3c7","name":"熱海","name_kana":"あたみ","lat":35.103573,"lng":139.077679,"prefecture":22,"lines":[1002,11301,11501,11504],"attr":"heat","postal_code":"413-0011","address":"熱海市田原本町","next":[1150403,1150404,1150402,1130119,1130120],"voronoi":{"lat":35.145601,"lng":139.053815,"delta_lat":[0,-66078,-4761,3336,20310],"delta_lng":[0,26477,19411,56164,-19860]}},

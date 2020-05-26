@@ -1,6 +1,10 @@
 {
   "code":11201,
+  "id":"e27da6",
   "name":"JR東北本線(八戸～青森)",
+  "name_kana":"じぇいあーるとうほくほんせん",
+  "station_size":20,
+  "company_code":2,
   "closed":true,
   "color":"#008000",
   "station_list":[
@@ -29,6 +33,7 @@
   "south":40.5084,
   "east":141.4547,
   "west":140.73225,
+  "closed_date":"2010-12-04",
   "polyline_list":[
     {
       "start":"八戸",

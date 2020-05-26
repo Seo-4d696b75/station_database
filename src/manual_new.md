@@ -30,6 +30,10 @@
 - solved/station.json 駅メモ駅一覧
 - solved/line.json 駅メモ路線一覧
 
+```
+$ ruby script/check.rb
+```
+
 ### 確認項目
 - `code`,`id`の重複なし
 - `id`の新規振り分け
@@ -68,7 +72,7 @@ script/polyline.bat
 - details/line/*.json 路線詳細
 - polyline/solved/*.json 路線ポリライン
 ```
-ruby script/merge.rb [version]
+ruby script/process.rb [version]
 ```
 
 `../out`に出力

@@ -1,6 +1,10 @@
 {
   "code":35001,
+  "id":"ee70aa",
   "name":"阪神本線",
+  "name_kana":"はんしんほんせん",
+  "station_size":33,
+  "company_code":25,
   "symbol":"HS",
   "station_list":[
     {"code":3500101,"id":"54505a","name":"大阪梅田(阪神電気鉄道)","name_kana":"おおさかうめだ","lat":34.700972,"lng":135.496446,"prefecture":27,"numbering":[{"index":"01"}],"lines":[35001],"attr":"eco","postal_code":"530-0012","address":"大阪市北区芝田一丁目1-2","next":[1162504,9961806,1160214,9962001,9961910],"voronoi":{"lat":34.701521,"lng":135.498059,"delta_lat":[0,840,-1470,-1130,187],"delta_lng":[0,-1475,-1666,2334,836]}},

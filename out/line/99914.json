@@ -1,6 +1,10 @@
 {
   "code":99914,
+  "id":"dd46aa",
   "name":"長崎電軌３系統",
+  "name_kana":"ながさきでんきにけいとう",
+  "station_size":24,
+  "company_code":236,
   "color":"#FF0000",
   "station_list":[
     {"code":9991301,"id":"ad28ab","name":"赤迫","name_kana":"あかさこ","lat":32.793732,"lng":129.857948,"prefecture":42,"numbering":[{"index":"11"}],"lines":[99913,99914],"attr":"heat","postal_code":"852-8155","address":"長崎市中園町","next":[1190539,9991302,1190537,9991309,1190538],"voronoi":{"lat":32.772156,"lng":129.797951,"delta_lat":[0,3175,16399,12553,497],"delta_lng":[0,14455,45456,11030,-1113]}},
