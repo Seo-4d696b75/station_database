@@ -50,7 +50,10 @@ class IDSet
 	end
 
 	def add?(e)
-		if id = e['id']
+		id = nil
+		id = e if e.kind_of?(String)
+		id = e['id'] if e.kind_of?(Hash)
+		if id 
 			if id.match(/[0-9a-f]{6}/)
 				if @id.add?(id)
 					return true
