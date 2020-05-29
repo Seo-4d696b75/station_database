@@ -1,6 +1,10 @@
 {
   "code":11214,
+  "id":"ca35da",
   "name":"JR羽越本線",
+  "name_kana":"じぇいあーるうえつほんせん",
+  "station_size":60,
+  "company_code":2,
   "color":"#75C8FF",
   "station_list":[
     {"code":1121401,"id":"6a2a43","name":"新津","name_kana":"にいつ","lat":37.800383,"lng":139.121445,"prefecture":15,"lines":[11214,11226,11404],"attr":"cool","postal_code":"956-0864","address":"新潟市秋葉区新津本町１丁目","next":[1140436,1122627,1140438],"voronoi":{"lat":37.795245,"lng":139.084352,"delta_lat":[0,-11078,30411],"delta_lng":[0,42635,17363]}},

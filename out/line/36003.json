@@ -1,6 +1,10 @@
 {
   "code":36003,
+  "id":"673daf",
   "name":"西鉄甘木線",
+  "name_kana":"にしてつあまぎせん",
+  "station_size":12,
+  "company_code":26,
   "symbol":"A",
   "station_list":[
     {"code":3600123,"id":"a51401","name":"宮の陣","name_kana":"みやのじん","lat":33.329456,"lng":130.530902,"prefecture":40,"numbering":[{"symbol":"T","index":"25"}],"lines":[36001,36003],"attr":"eco","postal_code":"839-0801","address":"久留米市宮ノ陣町大字宮瀬２４７-２","next":[1190317,3600122,3600302,3600124,101003],"voronoi":{"lat":33.337373,"lng":130.511969,"delta_lat":[0,10999,-6379,-23488,15782],"delta_lng":[0,6545,15554,2561,-23647]}},

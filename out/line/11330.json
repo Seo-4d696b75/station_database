@@ -1,6 +1,10 @@
 {
   "code":11330,
+  "id":"a3fab8",
   "name":"JR久留里線",
+  "name_kana":"じぇいあーるくるりせん",
+  "station_size":14,
+  "company_code":2,
   "color":"#00AC97",
   "station_list":[
     {"code":1132511,"id":"3a96a9","name":"木更津","name_kana":"きさらづ","lat":35.381668,"lng":139.92611,"prefecture":12,"lines":[11325,11330],"attr":"cool","postal_code":"292-0831","address":"木更津市富士見１丁目","next":[1132512,1132513,1133002,1133003,1132510],"voronoi":{"lat":35.416085,"lng":139.8467,"delta_lat":[0,-34151,-55329,19098,51707],"delta_lng":[0,25826,87414,-4503,-23173]}},

@@ -1,6 +1,10 @@
 {
   "code":11331,
+  "id":"d88aa7",
   "name":"JR東金線",
+  "name_kana":"じぇいあーるとうがねせん",
+  "station_size":5,
+  "company_code":2,
   "color":"#F15A22",
   "station_list":[
     {"code":1132407,"id":"68b75a","name":"大網","name_kana":"おおあみ","lat":35.522427,"lng":140.311111,"prefecture":12,"lines":[11324,11331],"attr":"cool","postal_code":"299-3244","address":"千葉県大網白里市南玉21-7","next":[1132408,1133102,1132406],"voronoi":{"lat":35.512716,"lng":140.287602,"delta_lat":[0,147,56810],"delta_lng":[0,55433,-43803]}},

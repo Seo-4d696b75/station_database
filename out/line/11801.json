@@ -1,6 +1,10 @@
 {
   "code":11801,
+  "id":"09faa3",
   "name":"JR土讃線",
+  "name_kana":"じぇいあーるどさんせん",
+  "station_size":61,
+  "company_code":5,
   "color":"#FF3399",
   "station_list":[
     {"code":1180101,"id":"fc4501","name":"多度津","name_kana":"たどつ","lat":34.271238,"lng":133.757235,"prefecture":37,"numbering":[{"symbol":"D","index":"12"}],"lines":[11801,11806],"attr":"cool","postal_code":"764-0011","address":"仲多度郡多度津町栄町３丁目","next":[1180102,9971901,1180612,1180614],"voronoi":{"lat":34.266622,"lng":133.775258,"delta_lat":[0,101521,6465,-127384],"delta_lng":[0,-69457,-33558,80902]}},

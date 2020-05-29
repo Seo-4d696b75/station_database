@@ -1,6 +1,10 @@
 {
   "code":99409,
+  "id":"26cbff",
   "name":"富山地鉄立山線",
+  "name_kana":"とやまちてつたてやません",
+  "station_size":14,
+  "company_code":160,
   "color":"#009933",
   "station_list":[
     {"code":9940807,"id":"b8ccfb","name":"寺田(富山)","name_kana":"てらだ","lat":36.698852,"lng":137.319145,"prefecture":16,"lines":[99408,99409],"attr":"eco","postal_code":"930-0208","address":"中新川郡立山町浦田","next":[9940902,9940806,9940808],"voronoi":{"lat":36.716905,"lng":137.320917,"delta_lat":[0,-22856,-2100],"delta_lng":[0,-12554,15798]}},

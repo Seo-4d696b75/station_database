@@ -1,6 +1,10 @@
 {
   "code":11419,
+  "id":"669cf3",
   "name":"JR七尾線",
+  "name_kana":"じぇいあーるななおせん",
+  "station_size":20,
+  "company_code":4,
   "color":"#B7282E",
   "station_list":[
     {"code":1141546,"id":"ab7adc","name":"津幡","name_kana":"つばた","lat":36.657895,"lng":136.730759,"prefecture":17,"lines":[11419,99426],"attr":"cool","postal_code":"929-0343","address":"河北郡津幡町字南中条","next":[1141902,1141711,1141903,1141547,1141904,1141545],"voronoi":{"lat":36.661721,"lng":136.680523,"delta_lat":[0,7586,-2055,-24084,-67390,-3825],"delta_lng":[0,24626,26746,34569,16163,-2590]}},

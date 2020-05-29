@@ -1,6 +1,11 @@
 {
   "code":99716,
+  "id":"e6d363",
   "name":"広電８系統(横川線)",
+  "name_kana":"ひろでんはちけいとう(よこがわせん)",
+  "name_formal":"広電８号線(横川線)",
+  "station_size":12,
+  "company_code":222,
   "color":"#FF69B4",
   "station_list":[
     {"code":9971501,"id":"3be35a","name":"横川駅","name_kana":"よこがわえき","lat":34.409512,"lng":132.450496,"prefecture":34,"numbering":[{"symbol":"Y","index":"5"}],"lines":[99715,99716],"attr":"eco","postal_code":"733-0011","address":"広島市西区横川町３","next":[9970903,1161116,9971502],"voronoi":{"lat":34.410231,"lng":132.456057,"delta_lat":[0,-823,-2131],"delta_lng":[0,-11818,10378]}},

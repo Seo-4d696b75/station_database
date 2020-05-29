@@ -1,6 +1,10 @@
 {
   "code":11802,
+  "id":"030e39",
   "name":"JR高徳線",
+  "name_kana":"じぇいあーるこうとくせん",
+  "station_size":29,
+  "company_code":5,
   "color":"#8AC53E",
   "station_list":[
     {"code":1180201,"id":"a3a37a","name":"高松(香川)","name_kana":"たかまつ","lat":34.350754,"lng":134.046821,"prefecture":37,"numbering":[{"symbol":"T","index":"28"}],"lines":[11802,11806],"attr":"cool","postal_code":"760-0011","address":"高松市浜ノ町","next":[1170915,9980202,9980201,1180202,1180602,1180203,9980203],"voronoi":{"lat":34.342349,"lng":134.044574,"delta_lat":[0,1032,60789,22958,25796,-108317,-708],"delta_lng":[0,-3251,-28456,-6043,39970,1452,-433]}},

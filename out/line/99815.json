@@ -1,6 +1,10 @@
 {
   "code":99815,
+  "id":"4325cf",
   "name":"土佐くろしお鉄道宿毛線",
+  "name_kana":"とさくろしおてつどうすくもせん",
+  "station_size":8,
+  "company_code":227,
   "symbol":"TK",
   "station_list":[
     {"code":9981415,"id":"6d4913","name":"中村","name_kana":"なかむら","lat":32.984641,"lng":132.943927,"prefecture":39,"numbering":[{"index":"40"}],"lines":[99814,99815],"attr":"eco","postal_code":"787-0014","address":"四万十市駅前町","next":[9981414,1180805,9981413,9981502],"voronoi":{"lat":33.097467,"lng":132.908436,"delta_lat":[0,-38,-74467,-231354],"delta_lng":[0,252,41994,14091]}},

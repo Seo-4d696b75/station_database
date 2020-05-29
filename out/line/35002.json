@@ -1,6 +1,10 @@
 {
   "code":35002,
+  "id":"708c3b",
   "name":"阪神なんば線",
+  "name_kana":"はんしんなんばせん",
+  "station_size":11,
+  "company_code":25,
   "symbol":"HS",
   "station_list":[
     {"code":3100101,"id":"6a42ec","name":"大阪難波","name_kana":"おおさかなんば","lat":34.667113,"lng":135.499144,"prefecture":27,"numbering":[{"index":"41"}],"lines":[31001,35002],"attr":"heat","postal_code":"542-0076","address":"大阪市中央区難波四丁目1-17","next":[1160722,9961810,9961809,9962004],"voronoi":{"lat":34.670158,"lng":135.496616,"delta_lat":[0,-6287,6780,458],"delta_lng":[0,1094,4770,-3047]}},

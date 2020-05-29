@@ -1,6 +1,10 @@
 {
   "code":11112,
+  "id":"f32e7c",
   "name":"JR札沼線",
+  "name_kana":"じぇいあーるさっしょうせん",
+  "station_size":30,
+  "company_code":1,
   "color":"#00A54F",
   "station_list":[
     {"code":1110315,"id":"7a3b57","name":"札幌","name_kana":"さっぽろ","lat":43.068612,"lng":141.350768,"prefecture":1,"numbering":[{"index":"01"}],"lines":[11103,11109,11112],"attr":"eco","postal_code":"060-0806","address":"札幌市北区北６条西４丁目","next":[9910306,9910110,9910206,9910205],"voronoi":{"lat":43.069618,"lng":141.359161,"delta_lat":[0,-3395,2896,3742],"delta_lng":[0,-2569,-13843,9837]}},

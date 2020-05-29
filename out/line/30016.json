@@ -1,6 +1,10 @@
 {
   "code":30016,
+  "id":"f1643e",
   "name":"名鉄各務原線",
+  "name_kana":"めいてつかかみがはらせん",
+  "station_size":18,
+  "company_code":20,
   "symbol":"KG",
   "station_list":[
     {"code":3000160,"id":"80de5b","name":"名鉄岐阜","name_kana":"めいてつぎふ","lat":35.411136,"lng":136.760066,"prefecture":21,"numbering":[{"symbol":"NH","color":"#DC143C","index":"60"}],"lines":[30001,30016],"attr":"eco","postal_code":"500-8833","address":"岐阜市神田町９丁目","next":[3001617,9952608,9952609,3000159,1141601],"voronoi":{"lat":35.467626,"lng":136.732418,"delta_lat":[0,6632,34026,-97014,-5684],"delta_lng":[0,3798,28910,1000,-5692]}},

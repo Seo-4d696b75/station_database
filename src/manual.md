@@ -1,85 +1,45 @@
-# 駅情報更新の手引き
+# データベース管理手引き
 
-## ekidata.jp 
-[ダウンロードページ](https://ekidata.jp/dl/)から3ファイルを取得  
 
-* company*.csv
-* line*.csv
-* station*.csv
+## データファイル
+`src`ディレクトリ以下
 
-保存場所は`src/raw/*.csv`
+- station.csv 駅情報
+- line.csv 路線情報 
+- register.csv 路線-駅の登録情報
 
-## CSVデータの解析
-欲しいデータだけ取り出して整形する  
-`src/raw/*.csv`を対応するスクリプト`src/script/csv_*.rb`で叩く  
-以降のカレントディレクトリを`src`とする  
 
+## 基本データの確認
+
+**入力**
+- station.csv 駅情報
+- line.csv 路線情報
+- check/line.csv 路線の登録駅数（駅メモ）
+- check/prefecture.csv 都道府県情報（駅メモでの駅数）
+- details/line/*.json 路線詳細（登録駅リスト）
+
+**出力**
+- station.csv 欠損値の補填  
+    - 新規追加された駅・路線要素に対してIDの振り分け
+    - 座標->住所の検索
+    - それ以外の欠損は許容しない
+- register.csv 路線の登録駅情報
+- solved/station.json 駅メモ駅一覧
+- solved/line.json 駅メモ路線一覧
 
 ```
-ruby script/csv_*.rb [src] [dst]
+$ ruby script/check.rb
 ```
 
-出力先は`src/parsed/*.json`
+### 確認項目
+- `code`,`id`の重複なし
+- `id`の新規振り分け
+- 路線ごとの登録駅数の整合
+- 駅・路線名の重複なし（駅メモ）
+- 都道府県の駅数の整合（駅メモ）
+- 廃駅と駅属性の整合（駅メモ）
 
-## 駅メモ！との差分解決
 
-### 準備
-
-* `src/parsed/*.json`
-	入力データ
-* `src/solution.json`  
-	解決の方法をここに記述する
-* `src/previous/*s.json`
-	以前のバージョンでの完成データ
-* `src/check/line.csv`
-	路線名と登録駅数のリスト
-
-### 実行
-スクリプト：`src/script/solve.rb`  
-
-```irb
-load('script/solve.rb')
-s = Solver.new
-
-# parsed/line.json parsed/station.json の読み込み
-s.init
-
-# solution.json による差分解決
-# 全バージョンとの差分比較によるID管理
-s.solve
-
-# check/line.csv による確認
-s.check
-
-# データ書き出し
-s.write
-```
-
-出力ファイル  
-* `src/solved/line.json`
-* `src/solved/station.json`
-* `src/diff.txt`
-	前バージョンと比較したとき、駅・路線要素の新規追加や名称`name`・コード`code`・`id`の差分一覧
-
-## 駅の詳細データ
-
-### 準備
-
-* `solved/*.json`
-	入力データ
-* `api_key.txt`
-	Google Geocoding APIのAPI key
-* `details/station.csv`
-	駅の名称かな・所在都道府県・属性のデータ一覧
-* `check/prefecture.csv`
-	所在都道府県ごとの駅数一覧
-
-### 実行
-```
-ruby script/details.rb
-```
-
-`details/station.json`に出力される
 
 ## 駅のボロノイ図・Kd-tree
 
@@ -102,23 +62,14 @@ script/polyline.bat
 
 ## データ統合
 
-### 準備
-* `solved/line.json`
-	入力路線データ
-* `details/line.csv`
-	路線名かな
-* `polyline/solved/*.json`
-	路線のポリラインデータ
-* `details/line/*.json`
-	路線の詳細・登録駅一覧
-* `details/station.json`
-	入力駅データ
-* `diagram/station.json`
-	ボロノイ・隣接・Kd-tree情報
 
-### 実行
+**入力**
+- solved/station.json 駅メモ駅一覧
+- solved/line.json 駅メモ路線一覧
+- details/line/*.json 路線詳細
+- polyline/solved/*.json 路線ポリライン
 ```
-ruby script/merge.rb [version]
+ruby script/process.rb [version]
 ```
 
 `../out`に出力

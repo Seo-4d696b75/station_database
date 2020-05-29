@@ -1,6 +1,11 @@
 {
   "code":99709,
+  "id":"b11493",
   "name":"アストラムライン",
+  "name_kana":"あすとらむらいん",
+  "name_formal":"広島高速交通広島新交通1号線",
+  "station_size":22,
+  "company_code":221,
   "color":"#FFD400",
   "station_list":[
     {"code":9970901,"id":"fafc81","name":"本通","name_kana":"ほんどおり","lat":34.393377,"lng":132.457003,"prefecture":34,"lines":[99709,99710,99712,99715],"attr":"heat","postal_code":"730-0035","address":"広島市中区本通６-３０","next":[9971011,9971009,9971111,9971110,9971008],"voronoi":{"lat":34.393156,"lng":132.459189,"delta_lat":[0,1266,-41,-1177,-2077],"delta_lng":[0,-1875,-2204,-1062,5767]}},

@@ -1,6 +1,10 @@
 {
   "code":99602,
+  "id":"c2def9",
   "name":"近江鉄道多賀線",
+  "name_kana":"おうみてつどうたがせん",
+  "station_size":3,
+  "company_code":190,
   "color":"#F01008",
   "station_list":[
     {"code":9960106,"id":"e753a2","name":"高宮(滋賀)","name_kana":"たかみや","lat":35.236266,"lng":136.260524,"prefecture":25,"lines":[99601,99602],"attr":"heat","postal_code":"522-0201","address":"彦根市高宮町８７６-１","next":[9960107,9960203,1160103,9960105],"voronoi":{"lat":35.245268,"lng":136.25747,"delta_lat":[0,-15149,-7997,24620],"delta_lng":[0,-11892,12405,11510]}},

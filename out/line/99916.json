@@ -1,6 +1,10 @@
 {
   "code":99916,
+  "id":"c64b54",
   "name":"長崎電軌５系統",
+  "name_kana":"ながさきでんきごけいとう",
+  "station_size":13,
+  "company_code":236,
   "color":"#005A52",
   "station_list":[
     {"code":9991401,"id":"3af478","name":"蛍茶屋","name_kana":"ほたるぢゃや","lat":32.751135,"lng":129.894254,"prefecture":42,"numbering":[{"index":"43"}],"lines":[99914,99915,99916],"attr":"cool","postal_code":"850-0013","address":"長崎市中川町２","next":[9991209,1190532,9991402,1190531,9991326],"voronoi":{"lat":32.744133,"lng":129.889898,"delta_lat":[0,34547,-44767,-143913,-115352],"delta_lng":[0,11100,55675,118833,29847]}},

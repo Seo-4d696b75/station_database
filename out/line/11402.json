@@ -1,6 +1,10 @@
 {
   "code":11402,
+  "id":"b3c630",
   "name":"JR身延線",
+  "name_kana":"じぇいあーるみのぶせん",
+  "station_size":39,
+  "company_code":3,
   "station_list":[
     {"code":1140201,"id":"056f2a","name":"富士","name_kana":"ふじ","lat":35.151497,"lng":138.651225,"prefecture":22,"numbering":[{"symbol":"CC","index":"00"}],"lines":[11402,11501],"attr":"cool","postal_code":"416-0914","address":"富士市本町１丁目","next":[1140202,100207,1140203,9950303,1150110],"voronoi":{"lat":35.138619,"lng":138.637342,"delta_lat":[0,20884,6584,-4253,-35462],"delta_lng":[0,10334,20423,1029,-27893]}},
     {"code":1140202,"id":"3e8a64","name":"柚木(JR)","name_kana":"ゆのき","lat":35.157468,"lng":138.639157,"prefecture":22,"numbering":[{"symbol":"CC","index":"01"}],"lines":[11402],"attr":"cool","postal_code":"416-0908","address":"静岡県富士市柚木213","next":[1140201,1140205,1140209,1150110,1140203],"voronoi":{"lat":35.179756,"lng":138.615726,"delta_lat":[0,-232,-4975,-35931,20884],"delta_lng":[0,-3129,-3791,28535,10334]}},
