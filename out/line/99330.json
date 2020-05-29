@@ -1,6 +1,11 @@
 {
   "code":99330,
+  "id":"e5e270",
   "name":"真岡鐵道",
+  "name_kana":"もおかてつどう",
+  "name_formal":"真岡鐵道真岡線",
+  "station_size":17,
+  "company_code":143,
   "station_list":[
     {"code":1133907,"id":"bc7bc4","name":"下館","name_kana":"しもだて","lat":36.304197,"lng":139.97866,"prefecture":8,"lines":[11339,99318,99330],"attr":"heat","postal_code":"308-0041","address":"茨城県筑西市乙86","next":[1133906,1133908,9931823,9931822,9933002],"voronoi":{"lat":36.304192,"lng":139.958159,"delta_lat":[0,-5472,-23833,-2135,51928],"delta_lng":[0,769,32648,34445,-20529]}},
     {"code":9933002,"id":"d754e5","name":"下館二高前","name_kana":"しもだてにこうまえ","lat":36.319137,"lng":139.972193,"prefecture":8,"lines":[99330],"attr":"cool","postal_code":"308-0051","address":"筑西市岡芹","next":[9933003,1133906,1133908,1133907],"voronoi":{"lat":36.304192,"lng":139.958159,"delta_lat":[0,24448,2737,-6697],"delta_lng":[0,-14918,61355,896]}},

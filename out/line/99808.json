@@ -1,6 +1,11 @@
 {
   "code":99808,
+  "id":"459afe",
   "name":"伊予鉄道１系統(環状線)",
+  "name_kana":"いよてつどういちけいとう(かんじょうせん)",
+  "name_formal":"伊予鉄道１系統",
+  "station_size":21,
+  "company_code":226,
   "color":"#006600",
   "station_list":[
     {"code":9980801,"id":"ebdcbd","name":"松山市駅","name_kana":"まつやましえき","lat":33.836148,"lng":132.762587,"prefecture":38,"numbering":[{"index":"01"}],"lines":[99808,99809,99810,99812],"attr":"eco","postal_code":"790-0012","address":"松山市湊町５","next":[9980802,9980501,9980821,9980702],"voronoi":{"lat":33.833712,"lng":132.765956,"delta_lat":[0,3451,953,-2299],"delta_lng":[0,-5549,3164,3891]}},

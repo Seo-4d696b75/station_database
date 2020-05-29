@@ -1,6 +1,11 @@
 {
   "code":11911,
+  "id":"dd8b48",
   "name":"JR筑豊本線(福北ゆたか線)(折尾～桂川)",
+  "name_kana":"じぇいあーるちくほうほんせん(ふくほくゆたかせん)",
+  "name_formal":"JR筑豊本線(折尾～桂川)",
+  "station_size":16,
+  "company_code":6,
   "color":"#FFFF00",
   "station_list":[
     {"code":1190214,"id":"dddb7e","name":"折尾","name_kana":"おりお","lat":33.863629,"lng":130.713109,"prefecture":40,"lines":[11902,11910,11911],"attr":"cool","postal_code":"807-0861","address":"北九州市八幡西区堀川町","next":[9990907,1191005,1190215,1191102,9990906],"voronoi":{"lat":33.90703,"lng":130.673757,"delta_lat":[0,-53979,-3432,2663,8700],"delta_lng":[0,33121,16120,1849,3029]}},

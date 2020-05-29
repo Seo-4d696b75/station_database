@@ -1,6 +1,10 @@
 {
   "code":11215,
+  "id":"7d26f1",
   "name":"JR男鹿線",
+  "name_kana":"じぇいあーるおがせん",
+  "station_size":9,
+  "company_code":2,
   "color":"#36823E",
   "station_list":[
     {"code":1120231,"id":"e67d7a","name":"追分(秋田)","name_kana":"おいわけ","lat":39.809925,"lng":140.05781,"prefecture":5,"lines":[11202,11215],"attr":"cool","postal_code":"010-0126","address":"秋田市金足追分","next":[1120232,1121502,1120230],"voronoi":{"lat":39.764297,"lng":139.976098,"delta_lat":[0,76563,-9736],"delta_lng":[0,79109,112651]}},

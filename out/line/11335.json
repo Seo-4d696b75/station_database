@@ -1,6 +1,10 @@
 {
   "code":11335,
+  "id":"d103e5",
   "name":"JR吾妻線",
+  "name_kana":"じぇいあーるあがつません",
+  "station_size":18,
+  "company_code":2,
   "color":"#0F5474",
   "station_list":[
     {"code":1133501,"id":"a9cdd0","name":"渋川","name_kana":"しぶかわ","lat":36.491251,"lng":139.008786,"prefecture":10,"lines":[11335,11342],"attr":"eco","postal_code":"377-0008","address":"渋川市渋川","next":[1134208,100902,1133502,1134206],"voronoi":{"lat":36.440906,"lng":138.917709,"delta_lat":[0,3623,77816,-27976],"delta_lng":[0,-2928,91967,51677]}},

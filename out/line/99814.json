@@ -1,6 +1,10 @@
 {
   "code":99814,
+  "id":"942976",
   "name":"土佐くろしお鉄道中村線",
+  "name_kana":"とさくろしおてつどうなかむらせん",
+  "station_size":15,
+  "company_code":227,
   "symbol":"TK",
   "station_list":[
     {"code":1180160,"id":"55d0a6","name":"窪川","name_kana":"くぼかわ","lat":33.212656,"lng":133.137285,"prefecture":39,"numbering":[{"index":"26"}],"lines":[11801,11808,99814],"attr":"heat","postal_code":"786-0013","address":"高岡郡四万十町琴平町","next":[1180804,1180159,1180805,9981403,1180802],"voronoi":{"lat":33.132516,"lng":133.279937,"delta_lat":[0,173067,-383,-13509,-124326],"delta_lng":[0,-234728,42,4732,97508]}},

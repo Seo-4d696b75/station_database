@@ -1,6 +1,10 @@
 {
   "code":11115,
+  "id":"19f8a4",
   "name":"JR宗谷本線",
+  "name_kana":"じぇいあーるそうやほんせん",
+  "station_size":53,
+  "company_code":1,
   "color":"#954A35",
   "station_list":[
     {"code":1110342,"id":"e3f638","name":"旭川","name_kana":"あさひかわ","lat":43.763492,"lng":142.357803,"prefecture":1,"numbering":[{"symbol":"A","color":"#F7931D","index":"28"}],"lines":[11103,11114,11115,11116],"attr":"heat","postal_code":"070-0030","address":"旭川市宮下通８丁目","next":[1111503,1110341,1111502,1111402],"voronoi":{"lat":43.753411,"lng":142.323418,"delta_lat":[0,42046,-15549,-25423],"delta_lng":[0,33275,9611,796]}},

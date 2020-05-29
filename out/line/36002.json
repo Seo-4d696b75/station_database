@@ -1,6 +1,10 @@
 {
   "code":36002,
+  "id":"d19406",
   "name":"西鉄太宰府線",
+  "name_kana":"にしてつだざいふせん",
+  "station_size":3,
+  "company_code":26,
   "symbol":"D",
   "station_list":[
     {"code":3600112,"id":"270f60","name":"西鉄二日市","name_kana":"にしてつふつかいち","lat":33.502192,"lng":130.517871,"prefecture":40,"numbering":[{"symbol":"T","index":"13"}],"lines":[36001,36002],"attr":"cool","postal_code":"818-0072","address":"福岡県筑紫野市二日市中央六丁目","next":[3600202,1190308,3600111,1190309,3600149],"voronoi":{"lat":33.49848,"lng":130.519359,"delta_lat":[0,-956,9035,4649,-7981],"delta_lng":[0,-7551,772,4472,8643]}},

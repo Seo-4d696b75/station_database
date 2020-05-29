@@ -1,6 +1,10 @@
 {
   "code":35003,
+  "id":"58f677",
   "name":"阪神武庫川線",
+  "name_kana":"はんしんむこがわせん",
+  "station_size":4,
+  "company_code":25,
   "symbol":"HS",
   "station_list":[
     {"code":3500112,"id":"4a61c0","name":"武庫川","name_kana":"むこがわ","lat":34.718154,"lng":135.383654,"prefecture":28,"numbering":[{"index":"12"}],"lines":[35001,35003],"attr":"cool","postal_code":"663-8131","address":"西宮市武庫川町２-１５","next":[1160304,3500113,1160305,3500302,3500111],"voronoi":{"lat":34.709002,"lng":135.389039,"delta_lat":[0,10015,9159,3808,-2465],"delta_lng":[0,-12021,1054,8623,3053]}},
