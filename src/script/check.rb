@@ -1,4 +1,5 @@
 load('script/utils.rb')
+require 'net/http'
 
 station_fields = [
   "code",
@@ -105,8 +106,8 @@ def get_address(station)
 			
 end
 
-def write_csv(fields,records)
-  File.open('station.csv','w:utf-8') do |file|
+def write_csv(file,fields,records)
+  File.open(file,'w:utf-8') do |file|
     file.puts(fields.join(','))
     records.each do |s|
       file.puts(fields.map do |f|
@@ -145,7 +146,7 @@ def csv_each_line(name)
 end
 
 def csv_err(mes)
-  puts "Error > #{mes} at file#{$csv_file}:#{$csv_no}\n#{$csv_line}"
+  puts "Error > #{mes} at file #{$csv_file}:#{$csv_no}\n#{$csv_line}"
   exit(0)
 end
 
@@ -153,7 +154,7 @@ def read_boolean(data,key)
   value = data[key]
   if value && value == '0'
     return false
-  elsif value && value = '1'
+  elsif value && value == '1'
     return true
   else
     csv_err("invalid '#{key} value")
@@ -317,8 +318,8 @@ write_id = false
   end
 end
 if write_id
-  write_csv(station_fields,stations)
-  write_csv(line_fields,lines)
+  write_csv('station.csv',station_fields,stations)
+  write_csv('line.csv',line_fields,lines)
   puts "id added and saved."
 end
 
@@ -333,7 +334,7 @@ stations.each do |station|
     puts "Error > invalide post code: #{JSON.dump(station)}"
     exit(0)
   end
-  write_csv(station_fields,stations) if write
+  write_csv('station.csv',station_fields,stations) if write
 end
 
 
