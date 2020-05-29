@@ -85,7 +85,7 @@ def get_address(station)
 	end
 	station['postal_code'] = list[0]['long_name']
 	# 住所
-	exception = ['postal_code','county','bus_station','train_station','transit_station']
+	exception = ['postal_code','country','bus_station','train_station','transit_station']
 	predicate = lambda do |list|
 		list.each{|e| return false if exception.include?(e)}
 		return true
