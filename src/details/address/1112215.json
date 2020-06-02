@@ -1,0 +1,817 @@
+{
+  "station": "浜頓別",
+  "lat": 45.124639,
+  "lng": 142.361111,
+  "plus_code": {
+    "compound_code": "49F6+VC 日本、北海道浜頓別町",
+    "global_code": "8RQ449F6+VC"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "中央南",
+          "short_name": "中央南",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-5705",
+          "short_name": "098-5705",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-5705 北海道枝幸郡浜頓別町中央南１１",
+      "geometry": {
+        "location": {
+          "lat": 45.1244529,
+          "lng": 142.3614475
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.1258018802915,
+            "lng": 142.3627964802915
+          },
+          "southwest": {
+            "lat": 45.1231039197085,
+            "lng": 142.3600985197085
+          }
+        }
+      },
+      "place_id": "ChIJNcKfaOfAEV8RMXCX5_R-DZc",
+      "plus_code": {
+        "compound_code": "49F6+QH 日本、北海道 浜頓別町",
+        "global_code": "8RQ449F6+QH"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 45.1245284,
+            "longitude": 142.3616926
+          },
+          "location_on_segment": {
+            "latitude": 45.1245173,
+            "longitude": 142.3616047
+          },
+          "place_id": "ChIJZRCaZefAEV8Rik90Fl-0n_Q",
+          "segment_position": 0.4455705285072327,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "１８",
+          "short_name": "１８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大通",
+          "short_name": "大通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-5725",
+          "short_name": "098-5725",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-5725 北海道枝幸郡浜頓別町大通１丁目１８",
+      "geometry": {
+        "location": {
+          "lat": 45.1245407,
+          "lng": 142.3617893
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.12588968029149,
+            "lng": 142.3631382802915
+          },
+          "southwest": {
+            "lat": 45.12319171970849,
+            "lng": 142.3604403197085
+          }
+        }
+      },
+      "place_id": "ChIJvypdZefAEV8RPzfurFXVpB4",
+      "plus_code": {
+        "compound_code": "49F6+RP 日本、北海道 浜頓別町",
+        "global_code": "8RQ449F6+RP"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "store"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "浜頓別ターミナル（バス）",
+          "short_name": "浜頓別ターミナル（バス）",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "中央北",
+          "short_name": "中央北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-5704",
+          "short_name": "098-5704",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-5704 北海道枝幸郡浜頓別町中央北 浜頓別ターミナル（バス）",
+      "geometry": {
+        "location": {
+          "lat": 45.1249732,
+          "lng": 142.3604528
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 45.1263221802915,
+            "lng": 142.3618017802915
+          },
+          "southwest": {
+            "lat": 45.1236242197085,
+            "lng": 142.3591038197085
+          }
+        }
+      },
+      "place_id": "ChIJuxPti93AEV8Ro6UtnYBmwEQ",
+      "plus_code": {
+        "compound_code": "49F6+X5 日本、北海道 浜頓別町",
+        "global_code": "8RQ449F6+X5"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道275号",
+          "short_name": "国道275号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "中央南",
+          "short_name": "中央南",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-5705",
+          "short_name": "098-5705",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-5705 北海道枝幸郡浜頓別町中央南 国道275号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.1246241,
+            "lng": 142.3608781
+          },
+          "southwest": {
+            "lat": 45.1245358,
+            "lng": 142.3601131
+          }
+        },
+        "location": {
+          "lat": 45.1245782,
+          "lng": 142.360496
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 45.1259289302915,
+            "lng": 142.3618445802915
+          },
+          "southwest": {
+            "lat": 45.1232309697085,
+            "lng": 142.3591466197085
+          }
+        }
+      },
+      "place_id": "ChIJo_DAX-fAEV8RIHlWYtUCDnQ",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "中央南",
+          "short_name": "中央南",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-5705",
+          "short_name": "098-5705",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-5705 北海道枝幸郡浜頓別町中央南",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.124686,
+            "lng": 142.3625
+          },
+          "southwest": {
+            "lat": 45.121007,
+            "lng": 142.3576081
+          }
+        },
+        "location": {
+          "lat": 45.1238841,
+          "lng": 142.3610751
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.124686,
+            "lng": 142.3625
+          },
+          "southwest": {
+            "lat": 45.121007,
+            "lng": 142.3576081
+          }
+        }
+      },
+      "place_id": "ChIJu35ZaOfAEV8RjeCkmnmfKpE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "098-5705",
+          "short_name": "098-5705",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "中央南",
+          "short_name": "中央南",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒098-5705",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.12468579999999,
+            "lng": 142.3625001
+          },
+          "southwest": {
+            "lat": 45.1210065,
+            "lng": 142.3576082
+          }
+        },
+        "location": {
+          "lat": 45.1238841,
+          "lng": 142.3610751
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.12468579999999,
+            "lng": 142.3625001
+          },
+          "southwest": {
+            "lat": 45.1210065,
+            "lng": 142.3576082
+          }
+        }
+      },
+      "place_id": "ChIJu35ZaOfAEV8ROxsp82_q-_s",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "浜頓別町",
+          "short_name": "浜頓別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道枝幸郡浜頓別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.192351,
+            "lng": 142.503903
+          },
+          "southwest": {
+            "lat": 44.9680579,
+            "lng": 142.1528418
+          }
+        },
+        "location": {
+          "lat": 45.1237674,
+          "lng": 142.3596877
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.192351,
+            "lng": 142.503903
+          },
+          "southwest": {
+            "lat": 44.9680579,
+            "lng": 142.1528418
+          }
+        }
+      },
+      "place_id": "ChIJ068OpijCEV8RHAUnFjVvAIs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "枝幸郡",
+          "short_name": "枝幸郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道枝幸郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.1923512,
+            "lng": 142.8431314
+          },
+          "southwest": {
+            "lat": 44.5781295,
+            "lng": 142.1262556
+          }
+        },
+        "location": {
+          "lat": 44.7142431,
+          "lng": 142.5839521
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.1923512,
+            "lng": 142.8431314
+          },
+          "southwest": {
+            "lat": 44.5781295,
+            "lng": 142.1262556
+          }
+        }
+      },
+      "place_id": "ChIJl8oc04PwEV8R0FOVX80OX6w",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
