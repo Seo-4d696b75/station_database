@@ -34,7 +34,7 @@ GoogleMap zoom_level=18を仮定する
 
 ## 座標系の知識
 
-[google map](https://developers.google.com/maps/documentation/javascript/coordinates#tile-coordinates)  
+[google map](https://developers.google.com/maps/documentation/javascript/coordinates)  
 [メルカトル図法](https://en.wikipedia.org/wiki/Mercator_projection)  
 
 ### 投影法
