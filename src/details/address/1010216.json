@@ -1,0 +1,602 @@
+{
+  "station": "京極",
+  "lat": 42.866667,
+  "lng": 140.880556,
+  "plus_code": {
+    "compound_code": "VV8J+M6 日本、北海道京極町",
+    "global_code": "8RJ2VV8J+M6"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "２３",
+          "short_name": "２３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字京極",
+          "short_name": "字京極",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "京極町",
+          "short_name": "京極町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "044-0101",
+          "short_name": "044-0101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒044-0101 北海道虻田郡京極町字京極２３",
+      "geometry": {
+        "location": {
+          "lat": 42.8661791,
+          "lng": 140.8801146
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.86752808029149,
+            "lng": 140.8814635802915
+          },
+          "southwest": {
+            "lat": 42.8648301197085,
+            "lng": 140.8787656197085
+          }
+        }
+      },
+      "place_id": "ChIJA0EN4YS2Cl8RJ0q1XWrGeCs",
+      "plus_code": {
+        "compound_code": "VV8J+F2 日本、北海道 京極町",
+        "global_code": "8RJ2VV8J+F2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道道821号",
+          "short_name": "道道821号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字京極",
+          "short_name": "字京極",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "京極町",
+          "short_name": "京極町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "044-0101",
+          "short_name": "044-0101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒044-0101 北海道虻田郡京極町字京極 道道821号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8663855,
+            "lng": 140.8800123
+          },
+          "southwest": {
+            "lat": 42.8658161,
+            "lng": 140.8792685
+          }
+        },
+        "location": {
+          "lat": 42.8661008,
+          "lng": 140.8796404
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8674497802915,
+            "lng": 140.8809893802915
+          },
+          "southwest": {
+            "lat": 42.8647518197085,
+            "lng": 140.8782914197085
+          }
+        }
+      },
+      "place_id": "ChIJ5xXB34S2Cl8RVBnNBJr15og",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "044-0101",
+          "short_name": "044-0101",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字京極",
+          "short_name": "字京極",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "京極町",
+          "short_name": "京極町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒044-0101",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8686932,
+            "lng": 140.8913667
+          },
+          "southwest": {
+            "lat": 42.8562866,
+            "lng": 140.8758478
+          }
+        },
+        "location": {
+          "lat": 42.8622703,
+          "lng": 140.8860416
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8686932,
+            "lng": 140.8913667
+          },
+          "southwest": {
+            "lat": 42.8562866,
+            "lng": 140.8758478
+          }
+        }
+      },
+      "place_id": "ChIJ-3fm9Se0Cl8RP174vOFRyLw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字京極",
+          "short_name": "字京極",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "京極町",
+          "short_name": "京極町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道虻田郡京極町字京極",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8689,
+            "lng": 140.8913671
+          },
+          "southwest": {
+            "lat": 42.85628699999999,
+            "lng": 140.875848
+          }
+        },
+        "location": {
+          "lat": 42.8622703,
+          "lng": 140.8860416
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8689,
+            "lng": 140.8913671
+          },
+          "southwest": {
+            "lat": 42.85628699999999,
+            "lng": 140.875848
+          }
+        }
+      },
+      "place_id": "ChIJ1WmsOoO2Cl8RN9F4uJ6HaFg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "京極町",
+          "short_name": "京極町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道虻田郡京極町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.986186,
+            "lng": 141.0527551
+          },
+          "southwest": {
+            "lat": 42.804678,
+            "lng": 140.806801
+          }
+        },
+        "location": {
+          "lat": 42.8584874,
+          "lng": 140.884085
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.986186,
+            "lng": 141.0527551
+          },
+          "southwest": {
+            "lat": 42.804678,
+            "lng": 140.806801
+          }
+        }
+      },
+      "place_id": "ChIJ22LPleHJCl8RBR-ImGxXeQ0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "虻田郡",
+          "short_name": "虻田郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道虻田郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.01515699999999,
+            "lng": 141.1071068
+          },
+          "southwest": {
+            "lat": 42.5206114,
+            "lng": 140.5330241
+          }
+        },
+        "location": {
+          "lat": 42.8466513,
+          "lng": 140.8507483
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.01515699999999,
+            "lng": 141.1071068
+          },
+          "southwest": {
+            "lat": 42.5206114,
+            "lng": 140.5330241
+          }
+        }
+      },
+      "place_id": "ChIJQSZwGF-tCl8RWQCSrmilF4k",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

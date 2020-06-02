@@ -1,0 +1,498 @@
+{
+  "station": "新大滝",
+  "lat": 42.672889,
+  "lng": 141.07975,
+  "plus_code": {
+    "compound_code": "M3FH+5V 日本、北海道伊達市",
+    "global_code": "8RJ3M3FH+5V"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１０３−１９",
+          "short_name": "１０３−１９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大滝区本町",
+          "short_name": "大滝区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊達市",
+          "short_name": "伊達市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "052-0301",
+          "short_name": "052-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒052-0301 北海道伊達市大滝区本町１０３−１９",
+      "geometry": {
+        "location": {
+          "lat": 42.6727409,
+          "lng": 141.0804838
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.6740898802915,
+            "lng": 141.0818327802915
+          },
+          "southwest": {
+            "lat": 42.6713919197085,
+            "lng": 141.0791348197085
+          }
+        }
+      },
+      "place_id": "ChIJYcpG_ZZFdV8Rq1m09D1dbfY",
+      "plus_code": {
+        "compound_code": "M3FJ+35 日本、北海道伊達市",
+        "global_code": "8RJ3M3FJ+35"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道453号",
+          "short_name": "国道453号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大滝区本町",
+          "short_name": "大滝区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊達市",
+          "short_name": "伊達市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "052-0301",
+          "short_name": "052-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒052-0301 北海道伊達市大滝区本町 国道453号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.67196970000001,
+            "lng": 141.0807574
+          },
+          "southwest": {
+            "lat": 42.6717723,
+            "lng": 141.0805387
+          }
+        },
+        "location": {
+          "lat": 42.671871,
+          "lng": 141.080648
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.67321998029151,
+            "lng": 141.0819970302915
+          },
+          "southwest": {
+            "lat": 42.67052201970851,
+            "lng": 141.0792990697085
+          }
+        }
+      },
+      "place_id": "ChIJcT5Or5dFdV8RjOEIONwHwt8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "052-0301",
+          "short_name": "052-0301",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大滝区本町",
+          "short_name": "大滝区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊達市",
+          "short_name": "伊達市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒052-0301",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.6775093,
+            "lng": 141.0868365
+          },
+          "southwest": {
+            "lat": 42.6669814,
+            "lng": 141.0748669
+          }
+        },
+        "location": {
+          "lat": 42.6716707,
+          "lng": 141.08089
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.6775093,
+            "lng": 141.0868365
+          },
+          "southwest": {
+            "lat": 42.6669814,
+            "lng": 141.0748669
+          }
+        }
+      },
+      "place_id": "ChIJFZEV9pZFdV8RjpMptkViC7U",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "大滝区本町",
+          "short_name": "大滝区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "伊達市",
+          "short_name": "伊達市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道伊達市大滝区本町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.678988,
+            "lng": 141.088144
+          },
+          "southwest": {
+            "lat": 42.665855,
+            "lng": 141.073993
+          }
+        },
+        "location": {
+          "lat": 42.6716707,
+          "lng": 141.08089
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.678988,
+            "lng": 141.088144
+          },
+          "southwest": {
+            "lat": 42.665855,
+            "lng": 141.073993
+          }
+        }
+      },
+      "place_id": "ChIJD_lR_5ZFdV8R-jOMaFK-Eto",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "伊達市",
+          "short_name": "伊達市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道伊達市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8273971,
+            "lng": 141.1990711
+          },
+          "southwest": {
+            "lat": 42.37904,
+            "lng": 140.7696168
+          }
+        },
+        "location": {
+          "lat": 42.4718668,
+          "lng": 140.864685
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8273971,
+            "lng": 141.1990711
+          },
+          "southwest": {
+            "lat": 42.37904,
+            "lng": 140.7696168
+          }
+        }
+      },
+      "place_id": "ChIJF2tL1LZbdV8RVo-dc5Kxm7c",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
