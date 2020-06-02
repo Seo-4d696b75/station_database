@@ -1,0 +1,514 @@
+{
+  "station": "雄武共栄",
+  "lat": 44.5575,
+  "lng": 142.986667,
+  "plus_code": {
+    "compound_code": "HX5P+2M 日本、北海道雄武町",
+    "global_code": "8RP4HX5P+2M"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道238号",
+          "short_name": "国道238号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字南雄武",
+          "short_name": "字南雄武",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "雄武町",
+          "short_name": "雄武町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-1705",
+          "short_name": "098-1705",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-1705 北海道紋別郡雄武町字南雄武 国道238号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.55854069999999,
+            "lng": 142.9887143
+          },
+          "southwest": {
+            "lat": 44.5579449,
+            "lng": 142.9872833
+          }
+        },
+        "location": {
+          "lat": 44.5582428,
+          "lng": 142.9879988
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.55959178029149,
+            "lng": 142.9893477802915
+          },
+          "southwest": {
+            "lat": 44.55689381970849,
+            "lng": 142.9866498197085
+          }
+        }
+      },
+      "place_id": "ChIJNYvK8YVtEl8R2gqTsu7pzXM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字南雄武",
+          "short_name": "字南雄武",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "雄武町",
+          "short_name": "雄武町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡雄武町字南雄武",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.564222,
+            "lng": 143.02371
+          },
+          "southwest": {
+            "lat": 44.4903699,
+            "lng": 142.929427
+          }
+        },
+        "location": {
+          "lat": 44.5369433,
+          "lng": 142.9895557
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.564222,
+            "lng": 143.02371
+          },
+          "southwest": {
+            "lat": 44.4903699,
+            "lng": 142.929427
+          }
+        }
+      },
+      "place_id": "ChIJNUppSG5xEl8ROHPZFJ6UcQA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "098-1705",
+          "short_name": "098-1705",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字南雄武",
+          "short_name": "字南雄武",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "雄武町",
+          "short_name": "雄武町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒098-1705",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.5642218,
+            "lng": 143.0237101
+          },
+          "southwest": {
+            "lat": 44.4965143,
+            "lng": 142.9330719
+          }
+        },
+        "location": {
+          "lat": 44.5369433,
+          "lng": 142.9895557
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.5642218,
+            "lng": 143.0237101
+          },
+          "southwest": {
+            "lat": 44.4965143,
+            "lng": 142.9330719
+          }
+        }
+      },
+      "place_id": "ChIJOwhQTeVxEl8R4Q9d3yUH--A",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "雄武町",
+          "short_name": "雄武町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡雄武町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.688426,
+            "lng": 143.100372
+          },
+          "southwest": {
+            "lat": 44.4318381,
+            "lng": 142.5835881
+          }
+        },
+        "location": {
+          "lat": 44.5825323,
+          "lng": 142.9619827
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.688426,
+            "lng": 143.100372
+          },
+          "southwest": {
+            "lat": 44.4318381,
+            "lng": 142.5835881
+          }
+        }
+      },
+      "place_id": "ChIJY7j-Q7IMEl8R3woitshX1mQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        },
+        "location": {
+          "lat": 44.3891946,
+          "lng": 143.0769131
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        }
+      },
+      "place_id": "ChIJ6XnFej99DV8RhiZFqDLARXY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
