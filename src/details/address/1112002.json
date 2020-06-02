@@ -1,0 +1,826 @@
+{
+  "station": "上砂川",
+  "lat": 43.479889,
+  "lng": 141.99025,
+  "plus_code": {
+    "compound_code": "FXHR+X4 日本、北海道上砂川町",
+    "global_code": "8RM3FXHR+X4"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "中央北１条",
+          "short_name": "中央北１条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒073-0201 北海道空知郡上砂川町中央北１条１丁目１−１",
+      "geometry": {
+        "location": {
+          "lat": 43.4797818,
+          "lng": 141.9904044
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4811307802915,
+            "lng": 141.9917533802915
+          },
+          "southwest": {
+            "lat": 43.4784328197085,
+            "lng": 141.9890554197085
+          }
+        }
+      },
+      "place_id": "ChIJobiE6FqhDF8R-rGO1FeSDrI",
+      "plus_code": {
+        "compound_code": "FXHR+W5 日本、北海道上砂川町",
+        "global_code": "8RM3FXHR+W5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "中央１丁目［上砂川町］",
+          "short_name": "中央１丁目［上砂川町］",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "中央北１条",
+          "short_name": "中央北１条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒073-0201 北海道空知郡上砂川町中央北１条１丁目 中央１丁目［上砂川町］",
+      "geometry": {
+        "location": {
+          "lat": 43.4796538,
+          "lng": 141.9903093
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4810027802915,
+            "lng": 141.9916582802915
+          },
+          "southwest": {
+            "lat": 43.47830481970851,
+            "lng": 141.9889603197085
+          }
+        }
+      },
+      "place_id": "ChIJhTQl6FqhDF8R6s3XNSQfGVg",
+      "plus_code": {
+        "compound_code": "FXHR+V4 日本、北海道上砂川町",
+        "global_code": "8RM3FXHR+V4"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "赤平奈井江線",
+          "short_name": "道道114号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字上砂川町",
+          "short_name": "字上砂川町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒073-0201 北海道空知郡上砂川町字上砂川町 道道114号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.4798188,
+            "lng": 141.9904535
+          },
+          "southwest": {
+            "lat": 43.4795341,
+            "lng": 141.9898456
+          }
+        },
+        "location": {
+          "lat": 43.4796817,
+          "lng": 141.9901544
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4810254302915,
+            "lng": 141.9914985302915
+          },
+          "southwest": {
+            "lat": 43.4783274697085,
+            "lng": 141.9888005697085
+          }
+        }
+      },
+      "place_id": "ChIJlyOnwlqhDF8R9l5_YKfDSAg",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "中央北１条",
+          "short_name": "中央北１条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒073-0201 北海道空知郡上砂川町中央北１条１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.4810269,
+            "lng": 141.991506
+          },
+          "southwest": {
+            "lat": 43.479313,
+            "lng": 141.9886589
+          }
+        },
+        "location": {
+          "lat": 43.4800571,
+          "lng": 141.9902058
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4815189302915,
+            "lng": 141.991506
+          },
+          "southwest": {
+            "lat": 43.4788209697085,
+            "lng": 141.9886589
+          }
+        }
+      },
+      "place_id": "ChIJ4XfO41qhDF8R_ba97fOnX8E",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "中央北１条",
+          "short_name": "中央北１条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒073-0201 北海道空知郡上砂川町中央北１条",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.483442,
+            "lng": 141.991506
+          },
+          "southwest": {
+            "lat": 43.479313,
+            "lng": 141.9818311
+          }
+        },
+        "location": {
+          "lat": 43.4817971,
+          "lng": 141.9862775
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.483442,
+            "lng": 141.991506
+          },
+          "southwest": {
+            "lat": 43.479313,
+            "lng": 141.9818311
+          }
+        }
+      },
+      "place_id": "ChIJPVMLWVuhDF8RmNhcNbCwqsg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "073-0201",
+          "short_name": "073-0201",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字上砂川町",
+          "short_name": "字上砂川町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒073-0201",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.4849882,
+            "lng": 141.9938479
+          },
+          "southwest": {
+            "lat": 43.4789732,
+            "lng": 141.9796398
+          }
+        },
+        "location": {
+          "lat": 43.4825525,
+          "lng": 141.9856973
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4849882,
+            "lng": 141.9938479
+          },
+          "southwest": {
+            "lat": 43.4789732,
+            "lng": 141.9796398
+          }
+        }
+      },
+      "place_id": "ChIJiaXd7KamDF8R1lOoLb-2XrQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "上砂川町",
+          "short_name": "上砂川町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道空知郡上砂川町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.48508,
+            "lng": 142.072477
+          },
+          "southwest": {
+            "lat": 43.409037,
+            "lng": 141.9453481
+          }
+        },
+        "location": {
+          "lat": 43.4826633,
+          "lng": 141.9840593
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.48508,
+            "lng": 142.072477
+          },
+          "southwest": {
+            "lat": 43.409037,
+            "lng": 141.9453481
+          }
+        }
+      },
+      "place_id": "ChIJVwueou6mDF8RYXfOkMJJSw4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "空知郡",
+          "short_name": "空知郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道空知郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.5510988,
+            "lng": 142.7788631
+          },
+          "southwest": {
+            "lat": 42.99601819999999,
+            "lng": 141.5643388
+          }
+        },
+        "location": {
+          "lat": 43.438166,
+          "lng": 142.4547748
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.5510988,
+            "lng": 142.7788631
+          },
+          "southwest": {
+            "lat": 42.99601819999999,
+            "lng": 141.5643388
+          }
+        }
+      },
+      "place_id": "ChIJyUzEEKeqdF8Rj6aP8Hn2LHQ",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
