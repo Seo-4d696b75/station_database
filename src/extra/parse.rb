@@ -215,10 +215,14 @@ def parse(template,pref_map)
     puts "Error > unknown prefecture #{template.get_param('所在地')[0].name}"
     exit(0)
   end
-  date = template.get_param('開業年月日').join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/)
-  open_date = "%04d-%02d-%02d" % date[1..3]
-  date = template.get_param('廃止年月日').join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/)
-  closed_date = "%04d-%02d-%02d" % date[1..3]
+  open_date = 'NULL'
+  closed_date = 'NULL'
+  if (date = template.get_param('開業年月日')) && (date = date.join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/))
+    open_date = "%04d-%02d-%02d" % date[1..3]
+  end
+  if (date = template.get_param('廃止年月日')) && (date = date.join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/))
+    closed_date = "%04d-%02d-%02d" % date[1..3]
+  end
   return [
     '','NULL',name,name_kana,
     lat,lng,pref,'NULL','NULL',
@@ -238,11 +242,12 @@ list = []
 list << ['code','id','name','name_kana','lat','lng','prefecture','postal_code','address','closed','open_date','closed_date','impl','attr']
 File.open("list.txt","r") do |file|
   file.each_line do |line|
-    name = line.chomp.split(',')[1]
+    name = line.chomp
     str = ''
     File.open("html/#{name}.html","r") do |f|
       f.each_line{|l| str << l}
     end
+    puts name
     str = str.match(/<text.+?>(.+?)<\/text>/m)[1]
     list << parse(get_info(str),pref)
   end
