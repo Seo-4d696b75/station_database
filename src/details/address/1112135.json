@@ -1,0 +1,833 @@
+{
+  "station": "北湧",
+  "lat": 44.159806,
+  "lng": 143.580167,
+  "plus_code": {
+    "compound_code": "5H5J+W3 日本、北海道湧別町",
+    "global_code": "8RP55H5J+W3"
+  },
+  "results": [
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 44.1598324,
+            "longitude": 143.5802021
+          },
+          "location_on_segment": {
+            "latitude": 44.159858,
+            "longitude": 143.5801218
+          },
+          "place_id": "ChIJJ1N-VvmXEl8RJ9p7t3N8zFo",
+          "segment_position": 0.9526103138923645,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "５８８",
+          "short_name": "５８８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１区",
+          "short_name": "１区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-6325",
+          "short_name": "099-6325",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-6325 北海道紋別郡湧別町北兵村１区５８８",
+      "geometry": {
+        "location": {
+          "lat": 44.1598368,
+          "lng": 143.5801885
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1611857802915,
+            "lng": 143.5815374802915
+          },
+          "southwest": {
+            "lat": 44.1584878197085,
+            "lng": 143.5788395197085
+          }
+        }
+      },
+      "place_id": "ChIJte9xU_mXEl8RdO1pdPE8BS0",
+      "plus_code": {
+        "compound_code": "5H5J+W3 日本、北海道湧別町",
+        "global_code": "8RP55H5J+W3"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "５８８",
+          "short_name": "５８８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１区",
+          "short_name": "１区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-6325",
+          "short_name": "099-6325",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-6325 北海道紋別郡湧別町北兵村１区５８８",
+      "geometry": {
+        "location": {
+          "lat": 44.1599411,
+          "lng": 143.5806369
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.16129008029151,
+            "lng": 143.5819858802915
+          },
+          "southwest": {
+            "lat": 44.15859211970851,
+            "lng": 143.5792879197085
+          }
+        }
+      },
+      "place_id": "ChIJ--9ZVfmXEl8RkjXgwWlo_UY",
+      "plus_code": {
+        "compound_code": "5H5J+X7 日本、北海道湧別町",
+        "global_code": "8RP55H5J+X7"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１区",
+          "short_name": "１区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-6325",
+          "short_name": "099-6325",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, １区 北兵村 湧別町 紋別郡 北海道 099-6325 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1598354,
+            "lng": 143.5801078
+          },
+          "southwest": {
+            "lat": 44.1596403,
+            "lng": 143.5799871
+          }
+        },
+        "location": {
+          "lat": 44.1597379,
+          "lng": 143.5800474
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1610868302915,
+            "lng": 143.5813964302915
+          },
+          "southwest": {
+            "lat": 44.1583888697085,
+            "lng": 143.5786984697085
+          }
+        }
+      },
+      "place_id": "ChIJRWXCUvmXEl8RoLs-s0q7Pg8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１区",
+          "short_name": "１区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡湧別町北兵村１区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.183492,
+            "lng": 143.6195411
+          },
+          "southwest": {
+            "lat": 44.15285300000001,
+            "lng": 143.5593679
+          }
+        },
+        "location": {
+          "lat": 44.1644446,
+          "lng": 143.5930299
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.183492,
+            "lng": 143.6195411
+          },
+          "southwest": {
+            "lat": 44.15285300000001,
+            "lng": 143.5593679
+          }
+        }
+      },
+      "place_id": "ChIJP60eb-aXEl8RTkEaYfF3t_8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "099-6325",
+          "short_name": "099-6325",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "１区",
+          "short_name": "１区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒099-6325",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1826316,
+            "lng": 143.6257928
+          },
+          "southwest": {
+            "lat": 44.1514569,
+            "lng": 143.5557846
+          }
+        },
+        "location": {
+          "lat": 44.1644446,
+          "lng": 143.5930299
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1826316,
+            "lng": 143.6257928
+          },
+          "southwest": {
+            "lat": 44.1514569,
+            "lng": 143.5557846
+          }
+        }
+      },
+      "place_id": "ChIJO8yLSOqXEl8RdhINs-bKCsM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北兵村",
+          "short_name": "北兵村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡湧別町北兵村",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.2052701,
+            "lng": 143.63496
+          },
+          "southwest": {
+            "lat": 44.15285300000001,
+            "lng": 143.5593679
+          }
+        },
+        "location": {
+          "lat": 44.1689664,
+          "lng": 143.605301
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.2052701,
+            "lng": 143.63496
+          },
+          "southwest": {
+            "lat": 44.15285300000001,
+            "lng": 143.5593679
+          }
+        }
+      },
+      "place_id": "ChIJL0mEjVGWEl8RHIYafFxUHnk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡湧別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.252513,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.98705100000001,
+            "lng": 143.4104
+          }
+        },
+        "location": {
+          "lat": 44.15154829999999,
+          "lng": 143.5729109
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.252513,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.98705100000001,
+            "lng": 143.4104
+          }
+        }
+      },
+      "place_id": "ChIJ89zW6t-iEl8R5-Srxq-4-XY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        },
+        "location": {
+          "lat": 44.3891946,
+          "lng": 143.0769131
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        }
+      },
+      "place_id": "ChIJ6XnFej99DV8RhiZFqDLARXY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

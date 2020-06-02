@@ -1,0 +1,597 @@
+{
+  "station": "中名寄",
+  "lat": 44.331056,
+  "lng": 142.512667,
+  "plus_code": {
+    "compound_code": "8GJ7+C3 日本、北海道名寄市",
+    "global_code": "8RP48GJ7+C3"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "９１５",
+          "short_name": "９１５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字日彰",
+          "short_name": "字日彰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "096-0062",
+          "short_name": "096-0062",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒096-0062 北海道名寄市字日彰９１５",
+      "geometry": {
+        "location": {
+          "lat": 44.3310975,
+          "lng": 142.5126569
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.33244648029149,
+            "lng": 142.5140058802915
+          },
+          "southwest": {
+            "lat": 44.3297485197085,
+            "lng": 142.5113079197085
+          }
+        }
+      },
+      "place_id": "ChIJe0ltUryWDV8RZCyuuzNtFKw",
+      "plus_code": {
+        "compound_code": "8GJ7+C3 日本、北海道 名寄市",
+        "global_code": "8RP48GJ7+C3"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 44.3314949,
+            "longitude": 142.5126173
+          },
+          "location_on_segment": {
+            "latitude": 44.3314325,
+            "longitude": 142.512605
+          },
+          "place_id": "ChIJTYTgVryWDV8RoT2Xt2OiNWA",
+          "segment_position": 0.5657368302345276,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "中名寄5線バス停",
+          "short_name": "中名寄5線バス停",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字日彰",
+          "short_name": "字日彰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "096-0062",
+          "short_name": "096-0062",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒096-0062 北海道名寄市字日彰 日彰 中名寄5線バス停",
+      "geometry": {
+        "location": {
+          "lat": 44.3314441,
+          "lng": 142.5126072
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.33279308029149,
+            "lng": 142.5139561802915
+          },
+          "southwest": {
+            "lat": 44.3300951197085,
+            "lng": 142.5112582197085
+          }
+        }
+      },
+      "place_id": "ChIJAcYhV7yWDV8RnkyaVQfYtLs",
+      "plus_code": {
+        "compound_code": "8GJ7+H2 日本、北海道 名寄市",
+        "global_code": "8RP48GJ7+H2"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道239号",
+          "short_name": "国道239号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字日彰",
+          "short_name": "字日彰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "096-0062",
+          "short_name": "096-0062",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒096-0062 北海道名寄市字日彰 国道239号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.3314619,
+            "lng": 142.5128204
+          },
+          "southwest": {
+            "lat": 44.3314115,
+            "lng": 142.5123248
+          }
+        },
+        "location": {
+          "lat": 44.33143580000001,
+          "lng": 142.5125724
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3327856802915,
+            "lng": 142.5139215802915
+          },
+          "southwest": {
+            "lat": 44.33008771970851,
+            "lng": 142.5112236197085
+          }
+        }
+      },
+      "place_id": "ChIJTYTgVryWDV8RoD2Xt2OiNWA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "096-0062",
+          "short_name": "096-0062",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字日彰",
+          "short_name": "字日彰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒096-0062",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.3374337,
+            "lng": 142.5174118
+          },
+          "southwest": {
+            "lat": 44.3089537,
+            "lng": 142.4791672
+          }
+        },
+        "location": {
+          "lat": 44.3266828,
+          "lng": 142.4995306
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3374337,
+            "lng": 142.5174118
+          },
+          "southwest": {
+            "lat": 44.3089537,
+            "lng": 142.4791672
+          }
+        }
+      },
+      "place_id": "ChIJdYDw0ryWDV8Ryg2IeZOBn7g",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字日彰",
+          "short_name": "字日彰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道名寄市字日彰",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.33676699999999,
+            "lng": 142.5172178
+          },
+          "southwest": {
+            "lat": 44.308494,
+            "lng": 142.4805469
+          }
+        },
+        "location": {
+          "lat": 44.3266828,
+          "lng": 142.4995306
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.33676699999999,
+            "lng": 142.5172178
+          },
+          "southwest": {
+            "lat": 44.308494,
+            "lng": 142.4805469
+          }
+        }
+      },
+      "place_id": "ChIJ6STCwo2WDV8RlG1xbEBPkC4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "名寄市",
+          "short_name": "名寄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道名寄市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.483113,
+            "lng": 142.6404899
+          },
+          "southwest": {
+            "lat": 44.17259,
+            "lng": 142.27794
+          }
+        },
+        "location": {
+          "lat": 44.3560311,
+          "lng": 142.4631977
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.483113,
+            "lng": 142.6404899
+          },
+          "southwest": {
+            "lat": 44.17259,
+            "lng": 142.27794
+          }
+        }
+      },
+      "place_id": "ChIJEzoT49aVDV8Ra2LVHLOyY2U",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
