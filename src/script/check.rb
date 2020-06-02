@@ -53,9 +53,7 @@ def get_address(station)
 		uri = URI.parse("https://maps.googleapis.com/")
       https = Net::HTTP.new(uri.host, uri.port)
       https.use_ssl = true
-      https.verify_mode = OpenSSL::SSL::VERIFY_PEER
-      https.verify_depth = 5
-      https.ca_file = "cacert.pem"
+      https.verify_mode = OpenSSL::SSL::VERIFY_NONE
       res = https.start { |w| w.get("/maps/api/geocode/json?latlng=#{station['lat']},#{station['lng']}&key=#{API_KEY}&language=ja") }
       if res.code != '200'
         puts "Error > code : " + res.code
@@ -212,7 +210,7 @@ csv_each_line('station.csv') do |fields|
   pref_cnt[pref] += 1 if impl
   closed = read_boolean(fields,"closed")
   attr = read_value(fields,"attr")
-  csv_err('invalid attr value') if attr!='eco' && attr!='heat' && attr!='cool' && attr!='unknown'
+  csv_err('invalid attr value') if attr && attr!='eco' && attr!='heat' && attr!='cool' && attr!='unknown'
   csv_err('closed <=> attr') if impl && closed != (attr=='unknown')
   csv_err('attr not defined in not impl station') if !impl && attr
   postal_code = read_value(fields,"postal_code")

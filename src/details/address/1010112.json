@@ -1,0 +1,699 @@
+{
+  "station": "開拓",
+  "lat": 43.603278,
+  "lng": 143.979667,
+  "plus_code": {
+    "compound_code": "JX3H+8V 日本、北海道津別町",
+    "global_code": "8RM5JX3H+8V"
+  },
+  "results": [
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 43.6030517,
+            "longitude": 143.9797564
+          },
+          "location_on_segment": {
+            "latitude": 43.6030763,
+            "longitude": 143.9796763
+          },
+          "place_id": "ChIJV_fjeBefcl8Rkfe6C-nYUYM",
+          "segment_position": 0.8186799883842468,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "字布川",
+          "short_name": "字布川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "092-0362",
+          "short_name": "092-0362",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒092-0362 北海道網走郡津別町字布川 網走",
+      "geometry": {
+        "location": {
+          "lat": 43.6029991,
+          "lng": 143.9799275
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.60434808029149,
+            "lng": 143.9812764802915
+          },
+          "southwest": {
+            "lat": 43.60165011970849,
+            "lng": 143.9785785197085
+          }
+        }
+      },
+      "place_id": "ChIJE6vviiefcl8RKhrNKKEiluQ",
+      "plus_code": {
+        "compound_code": "JX3H+5X 日本、北海道津別町",
+        "global_code": "8RM5JX3H+5X"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道240号",
+          "short_name": "国道240号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字布川",
+          "short_name": "字布川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "092-0362",
+          "short_name": "092-0362",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒092-0362 北海道網走郡津別町字布川 国道240号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.6038139,
+            "lng": 143.980106
+          },
+          "southwest": {
+            "lat": 43.60291309999999,
+            "lng": 143.9795806
+          }
+        },
+        "location": {
+          "lat": 43.6033632,
+          "lng": 143.9798443
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6047124802915,
+            "lng": 143.9811922802915
+          },
+          "southwest": {
+            "lat": 43.6020145197085,
+            "lng": 143.9784943197085
+          }
+        }
+      },
+      "place_id": "ChIJV_fjeBefcl8RkPe6C-nYUYM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "３６",
+          "short_name": "３６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字布川",
+          "short_name": "字布川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "092-0362",
+          "short_name": "092-0362",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒092-0362 北海道網走郡津別町字布川３６",
+      "geometry": {
+        "location": {
+          "lat": 43.60172680000001,
+          "lng": 143.9776119
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.60307578029151,
+            "lng": 143.9789608802915
+          },
+          "southwest": {
+            "lat": 43.60037781970851,
+            "lng": 143.9762629197085
+          }
+        }
+      },
+      "place_id": "ChIJpTsgBxifcl8Rp6BMsK02Cjw",
+      "plus_code": {
+        "compound_code": "JX2H+M2 日本、北海道津別町",
+        "global_code": "8RM5JX2H+M2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "092-0362",
+          "short_name": "092-0362",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字布川",
+          "short_name": "字布川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒092-0362",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.6218941,
+            "lng": 144.0309635
+          },
+          "southwest": {
+            "lat": 43.5025919,
+            "lng": 143.8956358
+          }
+        },
+        "location": {
+          "lat": 43.5840074,
+          "lng": 143.9845901
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6218941,
+            "lng": 144.0309635
+          },
+          "southwest": {
+            "lat": 43.5025919,
+            "lng": 143.8956358
+          }
+        }
+      },
+      "place_id": "ChIJEZBnsdeecl8RCChpsyil2TE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字布川",
+          "short_name": "字布川",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道網走郡津別町字布川",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.614677,
+            "lng": 144.035059
+          },
+          "southwest": {
+            "lat": 43.502592,
+            "lng": 143.895636
+          }
+        },
+        "location": {
+          "lat": 43.5840074,
+          "lng": 143.9845901
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.614677,
+            "lng": 144.035059
+          },
+          "southwest": {
+            "lat": 43.502592,
+            "lng": 143.895636
+          }
+        }
+      },
+      "place_id": "ChIJFxf2ZxiZcl8Rg1LS9KLh1NA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "津別町",
+          "short_name": "津別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道網走郡津別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.767857,
+            "lng": 144.235623
+          },
+          "southwest": {
+            "lat": 43.461307,
+            "lng": 143.774358
+          }
+        },
+        "location": {
+          "lat": 43.7065935,
+          "lng": 144.0248757
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.767857,
+            "lng": 144.235623
+          },
+          "southwest": {
+            "lat": 43.461307,
+            "lng": 143.774358
+          }
+        }
+      },
+      "place_id": "ChIJ_TD3fqafcl8RM3Clk2N0MDI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "網走郡",
+          "short_name": "網走郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道網走郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.9680317,
+            "lng": 144.3878873
+          },
+          "southwest": {
+            "lat": 43.4613073,
+            "lng": 143.7743585
+          }
+        },
+        "location": {
+          "lat": 43.7285897,
+          "lng": 144.1269631
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.9680317,
+            "lng": 144.3878873
+          },
+          "southwest": {
+            "lat": 43.4613073,
+            "lng": 143.7743585
+          }
+        }
+      },
+      "place_id": "ChIJibq5dytcbV8RHGqe4c9BMZ4",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
