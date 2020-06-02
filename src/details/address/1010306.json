@@ -1,0 +1,932 @@
+{
+  "station": "岩内",
+  "lat": 42.983361,
+  "lng": 140.516333,
+  "plus_code": {
+    "compound_code": "XGM8+8G 日本、北海道岩内町",
+    "global_code": "8RJ2XGM8+8G"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "４",
+          "short_name": "４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "４７",
+          "short_name": "４７",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代４７−４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.98351110000001,
+            "lng": 140.5169249
+          },
+          "southwest": {
+            "lat": 42.9833718,
+            "lng": 140.516675
+          }
+        },
+        "location": {
+          "lat": 42.9834586,
+          "lng": 140.5168083
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9847904302915,
+            "lng": 140.5181489302915
+          },
+          "southwest": {
+            "lat": 42.9820924697085,
+            "lng": 140.5154509697085
+          }
+        }
+      },
+      "place_id": "ChIJHY4oOb-XCl8R1TT9vrxvlCE",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 42.9836454,
+            "longitude": 140.5162012
+          },
+          "location_on_segment": {
+            "latitude": 42.9836167,
+            "longitude": 140.5161246
+          },
+          "place_id": "ChIJCbkIPb-XCl8RBmAl363l5g8",
+          "segment_position": 0.1859757304191589,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "岩内ＢＴ（バス）",
+          "short_name": "岩内ＢＴ（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代 岩内ＢＴ（バス）",
+      "geometry": {
+        "location": {
+          "lat": 42.9836335,
+          "lng": 140.5161696
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.98498248029149,
+            "lng": 140.5175185802915
+          },
+          "southwest": {
+            "lat": 42.98228451970849,
+            "lng": 140.5148206197085
+          }
+        }
+      },
+      "place_id": "ChIJMSXQPL-XCl8Ru3muETHZges",
+      "plus_code": {
+        "compound_code": "XGM8+FF 日本、北海道 岩内町",
+        "global_code": "8RJ2XGM8+FF"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 42.9831147,
+            "longitude": 140.516567
+          },
+          "location_on_segment": {
+            "latitude": 42.9831643,
+            "longitude": 140.5167035
+          },
+          "place_id": "ChIJiTVIFb-XCl8RqohZ0OzZb0c",
+          "segment_position": 0.6423842310905457,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "４７−４",
+          "short_name": "４７−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代４７−４",
+      "geometry": {
+        "location": {
+          "lat": 42.9834385,
+          "lng": 140.5167623
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9847874802915,
+            "lng": 140.5181112802915
+          },
+          "southwest": {
+            "lat": 42.9820895197085,
+            "lng": 140.5154133197085
+          }
+        }
+      },
+      "place_id": "ChIJ4T4qOb-XCl8Rr0rGQYqhsBk",
+      "plus_code": {
+        "compound_code": "XGM8+9P 日本、北海道 岩内町",
+        "global_code": "8RJ2XGM8+9P"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "３",
+          "short_name": "３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "４７",
+          "short_name": "４７",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代４７−３",
+      "geometry": {
+        "location": {
+          "lat": 42.9833721,
+          "lng": 140.516887
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.98472108029149,
+            "lng": 140.5182359802915
+          },
+          "southwest": {
+            "lat": 42.98202311970849,
+            "lng": 140.5155380197085
+          }
+        }
+      },
+      "place_id": "ChIJRfe1OL-XCl8RxPK2Fjzbv-Q",
+      "plus_code": {
+        "compound_code": "XGM8+8Q 日本、北海道 岩内町",
+        "global_code": "8RJ2XGM8+8Q"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "駅前通り",
+          "short_name": "駅前通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代 駅前通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.9833861,
+            "lng": 140.5163196
+          },
+          "southwest": {
+            "lat": 42.983337,
+            "lng": 140.5162863
+          }
+        },
+        "location": {
+          "lat": 42.98336159999999,
+          "lng": 140.516303
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9847105302915,
+            "lng": 140.5176519302915
+          },
+          "southwest": {
+            "lat": 42.9820125697085,
+            "lng": 140.5149539697085
+          }
+        }
+      },
+      "place_id": "ChIJSYgIPr-XCl8Rau3qWKQUwwM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒045-0003 北海道岩内郡岩内町字万代",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.986164,
+            "lng": 140.5203139
+          },
+          "southwest": {
+            "lat": 42.981072,
+            "lng": 140.509934
+          }
+        },
+        "location": {
+          "lat": 42.9832599,
+          "lng": 140.5151786
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.986164,
+            "lng": 140.5203139
+          },
+          "southwest": {
+            "lat": 42.981072,
+            "lng": 140.509934
+          }
+        }
+      },
+      "place_id": "ChIJi7VcHr-XCl8R-JTzn1PY5cI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "045-0003",
+          "short_name": "045-0003",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字万代",
+          "short_name": "字万代",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒045-0003",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.9861638,
+            "lng": 140.5203145
+          },
+          "southwest": {
+            "lat": 42.9810721,
+            "lng": 140.5099336
+          }
+        },
+        "location": {
+          "lat": 42.9832599,
+          "lng": 140.5151786
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9861638,
+            "lng": 140.5203145
+          },
+          "southwest": {
+            "lat": 42.9810721,
+            "lng": 140.5099336
+          }
+        }
+      },
+      "place_id": "ChIJMzqRXb-XCl8R5V2meQPfow4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "岩内町",
+          "short_name": "岩内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道岩内郡岩内町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.000332,
+            "lng": 140.5348861
+          },
+          "southwest": {
+            "lat": 42.899154,
+            "lng": 140.3807908
+          }
+        },
+        "location": {
+          "lat": 42.9797665,
+          "lng": 140.5147367
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.000332,
+            "lng": 140.5348861
+          },
+          "southwest": {
+            "lat": 42.899154,
+            "lng": 140.3807908
+          }
+        }
+      },
+      "place_id": "ChIJ889bhGSYCl8R5K564qhQbCg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "岩内郡",
+          "short_name": "岩内郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道岩内郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0963699,
+            "lng": 140.7713018
+          },
+          "southwest": {
+            "lat": 42.887584,
+            "lng": 140.3807912
+          }
+        },
+        "location": {
+          "lat": 42.9527088,
+          "lng": 140.5987006
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0963699,
+            "lng": 140.7713018
+          },
+          "southwest": {
+            "lat": 42.887584,
+            "lng": 140.3807912
+          }
+        }
+      },
+      "place_id": "ChIJ4zli6hiWCl8R6rBpl5tptmk",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

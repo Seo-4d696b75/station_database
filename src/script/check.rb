@@ -388,9 +388,19 @@ lines.each do |line|
     station_name = s['name']
     # 名前解決
     station = nil
-    if !(station=station_map[station_name]) && !(station=station_map[station_code])
+    station1=station_map[station_name]
+    station2=station_map[station_code]
+    if !station1 && !station2
       puts "Error > station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
-			exit(0)
+      exit(0)
+    elsif station1 == station2
+      station = station2
+    elsif station1 && station2
+      station = station2['impl'] ? station1 : station2
+    elsif station1
+      station = station1
+    else
+      station = station2
     end
     if station_code != station['code'] && station['impl']
       # 駅メモでは駅名の重複なしのため駅名一致なら同値
