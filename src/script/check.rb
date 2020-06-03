@@ -421,9 +421,11 @@ lines.each do |line|
       puts "Error > fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
       exit(0)
     end
-    impl_size += 1 if station['impl']
-    # 駅要素側にも登録路線を記憶
-    station['lines'] << line['code'] if station['impl']&&line['impl']
+    if station['impl'] && (!s.key?('impl') || !!s['impl'])
+      impl_size += 1 
+      # 駅要素側にも登録路線を記憶
+      station['lines'] << line['code'] if line['impl']
+    end
     index = i + 1
     # 駅ナンバリングを文字列表現
     numbering = 'NULL'

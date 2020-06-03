@@ -56,7 +56,7 @@ lines.each do |line|
   # 登録路線の抽出（駅メモ）
   details['station_list'].select! do |e|
     s = station_map[e['code']]
-    next false if !s
+    next false if (e.key?('impl') && !e['impl']) || !s
     if e['name'] != s['name']
       puts "Error > unknown station item. expected:#{e} found:#{s}"
       exit(0)
