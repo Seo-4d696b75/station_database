@@ -1,0 +1,807 @@
+{
+  "station": "川北",
+  "lat": 43.656389,
+  "lng": 145.024722,
+  "plus_code": {
+    "compound_code": "M24F+HV 日本、北海道標津町",
+    "global_code": "8RM7M24F+HV"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "川北",
+          "short_name": "川北",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒086-1451 北海道標津郡標津町字川北 川北",
+      "geometry": {
+        "location": {
+          "lat": 43.656368,
+          "lng": 145.024596
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6577169802915,
+            "lng": 145.0259449802915
+          },
+          "southwest": {
+            "lat": 43.6550190197085,
+            "lng": 145.0232470197085
+          }
+        }
+      },
+      "place_id": "ChIJsxiiLvOpbV8R3kgCq97fqOo",
+      "plus_code": {
+        "compound_code": "M24F+GR 日本、北海道標津町",
+        "global_code": "8RM7M24F+GR"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "６０−１３",
+          "short_name": "６０−１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒086-1451 北海道標津郡標津町字川北６０−１３",
+      "geometry": {
+        "location": {
+          "lat": 43.6561651,
+          "lng": 145.024803
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.65751408029149,
+            "lng": 145.0261519802915
+          },
+          "southwest": {
+            "lat": 43.65481611970849,
+            "lng": 145.0234540197085
+          }
+        }
+      },
+      "place_id": "ChIJkw6jLPOpbV8R9xr4TkV-GU0",
+      "plus_code": {
+        "compound_code": "M24F+FW 日本、北海道標津町",
+        "global_code": "8RM7M24F+FW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 43.6565766,
+            "longitude": 145.0249405
+          },
+          "location_on_segment": {
+            "latitude": 43.6566042,
+            "longitude": 145.0248622
+          },
+          "place_id": "ChIJL9W3MfOpbV8Ro8wvuSwTSO4",
+          "segment_position": 0.3526700735092163,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "６０−５３",
+          "short_name": "６０−５３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒086-1451 北海道標津郡標津町字川北６０−５３",
+      "geometry": {
+        "location": {
+          "lat": 43.6565185,
+          "lng": 145.0251053
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6578674802915,
+            "lng": 145.0264542802915
+          },
+          "southwest": {
+            "lat": 43.6551695197085,
+            "lng": 145.0237563197085
+          }
+        }
+      },
+      "place_id": "ChIJYVrVLfOpbV8RpyEpyKHju7Q",
+      "plus_code": {
+        "compound_code": "M24G+J2 日本、北海道標津町",
+        "global_code": "8RM7M24G+J2"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "川北中標津線",
+          "short_name": "道道774号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒086-1451 北海道標津郡標津町字川北 道道774号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.6566286,
+            "lng": 145.0236499
+          },
+          "southwest": {
+            "lat": 43.6566175,
+            "lng": 145.023643
+          }
+        },
+        "location": {
+          "lat": 43.6566231,
+          "lng": 145.0236464
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6579720302915,
+            "lng": 145.0249954302915
+          },
+          "southwest": {
+            "lat": 43.6552740697085,
+            "lng": 145.0222974697085
+          }
+        }
+      },
+      "place_id": "ChIJh8xIJ_OpbV8R-iScOApNnX4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒086-1451",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.7557661,
+            "lng": 145.0996014
+          },
+          "southwest": {
+            "lat": 43.6257505,
+            "lng": 144.7235405
+          }
+        },
+        "location": {
+          "lat": 43.70571349999999,
+          "lng": 144.9319023
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7557661,
+            "lng": 145.0996014
+          },
+          "southwest": {
+            "lat": 43.6257505,
+            "lng": 144.7235405
+          }
+        }
+      },
+      "place_id": "ChIJRdY75OYGbV8RgidB3sqLYpc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字川北",
+          "short_name": "字川北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "086-1451",
+          "short_name": "086-1451",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒086-1451 北海道標津郡標津町字川北",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.755894,
+            "lng": 145.099601
+          },
+          "southwest": {
+            "lat": 43.625751,
+            "lng": 144.7235408
+          }
+        },
+        "location": {
+          "lat": 43.70571349999999,
+          "lng": 144.9319023
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.755894,
+            "lng": 145.099601
+          },
+          "southwest": {
+            "lat": 43.625751,
+            "lng": 144.7235408
+          }
+        }
+      },
+      "place_id": "ChIJFTwAXkIGbV8RsIXPaoYY7lc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "標津町",
+          "short_name": "標津町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道標津郡標津町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.902422,
+            "lng": 145.244174
+          },
+          "southwest": {
+            "lat": 43.5634771,
+            "lng": 144.7200058
+          }
+        },
+        "location": {
+          "lat": 43.6612538,
+          "lng": 145.1313612
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.902422,
+            "lng": 145.244174
+          },
+          "southwest": {
+            "lat": 43.5634771,
+            "lng": 144.7200058
+          }
+        }
+      },
+      "place_id": "ChIJdcyK7G8BbV8Rxygle1TE0rM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "標津郡",
+          "short_name": "標津郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道標津郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.9024215,
+            "lng": 145.2441738
+          },
+          "southwest": {
+            "lat": 43.4613246,
+            "lng": 144.5706635
+          }
+        },
+        "location": {
+          "lat": 43.6833857,
+          "lng": 144.9268253
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.9024215,
+            "lng": 145.2441738
+          },
+          "southwest": {
+            "lat": 43.4613246,
+            "lng": 144.5706635
+          }
+        }
+      },
+      "place_id": "ChIJJd5d300GbV8RWsCgMQJYuU8",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
