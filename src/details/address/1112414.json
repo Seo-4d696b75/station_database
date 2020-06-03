@@ -1,0 +1,746 @@
+{
+  "station": "政和温泉",
+  "lat": 44.1145,
+  "lng": 142.141306,
+  "plus_code": {
+    "compound_code": "447R+QG 日本、北海道幌加内町",
+    "global_code": "8RP4447R+QG"
+  },
+  "results": [
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 44.1152576,
+            "longitude": 142.1396339
+          },
+          "location_on_segment": {
+            "latitude": 44.1152103,
+            "longitude": 142.1395759
+          },
+          "place_id": "ChIJ31KPB2CtDV8R_cbCjpN8YWE",
+          "segment_position": 0.8199037313461304,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "ルオント前（バス）",
+          "short_name": "ルオント前（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "第一",
+          "short_name": "第一",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字政和",
+          "short_name": "字政和",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "074-0425",
+          "short_name": "074-0425",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒074-0425 北海道雨竜郡幌加内町字政和第一 ルオント前（バス）",
+      "geometry": {
+        "location": {
+          "lat": 44.1151925,
+          "lng": 142.1395532
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1165414802915,
+            "lng": 142.1409021802915
+          },
+          "southwest": {
+            "lat": 44.1138435197085,
+            "lng": 142.1382042197085
+          }
+        }
+      },
+      "place_id": "ChIJU4Ad41-tDV8RiV7tQI8XviE",
+      "plus_code": {
+        "compound_code": "448Q+3R 日本、北海道幌加内町",
+        "global_code": "8RP4448Q+3R"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道275号",
+          "short_name": "国道275号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "第一",
+          "short_name": "第一",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字政和",
+          "short_name": "字政和",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "074-0425",
+          "short_name": "074-0425",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒074-0425 北海道雨竜郡幌加内町字政和第一 国道275号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.11466410000001,
+            "lng": 142.1399191
+          },
+          "southwest": {
+            "lat": 44.11410050000001,
+            "lng": 142.1397989
+          }
+        },
+        "location": {
+          "lat": 44.1143825,
+          "lng": 142.1398571
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.11573128029151,
+            "lng": 142.1412079802915
+          },
+          "southwest": {
+            "lat": 44.11303331970851,
+            "lng": 142.1385100197085
+          }
+        }
+      },
+      "place_id": "ChIJP_OtxF-tDV8R2Du_43UndGs",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "074-0425",
+          "short_name": "074-0425",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "第一",
+          "short_name": "第一",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字政和",
+          "short_name": "字政和",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒074-0425",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1493224,
+            "lng": 142.2040345
+          },
+          "southwest": {
+            "lat": 44.0825695,
+            "lng": 142.0717821
+          }
+        },
+        "location": {
+          "lat": 44.11764549999999,
+          "lng": 142.1165369
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1493224,
+            "lng": 142.2040345
+          },
+          "southwest": {
+            "lat": 44.0825695,
+            "lng": 142.0717821
+          }
+        }
+      },
+      "place_id": "ChIJIQvZL4WyDV8RrXk2xt5kzFQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "第一",
+          "short_name": "第一",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字政和",
+          "short_name": "字政和",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "074-0425",
+          "short_name": "074-0425",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒074-0425 北海道雨竜郡幌加内町字政和第一",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.149323,
+            "lng": 142.2040351
+          },
+          "southwest": {
+            "lat": 44.08257,
+            "lng": 142.0717819
+          }
+        },
+        "location": {
+          "lat": 44.11764549999999,
+          "lng": 142.1165369
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.149323,
+            "lng": 142.2040351
+          },
+          "southwest": {
+            "lat": 44.08257,
+            "lng": 142.0717819
+          }
+        }
+      },
+      "place_id": "ChIJ2bPHBKCyDV8RS1M0lmZ3A7M",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字政和",
+          "short_name": "字政和",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡幌加内町字政和",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.174203,
+            "lng": 142.2040351
+          },
+          "southwest": {
+            "lat": 44.08257,
+            "lng": 142.071285
+          }
+        },
+        "location": {
+          "lat": 44.1289898,
+          "lng": 142.1183893
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.174203,
+            "lng": 142.2040351
+          },
+          "southwest": {
+            "lat": 44.08257,
+            "lng": 142.071285
+          }
+        }
+      },
+      "place_id": "ChIJWXVV92GyDV8RvWlX_ZLGnSI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "幌加内町",
+          "short_name": "幌加内町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡幌加内町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.47875699999999,
+            "lng": 142.323974
+          },
+          "southwest": {
+            "lat": 43.90539709999999,
+            "lng": 142.0210539
+          }
+        },
+        "location": {
+          "lat": 44.0099445,
+          "lng": 142.1538429
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.47875699999999,
+            "lng": 142.323974
+          },
+          "southwest": {
+            "lat": 43.90539709999999,
+            "lng": 142.0210539
+          }
+        }
+      },
+      "place_id": "ChIJM3f0hGqxDV8R-eLl30RXmv8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.4787571,
+            "lng": 142.3239735
+          },
+          "southwest": {
+            "lat": 43.6069629,
+            "lng": 141.5229191
+          }
+        },
+        "location": {
+          "lat": 43.7147286,
+          "lng": 141.8706657
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.4787571,
+            "lng": 142.3239735
+          },
+          "southwest": {
+            "lat": 43.6069629,
+            "lng": 141.5229191
+          }
+        }
+      },
+      "place_id": "ChIJ98u29O9PDF8RNohcbWoWOrM",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
