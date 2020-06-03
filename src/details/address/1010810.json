@@ -1,0 +1,609 @@
+{
+  "station": "雄鎮内",
+  "lat": 44.195556,
+  "lng": 143.141389,
+  "plus_code": {
+    "compound_code": "54WR+6H 日本、北海道滝上町",
+    "global_code": "8RP554WR+6H"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "３８３−１０",
+          "short_name": "３８３−１０",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "雄鎮内",
+          "short_name": "雄鎮内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "滝上町",
+          "short_name": "滝上町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-5544",
+          "short_name": "099-5544",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-5544 北海道紋別郡滝上町雄鎮内３８３−１０",
+      "geometry": {
+        "location": {
+          "lat": 44.195996,
+          "lng": 143.1399013
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1973449802915,
+            "lng": 143.1412502802915
+          },
+          "southwest": {
+            "lat": 44.1946470197085,
+            "lng": 143.1385523197085
+          }
+        }
+      },
+      "place_id": "ChIJWxBnJwJ9DV8RmOEBNAxWpXc",
+      "plus_code": {
+        "compound_code": "54WQ+9X 日本、北海道滝上町",
+        "global_code": "8RP554WQ+9X"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "上渚滑原野上渚滑線",
+          "short_name": "道道932号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "雄鎮内",
+          "short_name": "雄鎮内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "滝上町",
+          "short_name": "滝上町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-5544",
+          "short_name": "099-5544",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-5544 北海道紋別郡滝上町雄鎮内 道道932号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1959564,
+            "lng": 143.1416366
+          },
+          "southwest": {
+            "lat": 44.1949695,
+            "lng": 143.1406339
+          }
+        },
+        "location": {
+          "lat": 44.195463,
+          "lng": 143.1411353
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1968119302915,
+            "lng": 143.1424842302915
+          },
+          "southwest": {
+            "lat": 44.1941139697085,
+            "lng": 143.1397862697085
+          }
+        }
+      },
+      "place_id": "ChIJc9ZXNwJ9DV8R3CqXeJKLS3k",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "雄鎮内",
+          "short_name": "雄鎮内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "滝上町",
+          "short_name": "滝上町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-5544",
+          "short_name": "099-5544",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-5544 北海道紋別郡滝上町雄鎮内",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.283268,
+            "lng": 143.155431
+          },
+          "southwest": {
+            "lat": 44.18570099999999,
+            "lng": 143.0707539
+          }
+        },
+        "location": {
+          "lat": 44.2359201,
+          "lng": 143.1055471
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.283268,
+            "lng": 143.155431
+          },
+          "southwest": {
+            "lat": 44.18570099999999,
+            "lng": 143.0707539
+          }
+        }
+      },
+      "place_id": "ChIJ29e-K999DV8RqoyI6dp1uQ8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "099-5544",
+          "short_name": "099-5544",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字上渚滑原野",
+          "short_name": "字上渚滑原野",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "滝上町",
+          "short_name": "滝上町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒099-5544",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.28326819999999,
+            "lng": 143.1554312
+          },
+          "southwest": {
+            "lat": 44.1857008,
+            "lng": 143.0707543
+          }
+        },
+        "location": {
+          "lat": 44.2359201,
+          "lng": 143.1055471
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.28326819999999,
+            "lng": 143.1554312
+          },
+          "southwest": {
+            "lat": 44.1857008,
+            "lng": 143.0707543
+          }
+        }
+      },
+      "place_id": "ChIJqcqO59h9DV8RVJKUk6bWIMk",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "滝上町",
+          "short_name": "滝上町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡滝上町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.291877,
+            "lng": 143.197764
+          },
+          "southwest": {
+            "lat": 43.913764,
+            "lng": 142.8380208
+          }
+        },
+        "location": {
+          "lat": 44.1923486,
+          "lng": 143.0775452
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.291877,
+            "lng": 143.197764
+          },
+          "southwest": {
+            "lat": 43.913764,
+            "lng": 142.8380208
+          }
+        }
+      },
+      "place_id": "ChIJkcnvqehvDV8RZ7SL-OxPoYc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        },
+        "location": {
+          "lat": 44.3891946,
+          "lng": 143.0769131
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        }
+      },
+      "place_id": "ChIJ6XnFej99DV8RhiZFqDLARXY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

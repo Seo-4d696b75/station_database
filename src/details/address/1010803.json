@@ -1,0 +1,608 @@
+{
+  "station": "下渚滑",
+  "lat": 44.343958,
+  "lng": 143.285944,
+  "plus_code": {
+    "compound_code": "87VP+H9 日本、北海道紋別市",
+    "global_code": "8RP587VP+H9"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１３",
+          "short_name": "１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "下渚滑",
+          "short_name": "下渚滑",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上渚滑町",
+          "short_name": "上渚滑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-5351",
+          "short_name": "099-5351",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-5351 北海道紋別市上渚滑町下渚滑１３",
+      "geometry": {
+        "location": {
+          "lat": 44.3439771,
+          "lng": 143.2843901
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.34532608029149,
+            "lng": 143.2857390802915
+          },
+          "southwest": {
+            "lat": 44.34262811970849,
+            "lng": 143.2830411197085
+          }
+        }
+      },
+      "place_id": "ChIJxW7jzNOHEl8RJH9zatyuMsw",
+      "plus_code": {
+        "compound_code": "87VM+HQ 日本、北海道紋別市",
+        "global_code": "8RP587VM+HQ"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道273号",
+          "short_name": "国道273号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "下渚滑",
+          "short_name": "下渚滑",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上渚滑町",
+          "short_name": "上渚滑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-5351",
+          "short_name": "099-5351",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-5351 北海道紋別市上渚滑町下渚滑 国道273号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.34388389999999,
+            "lng": 143.2838721
+          },
+          "southwest": {
+            "lat": 44.3436992,
+            "lng": 143.2837919
+          }
+        },
+        "location": {
+          "lat": 44.3437916,
+          "lng": 143.283832
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3451405302915,
+            "lng": 143.2851809802915
+          },
+          "southwest": {
+            "lat": 44.3424425697085,
+            "lng": 143.2824830197085
+          }
+        }
+      },
+      "place_id": "ChIJIZfzNNKHEl8RPg7Otveja7U",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "下渚滑",
+          "short_name": "下渚滑",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上渚滑町",
+          "short_name": "上渚滑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別市上渚滑町下渚滑",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.352775,
+            "lng": 143.329031
+          },
+          "southwest": {
+            "lat": 44.3107,
+            "lng": 143.257145
+          }
+        },
+        "location": {
+          "lat": 44.3275186,
+          "lng": 143.2939993
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.352775,
+            "lng": 143.329031
+          },
+          "southwest": {
+            "lat": 44.3107,
+            "lng": 143.257145
+          }
+        }
+      },
+      "place_id": "ChIJ228pMDqGEl8R12ZaoS0GbGs",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "099-5351",
+          "short_name": "099-5351",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "下渚滑",
+          "short_name": "下渚滑",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上渚滑町",
+          "short_name": "上渚滑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒099-5351",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.353527,
+            "lng": 143.3265069
+          },
+          "southwest": {
+            "lat": 44.30615770000001,
+            "lng": 143.2569985
+          }
+        },
+        "location": {
+          "lat": 44.3275186,
+          "lng": 143.2939993
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.353527,
+            "lng": 143.3265069
+          },
+          "southwest": {
+            "lat": 44.30615770000001,
+            "lng": 143.2569985
+          }
+        }
+      },
+      "place_id": "ChIJC4QfmweGEl8RhlrOZ0pmt3s",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "上渚滑町",
+          "short_name": "上渚滑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別市上渚滑町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.352775,
+            "lng": 143.3328791
+          },
+          "southwest": {
+            "lat": 43.991547,
+            "lng": 143.095093
+          }
+        },
+        "location": {
+          "lat": 44.1219587,
+          "lng": 143.2094693
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.352775,
+            "lng": 143.3328791
+          },
+          "southwest": {
+            "lat": 43.991547,
+            "lng": 143.095093
+          }
+        }
+      },
+      "place_id": "ChIJU5KY13WDEl8RbbBzDjAYDTU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "紋別市",
+          "short_name": "紋別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.4008149,
+            "lng": 143.559042
+          },
+          "southwest": {
+            "lat": 43.991389,
+            "lng": 143.0950439
+          }
+        },
+        "location": {
+          "lat": 44.3564386,
+          "lng": 143.3543524
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.4008149,
+            "lng": 143.559042
+          },
+          "southwest": {
+            "lat": 43.991389,
+            "lng": 143.0950439
+          }
+        }
+      },
+      "place_id": "ChIJs1lAMo2cEl8RiCwSMG7QBh0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
