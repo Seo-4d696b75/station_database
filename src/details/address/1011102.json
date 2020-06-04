@@ -1,0 +1,941 @@
+{
+  "station": "色内",
+  "lat": 43.196694,
+  "lng": 140.999694,
+  "plus_code": {
+    "compound_code": "5XWX+MV 日本、北海道小樽市",
+    "global_code": "8RM25XWX+MV"
+  },
+  "results": [
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 43.1968027,
+            "longitude": 140.9999751
+          },
+          "location_on_segment": {
+            "latitude": 43.1968278,
+            "longitude": 141.0000543
+          },
+          "place_id": "ChIJJ9MhYVLgCl8Re-YL0nfhlN8",
+          "segment_position": 0.3740990459918976,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "５",
+          "short_name": "５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "９",
+          "short_name": "９",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目９−５",
+      "geometry": {
+        "location": {
+          "lat": 43.19676399999999,
+          "lng": 140.999853
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.19811298029149,
+            "lng": 141.0012019802915
+          },
+          "southwest": {
+            "lat": 43.1954150197085,
+            "lng": 140.9985040197085
+          }
+        }
+      },
+      "place_id": "ChIJDRvsXVLgCl8Ria7LgFbi3xs",
+      "plus_code": {
+        "compound_code": "5XWX+PW 日本、北海道小樽市",
+        "global_code": "8RM25XWX+PW"
+      },
+      "types": [
+        "establishment",
+        "museum",
+        "point_of_interest",
+        "tourist_attraction"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "９−５",
+          "short_name": "９−５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "９",
+          "short_name": "９",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目９−９−５",
+      "geometry": {
+        "location": {
+          "lat": 43.1967896,
+          "lng": 140.9998484
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1981385802915,
+            "lng": 141.0011973802915
+          },
+          "southwest": {
+            "lat": 43.1954406197085,
+            "lng": 140.9984994197085
+          }
+        }
+      },
+      "place_id": "ChIJvaL7XVLgCl8RpRCJ7li-PhI",
+      "plus_code": {
+        "compound_code": "5XWX+PW 日本、北海道小樽市",
+        "global_code": "8RM25XWX+PW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "３",
+          "short_name": "３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１４",
+          "short_name": "１４",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目１４−３",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.196654,
+            "lng": 140.9994826
+          },
+          "southwest": {
+            "lat": 43.1965674,
+            "lng": 140.9994072
+          }
+        },
+        "location": {
+          "lat": 43.1965943,
+          "lng": 140.9994542
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1979596802915,
+            "lng": 141.0007938802915
+          },
+          "southwest": {
+            "lat": 43.1952617197085,
+            "lng": 140.9980959197085
+          }
+        }
+      },
+      "place_id": "ChIJ26vHW1LgCl8REhOvbxSFyRI",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日銀通り",
+          "short_name": "日銀通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目 日銀通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1963034,
+            "lng": 140.9998576
+          },
+          "southwest": {
+            "lat": 43.19626909999999,
+            "lng": 140.9997524
+          }
+        },
+        "location": {
+          "lat": 43.1962863,
+          "lng": 140.999805
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1976352302915,
+            "lng": 141.0011539802915
+          },
+          "southwest": {
+            "lat": 43.1949372697085,
+            "lng": 140.9984560197085
+          }
+        }
+      },
+      "place_id": "ChIJl_usRVLgCl8RksKemMq68SI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "９",
+          "short_name": "９",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目９",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.197777,
+            "lng": 141.000686
+          },
+          "southwest": {
+            "lat": 43.196231,
+            "lng": 140.9991958
+          }
+        },
+        "location": {
+          "lat": 43.1970022,
+          "lng": 140.9998806
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1983529802915,
+            "lng": 141.0012898802915
+          },
+          "southwest": {
+            "lat": 43.1956550197085,
+            "lng": 140.9985919197085
+          }
+        }
+      },
+      "place_id": "ChIJ2aUIYVLgCl8Rds9vFAHpW5M",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.199993,
+            "lng": 141.003909
+          },
+          "southwest": {
+            "lat": 43.194406,
+            "lng": 140.9980588
+          }
+        },
+        "location": {
+          "lat": 43.19692879999999,
+          "lng": 141.0009161
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.199993,
+            "lng": 141.003909
+          },
+          "southwest": {
+            "lat": 43.194406,
+            "lng": 140.9980588
+          }
+        }
+      },
+      "place_id": "ChIJ-_zle1LgCl8ReuvOm6K6JmE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒047-0031 北海道小樽市色内",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.209109,
+            "lng": 141.011899
+          },
+          "southwest": {
+            "lat": 43.194406,
+            "lng": 140.9963269
+          }
+        },
+        "location": {
+          "lat": 43.2045667,
+          "lng": 141.0019637
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.209109,
+            "lng": 141.011899
+          },
+          "southwest": {
+            "lat": 43.194406,
+            "lng": 140.9963269
+          }
+        }
+      },
+      "place_id": "ChIJV7YOFbPhCl8RN20S3xwAjrY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "047-0031",
+          "short_name": "047-0031",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "色内",
+          "short_name": "色内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒047-0031",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2091087,
+            "lng": 141.0118992
+          },
+          "southwest": {
+            "lat": 43.1944064,
+            "lng": 140.9963268
+          }
+        },
+        "location": {
+          "lat": 43.2045667,
+          "lng": 141.0019637
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2091087,
+            "lng": 141.0118992
+          },
+          "southwest": {
+            "lat": 43.1944064,
+            "lng": 140.9963268
+          }
+        }
+      },
+      "place_id": "ChIJ35eKwLLhCl8Rk2AueIdl5ic",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "小樽市",
+          "short_name": "小樽市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道小樽市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.242594,
+            "lng": 141.292544
+          },
+          "southwest": {
+            "lat": 43.060844,
+            "lng": 140.8448019
+          }
+        },
+        "location": {
+          "lat": 43.1902372,
+          "lng": 140.994172
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.242594,
+            "lng": 141.292544
+          },
+          "southwest": {
+            "lat": 43.060844,
+            "lng": 140.8448019
+          }
+        }
+      },
+      "place_id": "ChIJO3nvmK7fCl8RodlajWJ7Pgo",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
