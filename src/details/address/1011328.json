@@ -1,0 +1,609 @@
+{
+  "station": "啓明",
+  "lat": 44.756111,
+  "lng": 141.795833,
+  "plus_code": {
+    "compound_code": "QQ4W+C8 日本、北海道遠別町",
+    "global_code": "8RP3QQ4W+C8"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字啓明",
+          "short_name": "字啓明",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "遠別町",
+          "short_name": "遠別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-3503",
+          "short_name": "098-3503",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-3503 北海道天塩郡遠別町字啓明１",
+      "geometry": {
+        "location": {
+          "lat": 44.755717,
+          "lng": 141.7940414
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.7570659802915,
+            "lng": 141.7953903802915
+          },
+          "southwest": {
+            "lat": 44.7543680197085,
+            "lng": 141.7926924197085
+          }
+        }
+      },
+      "place_id": "ChIJb7T7p4MUDl8RxbVpV1jZHuE",
+      "plus_code": {
+        "compound_code": "QQ4V+7J 日本、北海道遠別町",
+        "global_code": "8RP3QQ4V+7J"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "遠別中川線",
+          "short_name": "道道119号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字啓明",
+          "short_name": "字啓明",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "遠別町",
+          "short_name": "遠別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-3503",
+          "short_name": "098-3503",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-3503 北海道天塩郡遠別町字啓明 道道119号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.755931,
+            "lng": 141.7980716
+          },
+          "southwest": {
+            "lat": 44.75566509999999,
+            "lng": 141.7946781
+          }
+        },
+        "location": {
+          "lat": 44.7557968,
+          "lng": 141.796375
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.7571470302915,
+            "lng": 141.7980716
+          },
+          "southwest": {
+            "lat": 44.7544490697085,
+            "lng": 141.7946781
+          }
+        }
+      },
+      "place_id": "ChIJJ735M4IUDl8RhIXA7UaBGeg",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "098-3503",
+          "short_name": "098-3503",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字啓明",
+          "short_name": "字啓明",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "遠別町",
+          "short_name": "遠別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒098-3503",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.7703043,
+            "lng": 141.8549394
+          },
+          "southwest": {
+            "lat": 44.7400282,
+            "lng": 141.774978
+          }
+        },
+        "location": {
+          "lat": 44.7561712,
+          "lng": 141.8174052
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.7703043,
+            "lng": 141.8549394
+          },
+          "southwest": {
+            "lat": 44.7400282,
+            "lng": 141.774978
+          }
+        }
+      },
+      "place_id": "ChIJJ4Kcu4MUDl8RxQYFX54qRNg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字啓明",
+          "short_name": "字啓明",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "遠別町",
+          "short_name": "遠別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "098-3503",
+          "short_name": "098-3503",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒098-3503 北海道天塩郡遠別町字啓明",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.770304,
+            "lng": 141.85494
+          },
+          "southwest": {
+            "lat": 44.740028,
+            "lng": 141.7749781
+          }
+        },
+        "location": {
+          "lat": 44.7561712,
+          "lng": 141.8174052
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.770304,
+            "lng": 141.85494
+          },
+          "southwest": {
+            "lat": 44.740028,
+            "lng": 141.7749781
+          }
+        }
+      },
+      "place_id": "ChIJr1UEA54UDl8RPKCaRJf-OGQ",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "遠別町",
+          "short_name": "遠別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道天塩郡遠別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.845304,
+            "lng": 142.1159788
+          },
+          "southwest": {
+            "lat": 44.354843,
+            "lng": 141.763237
+          }
+        },
+        "location": {
+          "lat": 44.7224531,
+          "lng": 141.7923354
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.845304,
+            "lng": 142.1159788
+          },
+          "southwest": {
+            "lat": 44.354843,
+            "lng": 141.763237
+          }
+        }
+      },
+      "place_id": "ChIJYTkeOtx0Dl8R0vBtgzoB2mM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "天塩郡",
+          "short_name": "天塩郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道天塩郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.2741372,
+            "lng": 142.1728617
+          },
+          "southwest": {
+            "lat": 44.3548428,
+            "lng": 141.5781249
+          }
+        },
+        "location": {
+          "lat": 44.9612568,
+          "lng": 141.8845082
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.2741372,
+            "lng": 142.1728617
+          },
+          "southwest": {
+            "lat": 44.3548428,
+            "lng": 141.5781249
+          }
+        }
+      },
+      "place_id": "ChIJKbHtguIWDl8Rf5USbuQFoRc",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "station": "番屋ノ沢",
+  "lat": 44.226667,
+  "lng": 141.664167,
+  "plus_code": {
+    "compound_code": "6MG7+MM 日本、北海道苫前町",
+    "global_code": "8RP36MG7+MM"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "６４４−１",
+          "short_name": "６４４−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字力昼",
+          "short_name": "字力昼",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-3541",
+          "short_name": "078-3541",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-3541 北海道苫前郡苫前町字力昼６４４−１",
+      "geometry": {
+        "location": {
+          "lat": 44.2267285,
+          "lng": 141.6641885
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.2280774802915,
+            "lng": 141.6655374802915
+          },
+          "southwest": {
+            "lat": 44.2253795197085,
+            "lng": 141.6628395197085
+          }
+        }
+      },
+      "place_id": "ChIJX9qHR_YwDF8RccCbZyLdsBY",
+      "plus_code": {
+        "compound_code": "6MG7+MM 日本、北海道苫前町",
+        "global_code": "8RP36MG7+MM"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 44.2268314,
+            "longitude": 141.6641799
+          },
+          "location_on_segment": {
+            "latitude": 44.2268943,
+            "longitude": 141.6641746
+          },
+          "place_id": "ChIJ4XGrPvYwDF8Ruv7zrnX6PGg",
+          "segment_position": 0.3358401358127594,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "６４４−１",
+          "short_name": "６４４−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字力昼",
+          "short_name": "字力昼",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-3541",
+          "short_name": "078-3541",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-3541 北海道苫前郡苫前町字力昼６４４−１",
+      "geometry": {
+        "location": {
+          "lat": 44.2267285,
+          "lng": 141.6641885
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.2280774802915,
+            "lng": 141.6655374802915
+          },
+          "southwest": {
+            "lat": 44.2253795197085,
+            "lng": 141.6628395197085
+          }
+        }
+      },
+      "place_id": "ChIJX9qHR_YwDF8R0jbfjHLpI0U",
+      "plus_code": {
+        "compound_code": "6MG7+MM 日本、北海道苫前町",
+        "global_code": "8RP36MG7+MM"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "力昼九重線",
+          "short_name": "道道1062号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字力昼",
+          "short_name": "字力昼",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-3541",
+          "short_name": "078-3541",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-3541 北海道苫前郡苫前町字力昼 道道1062号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.2263552,
+            "lng": 141.6656402
+          },
+          "southwest": {
+            "lat": 44.225903,
+            "lng": 141.6637418
+          }
+        },
+        "location": {
+          "lat": 44.2261288,
+          "lng": 141.6646909
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.2274780802915,
+            "lng": 141.6660399802915
+          },
+          "southwest": {
+            "lat": 44.22478011970851,
+            "lng": 141.6633420197085
+          }
+        }
+      },
+      "place_id": "ChIJzaWFXPYwDF8RNL5SKbfpwzQ",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "078-3541",
+          "short_name": "078-3541",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字力昼",
+          "short_name": "字力昼",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒078-3541",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.25088969999999,
+            "lng": 141.7032208
+          },
+          "southwest": {
+            "lat": 44.2086582,
+            "lng": 141.6524718
+          }
+        },
+        "location": {
+          "lat": 44.2282237,
+          "lng": 141.6781006
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.25088969999999,
+            "lng": 141.7032208
+          },
+          "southwest": {
+            "lat": 44.2086582,
+            "lng": 141.6524718
+          }
+        }
+      },
+      "place_id": "ChIJ3QiToFgwDF8ROUkXFPlfv68",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字力昼",
+          "short_name": "字力昼",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-3541",
+          "short_name": "078-3541",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-3541 北海道苫前郡苫前町字力昼",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.250905,
+            "lng": 141.703338
+          },
+          "southwest": {
+            "lat": 44.208658,
+            "lng": 141.652472
+          }
+        },
+        "location": {
+          "lat": 44.2282237,
+          "lng": 141.6781006
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.250905,
+            "lng": 141.703338
+          },
+          "southwest": {
+            "lat": 44.208658,
+            "lng": 141.652472
+          }
+        }
+      },
+      "place_id": "ChIJl6ZKAfwwDF8RKQafTF7c9nw",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "苫前町",
+          "short_name": "苫前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道苫前郡苫前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.347563,
+            "lng": 142.0881681
+          },
+          "southwest": {
+            "lat": 44.090789,
+            "lng": 141.646986
+          }
+        },
+        "location": {
+          "lat": 44.3061419,
+          "lng": 141.6532114
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.347563,
+            "lng": 142.0881681
+          },
+          "southwest": {
+            "lat": 44.090789,
+            "lng": 141.646986
+          }
+        }
+      },
+      "place_id": "ChIJOTR6EwE1DF8R_UZArJhgOCw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道苫前郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.642518,
+            "lng": 142.0881677
+          },
+          "southwest": {
+            "lat": 44.09078909999999,
+            "lng": 141.29042
+          }
+        },
+        "location": {
+          "lat": 44.31057759999999,
+          "lng": 141.873713
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.642518,
+            "lng": 142.0881677
+          },
+          "southwest": {
+            "lat": 44.09078909999999,
+            "lng": 141.29042
+          }
+        }
+      },
+      "place_id": "ChIJa20C2VcrDF8RXqHtN_ckg_w",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
