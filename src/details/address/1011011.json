@@ -1,0 +1,617 @@
+{
+  "station": "瀬棚",
+  "lat": 42.448222,
+  "lng": 139.852528,
+  "plus_code": {
+    "compound_code": "CVX3+72 日本、北海道せたな町",
+    "global_code": "8QJXCVX3+72"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "７９２−２",
+          "short_name": "７９２−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "瀬棚区本町",
+          "short_name": "瀬棚区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "049-4816",
+          "short_name": "049-4816",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒049-4816 北海道久遠郡せたな町瀬棚区本町７９２−２",
+      "geometry": {
+        "location": {
+          "lat": 42.4485865,
+          "lng": 139.8527017
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.44993548029149,
+            "lng": 139.8540506802915
+          },
+          "southwest": {
+            "lat": 42.44723751970849,
+            "lng": 139.8513527197085
+          }
+        }
+      },
+      "place_id": "ChIJ__8zQ44soF8RpFByBO2Stqw",
+      "plus_code": {
+        "compound_code": "CVX3+C3 日本、北海道せたな町",
+        "global_code": "8QJXCVX3+C3"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "瀬棚港線",
+          "short_name": "道道459号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "瀬棚区本町",
+          "short_name": "瀬棚区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "049-4816",
+          "short_name": "049-4816",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒049-4816 北海道久遠郡せたな町瀬棚区本町 道道459号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.4484925,
+            "lng": 139.8527836
+          },
+          "southwest": {
+            "lat": 42.4482982,
+            "lng": 139.8524844
+          }
+        },
+        "location": {
+          "lat": 42.4483427,
+          "lng": 139.8525763
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.4497443302915,
+            "lng": 139.8539829802915
+          },
+          "southwest": {
+            "lat": 42.4470463697085,
+            "lng": 139.8512850197085
+          }
+        }
+      },
+      "place_id": "ChIJGfZrRI4soF8RoHifWcEJ1p4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "049-4816",
+          "short_name": "049-4816",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "瀬棚区本町",
+          "short_name": "瀬棚区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒049-4816",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.4599387,
+            "lng": 139.8617948
+          },
+          "southwest": {
+            "lat": 42.4448823,
+            "lng": 139.839016
+          }
+        },
+        "location": {
+          "lat": 42.4513091,
+          "lng": 139.8493596
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.4599387,
+            "lng": 139.8617948
+          },
+          "southwest": {
+            "lat": 42.4448823,
+            "lng": 139.839016
+          }
+        }
+      },
+      "place_id": "ChIJsaM6nYwsoF8RCLINrXHoyyc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "瀬棚区本町",
+          "short_name": "瀬棚区本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "049-4816",
+          "short_name": "049-4816",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒049-4816 北海道久遠郡せたな町瀬棚区本町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.4599389,
+            "lng": 139.861795
+          },
+          "southwest": {
+            "lat": 42.444882,
+            "lng": 139.8390158
+          }
+        },
+        "location": {
+          "lat": 42.4513091,
+          "lng": 139.8493596
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.4599389,
+            "lng": 139.861795
+          },
+          "southwest": {
+            "lat": 42.444882,
+            "lng": 139.8390158
+          }
+        }
+      },
+      "place_id": "ChIJqdL9Q4wsoF8Rr2qaH8apaGo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道久遠郡せたな町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.6167686,
+            "lng": 140.0384375
+          },
+          "southwest": {
+            "lat": 42.13455039999999,
+            "lng": 139.7656742
+          }
+        },
+        "location": {
+          "lat": 42.24585380000001,
+          "lng": 139.8976893
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.6167686,
+            "lng": 140.0384375
+          },
+          "southwest": {
+            "lat": 42.13455039999999,
+            "lng": 139.7656742
+          }
+        }
+      },
+      "place_id": "ChIJiVOKmFbVoV8R6443AjJRBm8",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "せたな町",
+          "short_name": "せたな町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "久遠郡",
+          "short_name": "久遠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道久遠郡せたな町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.616769,
+            "lng": 140.0384378
+          },
+          "southwest": {
+            "lat": 42.13455,
+            "lng": 139.765674
+          }
+        },
+        "location": {
+          "lat": 42.4174342,
+          "lng": 139.8827532
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.616769,
+            "lng": 140.0384378
+          },
+          "southwest": {
+            "lat": 42.13455,
+            "lng": 139.765674
+          }
+        }
+      },
+      "place_id": "ChIJiVOKmFbVoV8Rj4bJjKmXVbw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
