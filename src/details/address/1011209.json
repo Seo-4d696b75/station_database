@@ -1,0 +1,709 @@
+{
+  "station": "幌毛志",
+  "lat": 42.717289,
+  "lng": 142.261736,
+  "plus_code": {
+    "compound_code": "P786+WM 日本、北海道平取町",
+    "global_code": "8RJ4P786+WM"
+  },
+  "results": [
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 42.7178733,
+            "longitude": 142.2622237
+          },
+          "location_on_segment": {
+            "latitude": 42.7178149,
+            "longitude": 142.2621917
+          },
+          "place_id": "ChIJ52juBJr2dF8RPMGUPjxZtzM",
+          "segment_position": 0.1155832856893539,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "幌毛志中央（バス）",
+          "short_name": "幌毛志中央（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字幌毛志",
+          "short_name": "字幌毛志",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "055-0412",
+          "short_name": "055-0412",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒055-0412 北海道沙流郡平取町字幌毛志 幌毛志中央（バス）",
+      "geometry": {
+        "location": {
+          "lat": 42.71779069999999,
+          "lng": 142.2621787
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.71913968029149,
+            "lng": 142.2635276802915
+          },
+          "southwest": {
+            "lat": 42.7164417197085,
+            "lng": 142.2608297197085
+          }
+        }
+      },
+      "place_id": "ChIJS_68A5r2dF8RLstERgS-Gcs",
+      "plus_code": {
+        "compound_code": "P796+4V 日本、北海道平取町",
+        "global_code": "8RJ4P796+4V"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "４２−６",
+          "short_name": "４２−６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字幌毛志",
+          "short_name": "字幌毛志",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "055-0412",
+          "short_name": "055-0412",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒055-0412 北海道沙流郡平取町字幌毛志４２−６",
+      "geometry": {
+        "location": {
+          "lat": 42.7170151,
+          "lng": 142.2628907
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.71836408029149,
+            "lng": 142.2642396802915
+          },
+          "southwest": {
+            "lat": 42.71566611970849,
+            "lng": 142.2615417197085
+          }
+        }
+      },
+      "place_id": "ChIJjyZKc5r2dF8Rkz05Q5hoBZU",
+      "plus_code": {
+        "compound_code": "P787+R5 日本、北海道平取町",
+        "global_code": "8RJ4P787+R5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "国道237号",
+          "short_name": "国道237号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字幌毛志",
+          "short_name": "字幌毛志",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "055-0412",
+          "short_name": "055-0412",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒055-0412 北海道沙流郡平取町字幌毛志 国道237号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.7179674,
+            "lng": 142.2621023
+          },
+          "southwest": {
+            "lat": 42.7178406,
+            "lng": 142.261474
+          }
+        },
+        "location": {
+          "lat": 42.71791400000001,
+          "lng": 142.2617919
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.71925298029149,
+            "lng": 142.2631371302915
+          },
+          "southwest": {
+            "lat": 42.71655501970849,
+            "lng": 142.2604391697085
+          }
+        }
+      },
+      "place_id": "ChIJU0dO_5n2dF8RVpyejdmJS_E",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "055-0412",
+          "short_name": "055-0412",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字幌毛志",
+          "short_name": "字幌毛志",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒055-0412",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.769741,
+            "lng": 142.2945258
+          },
+          "southwest": {
+            "lat": 42.689378,
+            "lng": 142.2420186
+          }
+        },
+        "location": {
+          "lat": 42.7200138,
+          "lng": 142.2673464
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.769741,
+            "lng": 142.2945258
+          },
+          "southwest": {
+            "lat": 42.689378,
+            "lng": 142.2420186
+          }
+        }
+      },
+      "place_id": "ChIJ8eRoxJf2dF8RfFPZF6EWUjE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "字幌毛志",
+          "short_name": "字幌毛志",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道沙流郡平取町字幌毛志",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.769741,
+            "lng": 142.29505
+          },
+          "southwest": {
+            "lat": 42.689378,
+            "lng": 142.242184
+          }
+        },
+        "location": {
+          "lat": 42.7200138,
+          "lng": 142.2673464
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.769741,
+            "lng": 142.29505
+          },
+          "southwest": {
+            "lat": 42.689378,
+            "lng": 142.242184
+          }
+        }
+      },
+      "place_id": "ChIJczdruJj2dF8RZvOZWystdGM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "平取町",
+          "short_name": "平取町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道沙流郡平取町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.891516,
+            "lng": 142.695048
+          },
+          "southwest": {
+            "lat": 42.5214,
+            "lng": 142.0470408
+          }
+        },
+        "location": {
+          "lat": 42.5850188,
+          "lng": 142.1285605
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.891516,
+            "lng": 142.695048
+          },
+          "southwest": {
+            "lat": 42.5214,
+            "lng": 142.0470408
+          }
+        }
+      },
+      "place_id": "ChIJR6mZyYH1dF8RoJKfBuQ8tF4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "沙流郡",
+          "short_name": "沙流郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道沙流郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0097486,
+            "lng": 142.7878849
+          },
+          "southwest": {
+            "lat": 42.4211846,
+            "lng": 141.9671861
+          }
+        },
+        "location": {
+          "lat": 42.6794142,
+          "lng": 142.4147421
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0097486,
+            "lng": 142.7878849
+          },
+          "southwest": {
+            "lat": 42.4211846,
+            "lng": 141.9671861
+          }
+        }
+      },
+      "place_id": "ChIJg2MLs3r1dF8RVpsWF_eGe6w",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
