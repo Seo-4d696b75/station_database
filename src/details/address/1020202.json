@@ -1,0 +1,769 @@
+{
+  "station": "会津村松",
+  "lat": 37.665611,
+  "lng": 139.871,
+  "plus_code": {
+    "compound_code": "MV8C+69 日本、福島県喜多方市",
+    "global_code": "8Q9XMV8C+69"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１４４５−７",
+          "short_name": "１４４５−７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "石田",
+          "short_name": "石田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0902 福島県喜多方市松山町村松石田１４４５−７",
+      "geometry": {
+        "location": {
+          "lat": 37.665863,
+          "lng": 139.8710696
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6672119802915,
+            "lng": 139.8724185802915
+          },
+          "southwest": {
+            "lat": 37.6645140197085,
+            "lng": 139.8697206197085
+          }
+        }
+      },
+      "place_id": "ChIJNbeq4Uy2il8RK0ziHQcrv_o",
+      "plus_code": {
+        "compound_code": "MV8C+8C 日本、福島県喜多方市",
+        "global_code": "8Q9XMV8C+8C"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４４３−１",
+          "short_name": "１４４３−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "石田",
+          "short_name": "石田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0902 福島県喜多方市松山町村松石田１４４３−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.6655217,
+            "lng": 139.8714228
+          },
+          "southwest": {
+            "lat": 37.6654586,
+            "lng": 139.8712362
+          }
+        },
+        "location": {
+          "lat": 37.66549029999999,
+          "lng": 139.8713046
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6668391302915,
+            "lng": 139.8726784802915
+          },
+          "southwest": {
+            "lat": 37.6641411697085,
+            "lng": 139.8699805197085
+          }
+        }
+      },
+      "place_id": "ChIJHdi_G022il8RmbBvE0SVxCI",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４４５",
+          "short_name": "１４４５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "石田",
+          "short_name": "石田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0902 福島県喜多方市松山町村松石田１４４５",
+      "geometry": {
+        "location": {
+          "lat": 37.6659281,
+          "lng": 139.8710781
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.66727708029149,
+            "lng": 139.8724270802915
+          },
+          "southwest": {
+            "lat": 37.6645791197085,
+            "lng": 139.8697291197085
+          }
+        }
+      },
+      "place_id": "ChIJH9Hu4Ey2il8RUOyE_78LcGo",
+      "plus_code": {
+        "compound_code": "MV8C+9C 日本、福島県喜多方市",
+        "global_code": "8Q9XMV8C+9C"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "storage"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道459号",
+          "short_name": "国道459号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字桜ガ丘",
+          "short_name": "字桜ガ丘",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0802",
+          "short_name": "966-0802",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0802 福島県喜多方市字桜ガ丘２丁目 国道459号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.6655967,
+            "lng": 139.8716947
+          },
+          "southwest": {
+            "lat": 37.6649882,
+            "lng": 139.8716876
+          }
+        },
+        "location": {
+          "lat": 37.66529250000001,
+          "lng": 139.8716921
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6666414302915,
+            "lng": 139.8730401302915
+          },
+          "southwest": {
+            "lat": 37.6639434697085,
+            "lng": 139.8703421697085
+          }
+        }
+      },
+      "place_id": "ChIJN2yPDU22il8RGrHSY4jL6b4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石田",
+          "short_name": "石田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0902 福島県喜多方市松山町村松石田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.669412,
+            "lng": 139.8716639
+          },
+          "southwest": {
+            "lat": 37.665147,
+            "lng": 139.8697411
+          }
+        },
+        "location": {
+          "lat": 37.6682882,
+          "lng": 139.8707322
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.669412,
+            "lng": 139.8720514802915
+          },
+          "southwest": {
+            "lat": 37.665147,
+            "lng": 139.8693535197085
+          }
+        }
+      },
+      "place_id": "ChIJs4B5sUy2il8RaO-77c5dZNs",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒966-0902 福島県喜多方市松山町村松",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.684232,
+            "lng": 139.8775
+          },
+          "southwest": {
+            "lat": 37.658663,
+            "lng": 139.8652199
+          }
+        },
+        "location": {
+          "lat": 37.673654,
+          "lng": 139.871022
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.684232,
+            "lng": 139.8775
+          },
+          "southwest": {
+            "lat": 37.658663,
+            "lng": 139.8652199
+          }
+        }
+      },
+      "place_id": "ChIJj7Ikw7W3il8R55bZ4EPtfMo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "966-0902",
+          "short_name": "966-0902",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "松山町村松",
+          "short_name": "松山町村松",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒966-0902",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.6842321,
+            "lng": 139.877961
+          },
+          "southwest": {
+            "lat": 37.65866270000001,
+            "lng": 139.8652559
+          }
+        },
+        "location": {
+          "lat": 37.673654,
+          "lng": 139.871022
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6842321,
+            "lng": 139.877961
+          },
+          "southwest": {
+            "lat": 37.65866270000001,
+            "lng": 139.8652559
+          }
+        }
+      },
+      "place_id": "ChIJ0TGQTci3il8R5imenWk1KTU",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "喜多方市",
+          "short_name": "喜多方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福島県喜多方市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.856081,
+            "lng": 140.0007069
+          },
+          "southwest": {
+            "lat": 37.578546,
+            "lng": 139.668466
+          }
+        },
+        "location": {
+          "lat": 37.6513048,
+          "lng": 139.8746281
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.856081,
+            "lng": 140.0007069
+          },
+          "southwest": {
+            "lat": 37.578546,
+            "lng": 139.668466
+          }
+        }
+      },
+      "place_id": "ChIJI1zANo_Iil8RwhkAUhlEVDU",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福島県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9766021,
+            "lng": 141.0435502
+          },
+          "southwest": {
+            "lat": 36.79133849999999,
+            "lng": 139.1647356
+          }
+        },
+        "location": {
+          "lat": 37.3834373,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9766021,
+            "lng": 141.0435502
+          },
+          "southwest": {
+            "lat": 36.79133849999999,
+            "lng": 139.1647356
+          }
+        }
+      },
+      "place_id": "ChIJL9XcbYEEIGARXEbW0MGmHzQ",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
