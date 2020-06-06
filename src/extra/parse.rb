@@ -197,6 +197,25 @@ def get_info(str)
   exit(0)
 end
 
+def parse_date(obj)
+  str = nil
+  if obj.kind_of?(String)
+    str = obj
+  elsif obj.kind_of?(Array)
+    str = obj.join
+  elsif obj == nil
+    return 'NULL'
+  else
+    puts "Error > unknown date object #{obj}"
+    exit(0)
+  end
+  if m = str.match(/([0-9]{4})年.*?([0-9]+)月([0-9]+)日/)
+    date = "%04d-%02d-%02d" % m[1..3]
+    return date
+  end
+  return 'NULL'
+end
+
 def parse(template,pref_map)
   name = template.get_param('駅名')
   if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)$/)
@@ -227,19 +246,22 @@ def parse(template,pref_map)
       exit(0)
     end
   end
-  pref = template.get_param('所在地')[0].name
+  pref = template.get_param('所在地')
+  if pref.kind_of?(String) && m = pref.match(/^(.+?[県都府道])/)
+    pref = m[1]
+  elsif pref.kind_of?(Array) && pref[0].kind_of?(InternalLink)
+    pref = pref[0].name
+  else
+    puts "Error > unknown address format: #{pref}"
+    exit(0)
+  end
+
   if !(pref = pref_map[pref])
     puts "Error > unknown prefecture #{template.get_param('所在地')[0].name}"
     exit(0)
   end
-  open_date = 'NULL'
-  closed_date = 'NULL'
-  if (date = template.get_param('開業年月日')) && (date = date.join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/))
-    open_date = "%04d-%02d-%02d" % date[1..3]
-  end
-  if (date = template.get_param('廃止年月日')) && (date = date.join().match(/([0-9]{4}).*?([0-9]+)月([0-9]+)日/))
-    closed_date = "%04d-%02d-%02d" % date[1..3]
-  end
+  open_date = parse_date(template.get_param('開業年月日'))
+  closed_date = parse_date(template.get_param('廃止年月日'))
   return [
     '','NULL',name,name_kana,
     lat,lng,pref,'NULL','NULL',

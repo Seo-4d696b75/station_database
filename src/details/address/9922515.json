@@ -1,0 +1,573 @@
+{
+  "station": "鶯沢工業高校前",
+  "lat": 38.807111,
+  "lng": 140.925528,
+  "plus_code": {
+    "compound_code": "RW4G+R6 日本、宮城県栗原市",
+    "global_code": "8RC2RW4G+R6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２７",
+          "short_name": "２７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "南郷上新反田",
+          "short_name": "南郷上新反田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "鶯沢",
+          "short_name": "鶯沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5402",
+          "short_name": "989-5402",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5402 宮城県栗原市鶯沢南郷上新反田２７",
+      "geometry": {
+        "location": {
+          "lat": 38.807306,
+          "lng": 140.9251735
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.8086549802915,
+            "lng": 140.9265224802915
+          },
+          "southwest": {
+            "lat": 38.8059570197085,
+            "lng": 140.9238245197085
+          }
+        }
+      },
+      "place_id": "ChIJzTUpI0kkiV8Rukkzov6ArzA",
+      "plus_code": {
+        "compound_code": "RW4G+W3 日本、宮城県栗原市",
+        "global_code": "8RC2RW4G+W3"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道457号",
+          "short_name": "国道457号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "鶯沢",
+          "short_name": "鶯沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5402",
+          "short_name": "989-5402",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5402 宮城県栗原市鶯沢 国道457号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.8064183,
+            "lng": 140.9273436
+          },
+          "southwest": {
+            "lat": 38.8059637,
+            "lng": 140.9245438
+          }
+        },
+        "location": {
+          "lat": 38.80637309999999,
+          "lng": 140.9258929
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.8075399802915,
+            "lng": 140.9273436
+          },
+          "southwest": {
+            "lat": 38.8048420197085,
+            "lng": 140.9245438
+          }
+        }
+      },
+      "place_id": "ChIJZ2LcyEgkiV8RgAy99aED0p0",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南郷新反田",
+          "short_name": "南郷新反田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "鶯沢",
+          "short_name": "鶯沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5402",
+          "short_name": "989-5402",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5402 宮城県栗原市鶯沢南郷新反田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.807376,
+            "lng": 140.930734
+          },
+          "southwest": {
+            "lat": 38.805677,
+            "lng": 140.9243529
+          }
+        },
+        "location": {
+          "lat": 38.80693979999999,
+          "lng": 140.9276871
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.80787548029149,
+            "lng": 140.930734
+          },
+          "southwest": {
+            "lat": 38.80517751970849,
+            "lng": 140.9243529
+          }
+        }
+      },
+      "place_id": "ChIJncUg8EgkiV8RZKgzFnoGHBc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "989-5402",
+          "short_name": "989-5402",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "鶯沢",
+          "short_name": "鶯沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒989-5402",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.8276545,
+            "lng": 140.9642197
+          },
+          "southwest": {
+            "lat": 38.7817126,
+            "lng": 140.8559744
+          }
+        },
+        "location": {
+          "lat": 38.8057859,
+          "lng": 140.881504
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.8276545,
+            "lng": 140.9642197
+          },
+          "southwest": {
+            "lat": 38.7817126,
+            "lng": 140.8559744
+          }
+        }
+      },
+      "place_id": "ChIJVcu3TU4kiV8R3_XEWCbuUMs",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鶯沢",
+          "short_name": "鶯沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県栗原市鶯沢",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.844691,
+            "lng": 140.984445
+          },
+          "southwest": {
+            "lat": 38.781713,
+            "lng": 140.855974
+          }
+        },
+        "location": {
+          "lat": 38.8030253,
+          "lng": 140.9214845
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.844691,
+            "lng": 140.984445
+          },
+          "southwest": {
+            "lat": 38.781713,
+            "lng": 140.855974
+          }
+        }
+      },
+      "place_id": "ChIJGylmE7UliV8RKJvAf2C0v-g",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県栗原市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.96460099999999,
+            "lng": 141.1661071
+          },
+          "southwest": {
+            "lat": 38.627227,
+            "lng": 140.707349
+          }
+        },
+        "location": {
+          "lat": 38.7300671,
+          "lng": 141.0213438
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.96460099999999,
+            "lng": 141.1661071
+          },
+          "southwest": {
+            "lat": 38.627227,
+            "lng": 140.707349
+          }
+        }
+      },
+      "place_id": "ChIJ00z1xGgkiV8RKPJSMyJVbJI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        },
+        "location": {
+          "lat": 38.630612,
+          "lng": 141.1193048
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        }
+      },
+      "place_id": "ChIJcdzg-92SiF8RraQHUTi5b84",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

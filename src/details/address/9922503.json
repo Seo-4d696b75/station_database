@@ -1,0 +1,665 @@
+{
+  "station": "若柳",
+  "lat": 38.77475,
+  "lng": 141.131917,
+  "plus_code": {
+    "compound_code": "Q4FJ+VQ 日本、宮城県栗原市",
+    "global_code": "8RC3Q4FJ+VQ"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１７",
+          "short_name": "１７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "川北塚ノ越",
+          "short_name": "川北塚ノ越",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5501",
+          "short_name": "989-5501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5501 宮城県栗原市若柳川北塚ノ越１７",
+      "geometry": {
+        "location": {
+          "lat": 38.7747731,
+          "lng": 141.1322743
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.77612208029149,
+            "lng": 141.1336232802915
+          },
+          "southwest": {
+            "lat": 38.77342411970849,
+            "lng": 141.1309253197085
+          }
+        }
+      },
+      "place_id": "ChIJQ2KKePIfiV8Ru5ms4_x84P8",
+      "plus_code": {
+        "compound_code": "Q4FJ+WW 日本、宮城県栗原市",
+        "global_code": "8RC3Q4FJ+WW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１７−９",
+          "short_name": "１７−９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "川北塚ノ根",
+          "short_name": "川北塚ノ根",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5501",
+          "short_name": "989-5501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5501 宮城県栗原市若柳川北塚ノ根１７−９",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7743598,
+            "lng": 141.1324325
+          },
+          "southwest": {
+            "lat": 38.7742993,
+            "lng": 141.1322402
+          }
+        },
+        "location": {
+          "lat": 38.77432760000001,
+          "lng": 141.1323627
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7756785302915,
+            "lng": 141.1336853302915
+          },
+          "southwest": {
+            "lat": 38.7729805697085,
+            "lng": 141.1309873697085
+          }
+        }
+      },
+      "place_id": "ChIJNxFdgu0fiV8RPp99uH5LYYQ",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5501",
+          "short_name": "989-5501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 若柳 栗原市 宮城県 989-5501 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7750507,
+            "lng": 141.1319212
+          },
+          "southwest": {
+            "lat": 38.77469430000001,
+            "lng": 141.1318503
+          }
+        },
+        "location": {
+          "lat": 38.7748725,
+          "lng": 141.1318859
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.77622148029151,
+            "lng": 141.1332347302915
+          },
+          "southwest": {
+            "lat": 38.77352351970851,
+            "lng": 141.1305367697085
+          }
+        }
+      },
+      "place_id": "ChIJl7j7e_IfiV8RSJhnUJUQr0s",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "川北塚ノ越",
+          "short_name": "川北塚ノ越",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "989-5501",
+          "short_name": "989-5501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒989-5501 宮城県栗原市若柳川北塚ノ越",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.775606,
+            "lng": 141.1344999
+          },
+          "southwest": {
+            "lat": 38.773667,
+            "lng": 141.1309119
+          }
+        },
+        "location": {
+          "lat": 38.77510880000001,
+          "lng": 141.1325505
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.77598548029149,
+            "lng": 141.1344999
+          },
+          "southwest": {
+            "lat": 38.7732875197085,
+            "lng": 141.1309119
+          }
+        }
+      },
+      "place_id": "ChIJYYgVhu0fiV8Rl31hWf8WZaQ",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "989-5501",
+          "short_name": "989-5501",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒989-5501",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7844997,
+            "lng": 141.166091
+          },
+          "southwest": {
+            "lat": 38.7311869,
+            "lng": 141.1120849
+          }
+        },
+        "location": {
+          "lat": 38.7727738,
+          "lng": 141.1391533
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7844997,
+            "lng": 141.166091
+          },
+          "southwest": {
+            "lat": 38.7311869,
+            "lng": 141.1120849
+          }
+        }
+      },
+      "place_id": "ChIJV2tMxLsfiV8RyS0ZOfX3Rso",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "若柳",
+          "short_name": "若柳",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県栗原市若柳",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7978809,
+            "lng": 141.166263
+          },
+          "southwest": {
+            "lat": 38.715606,
+            "lng": 141.0672501
+          }
+        },
+        "location": {
+          "lat": 38.74893489999999,
+          "lng": 141.125748
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7978809,
+            "lng": 141.166263
+          },
+          "southwest": {
+            "lat": 38.715606,
+            "lng": 141.0672501
+          }
+        }
+      },
+      "place_id": "ChIJf_-hWXUfiV8RjdhML9i3zvY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栗原市",
+          "short_name": "栗原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県栗原市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.96460099999999,
+            "lng": 141.1661071
+          },
+          "southwest": {
+            "lat": 38.627227,
+            "lng": 140.707349
+          }
+        },
+        "location": {
+          "lat": 38.7300671,
+          "lng": 141.0213438
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.96460099999999,
+            "lng": 141.1661071
+          },
+          "southwest": {
+            "lat": 38.627227,
+            "lng": 140.707349
+          }
+        }
+      },
+      "place_id": "ChIJ00z1xGgkiV8RKPJSMyJVbJI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "宮城県",
+          "short_name": "宮城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、宮城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        },
+        "location": {
+          "lat": 38.630612,
+          "lng": 141.1193048
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.0027447,
+            "lng": 141.6773827
+          },
+          "southwest": {
+            "lat": 37.7732267,
+            "lng": 140.2748351
+          }
+        }
+      },
+      "place_id": "ChIJcdzg-92SiF8RraQHUTi5b84",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
