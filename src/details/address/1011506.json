@@ -1,0 +1,721 @@
+{
+  "station": "幸福",
+  "lat": 42.74525,
+  "lng": 143.161778,
+  "plus_code": {
+    "compound_code": "P5W6+3P 日本、北海道帯広市",
+    "global_code": "8RJ5P5W6+3P"
+  },
+  "results": [
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "１６１−１",
+          "short_name": "１６１−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "東１線",
+          "short_name": "東１線",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-1246 北海道帯広市幸福町東１線１６１−１",
+      "geometry": {
+        "location": {
+          "lat": 42.7453098,
+          "lng": 143.1616658
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7466587802915,
+            "lng": 143.1630147802915
+          },
+          "southwest": {
+            "lat": 42.74396081970851,
+            "lng": 143.1603168197085
+          }
+        }
+      },
+      "place_id": "ChIJTS1mKheMc18Rm3SbSGbOR0c",
+      "plus_code": {
+        "compound_code": "P5W6+4M 日本、北海道帯広市",
+        "global_code": "8RJ5P5W6+4M"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [
+        {
+          "access_point_type": "TYPE_SEGMENT",
+          "location": {
+            "latitude": 42.7435663,
+            "longitude": 143.1612071
+          },
+          "location_on_segment": {
+            "latitude": 42.7435047,
+            "longitude": 143.1612249
+          },
+          "place_id": "ChIJI_oldRGMc18RiIlU04bexZI",
+          "segment_position": 0.9306301474571228,
+          "unsuitable_travel_modes": [
+
+          ]
+        }
+      ],
+      "address_components": [
+        {
+          "long_name": "幸福駅",
+          "short_name": "幸福駅",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "東１線",
+          "short_name": "東１線",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-1246 北海道帯広市幸福町東１線 幸福駅",
+      "geometry": {
+        "location": {
+          "lat": 42.743547,
+          "lng": 143.1612127
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7448959802915,
+            "lng": 143.1625616802915
+          },
+          "southwest": {
+            "lat": 42.7421980197085,
+            "lng": 143.1598637197085
+          }
+        }
+      },
+      "place_id": "ChIJ5X2wFBGMc18Ro6TH6OGNTGU",
+      "plus_code": {
+        "compound_code": "P5V6+CF 日本、北海道帯広市",
+        "global_code": "8RJ5P5V6+CF"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "東１線",
+          "short_name": "東１線",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 東１線 幸福町 帯広市 北海道 089-1246 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.7453912,
+            "lng": 143.1635949
+          },
+          "southwest": {
+            "lat": 42.7438688,
+            "lng": 143.1616433
+          }
+        },
+        "location": {
+          "lat": 42.7453495,
+          "lng": 143.1630324
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7459789802915,
+            "lng": 143.1639680802915
+          },
+          "southwest": {
+            "lat": 42.7432810197085,
+            "lng": 143.1612701197085
+          }
+        }
+      },
+      "place_id": "ChIJv9qDyxaMc18RFulFNgnPV4c",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "東１線",
+          "short_name": "東１線",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-1246 北海道帯広市幸福町東１線",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.76133,
+            "lng": 143.1680019
+          },
+          "southwest": {
+            "lat": 42.7307341,
+            "lng": 143.1533949
+          }
+        },
+        "location": {
+          "lat": 42.74654779999999,
+          "lng": 143.1617589
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.76133,
+            "lng": 143.1680019
+          },
+          "southwest": {
+            "lat": 42.7307341,
+            "lng": 143.1533949
+          }
+        }
+      },
+      "place_id": "ChIJS10NTxeMc18R6bcaW0IEpUk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-1246",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.7628679,
+            "lng": 143.204505
+          },
+          "southwest": {
+            "lat": 42.72471480000001,
+            "lng": 143.1438689
+          }
+        },
+        "location": {
+          "lat": 42.7479695,
+          "lng": 143.1757951
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7628679,
+            "lng": 143.204505
+          },
+          "southwest": {
+            "lat": 42.72471480000001,
+            "lng": 143.1438689
+          }
+        }
+      },
+      "place_id": "ChIJxU-kA4qMc18R_33TdMMAZso",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "幸福町",
+          "short_name": "幸福町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-1246",
+          "short_name": "089-1246",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-1246 北海道帯広市幸福町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.762868,
+            "lng": 143.2045048
+          },
+          "southwest": {
+            "lat": 42.724715,
+            "lng": 143.1438689
+          }
+        },
+        "location": {
+          "lat": 42.7479695,
+          "lng": 143.1757951
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.762868,
+            "lng": 143.2045048
+          },
+          "southwest": {
+            "lat": 42.724715,
+            "lng": 143.1438689
+          }
+        }
+      },
+      "place_id": "ChIJS1WfxT-Mc18Rdw1GmFkwLDU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "帯広市",
+          "short_name": "帯広市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道帯広市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.952833,
+            "lng": 143.268186
+          },
+          "southwest": {
+            "lat": 42.614836,
+            "lng": 142.6868269
+          }
+        },
+        "location": {
+          "lat": 42.9233354,
+          "lng": 143.197199
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.952833,
+            "lng": 143.268186
+          },
+          "southwest": {
+            "lat": 42.614836,
+            "lng": 142.6868269
+          }
+        }
+      },
+      "place_id": "ChIJ5-d2UcSHc18RyHbb6bToaxc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [
+
+      ],
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

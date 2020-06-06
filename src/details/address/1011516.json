@@ -1,0 +1,667 @@
+{
+  "station": "新生",
+  "lat": 42.334611,
+  "lng": 143.311444,
+  "plus_code": {
+    "compound_code": "88M6+RH 日本、北海道広尾町",
+    "global_code": "8RJ588M6+RH"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１３",
+          "short_name": "１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字野塚",
+          "short_name": "字野塚",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-2561",
+          "short_name": "089-2561",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-2561 北海道広尾郡広尾町字野塚１３",
+      "geometry": {
+        "location": {
+          "lat": 42.3341797,
+          "lng": 143.3129725
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.3355286802915,
+            "lng": 143.3143214802915
+          },
+          "southwest": {
+            "lat": 42.3328307197085,
+            "lng": 143.3116235197085
+          }
+        }
+      },
+      "place_id": "ChIJr31_mqmodl8RKKC45gKpC3w",
+      "plus_code": {
+        "compound_code": "88M7+M5 日本、北海道広尾町",
+        "global_code": "8RJ588M7+M5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新生",
+          "short_name": "新生",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字野塚",
+          "short_name": "字野塚",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-2561",
+          "short_name": "089-2561",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-2561 北海道広尾郡広尾町字野塚 新生",
+      "geometry": {
+        "location": {
+          "lat": 42.33520730000001,
+          "lng": 143.3091413
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.33655628029151,
+            "lng": 143.3104902802915
+          },
+          "southwest": {
+            "lat": 42.33385831970851,
+            "lng": 143.3077923197085
+          }
+        }
+      },
+      "place_id": "ChIJMWkzJaiodl8R6fTvj2-4tUU",
+      "plus_code": {
+        "compound_code": "88P5+3M 日本、北海道広尾町",
+        "global_code": "8RJ588P5+3M"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道336号",
+          "short_name": "国道336号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字野塚",
+          "short_name": "字野塚",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-2561",
+          "short_name": "089-2561",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-2561 北海道広尾郡広尾町字野塚 国道336号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.3350126,
+            "lng": 143.3102828
+          },
+          "southwest": {
+            "lat": 42.33371500000001,
+            "lng": 143.3093023
+          }
+        },
+        "location": {
+          "lat": 42.3343655,
+          "lng": 143.3097967
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.3357127802915,
+            "lng": 143.3111415302915
+          },
+          "southwest": {
+            "lat": 42.3330148197085,
+            "lng": 143.3084435697085
+          }
+        }
+      },
+      "place_id": "ChIJF6cB1Kmodl8R4lCd08WcK18",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-2561",
+          "short_name": "089-2561",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字野塚",
+          "short_name": "字野塚",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-2561",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.4000257,
+            "lng": 143.3659778
+          },
+          "southwest": {
+            "lat": 42.28563219999999,
+            "lng": 143.0057855
+          }
+        },
+        "location": {
+          "lat": 42.3401455,
+          "lng": 143.2092467
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.4000257,
+            "lng": 143.3659778
+          },
+          "southwest": {
+            "lat": 42.28563219999999,
+            "lng": 143.0057855
+          }
+        }
+      },
+      "place_id": "ChIJxVEvH2Oodl8RsOeP4kPuf3I",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字野塚",
+          "short_name": "字野塚",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道広尾郡広尾町字野塚",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.399773,
+            "lng": 143.3659779
+          },
+          "southwest": {
+            "lat": 42.285632,
+            "lng": 143.0057861
+          }
+        },
+        "location": {
+          "lat": 42.3401455,
+          "lng": 143.2092467
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.399773,
+            "lng": 143.3659779
+          },
+          "southwest": {
+            "lat": 42.285632,
+            "lng": 143.0057861
+          }
+        }
+      },
+      "place_id": "ChIJFeIEBHKndl8RYJ2Dop9Y60Q",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "広尾町",
+          "short_name": "広尾町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道広尾郡広尾町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.44836,
+            "lng": 143.38924
+          },
+          "southwest": {
+            "lat": 42.160028,
+            "lng": 142.9998321
+          }
+        },
+        "location": {
+          "lat": 42.2859988,
+          "lng": 143.3117489
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.44836,
+            "lng": 143.38924
+          },
+          "southwest": {
+            "lat": 42.160028,
+            "lng": 142.9998321
+          }
+        }
+      },
+      "place_id": "ChIJO8K9K0ihdl8RDOycuyMVFcI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "広尾郡",
+          "short_name": "広尾郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道広尾郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.6771509,
+            "lng": 143.5245472
+          },
+          "southwest": {
+            "lat": 42.1600275,
+            "lng": 142.8250995
+          }
+        },
+        "location": {
+          "lat": 42.4765931,
+          "lng": 143.1691346
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.6771509,
+            "lng": 143.5245472
+          },
+          "southwest": {
+            "lat": 42.1600275,
+            "lng": 142.8250995
+          }
+        }
+      },
+      "place_id": "ChIJlZYR-7UcdF8RTv_6nfDKDJk",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

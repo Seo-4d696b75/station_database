@@ -1,0 +1,676 @@
+{
+  "station": "依田",
+  "lat": 42.893333,
+  "lng": 143.226944,
+  "plus_code": {
+    "compound_code": "V6VG+8Q 日本、北海道幕別町",
+    "global_code": "8RJ5V6VG+8Q"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２５１",
+          "short_name": "２５１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字依田",
+          "short_name": "字依田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-0571",
+          "short_name": "089-0571",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-0571 北海道中川郡幕別町字依田２５１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8936544,
+            "lng": 143.2258348
+          },
+          "southwest": {
+            "lat": 42.89349929999999,
+            "lng": 143.2256812
+          }
+        },
+        "location": {
+          "lat": 42.89358259999999,
+          "lng": 143.2257691
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8949258302915,
+            "lng": 143.2271069802915
+          },
+          "southwest": {
+            "lat": 42.8922278697085,
+            "lng": 143.2244090197085
+          }
+        }
+      },
+      "place_id": "ChIJ7wP1ApCZc18RmBH4ExK0Rzk",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２５２",
+          "short_name": "２５２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字依田",
+          "short_name": "字依田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-0571",
+          "short_name": "089-0571",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-0571 北海道中川郡幕別町字依田２５２",
+      "geometry": {
+        "location": {
+          "lat": 42.8937014,
+          "lng": 143.2257821
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8950503802915,
+            "lng": 143.2271310802915
+          },
+          "southwest": {
+            "lat": 42.8923524197085,
+            "lng": 143.2244331197085
+          }
+        }
+      },
+      "place_id": "ChIJI0cAB5CZc18RAP1XC593-2o",
+      "plus_code": {
+        "compound_code": "V6VG+F8 日本、北海道幕別町",
+        "global_code": "8RJ5V6VG+F8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字依田",
+          "short_name": "字依田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-0571",
+          "short_name": "089-0571",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字依田 幕別町 中川郡 北海道 089-0571 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.893614,
+            "lng": 143.2279633
+          },
+          "southwest": {
+            "lat": 42.8934878,
+            "lng": 143.2261893
+          }
+        },
+        "location": {
+          "lat": 42.8935509,
+          "lng": 143.2270763
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8948998802915,
+            "lng": 143.2284252802915
+          },
+          "southwest": {
+            "lat": 42.8922019197085,
+            "lng": 143.2257273197085
+          }
+        }
+      },
+      "place_id": "ChIJJywhF5CZc18ROEN2NmnKS6w",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字依田",
+          "short_name": "字依田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-0571",
+          "short_name": "089-0571",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-0571 北海道中川郡幕別町字依田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.910175,
+            "lng": 143.2714299
+          },
+          "southwest": {
+            "lat": 42.88483,
+            "lng": 143.2139561
+          }
+        },
+        "location": {
+          "lat": 42.8922649,
+          "lng": 143.2414535
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.910175,
+            "lng": 143.2714299
+          },
+          "southwest": {
+            "lat": 42.88483,
+            "lng": 143.2139561
+          }
+        }
+      },
+      "place_id": "ChIJ9Y3hqL2Zc18RNp9JfgaNzcI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-0571",
+          "short_name": "089-0571",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字依田",
+          "short_name": "字依田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-0571",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.9101753,
+            "lng": 143.2716675
+          },
+          "southwest": {
+            "lat": 42.884639,
+            "lng": 143.2139557
+          }
+        },
+        "location": {
+          "lat": 42.8922649,
+          "lng": 143.2414535
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9101753,
+            "lng": 143.2716675
+          },
+          "southwest": {
+            "lat": 42.884639,
+            "lng": 143.2139557
+          }
+        }
+      },
+      "place_id": "ChIJfy7S7LiZc18RKa8aKwt-niU",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "幕別町",
+          "short_name": "幕別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡幕別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.942865,
+            "lng": 143.452571
+          },
+          "southwest": {
+            "lat": 42.5093071,
+            "lng": 143.2033118
+          }
+        },
+        "location": {
+          "lat": 42.9085701,
+          "lng": 143.3560712
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.942865,
+            "lng": 143.452571
+          },
+          "southwest": {
+            "lat": 42.5093071,
+            "lng": 143.2033118
+          }
+        }
+      },
+      "place_id": "ChIJg0mq1lrtc18RLWEa5kdQZzY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        },
+        "location": {
+          "lat": 42.8964788,
+          "lng": 143.4246191
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        }
+      },
+      "place_id": "ChIJI7-UkUovDV8R2Ug2H6R6-gI",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
