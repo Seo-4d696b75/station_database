@@ -1,0 +1,567 @@
+{
+  "station": "広郷",
+  "lat": 43.743717,
+  "lng": 143.808425,
+  "plus_code": {
+    "compound_code": "PRV5+F9 日本、北海道北見市上ところ",
+    "global_code": "8RM5PRV5+F9"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５７９",
+          "short_name": "５７９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上ところ",
+          "short_name": "上ところ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1585",
+          "short_name": "099-1585",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-1585 北海道北見市上ところ５７９",
+      "geometry": {
+        "location": {
+          "lat": 43.7431618,
+          "lng": 143.8089513
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7445107802915,
+            "lng": 143.8103002802915
+          },
+          "southwest": {
+            "lat": 43.7418128197085,
+            "lng": 143.8076023197085
+          }
+        }
+      },
+      "place_id": "ChIJsbhm-n2ocl8RVgOZ3UhB2DU",
+      "plus_code": {
+        "compound_code": "PRV5+7H 日本、北海道北見市上ところ",
+        "global_code": "8RM5PRV5+7H"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上常呂１４号線",
+          "short_name": "上常呂１４号線",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "上ところ",
+          "short_name": "上ところ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1585",
+          "short_name": "099-1585",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-1585 北海道北見市上ところ 上常呂１４号線",
+      "geometry": {
+        "location": {
+          "lat": 43.7427495,
+          "lng": 143.809109
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7440984802915,
+            "lng": 143.8104579802915
+          },
+          "southwest": {
+            "lat": 43.7414005197085,
+            "lng": 143.8077600197085
+          }
+        }
+      },
+      "place_id": "ChIJ_zVu_n2ocl8Rorn0BcPF4nQ",
+      "plus_code": {
+        "compound_code": "PRV5+3J 日本、北海道北見市上ところ",
+        "global_code": "8RM5PRV5+3J"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北見置戸線",
+          "short_name": "道道50号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "上ところ",
+          "short_name": "上ところ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1585",
+          "short_name": "099-1585",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-1585 北海道北見市上ところ 道道50号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.74257300000001,
+            "lng": 143.8088372
+          },
+          "southwest": {
+            "lat": 43.7424212,
+            "lng": 143.8083496
+          }
+        },
+        "location": {
+          "lat": 43.7424942,
+          "lng": 143.8085952
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7438460802915,
+            "lng": 143.8099423802915
+          },
+          "southwest": {
+            "lat": 43.7411481197085,
+            "lng": 143.8072444197085
+          }
+        }
+      },
+      "place_id": "ChIJFxzFVIeocl8RLAYh9dgQPVo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "099-1585",
+          "short_name": "099-1585",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上ところ",
+          "short_name": "上ところ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒099-1585",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.7636565,
+            "lng": 143.8483021
+          },
+          "southwest": {
+            "lat": 43.7352492,
+            "lng": 143.80148
+          }
+        },
+        "location": {
+          "lat": 43.73975720000001,
+          "lng": 143.8083224
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7636565,
+            "lng": 143.8483021
+          },
+          "southwest": {
+            "lat": 43.7352492,
+            "lng": 143.80148
+          }
+        }
+      },
+      "place_id": "ChIJ7YtdUA6ocl8RRy0PEXUk870",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上ところ",
+          "short_name": "上ところ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1585",
+          "short_name": "099-1585",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-1585 北海道北見市上ところ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.76365699999999,
+            "lng": 143.848302
+          },
+          "southwest": {
+            "lat": 43.735249,
+            "lng": 143.80148
+          }
+        },
+        "location": {
+          "lat": 43.73975720000001,
+          "lng": 143.8083224
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.76365699999999,
+            "lng": 143.848302
+          },
+          "southwest": {
+            "lat": 43.735249,
+            "lng": 143.80148
+          }
+        }
+      },
+      "place_id": "ChIJvYVOQXGocl8R0Y3IG3xhLl8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        },
+        "location": {
+          "lat": 43.8039761,
+          "lng": 143.8957837
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        }
+      },
+      "place_id": "ChIJJyl2-6JVDV8RNT7L_Uif_sg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

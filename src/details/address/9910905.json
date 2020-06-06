@@ -1,0 +1,578 @@
+{
+  "station": "勇足",
+  "lat": 43.088975,
+  "lng": 143.524692,
+  "plus_code": {
+    "compound_code": "3GQF+HV 日本、北海道本別町",
+    "global_code": "8RM53GQF+HV"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２４−１４",
+          "short_name": "２４−１４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "勇足元町",
+          "short_name": "勇足元町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "本別町",
+          "short_name": "本別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3281",
+          "short_name": "089-3281",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3281 北海道中川郡本別町勇足元町２４−１４",
+      "geometry": {
+        "location": {
+          "lat": 43.0890574,
+          "lng": 143.5247701
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0904063802915,
+            "lng": 143.5261190802915
+          },
+          "southwest": {
+            "lat": 43.0877084197085,
+            "lng": 143.5234211197085
+          }
+        }
+      },
+      "place_id": "ChIJjzTNNdCrc18R9qzdmvpasx0",
+      "plus_code": {
+        "compound_code": "3GQF+JW 日本、北海道本別町",
+        "global_code": "8RM53GQF+JW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道道659号",
+          "short_name": "道道659号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "勇足元町",
+          "short_name": "勇足元町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "本別町",
+          "short_name": "本別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3281",
+          "short_name": "089-3281",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3281 北海道中川郡本別町勇足元町 道道659号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0894769,
+            "lng": 143.5244376
+          },
+          "southwest": {
+            "lat": 43.0892535,
+            "lng": 143.5240645
+          }
+        },
+        "location": {
+          "lat": 43.0893652,
+          "lng": 143.5242511
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.09071418029149,
+            "lng": 143.5256000302915
+          },
+          "southwest": {
+            "lat": 43.08801621970849,
+            "lng": 143.5229020697085
+          }
+        }
+      },
+      "place_id": "ChIJX__qy9Grc18RLPWuAdZ1CaU",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-3281",
+          "short_name": "089-3281",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "勇足元町",
+          "short_name": "勇足元町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "本別町",
+          "short_name": "本別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-3281",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.094058,
+            "lng": 143.5271784
+          },
+          "southwest": {
+            "lat": 43.0863306,
+            "lng": 143.5161477
+          }
+        },
+        "location": {
+          "lat": 43.0899239,
+          "lng": 143.5229734
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.094058,
+            "lng": 143.5271784
+          },
+          "southwest": {
+            "lat": 43.0863306,
+            "lng": 143.5161477
+          }
+        }
+      },
+      "place_id": "ChIJmf2ZlNGrc18RNwx-XodKlxE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "勇足元町",
+          "short_name": "勇足元町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "本別町",
+          "short_name": "本別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡本別町勇足元町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0940631,
+            "lng": 143.527907
+          },
+          "southwest": {
+            "lat": 43.0862601,
+            "lng": 143.5166259
+          }
+        },
+        "location": {
+          "lat": 43.0899239,
+          "lng": 143.5229734
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0940631,
+            "lng": 143.527907
+          },
+          "southwest": {
+            "lat": 43.0862601,
+            "lng": 143.5166259
+          }
+        }
+      },
+      "place_id": "ChIJmf2ZlNGrc18R5EkeU6M7k1U",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "本別町",
+          "short_name": "本別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡本別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2445551,
+            "lng": 143.7936388
+          },
+          "southwest": {
+            "lat": 43.056543,
+            "lng": 143.388385
+          }
+        },
+        "location": {
+          "lat": 43.12451060000001,
+          "lng": 143.6106892
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2445551,
+            "lng": 143.7936388
+          },
+          "southwest": {
+            "lat": 43.056543,
+            "lng": 143.388385
+          }
+        }
+      },
+      "place_id": "ChIJT4fPk0RVcl8RbgOX4rYGwzI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        },
+        "location": {
+          "lat": 42.8964788,
+          "lng": 143.4246191
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        }
+      },
+      "place_id": "ChIJI7-UkUovDV8R2Ug2H6R6-gI",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

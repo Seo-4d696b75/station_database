@@ -106,7 +106,7 @@ def read_param(str)
   param_key = nil
   param_value = []
   # '=' を含む場合もある
-  if m = src.match(/\A([^\{\[\|\}\]]+?)\s*=\s*/m)
+  if m = src.match(/\A\s*([^\{\[\|\}\]]+?)\s*=\s*/m)
     param_key = m[1]
     src = m.post_match
   end
@@ -203,13 +203,30 @@ def parse(template,pref_map)
     name = m[1]
   end
   name_kana = template.get_param('よみがな')
-  pos = template.get_param('座標')
-  if pos.name != 'ウィキ座標2段度分秒' || pos.get_param(3) != 'N' || pos.get_param(7) != 'E'
-    puts "Error > unknown coordinate system #{pos.name}"
-    exit(0)
+  lat = 0
+  lng = 0
+  if pos = template.get_param('座標')
+    if pos.name != 'ウィキ座標2段度分秒' || pos.get_param(3) != 'N' || pos.get_param(7) != 'E'
+      puts "Error > unknown coordinate system #{pos.name}"
+      exit(0)
+    end
+    lat = (pos.get_param(0).to_f + pos.get_param(1).to_f/60 + pos.get_param(2).to_f/3600).round(6)
+    lng = (pos.get_param(4).to_f + pos.get_param(5).to_f/60 + pos.get_param(6).to_f/3600).round(6)
+  else 
+    lat1 = template.get_param('緯度度')
+    lat2 = template.get_param('緯度分')
+    lat3 = template.get_param('緯度秒')
+    lng1 = template.get_param('経度度')
+    lng2 = template.get_param('経度分')
+    lng3 = template.get_param('経度秒')
+    if lat1&&lat2&&lat3&&lng1&&lng2&&lng3
+      lat = (lat1.to_f + lat2.to_f/60 + lat3.to_f/3600).round(6)
+      lng = (lng1.to_f + lng2.to_f/60 + lng3.to_f/3600).round(6)
+    else
+      puts "Error > unknown coordinate system #{template.to_s}"
+      exit(0)
+    end
   end
-  lat = (pos.get_param(0).to_f + pos.get_param(1).to_f/60 + pos.get_param(2).to_f/3600).round(6)
-  lng = (pos.get_param(4).to_f + pos.get_param(5).to_f/60 + pos.get_param(6).to_f/3600).round(6)
   pref = template.get_param('所在地')[0].name
   if !(pref = pref_map[pref])
     puts "Error > unknown prefecture #{template.get_param('所在地')[0].name}"

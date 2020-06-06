@@ -1,0 +1,667 @@
+{
+  "station": "高島",
+  "lat": 43.023164,
+  "lng": 143.459322,
+  "plus_code": {
+    "compound_code": "2FF5+7P 日本、北海道池田町",
+    "global_code": "8RM52FF5+7P"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "高島郵便局前",
+          "short_name": "高島郵便局前",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字高島",
+          "short_name": "字高島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3152",
+          "short_name": "089-3152",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3152 北海道中川郡池田町字高島 高島郵便局前",
+      "geometry": {
+        "location": {
+          "lat": 43.0232439,
+          "lng": 143.4581598
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.02459288029151,
+            "lng": 143.4595087802915
+          },
+          "southwest": {
+            "lat": 43.02189491970851,
+            "lng": 143.4568108197085
+          }
+        }
+      },
+      "place_id": "ChIJ7ZgR11evc18RGdg3FXBdiQQ",
+      "plus_code": {
+        "compound_code": "2FF5+77 日本、北海道池田町",
+        "global_code": "8RM52FF5+77"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４−９",
+          "short_name": "４−９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字高島",
+          "short_name": "字高島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3152",
+          "short_name": "089-3152",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3152 北海道中川郡池田町字高島４−９",
+      "geometry": {
+        "location": {
+          "lat": 43.0237893,
+          "lng": 143.4583231
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.02513828029149,
+            "lng": 143.4596720802915
+          },
+          "southwest": {
+            "lat": 43.0224403197085,
+            "lng": 143.4569741197085
+          }
+        }
+      },
+      "place_id": "ChIJ00B_0levc18RSjIzJqANTDI",
+      "plus_code": {
+        "compound_code": "2FF5+G8 日本、北海道池田町",
+        "global_code": "8RM52FF5+G8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "池田停高島線",
+          "short_name": "道道237号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字高島",
+          "short_name": "字高島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3152",
+          "short_name": "089-3152",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3152 北海道中川郡池田町字高島 道道237号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.023325,
+            "lng": 143.4582022
+          },
+          "southwest": {
+            "lat": 43.0226959,
+            "lng": 143.4581223
+          }
+        },
+        "location": {
+          "lat": 43.0230105,
+          "lng": 143.4581625
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0243594302915,
+            "lng": 143.4595112302915
+          },
+          "southwest": {
+            "lat": 43.0216614697085,
+            "lng": 143.4568132697085
+          }
+        }
+      },
+      "place_id": "ChIJM-XZd_ilc18R9CuKdC9TYl8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字高島",
+          "short_name": "字高島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡池田町字高島",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.058582,
+            "lng": 143.468042
+          },
+          "southwest": {
+            "lat": 43.017736,
+            "lng": 143.4014251
+          }
+        },
+        "location": {
+          "lat": 43.0311808,
+          "lng": 143.4228588
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.058582,
+            "lng": 143.468042
+          },
+          "southwest": {
+            "lat": 43.017736,
+            "lng": 143.4014251
+          }
+        }
+      },
+      "place_id": "ChIJ73TqBx6mc18RMTymMJSd5WA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-3152",
+          "short_name": "089-3152",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字高島",
+          "short_name": "字高島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-3152",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0579742,
+            "lng": 143.4680422
+          },
+          "southwest": {
+            "lat": 43.0177358,
+            "lng": 143.402852
+          }
+        },
+        "location": {
+          "lat": 43.0311808,
+          "lng": 143.4228588
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0579742,
+            "lng": 143.4680422
+          },
+          "southwest": {
+            "lat": 43.0177358,
+            "lng": 143.402852
+          }
+        }
+      },
+      "place_id": "ChIJF312ePilc18R4SFi-tcNjfo",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "池田町",
+          "short_name": "池田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡池田町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.115478,
+            "lng": 143.5913449
+          },
+          "southwest": {
+            "lat": 42.873879,
+            "lng": 143.319944
+          }
+        },
+        "location": {
+          "lat": 42.9292788,
+          "lng": 143.4477073
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.115478,
+            "lng": 143.5913449
+          },
+          "southwest": {
+            "lat": 42.873879,
+            "lng": 143.319944
+          }
+        }
+      },
+      "place_id": "ChIJN7pr4qOlc18ROHBS5mojaH4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中川郡",
+          "short_name": "中川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道中川郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        },
+        "location": {
+          "lat": 42.8964788,
+          "lng": 143.4246191
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.9053714,
+            "lng": 143.7936385
+          },
+          "southwest": {
+            "lat": 42.5093073,
+            "lng": 141.9756365
+          }
+        }
+      },
+      "place_id": "ChIJI7-UkUovDV8R2Ug2H6R6-gI",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

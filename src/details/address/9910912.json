@@ -1,0 +1,667 @@
+{
+  "station": "西一線",
+  "lat": 43.319147,
+  "lng": 143.580225,
+  "plus_code": {
+    "compound_code": "8H9J+M3 日本、北海道足寄町上利別",
+    "global_code": "8RM58H9J+M3"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "足寄西１線",
+          "short_name": "足寄西１線",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "上利別",
+          "short_name": "上利別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-4142",
+          "short_name": "089-4142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-4142 北海道足寄郡足寄町上利別 足寄西１線",
+      "geometry": {
+        "location": {
+          "lat": 43.31877,
+          "lng": 143.5799763
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3201189802915,
+            "lng": 143.5813252802915
+          },
+          "southwest": {
+            "lat": 43.3174210197085,
+            "lng": 143.5786273197085
+          }
+        }
+      },
+      "place_id": "ChIJuQ8OyrX6cl8R6a7ByOEqhg8",
+      "plus_code": {
+        "compound_code": "8H9H+GX 日本、北海道足寄町上利別",
+        "global_code": "8RM58H9H+GX"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２３",
+          "short_name": "２３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上利別",
+          "short_name": "上利別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-4142",
+          "short_name": "089-4142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-4142 北海道足寄郡足寄町上利別２３",
+      "geometry": {
+        "location": {
+          "lat": 43.3200849,
+          "lng": 143.579768
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.32143388029149,
+            "lng": 143.5811169802915
+          },
+          "southwest": {
+            "lat": 43.3187359197085,
+            "lng": 143.5784190197085
+          }
+        }
+      },
+      "place_id": "ChIJA4sWV7T6cl8RgblZmpgusTM",
+      "plus_code": {
+        "compound_code": "8HCH+2W 日本、北海道足寄町上利別",
+        "global_code": "8RM58HCH+2W"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道242号",
+          "short_name": "国道242号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "上利別",
+          "short_name": "上利別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-4142",
+          "short_name": "089-4142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-4142 北海道足寄郡足寄町上利別 国道242号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3190854,
+            "lng": 143.5799623
+          },
+          "southwest": {
+            "lat": 43.3189343,
+            "lng": 143.5799401
+          }
+        },
+        "location": {
+          "lat": 43.3190099,
+          "lng": 143.5799512
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3203588302915,
+            "lng": 143.5813001802915
+          },
+          "southwest": {
+            "lat": 43.3176608697085,
+            "lng": 143.5786022197085
+          }
+        }
+      },
+      "place_id": "ChIJO63qtLX6cl8RugQrD_sdNYc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上利別",
+          "short_name": "上利別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡足寄町上利別",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.463503,
+            "lng": 143.6675239
+          },
+          "southwest": {
+            "lat": 43.30025699999999,
+            "lng": 143.4774541
+          }
+        },
+        "location": {
+          "lat": 43.3846737,
+          "lng": 143.6085278
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.463503,
+            "lng": 143.6675239
+          },
+          "southwest": {
+            "lat": 43.30025699999999,
+            "lng": 143.4774541
+          }
+        }
+      },
+      "place_id": "ChIJG8lpeRXvcl8RYVNvf57SXqw",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-4142",
+          "short_name": "089-4142",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上利別",
+          "short_name": "上利別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-4142",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.4609868,
+            "lng": 143.6810639
+          },
+          "southwest": {
+            "lat": 43.3083047,
+            "lng": 143.4774541
+          }
+        },
+        "location": {
+          "lat": 43.3846737,
+          "lng": 143.6085278
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4609868,
+            "lng": 143.6810639
+          },
+          "southwest": {
+            "lat": 43.3083047,
+            "lng": 143.4774541
+          }
+        }
+      },
+      "place_id": "ChIJQVegLPrvcl8RW-ok-_CSDtU",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡足寄町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.55932199999999,
+            "lng": 144.0310308
+          },
+          "southwest": {
+            "lat": 43.1887619,
+            "lng": 143.2112919
+          }
+        },
+        "location": {
+          "lat": 43.2449157,
+          "lng": 143.5540194
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.55932199999999,
+            "lng": 144.0310308
+          },
+          "southwest": {
+            "lat": 43.1887619,
+            "lng": 143.2112919
+          }
+        }
+      },
+      "place_id": "ChIJLVwVLlfucl8RfUHwndUPh6o",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.6405656,
+            "lng": 144.0310314
+          },
+          "southwest": {
+            "lat": 43.18876160000001,
+            "lng": 143.2112915
+          }
+        },
+        "location": {
+          "lat": 43.4180199,
+          "lng": 143.6150961
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6405656,
+            "lng": 144.0310314
+          },
+          "southwest": {
+            "lat": 43.18876160000001,
+            "lng": 143.2112915
+          }
+        }
+      },
+      "place_id": "ChIJ_RBoAQLscl8RRx6oK50rckg",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

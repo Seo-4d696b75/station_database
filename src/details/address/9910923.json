@@ -1,0 +1,578 @@
+{
+  "station": "豊住",
+  "lat": 43.701361,
+  "lng": 143.630661,
+  "plus_code": {
+    "compound_code": "PJ2J+G7 日本、北海道置戸町",
+    "global_code": "8RM5PJ2J+G7"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６３",
+          "short_name": "６３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字豊住",
+          "short_name": "字豊住",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "置戸町",
+          "short_name": "置戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1365",
+          "short_name": "099-1365",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒099-1365 北海道常呂郡置戸町字豊住６３",
+      "geometry": {
+        "location": {
+          "lat": 43.7035377,
+          "lng": 143.6300876
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7048866802915,
+            "lng": 143.6314365802915
+          },
+          "southwest": {
+            "lat": 43.7021887197085,
+            "lng": 143.6287386197085
+          }
+        }
+      },
+      "place_id": "ChIJU8WOZy-wcl8R6_KoF3b_Qlc",
+      "plus_code": {
+        "compound_code": "PJ3J+C2 日本、北海道置戸町",
+        "global_code": "8RM5PJ3J+C2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字豊住",
+          "short_name": "字豊住",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "置戸町",
+          "short_name": "置戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "099-1365",
+          "short_name": "099-1365",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字豊住 置戸町 常呂郡 北海道 099-1365 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.7037886,
+            "lng": 143.6363572
+          },
+          "southwest": {
+            "lat": 43.7011967,
+            "lng": 143.6304076
+          }
+        },
+        "location": {
+          "lat": 43.702493,
+          "lng": 143.6333821
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.70384163029149,
+            "lng": 143.6363572
+          },
+          "southwest": {
+            "lat": 43.7011436697085,
+            "lng": 143.6304076
+          }
+        }
+      },
+      "place_id": "ChIJW6Lv2yWwcl8RrFEzSHC82eM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "099-1365",
+          "short_name": "099-1365",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字豊住",
+          "short_name": "字豊住",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "置戸町",
+          "short_name": "置戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒099-1365",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.7319722,
+            "lng": 143.6501928
+          },
+          "southwest": {
+            "lat": 43.6906357,
+            "lng": 143.6078953
+          }
+        },
+        "location": {
+          "lat": 43.7071021,
+          "lng": 143.6272544
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7319722,
+            "lng": 143.6501928
+          },
+          "southwest": {
+            "lat": 43.6906357,
+            "lng": 143.6078953
+          }
+        }
+      },
+      "place_id": "ChIJU8WOZy-wcl8RsN2wIT7ulrw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字豊住",
+          "short_name": "字豊住",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "置戸町",
+          "short_name": "置戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡置戸町字豊住",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.732056,
+            "lng": 143.6501259
+          },
+          "southwest": {
+            "lat": 43.690589,
+            "lng": 143.6077529
+          }
+        },
+        "location": {
+          "lat": 43.7071021,
+          "lng": 143.6272544
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.732056,
+            "lng": 143.6501259
+          },
+          "southwest": {
+            "lat": 43.690589,
+            "lng": 143.6077529
+          }
+        }
+      },
+      "place_id": "ChIJfbpIr9Kxcl8RJDcN5tW1NVE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "置戸町",
+          "short_name": "置戸町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡置戸町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.7758841,
+            "lng": 143.6768008
+          },
+          "southwest": {
+            "lat": 43.508142,
+            "lng": 143.1729639
+          }
+        },
+        "location": {
+          "lat": 43.6763094,
+          "lng": 143.5862555
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.7758841,
+            "lng": 143.6768008
+          },
+          "southwest": {
+            "lat": 43.508142,
+            "lng": 143.1729639
+          }
+        }
+      },
+      "place_id": "ChIJBQksENTJcl8Rp8ukdWcQ83o",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1443832,
+            "lng": 143.9667034
+          },
+          "southwest": {
+            "lat": 43.50814219999999,
+            "lng": 143.1729641
+          }
+        },
+        "location": {
+          "lat": 44.0361705,
+          "lng": 143.8286723
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1443832,
+            "lng": 143.9667034
+          },
+          "southwest": {
+            "lat": 43.50814219999999,
+            "lng": 143.1729641
+          }
+        }
+      },
+      "place_id": "ChIJaQZwiDdTDV8Rbh8LMiglDqE",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

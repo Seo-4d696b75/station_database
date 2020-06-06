@@ -1,0 +1,667 @@
+{
+  "station": "愛冠",
+  "lat": 43.292367,
+  "lng": 143.566642,
+  "plus_code": {
+    "compound_code": "7HR8+WM 日本、北海道足寄町愛冠",
+    "global_code": "8RM57HR8+WM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３５−１２",
+          "short_name": "３５−１２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3708",
+          "short_name": "089-3708",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3708 北海道足寄郡足寄町愛冠３５−１２",
+      "geometry": {
+        "location": {
+          "lat": 43.2924552,
+          "lng": 143.5667155
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2938041802915,
+            "lng": 143.5680644802915
+          },
+          "southwest": {
+            "lat": 43.2911062197085,
+            "lng": 143.5653665197085
+          }
+        }
+      },
+      "place_id": "ChIJK_PAWxn7cl8RelWQ-rU99sM",
+      "plus_code": {
+        "compound_code": "7HR8+XM 日本、北海道足寄町愛冠",
+        "global_code": "8RM57HR8+XM"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3708",
+          "short_name": "089-3708",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3708 北海道足寄郡足寄町愛冠 愛冠",
+      "geometry": {
+        "location": {
+          "lat": 43.2928176,
+          "lng": 143.5647357
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2941665802915,
+            "lng": 143.5660846802915
+          },
+          "southwest": {
+            "lat": 43.2914686197085,
+            "lng": 143.5633867197085
+          }
+        }
+      },
+      "place_id": "ChIJq12XExn7cl8RuW_7SKiLCKQ",
+      "plus_code": {
+        "compound_code": "7HV7+4V 日本、北海道足寄町愛冠",
+        "global_code": "8RM57HV7+4V"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道242号",
+          "short_name": "国道242号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "089-3708",
+          "short_name": "089-3708",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒089-3708 北海道足寄郡足寄町愛冠 国道242号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2936822,
+            "lng": 143.5658717
+          },
+          "southwest": {
+            "lat": 43.2932111,
+            "lng": 143.5652625
+          }
+        },
+        "location": {
+          "lat": 43.2934479,
+          "lng": 143.5655653
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2947956302915,
+            "lng": 143.5669160802915
+          },
+          "southwest": {
+            "lat": 43.2920976697085,
+            "lng": 143.5642181197085
+          }
+        }
+      },
+      "place_id": "ChIJM7SQOhn7cl8RKJiz74mIDxc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡足寄町愛冠",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3092449,
+            "lng": 143.5933371
+          },
+          "southwest": {
+            "lat": 43.263386,
+            "lng": 143.546159
+          }
+        },
+        "location": {
+          "lat": 43.2925738,
+          "lng": 143.5681143
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3092449,
+            "lng": 143.5933371
+          },
+          "southwest": {
+            "lat": 43.263386,
+            "lng": 143.546159
+          }
+        }
+      },
+      "place_id": "ChIJj1hqaB77cl8RKoQML2ZPrdo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "089-3708",
+          "short_name": "089-3708",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "愛冠",
+          "short_name": "愛冠",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒089-3708",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.31075939999999,
+            "lng": 143.5961573
+          },
+          "southwest": {
+            "lat": 43.2775032,
+            "lng": 143.5515042
+          }
+        },
+        "location": {
+          "lat": 43.2925738,
+          "lng": 143.5681143
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.31075939999999,
+            "lng": 143.5961573
+          },
+          "southwest": {
+            "lat": 43.2775032,
+            "lng": 143.5515042
+          }
+        }
+      },
+      "place_id": "ChIJUfpnABr7cl8ROQpmxVM0ZMU",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "足寄町",
+          "short_name": "足寄町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡足寄町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.55932199999999,
+            "lng": 144.0310308
+          },
+          "southwest": {
+            "lat": 43.1887619,
+            "lng": 143.2112919
+          }
+        },
+        "location": {
+          "lat": 43.2449157,
+          "lng": 143.5540194
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.55932199999999,
+            "lng": 144.0310308
+          },
+          "southwest": {
+            "lat": 43.1887619,
+            "lng": 143.2112919
+          }
+        }
+      },
+      "place_id": "ChIJLVwVLlfucl8RfUHwndUPh6o",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "足寄郡",
+          "short_name": "足寄郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道足寄郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.6405656,
+            "lng": 144.0310314
+          },
+          "southwest": {
+            "lat": 43.18876160000001,
+            "lng": 143.2112915
+          }
+        },
+        "location": {
+          "lat": 43.4180199,
+          "lng": 143.6150961
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.6405656,
+            "lng": 144.0310314
+          },
+          "southwest": {
+            "lat": 43.18876160000001,
+            "lng": 143.2112915
+          }
+        }
+      },
+      "place_id": "ChIJ_RBoAQLscl8RRx6oK50rckg",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
