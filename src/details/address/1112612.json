@@ -1,0 +1,578 @@
+{
+  "station": "松前",
+  "lat": 41.427472,
+  "lng": 140.100861,
+  "plus_code": {
+    "compound_code": "C4G2+X8 日本、北海道松前町字博多",
+    "global_code": "8RH2C4G2+X8"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１７４",
+          "short_name": "１７４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字博多",
+          "short_name": "字博多",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松前町",
+          "short_name": "松前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "049-1505",
+          "short_name": "049-1505",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒049-1505 北海道松前郡松前町字博多１７４",
+      "geometry": {
+        "location": {
+          "lat": 41.4276895,
+          "lng": 140.1005989
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.4290384802915,
+            "lng": 140.1019478802915
+          },
+          "southwest": {
+            "lat": 41.4263405197085,
+            "lng": 140.0992499197085
+          }
+        }
+      },
+      "place_id": "ChIJb0litXlJmV8RGh0oEYNdL1A",
+      "plus_code": {
+        "compound_code": "C4H2+36 日本、北海道松前町字博多",
+        "global_code": "8RH2C4H2+36"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松前停車場線",
+          "short_name": "道道380号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字博多",
+          "short_name": "字博多",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松前町",
+          "short_name": "松前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "049-1505",
+          "short_name": "049-1505",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒049-1505 北海道松前郡松前町字博多 道道380号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.4271953,
+            "lng": 140.1008915
+          },
+          "southwest": {
+            "lat": 41.4263149,
+            "lng": 140.0983015
+          }
+        },
+        "location": {
+          "lat": 41.42687189999999,
+          "lng": 140.099491
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 41.4281040802915,
+            "lng": 140.1009454802915
+          },
+          "southwest": {
+            "lat": 41.42540611970851,
+            "lng": 140.0982475197085
+          }
+        }
+      },
+      "place_id": "ChIJKYg0e3dJmV8R1KKRtJkr_aI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "049-1505",
+          "short_name": "049-1505",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字博多",
+          "short_name": "字博多",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松前町",
+          "short_name": "松前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒049-1505",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.4315351,
+            "lng": 140.103096
+          },
+          "southwest": {
+            "lat": 41.4239338,
+            "lng": 140.0969604
+          }
+        },
+        "location": {
+          "lat": 41.42792379999999,
+          "lng": 140.0993923
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.4315351,
+            "lng": 140.103096
+          },
+          "southwest": {
+            "lat": 41.4239338,
+            "lng": 140.0969604
+          }
+        }
+      },
+      "place_id": "ChIJNSDv4HlJmV8RzyT8G51uIrQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字博多",
+          "short_name": "字博多",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "松前町",
+          "short_name": "松前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道松前郡松前町字博多",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.432273,
+            "lng": 140.103096
+          },
+          "southwest": {
+            "lat": 41.423934,
+            "lng": 140.0969601
+          }
+        },
+        "location": {
+          "lat": 41.42792379999999,
+          "lng": 140.0993923
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.432273,
+            "lng": 140.103096
+          },
+          "southwest": {
+            "lat": 41.423934,
+            "lng": 140.0969601
+          }
+        }
+      },
+      "place_id": "ChIJZb8BOXhJmV8RgSFNfwQjLU0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松前町",
+          "short_name": "松前町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道松前郡松前町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.632134,
+            "lng": 140.208425
+          },
+          "southwest": {
+            "lat": 41.3516001,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 41.4300208,
+          "lng": 140.1104794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.632134,
+            "lng": 140.208425
+          },
+          "southwest": {
+            "lat": 41.3516001,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJOS6-vis7mV8RM5Gdw2myU3U",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松前郡",
+          "short_name": "松前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道松前郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.6321345,
+            "lng": 140.4089544
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 41.5159065,
+          "lng": 140.1606222
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.6321345,
+            "lng": 140.4089544
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJM6_PdYYwmV8RIuIuvEobkqg",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
