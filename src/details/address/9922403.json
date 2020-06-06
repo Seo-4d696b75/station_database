@@ -1,0 +1,851 @@
+{
+  "station": "田名部",
+  "lat": 41.296361,
+  "lng": 141.217278,
+  "plus_code": {
+    "compound_code": "76W8+GW 日本、青森県むつ市",
+    "global_code": "8RH376W8+GW"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町１０",
+      "geometry": {
+        "location": {
+          "lat": 41.2963572,
+          "lng": 141.2172534
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.29770618029149,
+            "lng": 141.2186023802915
+          },
+          "southwest": {
+            "lat": 41.29500821970849,
+            "lng": 141.2159044197085
+          }
+        }
+      },
+      "place_id": "ChIJN-DnP9Q_nF8RRGRMqIa2z_0",
+      "plus_code": {
+        "compound_code": "76W8+GW 日本、青森県むつ市",
+        "global_code": "8RH376W8+GW"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４",
+          "short_name": "１４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町１０−１４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.2964416,
+            "lng": 141.2173009
+          },
+          "southwest": {
+            "lat": 41.2963041,
+            "lng": 141.2172017
+          }
+        },
+        "location": {
+          "lat": 41.29637839999999,
+          "lng": 141.2172587
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2977218302915,
+            "lng": 141.2186002802915
+          },
+          "southwest": {
+            "lat": 41.2950238697085,
+            "lng": 141.2159023197085
+          }
+        }
+      },
+      "place_id": "ChIJu5wO0kU_nF8Rbto4ieiBC6A",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "田名部（バス）",
+          "short_name": "田名部（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町１０ 田名部（バス）",
+      "geometry": {
+        "location": {
+          "lat": 41.29624,
+          "lng": 141.217
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2975889802915,
+            "lng": 141.2183489802915
+          },
+          "southwest": {
+            "lat": 41.2948910197085,
+            "lng": 141.2156510197085
+          }
+        }
+      },
+      "place_id": "ChIJKzxVzUU_nF8RA1LAXRjgfSc",
+      "plus_code": {
+        "compound_code": "76W8+FQ 日本、青森県むつ市",
+        "global_code": "8RH376W8+FQ"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１０−１",
+          "short_name": "１０−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "９",
+          "short_name": "９",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町９−１０−１",
+      "geometry": {
+        "location": {
+          "lat": 41.296646,
+          "lng": 141.216959
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.29799498029149,
+            "lng": 141.2183079802915
+          },
+          "southwest": {
+            "lat": 41.2952970197085,
+            "lng": 141.2156100197085
+          }
+        }
+      },
+      "place_id": "ChIJr5Cb1kU_nF8Rv3XeB-g53P4",
+      "plus_code": {
+        "compound_code": "76W8+MQ 日本、青森県むつ市",
+        "global_code": "8RH376W8+MQ"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "来さまい橋通り",
+          "short_name": "来さまい橋通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町１０ 来さまい橋通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.2967211,
+            "lng": 141.2172119
+          },
+          "southwest": {
+            "lat": 41.2962812,
+            "lng": 141.2171421
+          }
+        },
+        "location": {
+          "lat": 41.2965002,
+          "lng": 141.2171847
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2978501302915,
+            "lng": 141.2185259802915
+          },
+          "southwest": {
+            "lat": 41.2951521697085,
+            "lng": 141.2158280197085
+          }
+        }
+      },
+      "place_id": "ChIJkfN80UU_nF8RIE85lG0eUWE",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町１０",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.297228,
+            "lng": 141.217473
+          },
+          "southwest": {
+            "lat": 41.295489,
+            "lng": 141.2165209
+          }
+        },
+        "location": {
+          "lat": 41.2967371,
+          "lng": 141.2170592
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2977074802915,
+            "lng": 141.2183459302915
+          },
+          "southwest": {
+            "lat": 41.29500951970851,
+            "lng": 141.2156479697085
+          }
+        }
+      },
+      "place_id": "ChIJo_6CzUU_nF8Rt1pq7jxpTME",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒035-0034 青森県むつ市田名部町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.29723,
+            "lng": 141.217473
+          },
+          "southwest": {
+            "lat": 41.293942,
+            "lng": 141.2132619
+          }
+        },
+        "location": {
+          "lat": 41.2953482,
+          "lng": 141.2155283
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.29723,
+            "lng": 141.217473
+          },
+          "southwest": {
+            "lat": 41.293942,
+            "lng": 141.2132619
+          }
+        }
+      },
+      "place_id": "ChIJ0WaAF0Q_nF8RIa8s9HTIk4c",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "035-0034",
+          "short_name": "035-0034",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "田名部町",
+          "short_name": "田名部町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒035-0034",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.2972299,
+            "lng": 141.217473
+          },
+          "southwest": {
+            "lat": 41.2939423,
+            "lng": 141.2132617
+          }
+        },
+        "location": {
+          "lat": 41.2953482,
+          "lng": 141.2155283
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2972299,
+            "lng": 141.217473
+          },
+          "southwest": {
+            "lat": 41.2939423,
+            "lng": 141.2132617
+          }
+        }
+      },
+      "place_id": "ChIJD2dbBkQ_nF8R4GKQ3T7xO_U",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "むつ市",
+          "short_name": "むつ市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、青森県むつ市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.455612,
+            "lng": 141.338938
+          },
+          "southwest": {
+            "lat": 41.11912,
+            "lng": 140.764029
+          }
+        },
+        "location": {
+          "lat": 41.2927986,
+          "lng": 141.1834683
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.455612,
+            "lng": 141.338938
+          },
+          "southwest": {
+            "lat": 41.11912,
+            "lng": 140.764029
+          }
+        }
+      },
+      "place_id": "ChIJmSRIktoVnF8Rv-lDdImwNGk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "青森県",
+          "short_name": "青森県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、青森県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.5561335,
+            "lng": 141.6830258
+          },
+          "southwest": {
+            "lat": 40.2177282,
+            "lng": 139.4974002
+          }
+        },
+        "location": {
+          "lat": 40.7657077,
+          "lng": 140.9175879
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.5561335,
+            "lng": 141.6830258
+          },
+          "southwest": {
+            "lat": 40.2177282,
+            "lng": 139.4974002
+          }
+        }
+      },
+      "place_id": "ChIJR60vIL2bm18Ro_kApp-uBak",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
