@@ -1,0 +1,683 @@
+{
+  "station": "常呂",
+  "lat": 44.122861,
+  "lng": 144.071667,
+  "plus_code": {
+    "compound_code": "43FC+4M 日本、北海道北見市常呂町",
+    "global_code": "8RP643FC+4M"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "常呂バスターミナル",
+          "short_name": "常呂バスターミナル",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "中央町",
+          "short_name": "中央町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "090-0000",
+          "short_name": "090-0000",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒090-0000 北海道北見市常呂町中央町 常呂バスターミナル",
+      "geometry": {
+        "location": {
+          "lat": 44.123093,
+          "lng": 144.071538
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.12444198029151,
+            "lng": 144.0728869802915
+          },
+          "southwest": {
+            "lat": 44.12174401970851,
+            "lng": 144.0701890197085
+          }
+        }
+      },
+      "place_id": "ChIJ0xjNQirJEl8RVCfHKQbBtMs",
+      "plus_code": {
+        "compound_code": "43FC+6J 日本、北海道北見市常呂町",
+        "global_code": "8RP643FC+6J"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６３９−１",
+          "short_name": "６３９−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "中央町",
+          "short_name": "中央町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "090-0000",
+          "short_name": "090-0000",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒090-0000 北海道北見市常呂町中央町６３９−１",
+      "geometry": {
+        "location": {
+          "lat": 44.1231588,
+          "lng": 144.0717115
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.12450778029149,
+            "lng": 144.0730604802915
+          },
+          "southwest": {
+            "lat": 44.1218098197085,
+            "lng": 144.0703625197085
+          }
+        }
+      },
+      "place_id": "ChIJmS4JXSrJEl8RVs4RJo2ULGI",
+      "plus_code": {
+        "compound_code": "43FC+7M 日本、北海道北見市常呂町",
+        "global_code": "8RP643FC+7M"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道道1033号",
+          "short_name": "道道1033号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "中央町",
+          "short_name": "中央町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "090-0000",
+          "short_name": "090-0000",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒090-0000 北海道北見市常呂町中央町 道道1033号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1223115,
+            "lng": 144.0717176
+          },
+          "southwest": {
+            "lat": 44.12230659999999,
+            "lng": 144.0716044
+          }
+        },
+        "location": {
+          "lat": 44.1223091,
+          "lng": 144.071661
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.12365803029149,
+            "lng": 144.0730099802915
+          },
+          "southwest": {
+            "lat": 44.1209600697085,
+            "lng": 144.0703120197085
+          }
+        }
+      },
+      "place_id": "ChIJEe2SSSrJEl8RvNP6xu0AyIk",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中央町",
+          "short_name": "中央町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "090-0000",
+          "short_name": "090-0000",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒090-0000 北海道北見市常呂町中央町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.124558,
+            "lng": 144.0740548
+          },
+          "southwest": {
+            "lat": 44.11886,
+            "lng": 144.068401
+          }
+        },
+        "location": {
+          "lat": 44.1227416,
+          "lng": 144.0720576
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.124558,
+            "lng": 144.0740548
+          },
+          "southwest": {
+            "lat": 44.11886,
+            "lng": 144.068401
+          }
+        }
+      },
+      "place_id": "ChIJ39FfzSvJEl8RjRDslRFjA48",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "090-0000",
+          "short_name": "090-0000",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "常呂",
+          "short_name": "常呂",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒090-0000",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1295344,
+            "lng": 144.105098
+          },
+          "southwest": {
+            "lat": 44.1050426,
+            "lng": 144.0480357
+          }
+        },
+        "location": {
+          "lat": 44.1203665,
+          "lng": 144.0673028
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1295344,
+            "lng": 144.105098
+          },
+          "southwest": {
+            "lat": 44.1050426,
+            "lng": 144.0480357
+          }
+        }
+      },
+      "place_id": "ChIJjxOU3y3JEl8RnRVAbAm8pLM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市常呂町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        },
+        "location": {
+          "lat": 44.0850156,
+          "lng": 144.0202206
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        }
+      },
+      "place_id": "ChIJdaUD2S3JEl8R5PqOKRqgNH0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        },
+        "location": {
+          "lat": 43.8039761,
+          "lng": 143.8957837
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        }
+      },
+      "place_id": "ChIJJyl2-6JVDV8RNT7L_Uif_sg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

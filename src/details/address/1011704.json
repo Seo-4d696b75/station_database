@@ -1,0 +1,665 @@
+{
+  "station": "芭露",
+  "lat": 44.151389,
+  "lng": 143.693333,
+  "plus_code": {
+    "compound_code": "5M2V+H8 日本、北海道湧別町",
+    "global_code": "8RP55M2V+H8"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２３３４−２",
+          "short_name": "２３３４−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "芭露",
+          "short_name": "芭露",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0731",
+          "short_name": "093-0731",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0731 北海道紋別郡湧別町芭露２３３４−２",
+      "geometry": {
+        "location": {
+          "lat": 44.1513042,
+          "lng": 143.6932781
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1526531802915,
+            "lng": 143.6946270802915
+          },
+          "southwest": {
+            "lat": 44.1499552197085,
+            "lng": 143.6919291197085
+          }
+        }
+      },
+      "place_id": "ChIJyU_jWEq8El8R2OziOZdfN2s",
+      "plus_code": {
+        "compound_code": "5M2V+G8 日本、北海道湧別町",
+        "global_code": "8RP55M2V+G8"
+      },
+      "types": [
+        "establishment",
+        "health",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２３３４",
+          "short_name": "２３３４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "芭露",
+          "short_name": "芭露",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0731",
+          "short_name": "093-0731",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0731 北海道紋別郡湧別町芭露２３３４",
+      "geometry": {
+        "location": {
+          "lat": 44.1512605,
+          "lng": 143.6934254
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1526094802915,
+            "lng": 143.6947743802915
+          },
+          "southwest": {
+            "lat": 44.1499115197085,
+            "lng": 143.6920764197085
+          }
+        }
+      },
+      "place_id": "ChIJpZ4eVEq8El8REy6moyUnVpE",
+      "plus_code": {
+        "compound_code": "5M2V+G9 日本、北海道湧別町",
+        "global_code": "8RP55M2V+G9"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道道491号",
+          "short_name": "道道491号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "芭露",
+          "short_name": "芭露",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0731",
+          "short_name": "093-0731",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0731 北海道紋別郡湧別町芭露 道道491号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1519961,
+            "lng": 143.6930972
+          },
+          "southwest": {
+            "lat": 44.151039,
+            "lng": 143.6922957
+          }
+        },
+        "location": {
+          "lat": 44.1513666,
+          "lng": 143.6930972
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1528665302915,
+            "lng": 143.6940454302915
+          },
+          "southwest": {
+            "lat": 44.1501685697085,
+            "lng": 143.6913474697085
+          }
+        }
+      },
+      "place_id": "ChIJcfLrqku8El8RLEEESPvlbKk",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "093-0731",
+          "short_name": "093-0731",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "芭露",
+          "short_name": "芭露",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒093-0731",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1913214,
+            "lng": 143.7402724
+          },
+          "southwest": {
+            "lat": 44.0882127,
+            "lng": 143.5847015
+          }
+        },
+        "location": {
+          "lat": 44.1337953,
+          "lng": 143.6665765
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1913214,
+            "lng": 143.7402724
+          },
+          "southwest": {
+            "lat": 44.0882127,
+            "lng": 143.5847015
+          }
+        }
+      },
+      "place_id": "ChIJtzFPvUy8El8R2apZtaC0Bzk",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "芭露",
+          "short_name": "芭露",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡湧別町芭露",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.191322,
+            "lng": 143.7402721
+          },
+          "southwest": {
+            "lat": 44.088213,
+            "lng": 143.584644
+          }
+        },
+        "location": {
+          "lat": 44.1337953,
+          "lng": 143.6665765
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.191322,
+            "lng": 143.7402721
+          },
+          "southwest": {
+            "lat": 44.088213,
+            "lng": 143.584644
+          }
+        }
+      },
+      "place_id": "ChIJs83Ks1a8El8RoX11BufPMiM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "湧別町",
+          "short_name": "湧別町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡湧別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.252513,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.98705100000001,
+            "lng": 143.4104
+          }
+        },
+        "location": {
+          "lat": 44.15154829999999,
+          "lng": 143.5729109
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.252513,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.98705100000001,
+            "lng": 143.4104
+          }
+        }
+      },
+      "place_id": "ChIJ89zW6t-iEl8R5-Srxq-4-XY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "紋別郡",
+          "short_name": "紋別郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道紋別郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        },
+        "location": {
+          "lat": 44.3891946,
+          "lng": 143.0769131
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.6884258,
+            "lng": 143.7762951
+          },
+          "southwest": {
+            "lat": 43.69675790000001,
+            "lng": 142.5835875
+          }
+        }
+      },
+      "place_id": "ChIJ6XnFej99DV8RhiZFqDLARXY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "station": "浜床丹",
+  "lat": 44.098417,
+  "lng": 143.753389,
+  "plus_code": {
+    "compound_code": "3QX3+99 日本、北海道佐呂間町",
+    "global_code": "8RP53QX3+99"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３１",
+          "short_name": "３１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字若里",
+          "short_name": "字若里",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0532",
+          "short_name": "093-0532",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0532 北海道常呂郡佐呂間町字若里３１",
+      "geometry": {
+        "location": {
+          "lat": 44.0984786,
+          "lng": 143.7534105
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0998275802915,
+            "lng": 143.7547594802915
+          },
+          "southwest": {
+            "lat": 44.0971296197085,
+            "lng": 143.7520615197085
+          }
+        }
+      },
+      "place_id": "ChIJcdwSbK67El8RbxgaShw6Szg",
+      "plus_code": {
+        "compound_code": "3QX3+99 日本、北海道佐呂間町",
+        "global_code": "8RP53QX3+99"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３１",
+          "short_name": "３１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字若里",
+          "short_name": "字若里",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0532",
+          "short_name": "093-0532",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0532 北海道常呂郡佐呂間町字若里３１",
+      "geometry": {
+        "location": {
+          "lat": 44.0984786,
+          "lng": 143.7534105
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0998275802915,
+            "lng": 143.7547594802915
+          },
+          "southwest": {
+            "lat": 44.0971296197085,
+            "lng": 143.7520615197085
+          }
+        }
+      },
+      "place_id": "ChIJcdwSbK67El8Rr9QXOJd4Gjs",
+      "plus_code": {
+        "compound_code": "3QX3+99 日本、北海道佐呂間町",
+        "global_code": "8RP53QX3+99"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字若里",
+          "short_name": "字若里",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0532",
+          "short_name": "093-0532",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字若里 佐呂間町 常呂郡 北海道 093-0532 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.0997236,
+            "lng": 143.7550755
+          },
+          "southwest": {
+            "lat": 44.0986197,
+            "lng": 143.7514845
+          }
+        },
+        "location": {
+          "lat": 44.0988518,
+          "lng": 143.7529041
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.10052063029149,
+            "lng": 143.7550755
+          },
+          "southwest": {
+            "lat": 44.0978226697085,
+            "lng": 143.7514845
+          }
+        }
+      },
+      "place_id": "ChIJNQz3O667El8RglAMZKzJwvI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "093-0532",
+          "short_name": "093-0532",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字若里",
+          "short_name": "字若里",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒093-0532",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1443831,
+            "lng": 143.7970392
+          },
+          "southwest": {
+            "lat": 44.0093707,
+            "lng": 143.7131895
+          }
+        },
+        "location": {
+          "lat": 44.0894847,
+          "lng": 143.7599839
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1443831,
+            "lng": 143.7970392
+          },
+          "southwest": {
+            "lat": 44.0093707,
+            "lng": 143.7131895
+          }
+        }
+      },
+      "place_id": "ChIJtxcymKS6El8Ru6MesP9KT1A",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字若里",
+          "short_name": "字若里",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡佐呂間町字若里",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1443829,
+            "lng": 143.797039
+          },
+          "southwest": {
+            "lat": 44.008709,
+            "lng": 143.7131901
+          }
+        },
+        "location": {
+          "lat": 44.0894847,
+          "lng": 143.7599839
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1443829,
+            "lng": 143.797039
+          },
+          "southwest": {
+            "lat": 44.008709,
+            "lng": 143.7131901
+          }
+        }
+      },
+      "place_id": "ChIJO0ym0PG6El8RXdDhcJUnL0Y",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "佐呂間町",
+          "short_name": "佐呂間町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡佐呂間町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1443829,
+            "lng": 143.966704
+          },
+          "southwest": {
+            "lat": 43.87456,
+            "lng": 143.570998
+          }
+        },
+        "location": {
+          "lat": 44.017912,
+          "lng": 143.7747588
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1443829,
+            "lng": 143.966704
+          },
+          "southwest": {
+            "lat": 43.87456,
+            "lng": 143.570998
+          }
+        }
+      },
+      "place_id": "ChIJCTQ90zOuEl8RnjmVgOhGcy0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂郡",
+          "short_name": "常呂郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道常呂郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1443832,
+            "lng": 143.9667034
+          },
+          "southwest": {
+            "lat": 43.50814219999999,
+            "lng": 143.1729641
+          }
+        },
+        "location": {
+          "lat": 44.0361705,
+          "lng": 143.8286723
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1443832,
+            "lng": 143.9667034
+          },
+          "southwest": {
+            "lat": 43.50814219999999,
+            "lng": 143.1729641
+          }
+        }
+      },
+      "place_id": "ChIJaQZwiDdTDV8Rbh8LMiglDqE",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

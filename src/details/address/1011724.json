@@ -1,0 +1,567 @@
+{
+  "station": "中能取",
+  "lat": 44.071183,
+  "lng": 144.108831,
+  "plus_code": {
+    "compound_code": "34C5+FG 日本、北海道網走市",
+    "global_code": "8RP634C5+FG"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "中能取",
+          "short_name": "中能取",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "字能取",
+          "short_name": "字能取",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0241",
+          "short_name": "093-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0241 北海道網走市字能取 中能取",
+      "geometry": {
+        "location": {
+          "lat": 44.071195,
+          "lng": 144.108599
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0725439802915,
+            "lng": 144.1099479802915
+          },
+          "southwest": {
+            "lat": 44.0698460197085,
+            "lng": 144.1072500197085
+          }
+        }
+      },
+      "place_id": "ChIJW26KlL7LEl8RyqDWbrnB32Q",
+      "plus_code": {
+        "compound_code": "34C5+FC 日本、北海道網走市",
+        "global_code": "8RP634C5+FC"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４９−８",
+          "short_name": "４９−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字能取",
+          "short_name": "字能取",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0241",
+          "short_name": "093-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0241 北海道網走市字能取４９−８",
+      "geometry": {
+        "location": {
+          "lat": 44.0717234,
+          "lng": 144.107937
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0730723802915,
+            "lng": 144.1092859802915
+          },
+          "southwest": {
+            "lat": 44.0703744197085,
+            "lng": 144.1065880197085
+          }
+        }
+      },
+      "place_id": "ChIJE2Ky6L7LEl8ROorijoQi7MA",
+      "plus_code": {
+        "compound_code": "34C5+M5 日本、北海道網走市",
+        "global_code": "8RP634C5+M5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道239号",
+          "short_name": "国道239号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字能取",
+          "short_name": "字能取",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0241",
+          "short_name": "093-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0241 北海道網走市字能取 国道239号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.0713985,
+            "lng": 144.1086338
+          },
+          "southwest": {
+            "lat": 44.0704414,
+            "lng": 144.1083706
+          }
+        },
+        "location": {
+          "lat": 44.0709233,
+          "lng": 144.1084786
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0722689302915,
+            "lng": 144.1098511802915
+          },
+          "southwest": {
+            "lat": 44.0695709697085,
+            "lng": 144.1071532197085
+          }
+        }
+      },
+      "place_id": "ChIJm5b0vb7LEl8RUBBE-R_txWo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字能取",
+          "short_name": "字能取",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0241",
+          "short_name": "093-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0241 北海道網走市字能取",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.116096,
+            "lng": 144.187602
+          },
+          "southwest": {
+            "lat": 44.054393,
+            "lng": 144.0573011
+          }
+        },
+        "location": {
+          "lat": 44.09217899999999,
+          "lng": 144.1166952
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.116096,
+            "lng": 144.187602
+          },
+          "southwest": {
+            "lat": 44.054393,
+            "lng": 144.0573011
+          }
+        }
+      },
+      "place_id": "ChIJy7FWEvTLEl8RUUd4iPJrMIE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "093-0241",
+          "short_name": "093-0241",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字能取",
+          "short_name": "字能取",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒093-0241",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1160964,
+            "lng": 144.187602
+          },
+          "southwest": {
+            "lat": 44.0542859,
+            "lng": 144.0573014
+          }
+        },
+        "location": {
+          "lat": 44.0867128,
+          "lng": 144.1113872
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1160964,
+            "lng": 144.187602
+          },
+          "southwest": {
+            "lat": 44.0542859,
+            "lng": 144.0573014
+          }
+        }
+      },
+      "place_id": "ChIJV1UIXgfMEl8RTzqTzJ0ZGIE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "網走市",
+          "short_name": "網走市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道網走市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.115723,
+            "lng": 144.433428
+          },
+          "southwest": {
+            "lat": 43.776488,
+            "lng": 144.0195059
+          }
+        },
+        "location": {
+          "lat": 44.0206059,
+          "lng": 144.2734837
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.115723,
+            "lng": 144.433428
+          },
+          "southwest": {
+            "lat": 43.776488,
+            "lng": 144.0195059
+          }
+        }
+      },
+      "place_id": "ChIJ8xP4PUE2bV8RnzJvgDoJv6U",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

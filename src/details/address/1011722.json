@@ -1,0 +1,591 @@
+{
+  "station": "常呂港",
+  "lat": 44.121106,
+  "lng": 144.104608,
+  "plus_code": {
+    "compound_code": "44C3+CR 日本、北海道北見市常呂町",
+    "global_code": "8RP644C3+CR"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "８−２２",
+          "short_name": "８−２２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "東浜",
+          "short_name": "東浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0202",
+          "short_name": "093-0202",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0202 北海道北見市常呂町東浜８−２２",
+      "geometry": {
+        "location": {
+          "lat": 44.121689,
+          "lng": 144.1050706
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.12303798029149,
+            "lng": 144.1064195802915
+          },
+          "southwest": {
+            "lat": 44.1203400197085,
+            "lng": 144.1037216197085
+          }
+        }
+      },
+      "place_id": "ChIJj9FGPcTOEl8RP_w4XiKWixk",
+      "plus_code": {
+        "compound_code": "44C4+M2 日本、北海道北見市常呂町",
+        "global_code": "8RP644C4+M2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂港線",
+          "short_name": "道道409号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "東浜",
+          "short_name": "東浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0202",
+          "short_name": "093-0202",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0202 北海道北見市常呂町東浜 道道409号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1211558,
+            "lng": 144.1044096
+          },
+          "southwest": {
+            "lat": 44.1211334,
+            "lng": 144.1043838
+          }
+        },
+        "location": {
+          "lat": 44.1211446,
+          "lng": 144.1043967
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1224935802915,
+            "lng": 144.1057456802915
+          },
+          "southwest": {
+            "lat": 44.1197956197085,
+            "lng": 144.1030477197085
+          }
+        }
+      },
+      "place_id": "ChIJY6Bt1cXOEl8RvEuXqKT29ug",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東浜",
+          "short_name": "東浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "093-0202",
+          "short_name": "093-0202",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒093-0202 北海道北見市常呂町東浜",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.125766,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 44.108785,
+            "lng": 144.073219
+          }
+        },
+        "location": {
+          "lat": 44.117361,
+          "lng": 144.0950772
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.125766,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 44.108785,
+            "lng": 144.073219
+          }
+        }
+      },
+      "place_id": "ChIJZQbiPsnOEl8Rdaxgi3DquHA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "093-0202",
+          "short_name": "093-0202",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "東浜",
+          "short_name": "東浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒093-0202",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1257664,
+            "lng": 144.1224538
+          },
+          "southwest": {
+            "lat": 44.108785,
+            "lng": 144.0732185
+          }
+        },
+        "location": {
+          "lat": 44.117361,
+          "lng": 144.0950772
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1257664,
+            "lng": 144.1224538
+          },
+          "southwest": {
+            "lat": 44.108785,
+            "lng": 144.0732185
+          }
+        }
+      },
+      "place_id": "ChIJ4QRLfNrOEl8RukWrckXYfbg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市常呂町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        },
+        "location": {
+          "lat": 44.0850156,
+          "lng": 144.0202206
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        }
+      },
+      "place_id": "ChIJdaUD2S3JEl8R5PqOKRqgNH0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        },
+        "location": {
+          "lat": 43.8039761,
+          "lng": 143.8957837
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        }
+      },
+      "place_id": "ChIJJyl2-6JVDV8RNT7L_Uif_sg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

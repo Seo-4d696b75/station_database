@@ -1,0 +1,482 @@
+{
+  "station": "北見富丘",
+  "lat": 44.088333,
+  "lng": 143.981389,
+  "plus_code": {
+    "compound_code": "3XQJ+8H 日本、北海道北見市常呂町",
+    "global_code": "8RP53XQJ+8H"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 常呂町 北見市 北海道 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.0900275,
+            "lng": 143.9840206
+          },
+          "southwest": {
+            "lat": 44.0879848,
+            "lng": 143.981054
+          }
+        },
+        "location": {
+          "lat": 44.0892107,
+          "lng": 143.9821391
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0903551302915,
+            "lng": 143.9840206
+          },
+          "southwest": {
+            "lat": 44.08765716970851,
+            "lng": 143.981054
+          }
+        }
+      },
+      "place_id": "ChIJ3dMxUNTJEl8RPvMbC3CmO6g",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "093-0332",
+          "short_name": "093-0332",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "富丘",
+          "short_name": "富丘",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒093-0332",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.09425239999999,
+            "lng": 144.0294074
+          },
+          "southwest": {
+            "lat": 44.0430074,
+            "lng": 143.9533364
+          }
+        },
+        "location": {
+          "lat": 44.0648174,
+          "lng": 143.9933483
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.09425239999999,
+            "lng": 144.0294074
+          },
+          "southwest": {
+            "lat": 44.0430074,
+            "lng": 143.9533364
+          }
+        }
+      },
+      "place_id": "ChIJQwop-xu2El8RQ9F2mA5cztE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富丘",
+          "short_name": "富丘",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市常呂町富丘",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.0950159,
+            "lng": 144.029407
+          },
+          "southwest": {
+            "lat": 44.04380800000001,
+            "lng": 143.9527708
+          }
+        },
+        "location": {
+          "lat": 44.0648174,
+          "lng": 143.9933483
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0950159,
+            "lng": 144.029407
+          },
+          "southwest": {
+            "lat": 44.04380800000001,
+            "lng": 143.9527708
+          }
+        }
+      },
+      "place_id": "ChIJPYMFMBq2El8RTw_XpbUPUmU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "常呂町",
+          "short_name": "常呂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市常呂町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        },
+        "location": {
+          "lat": 44.0850156,
+          "lng": 144.0202206
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1878159,
+            "lng": 144.1224541
+          },
+          "southwest": {
+            "lat": 43.9300669,
+            "lng": 143.775556
+          }
+        }
+      },
+      "place_id": "ChIJdaUD2S3JEl8R5PqOKRqgNH0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北見市",
+          "short_name": "北見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道北見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        },
+        "location": {
+          "lat": 43.8039761,
+          "lng": 143.8957837
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.187096,
+            "lng": 144.1223299
+          },
+          "southwest": {
+            "lat": 43.591545,
+            "lng": 143.135605
+          }
+        }
+      },
+      "place_id": "ChIJJyl2-6JVDV8RNT7L_Uif_sg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
