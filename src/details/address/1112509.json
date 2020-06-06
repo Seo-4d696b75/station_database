@@ -1,0 +1,834 @@
+{
+  "station": "幾春別",
+  "lat": 43.260694,
+  "lng": 141.957083,
+  "plus_code": {
+    "compound_code": "7X64+7R 日本、北海道三笠市",
+    "global_code": "8RM37X64+7R"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2116",
+          "short_name": "068-2116",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2116 北海道三笠市幾春別町１丁目 幾春別町",
+      "geometry": {
+        "location": {
+          "lat": 43.2607444,
+          "lng": 141.9572318
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2620933802915,
+            "lng": 141.9585807802915
+          },
+          "southwest": {
+            "lat": 43.2593954197085,
+            "lng": 141.9558828197085
+          }
+        }
+      },
+      "place_id": "ChIJKRgQD0xSC18REM-f0tcexUc",
+      "plus_code": {
+        "compound_code": "7X64+7V 日本、北海道三笠市",
+        "global_code": "8RM37X64+7V"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３１９−８",
+          "short_name": "３１９−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "幾春別滝見町",
+          "short_name": "幾春別滝見町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2115",
+          "short_name": "068-2115",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2115 北海道三笠市幾春別滝見町３１９−８",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.260619,
+            "lng": 141.9568693
+          },
+          "southwest": {
+            "lat": 43.2605173,
+            "lng": 141.9566787
+          }
+        },
+        "location": {
+          "lat": 43.260585,
+          "lng": 141.956778
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.26191713029149,
+            "lng": 141.9581229802915
+          },
+          "southwest": {
+            "lat": 43.2592191697085,
+            "lng": 141.9554250197085
+          }
+        }
+      },
+      "place_id": "ChIJP1pjBExSC18RsH36z45vwQE",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３１９−８",
+          "short_name": "３１９−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "幾春別滝見町",
+          "short_name": "幾春別滝見町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2115",
+          "short_name": "068-2115",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2115 北海道三笠市幾春別滝見町３１９−８",
+      "geometry": {
+        "location": {
+          "lat": 43.2605736,
+          "lng": 141.9567735
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2619225802915,
+            "lng": 141.9581224802915
+          },
+          "southwest": {
+            "lat": 43.2592246197085,
+            "lng": 141.9554245197085
+          }
+        }
+      },
+      "place_id": "ChIJoxplBExSC18R8Eia9xRf0Nc",
+      "plus_code": {
+        "compound_code": "7X64+6P 日本、北海道三笠市",
+        "global_code": "8RM37X64+6P"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "police"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３１３",
+          "short_name": "３１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2116",
+          "short_name": "068-2116",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2116 北海道三笠市幾春別町１丁目３１３",
+      "geometry": {
+        "location": {
+          "lat": 43.2609408,
+          "lng": 141.9569933
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2622897802915,
+            "lng": 141.9583422802915
+          },
+          "southwest": {
+            "lat": 43.2595918197085,
+            "lng": 141.9556443197085
+          }
+        }
+      },
+      "place_id": "ChIJLxBVCExSC18RKWBQo2N1z1k",
+      "plus_code": {
+        "compound_code": "7X64+9Q 日本、北海道三笠市",
+        "global_code": "8RM37X64+9Q"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岩見沢三笠線",
+          "short_name": "道道116号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2116",
+          "short_name": "068-2116",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2116 北海道三笠市幾春別町１丁目 道道116号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2611243,
+            "lng": 141.9575219
+          },
+          "southwest": {
+            "lat": 43.2609898,
+            "lng": 141.9567843
+          }
+        },
+        "location": {
+          "lat": 43.2610571,
+          "lng": 141.9571531
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2624060302915,
+            "lng": 141.9585020802915
+          },
+          "southwest": {
+            "lat": 43.2597080697085,
+            "lng": 141.9558041197085
+          }
+        }
+      },
+      "place_id": "ChIJEaojCkxSC18RAIlhmW4gIS8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2116",
+          "short_name": "068-2116",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2116 北海道三笠市幾春別町１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2620049,
+            "lng": 141.9591299
+          },
+          "southwest": {
+            "lat": 43.2603189,
+            "lng": 141.9540429
+          }
+        },
+        "location": {
+          "lat": 43.2614288,
+          "lng": 141.9553427
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2625108802915,
+            "lng": 141.9591299
+          },
+          "southwest": {
+            "lat": 43.2598129197085,
+            "lng": 141.9540429
+          }
+        }
+      },
+      "place_id": "ChIJ6etB90tSC18R0kXo8kWarZ8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-2116",
+          "short_name": "068-2116",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-2116",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2641672,
+            "lng": 141.9597554
+          },
+          "southwest": {
+            "lat": 43.2603186,
+            "lng": 141.9526139
+          }
+        },
+        "location": {
+          "lat": 43.261953,
+          "lng": 141.9575188
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2641672,
+            "lng": 141.9597554
+          },
+          "southwest": {
+            "lat": 43.2603186,
+            "lng": 141.9526139
+          }
+        }
+      },
+      "place_id": "ChIJYRN4hEtSC18RxXJSm6cgTjM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "幾春別町",
+          "short_name": "幾春別町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道三笠市幾春別町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.263941,
+            "lng": 141.9598299
+          },
+          "southwest": {
+            "lat": 43.2603189,
+            "lng": 141.9525661
+          }
+        },
+        "location": {
+          "lat": 43.261953,
+          "lng": 141.9575188
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.263941,
+            "lng": 141.9598299
+          },
+          "southwest": {
+            "lat": 43.2603189,
+            "lng": 141.9525661
+          }
+        }
+      },
+      "place_id": "ChIJUUvov0tSC18Rr2qtb0AX_Xc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道三笠市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        },
+        "location": {
+          "lat": 43.2456519,
+          "lng": 141.8752815
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        }
+      },
+      "place_id": "ChIJvQBuJP5SC18RqEU_C5WLjLg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

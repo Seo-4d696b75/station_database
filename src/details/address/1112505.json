@@ -1,0 +1,560 @@
+{
+  "station": "幌内住吉",
+  "lat": 43.231944,
+  "lng": 141.887028,
+  "plus_code": {
+    "compound_code": "6VJP+QR 日本、北海道三笠市",
+    "global_code": "8RM36VJP+QR"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１１−１",
+          "short_name": "１１−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "幌内住吉町",
+          "short_name": "幌内住吉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2142",
+          "short_name": "068-2142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2142 北海道三笠市幌内住吉町１１−１",
+      "geometry": {
+        "location": {
+          "lat": 43.231814,
+          "lng": 141.8873928
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2331629802915,
+            "lng": 141.8887417802915
+          },
+          "southwest": {
+            "lat": 43.2304650197085,
+            "lng": 141.8860438197085
+          }
+        }
+      },
+      "place_id": "ChIJde08ZbxNC18R2T4TVBw47_g",
+      "plus_code": {
+        "compound_code": "6VJP+PX 日本、北海道三笠市",
+        "global_code": "8RM36VJP+PX"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１１",
+          "short_name": "１１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "幌内住吉町",
+          "short_name": "幌内住吉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2142",
+          "short_name": "068-2142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2142 北海道三笠市幌内住吉町１１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2317985,
+            "lng": 141.8874748
+          },
+          "southwest": {
+            "lat": 43.23174729999999,
+            "lng": 141.8873986
+          }
+        },
+        "location": {
+          "lat": 43.2317708,
+          "lng": 141.8874313
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2331218802915,
+            "lng": 141.8887856802915
+          },
+          "southwest": {
+            "lat": 43.2304239197085,
+            "lng": 141.8860877197085
+          }
+        }
+      },
+      "place_id": "ChIJ3x_ZZLxNC18RcfikrZGR7J4",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道道1129号",
+          "short_name": "道道1129号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "幌内住吉町",
+          "short_name": "幌内住吉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2142",
+          "short_name": "068-2142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2142 北海道三笠市幌内住吉町 道道1129号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2323081,
+            "lng": 141.8872633
+          },
+          "southwest": {
+            "lat": 43.231773,
+            "lng": 141.8868381
+          }
+        },
+        "location": {
+          "lat": 43.23204,
+          "lng": 141.8870494
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2333895302915,
+            "lng": 141.8883996802915
+          },
+          "southwest": {
+            "lat": 43.2306915697085,
+            "lng": 141.8857017197085
+          }
+        }
+      },
+      "place_id": "ChIJNYEVbrxNC18R5lvb1WIqRTQ",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-2142",
+          "short_name": "068-2142",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "幌内住吉町",
+          "short_name": "幌内住吉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-2142",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.239287,
+            "lng": 141.8919619
+          },
+          "southwest": {
+            "lat": 43.2309163,
+            "lng": 141.8826516
+          }
+        },
+        "location": {
+          "lat": 43.2353252,
+          "lng": 141.8877513
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.239287,
+            "lng": 141.8919619
+          },
+          "southwest": {
+            "lat": 43.2309163,
+            "lng": 141.8826516
+          }
+        }
+      },
+      "place_id": "ChIJuWlWZL5NC18R5sa9_GxsTF4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "幌内住吉町",
+          "short_name": "幌内住吉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道三笠市幌内住吉町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.239287,
+            "lng": 141.8929339
+          },
+          "southwest": {
+            "lat": 43.2309159,
+            "lng": 141.8826521
+          }
+        },
+        "location": {
+          "lat": 43.2353252,
+          "lng": 141.8877513
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.239287,
+            "lng": 141.8929339
+          },
+          "southwest": {
+            "lat": 43.2309159,
+            "lng": 141.8826521
+          }
+        }
+      },
+      "place_id": "ChIJqSJ3bL5NC18RF5PR5ZgrDMg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道三笠市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        },
+        "location": {
+          "lat": 43.2456519,
+          "lng": 141.8752815
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        }
+      },
+      "place_id": "ChIJvQBuJP5SC18RqEU_C5WLjLg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

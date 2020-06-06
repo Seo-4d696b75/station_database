@@ -1,0 +1,771 @@
+{
+  "station": "唐松",
+  "lat": 43.25375,
+  "lng": 141.920583,
+  "plus_code": {
+    "compound_code": "7W3C+F6 日本、北海道三笠市",
+    "global_code": "8RM37W3C+F6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "３８８",
+          "short_name": "３８８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町１丁目３８８",
+      "geometry": {
+        "location": {
+          "lat": 43.2537785,
+          "lng": 141.9205866
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2551274802915,
+            "lng": 141.9219355802915
+          },
+          "southwest": {
+            "lat": 43.2524295197085,
+            "lng": 141.9192376197085
+          }
+        }
+      },
+      "place_id": "ChIJFQPhkxJSC18R2_c92r5eVm0",
+      "plus_code": {
+        "compound_code": "7W3C+G6 日本、北海道三笠市",
+        "global_code": "8RM37W3C+G6"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３８８−２",
+          "short_name": "３８８−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町１丁目３８８−２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2538229,
+            "lng": 141.9207556
+          },
+          "southwest": {
+            "lat": 43.2537029,
+            "lng": 141.9204182
+          }
+        },
+        "location": {
+          "lat": 43.2537763,
+          "lng": 141.9206047
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2551118802915,
+            "lng": 141.9219358802915
+          },
+          "southwest": {
+            "lat": 43.2524139197085,
+            "lng": 141.9192379197085
+          }
+        }
+      },
+      "place_id": "ChIJj3JckRJSC18RUWPBe0LlYUs",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "唐松１丁目",
+          "short_name": "唐松１丁目",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町１丁目 唐松１丁目",
+      "geometry": {
+        "location": {
+          "lat": 43.2535136,
+          "lng": 141.9206381
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.25486258029149,
+            "lng": 141.9219870802915
+          },
+          "southwest": {
+            "lat": 43.2521646197085,
+            "lng": 141.9192891197085
+          }
+        }
+      },
+      "place_id": "ChIJ63mxlxJSC18RSZCfL7Bifws",
+      "plus_code": {
+        "compound_code": "7W3C+C7 日本、北海道三笠市",
+        "global_code": "8RM37W3C+C7"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岩見沢桂沢線",
+          "short_name": "道道917号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町１丁目 道道917号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2535512,
+            "lng": 141.9205135
+          },
+          "southwest": {
+            "lat": 43.2535386,
+            "lng": 141.9202906
+          }
+        },
+        "location": {
+          "lat": 43.2535434,
+          "lng": 141.9204019
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2548938802915,
+            "lng": 141.9217510302915
+          },
+          "southwest": {
+            "lat": 43.2521959197085,
+            "lng": 141.9190530697085
+          }
+        }
+      },
+      "place_id": "ChIJ49JnlxJSC18RVpL6OCIkN-I",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.255171,
+            "lng": 141.9267568
+          },
+          "southwest": {
+            "lat": 43.25262000000001,
+            "lng": 141.9156021
+          }
+        },
+        "location": {
+          "lat": 43.2535601,
+          "lng": 141.9227065
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2552444802915,
+            "lng": 141.9267568
+          },
+          "southwest": {
+            "lat": 43.2525465197085,
+            "lng": 141.9156021
+          }
+        }
+      },
+      "place_id": "ChIJK9g_6xJSC18Rx-EbIRcSlyI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-2135 北海道三笠市唐松町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.255171,
+            "lng": 141.9267568
+          },
+          "southwest": {
+            "lat": 43.251952,
+            "lng": 141.913602
+          }
+        },
+        "location": {
+          "lat": 43.2540962,
+          "lng": 141.9194616
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.255171,
+            "lng": 141.9267568
+          },
+          "southwest": {
+            "lat": 43.251952,
+            "lng": 141.913602
+          }
+        }
+      },
+      "place_id": "ChIJfW4RmhJSC18REYjrrE99gsc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-2135",
+          "short_name": "068-2135",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "唐松町",
+          "short_name": "唐松町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-2135",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2553905,
+            "lng": 141.9267731
+          },
+          "southwest": {
+            "lat": 43.251952,
+            "lng": 141.913602
+          }
+        },
+        "location": {
+          "lat": 43.2540115,
+          "lng": 141.9171981
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2553905,
+            "lng": 141.9267731
+          },
+          "southwest": {
+            "lat": 43.251952,
+            "lng": 141.913602
+          }
+        }
+      },
+      "place_id": "ChIJDzkcUwxSC18RfaoLGOdkoLE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "三笠市",
+          "short_name": "三笠市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道三笠市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        },
+        "location": {
+          "lat": 43.2456519,
+          "lng": 141.8752815
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3588179,
+            "lng": 142.1614841
+          },
+          "southwest": {
+            "lat": 43.142917,
+            "lng": 141.7985798
+          }
+        }
+      },
+      "place_id": "ChIJvQBuJP5SC18RqEU_C5WLjLg",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
