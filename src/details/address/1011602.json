@@ -1,0 +1,643 @@
+{
+  "station": "上志文",
+  "lat": 43.162472,
+  "lng": 141.811028,
+  "plus_code": {
+    "compound_code": "5R66+XC 日本、北海道岩見沢市",
+    "global_code": "8RM35R66+XC"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１３５２−１４",
+          "short_name": "１３５２−１４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0836 北海道岩見沢市上志文町１３５２−１４",
+      "geometry": {
+        "location": {
+          "lat": 43.1624798,
+          "lng": 141.8110391
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1638287802915,
+            "lng": 141.8123880802915
+          },
+          "southwest": {
+            "lat": 43.1611308197085,
+            "lng": 141.8096901197085
+          }
+        }
+      },
+      "place_id": "ChIJq6p-TN9KC18R4xaq2M3_Cz0",
+      "plus_code": {
+        "compound_code": "5R66+XC 日本、北海道岩見沢市",
+        "global_code": "8RM35R66+XC"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１３５２−１",
+          "short_name": "１３５２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0836 北海道岩見沢市上志文町１３５２−１",
+      "geometry": {
+        "location": {
+          "lat": 43.1624782,
+          "lng": 141.8110316
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1638271802915,
+            "lng": 141.8123805802915
+          },
+          "southwest": {
+            "lat": 43.1611292197085,
+            "lng": 141.8096826197085
+          }
+        }
+      },
+      "place_id": "ChIJdTZ5TN9KC18Ri02XJUrl_60",
+      "plus_code": {
+        "compound_code": "5R66+XC 日本、北海道岩見沢市",
+        "global_code": "8RM35R66+XC"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上志文中央",
+          "short_name": "上志文中央",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0836 北海道岩見沢市上志文町 上志文中央",
+      "geometry": {
+        "location": {
+          "lat": 43.1618635,
+          "lng": 141.8106167
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.16321248029149,
+            "lng": 141.8119656802915
+          },
+          "southwest": {
+            "lat": 43.1605145197085,
+            "lng": 141.8092677197085
+          }
+        }
+      },
+      "place_id": "ChIJ3e49zNhKC18R28GnvxD9brI",
+      "plus_code": {
+        "compound_code": "5R66+P6 日本、北海道岩見沢市",
+        "global_code": "8RM35R66+P6"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "三笠栗山線",
+          "short_name": "道道30号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0836 北海道岩見沢市上志文町 道道30号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1623281,
+            "lng": 141.8114614
+          },
+          "southwest": {
+            "lat": 43.1621617,
+            "lng": 141.8111516
+          }
+        },
+        "location": {
+          "lat": 43.1622449,
+          "lng": 141.8113065
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1635938802915,
+            "lng": 141.8126554802915
+          },
+          "southwest": {
+            "lat": 43.1608959197085,
+            "lng": 141.8099575197085
+          }
+        }
+      },
+      "place_id": "ChIJG7lmtNhKC18RrqogIQAAcFY",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0836 北海道岩見沢市上志文町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.189794,
+            "lng": 141.8694991
+          },
+          "southwest": {
+            "lat": 43.148967,
+            "lng": 141.7822929
+          }
+        },
+        "location": {
+          "lat": 43.1697763,
+          "lng": 141.8301015
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.189794,
+            "lng": 141.8694991
+          },
+          "southwest": {
+            "lat": 43.148967,
+            "lng": 141.7822929
+          }
+        }
+      },
+      "place_id": "ChIJT_QQwDxLC18RdM_4g_ft-c0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-0836",
+          "short_name": "068-0836",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上志文町",
+          "short_name": "上志文町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-0836",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1885383,
+            "lng": 141.8694991
+          },
+          "southwest": {
+            "lat": 43.1489673,
+            "lng": 141.7809066
+          }
+        },
+        "location": {
+          "lat": 43.1697763,
+          "lng": 141.8301015
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1885383,
+            "lng": 141.8694991
+          },
+          "southwest": {
+            "lat": 43.1489673,
+            "lng": 141.7809066
+          }
+        }
+      },
+      "place_id": "ChIJedAuNCJLC18Rss2ICNkxhCA",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道岩見沢市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3376721,
+            "lng": 142.043792
+          },
+          "southwest": {
+            "lat": 43.07533900000001,
+            "lng": 141.610232
+          }
+        },
+        "location": {
+          "lat": 43.1753202,
+          "lng": 141.8309669
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3376721,
+            "lng": 142.043792
+          },
+          "southwest": {
+            "lat": 43.07533900000001,
+            "lng": 141.610232
+          }
+        }
+      },
+      "place_id": "ChIJNTQoFndMC18R_jF13XO3p0Q",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

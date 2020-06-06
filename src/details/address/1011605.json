@@ -1,0 +1,541 @@
+{
+  "station": "万字",
+  "lat": 43.14625,
+  "lng": 141.98225,
+  "plus_code": {
+    "compound_code": "4XWJ+GW 日本、北海道岩見沢市",
+    "global_code": "8RM34XWJ+GW"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１２９−３",
+          "short_name": "１２９−３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "栗沢町万字仲町",
+          "short_name": "栗沢町万字仲町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-3153",
+          "short_name": "068-3153",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-3153 北海道岩見沢市栗沢町万字仲町１２９−３",
+      "geometry": {
+        "location": {
+          "lat": 43.146289,
+          "lng": 141.9823349
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.14763798029149,
+            "lng": 141.9836838802915
+          },
+          "southwest": {
+            "lat": 43.1449400197085,
+            "lng": 141.9809859197085
+          }
+        }
+      },
+      "place_id": "ChIJedkC_8uzdF8RKnVwK9mJI2E",
+      "plus_code": {
+        "compound_code": "4XWJ+GW 日本、北海道岩見沢市",
+        "global_code": "8RM34XWJ+GW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１２９−３",
+          "short_name": "１２９−３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "栗沢町万字仲町",
+          "short_name": "栗沢町万字仲町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-3153",
+          "short_name": "068-3153",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-3153 北海道岩見沢市栗沢町万字仲町１２９−３",
+      "geometry": {
+        "location": {
+          "lat": 43.146289,
+          "lng": 141.9823349
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.14763798029149,
+            "lng": 141.9836838802915
+          },
+          "southwest": {
+            "lat": 43.1449400197085,
+            "lng": 141.9809859197085
+          }
+        }
+      },
+      "place_id": "ChIJS8Zp_MuzdF8RWQXNn_2B9Z4",
+      "plus_code": {
+        "compound_code": "4XWJ+GW 日本、北海道岩見沢市",
+        "global_code": "8RM34XWJ+GW"
+      },
+      "types": [
+        "establishment",
+        "finance",
+        "point_of_interest",
+        "post_office"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 岩見沢市 北海道 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1469436,
+            "lng": 141.9832516
+          },
+          "southwest": {
+            "lat": 43.14667230000001,
+            "lng": 141.9826628
+          }
+        },
+        "location": {
+          "lat": 43.146808,
+          "lng": 141.9829572
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1481569302915,
+            "lng": 141.9843061802915
+          },
+          "southwest": {
+            "lat": 43.1454589697085,
+            "lng": 141.9816082197085
+          }
+        }
+      },
+      "place_id": "ChIJy3ZX8suzdF8RBNlklA0dBNA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栗沢町万字仲町",
+          "short_name": "栗沢町万字仲町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道岩見沢市栗沢町万字仲町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.14717599999999,
+            "lng": 141.9867591
+          },
+          "southwest": {
+            "lat": 43.141295,
+            "lng": 141.9779299
+          }
+        },
+        "location": {
+          "lat": 43.14460649999999,
+          "lng": 141.9834081
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.14717599999999,
+            "lng": 141.9867591
+          },
+          "southwest": {
+            "lat": 43.141295,
+            "lng": 141.9779299
+          }
+        }
+      },
+      "place_id": "ChIJiU6njc6zdF8RrI6u9PXFYps",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-3153",
+          "short_name": "068-3153",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "栗沢町万字仲町",
+          "short_name": "栗沢町万字仲町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-3153",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1471759,
+            "lng": 141.9876671
+          },
+          "southwest": {
+            "lat": 43.1412646,
+            "lng": 141.9779302
+          }
+        },
+        "location": {
+          "lat": 43.14460649999999,
+          "lng": 141.9834081
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1471759,
+            "lng": 141.9876671
+          },
+          "southwest": {
+            "lat": 43.1412646,
+            "lng": 141.9779302
+          }
+        }
+      },
+      "place_id": "ChIJnaQS98uzdF8RKkpsN7XXziQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岩見沢市",
+          "short_name": "岩見沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道岩見沢市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3376721,
+            "lng": 142.043792
+          },
+          "southwest": {
+            "lat": 43.07533900000001,
+            "lng": 141.610232
+          }
+        },
+        "location": {
+          "lat": 43.1753202,
+          "lng": 141.8309669
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3376721,
+            "lng": 142.043792
+          },
+          "southwest": {
+            "lat": 43.07533900000001,
+            "lng": 141.610232
+          }
+        }
+      },
+      "place_id": "ChIJNTQoFndMC18R_jF13XO3p0Q",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
