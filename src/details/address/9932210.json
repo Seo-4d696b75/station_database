@@ -1,0 +1,567 @@
+{
+  "station": "八木蒔",
+  "lat": 36.130528,
+  "lng": 140.393333,
+  "plus_code": {
+    "compound_code": "49JV+68 日本、茨城県行方市",
+    "global_code": "8R8249JV+68"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "４９７",
+          "short_name": "４９７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "八木蒔",
+          "short_name": "八木蒔",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-3506",
+          "short_name": "311-3506",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-3506 茨城県行方市八木蒔４９７",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.1304747,
+            "lng": 140.3927495
+          },
+          "southwest": {
+            "lat": 36.1302733,
+            "lng": 140.3925414
+          }
+        },
+        "location": {
+          "lat": 36.1303768,
+          "lng": 140.3926532
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1317229802915,
+            "lng": 140.3939944302915
+          },
+          "southwest": {
+            "lat": 36.1290250197085,
+            "lng": 140.3912964697085
+          }
+        }
+      },
+      "place_id": "ChIJB-je_PZAImARlzvc83vjBFk",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５０１",
+          "short_name": "５０１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "八木蒔",
+          "short_name": "八木蒔",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-3506",
+          "short_name": "311-3506",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-3506 茨城県行方市八木蒔５０１",
+      "geometry": {
+        "location": {
+          "lat": 36.1298656,
+          "lng": 140.3931028
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1312145802915,
+            "lng": 140.3944517802915
+          },
+          "southwest": {
+            "lat": 36.1285166197085,
+            "lng": 140.3917538197085
+          }
+        }
+      },
+      "place_id": "ChIJJWBUGfdAImARs-oDOamDG_A",
+      "plus_code": {
+        "compound_code": "49HV+W6 日本、茨城県行方市",
+        "global_code": "8R8249HV+W6"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "八木蒔",
+          "short_name": "八木蒔",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-3506",
+          "short_name": "311-3506",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 八木蒔 行方市 茨城県 311-3506 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.1309964,
+            "lng": 140.3935953
+          },
+          "southwest": {
+            "lat": 36.1305306,
+            "lng": 140.3931721
+          }
+        },
+        "location": {
+          "lat": 36.1307822,
+          "lng": 140.3933562
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1321124802915,
+            "lng": 140.3947326802915
+          },
+          "southwest": {
+            "lat": 36.1294145197085,
+            "lng": 140.3920347197085
+          }
+        }
+      },
+      "place_id": "ChIJFfME3vZAImARupYlrGeek2g",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "八木蒔",
+          "short_name": "八木蒔",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-3506",
+          "short_name": "311-3506",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-3506 茨城県行方市八木蒔",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.137623,
+            "lng": 140.4063959
+          },
+          "southwest": {
+            "lat": 36.116993,
+            "lng": 140.366831
+          }
+        },
+        "location": {
+          "lat": 36.13125429999999,
+          "lng": 140.3941239
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.137623,
+            "lng": 140.4063959
+          },
+          "southwest": {
+            "lat": 36.116993,
+            "lng": 140.366831
+          }
+        }
+      },
+      "place_id": "ChIJbQXpsPBAImARe9Knlztb-gY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "311-3506",
+          "short_name": "311-3506",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "八木蒔",
+          "short_name": "八木蒔",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒311-3506",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.1376233,
+            "lng": 140.4063957
+          },
+          "southwest": {
+            "lat": 36.1169933,
+            "lng": 140.3668314
+          }
+        },
+        "location": {
+          "lat": 36.1279494,
+          "lng": 140.3869036
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1376233,
+            "lng": 140.4063957
+          },
+          "southwest": {
+            "lat": 36.1169933,
+            "lng": 140.3668314
+          }
+        }
+      },
+      "place_id": "ChIJ0XhFtPdAImARHdGKGZQ5S50",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "行方市",
+          "short_name": "行方市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県行方市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.1664031,
+            "lng": 140.5733081
+          },
+          "southwest": {
+            "lat": 35.970003,
+            "lng": 140.3613351
+          }
+        },
+        "location": {
+          "lat": 35.9906251,
+          "lng": 140.4889866
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1664031,
+            "lng": 140.5733081
+          },
+          "southwest": {
+            "lat": 35.970003,
+            "lng": 140.3613351
+          }
+        }
+      },
+      "place_id": "ChIJ2YXWbPtEImARmDvAFIge3OA",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        },
+        "location": {
+          "lat": 36.2193571,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        }
+      },
+      "place_id": "ChIJF8In71sYImARgMV4m4P7Spo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
