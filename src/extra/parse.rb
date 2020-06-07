@@ -242,15 +242,21 @@ def parse(template,pref_map)
       lat = (lat1.to_f + lat2.to_f/60 + lat3.to_f/3600).round(6)
       lng = (lng1.to_f + lng2.to_f/60 + lng3.to_f/3600).round(6)
     else
-      puts "Error > unknown coordinate system #{template.to_s}"
-      exit(0)
+      puts "Warning > coordinate value not found #{name}"
     end
   end
   pref = template.get_param('所在地')
   if pref.kind_of?(String) && m = pref.match(/^(.+?[県都府道])/)
     pref = m[1]
-  elsif pref.kind_of?(Array) && pref[0].kind_of?(InternalLink)
-    pref = pref[0].name
+  elsif pref.kind_of?(Array) 
+    if pref[0].kind_of?(InternalLink)
+      pref = pref[0].name
+    elsif pref[0].kind_of?(String)
+      pref = pref[0]
+    else
+      puts "Error > unknown address value at array[0]: #{pref}"
+      exit(0)
+    end
   else
     puts "Error > unknown address format: #{pref}"
     exit(0)
