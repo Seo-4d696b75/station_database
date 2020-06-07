@@ -1,0 +1,903 @@
+{
+  "station": "桜川",
+  "lat": 36.553678,
+  "lng": 140.642564,
+  "plus_code": {
+    "compound_code": "HJ3V+F2 日本、茨城県日立市",
+    "global_code": "8R82HJ3V+F2"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "多賀病院入口",
+          "short_name": "多賀病院入口",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目２ 多賀病院入口",
+      "geometry": {
+        "location": {
+          "lat": 36.5540589,
+          "lng": 140.6429791
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5554078802915,
+            "lng": 140.6443280802915
+          },
+          "southwest": {
+            "lat": 36.5527099197085,
+            "lng": 140.6416301197085
+          }
+        }
+      },
+      "place_id": "ChIJ0TQ1f3yAIWARRyU281pniS8",
+      "plus_code": {
+        "compound_code": "HJ3V+J5 日本、茨城県日立市",
+        "global_code": "8R82HJ3V+J5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目２−１",
+      "geometry": {
+        "location": {
+          "lat": 36.554137,
+          "lng": 140.6428981
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5554859802915,
+            "lng": 140.6442470802915
+          },
+          "southwest": {
+            "lat": 36.5527880197085,
+            "lng": 140.6415491197085
+          }
+        }
+      },
+      "place_id": "ChIJUzj9fnyAIWARslwKbGozA3I",
+      "plus_code": {
+        "compound_code": "HJ3V+M5 日本、茨城県日立市",
+        "global_code": "8R82HJ3V+M5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目２−２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5543936,
+            "lng": 140.6431113
+          },
+          "southwest": {
+            "lat": 36.5542124,
+            "lng": 140.6429461
+          }
+        },
+        "location": {
+          "lat": 36.5543174,
+          "lng": 140.6430456
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.55565198029149,
+            "lng": 140.6443776802915
+          },
+          "southwest": {
+            "lat": 36.55295401970849,
+            "lng": 140.6416797197085
+          }
+        }
+      },
+      "place_id": "ChIJ2WoggHyAIWAR9ply5Bms15M",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道245号",
+          "short_name": "国道245号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目２ 国道245号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.55359130000001,
+            "lng": 140.6426907
+          },
+          "southwest": {
+            "lat": 36.55341750000001,
+            "lng": 140.642559
+          }
+        },
+        "location": {
+          "lat": 36.5535051,
+          "lng": 140.6426236
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5548533802915,
+            "lng": 140.6439738302915
+          },
+          "southwest": {
+            "lat": 36.55215541970851,
+            "lng": 140.6412758697085
+          }
+        }
+      },
+      "place_id": "ChIJC8-vcHyAIWAR1KgEhjQ7mUM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5550658,
+            "lng": 140.6436233
+          },
+          "southwest": {
+            "lat": 36.55289339999999,
+            "lng": 140.6420468
+          }
+        },
+        "location": {
+          "lat": 36.5537589,
+          "lng": 140.6425797
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5553285802915,
+            "lng": 140.6441840302915
+          },
+          "southwest": {
+            "lat": 36.5526306197085,
+            "lng": 140.6414860697085
+          }
+        }
+      },
+      "place_id": "ChIJB7pKeXyAIWARE94hOkmZA-8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.567679,
+            "lng": 140.647833
+          },
+          "southwest": {
+            "lat": 36.552893,
+            "lng": 140.638025
+          }
+        },
+        "location": {
+          "lat": 36.5595958,
+          "lng": 140.6417694
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.567679,
+            "lng": 140.647833
+          },
+          "southwest": {
+            "lat": 36.552893,
+            "lng": 140.638025
+          }
+        }
+      },
+      "place_id": "ChIJ3WbT9WOAIWARl-dgdVHIcYI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒316-0035 茨城県日立市国分町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.571028,
+            "lng": 140.652497
+          },
+          "southwest": {
+            "lat": 36.551343,
+            "lng": 140.638025
+          }
+        },
+        "location": {
+          "lat": 36.5606132,
+          "lng": 140.6443623
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.571028,
+            "lng": 140.652497
+          },
+          "southwest": {
+            "lat": 36.551343,
+            "lng": 140.638025
+          }
+        }
+      },
+      "place_id": "ChIJt5kTN2SAIWARP1fajjS8g0Q",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "316-0035",
+          "short_name": "316-0035",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "国分町",
+          "short_name": "国分町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒316-0035",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5710284,
+            "lng": 140.6524971
+          },
+          "southwest": {
+            "lat": 36.5513427,
+            "lng": 140.6380245
+          }
+        },
+        "location": {
+          "lat": 36.5606132,
+          "lng": 140.6443623
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5710284,
+            "lng": 140.6524971
+          },
+          "southwest": {
+            "lat": 36.5513427,
+            "lng": 140.6380245
+          }
+        }
+      },
+      "place_id": "ChIJ1XefqWeAIWARD_iXZq4zaOQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日立市",
+          "short_name": "日立市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県日立市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7146109,
+            "lng": 140.716653
+          },
+          "southwest": {
+            "lat": 36.480177,
+            "lng": 140.5166879
+          }
+        },
+        "location": {
+          "lat": 36.59912730000001,
+          "lng": 140.6504712
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7146109,
+            "lng": 140.716653
+          },
+          "southwest": {
+            "lat": 36.480177,
+            "lng": 140.5166879
+          }
+        }
+      },
+      "place_id": "ChIJ7SpvDkKBIWARlGDuVCapy1k",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        },
+        "location": {
+          "lat": 36.2193571,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        }
+      },
+      "place_id": "ChIJF8In71sYImARgMV4m4P7Spo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
