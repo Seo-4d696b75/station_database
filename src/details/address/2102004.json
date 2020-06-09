@@ -1,0 +1,641 @@
+{
+  "station": "妻沼",
+  "lat": 36.221611,
+  "lng": 139.380583,
+  "plus_code": {
+    "compound_code": "69CJ+J6 日本、埼玉県熊谷市",
+    "global_code": "8Q8X69CJ+J6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "ニュータウン入口（バス）",
+          "short_name": "ニュータウン入口（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "弥藤吾",
+          "short_name": "弥藤吾",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "360-0203",
+          "short_name": "360-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒360-0203 埼玉県熊谷市弥藤吾 ニュータウン入口（バス）",
+      "geometry": {
+        "location": {
+          "lat": 36.2215903,
+          "lng": 139.3804909
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.22293928029149,
+            "lng": 139.3818398802915
+          },
+          "southwest": {
+            "lat": 36.22024131970849,
+            "lng": 139.3791419197085
+          }
+        }
+      },
+      "place_id": "ChIJtW3MKZwnH2ARI8jJEKyg3ek",
+      "plus_code": {
+        "compound_code": "69CJ+J5 日本、埼玉県熊谷市",
+        "global_code": "8Q8X69CJ+J5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２８１−２",
+          "short_name": "２８１−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "弥藤吾",
+          "short_name": "弥藤吾",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "360-0203",
+          "short_name": "360-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒360-0203 埼玉県熊谷市弥藤吾２８１−２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.221506,
+            "lng": 139.3803008
+          },
+          "southwest": {
+            "lat": 36.2214162,
+            "lng": 139.3802092
+          }
+        },
+        "location": {
+          "lat": 36.2214613,
+          "lng": 139.3802497
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2228100802915,
+            "lng": 139.3816039802915
+          },
+          "southwest": {
+            "lat": 36.2201121197085,
+            "lng": 139.3789060197085
+          }
+        }
+      },
+      "place_id": "ChIJPTjRKJwnH2ARbvrNyqahAps",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２８９",
+          "short_name": "２８９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "弥藤吾",
+          "short_name": "弥藤吾",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "360-0203",
+          "short_name": "360-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒360-0203 埼玉県熊谷市弥藤吾２８９",
+      "geometry": {
+        "location": {
+          "lat": 36.2214554,
+          "lng": 139.3802533
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2228043802915,
+            "lng": 139.3816022802915
+          },
+          "southwest": {
+            "lat": 36.2201064197085,
+            "lng": 139.3789043197085
+          }
+        }
+      },
+      "place_id": "ChIJz2jRKJwnH2ARgfgi2SbxPjM",
+      "plus_code": {
+        "compound_code": "69CJ+H4 日本、埼玉県熊谷市",
+        "global_code": "8Q8X69CJ+H4"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ハナミズキ通り",
+          "short_name": "ハナミズキ通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "妻沼東",
+          "short_name": "妻沼東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "360-0202",
+          "short_name": "360-0202",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒360-0202 埼玉県熊谷市妻沼東 ハナミズキ通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2215689,
+            "lng": 139.381859
+          },
+          "southwest": {
+            "lat": 36.2213446,
+            "lng": 139.3808291
+          }
+        },
+        "location": {
+          "lat": 36.2214619,
+          "lng": 139.3813458
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2228057302915,
+            "lng": 139.3826930302915
+          },
+          "southwest": {
+            "lat": 36.22010776970851,
+            "lng": 139.3799950697085
+          }
+        }
+      },
+      "place_id": "ChIJ5W3Ylp4nH2ARsrlWiD4pEr4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "360-0203",
+          "short_name": "360-0203",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "弥藤吾",
+          "short_name": "弥藤吾",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒360-0203",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2275239,
+            "lng": 139.3849197
+          },
+          "southwest": {
+            "lat": 36.2067492,
+            "lng": 139.3604164
+          }
+        },
+        "location": {
+          "lat": 36.2143664,
+          "lng": 139.3729306
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2275239,
+            "lng": 139.3849197
+          },
+          "southwest": {
+            "lat": 36.2067492,
+            "lng": 139.3604164
+          }
+        }
+      },
+      "place_id": "ChIJXwcGYY4nH2ARS7k1vWnXE0c",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "弥藤吾",
+          "short_name": "弥藤吾",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、埼玉県熊谷市弥藤吾",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.227524,
+            "lng": 139.384881
+          },
+          "southwest": {
+            "lat": 36.206867,
+            "lng": 139.360408
+          }
+        },
+        "location": {
+          "lat": 36.2143664,
+          "lng": 139.3729306
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.227524,
+            "lng": 139.384881
+          },
+          "southwest": {
+            "lat": 36.206867,
+            "lng": 139.360408
+          }
+        }
+      },
+      "place_id": "ChIJ0TatgoMnH2ARm9WjywvjuzY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "熊谷市",
+          "short_name": "熊谷市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、埼玉県熊谷市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.254016,
+            "lng": 139.4467268
+          },
+          "southwest": {
+            "lat": 36.069521,
+            "lng": 139.2898359
+          }
+        },
+        "location": {
+          "lat": 36.1471963,
+          "lng": 139.3889796
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.254016,
+            "lng": 139.4467268
+          },
+          "southwest": {
+            "lat": 36.069521,
+            "lng": 139.2898359
+          }
+        }
+      },
+      "place_id": "ChIJPxlBAyEoH2ARtV_2FkxChk0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "埼玉県",
+          "short_name": "埼玉県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、埼玉県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2834814,
+            "lng": 139.9001282
+          },
+          "southwest": {
+            "lat": 35.7535048,
+            "lng": 138.7113448
+          }
+        },
+        "location": {
+          "lat": 35.9962513,
+          "lng": 139.4466005
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2834814,
+            "lng": 139.9001282
+          },
+          "southwest": {
+            "lat": 35.7535048,
+            "lng": 138.7113448
+          }
+        }
+      },
+      "place_id": "ChIJ6QF7R40qGWARbFKAqmcS2f4",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
