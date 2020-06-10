@@ -1,0 +1,794 @@
+{
+  "station": "月寒",
+  "lat": 43.040611,
+  "lng": 141.403556,
+  "plus_code": {
+    "compound_code": "2CR3+6C 日本、北海道札幌市",
+    "global_code": "8RM32CR3+6C"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "４",
+          "short_name": "４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１０",
+          "short_name": "１０",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "５丁目",
+          "short_name": "５丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "栄通",
+          "short_name": "栄通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "003-0021",
+          "short_name": "003-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒003-0021 北海道札幌市白石区栄通５丁目１０−４",
+      "geometry": {
+        "location": {
+          "lat": 43.0400679,
+          "lng": 141.4035929
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0414168802915,
+            "lng": 141.4049418802915
+          },
+          "southwest": {
+            "lat": 43.0387189197085,
+            "lng": 141.4022439197085
+          }
+        }
+      },
+      "place_id": "ChIJM6JHobErC18Re_LqkQ1TIBU",
+      "plus_code": {
+        "compound_code": "2CR3+2C 日本、北海道札幌市",
+        "global_code": "8RM32CR3+2C"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 白石区 札幌市 北海道 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0410268,
+            "lng": 141.4058984
+          },
+          "southwest": {
+            "lat": 43.03999049999999,
+            "lng": 141.4028968
+          }
+        },
+        "location": {
+          "lat": 43.0404576,
+          "lng": 141.4043739
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0418576302915,
+            "lng": 141.4058984
+          },
+          "southwest": {
+            "lat": 43.0391596697085,
+            "lng": 141.4028968
+          }
+        }
+      },
+      "place_id": "ChIJIVikTLArC18RIpIFZS8bXPY",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４",
+          "short_name": "４",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "栄通",
+          "short_name": "栄通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "003-0021",
+          "short_name": "003-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒003-0021 北海道札幌市白石区栄通４丁目４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.041334,
+            "lng": 141.405122
+          },
+          "southwest": {
+            "lat": 43.039776,
+            "lng": 141.4017
+          }
+        },
+        "location": {
+          "lat": 43.040576,
+          "lng": 141.403145
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0419039802915,
+            "lng": 141.405122
+          },
+          "southwest": {
+            "lat": 43.0392060197085,
+            "lng": 141.4017
+          }
+        }
+      },
+      "place_id": "ChIJvwpPD7ErC18RTkHgkeJbJuY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "栄通",
+          "short_name": "栄通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "003-0021",
+          "short_name": "003-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒003-0021 北海道札幌市白石区栄通４丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.041334,
+            "lng": 141.405122
+          },
+          "southwest": {
+            "lat": 43.039085,
+            "lng": 141.4003829
+          }
+        },
+        "location": {
+          "lat": 43.0402824,
+          "lng": 141.4024077
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0415584802915,
+            "lng": 141.405122
+          },
+          "southwest": {
+            "lat": 43.0388605197085,
+            "lng": 141.4003829
+          }
+        }
+      },
+      "place_id": "ChIJX9ikdLErC18RukPHqUeBB58",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "003-0021",
+          "short_name": "003-0021",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "栄通",
+          "short_name": "栄通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒003-0021",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0442037,
+            "lng": 141.4445515
+          },
+          "southwest": {
+            "lat": 43.0220995,
+            "lng": 141.3926992
+          }
+        },
+        "location": {
+          "lat": 43.0288853,
+          "lng": 141.4305902
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0442037,
+            "lng": 141.4445515
+          },
+          "southwest": {
+            "lat": 43.0220995,
+            "lng": 141.3926992
+          }
+        }
+      },
+      "place_id": "ChIJqwE067ErC18RIqVwOzkFERw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栄通",
+          "short_name": "栄通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "003-0021",
+          "short_name": "003-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒003-0021 北海道札幌市白石区栄通",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0442039,
+            "lng": 141.444569
+          },
+          "southwest": {
+            "lat": 43.022108,
+            "lng": 141.3926991
+          }
+        },
+        "location": {
+          "lat": 43.0288853,
+          "lng": 141.4305902
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0442039,
+            "lng": 141.444569
+          },
+          "southwest": {
+            "lat": 43.022108,
+            "lng": 141.3926991
+          }
+        }
+      },
+      "place_id": "ChIJpe5jigcrC18R9fnAUudUgac",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "白石区",
+          "short_name": "白石区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市白石区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1001181,
+            "lng": 141.4734834
+          },
+          "southwest": {
+            "lat": 43.0221685,
+            "lng": 141.3665909
+          }
+        },
+        "location": {
+          "lat": 43.0623511,
+          "lng": 141.4132777
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1001181,
+            "lng": 141.4734834
+          },
+          "southwest": {
+            "lat": 43.0221685,
+            "lng": 141.3665909
+          }
+        }
+      },
+      "place_id": "ChIJywkCoPErC18Rq88yITxl5z0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        },
+        "location": {
+          "lat": 43.0617713,
+          "lng": 141.3544507
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        }
+      },
+      "place_id": "ChIJMzaXWnXUCl8R1bqHRp1-kzM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
