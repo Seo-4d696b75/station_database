@@ -1,0 +1,780 @@
+{
+  "station": "小金湯",
+  "lat": 42.967361,
+  "lng": 141.218389,
+  "plus_code": {
+    "compound_code": "X689+W9 日本、北海道札幌市",
+    "global_code": "8RJ3X689+W9"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６２９−１７",
+          "short_name": "６２９−１７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒061-2274 北海道札幌市南区小金湯６２９−１７",
+      "geometry": {
+        "location": {
+          "lat": 42.9677289,
+          "lng": 141.2176239
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.96907788029149,
+            "lng": 141.2189728802915
+          },
+          "southwest": {
+            "lat": 42.9663799197085,
+            "lng": 141.2162749197085
+          }
+        }
+      },
+      "place_id": "ChIJq7U6CbrTCl8Rt_jGJKRi1r4",
+      "plus_code": {
+        "compound_code": "X699+32 日本、北海道札幌市",
+        "global_code": "8RJ3X699+32"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小金湯天満宮",
+          "short_name": "小金湯天満宮",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "６２９−１７",
+          "short_name": "６２９−１７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒061-2274 北海道札幌市南区小金湯６２９−１７ 小金湯天満宮",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.9677649,
+            "lng": 141.2176646
+          },
+          "southwest": {
+            "lat": 42.9676929,
+            "lng": 141.2175833
+          }
+        },
+        "location": {
+          "lat": 42.9677421,
+          "lng": 141.2176298
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.96907788029149,
+            "lng": 141.2189729302915
+          },
+          "southwest": {
+            "lat": 42.9663799197085,
+            "lng": 141.2162749697085
+          }
+        }
+      },
+      "place_id": "ChIJXQgpD7rTCl8RzLKt_2sSMy8",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小金湯（バス）",
+          "short_name": "小金湯（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒061-2274 北海道札幌市南区小金湯 小金湯（バス）",
+      "geometry": {
+        "location": {
+          "lat": 42.9664953,
+          "lng": 141.2179678
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9678442802915,
+            "lng": 141.2193167802915
+          },
+          "southwest": {
+            "lat": 42.9651463197085,
+            "lng": 141.2166188197085
+          }
+        }
+      },
+      "place_id": "ChIJdUvuhbDTCl8RpBkPjX9CH2M",
+      "plus_code": {
+        "compound_code": "X689+H5 日本、北海道札幌市",
+        "global_code": "8RJ3X689+H5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道230号",
+          "short_name": "国道230号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒061-2274 北海道札幌市南区小金湯 国道230号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.96670270000001,
+            "lng": 141.2178307
+          },
+          "southwest": {
+            "lat": 42.9665162,
+            "lng": 141.2173932
+          }
+        },
+        "location": {
+          "lat": 42.9666092,
+          "lng": 141.2176118
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.9679584302915,
+            "lng": 141.2189609302915
+          },
+          "southwest": {
+            "lat": 42.9652604697085,
+            "lng": 141.2162629697085
+          }
+        }
+      },
+      "place_id": "ChIJuWjjj7DTCl8RDvlf0y_D8VI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒061-2274 北海道札幌市南区小金湯",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.016725,
+            "lng": 141.254054
+          },
+          "southwest": {
+            "lat": 42.91685,
+            "lng": 141.1722529
+          }
+        },
+        "location": {
+          "lat": 42.9768068,
+          "lng": 141.212156
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.016725,
+            "lng": 141.254054
+          },
+          "southwest": {
+            "lat": 42.91685,
+            "lng": 141.1722529
+          }
+        }
+      },
+      "place_id": "ChIJz9UFKrjTCl8RB5GqQzmK24Q",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "061-2274",
+          "short_name": "061-2274",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "小金湯",
+          "short_name": "小金湯",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒061-2274",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0167251,
+            "lng": 141.2540542
+          },
+          "southwest": {
+            "lat": 42.91685,
+            "lng": 141.1722534
+          }
+        },
+        "location": {
+          "lat": 42.9768068,
+          "lng": 141.212156
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0167251,
+            "lng": 141.2540542
+          },
+          "southwest": {
+            "lat": 42.91685,
+            "lng": 141.1722534
+          }
+        }
+      },
+      "place_id": "ChIJa-ejrLfTCl8R5l8BwTMCRzI",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市南区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.12049349999999,
+            "lng": 141.3973703
+          },
+          "southwest": {
+            "lat": 42.7807277,
+            "lng": 140.9904913
+          }
+        },
+        "location": {
+          "lat": 42.9539188,
+          "lng": 141.2199991
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.12049349999999,
+            "lng": 141.3973703
+          },
+          "southwest": {
+            "lat": 42.7807277,
+            "lng": 140.9904913
+          }
+        }
+      },
+      "place_id": "ChIJD4c7aFzSCl8RQNVDt0cp3_U",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        },
+        "location": {
+          "lat": 43.0617713,
+          "lng": 141.3544507
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        }
+      },
+      "place_id": "ChIJMzaXWnXUCl8R1bqHRp1-kzM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

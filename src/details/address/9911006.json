@@ -1,0 +1,973 @@
+{
+  "station": "真駒内(定山渓鉄道線)",
+  "lat": 43.002371,
+  "lng": 141.363003,
+  "plus_code": {
+    "compound_code": "2927+W6 日本、北海道札幌市",
+    "global_code": "8RM32927+W6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６１１−１",
+          "short_name": "６１１−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "真駒内",
+          "short_name": "真駒内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0861",
+          "short_name": "005-0861",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0861 北海道札幌市南区真駒内６１１−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0021449,
+            "lng": 141.3624133
+          },
+          "southwest": {
+            "lat": 43.00197989999999,
+            "lng": 141.3622603
+          }
+        },
+        "location": {
+          "lat": 43.0020562,
+          "lng": 141.3623274
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0034113802915,
+            "lng": 141.3636857802915
+          },
+          "southwest": {
+            "lat": 43.0007134197085,
+            "lng": 141.3609878197085
+          }
+        }
+      },
+      "place_id": "ChIJIX5CE3vVCl8R28CGSKvKzWs",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６１１−１",
+          "short_name": "６１１−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "真駒内",
+          "short_name": "真駒内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0861",
+          "short_name": "005-0861",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0861 北海道札幌市南区真駒内６１１−１",
+      "geometry": {
+        "location": {
+          "lat": 43.002088,
+          "lng": 141.362343
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0034369802915,
+            "lng": 141.3636919802915
+          },
+          "southwest": {
+            "lat": 43.0007390197085,
+            "lng": 141.3609940197085
+          }
+        }
+      },
+      "place_id": "ChIJo-RIE3vVCl8RfSEbTqbzrRI",
+      "plus_code": {
+        "compound_code": "2926+RW 日本、北海道札幌市",
+        "global_code": "8RM32926+RW"
+      },
+      "types": [
+        "car_repair",
+        "establishment",
+        "point_of_interest",
+        "store"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６１１",
+          "short_name": "６１１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "真駒内",
+          "short_name": "真駒内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0861",
+          "short_name": "005-0861",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0861 北海道札幌市南区真駒内６１１",
+      "geometry": {
+        "location": {
+          "lat": 43.0020625,
+          "lng": 141.3623369
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0034114802915,
+            "lng": 141.3636858802915
+          },
+          "southwest": {
+            "lat": 43.0007135197085,
+            "lng": 141.3609879197085
+          }
+        }
+      },
+      "place_id": "ChIJIX5CE3vVCl8RxyUpvUB3kCk",
+      "plus_code": {
+        "compound_code": "2926+RW 日本、北海道札幌市",
+        "global_code": "8RM32926+RW"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "平岸通",
+          "short_name": "平岸通",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "真駒内",
+          "short_name": "真駒内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0861",
+          "short_name": "005-0861",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0861 北海道札幌市南区真駒内 平岸通",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0030781,
+            "lng": 141.3632699
+          },
+          "southwest": {
+            "lat": 43.0024531,
+            "lng": 141.362833
+          }
+        },
+        "location": {
+          "lat": 43.0027655,
+          "lng": 141.3630518
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0041145802915,
+            "lng": 141.3644004302915
+          },
+          "southwest": {
+            "lat": 43.0014166197085,
+            "lng": 141.3617024697085
+          }
+        }
+      },
+      "place_id": "ChIJPS1ze3vVCl8RJBBDljClhVo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "真駒内東町",
+          "short_name": "真駒内東町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0011",
+          "short_name": "005-0011",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0011 北海道札幌市南区真駒内東町２丁目１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.003079,
+            "lng": 141.363829
+          },
+          "southwest": {
+            "lat": 42.9984341,
+            "lng": 141.3601138
+          }
+        },
+        "location": {
+          "lat": 43.0001634,
+          "lng": 141.362551
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.003079,
+            "lng": 141.363829
+          },
+          "southwest": {
+            "lat": 42.9984341,
+            "lng": 141.3601138
+          }
+        }
+      },
+      "place_id": "ChIJZRs_N2XVCl8RwHu1AtEAB2U",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "真駒内東町",
+          "short_name": "真駒内東町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0011",
+          "short_name": "005-0011",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0011 北海道札幌市南区真駒内東町２丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.003079,
+            "lng": 141.365751
+          },
+          "southwest": {
+            "lat": 42.9984341,
+            "lng": 141.3601138
+          }
+        },
+        "location": {
+          "lat": 42.9998181,
+          "lng": 141.3625008
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.003079,
+            "lng": 141.365751
+          },
+          "southwest": {
+            "lat": 42.9984341,
+            "lng": 141.3601138
+          }
+        }
+      },
+      "place_id": "ChIJDVeFJGXVCl8ROYNAmlMSLaY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "真駒内東町",
+          "short_name": "真駒内東町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "005-0011",
+          "short_name": "005-0011",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒005-0011 北海道札幌市南区真駒内東町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.00595490000001,
+            "lng": 141.3658789
+          },
+          "southwest": {
+            "lat": 42.9976721,
+            "lng": 141.3601138
+          }
+        },
+        "location": {
+          "lat": 43.0004053,
+          "lng": 141.3639736
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.00595490000001,
+            "lng": 141.3658789
+          },
+          "southwest": {
+            "lat": 42.9976721,
+            "lng": 141.3601138
+          }
+        }
+      },
+      "place_id": "ChIJ2Zl7QHvVCl8REAjxcd8v_iA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "005-0011",
+          "short_name": "005-0011",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "真駒内東町",
+          "short_name": "真駒内東町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒005-0011",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0059554,
+            "lng": 141.3658793
+          },
+          "southwest": {
+            "lat": 42.9976715,
+            "lng": 141.3601138
+          }
+        },
+        "location": {
+          "lat": 43.0004053,
+          "lng": 141.3639736
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0059554,
+            "lng": 141.3658793
+          },
+          "southwest": {
+            "lat": 42.9976715,
+            "lng": 141.3601138
+          }
+        }
+      },
+      "place_id": "ChIJM3amQnvVCl8R8x6OR_16cfQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市南区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.12049349999999,
+            "lng": 141.3973703
+          },
+          "southwest": {
+            "lat": 42.7807277,
+            "lng": 140.9904913
+          }
+        },
+        "location": {
+          "lat": 42.9539188,
+          "lng": 141.2199991
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.12049349999999,
+            "lng": 141.3973703
+          },
+          "southwest": {
+            "lat": 42.7807277,
+            "lng": 140.9904913
+          }
+        }
+      },
+      "place_id": "ChIJD4c7aFzSCl8RQNVDt0cp3_U",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "札幌市",
+          "short_name": "札幌市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道札幌市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        },
+        "location": {
+          "lat": 43.0617713,
+          "lng": 141.3544507
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.190037,
+            "lng": 141.5054669
+          },
+          "southwest": {
+            "lat": 42.780728,
+            "lng": 140.990491
+          }
+        }
+      },
+      "place_id": "ChIJMzaXWnXUCl8R1bqHRp1-kzM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
