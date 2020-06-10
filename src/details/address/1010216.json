@@ -1,27 +1,24 @@
 {
-  "station": "京極",
-  "lat": 42.866667,
-  "lng": 140.880556,
+  "station": "脇方",
+  "lat": 42.869111,
+  "lng": 140.955806,
   "plus_code": {
-    "compound_code": "VV8J+M6 日本、北海道京極町",
-    "global_code": "8RJ2VV8J+M6"
+    "compound_code": "VX94+J8 日本、北海道京極町",
+    "global_code": "8RJ2VX94+J8"
   },
   "results": [
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
-          "long_name": "２３",
-          "short_name": "２３",
+          "long_name": "９５２",
+          "short_name": "９５２",
           "types": [
             "premise"
           ]
         },
         {
-          "long_name": "字京極",
-          "short_name": "字京極",
+          "long_name": "字脇方",
+          "short_name": "字脇方",
           "types": [
             "political",
             "sublocality",
@@ -61,55 +58,52 @@
           ]
         },
         {
-          "long_name": "044-0101",
-          "short_name": "044-0101",
+          "long_name": "044-0123",
+          "short_name": "044-0123",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒044-0101 北海道虻田郡京極町字京極２３",
+      "formatted_address": "日本、〒044-0123 北海道虻田郡京極町字脇方９５２",
       "geometry": {
         "location": {
-          "lat": 42.8661791,
-          "lng": 140.8801146
+          "lat": 42.8697011,
+          "lng": 140.9534561
         },
         "location_type": "ROOFTOP",
         "viewport": {
           "northeast": {
-            "lat": 42.86752808029149,
-            "lng": 140.8814635802915
+            "lat": 42.8710500802915,
+            "lng": 140.9548050802915
           },
           "southwest": {
-            "lat": 42.8648301197085,
-            "lng": 140.8787656197085
+            "lat": 42.8683521197085,
+            "lng": 140.9521071197085
           }
         }
       },
-      "place_id": "ChIJA0EN4YS2Cl8RJ0q1XWrGeCs",
+      "place_id": "ChIJmyD8-_K1Cl8R9Sr7DpoFb-U",
       "plus_code": {
-        "compound_code": "VV8J+F2 日本、北海道 京極町",
-        "global_code": "8RJ2VV8J+F2"
+        "compound_code": "VX93+V9 日本、北海道京極町",
+        "global_code": "8RJ2VX93+V9"
       },
       "types": [
         "street_address"
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
-          "long_name": "北海道道821号",
-          "short_name": "道道821号",
+          "long_name": "黒橋京極線",
+          "short_name": "道道784号",
           "types": [
             "route"
           ]
         },
         {
-          "long_name": "字京極",
-          "short_name": "字京極",
+          "long_name": "字脇方",
+          "short_name": "字脇方",
           "types": [
             "political",
             "sublocality",
@@ -149,61 +143,58 @@
           ]
         },
         {
-          "long_name": "044-0101",
-          "short_name": "044-0101",
+          "long_name": "044-0123",
+          "short_name": "044-0123",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "日本、〒044-0101 北海道虻田郡京極町字京極 道道821号",
+      "formatted_address": "日本、〒044-0123 北海道虻田郡京極町字脇方 道道784号",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 42.8663855,
-            "lng": 140.8800123
+            "lat": 42.8687998,
+            "lng": 140.9558981
           },
           "southwest": {
-            "lat": 42.8658161,
-            "lng": 140.8792685
+            "lat": 42.8685146,
+            "lng": 140.954577
           }
         },
         "location": {
-          "lat": 42.8661008,
-          "lng": 140.8796404
+          "lat": 42.8686569,
+          "lng": 140.9552374
         },
         "location_type": "GEOMETRIC_CENTER",
         "viewport": {
           "northeast": {
-            "lat": 42.8674497802915,
-            "lng": 140.8809893802915
+            "lat": 42.8700061802915,
+            "lng": 140.9565865302915
           },
           "southwest": {
-            "lat": 42.8647518197085,
-            "lng": 140.8782914197085
+            "lat": 42.8673082197085,
+            "lng": 140.9538885697085
           }
         }
       },
-      "place_id": "ChIJ5xXB34S2Cl8RVBnNBJr15og",
+      "place_id": "ChIJ03Up1_K1Cl8RBjZfsP0g_g4",
       "types": [
         "route"
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
-          "long_name": "044-0101",
-          "short_name": "044-0101",
+          "long_name": "044-0123",
+          "short_name": "044-0123",
           "types": [
             "postal_code"
           ]
         },
         {
-          "long_name": "字京極",
-          "short_name": "字京極",
+          "long_name": "字脇方",
+          "short_name": "字脇方",
           "types": [
             "political",
             "sublocality",
@@ -243,47 +234,44 @@
           ]
         }
       ],
-      "formatted_address": "日本 〒044-0101",
+      "formatted_address": "日本 〒044-0123",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 42.8686932,
-            "lng": 140.8913667
+            "lat": 42.8901664,
+            "lng": 141.0073314
           },
           "southwest": {
-            "lat": 42.8562866,
-            "lng": 140.8758478
+            "lat": 42.8415731,
+            "lng": 140.9236258
           }
         },
         "location": {
-          "lat": 42.8622703,
-          "lng": 140.8860416
+          "lat": 42.8665371,
+          "lng": 140.9641017
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 42.8686932,
-            "lng": 140.8913667
+            "lat": 42.8901664,
+            "lng": 141.0073314
           },
           "southwest": {
-            "lat": 42.8562866,
-            "lng": 140.8758478
+            "lat": 42.8415731,
+            "lng": 140.9236258
           }
         }
       },
-      "place_id": "ChIJ-3fm9Se0Cl8RP174vOFRyLw",
+      "place_id": "ChIJe9Pl-_K1Cl8RQWOQz9QM3ak",
       "types": [
         "postal_code"
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
-          "long_name": "字京極",
-          "short_name": "字京極",
+          "long_name": "字脇方",
+          "short_name": "字脇方",
           "types": [
             "political",
             "sublocality",
@@ -321,37 +309,44 @@
             "country",
             "political"
           ]
+        },
+        {
+          "long_name": "044-0123",
+          "short_name": "044-0123",
+          "types": [
+            "postal_code"
+          ]
         }
       ],
-      "formatted_address": "日本、北海道虻田郡京極町字京極",
+      "formatted_address": "日本、〒044-0123 北海道虻田郡京極町字脇方",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 42.8689,
-            "lng": 140.8913671
+            "lat": 42.890166,
+            "lng": 141.007331
           },
           "southwest": {
-            "lat": 42.85628699999999,
-            "lng": 140.875848
+            "lat": 42.841573,
+            "lng": 140.923626
           }
         },
         "location": {
-          "lat": 42.8622703,
-          "lng": 140.8860416
+          "lat": 42.8665371,
+          "lng": 140.9641017
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 42.8689,
-            "lng": 140.8913671
+            "lat": 42.890166,
+            "lng": 141.007331
           },
           "southwest": {
-            "lat": 42.85628699999999,
-            "lng": 140.875848
+            "lat": 42.841573,
+            "lng": 140.923626
           }
         }
       },
-      "place_id": "ChIJ1WmsOoO2Cl8RN9F4uJ6HaFg",
+      "place_id": "ChIJ9UX4Hom1Cl8Re8837LOEnuY",
       "types": [
         "political",
         "sublocality",
@@ -359,9 +354,6 @@
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
           "long_name": "京極町",
@@ -431,9 +423,6 @@
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
           "long_name": "虻田郡",
@@ -495,9 +484,6 @@
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
           "long_name": "北海道",
@@ -551,9 +537,6 @@
       ]
     },
     {
-      "access_points": [
-
-      ],
       "address_components": [
         {
           "long_name": "日本",
