@@ -1,0 +1,593 @@
+{
+  "station": "寧楽",
+  "lat": 44.022806,
+  "lng": 141.783194,
+  "plus_code": {
+    "compound_code": "2QFM+47 日本、北海道小平町",
+    "global_code": "8RP32QFM+47"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１１１",
+          "short_name": "１１１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字寧楽",
+          "short_name": "字寧楽",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "077-0465",
+          "short_name": "077-0465",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒077-0465 北海道留萌郡小平町字寧楽１１１",
+      "geometry": {
+        "location": {
+          "lat": 44.0235433,
+          "lng": 141.7819649
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0248922802915,
+            "lng": 141.7833138802915
+          },
+          "southwest": {
+            "lat": 44.0221943197085,
+            "lng": 141.7806159197085
+          }
+        }
+      },
+      "place_id": "ChIJv6ENyX5EDF8R3OhkPb1pPHM",
+      "plus_code": {
+        "compound_code": "2QFJ+CQ 日本、北海道小平町",
+        "global_code": "8RP32QFJ+CQ"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "達布小平町線",
+          "short_name": "道道1006号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字寧楽",
+          "short_name": "字寧楽",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "077-0465",
+          "short_name": "077-0465",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒077-0465 北海道留萌郡小平町字寧楽 道道1006号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.0228616,
+            "lng": 141.7834677
+          },
+          "southwest": {
+            "lat": 44.0225362,
+            "lng": 141.7830437
+          }
+        },
+        "location": {
+          "lat": 44.0227057,
+          "lng": 141.7832456
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.0240478802915,
+            "lng": 141.7846046802915
+          },
+          "southwest": {
+            "lat": 44.02134991970851,
+            "lng": 141.7819067197085
+          }
+        }
+      },
+      "place_id": "ChIJLbaJ7H5EDF8RBLA7fD-UqRI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字寧楽",
+          "short_name": "字寧楽",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "077-0465",
+          "short_name": "077-0465",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒077-0465 北海道留萌郡小平町字寧楽",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.105805,
+            "lng": 141.8086049
+          },
+          "southwest": {
+            "lat": 44.006825,
+            "lng": 141.744826
+          }
+        },
+        "location": {
+          "lat": 44.0537113,
+          "lng": 141.7764714
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.105805,
+            "lng": 141.8086049
+          },
+          "southwest": {
+            "lat": 44.006825,
+            "lng": 141.744826
+          }
+        }
+      },
+      "place_id": "ChIJJ578C55GDF8RIWQR_rxa_bE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "077-0465",
+          "short_name": "077-0465",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字寧楽",
+          "short_name": "字寧楽",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒077-0465",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.1058049,
+            "lng": 141.8086045
+          },
+          "southwest": {
+            "lat": 44.0072109,
+            "lng": 141.7448195
+          }
+        },
+        "location": {
+          "lat": 44.0537113,
+          "lng": 141.7764714
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.1058049,
+            "lng": 141.8086045
+          },
+          "southwest": {
+            "lat": 44.0072109,
+            "lng": 141.7448195
+          }
+        }
+      },
+      "place_id": "ChIJY4lMg3xEDF8RzMYig95e9WA",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道留萌郡小平町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.215245,
+            "lng": 142.0781879
+          },
+          "southwest": {
+            "lat": 43.925124,
+            "lng": 141.649304
+          }
+        },
+        "location": {
+          "lat": 44.0151849,
+          "lng": 141.6627351
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.215245,
+            "lng": 142.0781879
+          },
+          "southwest": {
+            "lat": 43.925124,
+            "lng": 141.649304
+          }
+        }
+      },
+      "place_id": "ChIJt4fU9mBPDF8R4Uc4EOAU7gs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "留萌郡",
+          "short_name": "留萌郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "小平町",
+          "short_name": "小平町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道留萌郡小平町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.2152452,
+            "lng": 142.0781878
+          },
+          "southwest": {
+            "lat": 43.9251238,
+            "lng": 141.6493036
+          }
+        },
+        "location": {
+          "lat": 44.0378655,
+          "lng": 141.8308288
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.2152452,
+            "lng": 142.0781878
+          },
+          "southwest": {
+            "lat": 43.9251238,
+            "lng": 141.6493036
+          }
+        }
+      },
+      "place_id": "ChIJt4fU9mBPDF8R4OHqNeIQ1Xc",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
