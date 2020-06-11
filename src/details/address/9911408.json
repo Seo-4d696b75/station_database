@@ -1,0 +1,796 @@
+{
+  "station": "鹿追",
+  "lat": 43.106336,
+  "lng": 142.994708,
+  "plus_code": {
+    "compound_code": "4X4V+GV 日本、北海道鹿追町",
+    "global_code": "8RM44X4V+GV"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５７",
+          "short_name": "５７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "新町",
+          "short_name": "新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0201",
+          "short_name": "081-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0201 北海道河東郡鹿追町新町３丁目５７",
+      "geometry": {
+        "location": {
+          "lat": 43.1060962,
+          "lng": 142.9943221
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.10744518029149,
+            "lng": 142.9956710802915
+          },
+          "southwest": {
+            "lat": 43.10474721970849,
+            "lng": 142.9929731197085
+          }
+        }
+      },
+      "place_id": "ChIJFQLHSmBtc18RES98FapHKZI",
+      "plus_code": {
+        "compound_code": "4X4V+CP 日本、北海道鹿追町",
+        "global_code": "8RM44X4V+CP"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鹿追営業所前",
+          "short_name": "鹿追営業所前",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "新町",
+          "short_name": "新町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0201",
+          "short_name": "081-0201",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0201 北海道河東郡鹿追町新町３丁目 鹿追営業所前",
+      "geometry": {
+        "location": {
+          "lat": 43.1063956,
+          "lng": 142.9936474
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1077445802915,
+            "lng": 142.9949963802915
+          },
+          "southwest": {
+            "lat": 43.1050466197085,
+            "lng": 142.9922984197085
+          }
+        }
+      },
+      "place_id": "ChIJEYBfrWFtc18RE6cQQ6Oj0Kg",
+      "plus_code": {
+        "compound_code": "4X4V+HF 日本、北海道鹿追町",
+        "global_code": "8RM44X4V+HF"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "5丁目本通り",
+          "short_name": "道道416号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "緑町",
+          "short_name": "緑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0203",
+          "short_name": "081-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0203 北海道河東郡鹿追町緑町３丁目 5丁目本通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1063388,
+            "lng": 142.9952198
+          },
+          "southwest": {
+            "lat": 43.1062471,
+            "lng": 142.9947278
+          }
+        },
+        "location": {
+          "lat": 43.106293,
+          "lng": 142.9949738
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.10764193029149,
+            "lng": 142.9963227802915
+          },
+          "southwest": {
+            "lat": 43.10494396970849,
+            "lng": 142.9936248197085
+          }
+        }
+      },
+      "place_id": "ChIJxVcUSGBtc18RqrgSZu5Qk3s",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "緑町",
+          "short_name": "緑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0203",
+          "short_name": "081-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0203 北海道河東郡鹿追町緑町３丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.106364,
+            "lng": 142.996987
+          },
+          "southwest": {
+            "lat": 43.104057,
+            "lng": 142.9935558
+          }
+        },
+        "location": {
+          "lat": 43.1052608,
+          "lng": 142.9949053
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.10655948029149,
+            "lng": 142.996987
+          },
+          "southwest": {
+            "lat": 43.1038615197085,
+            "lng": 142.9935558
+          }
+        }
+      },
+      "place_id": "ChIJfWas1WFtc18Ru4WpCKn-Jdc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "緑町",
+          "short_name": "緑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0203",
+          "short_name": "081-0203",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0203 北海道河東郡鹿追町緑町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1095949,
+            "lng": 142.998187
+          },
+          "southwest": {
+            "lat": 43.099656,
+            "lng": 142.9916479
+          }
+        },
+        "location": {
+          "lat": 43.10388,
+          "lng": 142.9946531
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1095949,
+            "lng": 142.998187
+          },
+          "southwest": {
+            "lat": 43.099656,
+            "lng": 142.9916479
+          }
+        }
+      },
+      "place_id": "ChIJy_HNb55yc18RpZt7YCj3-G4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "081-0203",
+          "short_name": "081-0203",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "緑町",
+          "short_name": "緑町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒081-0203",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1095948,
+            "lng": 142.9981873
+          },
+          "southwest": {
+            "lat": 43.0996563,
+            "lng": 142.9916477
+          }
+        },
+        "location": {
+          "lat": 43.10388,
+          "lng": 142.9946531
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1095948,
+            "lng": 142.9981873
+          },
+          "southwest": {
+            "lat": 43.0996563,
+            "lng": 142.9916477
+          }
+        }
+      },
+      "place_id": "ChIJLTD0U5xyc18R5m2oUzzFfxE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鹿追町",
+          "short_name": "鹿追町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道河東郡鹿追町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.396382,
+            "lng": 143.150373
+          },
+          "southwest": {
+            "lat": 43.011,
+            "lng": 142.9226949
+          }
+        },
+        "location": {
+          "lat": 43.0988745,
+          "lng": 142.9889931
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.396382,
+            "lng": 143.150373
+          },
+          "southwest": {
+            "lat": 43.011,
+            "lng": 142.9226949
+          }
+        }
+      },
+      "place_id": "ChIJUdBdEwAUc18RoC-M8fKHR6A",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道河東郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.59535,
+            "lng": 143.4157545
+          },
+          "southwest": {
+            "lat": 42.9246975,
+            "lng": 142.9226945
+          }
+        },
+        "location": {
+          "lat": 43.2311539,
+          "lng": 143.2219582
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.59535,
+            "lng": 143.4157545
+          },
+          "southwest": {
+            "lat": 42.9246975,
+            "lng": 142.9226945
+          }
+        }
+      },
+      "place_id": "ChIJB-abf4MZc18RvOOJQx7kJOY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

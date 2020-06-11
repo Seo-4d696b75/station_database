@@ -1,0 +1,500 @@
+{
+  "station": "中音更",
+  "lat": 43.180436,
+  "lng": 143.209692,
+  "plus_code": {
+    "compound_code": "56J5+5V 日本、北海道士幌町",
+    "global_code": "8RM556J5+5V"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字中音更",
+          "short_name": "字中音更",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "士幌町",
+          "short_name": "士幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "080-1273",
+          "short_name": "080-1273",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字中音更 士幌町 河東郡 北海道 080-1273 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1828773,
+            "lng": 143.2096615
+          },
+          "southwest": {
+            "lat": 43.1811823,
+            "lng": 143.2092506
+          }
+        },
+        "location": {
+          "lat": 43.1820367,
+          "lng": 143.2093723
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1833787802915,
+            "lng": 143.2108050302915
+          },
+          "southwest": {
+            "lat": 43.18068081970851,
+            "lng": 143.2081070697085
+          }
+        }
+      },
+      "place_id": "ChIJoVs3OPwPc18RoModRZ1AvCc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字中音更",
+          "short_name": "字中音更",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "士幌町",
+          "short_name": "士幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "080-1273",
+          "short_name": "080-1273",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒080-1273 北海道河東郡士幌町字中音更",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.199158,
+            "lng": 143.228084
+          },
+          "southwest": {
+            "lat": 43.140306,
+            "lng": 143.1793529
+          }
+        },
+        "location": {
+          "lat": 43.1547548,
+          "lng": 143.1964943
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.199158,
+            "lng": 143.228084
+          },
+          "southwest": {
+            "lat": 43.140306,
+            "lng": 143.1793529
+          }
+        }
+      },
+      "place_id": "ChIJD7dYxKgac18RLICMXd3lw4M",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "080-1273",
+          "short_name": "080-1273",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字中音更",
+          "short_name": "字中音更",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "士幌町",
+          "short_name": "士幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒080-1273",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1991321,
+            "lng": 143.2276728
+          },
+          "southwest": {
+            "lat": 43.1403055,
+            "lng": 143.179353
+          }
+        },
+        "location": {
+          "lat": 43.1547548,
+          "lng": 143.1964943
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1991321,
+            "lng": 143.2276728
+          },
+          "southwest": {
+            "lat": 43.1403055,
+            "lng": 143.179353
+          }
+        }
+      },
+      "place_id": "ChIJxUQpRL4Pc18RQP-kovAD-TI",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "士幌町",
+          "short_name": "士幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道河東郡士幌町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2495,
+            "lng": 143.4157551
+          },
+          "southwest": {
+            "lat": 43.077804,
+            "lng": 143.099537
+          }
+        },
+        "location": {
+          "lat": 43.1680544,
+          "lng": 143.2414014
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2495,
+            "lng": 143.4157551
+          },
+          "southwest": {
+            "lat": 43.077804,
+            "lng": 143.099537
+          }
+        }
+      },
+      "place_id": "ChIJK7WszHgFc18RUKGz1sQfeBo",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "河東郡",
+          "short_name": "河東郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道河東郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.59535,
+            "lng": 143.4157545
+          },
+          "southwest": {
+            "lat": 42.9246975,
+            "lng": 142.9226945
+          }
+        },
+        "location": {
+          "lat": 43.2311539,
+          "lng": 143.2219582
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.59535,
+            "lng": 143.4157545
+          },
+          "southwest": {
+            "lat": 42.9246975,
+            "lng": 142.9226945
+          }
+        }
+      },
+      "place_id": "ChIJB-abf4MZc18RvOOJQx7kJOY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

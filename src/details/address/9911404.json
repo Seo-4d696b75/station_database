@@ -1,0 +1,796 @@
+{
+  "station": "屈足",
+  "lat": 43.094833,
+  "lng": 142.905528,
+  "plus_code": {
+    "compound_code": "3WV4+W6 日本、北海道新得町",
+    "global_code": "8RM43WV4+W6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "幸町4丁目",
+          "short_name": "幸町4丁目",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "屈足幸町",
+          "short_name": "屈足幸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0155",
+          "short_name": "081-0155",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0155 北海道上川郡新得町屈足幸町４丁目 幸町4丁目",
+      "geometry": {
+        "location": {
+          "lat": 43.0949,
+          "lng": 142.905448
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0962489802915,
+            "lng": 142.9067969802915
+          },
+          "southwest": {
+            "lat": 43.0935510197085,
+            "lng": 142.9040990197085
+          }
+        }
+      },
+      "place_id": "ChIJkcNLct9tc18R35UH72SAC58",
+      "plus_code": {
+        "compound_code": "3WV4+X5 日本、北海道新得町",
+        "global_code": "8RM43WV4+X5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１−２１",
+          "short_name": "１−２１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "屈足旭町",
+          "short_name": "屈足旭町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0151",
+          "short_name": "081-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0151 北海道上川郡新得町屈足旭町４丁目１−２１",
+      "geometry": {
+        "location": {
+          "lat": 43.09485490000001,
+          "lng": 142.9057977
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.09620388029151,
+            "lng": 142.9071466802915
+          },
+          "southwest": {
+            "lat": 43.09350591970851,
+            "lng": 142.9044487197085
+          }
+        }
+      },
+      "place_id": "ChIJJ1Vmc99tc18R753rNjs1igw",
+      "plus_code": {
+        "compound_code": "3WV4+W8 日本、北海道新得町",
+        "global_code": "8RM43WV4+W8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "忠別清水線",
+          "short_name": "道道718号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "屈足旭町",
+          "short_name": "屈足旭町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0151",
+          "short_name": "081-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0151 北海道上川郡新得町屈足旭町４丁目 道道718号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0951142,
+            "lng": 142.9055942
+          },
+          "southwest": {
+            "lat": 43.0946876,
+            "lng": 142.9054637
+          }
+        },
+        "location": {
+          "lat": 43.09490090000001,
+          "lng": 142.905529
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0962498802915,
+            "lng": 142.9068779302915
+          },
+          "southwest": {
+            "lat": 43.0935519197085,
+            "lng": 142.9041799697085
+          }
+        }
+      },
+      "place_id": "ChIJn7Kpc99tc18RTors9qkRNTU",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４丁目",
+          "short_name": "４丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "屈足幸町",
+          "short_name": "屈足幸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0155",
+          "short_name": "081-0155",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0155 北海道上川郡新得町屈足幸町４丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.095687,
+            "lng": 142.9057258
+          },
+          "southwest": {
+            "lat": 43.093663,
+            "lng": 142.9018669
+          }
+        },
+        "location": {
+          "lat": 43.09459289999999,
+          "lng": 142.9033995
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0960239802915,
+            "lng": 142.9057258
+          },
+          "southwest": {
+            "lat": 43.0933260197085,
+            "lng": 142.9018669
+          }
+        }
+      },
+      "place_id": "ChIJ7zfmiXVuc18RGs0QFp9izSo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "屈足幸町",
+          "short_name": "屈足幸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "081-0155",
+          "short_name": "081-0155",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒081-0155 北海道上川郡新得町屈足幸町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.100562,
+            "lng": 142.9057258
+          },
+          "southwest": {
+            "lat": 43.093663,
+            "lng": 142.900351
+          }
+        },
+        "location": {
+          "lat": 43.0978278,
+          "lng": 142.902595
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.100562,
+            "lng": 142.9057258
+          },
+          "southwest": {
+            "lat": 43.093663,
+            "lng": 142.900351
+          }
+        }
+      },
+      "place_id": "ChIJY4Jnwdhtc18RZGS2ghA6HKw",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "081-0155",
+          "short_name": "081-0155",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "屈足幸町",
+          "short_name": "屈足幸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒081-0155",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1005619,
+            "lng": 142.9057257
+          },
+          "southwest": {
+            "lat": 43.0936629,
+            "lng": 142.9003512
+          }
+        },
+        "location": {
+          "lat": 43.0978278,
+          "lng": 142.902595
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1005619,
+            "lng": 142.9057257
+          },
+          "southwest": {
+            "lat": 43.0936629,
+            "lng": 142.9003512
+          }
+        }
+      },
+      "place_id": "ChIJOdpl8tltc18RgiIE7hcytRs",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新得町",
+          "short_name": "新得町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道上川郡新得町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.5698499,
+            "lng": 143.0453799
+          },
+          "southwest": {
+            "lat": 43.012835,
+            "lng": 142.6716031
+          }
+        },
+        "location": {
+          "lat": 43.0797832,
+          "lng": 142.8388718
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.5698499,
+            "lng": 143.0453799
+          },
+          "southwest": {
+            "lat": 43.012835,
+            "lng": 142.6716031
+          }
+        }
+      },
+      "place_id": "ChIJNwyPUc8-c18RECYBdHtJF8o",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上川郡",
+          "short_name": "上川郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道上川郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.485988,
+            "lng": 143.1793444
+          },
+          "southwest": {
+            "lat": 42.83889689999999,
+            "lng": 142.2356657
+          }
+        },
+        "location": {
+          "lat": 43.59294209999999,
+          "lng": 142.7509802
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.485988,
+            "lng": 143.1793444
+          },
+          "southwest": {
+            "lat": 42.83889689999999,
+            "lng": 142.2356657
+          }
+        }
+      },
+      "place_id": "ChIJPSSUUtbZDF8RV1ES86KP5qE",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
