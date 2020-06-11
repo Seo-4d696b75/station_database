@@ -1,0 +1,500 @@
+{
+  "station": "七線沢",
+  "lat": 44.386444,
+  "lng": 141.764694,
+  "plus_code": {
+    "compound_code": "9QP7+HV 日本、北海道羽幌町字上築",
+    "global_code": "8RP39QP7+HV"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字上築",
+          "short_name": "字上築",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "羽幌町",
+          "short_name": "羽幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-4142",
+          "short_name": "078-4142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 字上築 羽幌町 苫前郡 北海道 078-4142 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.38730570000001,
+            "lng": 141.7670236
+          },
+          "southwest": {
+            "lat": 44.3849248,
+            "lng": 141.7634882
+          }
+        },
+        "location": {
+          "lat": 44.3858695,
+          "lng": 141.7648849
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3874642302915,
+            "lng": 141.7670236
+          },
+          "southwest": {
+            "lat": 44.3847662697085,
+            "lng": 141.7634882
+          }
+        }
+      },
+      "place_id": "ChIJw62JXpvTDV8Rsnsk3LrAjsA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字上築",
+          "short_name": "字上築",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "羽幌町",
+          "short_name": "羽幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-4142",
+          "short_name": "078-4142",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-4142 北海道苫前郡羽幌町字上築",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.3983,
+            "lng": 141.828198
+          },
+          "southwest": {
+            "lat": 44.3608521,
+            "lng": 141.76272
+          }
+        },
+        "location": {
+          "lat": 44.3806366,
+          "lng": 141.7931517
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3983,
+            "lng": 141.828198
+          },
+          "southwest": {
+            "lat": 44.3608521,
+            "lng": 141.76272
+          }
+        }
+      },
+      "place_id": "ChIJ7a5nD5XTDV8R2_Q3gGb6ZaI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "078-4142",
+          "short_name": "078-4142",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字上築",
+          "short_name": "字上築",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "羽幌町",
+          "short_name": "羽幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒078-4142",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.3983001,
+            "lng": 141.8281981
+          },
+          "southwest": {
+            "lat": 44.3608523,
+            "lng": 141.7619394
+          }
+        },
+        "location": {
+          "lat": 44.3806366,
+          "lng": 141.7931517
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.3983001,
+            "lng": 141.8281981
+          },
+          "southwest": {
+            "lat": 44.3608523,
+            "lng": 141.7619394
+          }
+        }
+      },
+      "place_id": "ChIJ5fHh5LvTDV8Rsk8ssGGLtE4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "羽幌町",
+          "short_name": "羽幌町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道苫前郡羽幌町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.455002,
+            "lng": 142.066433
+          },
+          "southwest": {
+            "lat": 44.206975,
+            "lng": 141.29042
+          }
+        },
+        "location": {
+          "lat": 44.3608225,
+          "lng": 141.6973093
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.455002,
+            "lng": 142.066433
+          },
+          "southwest": {
+            "lat": 44.206975,
+            "lng": 141.29042
+          }
+        }
+      },
+      "place_id": "ChIJY986MlgsDF8RO_eBk-9I3Z8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "苫前郡",
+          "short_name": "苫前郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道苫前郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.642518,
+            "lng": 142.0881677
+          },
+          "southwest": {
+            "lat": 44.09078909999999,
+            "lng": 141.29042
+          }
+        },
+        "location": {
+          "lat": 44.31057759999999,
+          "lng": 141.873713
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.642518,
+            "lng": 142.0881677
+          },
+          "southwest": {
+            "lat": 44.09078909999999,
+            "lng": 141.29042
+          }
+        }
+      },
+      "place_id": "ChIJa20C2VcrDF8RXqHtN_ckg_w",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
