@@ -1,0 +1,698 @@
+{
+  "station": "樽岸",
+  "lat": 42.766306,
+  "lng": 140.248222,
+  "plus_code": {
+    "compound_code": "Q68X+G7 日本、北海道寿都町",
+    "global_code": "8RJ2Q68X+G7"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１４４",
+          "short_name": "１４４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "樽岸",
+          "short_name": "樽岸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字樽岸町",
+          "short_name": "字樽岸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "048-0413",
+          "short_name": "048-0413",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒048-0413 北海道寿都郡寿都町字樽岸町樽岸１４４",
+      "geometry": {
+        "location": {
+          "lat": 42.7666295,
+          "lng": 140.2482672
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7679784802915,
+            "lng": 140.2496161802915
+          },
+          "southwest": {
+            "lat": 42.7652805197085,
+            "lng": 140.2469182197085
+          }
+        }
+      },
+      "place_id": "ChIJze4OV98NoF8RVsjCapyEhgk",
+      "plus_code": {
+        "compound_code": "Q68X+M8 日本、北海道寿都町",
+        "global_code": "8RJ2Q68X+M8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道229号",
+          "short_name": "国道229号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "樽岸",
+          "short_name": "樽岸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字樽岸町",
+          "short_name": "字樽岸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "048-0413",
+          "short_name": "048-0413",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒048-0413 北海道寿都郡寿都町字樽岸町樽岸 国道229号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.7667654,
+            "lng": 140.2488999
+          },
+          "southwest": {
+            "lat": 42.7667011,
+            "lng": 140.2485794
+          }
+        },
+        "location": {
+          "lat": 42.766733,
+          "lng": 140.2487396
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7680822302915,
+            "lng": 140.2500886302915
+          },
+          "southwest": {
+            "lat": 42.76538426970851,
+            "lng": 140.2473906697085
+          }
+        }
+      },
+      "place_id": "ChIJwf-oVd8NoF8RXuqTMLHWMTs",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "樽岸",
+          "short_name": "樽岸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "字樽岸町",
+          "short_name": "字樽岸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "048-0413",
+          "short_name": "048-0413",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒048-0413 北海道寿都郡寿都町字樽岸町樽岸",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.768577,
+            "lng": 140.25675
+          },
+          "southwest": {
+            "lat": 42.752741,
+            "lng": 140.237509
+          }
+        },
+        "location": {
+          "lat": 42.7671155,
+          "lng": 140.2508149
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.768577,
+            "lng": 140.25675
+          },
+          "southwest": {
+            "lat": 42.752741,
+            "lng": 140.237509
+          }
+        }
+      },
+      "place_id": "ChIJw29M1QQOoF8R7H0zr7RKqSI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字樽岸町",
+          "short_name": "字樽岸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "048-0413",
+          "short_name": "048-0413",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒048-0413 北海道寿都郡寿都町字樽岸町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.780893,
+            "lng": 140.2846908
+          },
+          "southwest": {
+            "lat": 42.739427,
+            "lng": 140.2083799
+          }
+        },
+        "location": {
+          "lat": 42.7588588,
+          "lng": 140.2425891
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.780893,
+            "lng": 140.2846908
+          },
+          "southwest": {
+            "lat": 42.739427,
+            "lng": 140.2083799
+          }
+        }
+      },
+      "place_id": "ChIJpaZS3AwOoF8RFiYNjiyngwU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "048-0413",
+          "short_name": "048-0413",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字樽岸町",
+          "short_name": "字樽岸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒048-0413",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.77994169999999,
+            "lng": 140.2960694
+          },
+          "southwest": {
+            "lat": 42.7394273,
+            "lng": 140.2083797
+          }
+        },
+        "location": {
+          "lat": 42.7588588,
+          "lng": 140.2425891
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.77994169999999,
+            "lng": 140.2960694
+          },
+          "southwest": {
+            "lat": 42.7394273,
+            "lng": 140.2083797
+          }
+        }
+      },
+      "place_id": "ChIJv-r0BXYOoF8Rb-Ewxd6XyPU",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "寿都町",
+          "short_name": "寿都町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道寿都郡寿都町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8776349,
+            "lng": 140.3804879
+          },
+          "southwest": {
+            "lat": 42.72076999999999,
+            "lng": 140.1731919
+          }
+        },
+        "location": {
+          "lat": 42.7913873,
+          "lng": 140.2284401
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8776349,
+            "lng": 140.3804879
+          },
+          "southwest": {
+            "lat": 42.72076999999999,
+            "lng": 140.1731919
+          }
+        }
+      },
+      "place_id": "ChIJB75FMxMMoF8RgdPrBJY6UMk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "寿都郡",
+          "short_name": "寿都郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道寿都郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8776348,
+            "lng": 140.5568099
+          },
+          "southwest": {
+            "lat": 42.5876038,
+            "lng": 140.1731916
+          }
+        },
+        "location": {
+          "lat": 42.7025662,
+          "lng": 140.3461889
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8776348,
+            "lng": 140.5568099
+          },
+          "southwest": {
+            "lat": 42.5876038,
+            "lng": 140.1731916
+          }
+        }
+      },
+      "place_id": "ChIJ-xyQimEPoF8RiTOkzls48dk",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
