@@ -1,0 +1,671 @@
+{
+  "station": "角田",
+  "lat": 43.034056,
+  "lng": 141.811972,
+  "plus_code": {
+    "compound_code": "2RM6+JQ 日本、北海道栗山町",
+    "global_code": "8RM32RM6+JQ"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１２５",
+          "short_name": "１２５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "角田",
+          "short_name": "角田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1524",
+          "short_name": "069-1524",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1524 北海道夕張郡栗山町角田１２５",
+      "geometry": {
+        "location": {
+          "lat": 43.0333571,
+          "lng": 141.8120585
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0347060802915,
+            "lng": 141.8134074802915
+          },
+          "southwest": {
+            "lat": 43.0320081197085,
+            "lng": 141.8107095197085
+          }
+        }
+      },
+      "place_id": "ChIJYRHIMDvJdF8Rc1FkLLm-tiU",
+      "plus_code": {
+        "compound_code": "2RM6+8R 日本、北海道栗山町",
+        "global_code": "8RM32RM6+8R"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２３−１１３",
+          "short_name": "２３−１１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "字旭台",
+          "short_name": "字旭台",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1507",
+          "short_name": "069-1507",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1507 北海道夕張郡栗山町字旭台２３−１１３",
+      "geometry": {
+        "location": {
+          "lat": 43.035446,
+          "lng": 141.811259
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0367949802915,
+            "lng": 141.8126079802915
+          },
+          "southwest": {
+            "lat": 43.0340970197085,
+            "lng": 141.8099100197085
+          }
+        }
+      },
+      "place_id": "ChIJlx-whjvJdF8RMMWc27yt8l4",
+      "plus_code": {
+        "compound_code": "2RP6+5G 日本、北海道栗山町",
+        "global_code": "8RM32RP6+5G"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "角田",
+          "short_name": "角田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1524",
+          "short_name": "069-1524",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 角田 栗山町 夕張郡 北海道 069-1524 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.03378379999999,
+            "lng": 141.81301
+          },
+          "southwest": {
+            "lat": 43.0334452,
+            "lng": 141.8108745
+          }
+        },
+        "location": {
+          "lat": 43.0336145,
+          "lng": 141.8119422
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.03496348029149,
+            "lng": 141.8132912302915
+          },
+          "southwest": {
+            "lat": 43.0322655197085,
+            "lng": 141.8105932697085
+          }
+        }
+      },
+      "place_id": "ChIJF3niODvJdF8RoID5P4CeZNk",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "069-1524",
+          "short_name": "069-1524",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "角田",
+          "short_name": "角田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒069-1524",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0349704,
+            "lng": 141.8209839
+          },
+          "southwest": {
+            "lat": 43.0219504,
+            "lng": 141.8005361
+          }
+        },
+        "location": {
+          "lat": 43.02866299999999,
+          "lng": 141.8081168
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0349704,
+            "lng": 141.8209839
+          },
+          "southwest": {
+            "lat": 43.0219504,
+            "lng": 141.8005361
+          }
+        }
+      },
+      "place_id": "ChIJD5hV_C_JdF8Rk7nB9OvBUzw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "角田",
+          "short_name": "角田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1524",
+          "short_name": "069-1524",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1524 北海道夕張郡栗山町角田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.034971,
+            "lng": 141.820991
+          },
+          "southwest": {
+            "lat": 43.02195,
+            "lng": 141.800536
+          }
+        },
+        "location": {
+          "lat": 43.02866299999999,
+          "lng": 141.8081168
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.034971,
+            "lng": 141.820991
+          },
+          "southwest": {
+            "lat": 43.02195,
+            "lng": 141.800536
+          }
+        }
+      },
+      "place_id": "ChIJ05H3Py_JdF8RbjLUcON-oAM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栗山町",
+          "short_name": "栗山町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張郡栗山町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.13046,
+            "lng": 141.9731861
+          },
+          "southwest": {
+            "lat": 42.902151,
+            "lng": 141.755103
+          }
+        },
+        "location": {
+          "lat": 43.0563748,
+          "lng": 141.7841372
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.13046,
+            "lng": 141.9731861
+          },
+          "southwest": {
+            "lat": 42.902151,
+            "lng": 141.755103
+          }
+        }
+      },
+      "place_id": "ChIJi8AMb5HIdF8RanhiCF07e70",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1304604,
+            "lng": 142.0435596
+          },
+          "southwest": {
+            "lat": 42.8369177,
+            "lng": 141.5795075
+          }
+        },
+        "location": {
+          "lat": 43.0018119,
+          "lng": 141.7595575
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1304604,
+            "lng": 142.0435596
+          },
+          "southwest": {
+            "lat": 42.8369177,
+            "lng": 141.5795075
+          }
+        }
+      },
+      "place_id": "ChIJDwpNAWPPdF8RA3dSh4ykMKs",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

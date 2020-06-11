@@ -1,0 +1,757 @@
+{
+  "station": "末広",
+  "lat": 43.048861,
+  "lng": 141.965944,
+  "plus_code": {
+    "compound_code": "2XX8+G9 日本、北海道夕張市",
+    "global_code": "8RM32XX8+G9"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６７−１",
+          "short_name": "６７−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0411",
+          "short_name": "068-0411",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0411 北海道夕張市末広１丁目６７−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.04912880000001,
+            "lng": 141.965803
+          },
+          "southwest": {
+            "lat": 43.0490201,
+            "lng": 141.9656715
+          }
+        },
+        "location": {
+          "lat": 43.0490748,
+          "lng": 141.9657317
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0504234302915,
+            "lng": 141.9670862302915
+          },
+          "southwest": {
+            "lat": 43.04772546970851,
+            "lng": 141.9643882697085
+          }
+        }
+      },
+      "place_id": "ChIJpxqlWY63dF8RCwoNNxlPG7A",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６７",
+          "short_name": "６７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0411",
+          "short_name": "068-0411",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0411 北海道夕張市末広１丁目６７",
+      "geometry": {
+        "location": {
+          "lat": 43.0490803,
+          "lng": 141.9657594
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0504292802915,
+            "lng": 141.9671083802915
+          },
+          "southwest": {
+            "lat": 43.0477313197085,
+            "lng": 141.9644104197085
+          }
+        }
+      },
+      "place_id": "ChIJ5Sq_WY63dF8REV7CcgJy8sw",
+      "plus_code": {
+        "compound_code": "2XX8+J8 日本、北海道夕張市",
+        "global_code": "8RM32XX8+J8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張郵便局前（バス）",
+          "short_name": "夕張郵便局前（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0411",
+          "short_name": "068-0411",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0411 北海道夕張市末広１丁目 夕張郵便局前（バス）",
+      "geometry": {
+        "location": {
+          "lat": 43.04912720000001,
+          "lng": 141.9654742
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.05047618029151,
+            "lng": 141.9668231802915
+          },
+          "southwest": {
+            "lat": 43.04777821970851,
+            "lng": 141.9641252197085
+          }
+        }
+      },
+      "place_id": "ChIJwUvDW463dF8R0RjJlx4HmRY",
+      "plus_code": {
+        "compound_code": "2XX8+M5 日本、北海道夕張市",
+        "global_code": "8RM32XX8+M5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張岩見沢線",
+          "short_name": "道道38号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0411",
+          "short_name": "068-0411",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0411 北海道夕張市末広１丁目 道道38号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0488882,
+            "lng": 141.96536
+          },
+          "southwest": {
+            "lat": 43.0488249,
+            "lng": 141.9653132
+          }
+        },
+        "location": {
+          "lat": 43.0488566,
+          "lng": 141.9653366
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0502055302915,
+            "lng": 141.9666855802915
+          },
+          "southwest": {
+            "lat": 43.0475075697085,
+            "lng": 141.9639876197085
+          }
+        }
+      },
+      "place_id": "ChIJbZJNXo63dF8RVAPvKRG81DY",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張市末広２丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.054056,
+            "lng": 141.9926249
+          },
+          "southwest": {
+            "lat": 43.039476,
+            "lng": 141.9631489
+          }
+        },
+        "location": {
+          "lat": 43.04838489999999,
+          "lng": 141.9777912
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.054056,
+            "lng": 141.9926249
+          },
+          "southwest": {
+            "lat": 43.039476,
+            "lng": 141.9631489
+          }
+        }
+      },
+      "place_id": "ChIJ3XR50Ye3dF8R40Bpt57HN9k",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張市末広",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.054056,
+            "lng": 141.9926249
+          },
+          "southwest": {
+            "lat": 43.039476,
+            "lng": 141.9578791
+          }
+        },
+        "location": {
+          "lat": 43.04838489999999,
+          "lng": 141.9777912
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.054056,
+            "lng": 141.9926249
+          },
+          "southwest": {
+            "lat": 43.039476,
+            "lng": 141.9578791
+          }
+        }
+      },
+      "place_id": "ChIJmdYwjoi3dF8RYrHL_AU8sq8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-0411",
+          "short_name": "068-0411",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "末広",
+          "short_name": "末広",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-0411",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0556511,
+            "lng": 141.9926248
+          },
+          "southwest": {
+            "lat": 43.0394759,
+            "lng": 141.955601
+          }
+        },
+        "location": {
+          "lat": 43.04838489999999,
+          "lng": 141.9777912
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0556511,
+            "lng": 141.9926248
+          },
+          "southwest": {
+            "lat": 43.0394759,
+            "lng": 141.955601
+          }
+        }
+      },
+      "place_id": "ChIJb2EUSY63dF8ROnjctnTystQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.225438,
+            "lng": 142.3301761
+          },
+          "southwest": {
+            "lat": 42.859774,
+            "lng": 141.9024839
+          }
+        },
+        "location": {
+          "lat": 43.0567681,
+          "lng": 141.9739433
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.225438,
+            "lng": 142.3301761
+          },
+          "southwest": {
+            "lat": 42.859774,
+            "lng": 141.9024839
+          }
+        }
+      },
+      "place_id": "ChIJ-5cXU7-7dF8RjeaX1D-RqaQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

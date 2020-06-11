@@ -225,6 +225,7 @@ def parse(template,pref_map)
   lat = 0
   lng = 0
   if pos = template.get_param('座標')
+    pos = pos[0] if pos.kind_of?(Array)
     if pos.name != 'ウィキ座標2段度分秒' || pos.get_param(3) != 'N' || pos.get_param(7) != 'E'
       puts "Error > unknown coordinate system #{pos.name}"
       exit(0)

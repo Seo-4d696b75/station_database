@@ -1,0 +1,692 @@
+{
+  "station": "北長沼",
+  "lat": 43.062694,
+  "lng": 141.725889,
+  "plus_code": {
+    "compound_code": "3P7G+39 日本、北海道長沼町",
+    "global_code": "8RM33P7G+39"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１５",
+          "short_name": "１５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１線北",
+          "short_name": "１線北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "東",
+          "short_name": "東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1317",
+          "short_name": "069-1317",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1317 北海道夕張郡長沼町東１線北１５",
+      "geometry": {
+        "location": {
+          "lat": 43.0627453,
+          "lng": 141.7258741
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.06409428029149,
+            "lng": 141.7272230802915
+          },
+          "southwest": {
+            "lat": 43.06139631970849,
+            "lng": 141.7245251197085
+          }
+        }
+      },
+      "place_id": "ChIJtYrjXnrMdF8RFzT3NmlJd7I",
+      "plus_code": {
+        "compound_code": "3P7G+38 日本、北海道長沼町",
+        "global_code": "8RM33P7G+38"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道道451号",
+          "short_name": "道道451号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１線北",
+          "short_name": "１線北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "東",
+          "short_name": "東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1317",
+          "short_name": "069-1317",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1317 北海道夕張郡長沼町東１線北 道道451号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0624829,
+            "lng": 141.7248207
+          },
+          "southwest": {
+            "lat": 43.0622743,
+            "lng": 141.7247249
+          }
+        },
+        "location": {
+          "lat": 43.0623786,
+          "lng": 141.7247728
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.06372758029149,
+            "lng": 141.7261217802915
+          },
+          "southwest": {
+            "lat": 43.06102961970849,
+            "lng": 141.7234238197085
+          }
+        }
+      },
+      "place_id": "ChIJ0yjo7XrMdF8RlJCDcVL3VW8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１線北",
+          "short_name": "１線北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "東",
+          "short_name": "東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "069-1317",
+          "short_name": "069-1317",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒069-1317 北海道夕張郡長沼町東１線北",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.081595,
+            "lng": 141.739208
+          },
+          "southwest": {
+            "lat": 42.996566,
+            "lng": 141.677265
+          }
+        },
+        "location": {
+          "lat": 43.0473985,
+          "lng": 141.7138349
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.081595,
+            "lng": 141.739208
+          },
+          "southwest": {
+            "lat": 42.996566,
+            "lng": 141.677265
+          }
+        }
+      },
+      "place_id": "ChIJSZ4NDDTMdF8RZgXPlrSzXNs",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "069-1317",
+          "short_name": "069-1317",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "東",
+          "short_name": "東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒069-1317",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0815948,
+            "lng": 141.7699782
+          },
+          "southwest": {
+            "lat": 42.9739982,
+            "lng": 141.677352
+          }
+        },
+        "location": {
+          "lat": 43.0265294,
+          "lng": 141.7300658
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0815948,
+            "lng": 141.7699782
+          },
+          "southwest": {
+            "lat": 42.9739982,
+            "lng": 141.677352
+          }
+        }
+      },
+      "place_id": "ChIJJwnhunrMdF8Ru_RLgFtlPLc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東",
+          "short_name": "東",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張郡長沼町東",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.081595,
+            "lng": 141.7699779
+          },
+          "southwest": {
+            "lat": 42.8850649,
+            "lng": 141.6438508
+          }
+        },
+        "location": {
+          "lat": 42.96116079999999,
+          "lng": 141.7089392
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.081595,
+            "lng": 141.7699779
+          },
+          "southwest": {
+            "lat": 42.8850649,
+            "lng": 141.6438508
+          }
+        }
+      },
+      "place_id": "ChIJN0upDczPdF8REs7_LQE0qlk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長沼町",
+          "short_name": "長沼町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張郡長沼町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0839121,
+            "lng": 141.7699889
+          },
+          "southwest": {
+            "lat": 42.8850169,
+            "lng": 141.5795081
+          }
+        },
+        "location": {
+          "lat": 43.0103816,
+          "lng": 141.6953098
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0839121,
+            "lng": 141.7699889
+          },
+          "southwest": {
+            "lat": 42.8850169,
+            "lng": 141.5795081
+          }
+        }
+      },
+      "place_id": "ChIJe4MmycDRdF8Rhcq8gvHIYXY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張郡",
+          "short_name": "夕張郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.1304604,
+            "lng": 142.0435596
+          },
+          "southwest": {
+            "lat": 42.8369177,
+            "lng": 141.5795075
+          }
+        },
+        "location": {
+          "lat": 43.0018119,
+          "lng": 141.7595575
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1304604,
+            "lng": 142.0435596
+          },
+          "southwest": {
+            "lat": 42.8369177,
+            "lng": 141.5795075
+          }
+        }
+      },
+      "place_id": "ChIJDwpNAWPPdF8RA3dSh4ykMKs",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
