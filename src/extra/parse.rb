@@ -258,14 +258,17 @@ def parse(template,pref_map)
       puts "Error > unknown address value at array[0]: #{pref}"
       exit(0)
     end
-  else
+  elsif pref
     puts "Error > unknown address format: #{pref}"
     exit(0)
+  else
+    pref = ''
   end
 
-  if !(pref = pref_map[pref])
-    puts "Error > unknown prefecture #{template.get_param('所在地')[0].name}"
-    exit(0)
+  if v = pref_map[pref]
+    pref = v
+  else
+    puts "Warning > unknown prefecture #{template.get_param('所在地').to_s}"
   end
   open_date = parse_date(template.get_param('開業年月日'))
   closed_date = parse_date(template.get_param('廃止年月日'))

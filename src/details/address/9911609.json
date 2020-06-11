@@ -1,0 +1,477 @@
+{
+  "station": "西町アパート前",
+  "lat": 43.457417,
+  "lng": 142.163833,
+  "plus_code": {
+    "compound_code": "F547+XG 日本、北海道芦別市",
+    "global_code": "8RM4F547+XG"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "４−１０２",
+          "short_name": "４−１０２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "頼城町",
+          "short_name": "頼城町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "芦別市",
+          "short_name": "芦別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "075-0164",
+          "short_name": "075-0164",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒075-0164 北海道芦別市頼城町４−１０２",
+      "geometry": {
+        "location": {
+          "lat": 43.4565108,
+          "lng": 142.1623866
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.4578597802915,
+            "lng": 142.1637355802915
+          },
+          "southwest": {
+            "lat": 43.4551618197085,
+            "lng": 142.1610376197085
+          }
+        }
+      },
+      "place_id": "ChIJfcDaz12lDF8REqC9jJC_cJ0",
+      "plus_code": {
+        "compound_code": "F546+JX 日本、北海道芦別市",
+        "global_code": "8RM4F546+JX"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道452号",
+          "short_name": "国道452号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "緑泉町",
+          "short_name": "緑泉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "芦別市",
+          "short_name": "芦別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "075-0163",
+          "short_name": "075-0163",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒075-0163 北海道芦別市緑泉町 国道452号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.4599502,
+            "lng": 142.1655447
+          },
+          "southwest": {
+            "lat": 43.4585718,
+            "lng": 142.164932
+          }
+        },
+        "location": {
+          "lat": 43.4592612,
+          "lng": 142.1652373
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.46060998029149,
+            "lng": 142.1665873302915
+          },
+          "southwest": {
+            "lat": 43.4579120197085,
+            "lng": 142.1638893697085
+          }
+        }
+      },
+      "place_id": "ChIJs2O9nFulDF8RSj_-zfnEYeU",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "頼城町",
+          "short_name": "頼城町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "芦別市",
+          "short_name": "芦別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道芦別市頼城町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.458869,
+            "lng": 142.1707919
+          },
+          "southwest": {
+            "lat": 43.424929,
+            "lng": 142.1539229
+          }
+        },
+        "location": {
+          "lat": 43.4481838,
+          "lng": 142.1595347
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.458869,
+            "lng": 142.1707919
+          },
+          "southwest": {
+            "lat": 43.424929,
+            "lng": 142.1539229
+          }
+        }
+      },
+      "place_id": "ChIJwQOuiY-vDF8RZZUWBzqiWWM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "075-0164",
+          "short_name": "075-0164",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "頼城町",
+          "short_name": "頼城町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "芦別市",
+          "short_name": "芦別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒075-0164",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.458882,
+            "lng": 142.1711148
+          },
+          "southwest": {
+            "lat": 43.4249292,
+            "lng": 142.1539909
+          }
+        },
+        "location": {
+          "lat": 43.4481838,
+          "lng": 142.1595347
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.458882,
+            "lng": 142.1711148
+          },
+          "southwest": {
+            "lat": 43.4249292,
+            "lng": 142.1539909
+          }
+        }
+      },
+      "place_id": "ChIJzxg2F2GlDF8RepFuv_bOHPg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "芦別市",
+          "short_name": "芦別市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道芦別市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.660903,
+            "lng": 142.368188
+          },
+          "southwest": {
+            "lat": 43.2066099,
+            "lng": 142.0459239
+          }
+        },
+        "location": {
+          "lat": 43.5183186,
+          "lng": 142.1894916
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.660903,
+            "lng": 142.368188
+          },
+          "southwest": {
+            "lat": 43.2066099,
+            "lng": 142.0459239
+          }
+        }
+      },
+      "place_id": "ChIJMzsy486vDF8R2HieKkYIc5A",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
