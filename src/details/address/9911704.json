@@ -1,0 +1,498 @@
+{
+  "station": "我路",
+  "lat": 43.324472,
+  "lng": 141.944139,
+  "plus_code": {
+    "compound_code": "8WFV+QM 日本、北海道美唄市",
+    "global_code": "8RM38WFV+QM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "美唄富良野線",
+          "short_name": "道道135号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "二条",
+          "short_name": "二条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "我路町",
+          "short_name": "我路町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "美唄市",
+          "short_name": "美唄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "072-0852",
+          "short_name": "072-0852",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒072-0852 北海道美唄市我路町二条 道道135号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.3243148,
+            "lng": 141.944243
+          },
+          "southwest": {
+            "lat": 43.3243125,
+            "lng": 141.9439548
+          }
+        },
+        "location": {
+          "lat": 43.3243148,
+          "lng": 141.9440989
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3256626302915,
+            "lng": 141.9454478802915
+          },
+          "southwest": {
+            "lat": 43.3229646697085,
+            "lng": 141.9427499197085
+          }
+        }
+      },
+      "place_id": "ChIJ_2plpCpXC18ROGK-PiVfilE",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "二条",
+          "short_name": "二条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "我路町",
+          "short_name": "我路町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "美唄市",
+          "short_name": "美唄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道美唄市我路町二条",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.324849,
+            "lng": 141.9460729
+          },
+          "southwest": {
+            "lat": 43.323345,
+            "lng": 141.9422149
+          }
+        },
+        "location": {
+          "lat": 43.3243142,
+          "lng": 141.9440432
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3254459802915,
+            "lng": 141.9460729
+          },
+          "southwest": {
+            "lat": 43.3227480197085,
+            "lng": 141.9422149
+          }
+        }
+      },
+      "place_id": "ChIJR6QopipXC18RGYgecx5SB3o",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "072-0852",
+          "short_name": "072-0852",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "二条",
+          "short_name": "二条",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "我路町",
+          "short_name": "我路町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "美唄市",
+          "short_name": "美唄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒072-0852",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.32479680000001,
+            "lng": 141.9460962
+          },
+          "southwest": {
+            "lat": 43.3233453,
+            "lng": 141.9422146
+          }
+        },
+        "location": {
+          "lat": 43.3243142,
+          "lng": 141.9440432
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.3254200302915,
+            "lng": 141.9460962
+          },
+          "southwest": {
+            "lat": 43.3227220697085,
+            "lng": 141.9422146
+          }
+        }
+      },
+      "place_id": "ChIJRfDHQ9VWC18RqxeMCBSH_gw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "我路町",
+          "short_name": "我路町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "美唄市",
+          "short_name": "美唄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道美唄市我路町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.330767,
+            "lng": 141.9471758
+          },
+          "southwest": {
+            "lat": 43.291253,
+            "lng": 141.908052
+          }
+        },
+        "location": {
+          "lat": 43.3083172,
+          "lng": 141.9243946
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.330767,
+            "lng": 141.9471758
+          },
+          "southwest": {
+            "lat": 43.291253,
+            "lng": 141.908052
+          }
+        }
+      },
+      "place_id": "ChIJlxXAVdVWC18R0mHnxi1LqS4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "美唄市",
+          "short_name": "美唄市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道美唄市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.419703,
+            "lng": 142.062177
+          },
+          "southwest": {
+            "lat": 43.248262,
+            "lng": 141.694332
+          }
+        },
+        "location": {
+          "lat": 43.3328322,
+          "lng": 141.8538617
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.419703,
+            "lng": 142.062177
+          },
+          "southwest": {
+            "lat": 43.248262,
+            "lng": 141.694332
+          }
+        }
+      },
+      "place_id": "ChIJfeUk-5tQC18RWw4U_YFfr50",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
