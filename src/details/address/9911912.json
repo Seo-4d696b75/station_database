@@ -1,0 +1,493 @@
+{
+  "station": "新雄別",
+  "lat": 43.183972,
+  "lng": 144.093778,
+  "plus_code": {
+    "compound_code": "53MV+HG 日本、北海道釧路市阿寒町西徹別",
+    "global_code": "8RM653MV+HG"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５７−１３",
+          "short_name": "５７−１３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２２線北",
+          "short_name": "２２線北",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "阿寒町布伏内",
+          "short_name": "阿寒町布伏内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "釧路市",
+          "short_name": "釧路市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "085-0222",
+          "short_name": "085-0222",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒085-0222 北海道釧路市阿寒町布伏内２２線北５７−１３",
+      "geometry": {
+        "location": {
+          "lat": 43.1830382,
+          "lng": 144.0921068
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 43.18438718029149,
+            "lng": 144.0934557802915
+          },
+          "southwest": {
+            "lat": 43.1816892197085,
+            "lng": 144.0907578197085
+          }
+        }
+      },
+      "place_id": "ChIJsdY_5FJdcl8R-mRfiQVphAg",
+      "plus_code": {
+        "compound_code": "53MR+6R 日本、北海道釧路市阿寒町布伏内",
+        "global_code": "8RM653MR+6R"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "阿寒町西徹別",
+          "short_name": "阿寒町西徹別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "釧路市",
+          "short_name": "釧路市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "085-0233",
+          "short_name": "085-0233",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 阿寒町西徹別 釧路市 北海道 085-0233 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.18448,
+            "lng": 144.0954496
+          },
+          "southwest": {
+            "lat": 43.182564,
+            "lng": 144.0928023
+          }
+        },
+        "location": {
+          "lat": 43.1835916,
+          "lng": 144.0942072
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.1848709802915,
+            "lng": 144.0954749302915
+          },
+          "southwest": {
+            "lat": 43.1821730197085,
+            "lng": 144.0927769697085
+          }
+        }
+      },
+      "place_id": "ChIJ0dz9FFNdcl8RFjRLohKdf14",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "085-0233",
+          "short_name": "085-0233",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "阿寒町西徹別",
+          "short_name": "阿寒町西徹別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "釧路市",
+          "short_name": "釧路市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒085-0233",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2406195,
+            "lng": 144.1371022
+          },
+          "southwest": {
+            "lat": 43.1784194,
+            "lng": 144.0854064
+          }
+        },
+        "location": {
+          "lat": 43.2185176,
+          "lng": 144.1100786
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2406195,
+            "lng": 144.1371022
+          },
+          "southwest": {
+            "lat": 43.1784194,
+            "lng": 144.0854064
+          }
+        }
+      },
+      "place_id": "ChIJOXVWWnlBcl8RP5RpOjxJmFo",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "阿寒町西徹別",
+          "short_name": "阿寒町西徹別",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "釧路市",
+          "short_name": "釧路市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "085-0233",
+          "short_name": "085-0233",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒085-0233 北海道釧路市阿寒町西徹別",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2406199,
+            "lng": 144.1371021
+          },
+          "southwest": {
+            "lat": 43.178419,
+            "lng": 144.0854059
+          }
+        },
+        "location": {
+          "lat": 43.2185176,
+          "lng": 144.1100786
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2406199,
+            "lng": 144.1371021
+          },
+          "southwest": {
+            "lat": 43.178419,
+            "lng": 144.0854059
+          }
+        }
+      },
+      "place_id": "ChIJgXpDZJNncl8RZ48-zetb8n8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "釧路市",
+          "short_name": "釧路市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道釧路市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.531122,
+            "lng": 144.4858159
+          },
+          "southwest": {
+            "lat": 42.842286,
+            "lng": 143.702952
+          }
+        },
+        "location": {
+          "lat": 42.9849413,
+          "lng": 144.3818041
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.531122,
+            "lng": 144.4858159
+          },
+          "southwest": {
+            "lat": 42.842286,
+            "lng": 143.702952
+          }
+        }
+      },
+      "place_id": "ChIJ0-NaIlRdcl8ReqtC8oEIzgQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
