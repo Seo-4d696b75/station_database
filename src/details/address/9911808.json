@@ -1,0 +1,407 @@
+{
+  "station": "大夕張炭山",
+  "lat": 43.091278,
+  "lng": 142.098417,
+  "plus_code": {
+    "compound_code": "33RX+G9 日本、北海道夕張市",
+    "global_code": "8RM433RX+G9"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "国道452号",
+          "short_name": "国道452号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "鹿島北栄町",
+          "short_name": "鹿島北栄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0675",
+          "short_name": "068-0675",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0675 北海道夕張市鹿島北栄町 国道452号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0913368,
+            "lng": 142.0976829
+          },
+          "southwest": {
+            "lat": 43.0895923,
+            "lng": 142.0968129
+          }
+        },
+        "location": {
+          "lat": 43.0904652,
+          "lng": 142.0972501
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0918135302915,
+            "lng": 142.0985968802915
+          },
+          "southwest": {
+            "lat": 43.0891155697085,
+            "lng": 142.0958989197085
+          }
+        }
+      },
+      "place_id": "ChIJUa5wzoK6dF8RrqhFhXyPgd4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鹿島北栄町",
+          "short_name": "鹿島北栄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "068-0675",
+          "short_name": "068-0675",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒068-0675 北海道夕張市鹿島北栄町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.225489,
+            "lng": 142.284549
+          },
+          "southwest": {
+            "lat": 43.084256,
+            "lng": 142.030108
+          }
+        },
+        "location": {
+          "lat": 43.14612959999999,
+          "lng": 142.1826044
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.225489,
+            "lng": 142.284549
+          },
+          "southwest": {
+            "lat": 43.084256,
+            "lng": 142.030108
+          }
+        }
+      },
+      "place_id": "ChIJZ8B5TByvdF8RhrvR7yNCPcw",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "068-0675",
+          "short_name": "068-0675",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "鹿島北栄町",
+          "short_name": "鹿島北栄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒068-0675",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.2254888,
+            "lng": 142.2845491
+          },
+          "southwest": {
+            "lat": 43.0842562,
+            "lng": 142.0301075
+          }
+        },
+        "location": {
+          "lat": 43.14612959999999,
+          "lng": 142.1826044
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.2254888,
+            "lng": 142.2845491
+          },
+          "southwest": {
+            "lat": 43.0842562,
+            "lng": 142.0301075
+          }
+        }
+      },
+      "place_id": "ChIJEYYs9xivdF8RGhaA6X5vY1A",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夕張市",
+          "short_name": "夕張市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道夕張市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.225438,
+            "lng": 142.3301761
+          },
+          "southwest": {
+            "lat": 42.859774,
+            "lng": 141.9024839
+          }
+        },
+        "location": {
+          "lat": 43.0567681,
+          "lng": 141.9739433
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.225438,
+            "lng": 142.3301761
+          },
+          "southwest": {
+            "lat": 42.859774,
+            "lng": 141.9024839
+          }
+        }
+      },
+      "place_id": "ChIJ-5cXU7-7dF8RjeaX1D-RqaQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
