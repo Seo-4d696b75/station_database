@@ -1,0 +1,493 @@
+{
+  "station": "本通",
+  "lat": 43.866722,
+  "lng": 141.897361,
+  "plus_code": {
+    "compound_code": "VV8W+MW 日本、北海道沼田町",
+    "global_code": "8RM3VV8W+MW"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "達布石狩沼田停車場線",
+          "short_name": "道道867号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "字幌新",
+          "short_name": "字幌新",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "沼田町",
+          "short_name": "沼田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "078-2225",
+          "short_name": "078-2225",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒078-2225 北海道雨竜郡沼田町字幌新 道道867号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.8778592,
+            "lng": 141.9091204
+          },
+          "southwest": {
+            "lat": 43.8637601,
+            "lng": 141.8949285
+          }
+        },
+        "location": {
+          "lat": 43.8712174,
+          "lng": 141.9013279
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 43.8778592,
+            "lng": 141.9091204
+          },
+          "southwest": {
+            "lat": 43.8637601,
+            "lng": 141.8949285
+          }
+        }
+      },
+      "place_id": "ChIJaTjrjJRfDF8RyD2r0eStQek",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "字幌新",
+          "short_name": "字幌新",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "沼田町",
+          "short_name": "沼田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡沼田町字幌新",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.912954,
+            "lng": 141.961576
+          },
+          "southwest": {
+            "lat": 43.86028,
+            "lng": 141.8658579
+          }
+        },
+        "location": {
+          "lat": 43.8930842,
+          "lng": 141.9214474
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.912954,
+            "lng": 141.961576
+          },
+          "southwest": {
+            "lat": 43.86028,
+            "lng": 141.8658579
+          }
+        }
+      },
+      "place_id": "ChIJYV2B7nVfDF8RlHTeTk0ukz0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "078-2225",
+          "short_name": "078-2225",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "字幌新",
+          "short_name": "字幌新",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "沼田町",
+          "short_name": "沼田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒078-2225",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.9108301,
+            "lng": 141.9609731
+          },
+          "southwest": {
+            "lat": 43.8602584,
+            "lng": 141.8658579
+          }
+        },
+        "location": {
+          "lat": 43.8930842,
+          "lng": 141.9214474
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.9108301,
+            "lng": 141.9609731
+          },
+          "southwest": {
+            "lat": 43.8602584,
+            "lng": 141.8658579
+          }
+        }
+      },
+      "place_id": "ChIJwZ3W9q6KDF8RbG3gQJ_dgWM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "沼田町",
+          "short_name": "沼田町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡沼田町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.006327,
+            "lng": 142.0856941
+          },
+          "southwest": {
+            "lat": 43.7675099,
+            "lng": 141.8584381
+          }
+        },
+        "location": {
+          "lat": 43.8068287,
+          "lng": 141.9334172
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.006327,
+            "lng": 142.0856941
+          },
+          "southwest": {
+            "lat": 43.7675099,
+            "lng": 141.8584381
+          }
+        }
+      },
+      "place_id": "ChIJt2Amt1BfDF8RuEu1v3_Lvos",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "雨竜郡",
+          "short_name": "雨竜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道雨竜郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 44.4787571,
+            "lng": 142.3239735
+          },
+          "southwest": {
+            "lat": 43.6069629,
+            "lng": 141.5229191
+          }
+        },
+        "location": {
+          "lat": 43.7147286,
+          "lng": 141.8706657
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 44.4787571,
+            "lng": 142.3239735
+          },
+          "southwest": {
+            "lat": 43.6069629,
+            "lng": 141.5229191
+          }
+        }
+      },
+      "place_id": "ChIJ98u29O9PDF8RNohcbWoWOrM",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "北海道",
+          "short_name": "北海道",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、北海道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        },
+        "location": {
+          "lat": 43.2203266,
+          "lng": 142.8634737
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.5265181,
+            "lng": 145.817624
+          },
+          "southwest": {
+            "lat": 41.3516002,
+            "lng": 139.3340799
+          }
+        }
+      },
+      "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
