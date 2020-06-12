@@ -1,0 +1,681 @@
+{
+  "station": "東岱野",
+  "lat": 40.291028,
+  "lng": 140.604281,
+  "plus_code": {
+    "compound_code": "7JR3+CP 日本、秋田県大館市",
+    "global_code": "8RG27JR3+CP"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６３−２",
+          "short_name": "６３−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上瘤木台",
+          "short_name": "上瘤木台",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0024 秋田県大館市大茂内上瘤木台６３−２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.2911732,
+            "lng": 140.6042328
+          },
+          "southwest": {
+            "lat": 40.2910648,
+            "lng": 140.6038205
+          }
+        },
+        "location": {
+          "lat": 40.2911136,
+          "lng": 140.6040437
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2924679802915,
+            "lng": 140.6053756302915
+          },
+          "southwest": {
+            "lat": 40.2897700197085,
+            "lng": 140.6026776697085
+          }
+        }
+      },
+      "place_id": "ChIJobI4B_zEml8ROfbiBDeeV0s",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６３",
+          "short_name": "６３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上瘤木台",
+          "short_name": "上瘤木台",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0024 秋田県大館市大茂内上瘤木台６３",
+      "geometry": {
+        "location": {
+          "lat": 40.2911408,
+          "lng": 140.6040893
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2924897802915,
+            "lng": 140.6054382802915
+          },
+          "southwest": {
+            "lat": 40.2897918197085,
+            "lng": 140.6027403197085
+          }
+        }
+      },
+      "place_id": "ChIJ71QSB_zEml8RREae6aXAsoM",
+      "plus_code": {
+        "compound_code": "7JR3+FJ 日本、秋田県大館市",
+        "global_code": "8RG27JR3+FJ"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "樹海ライン",
+          "short_name": "県道2号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "中瘤木台",
+          "short_name": "中瘤木台",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0024 秋田県大館市大茂内中瘤木台 樹海ライン",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.2908725,
+            "lng": 140.6051672
+          },
+          "southwest": {
+            "lat": 40.2908113,
+            "lng": 140.6043145
+          }
+        },
+        "location": {
+          "lat": 40.2908418,
+          "lng": 140.6047408
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2921908802915,
+            "lng": 140.6060898302915
+          },
+          "southwest": {
+            "lat": 40.2894929197085,
+            "lng": 140.6033918697085
+          }
+        }
+      },
+      "place_id": "ChIJC6TaGvzEml8RtpUugberH5w",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上瘤木台",
+          "short_name": "上瘤木台",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0024 秋田県大館市大茂内上瘤木台",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.2974861,
+            "lng": 140.613301
+          },
+          "southwest": {
+            "lat": 40.290913,
+            "lng": 140.6020521
+          }
+        },
+        "location": {
+          "lat": 40.2957201,
+          "lng": 140.6106665
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2974861,
+            "lng": 140.613301
+          },
+          "southwest": {
+            "lat": 40.290913,
+            "lng": 140.6020521
+          }
+        }
+      },
+      "place_id": "ChIJ_ax42uTEml8Rb-JZSqtRas0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0024 秋田県大館市大茂内",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.364633,
+            "lng": 140.648159
+          },
+          "southwest": {
+            "lat": 40.285559,
+            "lng": 140.5898019
+          }
+        },
+        "location": {
+          "lat": 40.3289034,
+          "lng": 140.6188198
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.364633,
+            "lng": 140.648159
+          },
+          "southwest": {
+            "lat": 40.285559,
+            "lng": 140.5898019
+          }
+        }
+      },
+      "place_id": "ChIJlUYXzO7Eml8RjBp6L6COR7g",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "017-0024",
+          "short_name": "017-0024",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大茂内",
+          "short_name": "大茂内",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒017-0024",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.3646332,
+            "lng": 140.6481588
+          },
+          "southwest": {
+            "lat": 40.2855999,
+            "lng": 140.5898019
+          }
+        },
+        "location": {
+          "lat": 40.3289034,
+          "lng": 140.6188198
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.3646332,
+            "lng": 140.6481588
+          },
+          "southwest": {
+            "lat": 40.2855999,
+            "lng": 140.5898019
+          }
+        }
+      },
+      "place_id": "ChIJpydA1FfEml8RM2tVP0KSHmQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、秋田県大館市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.487123,
+            "lng": 140.7442291
+          },
+          "southwest": {
+            "lat": 40.04838290000001,
+            "lng": 140.3325519
+          }
+        },
+        "location": {
+          "lat": 40.2714146,
+          "lng": 140.5641387
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.487123,
+            "lng": 140.7442291
+          },
+          "southwest": {
+            "lat": 40.04838290000001,
+            "lng": 140.3325519
+          }
+        }
+      },
+      "place_id": "ChIJ-91rvY_Gml8RVfn27WHJR-I",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、秋田県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.511142,
+            "lng": 140.9953804
+          },
+          "southwest": {
+            "lat": 38.873028,
+            "lng": 139.6917816
+          }
+        },
+        "location": {
+          "lat": 40.1376293,
+          "lng": 140.334341
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.511142,
+            "lng": 140.9953804
+          },
+          "southwest": {
+            "lat": 38.873028,
+            "lng": 139.6917816
+          }
+        }
+      },
+      "place_id": "ChIJv_Eu0V7rj18REhxcYOz7fZo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

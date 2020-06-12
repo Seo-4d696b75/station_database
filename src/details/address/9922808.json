@@ -1,0 +1,667 @@
+{
+  "station": "茂内",
+  "lat": 40.291467,
+  "lng": 140.689211,
+  "plus_code": {
+    "compound_code": "7MRQ+HM 日本、秋田県大館市",
+    "global_code": "8RG27MRQ+HM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１０８",
+          "short_name": "１０８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上谷地",
+          "short_name": "上谷地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0021 秋田県大館市雪沢上谷地１０８",
+      "geometry": {
+        "location": {
+          "lat": 40.2914531,
+          "lng": 140.6892124
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2928020802915,
+            "lng": 140.6905613802915
+          },
+          "southwest": {
+            "lat": 40.2901041197085,
+            "lng": 140.6878634197085
+          }
+        }
+      },
+      "place_id": "ChIJFwlpLaXaml8RGsSEcN0uMlk",
+      "plus_code": {
+        "compound_code": "7MRQ+HM 日本、秋田県大館市",
+        "global_code": "8RG27MRQ+HM"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５−１",
+          "short_name": "５−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "茂内屋布",
+          "short_name": "茂内屋布",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0021 秋田県大館市雪沢茂内屋布５−１",
+      "geometry": {
+        "location": {
+          "lat": 40.2914611,
+          "lng": 140.6892618
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 40.2928100802915,
+            "lng": 140.6906107802915
+          },
+          "southwest": {
+            "lat": 40.2901121197085,
+            "lng": 140.6879128197085
+          }
+        }
+      },
+      "place_id": "ChIJdXETLaXaml8RylCxplho2A8",
+      "plus_code": {
+        "compound_code": "7MRQ+HP 日本、秋田県大館市",
+        "global_code": "8RG27MRQ+HP"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 雪沢 大館市 秋田県 017-0021 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.2918178,
+            "lng": 140.6896056
+          },
+          "southwest": {
+            "lat": 40.2914236,
+            "lng": 140.6893731
+          }
+        },
+        "location": {
+          "lat": 40.2916207,
+          "lng": 140.6894893
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 40.29296968029151,
+            "lng": 140.6908383302915
+          },
+          "southwest": {
+            "lat": 40.29027171970851,
+            "lng": 140.6881403697085
+          }
+        }
+      },
+      "place_id": "ChIJA1VBK6Xaml8RvgEyrrubVlo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茂内屋布",
+          "short_name": "茂内屋布",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0021 秋田県大館市雪沢茂内屋布",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.293977,
+            "lng": 140.691347
+          },
+          "southwest": {
+            "lat": 40.286047,
+            "lng": 140.678652
+          }
+        },
+        "location": {
+          "lat": 40.2908207,
+          "lng": 140.6844168
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.293977,
+            "lng": 140.691347
+          },
+          "southwest": {
+            "lat": 40.286047,
+            "lng": 140.678652
+          }
+        }
+      },
+      "place_id": "ChIJWZ1FaqXaml8RA_gF-ATO5M8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒017-0021",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.4128503,
+            "lng": 140.7275199
+          },
+          "southwest": {
+            "lat": 40.2515523,
+            "lng": 140.617643
+          }
+        },
+        "location": {
+          "lat": 40.3228909,
+          "lng": 140.6702832
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.4128503,
+            "lng": 140.7275199
+          },
+          "southwest": {
+            "lat": 40.2515523,
+            "lng": 140.617643
+          }
+        }
+      },
+      "place_id": "ChIJTXYlU8zaml8RN3WzqUtzvZQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "雪沢",
+          "short_name": "雪沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "017-0021",
+          "short_name": "017-0021",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒017-0021 秋田県大館市雪沢",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.41285000000001,
+            "lng": 140.72752
+          },
+          "southwest": {
+            "lat": 40.251552,
+            "lng": 140.6176429
+          }
+        },
+        "location": {
+          "lat": 40.3228909,
+          "lng": 140.6702832
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.41285000000001,
+            "lng": 140.72752
+          },
+          "southwest": {
+            "lat": 40.251552,
+            "lng": 140.6176429
+          }
+        }
+      },
+      "place_id": "ChIJHY4X5sTaml8RyDhPjI8nYOQ",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大館市",
+          "short_name": "大館市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、秋田県大館市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.487123,
+            "lng": 140.7442291
+          },
+          "southwest": {
+            "lat": 40.04838290000001,
+            "lng": 140.3325519
+          }
+        },
+        "location": {
+          "lat": 40.2714146,
+          "lng": 140.5641387
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.487123,
+            "lng": 140.7442291
+          },
+          "southwest": {
+            "lat": 40.04838290000001,
+            "lng": 140.3325519
+          }
+        }
+      },
+      "place_id": "ChIJ-91rvY_Gml8RVfn27WHJR-I",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "秋田県",
+          "short_name": "秋田県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、秋田県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.511142,
+            "lng": 140.9953804
+          },
+          "southwest": {
+            "lat": 38.873028,
+            "lng": 139.6917816
+          }
+        },
+        "location": {
+          "lat": 40.1376293,
+          "lng": 140.334341
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.511142,
+            "lng": 140.9953804
+          },
+          "southwest": {
+            "lat": 38.873028,
+            "lng": 139.6917816
+          }
+        }
+      },
+      "place_id": "ChIJv_Eu0V7rj18REhxcYOz7fZo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
