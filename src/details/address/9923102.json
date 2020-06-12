@@ -1,0 +1,990 @@
+{
+  "station": "尾花沢",
+  "lat": 38.602194,
+  "lng": 140.401333,
+  "plus_code": {
+    "compound_code": "JC22+VG 日本、山形県尾花沢市",
+    "global_code": "8RC2JC22+VG"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１６",
+          "short_name": "１６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目１−１６",
+      "geometry": {
+        "location": {
+          "lat": 38.6022173,
+          "lng": 140.4013171
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6035662802915,
+            "lng": 140.4026660802915
+          },
+          "southwest": {
+            "lat": 38.6008683197085,
+            "lng": 140.3999681197085
+          }
+        }
+      },
+      "place_id": "ChIJJedV_wdZiV8Rnwim_RPKSMg",
+      "plus_code": {
+        "compound_code": "JC22+VG 日本、山形県尾花沢市",
+        "global_code": "8RC2JC22+VG"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１６",
+          "short_name": "１６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目１−１６",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.6025314,
+            "lng": 140.4016039
+          },
+          "southwest": {
+            "lat": 38.6017682,
+            "lng": 140.4007074
+          }
+        },
+        "location": {
+          "lat": 38.6021417,
+          "lng": 140.4012197
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6034987802915,
+            "lng": 140.4025046302915
+          },
+          "southwest": {
+            "lat": 38.6008008197085,
+            "lng": 140.3998066697085
+          }
+        }
+      },
+      "place_id": "ChIJD1_3GwdZiV8R_0o72PgcdDQ",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "尾花沢待合所（バス）",
+          "short_name": "尾花沢待合所（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目１ 尾花沢待合所（バス）",
+      "geometry": {
+        "location": {
+          "lat": 38.6018,
+          "lng": 140.4013
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.60314898029149,
+            "lng": 140.4026489802915
+          },
+          "southwest": {
+            "lat": 38.60045101970849,
+            "lng": 140.3999510197085
+          }
+        }
+      },
+      "place_id": "ChIJXTMc4QZZiV8R1xZcUakfIBw",
+      "plus_code": {
+        "compound_code": "JC22+PG 日本、山形県尾花沢市",
+        "global_code": "8RC2JC22+PG"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４",
+          "short_name": "１４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目１−１４",
+      "geometry": {
+        "location": {
+          "lat": 38.6025865,
+          "lng": 140.4014174
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6039354802915,
+            "lng": 140.4027663802915
+          },
+          "southwest": {
+            "lat": 38.6012375197085,
+            "lng": 140.4000684197085
+          }
+        }
+      },
+      "place_id": "ChIJbYVVDwdZiV8R2ML2zgdS8Ro",
+      "plus_code": {
+        "compound_code": "JC32+2H 日本、山形県尾花沢市",
+        "global_code": "8RC2JC32+2H"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, ２ 上町 尾花沢市 山形県 999-4228 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.6021537,
+            "lng": 140.4016147
+          },
+          "southwest": {
+            "lat": 38.6011117,
+            "lng": 140.4012528
+          }
+        },
+        "location": {
+          "lat": 38.6016412,
+          "lng": 140.4013906
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6029816802915,
+            "lng": 140.4027827302915
+          },
+          "southwest": {
+            "lat": 38.6002837197085,
+            "lng": 140.4000847697085
+          }
+        }
+      },
+      "place_id": "ChIJd5Nm5wZZiV8RLhXNva80ARo",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.60328,
+            "lng": 140.402141
+          },
+          "southwest": {
+            "lat": 38.600691,
+            "lng": 140.3999359
+          }
+        },
+        "location": {
+          "lat": 38.6019986,
+          "lng": 140.401045
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.60333448029149,
+            "lng": 140.4023874302915
+          },
+          "southwest": {
+            "lat": 38.6006365197085,
+            "lng": 140.3996894697085
+          }
+        }
+      },
+      "place_id": "ChIJ-aarqgZZiV8R7fa_wVJ_Cw0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６丁目",
+          "short_name": "６丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町６丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.604653,
+            "lng": 140.402241
+          },
+          "southwest": {
+            "lat": 38.6006731,
+            "lng": 140.3974859
+          }
+        },
+        "location": {
+          "lat": 38.6024965,
+          "lng": 140.4004785
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.604653,
+            "lng": 140.402241
+          },
+          "southwest": {
+            "lat": 38.6006731,
+            "lng": 140.3974859
+          }
+        }
+      },
+      "place_id": "ChIJpb9ZagdZiV8RgM5o08m1q9Q",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒999-4228 山形県尾花沢市上町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.604907,
+            "lng": 140.406857
+          },
+          "southwest": {
+            "lat": 38.595565,
+            "lng": 140.396911
+          }
+        },
+        "location": {
+          "lat": 38.6011557,
+          "lng": 140.402197
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.604907,
+            "lng": 140.406857
+          },
+          "southwest": {
+            "lat": 38.595565,
+            "lng": 140.396911
+          }
+        }
+      },
+      "place_id": "ChIJyUcDrAZZiV8RgDjAug09FZU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "999-4228",
+          "short_name": "999-4228",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上町",
+          "short_name": "上町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒999-4228",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.6049051,
+            "lng": 140.4068572
+          },
+          "southwest": {
+            "lat": 38.5955719,
+            "lng": 140.3969112
+          }
+        },
+        "location": {
+          "lat": 38.6011557,
+          "lng": 140.402197
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.6049051,
+            "lng": 140.4068572
+          },
+          "southwest": {
+            "lat": 38.5955719,
+            "lng": 140.3969112
+          }
+        }
+      },
+      "place_id": "ChIJf0-G9wZZiV8RjO66QjGqZi0",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "尾花沢市",
+          "short_name": "尾花沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県尾花沢市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7217291,
+            "lng": 140.619979
+          },
+          "southwest": {
+            "lat": 38.436502,
+            "lng": 140.3127261
+          }
+        },
+        "location": {
+          "lat": 38.6006855,
+          "lng": 140.405699
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7217291,
+            "lng": 140.619979
+          },
+          "southwest": {
+            "lat": 38.436502,
+            "lng": 140.3127261
+          }
+        }
+      },
+      "place_id": "ChIJB-d-NL9eiV8RWjjkxxkdg3A",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        },
+        "location": {
+          "lat": 38.5370564,
+          "lng": 140.1435198
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        }
+      },
+      "place_id": "ChIJbeLoh3fsi18RXo9kabDE3OY",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
