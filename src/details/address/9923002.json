@@ -1,0 +1,752 @@
+{
+  "station": "京田",
+  "lat": 38.748,
+  "lng": 139.812639,
+  "plus_code": {
+    "compound_code": "PRX7+53 日本、山形県鶴岡市",
+    "global_code": "8QCXPRX7+53"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５５",
+          "short_name": "５５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "宮ノ腰",
+          "short_name": "宮ノ腰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒997-0054 山形県鶴岡市高田宮ノ腰５５",
+      "geometry": {
+        "location": {
+          "lat": 38.7480018,
+          "lng": 139.8126398
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7493507802915,
+            "lng": 139.8139887802915
+          },
+          "southwest": {
+            "lat": 38.7466528197085,
+            "lng": 139.8112908197085
+          }
+        }
+      },
+      "place_id": "ChIJh5bhZGgajF8RMUQFTfFCeQo",
+      "plus_code": {
+        "compound_code": "PRX7+63 日本、山形県鶴岡市",
+        "global_code": "8QCXPRX7+63"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５５−３",
+          "short_name": "５５−３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "宮ノ腰",
+          "short_name": "宮ノ腰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒997-0054 山形県鶴岡市高田宮ノ腰５５−３",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.748099,
+            "lng": 139.8127672
+          },
+          "southwest": {
+            "lat": 38.7480039,
+            "lng": 139.8125546
+          }
+        },
+        "location": {
+          "lat": 38.7480537,
+          "lng": 139.8126672
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7494004302915,
+            "lng": 139.8140098802915
+          },
+          "southwest": {
+            "lat": 38.7467024697085,
+            "lng": 139.8113119197085
+          }
+        }
+      },
+      "place_id": "ChIJK90OZWgajF8RyAg4cZSIXHo",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５５",
+          "short_name": "５５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "宮ノ腰",
+          "short_name": "宮ノ腰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒997-0054 山形県鶴岡市高田宮ノ腰５５",
+      "geometry": {
+        "location": {
+          "lat": 38.7479635,
+          "lng": 139.8127849
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.74931248029149,
+            "lng": 139.8141338802915
+          },
+          "southwest": {
+            "lat": 38.74661451970849,
+            "lng": 139.8114359197085
+          }
+        }
+      },
+      "place_id": "ChIJCVYPZWgajF8RHBC_jgiTkHY",
+      "plus_code": {
+        "compound_code": "PRX7+54 日本、山形県鶴岡市",
+        "global_code": "8QCXPRX7+54"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 高田 鶴岡市 山形県 997-0054 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7480657,
+            "lng": 139.8127905
+          },
+          "southwest": {
+            "lat": 38.74781369999999,
+            "lng": 139.8124474
+          }
+        },
+        "location": {
+          "lat": 38.7479397,
+          "lng": 139.812619
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7492886802915,
+            "lng": 139.8139679302915
+          },
+          "southwest": {
+            "lat": 38.7465907197085,
+            "lng": 139.8112699697085
+          }
+        }
+      },
+      "place_id": "ChIJj-_HZGgajF8REPy4dxN61pI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "宮ノ腰",
+          "short_name": "宮ノ腰",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒997-0054 山形県鶴岡市高田宮ノ腰",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.749452,
+            "lng": 139.8147839
+          },
+          "southwest": {
+            "lat": 38.74759299999999,
+            "lng": 139.8123939
+          }
+        },
+        "location": {
+          "lat": 38.7486008,
+          "lng": 139.8135938
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.74987148029149,
+            "lng": 139.8149378802915
+          },
+          "southwest": {
+            "lat": 38.74717351970849,
+            "lng": 139.8122399197085
+          }
+        }
+      },
+      "place_id": "ChIJsZM2U2YajF8RdGEiXOCfCeI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "997-0054",
+          "short_name": "997-0054",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒997-0054",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.7569328,
+            "lng": 139.8176474
+          },
+          "southwest": {
+            "lat": 38.7412526,
+            "lng": 139.8017935
+          }
+        },
+        "location": {
+          "lat": 38.7513761,
+          "lng": 139.8082256
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.7569328,
+            "lng": 139.8176474
+          },
+          "southwest": {
+            "lat": 38.7412526,
+            "lng": 139.8017935
+          }
+        }
+      },
+      "place_id": "ChIJA4C3Z2gajF8RTXLhUy7qWWc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "高田",
+          "short_name": "高田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県鶴岡市高田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.756933,
+            "lng": 139.8176481
+          },
+          "southwest": {
+            "lat": 38.741205,
+            "lng": 139.800852
+          }
+        },
+        "location": {
+          "lat": 38.7513761,
+          "lng": 139.8082256
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.756933,
+            "lng": 139.8176481
+          },
+          "southwest": {
+            "lat": 38.741205,
+            "lng": 139.800852
+          }
+        }
+      },
+      "place_id": "ChIJfyONp2kajF8RRo3j5cIRgxo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鶴岡市",
+          "short_name": "鶴岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県鶴岡市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.826769,
+            "lng": 140.030084
+          },
+          "southwest": {
+            "lat": 38.316766,
+            "lng": 139.5390839
+          }
+        },
+        "location": {
+          "lat": 38.7271972,
+          "lng": 139.8267422
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.826769,
+            "lng": 140.030084
+          },
+          "southwest": {
+            "lat": 38.316766,
+            "lng": 139.5390839
+          }
+        }
+      },
+      "place_id": "ChIJKxWZzi51jF8R15BilRYA6sY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        },
+        "location": {
+          "lat": 38.5370564,
+          "lng": 140.1435198
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        }
+      },
+      "place_id": "ChIJbeLoh3fsi18RXo9kabDE3OY",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
