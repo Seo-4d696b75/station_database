@@ -1,0 +1,712 @@
+{
+  "station": "黒羽",
+  "lat": 36.862333,
+  "lng": 140.112917,
+  "plus_code": {
+    "compound_code": "V467+W5 日本、栃木県大田原市",
+    "global_code": "8R82V467+W5"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒324-0241 栃木県大田原市黒羽向町 Unnamed Road",
+      "geometry": {
+        "location": {
+          "lat": 36.8623281,
+          "lng": 140.11291
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8636770802915,
+            "lng": 140.1142589802915
+          },
+          "southwest": {
+            "lat": 36.8609791197085,
+            "lng": 140.1115610197085
+          }
+        }
+      },
+      "place_id": "ChIJaTS-xO3TIWAReosQsEJbopI",
+      "plus_code": {
+        "compound_code": "V467+W5 日本、栃木県大田原市",
+        "global_code": "8R82V467+W5"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４６５−１５",
+          "short_name": "４６５−１５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒324-0241 栃木県大田原市黒羽向町４６５−１５",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8624464,
+            "lng": 140.1128292
+          },
+          "southwest": {
+            "lat": 36.8621312,
+            "lng": 140.1123854
+          }
+        },
+        "location": {
+          "lat": 36.8622587,
+          "lng": 140.1126397
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8636377802915,
+            "lng": 140.1139562802915
+          },
+          "southwest": {
+            "lat": 36.8609398197085,
+            "lng": 140.1112583197085
+          }
+        }
+      },
+      "place_id": "ChIJF0z7we3TIWARb16DfKkPcOs",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４６５−２",
+          "short_name": "４６５−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒324-0241 栃木県大田原市黒羽向町４６５−２",
+      "geometry": {
+        "location": {
+          "lat": 36.8623048,
+          "lng": 140.1126055
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8636537802915,
+            "lng": 140.1139544802915
+          },
+          "southwest": {
+            "lat": 36.8609558197085,
+            "lng": 140.1112565197085
+          }
+        }
+      },
+      "place_id": "ChIJt7xdwu3TIWARqnEBBLf8DFI",
+      "plus_code": {
+        "compound_code": "V467+W2 日本、栃木県大田原市",
+        "global_code": "8R82V467+W2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "黒羽出張所",
+          "short_name": "黒羽出張所",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒324-0241 栃木県大田原市黒羽向町 黒羽出張所",
+      "geometry": {
+        "location": {
+          "lat": 36.8619435,
+          "lng": 140.1134435
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8632924802915,
+            "lng": 140.1147924802915
+          },
+          "southwest": {
+            "lat": 36.8605945197085,
+            "lng": 140.1120945197085
+          }
+        }
+      },
+      "place_id": "ChIJZf4P1u3TIWAR0pfpMNhu7xM",
+      "plus_code": {
+        "compound_code": "V467+Q9 日本、栃木県大田原市",
+        "global_code": "8R82V467+Q9"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 黒羽向町 大田原市 栃木県 324-0241 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8625559,
+            "lng": 140.1131313
+          },
+          "southwest": {
+            "lat": 36.8618163,
+            "lng": 140.1128064
+          }
+        },
+        "location": {
+          "lat": 36.8621873,
+          "lng": 140.1129732
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8635350802915,
+            "lng": 140.1143178302915
+          },
+          "southwest": {
+            "lat": 36.8608371197085,
+            "lng": 140.1116198697085
+          }
+        }
+      },
+      "place_id": "ChIJyfka2-3TIWARvNlJsfDRI8Y",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "324-0241",
+          "short_name": "324-0241",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒324-0241",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8844999,
+            "lng": 140.1222282
+          },
+          "southwest": {
+            "lat": 36.8569887,
+            "lng": 140.105502
+          }
+        },
+        "location": {
+          "lat": 36.8688633,
+          "lng": 140.1138045
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8844999,
+            "lng": 140.1222282
+          },
+          "southwest": {
+            "lat": 36.8569887,
+            "lng": 140.105502
+          }
+        }
+      },
+      "place_id": "ChIJY6TJu-7TIWARdni0x1XkgUg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "黒羽向町",
+          "short_name": "黒羽向町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、栃木県大田原市黒羽向町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.887165,
+            "lng": 140.122228
+          },
+          "southwest": {
+            "lat": 36.856989,
+            "lng": 140.1055019
+          }
+        },
+        "location": {
+          "lat": 36.8688633,
+          "lng": 140.1138045
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.887165,
+            "lng": 140.122228
+          },
+          "southwest": {
+            "lat": 36.856989,
+            "lng": 140.1055019
+          }
+        }
+      },
+      "place_id": "ChIJjXM8d5HTIWARWnXqjDKYW4A",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大田原市",
+          "short_name": "大田原市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、栃木県大田原市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.948383,
+            "lng": 140.2674041
+          },
+          "southwest": {
+            "lat": 36.768487,
+            "lng": 139.9216788
+          }
+        },
+        "location": {
+          "lat": 36.8712697,
+          "lng": 140.0153213
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.948383,
+            "lng": 140.2674041
+          },
+          "southwest": {
+            "lat": 36.768487,
+            "lng": 139.9216788
+          }
+        }
+      },
+      "place_id": "ChIJrcCiwQzUIWARebule9HQJlI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "栃木県",
+          "short_name": "栃木県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、栃木県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.1550727,
+            "lng": 140.2923309
+          },
+          "southwest": {
+            "lat": 36.1975503,
+            "lng": 139.3265478
+          }
+        },
+        "location": {
+          "lat": 36.6714739,
+          "lng": 139.8547266
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.1550727,
+            "lng": 140.2923309
+          },
+          "southwest": {
+            "lat": 36.1975503,
+            "lng": 139.3265478
+          }
+        }
+      },
+      "place_id": "ChIJ7RWXa1VwH2ARB9AguZ5FZW0",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
