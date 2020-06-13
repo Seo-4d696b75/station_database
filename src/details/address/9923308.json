@@ -1,0 +1,673 @@
+{
+  "station": "上駄子町",
+  "lat": 38.012567,
+  "lng": 140.2378,
+  "plus_code": {
+    "compound_code": "267Q+24 日本、山形県高畠町",
+    "global_code": "8RC2267Q+24"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "９６０−１２",
+          "short_name": "９６０−１２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大字二井宿",
+          "short_name": "大字二井宿",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "992-0301",
+          "short_name": "992-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒992-0301 山形県東置賜郡高畠町大字二井宿９６０−１２",
+      "geometry": {
+        "location": {
+          "lat": 38.0117606,
+          "lng": 140.2370882
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.01310958029149,
+            "lng": 140.2384371802915
+          },
+          "southwest": {
+            "lat": 38.0104116197085,
+            "lng": 140.2357392197085
+          }
+        }
+      },
+      "place_id": "ChIJJVldGbpXil8Rk0Dnir5Q_NM",
+      "plus_code": {
+        "compound_code": "266P+PR 日本、山形県高畠町",
+        "global_code": "8RC2266P+PR"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１０１２",
+          "short_name": "１０１２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大字二井宿",
+          "short_name": "大字二井宿",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "992-0301",
+          "short_name": "992-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒992-0301 山形県東置賜郡高畠町大字二井宿１０１２",
+      "geometry": {
+        "location": {
+          "lat": 38.0109441,
+          "lng": 140.2380785
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0122930802915,
+            "lng": 140.2394274802915
+          },
+          "southwest": {
+            "lat": 38.0095951197085,
+            "lng": 140.2367295197085
+          }
+        }
+      },
+      "place_id": "ChIJQUJEGsxXil8Rbtde1yeoagY",
+      "plus_code": {
+        "compound_code": "266Q+96 日本、山形県高畠町",
+        "global_code": "8RC2266Q+96"
+      },
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "みちのくおとぎ街道",
+          "short_name": "国道113号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大字二井宿",
+          "short_name": "大字二井宿",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "992-0301",
+          "short_name": "992-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒992-0301 山形県東置賜郡高畠町大字二井宿 みちのくおとぎ街道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0137945,
+            "lng": 140.2407845
+          },
+          "southwest": {
+            "lat": 38.0120108,
+            "lng": 140.2371573
+          }
+        },
+        "location": {
+          "lat": 38.0129839,
+          "lng": 140.2389149
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0142516302915,
+            "lng": 140.2407845
+          },
+          "southwest": {
+            "lat": 38.0115536697085,
+            "lng": 140.2371573
+          }
+        }
+      },
+      "place_id": "ChIJ_1skgbpXil8ROshEXVYfQqI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "992-0301",
+          "short_name": "992-0301",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大字二井宿",
+          "short_name": "大字二井宿",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒992-0301",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0825076,
+            "lng": 140.2836839
+          },
+          "southwest": {
+            "lat": 38.0020952,
+            "lng": 140.2151353
+          }
+        },
+        "location": {
+          "lat": 38.04225410000001,
+          "lng": 140.2544392
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0825076,
+            "lng": 140.2836839
+          },
+          "southwest": {
+            "lat": 38.0020952,
+            "lng": 140.2151353
+          }
+        }
+      },
+      "place_id": "ChIJJTUbVghXil8RznFZlpqDkH0",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大字二井宿",
+          "short_name": "大字二井宿",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "992-0301",
+          "short_name": "992-0301",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒992-0301 山形県東置賜郡高畠町大字二井宿",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.082508,
+            "lng": 140.283684
+          },
+          "southwest": {
+            "lat": 38.002095,
+            "lng": 140.2151349
+          }
+        },
+        "location": {
+          "lat": 38.05187250000001,
+          "lng": 140.2555926
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.082508,
+            "lng": 140.283684
+          },
+          "southwest": {
+            "lat": 38.002095,
+            "lng": 140.2151349
+          }
+        }
+      },
+      "place_id": "ChIJAce3kuNWil8Rcom2Qowxcgk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "高畠町",
+          "short_name": "高畠町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県東置賜郡高畠町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.082491,
+            "lng": 140.2895769
+          },
+          "southwest": {
+            "lat": 37.896123,
+            "lng": 140.110555
+          }
+        },
+        "location": {
+          "lat": 38.0027438,
+          "lng": 140.1892163
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.082491,
+            "lng": 140.2895769
+          },
+          "southwest": {
+            "lat": 37.896123,
+            "lng": 140.110555
+          }
+        }
+      },
+      "place_id": "ChIJq2WtJWv4il8RQEQS4YQsaW8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東置賜郡",
+          "short_name": "東置賜郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県東置賜郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0824908,
+            "lng": 140.289577
+          },
+          "southwest": {
+            "lat": 37.8748041,
+            "lng": 139.9217711
+          }
+        },
+        "location": {
+          "lat": 38.0138611,
+          "lng": 140.0825132
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0824908,
+            "lng": 140.289577
+          },
+          "southwest": {
+            "lat": 37.8748041,
+            "lng": 139.9217711
+          }
+        }
+      },
+      "place_id": "ChIJm3YbFdj7il8RUd-NSY0t-yE",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "山形県",
+          "short_name": "山形県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、山形県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        },
+        "location": {
+          "lat": 38.5370564,
+          "lng": 140.1435198
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.2155237,
+            "lng": 140.6465095
+          },
+          "southwest": {
+            "lat": 37.733865,
+            "lng": 139.5199419
+          }
+        }
+      },
+      "place_id": "ChIJbeLoh3fsi18RXo9kabDE3OY",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
