@@ -1,0 +1,676 @@
+{
+  "station": "阿波山",
+  "lat": 36.516113,
+  "lng": 140.368603,
+  "plus_code": {
+    "compound_code": "G989+CC 日本、茨城県城里町",
+    "global_code": "8R82G989+CC"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１８９−２",
+          "short_name": "１８９−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大字阿波山",
+          "short_name": "大字阿波山",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-4344",
+          "short_name": "311-4344",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-4344 茨城県東茨城郡城里町大字阿波山１８９−２",
+      "geometry": {
+        "location": {
+          "lat": 36.5160899,
+          "lng": 140.3684626
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5174388802915,
+            "lng": 140.3698115802915
+          },
+          "southwest": {
+            "lat": 36.5147409197085,
+            "lng": 140.3671136197085
+          }
+        }
+      },
+      "place_id": "ChIJmSYb4aGMIWARu12nvVJVZjM",
+      "plus_code": {
+        "compound_code": "G989+C9 日本、茨城県城里町",
+        "global_code": "8R82G989+C9"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１６７",
+          "short_name": "１６７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大字阿波山",
+          "short_name": "大字阿波山",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-4344",
+          "short_name": "311-4344",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-4344 茨城県東茨城郡城里町大字阿波山１６７",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5160381,
+            "lng": 140.3697141
+          },
+          "southwest": {
+            "lat": 36.5156654,
+            "lng": 140.3690567
+          }
+        },
+        "location": {
+          "lat": 36.5158706,
+          "lng": 140.3693359
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5172007302915,
+            "lng": 140.3707343802915
+          },
+          "southwest": {
+            "lat": 36.5145027697085,
+            "lng": 140.3680364197085
+          }
+        }
+      },
+      "place_id": "ChIJAWMAZZ-MIWARlSA35RR9f7w",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大字阿波山",
+          "short_name": "大字阿波山",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-4344",
+          "short_name": "311-4344",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 大字阿波山 城里町 東茨城郡 茨城県 311-4344 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5164577,
+            "lng": 140.3687246
+          },
+          "southwest": {
+            "lat": 36.516229,
+            "lng": 140.3685828
+          }
+        },
+        "location": {
+          "lat": 36.5163451,
+          "lng": 140.3686581
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5176923302915,
+            "lng": 140.3700026802915
+          },
+          "southwest": {
+            "lat": 36.5149943697085,
+            "lng": 140.3673047197085
+          }
+        }
+      },
+      "place_id": "ChIJ08q446GMIWARAspjW2LFbOI",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "311-4344",
+          "short_name": "311-4344",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大字阿波山",
+          "short_name": "大字阿波山",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒311-4344",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.52511,
+            "lng": 140.3760775
+          },
+          "southwest": {
+            "lat": 36.5068871,
+            "lng": 140.3555184
+          }
+        },
+        "location": {
+          "lat": 36.5184583,
+          "lng": 140.3662499
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.52511,
+            "lng": 140.3760775
+          },
+          "southwest": {
+            "lat": 36.5068871,
+            "lng": 140.3555184
+          }
+        }
+      },
+      "place_id": "ChIJDVxle5-MIWAR3kA2kfgPZwg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大字阿波山",
+          "short_name": "大字阿波山",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "311-4344",
+          "short_name": "311-4344",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒311-4344 茨城県東茨城郡城里町大字阿波山",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.52511,
+            "lng": 140.376078
+          },
+          "southwest": {
+            "lat": 36.5068771,
+            "lng": 140.3555189
+          }
+        },
+        "location": {
+          "lat": 36.5184583,
+          "lng": 140.3662499
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.52511,
+            "lng": 140.376078
+          },
+          "southwest": {
+            "lat": 36.5068771,
+            "lng": 140.3555189
+          }
+        }
+      },
+      "place_id": "ChIJMYHmBKOMIWAR3QRx0D6aEQA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "城里町",
+          "short_name": "城里町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県東茨城郡城里町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.549703,
+            "lng": 140.4144699
+          },
+          "southwest": {
+            "lat": 36.426756,
+            "lng": 140.2012
+          }
+        },
+        "location": {
+          "lat": 36.4794764,
+          "lng": 140.375928
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.549703,
+            "lng": 140.4144699
+          },
+          "southwest": {
+            "lat": 36.426756,
+            "lng": 140.2012
+          }
+        }
+      },
+      "place_id": "ChIJh5daGoD0IWARjBcys5oyiuE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東茨城郡",
+          "short_name": "東茨城郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県東茨城郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5497033,
+            "lng": 140.5951675
+          },
+          "southwest": {
+            "lat": 36.2202307,
+            "lng": 140.2011995
+          }
+        },
+        "location": {
+          "lat": 36.4779757,
+          "lng": 140.3275427
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5497033,
+            "lng": 140.5951675
+          },
+          "southwest": {
+            "lat": 36.2202307,
+            "lng": 140.2011995
+          }
+        }
+      },
+      "place_id": "ChIJm_1GzWQhImARmOAMmrJPlwM",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "茨城県",
+          "short_name": "茨城県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、茨城県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        },
+        "location": {
+          "lat": 36.2193571,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9454202,
+            "lng": 140.8490005
+          },
+          "southwest": {
+            "lat": 35.7393563,
+            "lng": 139.6868452
+          }
+        }
+      },
+      "place_id": "ChIJF8In71sYImARgMV4m4P7Spo",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
