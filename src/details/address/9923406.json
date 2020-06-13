@@ -1,0 +1,602 @@
+{
+  "station": "小名浜",
+  "lat": 36.94708,
+  "lng": 140.904491,
+  "plus_code": {
+    "compound_code": "WWW3+RQ 日本、福島県いわき市",
+    "global_code": "8R82WWW3+RQ"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "明電社四郎電気",
+          "short_name": "明電社四郎電気",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "３１−２",
+          "short_name": "３１−２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "辰巳町",
+          "short_name": "辰巳町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "小名浜",
+          "short_name": "小名浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "971-8101",
+          "short_name": "971-8101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒971-8101 福島県いわき市小名浜辰巳町３１−２ 明電社四郎電気",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9475352,
+            "lng": 140.9044133
+          },
+          "southwest": {
+            "lat": 36.9473906,
+            "lng": 140.904316
+          }
+        },
+        "location": {
+          "lat": 36.9474754,
+          "lng": 140.9043689
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9488118802915,
+            "lng": 140.9057136302915
+          },
+          "southwest": {
+            "lat": 36.9461139197085,
+            "lng": 140.9030156697085
+          }
+        }
+      },
+      "place_id": "ChIJ517YmDYTIWARuTUulQ8dK9o",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小名浜港線",
+          "short_name": "県道156号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "辰巳町",
+          "short_name": "辰巳町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "小名浜",
+          "short_name": "小名浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "971-8101",
+          "short_name": "971-8101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒971-8101 福島県いわき市小名浜辰巳町 県道156号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9473127,
+            "lng": 140.9044424
+          },
+          "southwest": {
+            "lat": 36.9473074,
+            "lng": 140.9042446
+          }
+        },
+        "location": {
+          "lat": 36.9473101,
+          "lng": 140.9043435
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9486590302915,
+            "lng": 140.9056924802915
+          },
+          "southwest": {
+            "lat": 36.9459610697085,
+            "lng": 140.9029945197085
+          }
+        }
+      },
+      "place_id": "ChIJYYy_nTYTIWARrJh4wCfp_GU",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "辰巳町",
+          "short_name": "辰巳町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "小名浜",
+          "short_name": "小名浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "971-8101",
+          "short_name": "971-8101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒971-8101 福島県いわき市小名浜辰巳町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.947678,
+            "lng": 140.9146079
+          },
+          "southwest": {
+            "lat": 36.9286891,
+            "lng": 140.8988208
+          }
+        },
+        "location": {
+          "lat": 36.94643,
+          "lng": 140.9069332
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.947678,
+            "lng": 140.9146079
+          },
+          "southwest": {
+            "lat": 36.9286891,
+            "lng": 140.8988208
+          }
+        }
+      },
+      "place_id": "ChIJVc7d7TQTIWARG46SqY41I88",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "971-8101",
+          "short_name": "971-8101",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "小名浜",
+          "short_name": "小名浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒971-8101",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9556466,
+            "lng": 140.917345
+          },
+          "southwest": {
+            "lat": 36.9080755,
+            "lng": 140.8670733
+          }
+        },
+        "location": {
+          "lat": 36.9424912,
+          "lng": 140.8924708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9556466,
+            "lng": 140.917345
+          },
+          "southwest": {
+            "lat": 36.9080755,
+            "lng": 140.8670733
+          }
+        }
+      },
+      "place_id": "ChIJ_4PO7S4TIWARZuurvr9QarQ",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小名浜",
+          "short_name": "小名浜",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "971-8101",
+          "short_name": "971-8101",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒971-8101 福島県いわき市小名浜",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.955647,
+            "lng": 140.917345
+          },
+          "southwest": {
+            "lat": 36.9080761,
+            "lng": 140.867073
+          }
+        },
+        "location": {
+          "lat": 36.9424912,
+          "lng": 140.8924708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.955647,
+            "lng": 140.917345
+          },
+          "southwest": {
+            "lat": 36.9080761,
+            "lng": 140.867073
+          }
+        }
+      },
+      "place_id": "ChIJ2fyK0i4TIWAR8SSkj4ROP6A",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "いわき市",
+          "short_name": "いわき市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福島県いわき市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.319547,
+            "lng": 141.005506
+          },
+          "southwest": {
+            "lat": 36.856071,
+            "lng": 140.5659039
+          }
+        },
+        "location": {
+          "lat": 37.0505055,
+          "lng": 140.8877435
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.319547,
+            "lng": 141.005506
+          },
+          "southwest": {
+            "lat": 36.856071,
+            "lng": 140.5659039
+          }
+        }
+      },
+      "place_id": "ChIJx4sg1UcEIWARU3QHKNgEeoA",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "福島県",
+          "short_name": "福島県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、福島県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9766021,
+            "lng": 141.0435502
+          },
+          "southwest": {
+            "lat": 36.79133849999999,
+            "lng": 139.1647356
+          }
+        },
+        "location": {
+          "lat": 37.3834373,
+          "lng": 140.1832516
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9766021,
+            "lng": 141.0435502
+          },
+          "southwest": {
+            "lat": 36.79133849999999,
+            "lng": 139.1647356
+          }
+        }
+      },
+      "place_id": "ChIJL9XcbYEEIGARXEbW0MGmHzQ",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}

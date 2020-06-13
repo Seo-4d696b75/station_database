@@ -348,7 +348,7 @@ lines.each do |line|
 	end
 	# 路線ポリラインは廃線のみ欠損許す
 	path = "polyline/solved/#{line['code']}.json"
-	if !File.exists?(path) && !line['closed']
+	if !File.exists?(path) && !line['closed'] && line['impl']
 		puts "Error > polyline not found. line:#{JSON.dump(line)}"
 		exit(0)
 	end
