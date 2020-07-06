@@ -26,7 +26,7 @@
   Copyright(c) CodePlus Co.,Ltd.    
   基本的な路線・駅の名称・位置情報など
 
-* 【[駅メモ！】ステーションメモリーズ！情報wiki](https://ekimemo.wiki.fc2.com/)  
+* [【駅メモ！】ステーションメモリーズ！情報wiki](https://ekimemo.wiki.fc2.com/)  
   Copyright (c) 【駅メモ！】ステーションメモリーズ！情報wiki.  
   上記の駅データ.jpとの差分をこちらの情報で埋める方針  
 
@@ -35,9 +35,7 @@
   鉄道路線のポリライン情報のみ
 
 ## データの更新
-基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。  
-具体的な内容は[更新の記録](./history.md)に記述。  
-なお現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
+基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notes 一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
 
 ## データの仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/DataFormat)
