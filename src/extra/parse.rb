@@ -93,6 +93,21 @@ class InternalLink
     end
   end
 end
+  
+class ExternalLink
+    attr_reader :url, :name
+    def initialize(url,name=nil)
+      @url = url
+      @name = name
+    end
+    def to_s
+      if @name
+        return @name
+      else
+        return @url
+      end
+    end
+end
 
 
 # '|'で区切られた引数をひとつ読み出す
@@ -118,16 +133,27 @@ def read_param(str)
       param_value << read_plane(m[1]) if m[1].length > 0
       t, src = read_template(m.post_match)
       param_value << t
-    elsif m = src.match(/\A([^\|\[\]\{\}]*)\[\[/m)
-      # 内部リンク内は入れ子がないと仮定
+    elsif m = src.match(/\A([^\|\[\]\{\}]*)(\[{1,2})/m)
+      # リンク内は入れ子がないと仮定
       param_value << read_plane(m[1]) if m[1].length > 0
-      link, src = read_internal_link(m.post_match)
-      param_value << link
+      if m[2] == "[["
+        # 内部リンク
+        link, src = read_internal_link(m.post_match)
+        param_value << link
+      else
+        # 外部リンク
+        list, src = read_external_link(m.post_match)
+        param_value << link
+      end
     else
       break
     end
   end
   m = src.match(/\A([^\|\[\]\{\}]*?)\s*(\||\]\]|\}\})/m)
+  if !m
+    puts "Error > read param: #{src}"
+    exit(0)
+  end
   param_value << read_plane(m[1]) if m[1].length > 0
   return [Param.new(param_key,param_value), m[2] + m.post_match]
 end
@@ -158,6 +184,26 @@ def read_template(str)
     end
   else
     puts "invalid start token at template: #{str[0..([100,str.length-1].min)]}"
+    exit(1)
+  end
+end
+
+def read_external_link(str)
+  return [nil,str] if !str
+  src = str
+  src = src[1..-1] if src[0] == '['
+  if m = src.match(/(.+?)\]/m)
+    list = m[1].split(' ')
+    if list.length == 1
+      return [ExternalLink.new(list[0]), m.post_match]
+    elsif list.length == 2
+      return [ExternalLink.new(list[0], list[1]), m.post_match]
+    else
+      puts "too many args at external link: #{str[0..([100,str.length-1].min)]}"
+      exit(1)
+    end
+  else
+    puts "invalid start token at external link: #{str[0..([100,str.length-1].min)]}"
     exit(1)
   end
 end

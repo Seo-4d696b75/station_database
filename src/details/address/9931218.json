@@ -1,0 +1,400 @@
+{
+  "station": "草木",
+  "lat": 36.560317,
+  "lng": 139.379242,
+  "plus_code": {
+    "compound_code": "H96H+4M 日本、群馬県みどり市",
+    "global_code": "8Q8XH96H+4M"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "草木橋",
+          "short_name": "草木橋",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "東町草木",
+          "short_name": "東町草木",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "みどり市",
+          "short_name": "みどり市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "376-0302",
+          "short_name": "376-0302",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒376-0302 群馬県みどり市東町草木 草木橋",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5613912,
+            "lng": 139.3802309
+          },
+          "southwest": {
+            "lat": 36.5600105,
+            "lng": 139.3762783
+          }
+        },
+        "location": {
+          "lat": 36.5605938,
+          "lng": 139.3781927
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5620498302915,
+            "lng": 139.3802309
+          },
+          "southwest": {
+            "lat": 36.5593518697085,
+            "lng": 139.3762783
+          }
+        }
+      },
+      "place_id": "ChIJRfjqTe4BH2ARUtWyCCFhhIw",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "東町草木",
+          "short_name": "東町草木",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "みどり市",
+          "short_name": "みどり市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県みどり市東町草木",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.581772,
+            "lng": 139.427551
+          },
+          "southwest": {
+            "lat": 36.539362,
+            "lng": 139.355345
+          }
+        },
+        "location": {
+          "lat": 36.5596498,
+          "lng": 139.3907044
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.581772,
+            "lng": 139.427551
+          },
+          "southwest": {
+            "lat": 36.539362,
+            "lng": 139.355345
+          }
+        }
+      },
+      "place_id": "ChIJyyxTgJIBH2ARGgqJMp7_Kto",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "376-0302",
+          "short_name": "376-0302",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "東町草木",
+          "short_name": "東町草木",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "みどり市",
+          "short_name": "みどり市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒376-0302",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5929198,
+            "lng": 139.4623192
+          },
+          "southwest": {
+            "lat": 36.537398,
+            "lng": 139.3483345
+          }
+        },
+        "location": {
+          "lat": 36.5596498,
+          "lng": 139.3907044
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5929198,
+            "lng": 139.4623192
+          },
+          "southwest": {
+            "lat": 36.537398,
+            "lng": 139.3483345
+          }
+        }
+      },
+      "place_id": "ChIJVy5H4PoBH2AR_MaOT1HPe-I",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "みどり市",
+          "short_name": "みどり市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県みどり市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.633512,
+            "lng": 139.4834469
+          },
+          "southwest": {
+            "lat": 36.36881290000001,
+            "lng": 139.231749
+          }
+        },
+        "location": {
+          "lat": 36.39483180000001,
+          "lng": 139.2811456
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.633512,
+            "lng": 139.4834469
+          },
+          "southwest": {
+            "lat": 36.36881290000001,
+            "lng": 139.231749
+          }
+        }
+      },
+      "place_id": "ChIJ2csUg3n9HmAR08wXmQYnMAM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.058609,
+            "lng": 139.6699323
+          },
+          "southwest": {
+            "lat": 35.9853738,
+            "lng": 138.3970639
+          }
+        },
+        "location": {
+          "lat": 36.5605388,
+          "lng": 138.8799972
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.058609,
+            "lng": 139.6699323
+          },
+          "southwest": {
+            "lat": 35.9853738,
+            "lng": 138.3970639
+          }
+        }
+      },
+      "place_id": "ChIJWa42yIVgHmARknJxiWg1mdc",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
