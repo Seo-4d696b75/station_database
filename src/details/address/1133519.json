@@ -1,0 +1,667 @@
+{
+  "station": "太子",
+  "lat": 36.586389,
+  "lng": 138.624583,
+  "plus_code": {
+    "compound_code": "HJPF+HR 日本、群馬県中之条町",
+    "global_code": "8Q8WHJPF+HR"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２３５−１",
+          "short_name": "２３５−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "大字太子",
+          "short_name": "大字太子",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "377-1703",
+          "short_name": "377-1703",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒377-1703 群馬県吾妻郡中之条町大字太子２３５−１",
+      "geometry": {
+        "location": {
+          "lat": 36.5864681,
+          "lng": 138.6245072
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.58781708029149,
+            "lng": 138.6258561802915
+          },
+          "southwest": {
+            "lat": 36.58511911970849,
+            "lng": 138.6231582197085
+          }
+        }
+      },
+      "place_id": "ChIJ4doqZe7dHWARuit1E7Lm-Ds",
+      "plus_code": {
+        "compound_code": "HJPF+HR 日本、群馬県中之条町",
+        "global_code": "8Q8WHJPF+HR"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "六合ヘリポート",
+          "short_name": "六合ヘリポート",
+          "types": [
+            "airport",
+            "establishment",
+            "point_of_interest"
+          ]
+        },
+        {
+          "long_name": "大字太子",
+          "short_name": "大字太子",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "377-1703",
+          "short_name": "377-1703",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒377-1703 群馬県吾妻郡中之条町大字太子 六合ヘリポート",
+      "geometry": {
+        "location": {
+          "lat": 36.58517459999999,
+          "lng": 138.6232131
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5865235802915,
+            "lng": 138.6245620802915
+          },
+          "southwest": {
+            "lat": 36.5838256197085,
+            "lng": 138.6218641197085
+          }
+        }
+      },
+      "place_id": "ChIJfZ7gMezdHWAR2FKiY56rNT0",
+      "plus_code": {
+        "compound_code": "HJPF+37 日本、群馬県中之条町",
+        "global_code": "8Q8WHJPF+37"
+      },
+      "types": [
+        "airport",
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "浅間・白根・志賀さわやか街道",
+          "short_name": "国道292号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大字太子",
+          "short_name": "大字太子",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "377-1703",
+          "short_name": "377-1703",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒377-1703 群馬県吾妻郡中之条町大字太子 浅間・白根・志賀さわやか街道",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5876403,
+            "lng": 138.6250232
+          },
+          "southwest": {
+            "lat": 36.5867783,
+            "lng": 138.623829
+          }
+        },
+        "location": {
+          "lat": 36.5871854,
+          "lng": 138.6244545
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.58855828029149,
+            "lng": 138.6257750802915
+          },
+          "southwest": {
+            "lat": 36.58586031970849,
+            "lng": 138.6230771197085
+          }
+        }
+      },
+      "place_id": "ChIJgWxEDe7dHWARehIbR6w6F2M",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "377-1703",
+          "short_name": "377-1703",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大字太子",
+          "short_name": "大字太子",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒377-1703",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6015012,
+            "lng": 138.6279658
+          },
+          "southwest": {
+            "lat": 36.5810434,
+            "lng": 138.5943336
+          }
+        },
+        "location": {
+          "lat": 36.5916122,
+          "lng": 138.6163371
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6015012,
+            "lng": 138.6279658
+          },
+          "southwest": {
+            "lat": 36.5810434,
+            "lng": 138.5943336
+          }
+        }
+      },
+      "place_id": "ChIJvQjTtvHdHWARMppqU6rNJVs",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大字太子",
+          "short_name": "大字太子",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県吾妻郡中之条町大字太子",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.601501,
+            "lng": 138.6279549
+          },
+          "southwest": {
+            "lat": 36.581009,
+            "lng": 138.594609
+          }
+        },
+        "location": {
+          "lat": 36.5916122,
+          "lng": 138.6163371
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.601501,
+            "lng": 138.6279549
+          },
+          "southwest": {
+            "lat": 36.581009,
+            "lng": 138.594609
+          }
+        }
+      },
+      "place_id": "ChIJZ9tSwondHWARTdzyhg5ViK4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中之条町",
+          "short_name": "中之条町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県吾妻郡中之条町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.764135,
+            "lng": 138.920702
+          },
+          "southwest": {
+            "lat": 36.558784,
+            "lng": 138.5139989
+          }
+        },
+        "location": {
+          "lat": 36.589992,
+          "lng": 138.8409472
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.764135,
+            "lng": 138.920702
+          },
+          "southwest": {
+            "lat": 36.558784,
+            "lng": 138.5139989
+          }
+        }
+      },
+      "place_id": "ChIJ41Lxiqd0HmARYzZVSg3t3CA",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "吾妻郡",
+          "short_name": "吾妻郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県吾妻郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7641345,
+            "lng": 138.9952087
+          },
+          "southwest": {
+            "lat": 36.4009136,
+            "lng": 138.3970639
+          }
+        },
+        "location": {
+          "lat": 36.5314431,
+          "lng": 138.6388879
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7641345,
+            "lng": 138.9952087
+          },
+          "southwest": {
+            "lat": 36.4009136,
+            "lng": 138.3970639
+          }
+        }
+      },
+      "place_id": "ChIJN4vxdxLfHWAROdYRAQVUpDU",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "群馬県",
+          "short_name": "群馬県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、群馬県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.058609,
+            "lng": 139.6699323
+          },
+          "southwest": {
+            "lat": 35.9853738,
+            "lng": 138.3970639
+          }
+        },
+        "location": {
+          "lat": 36.5605388,
+          "lng": 138.8799972
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.058609,
+            "lng": 139.6699323
+          },
+          "southwest": {
+            "lat": 35.9853738,
+            "lng": 138.3970639
+          }
+        }
+      },
+      "place_id": "ChIJWa42yIVgHmARknJxiWg1mdc",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ]
+}
