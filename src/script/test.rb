@@ -6,6 +6,6 @@ class CalcTest < Minitest::Test
   end
 
   def test_sub
-    assert_equal 2 - 1, 2, "subtraction"
+    assert_equal 2 - 1, 1, "subtraction"
   end
 end
