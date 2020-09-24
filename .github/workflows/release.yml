@@ -1,10 +1,7 @@
 name: auto-release
 on:
   push:
-    branches:
-      - master
-      - update
-    tag: 
+    tags: 
       - v*
 jobs:
   create-release:
@@ -16,7 +13,7 @@ jobs:
         id: version
         run: |
           VALUE="${{ github.ref }}"
-          echo "::set-output value=value::${VALUE:1}"
+          echo "::set-output name=value::${VALUE:1}"
       - name: Create Release
         uses: actions/create-release@v1
         env:
