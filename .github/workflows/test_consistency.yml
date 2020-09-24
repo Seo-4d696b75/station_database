@@ -1,0 +1,25 @@
+name: consistency-test
+on:
+  pull_request:
+    branches:
+      - master
+    path: 'out/*'
+jobs:
+  fetch-master:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          ref: 'master'
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: fetch data
+        run: |
+          mkdir artifact
+          ruby src/script/test_fetch.rb
+      - name: Upload data for following job
+        uses: actions/upload-artifact@v1
+          with:
+            name: artifact
+            path: artifact/data.json

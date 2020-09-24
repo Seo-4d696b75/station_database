@@ -1,11 +1,9 @@
-name: ConsistencyTest
+name: format-test
 on:
   push:
     branches:
-      - action-test
-  pull_request:
-    branches:
-      - master
+      - update
+    path: 'out/*'
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -22,4 +20,4 @@ jobs:
           echo "::add-matcher::.github/problem-matcher.json"
       - name: run test
         run: |
-          ruby src/script/test.rb
+          ruby src/script/test_format.rb
