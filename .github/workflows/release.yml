@@ -1,0 +1,33 @@
+name: auto-release
+on:
+  push:
+    branches:
+      - master
+      - update
+    tag: 
+      - v*
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set version value
+        id: version
+        run: |
+          VALUE="${{ github.ref }}"
+          echo "::set-output value=value::${VALUE:1}"
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: version ${{ steps.version.outputs.value }}
+          draft: true
+          prerelease: false
+  update-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
