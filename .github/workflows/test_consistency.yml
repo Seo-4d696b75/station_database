@@ -22,3 +22,19 @@ jobs:
         with:
           name: artifact
           path: artifact/data.json
+  test:
+    runs-on: ubuntu-latest
+    needs: fetch-master
+    steps: 
+      - uses: actions/checkout@v1
+        with:
+          ref: 'update'
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - uses: actions/download-artifact@v1
+        with:
+          name: artifact
+      - name: fetch data
+        run: |
+          ruby src/script/test_merge.rb
