@@ -17,6 +17,9 @@ jobs:
       - name: install minitest
         run: |
           gem install minitest
+      - name: enable problem matcher
+        run: |
+          echo "::add-matcher::.github/problem-matcher.json"
       - name: run test
         run: |
           cd src
