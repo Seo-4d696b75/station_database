@@ -1,0 +1,24 @@
+name: ConsistencyTest
+on:
+  push:
+    branches:
+      - action-test
+  pull_request:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: install minitest
+        run: |
+          gem install minitest
+      - name: run test
+        run: |
+          cd src
+          ruby ./script/test.rb
