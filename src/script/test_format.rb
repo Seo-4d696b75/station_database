@@ -2,7 +2,7 @@ require "minitest/autorun"
 require "set"
 load("src/script/utils.rb")
 
-class MergeTest < Minitest::Test
+class FormatTest < Minitest::Test
   def setup()
     data = read_json("out/data.json")
     @stations = data["stations"]
