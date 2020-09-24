@@ -9,7 +9,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    env:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-ruby@v1

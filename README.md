@@ -1,5 +1,7 @@
 # 駅データ  
 日本全国の鉄道路線・駅のデータベース編集プロジェクト  
+![](https://github.com/Seo-4d696b75/station_database/workflows/ConsistencyTestbadge.svg)  
+
 <br/>
 <table >
   <tr>
