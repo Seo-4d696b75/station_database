@@ -20,6 +20,6 @@ jobs:
           ruby src/script/test_fetch.rb
       - name: Upload data for following job
         uses: actions/upload-artifact@v1
-          with:
-            name: artifact
-            path: artifact/data.json
+        with:
+          name: artifact
+          path: artifact/data.json
