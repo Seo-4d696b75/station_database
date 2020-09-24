@@ -20,7 +20,7 @@ jobs:
           ruby src/script/test_fetch.rb
       - uses: actions/upload-artifact@v1
         with:
-          name: old-data
+          name: artifact
           path: artifact/data.json
   test:
     runs-on: ubuntu-latest
@@ -34,7 +34,10 @@ jobs:
           ruby-version: '2.6'
       - uses: actions/download-artifact@v1
         with:
-          name: old-data
+          name: artifact
+      - name: enable problem matcher
+        run: |
+          echo "::add-matcher::.github/problem-matcher.json"
       - name: compare data
         run: |
           ruby src/script/test_merge.rb
