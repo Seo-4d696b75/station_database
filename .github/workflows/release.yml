@@ -4,7 +4,7 @@ on:
     tags: 
       - v*
 jobs:
-  create-release:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -12,8 +12,8 @@ jobs:
       - name: Set version value
         id: version
         run: |
-          VALUE="${{ github.ref }}"
-          echo "::set-output name=value::${VALUE:1}"
+          VALUE=$(echo ${{ github.ref }} | sed -e "s/^.*v\([0-9]*\)/\1/")
+          echo "::set-output name=value::${VALUE}"
       - name: Create Release
         uses: actions/create-release@v1
         env:
@@ -23,8 +23,15 @@ jobs:
           release_name: version ${{ steps.version.outputs.value }}
           draft: true
           prerelease: false
-  update-info:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: update info
+        run: |
+          ruby src/script/release.rb ${{ steps.version.outputs.value }}
+      - name: commit manifests and push
+        run: |
+          git config --global user.email "s.kaoru509@gmail.com"
+          git config --global user.name "Seo-4d696b75"
+          git add .
+          git commit -m 'update latest-info' && git push origin update
