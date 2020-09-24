@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: 'update'
+          ref: 'master'
       - name: Set version value
         id: version
         run: |
@@ -39,4 +39,4 @@ jobs:
           git config --global user.name "Seo-4d696b75"
           git add .
           git commit -m 'update latest-info'
-          git push origin update
+          git push origin master

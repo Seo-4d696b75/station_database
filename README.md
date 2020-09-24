@@ -38,10 +38,16 @@
   鉄道路線のポリライン情報のみ
 
 ## データの更新
-基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notes 一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
+基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
 
 ## データの仕様  
-[詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/DataFormat)
+[詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/DataFormat)  
+
+### 自動テスト
+GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
+
+- format-test データ形式が仕様で定めた通りであるか確認
+- consistency-test 更新前後でデータの欠損や予期せぬ変化がないか確認
 
 ---------------------------
 
