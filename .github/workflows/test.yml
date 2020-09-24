@@ -22,5 +22,4 @@ jobs:
           echo "::add-matcher::.github/problem-matcher.json"
       - name: run test
         run: |
-          cd src
-          ruby ./script/test.rb
+          ruby src/script/test.rb
