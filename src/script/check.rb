@@ -45,9 +45,8 @@ def get_address(station)
     uri = URI.parse("https://maps.googleapis.com/")
     https = Net::HTTP.new(uri.host, uri.port)
     https.use_ssl = true
-    https.verify_mode = OpenSSL::SSL::VERIFY_PEER
+    https.verify_mode = OpenSSL::SSL::VERIFY_NONE
     https.verify_depth = 5
-    https.ca_file = "cacert.pem"
     res = https.start { |w| w.get("/maps/api/geocode/json?latlng=#{station["lat"]},#{station["lng"]}&key=#{API_KEY}&language=ja") }
     assert_equal res.code, "200", "response from /maps/api/geocode/json"
     data = JSON.parse(res.body)
@@ -268,7 +267,7 @@ class CSVTest < Minitest::Test
     write_id = false
     (@stations + @lines).each do |s|
       if !s["id"]
-        s["id"] = id_set.get()
+        s["id"] = @id_set.get()
         write_id = true
       end
     end
