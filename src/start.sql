@@ -18,7 +18,12 @@ create table if not exists station_list(
     fulltext key(name_kana) with parser ngram
 );
 
-load data local infile "/Users/skaor/Documents/ekimemo/station_database/src/station.csv" into table station_list fields terminated by ',' ignore 1 lines;
+load data 
+    local infile "/Users/skaor/Documents/ekimemo/station_database/src/station.csv" 
+    into table station_list 
+    fields terminated by ',' 
+    LINES TERMINATED BY '\r\n'
+    ignore 1 lines;
 
 create table if not exists line_list(
  code int unsigned not null primary key,
@@ -32,16 +37,39 @@ create table if not exists line_list(
  symbol varchar(16),
  closed tinyint unsigned not null,
  closed_date date default null,
- impl tinyint unsigned not null
+ impl tinyint unsigned not null,
+    fulltext key(name) with parser ngram,
+    fulltext key(name_kana) with parser ngram
 );
  
-load data local infile "/Users/skaor/Documents/ekimemo/station_database/src/line.csv" into table line_list fields terminated by ',' ignore 1 lines;
+load data 
+    local infile "/Users/skaor/Documents/ekimemo/station_database/src/line.csv" 
+    into table line_list 
+    fields terminated by ',' 
+    LINES TERMINATED BY '\r\n'
+    ignore 1 lines;
 
 create table if not exists register(
     station_code int unsigned not null,
     line_code int unsigned not null,
     list_index int unsigned not null,
-    numbering varchar(64)
+    numbering varchar(64),
+    primary key (station_code, line_code)
 );
 
-load data local infile "/Users/skaor/Documents/ekimemo/station_database/src/register.csv" into table register fields terminated by ',' ignore 1 lines;
+load data 
+    local infile "/Users/skaor/Documents/ekimemo/station_database/src/register.csv" 
+    into table register
+    fields terminated by ',' 
+    LINES TERMINATED BY '\r\n'
+    ignore 1 lines;
+
+create table if not exists prefecture(
+    code int unsigned not null primary key,
+    name varchar(16) not null
+);
+
+load data local infile "/Users/skaor/Documents/ekimemo/station_database/src/prefecture.csv" 
+    into table prefecture
+    fields terminated by ',' 
+    LINES TERMINATED BY '\r\n';
