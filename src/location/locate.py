@@ -94,7 +94,7 @@ map_y *= scale
 map = cv2.resize(map, dsize=(w,h))
 
 
-img_file = '%s/%d.jpg' % (config.get('img','src'), code)
+img_file = '%s/%d.png' % (config.get('img','src'), code)
 print('img : %s' % img_file)
 img = cv2.cvtColor(cv2.imread(img_file),cv2.COLOR_BGR2RGB)
 img = img[clip_y:(clip_y+clip_height), clip_x:(clip_x+clip_width), :]
