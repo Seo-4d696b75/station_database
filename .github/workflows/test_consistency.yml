@@ -2,9 +2,7 @@ name: consistency-test
 on:
   pull_request:
     branches:
-      - master
       - action-test
-    path: 'out/*'
 jobs:
   fetch-master:
     runs-on: ubuntu-latest
@@ -43,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          filename: artifact/diff.md
+          filename: ${{GITHUB_WORKSPACE	}}/artifact/diff.md
       - uses: actions/upload-artifact@v1
         with:
           name: diff
