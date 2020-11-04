@@ -169,9 +169,10 @@ class CSVTest < Minitest::Test
       @pref_cnt[pref] += 1 if impl
       closed = read_boolean(fields, "closed")
       attr = read_value(fields, "attr")
-      csv_err("invalid attr value") if attr != "eco" && attr != "heat" && attr != "cool" && attr != "unknown"
+      csv_err("invalid attr value") if impl && attr != "eco" && attr != "heat" && attr != "cool" && attr != "unknown"
+      csv_err("invalid attr value (no-impl)") if !impl && attr
       csv_err("closed <=> attr") if impl && closed != (attr == "unknown")
-      csv_err("attr not defined in not impl station") if !impl && attr
+      csv_err("attr not defined in no-impl station") if !impl && attr
       postal_code = read_value(fields, "postal_code")
       address = read_value(fields, "address")
       station = {}
@@ -297,9 +298,9 @@ class CSVTest < Minitest::Test
       # 路線の詳細情報
       path = "details/line/#{line["code"]}.json"
       assert File.exists?(path), "file:#{path} not fount. line:#{JSON.dump(line)}"
-      # 路線ポリラインは廃線のみ欠損許す
+      # 路線ポリラインは廃線,no-implのみ欠損許す
       path = "polyline/solved/#{line["code"]}.json"
-      assert File.exists?(path) || line["closed"], "polyline not found. line:#{JSON.dump(line)}"
+      assert File.exists?(path) || line["closed"] || !line["impl"], "polyline not found. line:#{JSON.dump(line)}"
     end
     puts "OK"
   end
@@ -335,6 +336,7 @@ class CSVTest < Minitest::Test
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
         if station_code != station["code"] && station["impl"]
           # 駅メモでは駅名の重複なしのため駅名一致なら同値
+          # TODO no-impl も含むとnameが一意でない
           puts "station code changed. #{station_name}@#{line["name"]} #{station_code}=>#{station["code"]}"
           station_code = station["code"]
           s["code"] = station["code"]
@@ -349,9 +351,9 @@ class CSVTest < Minitest::Test
         elsif station_code != station["code"] || station_name != station["name"]
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
-        impl_size += 1 if station["impl"]
+        impl_size += 1 if station["impl"] && (!s.key?("impl") || !!s["impl"])
         # 駅要素側にも登録路線を記憶
-        station["lines"] << line["code"] if station["impl"] && line["impl"]
+        station["lines"] << line["code"]
         index = i + 1
         # 駅ナンバリングを文字列表現
         numbering = "NULL"
@@ -382,7 +384,6 @@ class CSVTest < Minitest::Test
         size = line_impl_size[line["name"]]
         assert size, "line:#{line["name"]} not found at check/line. at station_list #{JSON.dump(line)}"
         assert_equal size, impl_size, "station size(impl) mismatch at station_list #{JSON.dump(line)}"
-        line["station_size"] = size
       end
     end
     # 路線登録されているか
