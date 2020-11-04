@@ -73,3 +73,30 @@ ruby script/process.rb [version]
 ```
 
 `../out`に出力
+
+## GitHub
+
+### push
+
+`update`ブランチで作業したら、
+
+```
+git push origin update
+```
+
+GitHub Actions で`format-test`が走る
+
+### merge
+
+`master` <= `update` にpull-requestを出す  
+GitHub Actions で`consistency-test`が走る
+
+### release
+
+バージョンに対応したタグを追加する
+```
+git tag -a "v${version_code}"
+git push origin "v${version_code}"
+```
+
+GitHub Actions で`release`が走り、`latest_info.json`の更新とリリースのドラフトが発行される。最後に手動でリリースをpublishする。

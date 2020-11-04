@@ -7,6 +7,7 @@ STATION_FIELD = [
   "code",
   "id",
   "name",
+  "original_name",
   "name_kana",
   "lat",
   "lng",
@@ -45,9 +46,8 @@ def get_address(station)
     uri = URI.parse("https://maps.googleapis.com/")
     https = Net::HTTP.new(uri.host, uri.port)
     https.use_ssl = true
-    https.verify_mode = OpenSSL::SSL::VERIFY_PEER
+    https.verify_mode = OpenSSL::SSL::VERIFY_NONE
     https.verify_depth = 5
-    https.ca_file = "cacert.pem"
     res = https.start { |w| w.get("/maps/api/geocode/json?latlng=#{station["lat"]},#{station["lng"]}&key=#{API_KEY}&language=ja") }
     assert_equal res.code, "200", "response from /maps/api/geocode/json"
     data = JSON.parse(res.body)
@@ -121,7 +121,7 @@ class CSVTest < Minitest::Test
 
     print "Write to json files..."
     File.open("solved/line.json", "w") do |f|
-      list = @lines.select { |line| line.delete("impl") }.map do |line|
+      list = @lines.map do |line|
         line.delete_if do |key, value|
           value == nil || (key == "closed" && !value)
         end
@@ -130,10 +130,10 @@ class CSVTest < Minitest::Test
       f.write(format_json(list, flat: true))
     end
     File.open("solved/station.json", "w") do |f|
-      list = @stations.select { |s| s.delete("impl") }.map do |s|
-        s.delete_if do |key, value|
-          value == nil || (key == "closed" && !value)
-        end
+      list = @stations.map do |s|
+        s.delete_if { |key, value| value == nil }
+        s.delete("closed") if !s["closed"]
+        s.delete("original_name") if s["original_name"] == s["name"]
         sort_hash(s)
       end
       f.write(format_json(list, flat: true))
@@ -146,7 +146,7 @@ class CSVTest < Minitest::Test
   def read_station
     puts "read station info."
     csv_each_line("station.csv") do |fields|
-      csv_err("col size != 14") if fields.length != 14
+      csv_err("col size != 14") if fields.length != 15
       code = fields["code"].to_i
       csv_err("code duplicate") if !@station_code_set.add?(code)
       id = read_value(fields, "id")
@@ -158,27 +158,29 @@ class CSVTest < Minitest::Test
         end
       end
       impl = read_boolean(fields, "impl")
+      assert impl, "only impl!!"
 
       name = read_value(fields, "name")
+      name_original = read_value(fields, "original_name")
       name_kana = read_value(fields, "name_kana")
       # 駅メモしようでは駅名重複なし
-      csv_err("name duplicated") if impl && !@station_name_set.add?(name)
+      csv_err("name duplicated") if !@station_name_set.add?(name)
       lat = fields["lat"].to_f
       lng = fields["lng"].to_f
       pref = fields["prefecture"].to_i
       csv_err("invalid prefecture value") if pref < 1 || pref > 47
-      @pref_cnt[pref] += 1 if impl
+      @pref_cnt[pref] += 1
       closed = read_boolean(fields, "closed")
       attr = read_value(fields, "attr")
       csv_err("invalid attr value") if attr != "eco" && attr != "heat" && attr != "cool" && attr != "unknown"
-      csv_err("closed <=> attr") if impl && closed != (attr == "unknown")
-      csv_err("attr not defined in not impl station") if !impl && attr
+      csv_err("closed <=> attr") if closed != (attr == "unknown")
       postal_code = read_value(fields, "postal_code")
       address = read_value(fields, "address")
       station = {}
       station["code"] = code
       station["id"] = id
       station["name"] = name
+      station["original_name"] = name_original
       station["name_kana"] = name_kana
       station["lat"] = lat
       station["lng"] = lng
@@ -186,7 +188,6 @@ class CSVTest < Minitest::Test
       station["attr"] = attr
       station["postal_code"] = postal_code
       station["address"] = address
-      station["impl"] = impl
       station["closed"] = closed
       station["open_date"] = read_date(fields, "open_date")
       station["closed_date"] = read_date(fields, "closed_date")
@@ -195,11 +196,10 @@ class CSVTest < Minitest::Test
       station["lines"] = []
       @stations << station
       @station_map[code] = station
-      @station_map[name] = station if impl
+      @station_map[name] = station
     end
 
-    impl_size = @stations.select { |s| s["impl"] }.length
-    puts "station size: #{@stations.length} (impl #{impl_size})"
+    puts "station size: #{@stations.length}"
   end
 
   def check_prefecture_cnt
@@ -208,7 +208,7 @@ class CSVTest < Minitest::Test
       code = fields["code"].to_i
       name = fields["name"]
       size = fields["size"].to_i
-      assert_equal size, @pref_cnt[code], "station size(impl) mismatch"
+      assert_equal size, @pref_cnt[code], "station size mismatch"
     end
     puts "OK"
   end
@@ -241,7 +241,7 @@ class CSVTest < Minitest::Test
       closed_date = read_date(fields, "closed_date")
       puts "Warning > line closed date not defined #{name}" if closed && !closed_date
       csv_err("line not closed, but date defined") if !closed && closed_date
-
+      assert impl, "only impl!!"
       line = {}
       line["code"] = code
       line["id"] = id
@@ -253,14 +253,12 @@ class CSVTest < Minitest::Test
       line["color"] = color
       line["symbol"] = symbol
       line["closed"] = closed
-      line["impl"] = impl
       line["closed_date"] = closed_date
 
       @lines << line
     end
 
-    impl_size = @lines.select { |s| s["impl"] }.length
-    puts "lins size: #{@lines.length} (impl #{impl_size})"
+    puts "lins size: #{@lines.length}"
   end
 
   def check_id
@@ -268,7 +266,7 @@ class CSVTest < Minitest::Test
     write_id = false
     (@stations + @lines).each do |s|
       if !s["id"]
-        s["id"] = id_set.get()
+        s["id"] = @id_set.get()
         write_id = true
       end
     end
@@ -334,13 +332,13 @@ class CSVTest < Minitest::Test
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
-        if station_code != station["code"] && station["impl"]
+        if station_code != station["code"]
           # 駅メモでは駅名の重複なしのため駅名一致なら同値
           puts "station code changed. #{station_name}@#{line["name"]} #{station_code}=>#{station["code"]}"
           station_code = station["code"]
           s["code"] = station["code"]
           write = true
-        elsif station_name != station["name"] && station["imp"]
+        elsif station_name != station["name"]
           # 駅名変更は慎重に
           print "station name changed. #{station_code}@#{line["name"]} #{station_name}=>#{station["name"]} Is this OK? Y/N =>"
           assert gets.chomp.match(/[yY]/), "abort"
@@ -350,9 +348,9 @@ class CSVTest < Minitest::Test
         elsif station_code != station["code"] || station_name != station["name"]
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
-        impl_size += 1 if station["impl"]
+        impl_size += 1
         # 駅要素側にも登録路線を記憶
-        station["lines"] << line["code"] if station["impl"] && line["impl"]
+        station["lines"] << line["code"]
         index = i + 1
         # 駅ナンバリングを文字列表現
         numbering = "NULL"
@@ -379,12 +377,11 @@ class CSVTest < Minitest::Test
         end
       end
       # 登録駅数の再度確認
-      if line["impl"]
-        size = line_impl_size[line["name"]]
-        assert size, "line:#{line["name"]} not found at check/line. at station_list #{JSON.dump(line)}"
-        assert_equal size, impl_size, "station size(impl) mismatch at station_list #{JSON.dump(line)}"
-        line["station_size"] = size
-      end
+
+      size = line_impl_size[line["name"]]
+      assert size, "line:#{line["name"]} not found at check/line. at station_list #{JSON.dump(line)}"
+      assert_equal size, impl_size, "station size(impl) mismatch at station_list #{JSON.dump(line)}"
+      line["station_size"] = size
     end
     # 路線登録されているか
     @stations.each do |station|

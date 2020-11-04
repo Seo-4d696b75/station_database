@@ -19,6 +19,6 @@ data = {
   "lines": lines.map{|l| extract_meta(l)}
 }
 
-File.open("artifact/data.json","r") do |file|
+File.open("artifact/data.json", "w") do |file|
   file.print(JSON.dump(data))
 end
