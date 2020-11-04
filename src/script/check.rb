@@ -121,7 +121,7 @@ class CSVTest < Minitest::Test
 
     print "Write to json files..."
     File.open("solved/line.json", "w") do |f|
-      list = @lines.select { |line| line.delete("impl") }.map do |line|
+      list = @lines.map do |line|
         line.delete_if do |key, value|
           value == nil || (key == "closed" && !value)
         end
@@ -130,10 +130,10 @@ class CSVTest < Minitest::Test
       f.write(format_json(list, flat: true))
     end
     File.open("solved/station.json", "w") do |f|
-      list = @stations.select { |s| s.delete("impl") }.map do |s|
-        s.delete_if do |key, value|
-          value == nil || (key == "closed" && !value)
-        end
+      list = @stations.map do |s|
+        s.delete_if { |key, value| value == nil }
+        s.delete("closed") if !s["closed"]
+        s.delete("original_name") if s["original_name"] == s["name"]
         sort_hash(s)
       end
       f.write(format_json(list, flat: true))
@@ -146,7 +146,7 @@ class CSVTest < Minitest::Test
   def read_station
     puts "read station info."
     csv_each_line("station.csv") do |fields|
-      csv_err("col size != 14") if fields.length != 14
+      csv_err("col size != 14") if fields.length != 15
       code = fields["code"].to_i
       csv_err("code duplicate") if !@station_code_set.add?(code)
       id = read_value(fields, "id")

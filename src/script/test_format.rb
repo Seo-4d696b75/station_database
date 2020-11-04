@@ -34,6 +34,7 @@ class FormatTest < Minitest::Test
       code = station["code"]
       id = station["id"]
       name = station["name"]
+      name_original = station["original_name"]
       name_kana = station["name_kana"]
       closed = !!station["closed"]
       lng = station["lng"]
@@ -49,6 +50,7 @@ class FormatTest < Minitest::Test
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(/^[0-9a-f]{6}$/), "invalid id #{JSON.dump(station)}"
       assert name && name.kind_of?(String) && name.length > 0, "invalide name #{JSON.dump(station)}"
+      assert !name_original || (name_original.kind_of?(String) && name_original.length > 0 && name.include?(name_original)), "invalide original name #{JSON.dump(station)}"
       assert name_kana && name_kana.kind_of?(String) && name_kana.match(/[\p{hiragana}（・）]+/), "invalid name_kana #{JSON.dump(station)}"
       assert lng && lng.kind_of?(Float) && lat && lat.kind_of?(Float), "invalid coordinate #{JSON.dump(station)}"
       assert pref && pref.kind_of?(Integer) && pref > 0 && pref <= 47, "invalid pref #{JSON.dump(station)}"
