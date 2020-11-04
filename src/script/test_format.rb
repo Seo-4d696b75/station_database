@@ -46,6 +46,8 @@ class FormatTest < Minitest::Test
       lines = station["lines"]
       next_station = station["next"]
       voronoi = station["voronoi"]
+      open_date = station["open_date"]
+      closed_date = station["closed_date"]
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(/^[0-9a-f]{6}$/), "invalid id #{JSON.dump(station)}"
@@ -60,6 +62,12 @@ class FormatTest < Minitest::Test
       assert lines && lines.kind_of?(Array) && lines.length > 0, "invalid lines #{JSON.dump(station)}"
       assert next_station && next_station.kind_of?(Array) && next_station.length > 0, "invalid next #{JSON.dump(station)}"
       assert voronoi, "invalid voronoi #{JSON.dump(station)}"
+      assert !open_date || open_date.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), "invalid open date #{JSON.dump(station)}"
+      assert !closed_date || closed_date.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), "invalid closed date #{JSON.dump(station)}"
+      if open_date && closed_date
+        assert open_date < closed_date, "open < closed ? #{JSON.dump(station)}"
+      end
+      assert closed || !closed_date, "not closed but closed-date defined #{JSON.dump(station)}"
 
       pref_cnt[pref] += 1
       assert closed == (attribute == "unknown"), "invalid attr<=>closed value #{JSON.dump(station)}"
@@ -91,6 +99,7 @@ class FormatTest < Minitest::Test
       station_size = line["station_size"]
       station_list = line["station_list"]
       polyline = line["polyline_list"]
+      closed_date = line["closed_date"]
 
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{name}"
@@ -104,8 +113,10 @@ class FormatTest < Minitest::Test
       assert !polyline || (line["north"] && line["south"] && line["east"] && line["west"]), "polyline boundary needed #{name}"
       station_list.each do |item|
         s = @station_map[item["code"]]
-        assert s && s["lines"].include?(code), "invalid station item:#{item["code"]} at"
+        assert s && s["lines"].include?(code), "invalid station item:#{item["code"]} at #{name}"
       end
+      assert !closed_date || closed_date.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), "invalid closed date #{name}"
+      assert closed || !closed_date, "not closed but closed-date defined #{name}"
     end
 
     csv_each_line("src/check/line.csv") do |fields|

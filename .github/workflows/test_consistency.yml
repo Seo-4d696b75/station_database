@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - master
+      - action-test
     path: 'out/*'
 jobs:
   fetch-master:
@@ -10,14 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         with:
-          ref: 'master'
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6'
+          ref: 'action-test'
       - name: fetch data
         run: |
           mkdir artifact
-          ruby src/script/test_fetch.rb
+          cp out/data.json artifact/data.json
       - uses: actions/upload-artifact@v1
         with:
           name: artifact
@@ -41,7 +39,12 @@ jobs:
       - name: compare data
         run: |
           ruby src/script/test_merge.rb
+      - uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: artifact/diff.md
       - uses: actions/upload-artifact@v1
         with:
-          name: log
-          path: artifact/log.txt
+          name: diff
+          path: artifact/diff.md
