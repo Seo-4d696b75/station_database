@@ -2,9 +2,7 @@ name: consistency-test
 on:
   pull_request:
     branches:
-      - master
       - action-test
-    path: 'out/*'
 jobs:
   fetch-master:
     runs-on: ubuntu-latest
