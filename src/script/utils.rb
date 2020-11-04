@@ -141,6 +141,7 @@ def sort_hash(data)
     "segment",
     "id",
     "name",
+    "original_name",
     "name_kana",
     "name_formal",
     "station_size",
