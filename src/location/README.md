@@ -34,7 +34,7 @@ GoogleMap zoom_level=18を仮定する
 
 ## 座標系の知識
 
-[google map](https://developers.google.com/maps/documentation/javascript/coordinates)  
+[google map](https://developers.google.com/maps/documentation/javascript/coordinates#tile-coordinates)  
 [メルカトル図法](https://en.wikipedia.org/wiki/Mercator_projection)  
 
 ### 投影法
@@ -84,3 +84,11 @@ dφ/dy = dθ/dx * cosφ
 35.257825, 139.156885
 0.002655, 0.006861
 2.9048140043763676148796498905908e-6‬, 0.0000035734375‬
+
+緯度
+500m
+緯線方向 157 px >>(ディスプレイ倍率考慮)>> 157 / 1.5 px
+1 px = 2^-zoom * 2Rπ cosφ / 256
+
+35.679643
+200 101
