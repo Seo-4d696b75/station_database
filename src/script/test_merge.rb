@@ -60,8 +60,7 @@ class MergeTest < Minitest::Test
     @lines = Hash.new
     data["lines"].each { |l| @lines[l["id"]] = l }
 
-    @log = File.open("artifact/diff.md", "w")
-    @log.puts("## detected diff from `master` branch  \n")
+    @log = "## detected diff from `master` branch  \n\n"
   end
 
   def check_diff(tag, id, old, current, fields)
@@ -69,7 +68,7 @@ class MergeTest < Minitest::Test
       old_value = old[key]
       new_value = current[key]
       if old_value != new_value
-        @log.puts("- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{format_md(old_value)}=>#{format_md(new_value)}")
+        @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{format_md(old_value)}=>#{format_md(new_value)}\n"
       end
     end
   end
@@ -88,14 +87,18 @@ class MergeTest < Minitest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     @stations.each_value do |station|
-      @log.puts("- **station** new station `#{format_md(station)}`")
+      @log << "- **station** new station #{format_md(station)}\n"
     end
     @lines.each_value do |line|
-      @log.puts("- **line** new line `#{format_md(line)}`")
+      @log << "- **line** new line #{format_md(line)}\n"
     end
   end
 
   def teardown()
-    @log.close
+    File.open("artifact/diff.md", "w") { |f| f.write(@log) }
+    File.open(".github/workflows/diff.md", "w") do |f|
+      # python str::format で使用するtemplate
+      f.write(@log.gsub("{", "{{").gsub("}", "}}"))
+    end
   end
 end

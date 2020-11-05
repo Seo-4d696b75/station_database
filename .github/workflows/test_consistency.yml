@@ -39,14 +39,13 @@ jobs:
       - name: compare data
         run: |
           ruby src/script/test_merge.rb
-          cp artifact/diff.md .github/workflows/diff.md
           echo 'diff.md'
           cat artifact/diff.md
       - uses: harupy/comment-on-pr@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          filename: diff.md
+          filename: diff.md # .github/workflows/ ディレクトリ以下固定
       - uses: actions/upload-artifact@v1
         with:
           name: diff
