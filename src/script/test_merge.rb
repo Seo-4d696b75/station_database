@@ -4,7 +4,7 @@ require "minitest/autorun"
 STATION_FIELD = [
   "code",
   "name",
-  #"original_name",
+  "original_name",
   "name_kana",
   "lat",
   "lng",
