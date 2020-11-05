@@ -61,7 +61,7 @@ class FormatTest < Minitest::Test
       assert ["eco", "heat", "cool", "unknown"].include?(attribute), "invalid attr #{JSON.dump(station)}"
       assert lines && lines.kind_of?(Array) && lines.length > 0, "invalid lines #{JSON.dump(station)}"
       assert next_station && next_station.kind_of?(Array) && next_station.length > 0, "invalid next #{JSON.dump(station)}"
-      assert voronoi, "invalid voronoi #{JSON.dump(station)}"
+      assert voronoi, "voronoi not found #{JSON.dump(station)}"
       assert !open_date || open_date.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), "invalid open date #{JSON.dump(station)}"
       assert !closed_date || closed_date.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/), "invalid closed date #{JSON.dump(station)}"
       if open_date && closed_date
@@ -70,14 +70,21 @@ class FormatTest < Minitest::Test
       assert closed || !closed_date, "not closed but closed-date defined #{JSON.dump(station)}"
 
       pref_cnt[pref] += 1
+      # 'closed'
       assert closed == (attribute == "unknown"), "invalid attr<=>closed value #{JSON.dump(station)}"
       lines.each do |code|
         assert @line_map.key?(code), "line code #{code} not found at lines #{JSON.dump(station)}"
       end
       assert closed || lines.map { |code| @line_map[code] }.select { |l| !l["closed"] }.length > 0, "non-closed station must be in non-closed line #{JSON.dump(station)}"
+      # 'next'
       next_station.each do |n|
         assert code != n && @station_map.key?(n), "station code #{n} not found at next #{JSON.dump(station)}"
       end
+      # 'voronoi'
+      assert voronoi["lat"] && voronoi["lat"].kind_of?(Float), "invalid voronoi::lat #{JSON.dump(station)}"
+      assert voronoi["lng"] && voronoi["lng"].kind_of?(Float), "invalid voronoi::lng #{JSON.dump(station)}"
+      assert voronoi["delta_lat"] && voronoi["delta_lng"], "voronoi::delta not found #{JSON.dump(station)}"
+      assert_equal voronoi["delta_lng"].length, voronoi["delta_lat"].length, "voronoi::delta length mismatch #{JSON.dump(station)}"
     end
     csv_each_line("src/check/prefecture.csv") do |fields|
       code = fields["code"].to_i

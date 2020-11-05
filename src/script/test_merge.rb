@@ -16,6 +16,7 @@ STATION_FIELD = [
   "closed_date",
   "attr",
   "lines",
+# "next" and "voronoi" may change due to other stations' changes
 ]
 
 LINE_FIELD = [
@@ -59,7 +60,7 @@ class MergeTest < Minitest::Test
       old_value = old[key]
       new_value = current[key]
       if old_value != new_value
-        @log.puts("- **#{tag}** `id`:#{id} `name`:#{current["name"]} `#{key}`:#{old_value}=>#{new_value}")
+        @log.puts("- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}")
       end
     end
   end
