@@ -11,13 +11,10 @@ jobs:
       - uses: actions/checkout@v1
         with:
           ref: 'master'
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6'
       - name: fetch data
         run: |
           mkdir artifact
-          ruby src/script/test_fetch.rb
+          cp out/data.json artifact/data.json
       - uses: actions/upload-artifact@v1
         with:
           name: artifact
@@ -41,7 +38,14 @@ jobs:
       - name: compare data
         run: |
           ruby src/script/test_merge.rb
+          echo 'diff.md'
+          cat artifact/diff.md
+      - uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: diff.md # .github/workflows/ ディレクトリ以下固定
       - uses: actions/upload-artifact@v1
         with:
-          name: log
-          path: artifact/log.txt
+          name: diff
+          path: artifact/diff.md
