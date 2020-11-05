@@ -3,7 +3,6 @@ on:
   pull_request:
     branches:
       - master
-      - action-test
     path: 'out/*'
 jobs:
   fetch-master:
@@ -11,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         with:
-          ref: 'action-test'
+          ref: 'master'
       - name: fetch data
         run: |
           mkdir artifact
