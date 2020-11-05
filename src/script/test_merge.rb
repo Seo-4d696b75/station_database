@@ -38,6 +38,15 @@ LINE_FIELD = [
   "polyline",
 ]
 
+def format_md(value)
+  if value.kind_of?(Array) || value.kind_of?(Hash)
+    return "`#{JSON.dump(value)}`"
+  elsif value.kind_of?(Numeric) || value.kind_of?(String) || value == true || value == false
+    return value.to_s
+  end
+  raise "unexpected type #{value} #{value.class}"
+end
+
 class MergeTest < Minitest::Test
   def setup()
     # load old version data from artifact
@@ -60,7 +69,7 @@ class MergeTest < Minitest::Test
       old_value = old[key]
       new_value = current[key]
       if old_value != new_value
-        @log.puts("- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}")
+        @log.puts("- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{format_md(old_value)}=>#{format_md(new_value)}")
       end
     end
   end
@@ -79,10 +88,10 @@ class MergeTest < Minitest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     @stations.each_value do |station|
-      @log.puts("- **station** new station `#{JSON.dump(station)}`")
+      @log.puts("- **station** new station `#{format_md(station)}`")
     end
     @lines.each_value do |line|
-      @log.puts("- **line** new line `#{JSON.dump(line)}`")
+      @log.puts("- **line** new line `#{format_md(line)}`")
     end
   end
 
