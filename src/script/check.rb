@@ -7,6 +7,7 @@ STATION_FIELD = [
   "code",
   "id",
   "name",
+  #"original_name",
   "name_kana",
   "lat",
   "lng",
@@ -120,7 +121,7 @@ class CSVTest < Minitest::Test
 
     print "Write to json files..."
     File.open("solved/line.json", "w") do |f|
-      list = @lines.select { |line| line.delete("impl") }.map do |line|
+      list = @lines.map do |line|
         line.delete_if do |key, value|
           value == nil || (key == "closed" && !value)
         end
@@ -129,10 +130,10 @@ class CSVTest < Minitest::Test
       f.write(format_json(list, flat: true))
     end
     File.open("solved/station.json", "w") do |f|
-      list = @stations.select { |s| s.delete("impl") }.map do |s|
-        s.delete_if do |key, value|
-          value == nil || (key == "closed" && !value)
-        end
+      list = @stations.map do |s|
+        s.delete_if { |key, value| value == nil }
+        s.delete("closed") if !s["closed"]
+        s.delete("original_name") if s["original_name"] == s["name"]
         sort_hash(s)
       end
       f.write(format_json(list, flat: true))
@@ -145,7 +146,7 @@ class CSVTest < Minitest::Test
   def read_station
     puts "read station info."
     csv_each_line("station.csv") do |fields|
-      csv_err("col size != 14") if fields.length != 14
+      csv_err("col size != 15") if fields.length != 15
       code = fields["code"].to_i
       csv_err("code duplicate") if !@station_code_set.add?(code)
       id = read_value(fields, "id")
@@ -159,6 +160,7 @@ class CSVTest < Minitest::Test
       impl = read_boolean(fields, "impl")
 
       name = read_value(fields, "name")
+      name_original = read_value(fields, "original_name")
       name_kana = read_value(fields, "name_kana")
       # 駅メモしようでは駅名重複なし
       csv_err("name duplicated") if impl && !@station_name_set.add?(name)
@@ -179,6 +181,7 @@ class CSVTest < Minitest::Test
       station["code"] = code
       station["id"] = id
       station["name"] = name
+      station["original_name"] = name_original
       station["name_kana"] = name_kana
       station["lat"] = lat
       station["lng"] = lng
@@ -195,7 +198,7 @@ class CSVTest < Minitest::Test
       station["lines"] = []
       @stations << station
       @station_map[code] = station
-      @station_map[name] = station if impl
+      @station_map[name] = station
     end
 
     impl_size = @stations.select { |s| s["impl"] }.length
@@ -334,14 +337,13 @@ class CSVTest < Minitest::Test
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
-        if station_code != station["code"] && station["impl"]
-          # 駅メモでは駅名の重複なしのため駅名一致なら同値
-          # TODO no-impl も含むとnameが一意でない
+        if station_code != station["code"]
+          # 駅名の重複なしのため駅名一致なら同値
           puts "station code changed. #{station_name}@#{line["name"]} #{station_code}=>#{station["code"]}"
           station_code = station["code"]
           s["code"] = station["code"]
           write = true
-        elsif station_name != station["name"] && station["imp"]
+        elsif station_name != station["name"]
           # 駅名変更は慎重に
           print "station name changed. #{station_code}@#{line["name"]} #{station_name}=>#{station["name"]} Is this OK? Y/N =>"
           assert gets.chomp.match(/[yY]/), "abort"
