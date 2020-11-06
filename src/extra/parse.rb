@@ -18,16 +18,15 @@ def read_plane(str)
   return dst
 end
 
-
-
 class Param
   attr_reader :key, :value
   # @param key 文字列 or Nil
   # @param value array 文字列またはWikiオブジェクトのリスト
-  def initialize(key,value)
+  def initialize(key, value)
     @key = key
     @value = value
   end
+
   def to_s
     if @key
       return "#{@key} = #{@value.join}"
@@ -39,20 +38,24 @@ end
 
 class WikiTemplate
   attr_reader :name, :params
-  def initialize(name,params)
+
+  def initialize(name, params)
     @name = name
     @params = params
   end
+
   def to_s
     if @params.length > 0
-      return "{{#{@name}|#{@params.join('|')}}}"
+      return "{{#{@name}|#{@params.join("|")}}}"
     else
       return "{{#{@name}}}"
     end
   end
+
   def name_include?(name)
     return @name.split(/\s+/).include?(name)
   end
+
   def get_param(key)
     param = nil
     if key.kind_of?(String)
@@ -68,7 +71,7 @@ class WikiTemplate
     if param
       param = param.value
       if param.length == 1
-        param = param[0] 
+        param = param[0]
       elsif param.length == 0
         param = nil
       end
@@ -79,10 +82,12 @@ end
 
 class InternalLink
   attr_reader :name, :params
-  def initialize(name,params)
+
+  def initialize(name, params)
     @name = name
     @params = params
   end
+
   # 内部リンクをどう文字列表現するか
   def to_s
     if @params.length > 0
@@ -93,22 +98,23 @@ class InternalLink
     end
   end
 end
-  
-class ExternalLink
-    attr_reader :url, :name
-    def initialize(url,name=nil)
-      @url = url
-      @name = name
-    end
-    def to_s
-      if @name
-        return @name
-      else
-        return @url
-      end
-    end
-end
 
+class ExternalLink
+  attr_reader :url, :name
+
+  def initialize(url, name = nil)
+    @url = url
+    @name = name
+  end
+
+  def to_s
+    if @name
+      return @name
+    else
+      return @url
+    end
+  end
+end
 
 # '|'で区切られた引数をひとつ読み出す
 # @param str 検索対象の文字列. 次に出現する引数の区切り文字としての'|'まで進む
@@ -116,8 +122,8 @@ end
 #               読み出しに失敗した場合は'読み出された値' = nil
 #               '残りの文字列'は次に出現する引数の区切り文字としての'|'（存在するなら）を先頭に含む
 def read_param(str)
-  return [nil,str] if str[0] != '|'
-  src = str[1..-1] 
+  return [nil, str] if str[0] != "|"
+  src = str[1..-1]
   param_key = nil
   param_value = []
   # '=' を含む場合もある
@@ -155,15 +161,14 @@ def read_param(str)
     exit(0)
   end
   param_value << read_plane(m[1]) if m[1].length > 0
-  return [Param.new(param_key,param_value), m[2] + m.post_match]
+  return [Param.new(param_key, param_value), m[2] + m.post_match]
 end
-
 
 # テンプレートを読み出す
 # @param str 検索対象
 # @return array [WikiTemplate,'残りの文字列']
 def read_template(str)
-  return [nil,str] if !str
+  return [nil, str] if !str
   src = str
   src = src[2..-1] if src[0..1] == "{{"
   if m = src.match(/\A(.+?)\s*(\||\}\})/m)
@@ -177,39 +182,39 @@ def read_template(str)
       params << param
     end
     if src[0..1] == "}}"
-      return [WikiTemplate.new(name,params),src[2..-1]]
+      return [WikiTemplate.new(name, params), src[2..-1]]
     else
-      puts "invalid end token at template: #{str[0..([100,str.length-1].min)]}"
+      puts "invalid end token at template: #{str[0..([100, str.length - 1].min)]}"
       exit(1)
     end
   else
-    puts "invalid start token at template: #{str[0..([100,str.length-1].min)]}"
+    puts "invalid start token at template: #{str[0..([100, str.length - 1].min)]}"
     exit(1)
   end
 end
 
 def read_external_link(str)
-  return [nil,str] if !str
+  return [nil, str] if !str
   src = str
-  src = src[1..-1] if src[0] == '['
+  src = src[1..-1] if src[0] == "["
   if m = src.match(/(.+?)\]/m)
-    list = m[1].split(' ')
+    list = m[1].split(" ")
     if list.length == 1
       return [ExternalLink.new(list[0]), m.post_match]
     elsif list.length == 2
       return [ExternalLink.new(list[0], list[1]), m.post_match]
     else
-      puts "too many args at external link: #{str[0..([100,str.length-1].min)]}"
+      puts "too many args at external link: #{str[0..([100, str.length - 1].min)]}"
       exit(1)
     end
   else
-    puts "invalid start token at external link: #{str[0..([100,str.length-1].min)]}"
+    puts "invalid start token at external link: #{str[0..([100, str.length - 1].min)]}"
     exit(1)
   end
 end
 
 def read_internal_link(str)
-  return [nil,str] if !str
+  return [nil, str] if !str
   src = str
   src = src[2..-1] if src[0..1] == "[["
   if m = src.match(/\A(.+?)\s*(\||\]\])/m)
@@ -223,13 +228,13 @@ def read_internal_link(str)
       params << param
     end
     if src[0..1] == "]]"
-      return [InternalLink.new(name,params),src[2..-1]]
+      return [InternalLink.new(name, params), src[2..-1]]
     else
-      puts "invalid end token at internal link: #{str[0..([100,str.length-1].min)]}"
+      puts "invalid end token at internal link: #{str[0..([100, str.length - 1].min)]}"
       exit(1)
     end
   else
-    puts "invalid start token at internal link: #{str[0..([100,str.length-1].min)]}"
+    puts "invalid start token at internal link: #{str[0..([100, str.length - 1].min)]}"
     exit(1)
   end
 end
@@ -237,7 +242,7 @@ end
 def get_info(str)
   while m = str.match(/.*?\{\{/m)
     t, str = read_template(m.post_match)
-    return t if t.name_include?('駅情報')
+    return t if t.name_include?("駅情報")
   end
   puts "Error > 駅情報 not found"
   exit(0)
@@ -250,7 +255,7 @@ def parse_date(obj)
   elsif obj.kind_of?(Array)
     str = obj.join
   elsif obj == nil
-    return 'NULL'
+    return "NULL"
   else
     puts "Error > unknown date object #{obj}"
     exit(0)
@@ -259,43 +264,43 @@ def parse_date(obj)
     date = "%04d-%02d-%02d" % m[1..3]
     return date
   end
-  return 'NULL'
+  return "NULL"
 end
 
-def parse(template,pref_map)
-  name = template.get_param('駅名')
+def parse(template, pref_map)
+  name = template.get_param("駅名")
   if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)$/)
     name = m[1]
   end
-  name_kana = template.get_param('よみがな')
+  name_kana = template.get_param("よみがな")
   lat = 0
   lng = 0
-  if pos = template.get_param('座標')
+  if pos = template.get_param("座標")
     pos = pos[0] if pos.kind_of?(Array)
-    if pos.name != 'ウィキ座標2段度分秒' || pos.get_param(3) != 'N' || pos.get_param(7) != 'E'
+    if pos.name != "ウィキ座標2段度分秒" || pos.get_param(3) != "N" || pos.get_param(7) != "E"
       puts "Error > unknown coordinate system #{pos.name}"
       exit(0)
     end
-    lat = (pos.get_param(0).to_f + pos.get_param(1).to_f/60 + pos.get_param(2).to_f/3600).round(6)
-    lng = (pos.get_param(4).to_f + pos.get_param(5).to_f/60 + pos.get_param(6).to_f/3600).round(6)
-  else 
-    lat1 = template.get_param('緯度度')
-    lat2 = template.get_param('緯度分')
-    lat3 = template.get_param('緯度秒')
-    lng1 = template.get_param('経度度')
-    lng2 = template.get_param('経度分')
-    lng3 = template.get_param('経度秒')
-    if lat1&&lat2&&lat3&&lng1&&lng2&&lng3
-      lat = (lat1.to_f + lat2.to_f/60 + lat3.to_f/3600).round(6)
-      lng = (lng1.to_f + lng2.to_f/60 + lng3.to_f/3600).round(6)
+    lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
+    lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+  else
+    lat1 = template.get_param("緯度度")
+    lat2 = template.get_param("緯度分")
+    lat3 = template.get_param("緯度秒")
+    lng1 = template.get_param("経度度")
+    lng2 = template.get_param("経度分")
+    lng3 = template.get_param("経度秒")
+    if lat1 && lat2 && lat3 && lng1 && lng2 && lng3
+      lat = (lat1.to_f + lat2.to_f / 60 + lat3.to_f / 3600).round(6)
+      lng = (lng1.to_f + lng2.to_f / 60 + lng3.to_f / 3600).round(6)
     else
       puts "Warning > coordinate value not found #{name}"
     end
   end
-  pref = template.get_param('所在地')
+  pref = template.get_param("所在地")
   if pref.kind_of?(String) && m = pref.match(/^(.+?[県都府道])/)
     pref = m[1]
-  elsif pref.kind_of?(Array) 
+  elsif pref.kind_of?(Array)
     if pref[0].kind_of?(InternalLink)
       pref = pref[0].name
     elsif pref[0].kind_of?(String)
@@ -308,45 +313,44 @@ def parse(template,pref_map)
     puts "Error > unknown address format: #{pref}"
     exit(0)
   else
-    pref = ''
+    pref = ""
   end
 
   if v = pref_map[pref]
     pref = v
   else
-    puts "Warning > unknown prefecture #{template.get_param('所在地').to_s}"
+    puts "Warning > unknown prefecture #{template.get_param("所在地").to_s}"
   end
-  open_date = parse_date(template.get_param('開業年月日'))
-  closed_date = parse_date(template.get_param('廃止年月日'))
+  open_date = parse_date(template.get_param("開業年月日"))
+  closed_date = parse_date(template.get_param("廃止年月日"))
   return [
-    '','NULL',name,name_kana,
-    lat,lng,pref,'NULL','NULL',
-    1,open_date,closed_date,0,'NULL'
-  ]
+           "", "NULL", name, name, name_kana,
+           lat, lng, pref, "NULL", "NULL",
+           1, open_date, closed_date, 0, "NULL",
+         ]
 end
 
-
 pref = {}
-File.open('../prefecture.csv','r') do |file|
+File.open("../prefecture.csv", "r") do |file|
   file.each_line do |line|
-    cells = line.chomp.split(',')
+    cells = line.chomp.split(",")
     pref[cells[1]] = cells[0].to_i
   end
 end
 list = []
-list << ['code','id','name','name_kana','lat','lng','prefecture','postal_code','address','closed','open_date','closed_date','impl','attr']
-File.open("list.txt","r") do |file|
+list << ["code", "id", "name", "original_name", "name_kana", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"]
+File.open("list.txt", "r") do |file|
   file.each_line do |line|
     name = line.chomp
-    str = ''
-    File.open("html/#{name}.html","r") do |f|
-      f.each_line{|l| str << l}
+    str = ""
+    File.open("html/#{name}.html", "r") do |f|
+      f.each_line { |l| str << l }
     end
     puts name
     str = str.match(/<text.+?>(.+?)<\/text>/m)[1]
-    list << parse(get_info(str),pref)
+    list << parse(get_info(str), pref)
   end
 end
-File.open("station.csv","w") do |file|
-  list.each{|e| file.puts(e.join(','))}
+File.open("station.csv", "w") do |file|
+  list.each { |e| file.puts(e.join(",")) }
 end

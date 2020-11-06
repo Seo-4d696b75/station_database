@@ -7,7 +7,7 @@ STATION_FIELD = [
   "code",
   "id",
   "name",
-  #"original_name",
+  "original_name",
   "name_kana",
   "lat",
   "lng",
@@ -145,6 +145,7 @@ class CSVTest < Minitest::Test
 
   def read_station
     puts "read station info."
+    dup_original_name = Hash.new([])
     csv_each_line("station.csv") do |fields|
       csv_err("col size != 15") if fields.length != 15
       code = fields["code"].to_i
@@ -162,8 +163,8 @@ class CSVTest < Minitest::Test
       name = read_value(fields, "name")
       name_original = read_value(fields, "original_name")
       name_kana = read_value(fields, "name_kana")
-      # 駅メモしようでは駅名重複なし
-      csv_err("name duplicated") if impl && !@station_name_set.add?(name)
+      # 駅名重複なし
+      csv_err("name duplicated") if !@station_name_set.add?(name)
       lat = fields["lat"].to_f
       lng = fields["lng"].to_f
       pref = fields["prefecture"].to_i
@@ -174,7 +175,6 @@ class CSVTest < Minitest::Test
       csv_err("invalid attr value") if impl && attr != "eco" && attr != "heat" && attr != "cool" && attr != "unknown"
       csv_err("invalid attr value (no-impl)") if !impl && attr
       csv_err("closed <=> attr") if impl && closed != (attr == "unknown")
-      csv_err("attr not defined in no-impl station") if !impl && attr
       postal_code = read_value(fields, "postal_code")
       address = read_value(fields, "address")
       station = {}
@@ -199,6 +199,20 @@ class CSVTest < Minitest::Test
       @stations << station
       @station_map[code] = station
       @station_map[name] = station
+
+      if name != name_original
+        dup_original_name[name_original] << station
+      end
+    end
+
+    # check name duplication
+    dup_original_name.each do |key, value|
+      if s = @station_map[key]
+        assert s["impl"] && value.select { |v| v["impl"] }.length == 0, "original_name '#{key}' duplicated, but no suffix in name of #{JSON.dump(s)}"
+        # may be value.length == 1
+        next
+      end
+      assert value.legth > 1, "original_name '#{key}' not duplicated #{JSON.dump(value[0])}"
     end
 
     impl_size = @stations.select { |s| s["impl"] }.length
@@ -336,17 +350,17 @@ class CSVTest < Minitest::Test
         station_name = s["name"]
         # 名前解決
         station = nil
-        assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
+        assert (station = nil) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
         if station_code != station["code"]
           # 駅名の重複なしのため駅名一致なら同値
-          puts "station code changed. #{station_name}@#{line["name"]} #{station_code}=>#{station["code"]}"
+          puts "station code changed. #{station_name}@#{line["name"]}(#{line["code"]}) #{station_code}=>#{station["code"]}"
           station_code = station["code"]
           s["code"] = station["code"]
           write = true
         elsif station_name != station["name"]
           # 駅名変更は慎重に
-          print "station name changed. #{station_code}@#{line["name"]} #{station_name}=>#{station["name"]} Is this OK? Y/N =>"
-          assert gets.chomp.match(/[yY]/), "abort"
+          print "station name changed. #{station_code}@#{line["name"]}(#{line["code"]}) #{station_name}=>#{station["name"]} Is this OK? Y/N =>"
+          assert gets.chomp.match(/^[yY]?$/), "abort"
           station_name = station["name"]
           s["name"] = station["name"]
           write = true
