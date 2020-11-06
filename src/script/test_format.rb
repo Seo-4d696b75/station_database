@@ -74,7 +74,7 @@ class FormatTest < Minitest::Test
 
       # name and original_name
       if name != name_original
-        dup_name[name_original] << station
+        dup_name[name_original] = [station, *dup_name[name_original]]
       end
 
       # cnt in each prefecture
@@ -106,7 +106,7 @@ class FormatTest < Minitest::Test
         # may be value.length == 1
         next
       end
-      assert value.legth > 1, "original_name '#{key}' not duplicated #{JSON.dump(value[0])}"
+      assert value.length > 1, "original_name '#{key}' not duplicated #{JSON.dump(value[0])}"
     end
 
     # check cnt in each pref.

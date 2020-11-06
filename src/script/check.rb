@@ -201,7 +201,7 @@ class CSVTest < Minitest::Test
       @station_map[name] = station
 
       if name != name_original
-        dup_original_name[name_original] << station
+        dup_original_name[name_original] = [station, *dup_original_name[name_original]]
       end
     end
 
@@ -212,7 +212,7 @@ class CSVTest < Minitest::Test
         # may be value.length == 1
         next
       end
-      assert value.legth > 1, "original_name '#{key}' not duplicated #{JSON.dump(value[0])}"
+      assert value.length > 1, "original_name '#{key}' not duplicated #{JSON.dump(value[0])}"
     end
 
     impl_size = @stations.select { |s| s["impl"] }.length
@@ -350,7 +350,7 @@ class CSVTest < Minitest::Test
         station_name = s["name"]
         # 名前解決
         station = nil
-        assert (station = nil) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
+        assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
         if station_code != station["code"]
           # 駅名の重複なしのため駅名一致なら同値
           puts "station code changed. #{station_name}@#{line["name"]}(#{line["code"]}) #{station_code}=>#{station["code"]}"
