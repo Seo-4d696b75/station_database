@@ -4,6 +4,12 @@ require "securerandom"
 
 Encoding.default_external = "UTF-8"
 
+PATTERN_ID = /^[0-9a-f]{6}$/
+PATTERN_KANA = /^[\p{hiragana}ー・\p{P}]+$/
+PATTERN_POST = /^[0-9]{3}-[0-9]{4}$/
+PATTERN_DATE = /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
+PATTERN_COLOR = /^#[0-9A-F]{6}$/
+
 def read(path)
   str = ""
   File.open(path, "r:utf-8") do |file|
@@ -257,4 +263,20 @@ def read_value(data, key)
     csv_err("empty '#{key}' value")
     return nil
   end
+end
+
+def format_numbering(s, line_symbol = nil)
+  if s.key?("numbering")
+    return s["numbering"].map do |n|
+             value = ""
+             if n.key?("symbol")
+               value << n["symbol"]
+             elsif line_symbol
+               value << line_symbol
+             end
+             value << n["index"]
+             next value
+           end.join("/")
+  end
+  return nil
 end

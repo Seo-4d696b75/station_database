@@ -1,17 +1,17 @@
-load("script/utils.rb")
-load("script/kdtree.rb")
+load("src/script/utils.rb")
+load("src/script/kdtree.rb")
 
 version = ARGV[0].to_i
 puts "version: #{version}"
 
-dir_dst = "../out"
+dir_dst = "./out"
 
 print "read soved line data..."
-lines = read_json("solved/line.json")
+lines = read_json("src/solved/line.json")
 puts "size:#{lines.length}"
 
 print "read soved station data..."
-stations = read_json("solved/station.json")
+stations = read_json("src/solved/station.json")
 puts "size:#{stations.length}"
 
 station_map = {}
@@ -22,7 +22,7 @@ end
 
 # 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
 puts "read diagram details"
-tree = read_json("diagram/station.json")
+tree = read_json("src/diagram/station.json")
 if stations.length != tree["node_list"].length
   puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree["node_list"].length}"
   exit(0)
@@ -45,7 +45,7 @@ puts "read station-list and polyline data."
 lines_details = []
 lines.each do |line|
   # 路線の詳細情報
-  path = "details/line/#{line["code"]}.json"
+  path = "src/details/line/#{line["code"]}.json"
   details = read_json(path)
   if details["name"] != line["name"]
     puts "Error > line name mismatch line:#{JSON.dump(line)}"
@@ -68,7 +68,7 @@ lines.each do |line|
   end
 
   # 路線ポリライン
-  path = "polyline/solved/#{line["code"]}.json"
+  path = "src/polyline/solved/#{line["code"]}.json"
   if File.exists?(path)
     polyline = read_json(path)
     details["east"] = polyline["east"]
