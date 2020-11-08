@@ -4,6 +4,7 @@
   "name":"伊予鉄道森松線",
   "name_kana":"いよてつどうもりまつせん",
   "station_size":3,
+  "company_code":226,
   "closed":true,
   "station_list":[
     {"code":9981301,"id":"0dcea2","name":"伊予立花","name_kana":"いよたちばな","closed":true,"lat":33.82756,"lng":132.773326,"prefecture":38,"lines":[99813],"attr":"unknown","postal_code":"790-0966","address":"愛媛県松山市立花２丁目１-４２","next":[9980703,9980818,9980704,9981302],"voronoi":{"lat":33.813994,"lng":132.765115,"delta_lat":[0,20328,-717,-14227],"delta_lng":[0,11920,6797,-4513]}},

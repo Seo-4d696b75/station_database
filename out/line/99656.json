@@ -4,6 +4,7 @@
   "name":"北丹鉄道",
   "name_kana":"ほくたんてつどう",
   "station_size":8,
+  "company_code":302,
   "closed":true,
   "station_list":[
     {"code":1161514,"id":"19826e","name":"福知山","name_kana":"ふくちやま","lat":35.296143,"lng":135.118564,"prefecture":26,"lines":[11615,11622,11630,99608,99656,99655],"attr":"heat","postal_code":"620-0000","address":"福知山市字天田無番地","next":[9960802,9965602,1161513,1163009],"voronoi":{"lat":35.25075,"lng":135.060699,"delta_lat":[0,48031,5627,-27208],"delta_lng":[0,50182,38068,2100]}},

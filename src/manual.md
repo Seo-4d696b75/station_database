@@ -28,7 +28,10 @@
 - solved/line.json 駅メモ路線一覧
 
 ```
-$ ruby script/check.rb
+$ git checkout extra-update -- src/station.csv
+$ git checkout extra-update -- src/line.csv
+$ git checkout extra-update -- src/details/line/*.json
+$ ruby src/script/check.rb
 ```
 
 ### 確認項目
@@ -46,7 +49,7 @@ $ ruby script/check.rb
 `solved/station.json`を入力としてjavaで計算  
 
 ```
-script/diagram.bat
+src/script/diagram.bat
 ```
 
 `diagram/station.json`に出力される

@@ -105,6 +105,16 @@ class CSVTest < FormatTest
     # read line details from other files
     # registaration of station-line is defined here
     read_line_details()
+
+    # filter impl
+    @stations.select! do |s|
+      s["lines"].select! { |code| @line_map[code]["impl"] }
+      s.delete("impl")
+    end
+    @lines.select! do |l|
+      # station_list edited
+      l.delete("impl")
+    end
   end
 
   def test_station()
@@ -120,7 +130,7 @@ class CSVTest < FormatTest
 
   def teardown
     print "Write station register.csv..."
-    File.open("register.csv", "w") do |file|
+    File.open("src/register.csv", "w") do |file|
       @register.each { |e| file.puts(e.join(",")) }
     end
     puts "OK"
@@ -153,9 +163,7 @@ class CSVTest < FormatTest
     csv_each_line("src/station.csv") do |fields|
       csv_err("col size != 15") if fields.length != 15
 
-      # only impl
       impl = read_boolean(fields, "impl")
-      next if !impl
 
       code = fields["code"].to_i
       id = read_value(fields, "id")
@@ -199,9 +207,7 @@ class CSVTest < FormatTest
     csv_each_line("src/line.csv") do |fields|
       csv_err("fields size != 12") if fields.length != 12
 
-      # only impl
       impl = read_boolean(fields, "impl")
-      next if !impl
 
       code = fields["code"].to_i
       id = read_value(fields, "id")
@@ -288,6 +294,8 @@ class CSVTest < FormatTest
       line["station_list"] = details["station_list"].map.each_with_index do |s, i|
         station_code = s["code"]
         station_name = s["name"]
+        impl = s.fetch("impl", true)
+
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
@@ -307,7 +315,11 @@ class CSVTest < FormatTest
         elsif station_code != station["code"] || station_name != station["name"]
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
-        impl_size += 1 if station["impl"] && (!s.key?("impl") || !!s["impl"])
+
+        # only impl
+        next nil if !impl || !station["impl"]
+
+        impl_size += 1 if station["impl"] && impl
         # 駅要素側にも登録路線を記憶
         station["lines"] << line["code"]
         index = i + 1
@@ -316,7 +328,8 @@ class CSVTest < FormatTest
         numbering = "NULL" if numbering == nil
         @register << [station_code, line_code, index, numbering]
         next sort_hash(s)
-      end
+      end.compact
+      line["station_size"] = line["station_list"].length
 
       # 更新あるなら駅登録詳細へ反映
       if write

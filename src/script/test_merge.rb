@@ -15,7 +15,7 @@ STATION_FIELD = [
   "open_date",
   "closed_date",
   "attr",
-  "lines",
+#  "lines", update < extra
 # "next" and "voronoi" may change due to other stations' changes
 ]
 
@@ -24,13 +24,13 @@ LINE_FIELD = [
   "name",
   "name_kana",
   "name_formal",
-  "station_size",
+  #"station_size", update < extra
   "company_code",
   "color",
   "symbol",
   "closed",
   "closed_date",
-  "station_list",
+  #"station_list", update < extra
   "north",
   "south",
   "east",
@@ -45,7 +45,6 @@ class MergeTest < Minitest::Test
     @stations = data["stations"]
     @station_map = Hash.new
     @stations.each do |s|
-      @stations[s["id"]] = s
       @station_map[s["id"]] = s
       @station_map[s["code"]] = s
     end
@@ -87,6 +86,8 @@ class MergeTest < Minitest::Test
       return "`#{JSON.dump(value)}`"
     elsif value.kind_of?(Numeric) || value.kind_of?(String) || value == true || value == false
       return value.to_s
+    elsif value == nil
+      return "nil"
     end
     raise "unexpected type #{value} #{value.class}"
   end
@@ -100,6 +101,24 @@ class MergeTest < Minitest::Test
         new_value = format_md(key, new_value, @station_map)
         @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
       end
+    end
+  end
+
+  def check_equal(update, extra, fields)
+    fields.each do |key|
+      update_value = update[key]
+      extra_value = extra[key]
+      if update_value && extra_value
+        assert_equal update_value, extra_value, "not equal name:#{update["name"]} key:#{key}"
+      else
+        assert !update_value && !extra_value, "lack of field(#{key}) update:#{update_value} extra:#{extra_value} name:#{update["name"]}"
+      end
+    end
+  end
+
+  def is_subset(child, parent, name)
+    child.each do |item|
+      assert parent.include?(item), "array not subset. name:#{name} child:#{child} parent:#{parent}"
     end
   end
 
@@ -122,7 +141,6 @@ class MergeTest < Minitest::Test
     @stations.each { |s| stations[s["id"]] = s }
     @lines.each { |l| lines[l["id"]] = l }
 
-    stations = Hash.new
     old_stations.each do |old|
       id = old["id"]
       station = stations.delete(id)
@@ -154,14 +172,21 @@ class MergeTest < Minitest::Test
     data["lines"].each { |l| lines[l["id"]] = l }
 
     @stations.each do |s|
+      assert s.fetch("impl", true), "not impl #{JSON.dump(s)} at update"
       station = stations.delete(s["id"])
       assert station, "station not found, but in subset:#{JSON.dump(s)}"
-      assert_equal s, station, "not subset"
+      assert station.fetch("impl", true), "not impl #{JSON.dump(station)} at extra"
+      check_equal(s, station, STATION_FIELD)
+      is_subset(s["lines"], station["lines"], s["name"])
     end
     @lines.each do |l|
+      assert l.fetch("impl", true), "not impl #{l["name"]} at update"
       line = lines.delete(l["id"])
-      assert line, "station not found, but in subset:#{JSON.dump(l)}"
-      assert_equal l, line, "not subset"
+      assert line, "station not found, but in subset:#{l["name"]}"
+      assert line.fetch("impl", true), "not impl #{line["name"]} at extra"
+      check_equal(l, line, LINE_FIELD)
+      assert l["station_size"] <= line["station_size"], "station_size mismatch #{l["name"]}"
+      is_subset(l["station_list"], line["station_list"], l["name"])
     end
   end
 
