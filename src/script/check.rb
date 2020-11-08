@@ -119,7 +119,7 @@ class CSVTest < FormatTest
 
   def teardown
     print "Write station register.csv..."
-    File.open("register.csv", "w") do |file|
+    File.open("src/register.csv", "w") do |file|
       @register.each { |e| file.puts(e.join(",")) }
     end
     puts "OK"
@@ -280,6 +280,7 @@ class CSVTest < FormatTest
       line["station_list"] = details["station_list"].map.each_with_index do |s, i|
         station_code = s["code"]
         station_name = s["name"]
+        impl = s.fetch("impl", true)
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
@@ -299,7 +300,7 @@ class CSVTest < FormatTest
         elsif station_code != station["code"] || station_name != station["name"]
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
-        impl_size += 1 if station["impl"] && (!s.key?("impl") || !!s["impl"])
+        impl_size += 1 if station["impl"] && impl
         # 駅要素側にも登録路線を記憶
         station["lines"] << line["code"]
         index = i + 1

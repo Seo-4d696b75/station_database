@@ -44,7 +44,7 @@ class FormatTest < Minitest::Test
       lines = station["lines"]
       open_date = station["open_date"]
       closed_date = station["closed_date"]
-      impl = station["impl"]
+      impl = station.fetch("impl", true)
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(PATTERN_ID), "invalid id #{JSON.dump(station)}"
@@ -104,7 +104,7 @@ class FormatTest < Minitest::Test
     # check name duplication
     dup_name.each do |key, value|
       if s = @station_map[key]
-        assert s["impl"] && value.select { |v| v["impl"] }.length == 0, "original_name '#{key}' duplicated, but no suffix in name of #{JSON.dump(s)}"
+        assert s.fetch("impl", true) && value.select { |v| v.fetch("impl", true) }.length == 0, "original_name '#{key}' duplicated, but no suffix in name of #{JSON.dump(s)}"
         # may be value.length == 1
         next
       end
@@ -139,7 +139,7 @@ class FormatTest < Minitest::Test
       station_size = line["station_size"]
       station_list = line["station_list"]
       closed_date = line["closed_date"]
-      impl = line["impl"]
+      impl = line.fetch("impl", true)
 
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{name}"
@@ -155,7 +155,7 @@ class FormatTest < Minitest::Test
       station_list.each do |item|
         s = @station_map[item["code"]]
         assert s && s["lines"].include?(code), "invalid station item:#{item["code"]} at #{name}"
-        impl_size += 1 if s["impl"] && (!item.key?("impl") || !!item["impl"])
+        impl_size += 1 if s.fetch("impl", true) && item.fetch("impl", true)
       end
       if impl
         size = line_impl_size[name]

@@ -16,6 +16,7 @@ STATION_FIELD = [
   "closed_date",
   "attr",
   "lines",
+  "impl",
 # "next" and "voronoi" may change due to other stations' changes
 ]
 
@@ -36,6 +37,7 @@ LINE_FIELD = [
   "east",
   "west",
   "polyline_list",
+  "impl",
 ]
 
 class MergeTest < Minitest::Test
