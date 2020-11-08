@@ -61,7 +61,7 @@ class MergeTest < Minitest::Test
     @lines = Hash.new
     data["lines"].each { |l| @lines[l["id"]] = l }
 
-    @log = "## detected diff from `master` branch  \n\n"
+    @log = "## detected diff from `extra` branch  \n\n"
   end
 
   def normalize_value(key, value, station_map)
