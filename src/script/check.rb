@@ -254,7 +254,7 @@ class CSVTest < FormatTest
         write = true
       end
       assert station["postal_code"].match(PATTERN_POST), "invalide post code: #{JSON.dump(station)}"
-      write_csv("station.csv", STATION_FIELD, @stations) if write
+      write_csv("src/station.csv", STATION_FIELD, @stations) if write
     end
   end
 
