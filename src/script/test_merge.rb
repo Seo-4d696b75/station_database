@@ -53,6 +53,12 @@ class MergeTest < Minitest::Test
     @log = "## detected diff from `master` branch  \n\n"
   end
 
+  def log(message)
+    puts message
+    @log << message
+    @log << "\n"
+  end
+
   def normalize_value(key, value, station_map)
     if key == "lines"
       # Array of Int
@@ -99,7 +105,7 @@ class MergeTest < Minitest::Test
       if old_value != new_value
         old_value = format_md(old_value, key, @old_station_map)
         new_value = format_md(new_value, key, @station_map)
-        @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
+        log "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}"
       end
     end
   end
@@ -154,10 +160,10 @@ class MergeTest < Minitest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     stations.each_value do |station|
-      @log << "- **station** new station #{format_md(station)}\n"
+      log "- **station** new station #{format_md(station)}"
     end
     lines.each_value do |line|
-      @log << "- **line** new line #{format_md(line)}\n"
+      log << "- **line** new line #{format_md(line)}"
     end
   end
 
