@@ -16,6 +16,7 @@ STATION_FIELD = [
   "closed_date",
   "attr",
   "lines",
+  "impl",
 # "next" and "voronoi" may change due to other stations' changes
 ]
 
@@ -36,6 +37,7 @@ LINE_FIELD = [
   "east",
   "west",
   "polyline_list",
+  "impl",
 ]
 
 class MergeTest < Minitest::Test
@@ -61,7 +63,7 @@ class MergeTest < Minitest::Test
     @lines = Hash.new
     data["lines"].each { |l| @lines[l["id"]] = l }
 
-    @log = "## detected diff from `master` branch  \n\n"
+    @log = "## detected diff from `extra` branch  \n\n"
   end
 
   def normalize_value(key, value, station_map)
@@ -79,7 +81,7 @@ class MergeTest < Minitest::Test
     end
   end
 
-  def format_md(key, value, station_map)
+  def format_md(value, key = nil, station_map = nil)
     if key == "polyline_list"
       return "`{..data..}`"
     elsif key == "station_list"
@@ -106,8 +108,8 @@ class MergeTest < Minitest::Test
       old_value = normalize_value(key, old[key], @old_station_map)
       new_value = normalize_value(key, current[key], @station_map)
       if old_value != new_value
-        old_value = format_md(key, old_value, @old_station_map)
-        new_value = format_md(key, new_value, @station_map)
+        old_value = format_md(old_value, key, @old_station_map)
+        new_value = format_md(new_value, key, @station_map)
         @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
       end
     end
