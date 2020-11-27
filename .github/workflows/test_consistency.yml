@@ -37,3 +37,11 @@ jobs:
         with:
           name: diff
           path: artifact/diff.md
+      - uses: actions/upload-artifact@v1
+        with:
+          name: master
+          path: artifact/master.json
+      - uses: actions/upload-artifact@v1
+        with:
+          name: extra
+          path: artifact/extra.json
