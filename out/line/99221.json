@@ -5,6 +5,7 @@
   "name_kana":"おうしょうせん",
   "name_formal":"羽後交通横荘線",
   "station_size":2,
+  "company_code":301,
   "closed":true,
   "station_list":[
     {"code":9922102,"id":"6d15fd","name":"羽後里見","name_kana":"うごさとみ","closed":true,"lat":39.280615,"lng":140.449695,"prefecture":5,"lines":[99221],"attr":"unknown","postal_code":"013-0203","address":"秋田県横手市雄物川町東里立野５６","closed_date":"1971-07-20","next":[1120216,1120214,9922202,9922101,1120213,1120217,1120218,1120215],"voronoi":{"lat":39.303796,"lng":140.502803,"delta_lat":[0,13543,15354,-78734,-20039,8209,11600,33235],"delta_lng":[0,-3612,-14588,-166398,150009,12971,9001,11934]}},

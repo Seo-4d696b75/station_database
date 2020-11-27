@@ -9,15 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+        with:
+          ref: 'update'
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-      - name: install minitest
-        run: |
-          gem install minitest
       - name: enable problem matcher
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
       - name: run test
         run: |
+          gem install minitest
           ruby src/script/test_format.rb
