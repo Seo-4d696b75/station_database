@@ -1,5 +1,12 @@
 # データベース管理手引き
 
+## 最新データ
+
+`extra-update`から取得
+
+```
+./src/script/checkout.bat
+```
 
 ## データファイル
 `src`ディレクトリ以下
@@ -28,10 +35,7 @@
 - solved/line.json 駅メモ路線一覧
 
 ```
-$ git checkout extra-update -- src/station.csv
-$ git checkout extra-update -- src/line.csv
-$ git checkout extra-update -- src/details/line/*.json
-$ ruby src/script/check.rb
+ruby src/script/check.rb
 ```
 
 ### 確認項目
@@ -72,7 +76,7 @@ script/polyline.bat
 - details/line/*.json 路線詳細
 - polyline/solved/*.json 路線ポリライン
 ```
-ruby script/process.rb [version]
+ruby src/script/process.rb [version]
 ```
 
 `../out`に出力
