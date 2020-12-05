@@ -1,0 +1,636 @@
+{
+  "station": "薮波",
+  "lat": 36.636444,
+  "lng": 136.876167,
+  "plus_code": {
+    "compound_code": "JVPG+HF 日本、富山県小矢部市",
+    "global_code": "8Q8RJVPG+HF"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６４７",
+          "short_name": "６４７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "浅地",
+          "short_name": "浅地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "932-0122",
+          "short_name": "932-0122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒932-0122 富山県小矢部市浅地６４７",
+      "geometry": {
+        "location": {
+          "lat": 36.6362838,
+          "lng": 136.8763171
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6376327802915,
+            "lng": 136.8776660802915
+          },
+          "southwest": {
+            "lat": 36.6349348197085,
+            "lng": 136.8749681197085
+          }
+        }
+      },
+      "place_id": "ChIJi5-4Wc0r-F8RBE2v-8vNfyQ",
+      "plus_code": {
+        "compound_code": "JVPG+GG 日本、富山県小矢部市",
+        "global_code": "8Q8RJVPG+GG"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "薮波（バス）",
+          "short_name": "薮波（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "浅地",
+          "short_name": "浅地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "932-0122",
+          "short_name": "932-0122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒932-0122 富山県小矢部市浅地 薮波（バス）",
+      "geometry": {
+        "location": {
+          "lat": 36.6359507,
+          "lng": 136.8761029
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.63729968029149,
+            "lng": 136.8774518802915
+          },
+          "southwest": {
+            "lat": 36.63460171970849,
+            "lng": 136.8747539197085
+          }
+        }
+      },
+      "place_id": "ChIJC5ToUs0r-F8RAb3Ys4oylYg",
+      "plus_code": {
+        "compound_code": "JVPG+9C 日本、富山県小矢部市",
+        "global_code": "8Q8RJVPG+9C"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "安養寺砺波線",
+          "short_name": "県道260号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "浅地",
+          "short_name": "浅地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "932-0122",
+          "short_name": "932-0122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒932-0122 富山県小矢部市浅地 県道260号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6359564,
+            "lng": 136.8766433
+          },
+          "southwest": {
+            "lat": 36.6359366,
+            "lng": 136.876361
+          }
+        },
+        "location": {
+          "lat": 36.6359459,
+          "lng": 136.8765022
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6372954802915,
+            "lng": 136.8778511302915
+          },
+          "southwest": {
+            "lat": 36.6345975197085,
+            "lng": 136.8751531697085
+          }
+        }
+      },
+      "place_id": "ChIJ-UN9qzIq-F8RvBzlgFnZS3o",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "浅地",
+          "short_name": "浅地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "932-0122",
+          "short_name": "932-0122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒932-0122 富山県小矢部市浅地",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6449794,
+            "lng": 136.8856311
+          },
+          "southwest": {
+            "lat": 36.585641,
+            "lng": 136.8478979
+          }
+        },
+        "location": {
+          "lat": 36.6242812,
+          "lng": 136.8737758
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6449794,
+            "lng": 136.8856311
+          },
+          "southwest": {
+            "lat": 36.585641,
+            "lng": 136.8478979
+          }
+        }
+      },
+      "place_id": "ChIJCZKoBlsp-F8Rnvj6H1XhESY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "932-0122",
+          "short_name": "932-0122",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "浅地",
+          "short_name": "浅地",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒932-0122",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6449794,
+            "lng": 136.8856311
+          },
+          "southwest": {
+            "lat": 36.585641,
+            "lng": 136.8478979
+          }
+        },
+        "location": {
+          "lat": 36.6242812,
+          "lng": 136.8737758
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6449794,
+            "lng": 136.8856311
+          },
+          "southwest": {
+            "lat": 36.585641,
+            "lng": 136.8478979
+          }
+        }
+      },
+      "place_id": "ChIJr-X4eUsq-F8R6FklmxZbT6k",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県小矢部市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7430935,
+            "lng": 136.9377103
+          },
+          "southwest": {
+            "lat": 36.585583,
+            "lng": 136.7831142
+          }
+        },
+        "location": {
+          "lat": 36.6750885,
+          "lng": 136.8686403
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7430935,
+            "lng": 136.9377103
+          },
+          "southwest": {
+            "lat": 36.585583,
+            "lng": 136.7831142
+          }
+        }
+      },
+      "place_id": "ChIJnSK4Zo0q-F8RlKFZajBTLTs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        },
+        "location": {
+          "lat": 36.6958266,
+          "lng": 137.2137071
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        }
+      },
+      "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "JVPG+HF",
+          "short_name": "JVPG+HF",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "小矢部市",
+          "short_name": "小矢部市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "JVPG+HF 日本、富山県小矢部市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6365,
+            "lng": 136.87625
+          },
+          "southwest": {
+            "lat": 36.636375,
+            "lng": 136.876125
+          }
+        },
+        "location": {
+          "lat": 36.636444,
+          "lng": 136.876167
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6377864802915,
+            "lng": 136.8775364802915
+          },
+          "southwest": {
+            "lat": 36.6350885197085,
+            "lng": 136.8748385197085
+          }
+        }
+      },
+      "place_id": "GhIJIt46_3ZRQkARs1pgjwkcYUA",
+      "plus_code": {
+        "compound_code": "JVPG+HF 日本、富山県小矢部市",
+        "global_code": "8Q8RJVPG+HF"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

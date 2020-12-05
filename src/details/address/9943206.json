@@ -1,0 +1,636 @@
+{
+  "station": "本江",
+  "lat": 36.614028,
+  "lng": 136.911667,
+  "plus_code": {
+    "compound_code": "JW76+JM 日本、富山県南砺市",
+    "global_code": "8Q8RJW76+JM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "本江［南砺市］（バス）",
+          "short_name": "本江［南砺市］（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "本江",
+          "short_name": "本江",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-1501",
+          "short_name": "939-1501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-1501 富山県南砺市本江 本江［南砺市］（バス）",
+      "geometry": {
+        "location": {
+          "lat": 36.6142556,
+          "lng": 136.9115206
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6156045802915,
+            "lng": 136.9128695802915
+          },
+          "southwest": {
+            "lat": 36.6129066197085,
+            "lng": 136.9101716197085
+          }
+        }
+      },
+      "place_id": "ChIJJUuwFQYp-F8RRrVQmMFFeSo",
+      "plus_code": {
+        "compound_code": "JW76+PJ 日本、富山県南砺市",
+        "global_code": "8Q8RJW76+PJ"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２９７",
+          "short_name": "２９７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "本江",
+          "short_name": "本江",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-1501",
+          "short_name": "939-1501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-1501 富山県南砺市本江２９７",
+      "geometry": {
+        "location": {
+          "lat": 36.6138314,
+          "lng": 136.9113476
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.61518038029149,
+            "lng": 136.9126965802915
+          },
+          "southwest": {
+            "lat": 36.61248241970849,
+            "lng": 136.9099986197085
+          }
+        }
+      },
+      "place_id": "ChIJTTFkcgYp-F8R_boglIxTzS8",
+      "plus_code": {
+        "compound_code": "JW76+GG 日本、富山県南砺市",
+        "global_code": "8Q8RJW76+GG"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道471号",
+          "short_name": "国道471号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "本江",
+          "short_name": "本江",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-1501",
+          "short_name": "939-1501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-1501 富山県南砺市本江 国道471号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6147782,
+            "lng": 136.911871
+          },
+          "southwest": {
+            "lat": 36.6136598,
+            "lng": 136.9112516
+          }
+        },
+        "location": {
+          "lat": 36.61421929999999,
+          "lng": 136.911562
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.61556798029149,
+            "lng": 136.9129102802915
+          },
+          "southwest": {
+            "lat": 36.6128700197085,
+            "lng": 136.9102123197085
+          }
+        }
+      },
+      "place_id": "ChIJy_fDFAYp-F8RIB9Fi2kcnR8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "939-1501",
+          "short_name": "939-1501",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "本江",
+          "short_name": "本江",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒939-1501",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6223334,
+            "lng": 136.9207742
+          },
+          "southwest": {
+            "lat": 36.6076934,
+            "lng": 136.9024849
+          }
+        },
+        "location": {
+          "lat": 36.614239,
+          "lng": 136.9118134
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6223334,
+            "lng": 136.9207742
+          },
+          "southwest": {
+            "lat": 36.6076934,
+            "lng": 136.9024849
+          }
+        }
+      },
+      "place_id": "ChIJlT10rgkp-F8RZ3J9A1UxrK8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "本江",
+          "short_name": "本江",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-1501",
+          "short_name": "939-1501",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-1501 富山県南砺市本江",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6223334,
+            "lng": 136.9207742
+          },
+          "southwest": {
+            "lat": 36.6076934,
+            "lng": 136.9024849
+          }
+        },
+        "location": {
+          "lat": 36.614239,
+          "lng": 136.9118134
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6223334,
+            "lng": 136.9207742
+          },
+          "southwest": {
+            "lat": 36.6076934,
+            "lng": 136.9024849
+          }
+        }
+      },
+      "place_id": "ChIJj-7rKAYp-F8RehmwBexuOt8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県南砺市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6284329,
+            "lng": 137.0642939
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        },
+        "location": {
+          "lat": 36.5122068,
+          "lng": 136.9006206
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6284329,
+            "lng": 137.0642939
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        }
+      },
+      "place_id": "ChIJ3R95_Ls9-F8RswTgOhjX-78",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        },
+        "location": {
+          "lat": 36.6958266,
+          "lng": 137.2137071
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        }
+      },
+      "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "JW76+JM",
+          "short_name": "JW76+JM",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "南砺市",
+          "short_name": "南砺市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "JW76+JM 日本、富山県南砺市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.614125,
+            "lng": 136.91175
+          },
+          "southwest": {
+            "lat": 36.614,
+            "lng": 136.911625
+          }
+        },
+        "location": {
+          "lat": 36.614028,
+          "lng": 136.911667
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.61541148029149,
+            "lng": 136.9130364802915
+          },
+          "southwest": {
+            "lat": 36.61271351970849,
+            "lng": 136.9103385197085
+          }
+        }
+      },
+      "place_id": "GhIJBWoxeJhOQkAR9rpFYCwdYUA",
+      "plus_code": {
+        "compound_code": "JW76+JM 日本、富山県南砺市",
+        "global_code": "8Q8RJW76+JM"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
