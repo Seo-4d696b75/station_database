@@ -1,0 +1,832 @@
+{
+  "station": "西長岡",
+  "lat": 37.441611,
+  "lng": 138.822861,
+  "plus_code": {
+    "compound_code": "CRRF+J4 日本、新潟県長岡市",
+    "global_code": "8Q9WCRRF+J4"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１−７９",
+          "short_name": "１−７９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒940-2112 新潟県長岡市大島本町２丁目１−７９",
+      "geometry": {
+        "location": {
+          "lat": 37.4415167,
+          "lng": 138.8229994
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4428656802915,
+            "lng": 138.8243483802915
+          },
+          "southwest": {
+            "lat": 37.4401677197085,
+            "lng": 138.8216504197085
+          }
+        }
+      },
+      "place_id": "ChIJ_y8gHRyp9V8R1CoLcMJ2Uuc",
+      "plus_code": {
+        "compound_code": "CRRF+J5 日本、新潟県長岡市",
+        "global_code": "8Q9WCRRF+J5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１−８０",
+          "short_name": "１−８０",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒940-2112 新潟県長岡市大島本町２丁目１−８０",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4414697,
+            "lng": 138.8230989
+          },
+          "southwest": {
+            "lat": 37.44134830000001,
+            "lng": 138.8229266
+          }
+        },
+        "location": {
+          "lat": 37.44141320000001,
+          "lng": 138.8230362
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4427579802915,
+            "lng": 138.8243617302915
+          },
+          "southwest": {
+            "lat": 37.4400600197085,
+            "lng": 138.8216637697085
+          }
+        }
+      },
+      "place_id": "ChIJkb-BHRyp9V8Rwm825TRVUxk",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１−８２",
+          "short_name": "１−８２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒940-2112 新潟県長岡市大島本町２丁目１−８２",
+      "geometry": {
+        "location": {
+          "lat": 37.4412319,
+          "lng": 138.8228391
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4425808802915,
+            "lng": 138.8241880802915
+          },
+          "southwest": {
+            "lat": 37.4398829197085,
+            "lng": 138.8214901197085
+          }
+        }
+      },
+      "place_id": "ChIJG_3IWhyp9V8RuUv4DNcqSPo",
+      "plus_code": {
+        "compound_code": "CRRF+F4 日本、新潟県長岡市",
+        "global_code": "8Q9WCRRF+F4"
+      },
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 大島本町 長岡市 新潟県 940-2112 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4417611,
+            "lng": 138.8229703
+          },
+          "southwest": {
+            "lat": 37.4411332,
+            "lng": 138.8225402
+          }
+        },
+        "location": {
+          "lat": 37.4414292,
+          "lng": 138.8227967
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4427961302915,
+            "lng": 138.8241042302915
+          },
+          "southwest": {
+            "lat": 37.4400981697085,
+            "lng": 138.8214062697085
+          }
+        }
+      },
+      "place_id": "ChIJwwThpx6p9V8RqMEtNHO2UH8",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３丁目",
+          "short_name": "３丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒940-2112 新潟県長岡市大島本町３丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4447245,
+            "lng": 138.8239911
+          },
+          "southwest": {
+            "lat": 37.440314,
+            "lng": 138.8194505
+          }
+        },
+        "location": {
+          "lat": 37.4435726,
+          "lng": 138.8223834
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4447245,
+            "lng": 138.8239911
+          },
+          "southwest": {
+            "lat": 37.440314,
+            "lng": 138.8194505
+          }
+        }
+      },
+      "place_id": "ChIJ64lQ5hup9V8RYESF3z3qDd0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒940-2112 新潟県長岡市大島本町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4476382,
+            "lng": 138.8283676
+          },
+          "southwest": {
+            "lat": 37.4401814,
+            "lng": 138.8169534
+          }
+        },
+        "location": {
+          "lat": 37.442982,
+          "lng": 138.8223317
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4476382,
+            "lng": 138.8283676
+          },
+          "southwest": {
+            "lat": 37.4401814,
+            "lng": 138.8169534
+          }
+        }
+      },
+      "place_id": "ChIJDW-PqRup9V8RK1xv6q9akhg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "940-2112",
+          "short_name": "940-2112",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大島本町",
+          "short_name": "大島本町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒940-2112",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4476382,
+            "lng": 138.8283676
+          },
+          "southwest": {
+            "lat": 37.4401814,
+            "lng": 138.8169534
+          }
+        },
+        "location": {
+          "lat": 37.442982,
+          "lng": 138.8223317
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4476382,
+            "lng": 138.8283676
+          },
+          "southwest": {
+            "lat": 37.4401814,
+            "lng": 138.8169534
+          }
+        }
+      },
+      "place_id": "ChIJh8q2QBqp9V8RM0de0QYWUJA",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県長岡市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7101916,
+            "lng": 139.1242987
+          },
+          "southwest": {
+            "lat": 37.1764077,
+            "lng": 138.6428979
+          }
+        },
+        "location": {
+          "lat": 37.4465187,
+          "lng": 138.8513499
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7101916,
+            "lng": 139.1242987
+          },
+          "southwest": {
+            "lat": 37.1764077,
+            "lng": 138.6428979
+          }
+        }
+      },
+      "place_id": "ChIJLTUCVXoH9V8R7_cio0uDPFE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "CRRF+J4",
+          "short_name": "CRRF+J4",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "長岡市",
+          "short_name": "長岡市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "CRRF+J4 日本、新潟県長岡市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.44162499999999,
+            "lng": 138.822875
+          },
+          "southwest": {
+            "lat": 37.4415,
+            "lng": 138.82275
+          }
+        },
+        "location": {
+          "lat": 37.441611,
+          "lng": 138.822861
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.44291148029149,
+            "lng": 138.8241614802915
+          },
+          "southwest": {
+            "lat": 37.44021351970849,
+            "lng": 138.8214635197085
+          }
+        }
+      },
+      "place_id": "GhIJ5UaRtYa4QkAR7ISX4FRaYUA",
+      "plus_code": {
+        "compound_code": "CRRF+J4 日本、新潟県長岡市",
+        "global_code": "8Q9WCRRF+J4"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
