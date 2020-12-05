@@ -1,0 +1,633 @@
+{
+  "station": "越後長沢",
+  "lat": 37.578,
+  "lng": 139.028,
+  "plus_code": {
+    "compound_code": "H2HH+66 日本、新潟県三条市",
+    "global_code": "8Q9XH2HH+66"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１３１６−６",
+          "short_name": "１３１６−６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "荻堀",
+          "short_name": "荻堀",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "955-0151",
+          "short_name": "955-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒955-0151 新潟県三条市荻堀１３１６−６",
+      "geometry": {
+        "location": {
+          "lat": 37.578,
+          "lng": 139.0279464
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.57934898029149,
+            "lng": 139.0292953802915
+          },
+          "southwest": {
+            "lat": 37.5766510197085,
+            "lng": 139.0265974197085
+          }
+        }
+      },
+      "place_id": "ChIJRaAhGrwd9V8R6Z7o3a-TZOg",
+      "plus_code": {
+        "compound_code": "H2HH+65 日本、新潟県三条市",
+        "global_code": "8Q9XH2HH+65"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１３１６",
+          "short_name": "１３１６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "荻堀",
+          "short_name": "荻堀",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "955-0151",
+          "short_name": "955-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒955-0151 新潟県三条市荻堀１３１６",
+      "geometry": {
+        "location": {
+          "lat": 37.5781956,
+          "lng": 139.0281022
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.5795445802915,
+            "lng": 139.0294511802915
+          },
+          "southwest": {
+            "lat": 37.5768466197085,
+            "lng": 139.0267532197085
+          }
+        }
+      },
+      "place_id": "ChIJndxOLosc9V8R6bN_BVOOrc0",
+      "plus_code": {
+        "compound_code": "H2HH+76 日本、新潟県三条市",
+        "global_code": "8Q9XH2HH+76"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道289号",
+          "short_name": "国道289号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "荻堀",
+          "short_name": "荻堀",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "955-0151",
+          "short_name": "955-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒955-0151 新潟県三条市荻堀 国道289号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.5781636,
+            "lng": 139.0280796
+          },
+          "southwest": {
+            "lat": 37.5778601,
+            "lng": 139.0277666
+          }
+        },
+        "location": {
+          "lat": 37.5780119,
+          "lng": 139.0279231
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.57936083029149,
+            "lng": 139.0292720802915
+          },
+          "southwest": {
+            "lat": 37.5766628697085,
+            "lng": 139.0265741197085
+          }
+        }
+      },
+      "place_id": "ChIJAWSsMYsc9V8RYhpTgEEOi_U",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "荻堀",
+          "short_name": "荻堀",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "955-0151",
+          "short_name": "955-0151",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒955-0151 新潟県三条市荻堀",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.5809418,
+            "lng": 139.0431551
+          },
+          "southwest": {
+            "lat": 37.5634756,
+            "lng": 139.0109899
+          }
+        },
+        "location": {
+          "lat": 37.5750704,
+          "lng": 139.027887
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.5809418,
+            "lng": 139.0431551
+          },
+          "southwest": {
+            "lat": 37.5634756,
+            "lng": 139.0109899
+          }
+        }
+      },
+      "place_id": "ChIJuZWh2o8c9V8R7oLTKICe2TY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "955-0151",
+          "short_name": "955-0151",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "荻堀",
+          "short_name": "荻堀",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒955-0151",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.5809418,
+            "lng": 139.0431551
+          },
+          "southwest": {
+            "lat": 37.5634756,
+            "lng": 139.0109899
+          }
+        },
+        "location": {
+          "lat": 37.5750704,
+          "lng": 139.027887
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.5809418,
+            "lng": 139.0431551
+          },
+          "southwest": {
+            "lat": 37.5634756,
+            "lng": 139.0109899
+          }
+        }
+      },
+      "place_id": "ChIJsxk-E48c9V8RrDQWF7mv_8A",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県三条市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.6821141,
+            "lng": 139.2983667
+          },
+          "southwest": {
+            "lat": 37.3974993,
+            "lng": 138.8723776
+          }
+        },
+        "location": {
+          "lat": 37.6365293,
+          "lng": 138.9616061
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6821141,
+            "lng": 139.2983667
+          },
+          "southwest": {
+            "lat": 37.3974993,
+            "lng": 138.8723776
+          }
+        }
+      },
+      "place_id": "ChIJhwnNyfoa9V8RSQEx3YkzuZQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "H2HH+66",
+          "short_name": "H2HH+66",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "三条市",
+          "short_name": "三条市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "H2HH+66 日本、新潟県三条市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.578125,
+            "lng": 139.028125
+          },
+          "southwest": {
+            "lat": 37.578,
+            "lng": 139.028
+          }
+        },
+        "location": {
+          "lat": 37.578,
+          "lng": 139.028
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.5794114802915,
+            "lng": 139.0294114802915
+          },
+          "southwest": {
+            "lat": 37.57671351970851,
+            "lng": 139.0267135197085
+          }
+        }
+      },
+      "place_id": "GhIJQ4ts5_vJQkARN4lBYOVgYUA",
+      "plus_code": {
+        "compound_code": "H2HH+66 日本、新潟県三条市",
+        "global_code": "8Q9XH2HH+66"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
