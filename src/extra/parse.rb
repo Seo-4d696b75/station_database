@@ -351,6 +351,17 @@ File.open("list.txt", "r") do |file|
     list << parse(get_info(str), pref)
   end
 end
+# station list
 File.open("station.csv", "w") do |file|
   list.each { |e| file.puts(e.join(",")) }
+end
+# line info
+load("../script/utils.rb")
+data = {}
+data["name"] = "name"
+data["station_list"] = list[1..-1].map do |row|
+  { "code" => 0, "name" => row[2] }
+end
+File.open("info.json", "w") do |file|
+  file.write(format_json(data, flat_array: ["station_list"]))
 end

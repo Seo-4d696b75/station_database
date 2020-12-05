@@ -1,0 +1,633 @@
+{
+  "station": "新江口",
+  "lat": 37.902744,
+  "lng": 139.373653,
+  "plus_code": {
+    "compound_code": "W93F+3F 日本、新潟県新発田市",
+    "global_code": "8Q9XW93F+3F"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１２２５",
+          "short_name": "１２２５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "米倉",
+          "short_name": "米倉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "957-0036",
+          "short_name": "957-0036",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒957-0036 新潟県新発田市米倉１２２５",
+      "geometry": {
+        "location": {
+          "lat": 37.9026973,
+          "lng": 139.3736266
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9040462802915,
+            "lng": 139.3749755802915
+          },
+          "southwest": {
+            "lat": 37.9013483197085,
+            "lng": 139.3722776197085
+          }
+        }
+      },
+      "place_id": "ChIJWypbXtwti18R0Sc4kAemtpk",
+      "plus_code": {
+        "compound_code": "W93F+3F 日本、新潟県新発田市",
+        "global_code": "8Q9XW93F+3F"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１２２６",
+          "short_name": "１２２６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "米倉",
+          "short_name": "米倉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "957-0036",
+          "short_name": "957-0036",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒957-0036 新潟県新発田市米倉１２２６",
+      "geometry": {
+        "location": {
+          "lat": 37.9020476,
+          "lng": 139.3726549
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9033965802915,
+            "lng": 139.3740038802915
+          },
+          "southwest": {
+            "lat": 37.9006986197085,
+            "lng": 139.3713059197085
+          }
+        }
+      },
+      "place_id": "ChIJVXCIlNwti18Rz29dBvJKBFc",
+      "plus_code": {
+        "compound_code": "W92F+R3 日本、新潟県新発田市",
+        "global_code": "8Q9XW92F+R3"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "米倉",
+          "short_name": "米倉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "957-0036",
+          "short_name": "957-0036",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 米倉 新発田市 新潟県 957-0036 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9021474,
+            "lng": 139.3731003
+          },
+          "southwest": {
+            "lat": 37.9016635,
+            "lng": 139.3726743
+          }
+        },
+        "location": {
+          "lat": 37.9019055,
+          "lng": 139.3728873
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9032544302915,
+            "lng": 139.3742362802915
+          },
+          "southwest": {
+            "lat": 37.9005564697085,
+            "lng": 139.3715383197085
+          }
+        }
+      },
+      "place_id": "ChIJX3LGltwti18RRlrXAITR3iA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "米倉",
+          "short_name": "米倉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "957-0036",
+          "short_name": "957-0036",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒957-0036 新潟県新発田市米倉",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9085904,
+            "lng": 139.3824237
+          },
+          "southwest": {
+            "lat": 37.8780612,
+            "lng": 139.3565739
+          }
+        },
+        "location": {
+          "lat": 37.8962702,
+          "lng": 139.3667155
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9085904,
+            "lng": 139.3824237
+          },
+          "southwest": {
+            "lat": 37.8780612,
+            "lng": 139.3565739
+          }
+        }
+      },
+      "place_id": "ChIJ4eUCrckti18Rp9HdCNA6png",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "957-0036",
+          "short_name": "957-0036",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "米倉",
+          "short_name": "米倉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒957-0036",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9085904,
+            "lng": 139.3824237
+          },
+          "southwest": {
+            "lat": 37.8780612,
+            "lng": 139.3565739
+          }
+        },
+        "location": {
+          "lat": 37.8962702,
+          "lng": 139.3667155
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9085904,
+            "lng": 139.3824237
+          },
+          "southwest": {
+            "lat": 37.8780612,
+            "lng": 139.3565739
+          }
+        }
+      },
+      "place_id": "ChIJjddSlsUti18RB1xE1H8yyKg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新発田市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0493926,
+            "lng": 139.6818047
+          },
+          "southwest": {
+            "lat": 37.7881957,
+            "lng": 139.2415699
+          }
+        },
+        "location": {
+          "lat": 37.9483728,
+          "lng": 139.3274172
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0493926,
+            "lng": 139.6818047
+          },
+          "southwest": {
+            "lat": 37.7881957,
+            "lng": 139.2415699
+          }
+        }
+      },
+      "place_id": "ChIJiWgsRQsvi18RJNoup2z6ls0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "W93F+3F",
+          "short_name": "W93F+3F",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "新発田市",
+          "short_name": "新発田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "W93F+3F 日本、新潟県新発田市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.90275,
+            "lng": 139.37375
+          },
+          "southwest": {
+            "lat": 37.902625,
+            "lng": 139.373625
+          }
+        },
+        "location": {
+          "lat": 37.902744,
+          "lng": 139.373653
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9040364802915,
+            "lng": 139.3750364802915
+          },
+          "southwest": {
+            "lat": 37.9013385197085,
+            "lng": 139.3723385197085
+          }
+        }
+      },
+      "place_id": "GhIJglSKHY3zQkARrOEi9_RrYUA",
+      "plus_code": {
+        "compound_code": "W93F+3F 日本、新潟県新発田市",
+        "global_code": "8Q9XW93F+3F"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
