@@ -1,0 +1,719 @@
+{
+  "station": "今泉(新潟)",
+  "lat": 37.725625,
+  "lng": 139.177467,
+  "plus_code": {
+    "compound_code": "P5GG+7X 日本、新潟県五泉市",
+    "global_code": "8Q9XP5GG+7X"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "今泉［五泉市］（バス）",
+          "short_name": "今泉［五泉市］（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒959-1835 新潟県五泉市今泉 今泉［五泉市］（バス）",
+      "geometry": {
+        "location": {
+          "lat": 37.7256102,
+          "lng": 139.1774417
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.72695918029149,
+            "lng": 139.1787906802915
+          },
+          "southwest": {
+            "lat": 37.7242612197085,
+            "lng": 139.1760927197085
+          }
+        }
+      },
+      "place_id": "ChIJu286AOXY9F8RrZ4zlGss1ao",
+      "plus_code": {
+        "compound_code": "P5GG+6X 日本、新潟県五泉市",
+        "global_code": "8Q9XP5GG+6X"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１３４３−１",
+          "short_name": "１３４３−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒959-1835 新潟県五泉市今泉１３４３−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7258039,
+            "lng": 139.1780223
+          },
+          "southwest": {
+            "lat": 37.7257,
+            "lng": 139.1778174
+          }
+        },
+        "location": {
+          "lat": 37.7257447,
+          "lng": 139.1779067
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.72710093029149,
+            "lng": 139.1792688302914
+          },
+          "southwest": {
+            "lat": 37.72440296970849,
+            "lng": 139.1765708697085
+          }
+        }
+      },
+      "place_id": "ChIJ-e74AuXY9F8RAti1QoVaGmM",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１３４３",
+          "short_name": "１３４３",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒959-1835 新潟県五泉市今泉１３４３",
+      "geometry": {
+        "location": {
+          "lat": 37.7257542,
+          "lng": 139.1779434
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7271031802915,
+            "lng": 139.1792923802915
+          },
+          "southwest": {
+            "lat": 37.7244052197085,
+            "lng": 139.1765944197085
+          }
+        }
+      },
+      "place_id": "ChIJ-e74AuXY9F8RWrFAui2_NqU",
+      "plus_code": {
+        "compound_code": "P5GH+85 日本、新潟県五泉市",
+        "global_code": "8Q9XP5GH+85"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新津村松線",
+          "short_name": "県道7号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒959-1835 新潟県五泉市今泉 県道7号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7259438,
+            "lng": 139.1774898
+          },
+          "southwest": {
+            "lat": 37.7253583,
+            "lng": 139.1774875
+          }
+        },
+        "location": {
+          "lat": 37.7256511,
+          "lng": 139.1774887
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7270000302915,
+            "lng": 139.1788376302915
+          },
+          "southwest": {
+            "lat": 37.7243020697085,
+            "lng": 139.1761396697085
+          }
+        }
+      },
+      "place_id": "ChIJNQvRAeXY9F8Rknq75zJSOVM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒959-1835 新潟県五泉市今泉",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7350262,
+            "lng": 139.1824092
+          },
+          "southwest": {
+            "lat": 37.7204427,
+            "lng": 139.1602381
+          }
+        },
+        "location": {
+          "lat": 37.7272539,
+          "lng": 139.1675795
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7350262,
+            "lng": 139.1824092
+          },
+          "southwest": {
+            "lat": 37.7204427,
+            "lng": 139.1602381
+          }
+        }
+      },
+      "place_id": "ChIJU-3DtOPY9F8RcbcxmpTXUwo",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "959-1835",
+          "short_name": "959-1835",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "今泉",
+          "short_name": "今泉",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒959-1835",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7350262,
+            "lng": 139.1824092
+          },
+          "southwest": {
+            "lat": 37.7204427,
+            "lng": 139.1602381
+          }
+        },
+        "location": {
+          "lat": 37.7272539,
+          "lng": 139.1675795
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7350262,
+            "lng": 139.1824092
+          },
+          "southwest": {
+            "lat": 37.7204427,
+            "lng": 139.1602381
+          }
+        }
+      },
+      "place_id": "ChIJhWNeY-TY9F8RZ0-m_2b1RIw",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県五泉市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7778225,
+            "lng": 139.3485201
+          },
+          "southwest": {
+            "lat": 37.5096986,
+            "lng": 139.0931988
+          }
+        },
+        "location": {
+          "lat": 37.7445396,
+          "lng": 139.182603
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7778225,
+            "lng": 139.3485201
+          },
+          "southwest": {
+            "lat": 37.5096986,
+            "lng": 139.0931988
+          }
+        }
+      },
+      "place_id": "ChIJ1yr0LGMh9V8RL1LZZOav3Bk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "P5GG+7X",
+          "short_name": "P5GG+7X",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "五泉市",
+          "short_name": "五泉市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "P5GG+7X 日本、新潟県五泉市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.72575,
+            "lng": 139.1775
+          },
+          "southwest": {
+            "lat": 37.725625,
+            "lng": 139.177375
+          }
+        },
+        "location": {
+          "lat": 37.725625,
+          "lng": 139.177467
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7270364802915,
+            "lng": 139.1787864802915
+          },
+          "southwest": {
+            "lat": 37.7243385197085,
+            "lng": 139.1760885197085
+          }
+        }
+      },
+      "place_id": "GhIJexSuR-HcQkAR0SNGz61lYUA",
+      "plus_code": {
+        "compound_code": "P5GG+7X 日本、新潟県五泉市",
+        "global_code": "8Q9XP5GG+7X"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
