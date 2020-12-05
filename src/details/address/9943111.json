@@ -1,0 +1,924 @@
+{
+  "station": "木場(新潟)",
+  "lat": 37.830611,
+  "lng": 139.003583,
+  "plus_code": {
+    "compound_code": "R2J3+6C 日本、新潟県新潟市",
+    "global_code": "8Q9XR2J3+6C"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1122 新潟県新潟市西区木場 Unnamed Road、木場",
+      "geometry": {
+        "location": {
+          "lat": 37.8306111,
+          "lng": 139.0036101
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.83196008029149,
+            "lng": 139.0049590802915
+          },
+          "southwest": {
+            "lat": 37.8292621197085,
+            "lng": 139.0022611197085
+          }
+        }
+      },
+      "place_id": "ChIJNzys3TPE9F8RQAhM6EBGV-A",
+      "plus_code": {
+        "compound_code": "R2J3+6C 日本、新潟県新潟市",
+        "global_code": "8Q9XR2J3+6C"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "木場駅跡（バス）",
+          "short_name": "木場駅跡（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1122 新潟県新潟市西区木場 木場駅跡（バス）",
+      "geometry": {
+        "location": {
+          "lat": 37.830677,
+          "lng": 139.0036057
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8320259802915,
+            "lng": 139.0049546802915
+          },
+          "southwest": {
+            "lat": 37.8293280197085,
+            "lng": 139.0022567197085
+          }
+        }
+      },
+      "place_id": "ChIJU_nx3DPE9F8ReAKGUa26gB0",
+      "plus_code": {
+        "compound_code": "R2J3+7C 日本、新潟県新潟市",
+        "global_code": "8Q9XR2J3+7C"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "３８",
+          "short_name": "３８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1122 新潟県新潟市西区木場３８",
+      "geometry": {
+        "location": {
+          "lat": 37.8307753,
+          "lng": 139.0033945
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8321242802915,
+            "lng": 139.0047434802915
+          },
+          "southwest": {
+            "lat": 37.8294263197085,
+            "lng": 139.0020455197085
+          }
+        }
+      },
+      "place_id": "ChIJG4IM2zPE9F8RaggR9GtbQgk",
+      "plus_code": {
+        "compound_code": "R2J3+89 日本、新潟県新潟市",
+        "global_code": "8Q9XR2J3+89"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４４",
+          "short_name": "４４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1122 新潟県新潟市西区木場４４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8308533,
+            "lng": 139.003817
+          },
+          "southwest": {
+            "lat": 37.8307742,
+            "lng": 139.0037159
+          }
+        },
+        "location": {
+          "lat": 37.830811,
+          "lng": 139.0037724
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.83216273029151,
+            "lng": 139.0051154302915
+          },
+          "southwest": {
+            "lat": 37.82946476970851,
+            "lng": 139.0024174697085
+          }
+        }
+      },
+      "place_id": "ChIJCwBmwzPE9F8RtvibuRKxp_U",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 木場 西区 新潟市 新潟県 950-1122 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8309139,
+            "lng": 139.0038089
+          },
+          "southwest": {
+            "lat": 37.8302212,
+            "lng": 139.0032011
+          }
+        },
+        "location": {
+          "lat": 37.8305768,
+          "lng": 139.0034878
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.83191653029149,
+            "lng": 139.0048539802915
+          },
+          "southwest": {
+            "lat": 37.8292185697085,
+            "lng": 139.0021560197085
+          }
+        }
+      },
+      "place_id": "ChIJp8S83DPE9F8RdGTpC39TbJ0",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒950-1122",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8400525,
+            "lng": 139.0065597
+          },
+          "southwest": {
+            "lat": 37.8034694,
+            "lng": 138.965316
+          }
+        },
+        "location": {
+          "lat": 37.8306017,
+          "lng": 138.9847849
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8400525,
+            "lng": 139.0065597
+          },
+          "southwest": {
+            "lat": 37.8034694,
+            "lng": 138.965316
+          }
+        }
+      },
+      "place_id": "ChIJOz-mKibE9F8RAWUuSwJt0As",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "木場",
+          "short_name": "木場",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1122",
+          "short_name": "950-1122",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1122 新潟県新潟市西区木場",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8400525,
+            "lng": 139.0065597
+          },
+          "southwest": {
+            "lat": 37.8034694,
+            "lng": 138.965316
+          }
+        },
+        "location": {
+          "lat": 37.8306017,
+          "lng": 138.9847849
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8400525,
+            "lng": 139.0065597
+          },
+          "southwest": {
+            "lat": 37.8034694,
+            "lng": 138.965316
+          }
+        }
+      },
+      "place_id": "ChIJx-7HnRbE9F8RAH7Ec0ukg4M",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "西区",
+          "short_name": "西区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市西区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9100291,
+            "lng": 139.0248083
+          },
+          "southwest": {
+            "lat": 37.8033323,
+            "lng": 138.8561764
+          }
+        },
+        "location": {
+          "lat": 37.8510986,
+          "lng": 138.9569972
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9100291,
+            "lng": 139.0248083
+          },
+          "southwest": {
+            "lat": 37.8033323,
+            "lng": 138.8561764
+          }
+        }
+      },
+      "place_id": "ChIJqQQAORzH9F8RbkZvKNYXKTM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        },
+        "location": {
+          "lat": 37.9161244,
+          "lng": 139.0363708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        }
+      },
+      "place_id": "ChIJ98DHVcLF9F8RDSOQycubUPE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "R2J3+6C",
+          "short_name": "R2J3+6C",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "R2J3+6C 日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.830625,
+            "lng": 139.003625
+          },
+          "southwest": {
+            "lat": 37.8305,
+            "lng": 139.0035
+          }
+        },
+        "location": {
+          "lat": 37.830611,
+          "lng": 139.003583
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8319114802915,
+            "lng": 139.0049114802915
+          },
+          "southwest": {
+            "lat": 37.8292135197085,
+            "lng": 139.0022135197085
+          }
+        }
+      },
+      "place_id": "GhIJU1kUdlHqQkARSnoYWh1gYUA",
+      "plus_code": {
+        "compound_code": "R2J3+6C 日本、新潟県新潟市",
+        "global_code": "8Q9XR2J3+6C"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

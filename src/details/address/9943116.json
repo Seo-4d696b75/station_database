@@ -1,0 +1,841 @@
+{
+  "station": "味方",
+  "lat": 37.778167,
+  "lng": 139.01125,
+  "plus_code": {
+    "compound_code": "Q2H6+7G 日本、新潟県新潟市",
+    "global_code": "8Q9XQ2H6+7G"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1261 新潟県新潟市南区味方 県道 325 号線",
+      "geometry": {
+        "location": {
+          "lat": 37.77813099999999,
+          "lng": 139.01124
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.77947998029149,
+            "lng": 139.0125889802915
+          },
+          "southwest": {
+            "lat": 37.77678201970849,
+            "lng": 139.0098910197085
+          }
+        }
+      },
+      "place_id": "ChIJIR_LiU7D9F8RrBhGGgmWRtE",
+      "plus_code": {
+        "compound_code": "Q2H6+7F 日本、新潟県新潟市",
+        "global_code": "8Q9XQ2H6+7F"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "６９７−１",
+          "short_name": "６９７−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1261 新潟県新潟市南区味方６９７−１",
+      "geometry": {
+        "location": {
+          "lat": 37.7781548,
+          "lng": 139.0109545
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.77950378029149,
+            "lng": 139.0123034802915
+          },
+          "southwest": {
+            "lat": 37.7768058197085,
+            "lng": 139.0096055197085
+          }
+        }
+      },
+      "place_id": "ChIJT-BfiU7D9F8RHnd74xf3bq8",
+      "plus_code": {
+        "compound_code": "Q2H6+79 日本、新潟県新潟市",
+        "global_code": "8Q9XQ2H6+79"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ワゴークリーニングさかざタバコ店",
+          "short_name": "ワゴークリーニングさかざタバコ店",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "６９７−１",
+          "short_name": "６９７−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1261 新潟県新潟市南区味方６９７−１ ワゴークリーニングさかざタバコ店",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.778227,
+            "lng": 139.0110722
+          },
+          "southwest": {
+            "lat": 37.778076,
+            "lng": 139.0108049
+          }
+        },
+        "location": {
+          "lat": 37.7781564,
+          "lng": 139.0109288
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7795004802915,
+            "lng": 139.0122875302915
+          },
+          "southwest": {
+            "lat": 37.7768025197085,
+            "lng": 139.0095895697085
+          }
+        }
+      },
+      "place_id": "ChIJeymji07D9F8RAphsNIU9p8E",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "黒埼新飯田線",
+          "short_name": "県道325号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1261 新潟県新潟市南区味方 県道325号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.7790039,
+            "lng": 139.0119878
+          },
+          "southwest": {
+            "lat": 37.7768924,
+            "lng": 139.0109449
+          }
+        },
+        "location": {
+          "lat": 37.7779831,
+          "lng": 139.0113622
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7792971302915,
+            "lng": 139.0128153302915
+          },
+          "southwest": {
+            "lat": 37.7765991697085,
+            "lng": 139.0101173697085
+          }
+        }
+      },
+      "place_id": "ChIJV8Koh07D9F8R-ByTVLWA6Mk",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒950-1261",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8119506,
+            "lng": 139.0165233
+          },
+          "southwest": {
+            "lat": 37.7714538,
+            "lng": 138.9773042
+          }
+        },
+        "location": {
+          "lat": 37.7818999,
+          "lng": 139.0000924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8119506,
+            "lng": 139.0165233
+          },
+          "southwest": {
+            "lat": 37.7714538,
+            "lng": 138.9773042
+          }
+        }
+      },
+      "place_id": "ChIJ5TLzmU7D9F8RtgfJfGeBK0M",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "味方",
+          "short_name": "味方",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "950-1261",
+          "short_name": "950-1261",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒950-1261 新潟県新潟市南区味方",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8119506,
+            "lng": 139.0165233
+          },
+          "southwest": {
+            "lat": 37.7714538,
+            "lng": 138.9773042
+          }
+        },
+        "location": {
+          "lat": 37.7818999,
+          "lng": 139.0000924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8119506,
+            "lng": 139.0165233
+          },
+          "southwest": {
+            "lat": 37.7714538,
+            "lng": 138.9773042
+          }
+        }
+      },
+      "place_id": "ChIJeRRGW2TD9F8RG71qz_bRrkQ",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南区",
+          "short_name": "南区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市南区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8546684,
+            "lng": 139.0716607
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.9688992
+          }
+        },
+        "location": {
+          "lat": 37.7709799,
+          "lng": 139.0286932
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8546684,
+            "lng": 139.0716607
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.9688992
+          }
+        }
+      },
+      "place_id": "ChIJCdE5BLjc9F8RsaVUvaRjWXE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        },
+        "location": {
+          "lat": 37.9161244,
+          "lng": 139.0363708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        }
+      },
+      "place_id": "ChIJ98DHVcLF9F8RDSOQycubUPE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Q2H6+7G",
+          "short_name": "Q2H6+7G",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Q2H6+7G 日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.77825,
+            "lng": 139.011375
+          },
+          "southwest": {
+            "lat": 37.778125,
+            "lng": 139.01125
+          }
+        },
+        "location": {
+          "lat": 37.778167,
+          "lng": 139.01125
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.7795364802915,
+            "lng": 139.0126614802915
+          },
+          "southwest": {
+            "lat": 37.7768385197085,
+            "lng": 139.0099635197085
+          }
+        }
+      },
+      "place_id": "GhIJyOnr-ZrjQkARj8L1KFxgYUA",
+      "plus_code": {
+        "compound_code": "Q2H6+7G 日本、新潟県新潟市",
+        "global_code": "8Q9XQ2H6+7G"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

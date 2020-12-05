@@ -1,0 +1,781 @@
+{
+  "station": "白山前",
+  "lat": 37.916139,
+  "lng": 139.037611,
+  "plus_code": {
+    "compound_code": "W28Q+F2 日本、新潟県新潟市",
+    "global_code": "8Q9XW28Q+F2"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５−１",
+          "short_name": "５−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１番町",
+          "short_name": "１番町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "学校町通",
+          "short_name": "学校町通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "951-8126",
+          "short_name": "951-8126",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒951-8126 新潟県新潟市中央区学校町通１番町５−１",
+      "geometry": {
+        "location": {
+          "lat": 37.9164692,
+          "lng": 139.0377648
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9178181802915,
+            "lng": 139.0391137802915
+          },
+          "southwest": {
+            "lat": 37.91512021970851,
+            "lng": 139.0364158197085
+          }
+        }
+      },
+      "place_id": "ChIJKQy75sHJ9F8RHjjgYuVvf7M",
+      "plus_code": {
+        "compound_code": "W28Q+H4 日本、新潟県新潟市",
+        "global_code": "8Q9XW28Q+H4"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "４",
+          "short_name": "４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１番町",
+          "short_name": "１番町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "学校町通",
+          "short_name": "学校町通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "951-8126",
+          "short_name": "951-8126",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒951-8126 新潟県新潟市中央区学校町通１番町４",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9164734,
+            "lng": 139.0378789
+          },
+          "southwest": {
+            "lat": 37.9164149,
+            "lng": 139.0378002
+          }
+        },
+        "location": {
+          "lat": 37.9164476,
+          "lng": 139.0378456
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9177931302915,
+            "lng": 139.0391885302915
+          },
+          "southwest": {
+            "lat": 37.9150951697085,
+            "lng": 139.0364905697085
+          }
+        }
+      },
+      "place_id": "ChIJrTfP5sHJ9F8RDm_wvtDXb-I",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "一番堀通り",
+          "short_name": "県道164号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "１番町",
+          "short_name": "１番町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "学校町通",
+          "short_name": "学校町通",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "951-8126",
+          "short_name": "951-8126",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒951-8126 新潟県新潟市中央区学校町通１番町 一番堀通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9164628,
+            "lng": 139.0378664
+          },
+          "southwest": {
+            "lat": 37.9162703,
+            "lng": 139.0373838
+          }
+        },
+        "location": {
+          "lat": 37.9163608,
+          "lng": 139.0376213
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9177155302915,
+            "lng": 139.0389740802915
+          },
+          "southwest": {
+            "lat": 37.9150175697085,
+            "lng": 139.0362761197085
+          }
+        }
+      },
+      "place_id": "ChIJ-S1y5sHJ9F8RSi8DvkImwtc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "951-8132",
+          "short_name": "951-8132",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "一番堀通町",
+          "short_name": "一番堀通町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒951-8132",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9163491,
+            "lng": 139.0433261
+          },
+          "southwest": {
+            "lat": 37.9097564,
+            "lng": 139.0345453
+          }
+        },
+        "location": {
+          "lat": 37.9122342,
+          "lng": 139.0392357
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9163491,
+            "lng": 139.0433261
+          },
+          "southwest": {
+            "lat": 37.9097564,
+            "lng": 139.0345453
+          }
+        }
+      },
+      "place_id": "ChIJOfIlfurJ9F8RZ_EvSLxpBzM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "一番堀通町",
+          "short_name": "一番堀通町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "951-8132",
+          "short_name": "951-8132",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒951-8132 新潟県新潟市中央区一番堀通町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9163491,
+            "lng": 139.0433261
+          },
+          "southwest": {
+            "lat": 37.9097564,
+            "lng": 139.0345453
+          }
+        },
+        "location": {
+          "lat": 37.9122342,
+          "lng": 139.0392357
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9163491,
+            "lng": 139.0433261
+          },
+          "southwest": {
+            "lat": 37.9097564,
+            "lng": 139.0345453
+          }
+        }
+      },
+      "place_id": "ChIJK4dMhMDJ9F8R1EXlbrxXvDk",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中央区",
+          "short_name": "中央区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市中央区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9464628,
+            "lng": 139.0988357
+          },
+          "southwest": {
+            "lat": 37.8722319,
+            "lng": 139.0029225
+          }
+        },
+        "location": {
+          "lat": 37.904927,
+          "lng": 139.0410359
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9464628,
+            "lng": 139.0988357
+          },
+          "southwest": {
+            "lat": 37.8722319,
+            "lng": 139.0029225
+          }
+        }
+      },
+      "place_id": "ChIJ_R6ddZPJ9F8RQbeR9cfQaAg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        },
+        "location": {
+          "lat": 37.9161244,
+          "lng": 139.0363708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.0019173,
+            "lng": 139.2669056
+          },
+          "southwest": {
+            "lat": 37.678816,
+            "lng": 138.7843233
+          }
+        }
+      },
+      "place_id": "ChIJ98DHVcLF9F8RDSOQycubUPE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、新潟県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        },
+        "location": {
+          "lat": 37.5178386,
+          "lng": 138.9269794
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 38.5535962,
+            "lng": 139.8998675
+          },
+          "southwest": {
+            "lat": 36.73657,
+            "lng": 137.6350483
+          }
+        }
+      },
+      "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "W28Q+F2",
+          "short_name": "W28Q+F2",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "新潟市",
+          "short_name": "新潟市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "新潟県",
+          "short_name": "新潟県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "W28Q+F2 日本、新潟県新潟市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.91625,
+            "lng": 139.037625
+          },
+          "southwest": {
+            "lat": 37.916125,
+            "lng": 139.0375
+          }
+        },
+        "location": {
+          "lat": 37.916139,
+          "lng": 139.037611
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9175364802915,
+            "lng": 139.0389114802915
+          },
+          "southwest": {
+            "lat": 37.9148385197085,
+            "lng": 139.0362135197085
+          }
+        }
+      },
+      "place_id": "GhIJisvxCkT1QkARCd_7GzRhYUA",
+      "plus_code": {
+        "compound_code": "W28Q+F2 日本、新潟県新潟市",
+        "global_code": "8Q9XW28Q+F2"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
