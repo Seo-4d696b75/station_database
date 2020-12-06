@@ -1,0 +1,768 @@
+{
+  "station": "畝田",
+  "lat": 36.591194,
+  "lng": 136.612806,
+  "plus_code": {
+    "compound_code": "HJR7+F4 日本、石川県金沢市",
+    "global_code": "8Q8RHJR7+F4"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "畝田（バス）",
+          "short_name": "畝田（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "ヌ",
+          "short_name": "ヌ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松村町",
+          "short_name": "松村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-0347",
+          "short_name": "920-0347",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-0347 石川県金沢市松村町ヌ 畝田（バス）",
+      "geometry": {
+        "location": {
+          "lat": 36.5911821,
+          "lng": 136.6128332
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.59253108029149,
+            "lng": 136.6141821802915
+          },
+          "southwest": {
+            "lat": 36.5898331197085,
+            "lng": 136.6114842197085
+          }
+        }
+      },
+      "place_id": "ChIJq16oLqXM-V8RX8Q5XtiMpCE",
+      "plus_code": {
+        "compound_code": "HJR7+F4 日本、石川県金沢市",
+        "global_code": "8Q8RHJR7+F4"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "８６",
+          "short_name": "８６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "５丁目",
+          "short_name": "５丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松村",
+          "short_name": "松村",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-0348",
+          "short_name": "920-0348",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-0348 石川県金沢市松村５丁目８６",
+      "geometry": {
+        "location": {
+          "lat": 36.5910606,
+          "lng": 136.6125387
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5924095802915,
+            "lng": 136.6138876802915
+          },
+          "southwest": {
+            "lat": 36.5897116197085,
+            "lng": 136.6111897197085
+          }
+        }
+      },
+      "place_id": "ChIJR8hVL6XM-V8R1W6L0hKzZec",
+      "plus_code": {
+        "compound_code": "HJR7+C2 日本、石川県金沢市",
+        "global_code": "8Q8RHJR7+C2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "金沢港線",
+          "short_name": "県道17号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "ヌ",
+          "short_name": "ヌ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松村町",
+          "short_name": "松村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-0347",
+          "short_name": "920-0347",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-0347 石川県金沢市松村町ヌ 県道17号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5913658,
+            "lng": 136.6130224
+          },
+          "southwest": {
+            "lat": 36.5910307,
+            "lng": 136.6123632
+          }
+        },
+        "location": {
+          "lat": 36.59119829999999,
+          "lng": 136.6126928
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5925472302915,
+            "lng": 136.6140417802915
+          },
+          "southwest": {
+            "lat": 36.5898492697085,
+            "lng": 136.6113438197085
+          }
+        }
+      },
+      "place_id": "ChIJXV48KaXM-V8RZIRE5CVvEUQ",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ヌ",
+          "short_name": "ヌ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松村町",
+          "short_name": "松村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-0347",
+          "short_name": "920-0347",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-0347 石川県金沢市松村町ヌ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        },
+        "location": {
+          "lat": 36.5902724,
+          "lng": 136.6163808
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        }
+      },
+      "place_id": "ChIJEU6y_q_M-V8RFemCaM3e5QI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "920-0347",
+          "short_name": "920-0347",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "ヌ",
+          "short_name": "ヌ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "松村町",
+          "short_name": "松村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒920-0347",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        },
+        "location": {
+          "lat": 36.5902724,
+          "lng": 136.6163808
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        }
+      },
+      "place_id": "ChIJT-XXD7DM-V8R9FdCHV7c-xk",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "松村町",
+          "short_name": "松村町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "ヌ",
+          "short_name": "ヌ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-0347",
+          "short_name": "920-0347",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-0347 石川県金沢市松村町ヌ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        },
+        "location": {
+          "lat": 36.5902724,
+          "lng": 136.6163808
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5917176,
+            "lng": 136.6182643
+          },
+          "southwest": {
+            "lat": 36.5883852,
+            "lng": 136.6119908
+          }
+        }
+      },
+      "place_id": "ChIJvfCy_q_M-V8RYi1-8KLIsb0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県金沢市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.67418320000001,
+            "lng": 136.8171869
+          },
+          "southwest": {
+            "lat": 36.338122,
+            "lng": 136.5571782
+          }
+        },
+        "location": {
+          "lat": 36.5610309,
+          "lng": 136.6566474
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.67418320000001,
+            "lng": 136.8171869
+          },
+          "southwest": {
+            "lat": 36.338122,
+            "lng": 136.5571782
+          }
+        }
+      },
+      "place_id": "ChIJw2aFRlU2-F8RFWLeb8RV8Y0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "HJR7+F4",
+          "short_name": "HJR7+F4",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "金沢市",
+          "short_name": "金沢市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "HJR7+F4 日本、石川県金沢市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.59125,
+            "lng": 136.612875
+          },
+          "southwest": {
+            "lat": 36.591125,
+            "lng": 136.61275
+          }
+        },
+        "location": {
+          "lat": 36.591194,
+          "lng": 136.612806
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.59253648029149,
+            "lng": 136.6141614802915
+          },
+          "southwest": {
+            "lat": 36.58983851970849,
+            "lng": 136.6114635197085
+          }
+        }
+      },
+      "place_id": "GhIJtMu3PqxLQkARXRlUG5wTYUA",
+      "plus_code": {
+        "compound_code": "HJR7+F4 日本、石川県金沢市",
+        "global_code": "8Q8RHJR7+F4"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
