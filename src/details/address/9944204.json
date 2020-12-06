@@ -1,0 +1,478 @@
+{
+  "station": "若杉",
+  "lat": 36.401083,
+  "lng": 136.481417,
+  "plus_code": {
+    "compound_code": "CF2J+CH 日本、石川県小松市",
+    "global_code": "8Q8RCF2J+CH"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "国道360号",
+          "short_name": "国道360号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "若杉町",
+          "short_name": "若杉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小松市",
+          "short_name": "小松市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-0832",
+          "short_name": "923-0832",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒923-0832 石川県小松市若杉町 国道360号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4011477,
+            "lng": 136.4815988
+          },
+          "southwest": {
+            "lat": 36.4011457,
+            "lng": 136.4814341
+          }
+        },
+        "location": {
+          "lat": 36.4011467,
+          "lng": 136.4815164
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4024956802915,
+            "lng": 136.4828654302915
+          },
+          "southwest": {
+            "lat": 36.3997977197085,
+            "lng": 136.4801674697085
+          }
+        }
+      },
+      "place_id": "ChIJVzp-gEZQ-F8Rgk1QQFHaLdw",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "923-0832",
+          "short_name": "923-0832",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "若杉町",
+          "short_name": "若杉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小松市",
+          "short_name": "小松市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒923-0832",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4037517,
+            "lng": 136.4925935
+          },
+          "southwest": {
+            "lat": 36.3855001,
+            "lng": 136.4772255
+          }
+        },
+        "location": {
+          "lat": 36.3941884,
+          "lng": 136.4835133
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4037517,
+            "lng": 136.4925935
+          },
+          "southwest": {
+            "lat": 36.3855001,
+            "lng": 136.4772255
+          }
+        }
+      },
+      "place_id": "ChIJ-26oOWZQ-F8RGc-brBQc6XM",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "若杉町",
+          "short_name": "若杉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "小松市",
+          "short_name": "小松市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-0832",
+          "short_name": "923-0832",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒923-0832 石川県小松市若杉町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4037517,
+            "lng": 136.4925935
+          },
+          "southwest": {
+            "lat": 36.3855001,
+            "lng": 136.4772255
+          }
+        },
+        "location": {
+          "lat": 36.3941884,
+          "lng": 136.4835133
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4037517,
+            "lng": 136.4925935
+          },
+          "southwest": {
+            "lat": 36.3855001,
+            "lng": 136.4772255
+          }
+        }
+      },
+      "place_id": "ChIJzUMi32dQ-F8RlMwExJ6rAaY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "小松市",
+          "short_name": "小松市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県小松市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.443436,
+            "lng": 136.612477
+          },
+          "southwest": {
+            "lat": 36.1462187,
+            "lng": 136.3725625
+          }
+        },
+        "location": {
+          "lat": 36.4084209,
+          "lng": 136.4458532
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.443436,
+            "lng": 136.612477
+          },
+          "southwest": {
+            "lat": 36.1462187,
+            "lng": 136.3725625
+          }
+        }
+      },
+      "place_id": "ChIJa88uQDxf-F8REwYxn2EnUFQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "CF2J+CH",
+          "short_name": "CF2J+CH",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "小松市",
+          "short_name": "小松市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "CF2J+CH 日本、石川県小松市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.401125,
+            "lng": 136.4815
+          },
+          "southwest": {
+            "lat": 36.401,
+            "lng": 136.481375
+          }
+        },
+        "location": {
+          "lat": 36.401083,
+          "lng": 136.481417
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.40241148029151,
+            "lng": 136.4827864802915
+          },
+          "southwest": {
+            "lat": 36.39971351970851,
+            "lng": 136.4800885197085
+          }
+        }
+      },
+      "place_id": "GhIJpP0PsFYzQkARodefxGcPYUA",
+      "plus_code": {
+        "compound_code": "CF2J+CH 日本、石川県小松市",
+        "global_code": "8Q8RCF2J+CH"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
