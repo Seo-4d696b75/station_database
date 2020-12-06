@@ -1,0 +1,626 @@
+{
+  "station": "能登市ノ瀬",
+  "lat": 37.353333,
+  "lng": 136.909333,
+  "plus_code": {
+    "compound_code": "9W35+8P 日本、石川県輪島市",
+    "global_code": "8Q9R9W35+8P"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "市ノ瀬町",
+          "short_name": "市ノ瀬町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "928-0015",
+          "short_name": "928-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒928-0015 石川県輪島市市ノ瀬町 市ノ瀬町2−53−1",
+      "geometry": {
+        "location": {
+          "lat": 37.353603,
+          "lng": 136.90938
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3549519802915,
+            "lng": 136.9107289802915
+          },
+          "southwest": {
+            "lat": 37.3522540197085,
+            "lng": 136.9080310197085
+          }
+        }
+      },
+      "place_id": "ChIJMSb2RG0s8V8Rw-JUmFM5w6E",
+      "plus_code": {
+        "compound_code": "9W35+CQ 日本、石川県輪島市",
+        "global_code": "8Q9R9W35+CQ"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２−１６",
+          "short_name": "２−１６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "市ノ瀬町",
+          "short_name": "市ノ瀬町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "928-0015",
+          "short_name": "928-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒928-0015 石川県輪島市市ノ瀬町２−１６",
+      "geometry": {
+        "location": {
+          "lat": 37.3537226,
+          "lng": 136.9092604
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.35507158029149,
+            "lng": 136.9106093802915
+          },
+          "southwest": {
+            "lat": 37.35237361970849,
+            "lng": 136.9079114197085
+          }
+        }
+      },
+      "place_id": "ChIJPykXT20s8V8RZiZqHcGvHyw",
+      "plus_code": {
+        "compound_code": "9W35+FP 日本、石川県輪島市",
+        "global_code": "8Q9R9W35+FP"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "市ノ瀬町",
+          "short_name": "市ノ瀬町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "928-0015",
+          "short_name": "928-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 市ノ瀬町 輪島市 石川県 928-0015 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3534873,
+            "lng": 136.9093893
+          },
+          "southwest": {
+            "lat": 37.3531575,
+            "lng": 136.9092531
+          }
+        },
+        "location": {
+          "lat": 37.3533087,
+          "lng": 136.9092682
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3546713802915,
+            "lng": 136.9106701802915
+          },
+          "southwest": {
+            "lat": 37.3519734197085,
+            "lng": 136.9079722197085
+          }
+        }
+      },
+      "place_id": "ChIJi82rXW0s8V8R4BaxDJ4rRfE",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "市ノ瀬町",
+          "short_name": "市ノ瀬町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "928-0015",
+          "short_name": "928-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒928-0015 石川県輪島市市ノ瀬町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3557535,
+            "lng": 136.9356359
+          },
+          "southwest": {
+            "lat": 37.3391022,
+            "lng": 136.9002103
+          }
+        },
+        "location": {
+          "lat": 37.3463722,
+          "lng": 136.9172665
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3557535,
+            "lng": 136.9356359
+          },
+          "southwest": {
+            "lat": 37.3391022,
+            "lng": 136.9002103
+          }
+        }
+      },
+      "place_id": "ChIJS3fl2nAs8V8R-EqVSNYRGxs",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "928-0015",
+          "short_name": "928-0015",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "市ノ瀬町",
+          "short_name": "市ノ瀬町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒928-0015",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3557535,
+            "lng": 136.9356359
+          },
+          "southwest": {
+            "lat": 37.3391022,
+            "lng": 136.9002103
+          }
+        },
+        "location": {
+          "lat": 37.3463722,
+          "lng": 136.9172665
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3557535,
+            "lng": 136.9356359
+          },
+          "southwest": {
+            "lat": 37.3391022,
+            "lng": 136.9002103
+          }
+        }
+      },
+      "place_id": "ChIJfY1TfnYs8V8RPxonBJzAjeg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県輪島市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.1709053
+          },
+          "southwest": {
+            "lat": 37.1905353,
+            "lng": 136.694243
+          }
+        },
+        "location": {
+          "lat": 37.3904768,
+          "lng": 136.8992582
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.1709053
+          },
+          "southwest": {
+            "lat": 37.1905353,
+            "lng": 136.694243
+          }
+        }
+      },
+      "place_id": "ChIJRVqGdSg58V8RslKCeDDWO9Q",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "9W35+8P",
+          "short_name": "9W35+8P",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "輪島市",
+          "short_name": "輪島市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "9W35+8P 日本、石川県輪島市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.353375,
+            "lng": 136.909375
+          },
+          "southwest": {
+            "lat": 37.35325,
+            "lng": 136.90925
+          }
+        },
+        "location": {
+          "lat": 37.353333,
+          "lng": 136.909333
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3546614802915,
+            "lng": 136.9106614802915
+          },
+          "southwest": {
+            "lat": 37.3519635197085,
+            "lng": 136.9079635197085
+          }
+        }
+      },
+      "place_id": "GhIJfcwHBDqtQkARjgWFQRkdYUA",
+      "plus_code": {
+        "compound_code": "9W35+8P 日本、石川県輪島市",
+        "global_code": "8Q9R9W35+8P"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
