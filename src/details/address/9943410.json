@@ -1,0 +1,630 @@
+{
+  "station": "練合",
+  "lat": 36.761667,
+  "lng": 137.155278,
+  "plus_code": {
+    "compound_code": "Q564+M4 日本、富山県射水市",
+    "global_code": "8Q8VQ564+M4"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１４３２−１",
+          "short_name": "１４３２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "海老江七軒",
+          "short_name": "海老江七軒",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "933-0234",
+          "short_name": "933-0234",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒933-0234 富山県射水市海老江七軒１４３２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7618946,
+            "lng": 137.155422
+          },
+          "southwest": {
+            "lat": 36.761759,
+            "lng": 137.1552174
+          }
+        },
+        "location": {
+          "lat": 36.7618386,
+          "lng": 137.1553178
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7631757802915,
+            "lng": 137.1566686802915
+          },
+          "southwest": {
+            "lat": 36.7604778197085,
+            "lng": 137.1539707197085
+          }
+        }
+      },
+      "place_id": "ChIJhdDAd6ae918RYd859t5Pa9Q",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４３２",
+          "short_name": "１４３２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "海老江七軒",
+          "short_name": "海老江七軒",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "933-0234",
+          "short_name": "933-0234",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒933-0234 富山県射水市海老江七軒１４３２",
+      "geometry": {
+        "location": {
+          "lat": 36.7618699,
+          "lng": 137.1550972
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7632188802915,
+            "lng": 137.1564461802915
+          },
+          "southwest": {
+            "lat": 36.7605209197085,
+            "lng": 137.1537482197085
+          }
+        }
+      },
+      "place_id": "ChIJcYHAd6ae918RnAXZwsk6Flc",
+      "plus_code": {
+        "compound_code": "Q564+P2 日本、富山県射水市",
+        "global_code": "8Q8VQ564+P2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道415号",
+          "short_name": "国道415号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "海老江七軒",
+          "short_name": "海老江七軒",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "933-0234",
+          "short_name": "933-0234",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒933-0234 富山県射水市海老江七軒 国道415号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7622747,
+            "lng": 137.1556014
+          },
+          "southwest": {
+            "lat": 36.7618553,
+            "lng": 137.1543528
+          }
+        },
+        "location": {
+          "lat": 36.7620443,
+          "lng": 137.1549659
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7634139802915,
+            "lng": 137.1563260802915
+          },
+          "southwest": {
+            "lat": 36.7607160197085,
+            "lng": 137.1536281197085
+          }
+        }
+      },
+      "place_id": "ChIJ-RL21aWe918RWA5XcUloJ10",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "海老江七軒",
+          "short_name": "海老江七軒",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "933-0234",
+          "short_name": "933-0234",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒933-0234 富山県海老江七軒",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7649833,
+            "lng": 137.1578867
+          },
+          "southwest": {
+            "lat": 36.7542667,
+            "lng": 137.1511982
+          }
+        },
+        "location": {
+          "lat": 36.7563673,
+          "lng": 137.1556503
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7649833,
+            "lng": 137.1578867
+          },
+          "southwest": {
+            "lat": 36.7542667,
+            "lng": 137.1511982
+          }
+        }
+      },
+      "place_id": "ChIJgxjKfqie918RUMrJ_SUk-LI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "933-0234",
+          "short_name": "933-0234",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "海老江七軒",
+          "short_name": "海老江七軒",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒933-0234",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7649833,
+            "lng": 137.1578867
+          },
+          "southwest": {
+            "lat": 36.7542667,
+            "lng": 137.1511982
+          }
+        },
+        "location": {
+          "lat": 36.7563673,
+          "lng": 137.1556503
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7649833,
+            "lng": 137.1578867
+          },
+          "southwest": {
+            "lat": 36.7542667,
+            "lng": 137.1511982
+          }
+        }
+      },
+      "place_id": "ChIJ1zWAKKSe918R28a5JFiV5fE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県射水市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7937153,
+            "lng": 137.1800418
+          },
+          "southwest": {
+            "lat": 36.6459964,
+            "lng": 137.0105111
+          }
+        },
+        "location": {
+          "lat": 36.7306389,
+          "lng": 137.0755452
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7937153,
+            "lng": 137.1800418
+          },
+          "southwest": {
+            "lat": 36.6459964,
+            "lng": 137.0105111
+          }
+        }
+      },
+      "place_id": "ChIJsy_VM1eb918R8JyUCQnqcpc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        },
+        "location": {
+          "lat": 36.6958266,
+          "lng": 137.2137071
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        }
+      },
+      "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Q564+M4",
+          "short_name": "Q564+M4",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "射水市",
+          "short_name": "射水市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Q564+M4 日本、富山県射水市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.76175,
+            "lng": 137.155375
+          },
+          "southwest": {
+            "lat": 36.761625,
+            "lng": 137.15525
+          }
+        },
+        "location": {
+          "lat": 36.761667,
+          "lng": 137.155278
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7630364802915,
+            "lng": 137.1566614802915
+          },
+          "southwest": {
+            "lat": 36.7603385197085,
+            "lng": 137.1539635197085
+          }
+        }
+      },
+      "place_id": "GhIJobjjTX5hQkAROXmRCfgkYUA",
+      "plus_code": {
+        "compound_code": "Q564+M4 日本、富山県射水市",
+        "global_code": "8Q8VQ564+M4"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
