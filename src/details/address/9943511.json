@@ -1,0 +1,717 @@
+{
+  "station": "田村町",
+  "lat": 36.584722,
+  "lng": 137.208056,
+  "plus_code": {
+    "compound_code": "H6M5+V6 日本、富山県富山市",
+    "global_code": "8Q8VH6M5+V6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１４９−１",
+          "short_name": "１４９−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-2252 富山県富山市上大久保１４９−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5848038,
+            "lng": 137.2082005
+          },
+          "southwest": {
+            "lat": 36.5846689,
+            "lng": 137.2080111
+          }
+        },
+        "location": {
+          "lat": 36.5847548,
+          "lng": 137.2081027
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.58608533029149,
+            "lng": 137.2094547802915
+          },
+          "southwest": {
+            "lat": 36.5833873697085,
+            "lng": 137.2067568197085
+          }
+        }
+      },
+      "place_id": "ChIJz9bAMJuM918RqK2_4VV8b9k",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４９",
+          "short_name": "１４９",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-2252 富山県富山市上大久保１４９",
+      "geometry": {
+        "location": {
+          "lat": 36.58472769999999,
+          "lng": 137.2081132
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.58607668029149,
+            "lng": 137.2094621802915
+          },
+          "southwest": {
+            "lat": 36.5833787197085,
+            "lng": 137.2067642197085
+          }
+        }
+      },
+      "place_id": "ChIJ5RPCMJuM918RWnajE6U_qkg",
+      "plus_code": {
+        "compound_code": "H6M5+V6 日本、富山県富山市",
+        "global_code": "8Q8VH6M5+V6"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４８−１",
+          "short_name": "１４８−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-2252 富山県富山市上大久保１４８−１",
+      "geometry": {
+        "location": {
+          "lat": 36.5846872,
+          "lng": 137.2082757
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5860361802915,
+            "lng": 137.2096246802915
+          },
+          "southwest": {
+            "lat": 36.5833382197085,
+            "lng": 137.2069267197085
+          }
+        }
+      },
+      "place_id": "ChIJ_TzyQYWM918RPr1YvuBwl60",
+      "plus_code": {
+        "compound_code": "H6M5+V8 日本、富山県富山市",
+        "global_code": "8Q8VH6M5+V8"
+      },
+      "types": [
+        "establishment",
+        "general_contractor",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "坂本長附線",
+          "short_name": "県道193号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-2252 富山県富山市上大久保 県道193号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5848853,
+            "lng": 137.2086253
+          },
+          "southwest": {
+            "lat": 36.5846823,
+            "lng": 137.2079394
+          }
+        },
+        "location": {
+          "lat": 36.5847844,
+          "lng": 137.2082826
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5861327802915,
+            "lng": 137.2096313302915
+          },
+          "southwest": {
+            "lat": 36.5834348197085,
+            "lng": 137.2069333697085
+          }
+        }
+      },
+      "place_id": "ChIJ6X1BMJuM918RCjI4--7DsPg",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒939-2252",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6023347,
+            "lng": 137.2202313
+          },
+          "southwest": {
+            "lat": 36.5800097,
+            "lng": 137.1996007
+          }
+        },
+        "location": {
+          "lat": 36.5957658,
+          "lng": 137.2065959
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6023347,
+            "lng": 137.2202313
+          },
+          "southwest": {
+            "lat": 36.5800097,
+            "lng": 137.1996007
+          }
+        }
+      },
+      "place_id": "ChIJMcJp84qM918RMWraYjz6hSA",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上大久保",
+          "short_name": "上大久保",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "939-2252",
+          "short_name": "939-2252",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒939-2252 富山県富山市上大久保",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.6023347,
+            "lng": 137.2202313
+          },
+          "southwest": {
+            "lat": 36.5800097,
+            "lng": 137.1996007
+          }
+        },
+        "location": {
+          "lat": 36.5957658,
+          "lng": 137.2065959
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.6023347,
+            "lng": 137.2202313
+          },
+          "southwest": {
+            "lat": 36.5800097,
+            "lng": 137.1996007
+          }
+        }
+      },
+      "place_id": "ChIJHVHJRImM918R7da35E_gqcM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県富山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7658669,
+            "lng": 137.7052802
+          },
+          "southwest": {
+            "lat": 36.3697517,
+            "lng": 137.028218
+          }
+        },
+        "location": {
+          "lat": 36.6958223,
+          "lng": 137.2137211
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7658669,
+            "lng": 137.7052802
+          },
+          "southwest": {
+            "lat": 36.3697517,
+            "lng": 137.028218
+          }
+        }
+      },
+      "place_id": "ChIJ9WoXGAny918R4x0feZe_Wm0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、富山県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        },
+        "location": {
+          "lat": 36.6958266,
+          "lng": 137.2137071
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9826438,
+            "lng": 137.7633442
+          },
+          "southwest": {
+            "lat": 36.2745068,
+            "lng": 136.7683708
+          }
+        }
+      },
+      "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "H6M5+V6",
+          "short_name": "H6M5+V6",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "富山市",
+          "short_name": "富山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "富山県",
+          "short_name": "富山県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "H6M5+V6 日本、富山県富山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.58475,
+            "lng": 137.208125
+          },
+          "southwest": {
+            "lat": 36.584625,
+            "lng": 137.208
+          }
+        },
+        "location": {
+          "lat": 36.58472200000001,
+          "lng": 137.208056
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5860364802915,
+            "lng": 137.2094114802915
+          },
+          "southwest": {
+            "lat": 36.5833385197085,
+            "lng": 137.2067135197085
+          }
+        }
+      },
+      "place_id": "GhIJOaClK9hKQkARkncOZagmYUA",
+      "plus_code": {
+        "compound_code": "H6M5+V6 日本、富山県富山市",
+        "global_code": "8Q8VH6M5+V6"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
