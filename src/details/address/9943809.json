@@ -1,0 +1,638 @@
+{
+  "station": "来丸",
+  "lat": 36.45,
+  "lng": 136.556667,
+  "plus_code": {
+    "compound_code": "CHX4+XM 日本、石川県能美市",
+    "global_code": "8Q8RCHX4+XM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５６",
+          "short_name": "５６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "来丸町",
+          "short_name": "来丸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-1244",
+          "short_name": "923-1244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒923-1244 石川県能美市来丸町５６",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4502138,
+            "lng": 136.557301
+          },
+          "southwest": {
+            "lat": 36.4500968,
+            "lng": 136.5570523
+          }
+        },
+        "location": {
+          "lat": 36.4501609,
+          "lng": 136.5571391
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4515042802915,
+            "lng": 136.5585256302915
+          },
+          "southwest": {
+            "lat": 36.4488063197085,
+            "lng": 136.5558276697085
+          }
+        }
+      },
+      "place_id": "ChIJ10AtldlO-F8RNeBBvENZydo",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１２５",
+          "short_name": "１２５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "来丸町",
+          "short_name": "来丸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-1244",
+          "short_name": "923-1244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒923-1244 石川県能美市来丸町１２５",
+      "geometry": {
+        "location": {
+          "lat": 36.4502016,
+          "lng": 136.5572055
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4515505802915,
+            "lng": 136.5585544802915
+          },
+          "southwest": {
+            "lat": 36.4488526197085,
+            "lng": 136.5558565197085
+          }
+        }
+      },
+      "place_id": "ChIJ1dQkldlO-F8R_frXFOQqSSs",
+      "plus_code": {
+        "compound_code": "FH24+3V 日本、石川県能美市",
+        "global_code": "8Q8RFH24+3V"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "来丸町",
+          "short_name": "来丸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-1244",
+          "short_name": "923-1244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 来丸町 能美市 石川県 923-1244 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4502635,
+            "lng": 136.5566872
+          },
+          "southwest": {
+            "lat": 36.450009,
+            "lng": 136.5549096
+          }
+        },
+        "location": {
+          "lat": 36.4501362,
+          "lng": 136.5557984
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4514852302915,
+            "lng": 136.5571473802915
+          },
+          "southwest": {
+            "lat": 36.4487872697085,
+            "lng": 136.5544494197085
+          }
+        }
+      },
+      "place_id": "ChIJZ7r_hNlO-F8RksPWXxdnb6w",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "923-1244",
+          "short_name": "923-1244",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "来丸町",
+          "short_name": "来丸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒923-1244",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4540033,
+            "lng": 136.5692291
+          },
+          "southwest": {
+            "lat": 36.4342449,
+            "lng": 136.5480017
+          }
+        },
+        "location": {
+          "lat": 36.4467311,
+          "lng": 136.5547708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4540033,
+            "lng": 136.5692291
+          },
+          "southwest": {
+            "lat": 36.4342449,
+            "lng": 136.5480017
+          }
+        }
+      },
+      "place_id": "ChIJWeK9A9pO-F8RYIIjYsO0bg8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "来丸町",
+          "short_name": "来丸町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "923-1244",
+          "short_name": "923-1244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒923-1244 石川県能美市来丸町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4540033,
+            "lng": 136.5692291
+          },
+          "southwest": {
+            "lat": 36.4342449,
+            "lng": 136.5480017
+          }
+        },
+        "location": {
+          "lat": 36.4467311,
+          "lng": 136.5547708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4540033,
+            "lng": 136.5692291
+          },
+          "southwest": {
+            "lat": 36.4342449,
+            "lng": 136.5480017
+          }
+        }
+      },
+      "place_id": "ChIJdXniCCFP-F8RSuJpi_HnuH4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県能美市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.47194760000001,
+            "lng": 136.6318178
+          },
+          "southwest": {
+            "lat": 36.3885684,
+            "lng": 136.4262023
+          }
+        },
+        "location": {
+          "lat": 36.4468791,
+          "lng": 136.5540708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.47194760000001,
+            "lng": 136.6318178
+          },
+          "southwest": {
+            "lat": 36.3885684,
+            "lng": 136.4262023
+          }
+        }
+      },
+      "place_id": "ChIJt6tPyq1P-F8RTgrkn0XKMdE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "CHX4+XM",
+          "short_name": "CHX4+XM",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "CHX4+XM 日本、石川県能美市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.45,
+            "lng": 136.55675
+          },
+          "southwest": {
+            "lat": 36.449875,
+            "lng": 136.556625
+          }
+        },
+        "location": {
+          "lat": 36.45,
+          "lng": 136.556667
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4512864802915,
+            "lng": 136.5580364802915
+          },
+          "southwest": {
+            "lat": 36.4485885197085,
+            "lng": 136.5553385197085
+          }
+        }
+      },
+      "place_id": "GhIJmZmZmZk5QkARZvhPN9ARYUA",
+      "plus_code": {
+        "compound_code": "CHX4+XM 日本、石川県能美市",
+        "global_code": "8Q8RCHX4+XM"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

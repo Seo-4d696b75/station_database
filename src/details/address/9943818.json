@@ -1,0 +1,752 @@
+{
+  "station": "五間堂",
+  "lat": 36.442833,
+  "lng": 136.485694,
+  "plus_code": {
+    "compound_code": "CFVP+47 日本、石川県能美市",
+    "global_code": "8Q8RCFVP+47"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "７０",
+          "short_name": "７０",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "丁",
+          "short_name": "丁",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒929-0103 石川県能美市五間堂町丁７０",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4431479,
+            "lng": 136.4857596
+          },
+          "southwest": {
+            "lat": 36.4429993,
+            "lng": 136.4855221
+          }
+        },
+        "location": {
+          "lat": 36.4430842,
+          "lng": 136.4856302
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.44442258029149,
+            "lng": 136.4869898302915
+          },
+          "southwest": {
+            "lat": 36.4417246197085,
+            "lng": 136.4842918697085
+          }
+        }
+      },
+      "place_id": "ChIJOfw8-HJO-F8RlXXOvxIErAQ",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２５",
+          "short_name": "２５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "丁",
+          "short_name": "丁",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒929-0103 石川県能美市五間堂町丁２５",
+      "geometry": {
+        "location": {
+          "lat": 36.4430503,
+          "lng": 136.4859561
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4443992802915,
+            "lng": 136.4873050802915
+          },
+          "southwest": {
+            "lat": 36.4417013197085,
+            "lng": 136.4846071197085
+          }
+        }
+      },
+      "place_id": "ChIJkRpqWHJO-F8RackZTfB1fRA",
+      "plus_code": {
+        "compound_code": "CFVP+69 日本、石川県能美市",
+        "global_code": "8Q8RCFVP+69"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "根上寺井線",
+          "short_name": "県道102号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "乙",
+          "short_name": "乙",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒929-0103 石川県能美市五間堂町乙 県道102号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4434287,
+            "lng": 136.4861267
+          },
+          "southwest": {
+            "lat": 36.4434092,
+            "lng": 136.4858871
+          }
+        },
+        "location": {
+          "lat": 36.4434221,
+          "lng": 136.4860072
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4447679302915,
+            "lng": 136.4873558802915
+          },
+          "southwest": {
+            "lat": 36.4420699697085,
+            "lng": 136.4846579197085
+          }
+        }
+      },
+      "place_id": "ChIJSWmFUXJO-F8RgkJmihFKFR0",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "丁",
+          "short_name": "丁",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒929-0103 石川県能美市五間堂町丁",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4440096,
+            "lng": 136.4868139
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.4824133
+          }
+        },
+        "location": {
+          "lat": 36.4427878,
+          "lng": 136.485171
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4440096,
+            "lng": 136.4868139
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.4824133
+          }
+        }
+      },
+      "place_id": "ChIJjb8Ot3JO-F8R-AqF2ZVNKhU",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒929-0103 石川県能美市五間堂町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4474136,
+            "lng": 136.4914853
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.479017
+          }
+        },
+        "location": {
+          "lat": 36.44450459999999,
+          "lng": 136.4852296
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4474136,
+            "lng": 136.4914853
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.479017
+          }
+        }
+      },
+      "place_id": "ChIJezMbq3NO-F8RzxWhVl8OhEw",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "929-0103",
+          "short_name": "929-0103",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "五間堂町",
+          "short_name": "五間堂町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒929-0103",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4474136,
+            "lng": 136.4914853
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.479017
+          }
+        },
+        "location": {
+          "lat": 36.44450459999999,
+          "lng": 136.4852296
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4474136,
+            "lng": 136.4914853
+          },
+          "southwest": {
+            "lat": 36.4396083,
+            "lng": 136.479017
+          }
+        }
+      },
+      "place_id": "ChIJdzbA_3JO-F8RAtetMxOlqPE",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県能美市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.47194760000001,
+            "lng": 136.6318178
+          },
+          "southwest": {
+            "lat": 36.3885684,
+            "lng": 136.4262023
+          }
+        },
+        "location": {
+          "lat": 36.4468791,
+          "lng": 136.5540708
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.47194760000001,
+            "lng": 136.6318178
+          },
+          "southwest": {
+            "lat": 36.3885684,
+            "lng": 136.4262023
+          }
+        }
+      },
+      "place_id": "ChIJt6tPyq1P-F8RTgrkn0XKMdE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "CFVP+47",
+          "short_name": "CFVP+47",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "能美市",
+          "short_name": "能美市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "CFVP+47 日本、石川県能美市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.442875,
+            "lng": 136.48575
+          },
+          "southwest": {
+            "lat": 36.44275,
+            "lng": 136.485625
+          }
+        },
+        "location": {
+          "lat": 36.44283300000001,
+          "lng": 136.485694
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4441614802915,
+            "lng": 136.4870364802915
+          },
+          "southwest": {
+            "lat": 36.4414635197085,
+            "lng": 136.4843385197085
+          }
+        }
+      },
+      "place_id": "GhIJeEtywK44QkARobskzooPYUA",
+      "plus_code": {
+        "compound_code": "CFVP+47 日本、石川県能美市",
+        "global_code": "8Q8RCFVP+47"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
