@@ -1,0 +1,823 @@
+{
+  "station": "新家工業前",
+  "lat": 36.259333,
+  "lng": 136.365472,
+  "plus_code": {
+    "compound_code": "7958+P5 日本、石川県加賀市",
+    "global_code": "8Q8R7958+P5"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ル",
+          "short_name": "ル",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町ル−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2601272,
+            "lng": 136.366198
+          },
+          "southwest": {
+            "lat": 36.2593902,
+            "lng": 136.3653611
+          }
+        },
+        "location": {
+          "lat": 36.2598751,
+          "lng": 136.3656454
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2611076802915,
+            "lng": 136.3671285302915
+          },
+          "southwest": {
+            "lat": 36.2584097197085,
+            "lng": 136.3644305697085
+          }
+        }
+      },
+      "place_id": "ChIJpznaNa32-F8RxrAPrSChjCc",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "ル",
+          "short_name": "ル",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町ル 山中温泉上原町ル−3",
+      "geometry": {
+        "location": {
+          "lat": 36.2598751,
+          "lng": 136.3656454
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2612240802915,
+            "lng": 136.3669943802915
+          },
+          "southwest": {
+            "lat": 36.2585261197085,
+            "lng": 136.3642964197085
+          }
+        }
+      },
+      "place_id": "ChIJM5LPNa32-F8Rsyz9yxe5owM",
+      "plus_code": {
+        "compound_code": "7958+X7 日本、石川県加賀市",
+        "global_code": "8Q8R7958+X7"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "８−１",
+          "short_name": "８−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２丁目",
+          "short_name": "２丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町２丁目８−１",
+      "geometry": {
+        "location": {
+          "lat": 36.2589379,
+          "lng": 136.3645927
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2602868802915,
+            "lng": 136.3659416802915
+          },
+          "southwest": {
+            "lat": 36.2575889197085,
+            "lng": 136.3632437197085
+          }
+        }
+      },
+      "place_id": "ChIJN9lk6VLx-F8R4SqmQ6PIN-o",
+      "plus_code": {
+        "compound_code": "7957+HR 日本、石川県加賀市",
+        "global_code": "8Q8R7957+HR"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道364号",
+          "short_name": "国道364号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町 国道364号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2602641,
+            "lng": 136.3666628
+          },
+          "southwest": {
+            "lat": 36.2588745,
+            "lng": 136.3642761
+          }
+        },
+        "location": {
+          "lat": 36.2594992,
+          "lng": 136.3654096
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.26091828029151,
+            "lng": 136.3668184302915
+          },
+          "southwest": {
+            "lat": 36.25822031970851,
+            "lng": 136.3641204697085
+          }
+        }
+      },
+      "place_id": "ChIJB5Sn0VLx-F8RRqMRB5fpq1M",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ル",
+          "short_name": "ル",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町ル",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.2618582,
+            "lng": 136.3674536
+          },
+          "southwest": {
+            "lat": 36.2582963,
+            "lng": 136.3621942
+          }
+        },
+        "location": {
+          "lat": 36.2600884,
+          "lng": 136.365652
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2618582,
+            "lng": 136.3674536
+          },
+          "southwest": {
+            "lat": 36.2582963,
+            "lng": 136.3621942
+          }
+        }
+      },
+      "place_id": "ChIJdzEKrVLx-F8RzmVzhsKdX9M",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0106 石川県加賀市山中温泉上原町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.266748,
+            "lng": 136.3708143
+          },
+          "southwest": {
+            "lat": 36.2392952,
+            "lng": 136.3500574
+          }
+        },
+        "location": {
+          "lat": 36.2468191,
+          "lng": 136.3592741
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.266748,
+            "lng": 136.3708143
+          },
+          "southwest": {
+            "lat": 36.2392952,
+            "lng": 136.3500574
+          }
+        }
+      },
+      "place_id": "ChIJI3r23Fnx-F8RySeOKgfk7aI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "922-0106",
+          "short_name": "922-0106",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "山中温泉上原町",
+          "short_name": "山中温泉上原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒922-0106",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.266748,
+            "lng": 136.3708143
+          },
+          "southwest": {
+            "lat": 36.2392952,
+            "lng": 136.3500574
+          }
+        },
+        "location": {
+          "lat": 36.2468191,
+          "lng": 136.3592741
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.266748,
+            "lng": 136.3708143
+          },
+          "southwest": {
+            "lat": 36.2392952,
+            "lng": 136.3500574
+          }
+        }
+      },
+      "place_id": "ChIJ53ElW03x-F8RwJwcW369y-8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県加賀市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3836396,
+            "lng": 136.498663
+          },
+          "southwest": {
+            "lat": 36.1363531,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3026929,
+          "lng": 136.314926
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3836396,
+            "lng": 136.498663
+          },
+          "southwest": {
+            "lat": 36.1363531,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJIQewZqz2-F8RJRvDTmLd2Rk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "7958+P5",
+          "short_name": "7958+P5",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "7958+P5 日本、石川県加賀市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.259375,
+            "lng": 136.3655
+          },
+          "southwest": {
+            "lat": 36.25925,
+            "lng": 136.365375
+          }
+        },
+        "location": {
+          "lat": 36.259333,
+          "lng": 136.365472
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.2606614802915,
+            "lng": 136.3667864802915
+          },
+          "southwest": {
+            "lat": 36.2579635197085,
+            "lng": 136.3640885197085
+          }
+        }
+      },
+      "place_id": "GhIJBOPg0jEhQkARUfNV8rELYUA",
+      "plus_code": {
+        "compound_code": "7958+P5 日本、石川県加賀市",
+        "global_code": "8Q8R7958+P5"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

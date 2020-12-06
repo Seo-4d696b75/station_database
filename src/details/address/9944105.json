@@ -1,0 +1,752 @@
+{
+  "station": "庄学校前",
+  "lat": 36.31125,
+  "lng": 136.375722,
+  "plus_code": {
+    "compound_code": "896G+G7 日本、石川県加賀市",
+    "global_code": "8Q8R896G+G7"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "８６",
+          "short_name": "８６",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ワ",
+          "short_name": "ワ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "庄町",
+          "short_name": "庄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0332",
+          "short_name": "922-0332",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0332 石川県加賀市庄町ワ−８６",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3114292,
+            "lng": 136.3757446
+          },
+          "southwest": {
+            "lat": 36.3113258,
+            "lng": 136.3756486
+          }
+        },
+        "location": {
+          "lat": 36.3113816,
+          "lng": 136.3756964
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3127264802915,
+            "lng": 136.3770455802915
+          },
+          "southwest": {
+            "lat": 36.3100285197085,
+            "lng": 136.3743476197085
+          }
+        }
+      },
+      "place_id": "ChIJsabZv-r3-F8RKZGD8dXIo6I",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５７",
+          "short_name": "５７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ニ",
+          "short_name": "ニ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "津波倉町",
+          "short_name": "津波倉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0333",
+          "short_name": "922-0333",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0333 石川県加賀市津波倉町ニ−５７",
+      "geometry": {
+        "location": {
+          "lat": 36.3112122,
+          "lng": 136.3758728
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3125611802915,
+            "lng": 136.3772217802915
+          },
+          "southwest": {
+            "lat": 36.3098632197085,
+            "lng": 136.3745238197085
+          }
+        }
+      },
+      "place_id": "ChIJDS5TvOr3-F8RsG_idZDE2z4",
+      "plus_code": {
+        "compound_code": "896G+F8 日本、石川県加賀市",
+        "global_code": "8Q8R896G+F8"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道8号",
+          "short_name": "国道8号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "ニ",
+          "short_name": "ニ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "津波倉町",
+          "short_name": "津波倉町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0333",
+          "short_name": "922-0333",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0333 石川県加賀市津波倉町ニ 国道8号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.310981,
+            "lng": 136.3761254
+          },
+          "southwest": {
+            "lat": 36.3109461,
+            "lng": 136.3760517
+          }
+        },
+        "location": {
+          "lat": 36.3109634,
+          "lng": 136.3760886
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3123125302915,
+            "lng": 136.3774375302915
+          },
+          "southwest": {
+            "lat": 36.3096145697085,
+            "lng": 136.3747395697085
+          }
+        }
+      },
+      "place_id": "ChIJISOHo-r3-F8R-om2Niul3Ms",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ワ",
+          "short_name": "ワ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "庄町",
+          "short_name": "庄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0332",
+          "short_name": "922-0332",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0332 石川県加賀市庄町ワ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3145205,
+            "lng": 136.3769477
+          },
+          "southwest": {
+            "lat": 36.3111951,
+            "lng": 136.3737635
+          }
+        },
+        "location": {
+          "lat": 36.3126206,
+          "lng": 136.3750639
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3145205,
+            "lng": 136.3769477
+          },
+          "southwest": {
+            "lat": 36.3111951,
+            "lng": 136.3737635
+          }
+        }
+      },
+      "place_id": "ChIJpQu6qev3-F8RSTXjsVogFjc",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "庄町",
+          "short_name": "庄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "922-0332",
+          "short_name": "922-0332",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒922-0332 石川県加賀市庄町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3269715,
+            "lng": 136.3808594
+          },
+          "southwest": {
+            "lat": 36.302873,
+            "lng": 136.3727686
+          }
+        },
+        "location": {
+          "lat": 36.3194113,
+          "lng": 136.3782642
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3269715,
+            "lng": 136.3808594
+          },
+          "southwest": {
+            "lat": 36.302873,
+            "lng": 136.3727686
+          }
+        }
+      },
+      "place_id": "ChIJfQ8kUOn3-F8R32nKNaODDGE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "922-0332",
+          "short_name": "922-0332",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "庄町",
+          "short_name": "庄町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒922-0332",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3269715,
+            "lng": 136.3808594
+          },
+          "southwest": {
+            "lat": 36.302873,
+            "lng": 136.3727686
+          }
+        },
+        "location": {
+          "lat": 36.3194113,
+          "lng": 136.3782642
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3269715,
+            "lng": 136.3808594
+          },
+          "southwest": {
+            "lat": 36.302873,
+            "lng": 136.3727686
+          }
+        }
+      },
+      "place_id": "ChIJvYAz7O73-F8RcdYrfS99qns",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県加賀市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3836396,
+            "lng": 136.498663
+          },
+          "southwest": {
+            "lat": 36.1363531,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3026929,
+          "lng": 136.314926
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3836396,
+            "lng": 136.498663
+          },
+          "southwest": {
+            "lat": 36.1363531,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJIQewZqz2-F8RJRvDTmLd2Rk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "896G+G7",
+          "short_name": "896G+G7",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "加賀市",
+          "short_name": "加賀市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "896G+G7 日本、石川県加賀市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.311375,
+            "lng": 136.37575
+          },
+          "southwest": {
+            "lat": 36.31125,
+            "lng": 136.375625
+          }
+        },
+        "location": {
+          "lat": 36.31125,
+          "lng": 136.375722
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3126614802915,
+            "lng": 136.3770364802915
+          },
+          "southwest": {
+            "lat": 36.3099635197085,
+            "lng": 136.3743385197085
+          }
+        }
+      },
+      "place_id": "GhIJpHA9CtcnQkARaMwk6gUMYUA",
+      "plus_code": {
+        "compound_code": "896G+G7 日本、石川県加賀市",
+        "global_code": "8Q8R896G+G7"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
