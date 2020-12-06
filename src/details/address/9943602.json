@@ -1,0 +1,752 @@
+{
+  "station": "中居",
+  "lat": 37.234694,
+  "lng": 136.945611,
+  "plus_code": {
+    "compound_code": "6WMW+V6 日本、石川県穴水町",
+    "global_code": "8Q9R6WMW+V6"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５−４",
+          "short_name": "５−４",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ロ",
+          "short_name": "ロ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "中居",
+          "short_name": "中居",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0015",
+          "short_name": "927-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0015 石川県鳳珠郡穴水町中居ロ−５−４",
+      "geometry": {
+        "location": {
+          "lat": 37.2345231,
+          "lng": 136.9454989
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2358720802915,
+            "lng": 136.9468478802915
+          },
+          "southwest": {
+            "lat": 37.2331741197085,
+            "lng": 136.9441499197085
+          }
+        }
+      },
+      "place_id": "ChIJpYODoPEp918Rg-IEfaKqcRA",
+      "plus_code": {
+        "compound_code": "6WMW+R5 日本、石川県穴水町",
+        "global_code": "8Q9R6WMW+R5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道249号",
+          "short_name": "国道249号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "中居",
+          "short_name": "中居",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0015",
+          "short_name": "927-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0015 石川県鳳珠郡穴水町中居 国道249号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2347861,
+            "lng": 136.945891
+          },
+          "southwest": {
+            "lat": 37.2342144,
+            "lng": 136.9446734
+          }
+        },
+        "location": {
+          "lat": 37.2345002,
+          "lng": 136.9452822
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2358492302915,
+            "lng": 136.9466311802915
+          },
+          "southwest": {
+            "lat": 37.2331512697085,
+            "lng": 136.9439332197085
+          }
+        }
+      },
+      "place_id": "ChIJafW_CvEp918R4OM2PNgA_Tg",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ロ",
+          "short_name": "ロ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "中居",
+          "short_name": "中居",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0015",
+          "short_name": "927-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0015 石川県中居ロ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2350696,
+            "lng": 136.9487152
+          },
+          "southwest": {
+            "lat": 37.2314711,
+            "lng": 136.9445525
+          }
+        },
+        "location": {
+          "lat": 37.233228,
+          "lng": 136.9464499
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2350696,
+            "lng": 136.9487152
+          },
+          "southwest": {
+            "lat": 37.2314711,
+            "lng": 136.9445525
+          }
+        }
+      },
+      "place_id": "ChIJsWx35fEp918Rl9fuU5mNlG0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中居",
+          "short_name": "中居",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0015",
+          "short_name": "927-0015",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0015 石川県鳳珠郡穴水町中居",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2400666,
+            "lng": 136.9498894
+          },
+          "southwest": {
+            "lat": 37.2288068,
+            "lng": 136.9332859
+          }
+        },
+        "location": {
+          "lat": 37.2362737,
+          "lng": 136.9417079
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2400666,
+            "lng": 136.9498894
+          },
+          "southwest": {
+            "lat": 37.2288068,
+            "lng": 136.9332859
+          }
+        }
+      },
+      "place_id": "ChIJnf6KHvQp918Rk7CyspuKpas",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "927-0015",
+          "short_name": "927-0015",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "中居",
+          "short_name": "中居",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒927-0015",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2400666,
+            "lng": 136.9498894
+          },
+          "southwest": {
+            "lat": 37.2288068,
+            "lng": 136.9332859
+          }
+        },
+        "location": {
+          "lat": 37.2362737,
+          "lng": 136.9417079
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2400666,
+            "lng": 136.9498894
+          },
+          "southwest": {
+            "lat": 37.2288068,
+            "lng": 136.9332859
+          }
+        }
+      },
+      "place_id": "ChIJHyFNnfIp918RndSMOVDeU9A",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県鳳珠郡穴水町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3058131,
+            "lng": 137.0832514
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        },
+        "location": {
+          "lat": 37.2310256,
+          "lng": 136.9124314
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3058131,
+            "lng": 137.0832514
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        }
+      },
+      "place_id": "ChIJcYJ9bR4q918RMbEkm1OwDMI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県鳳珠郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        },
+        "location": {
+          "lat": 37.29894110000001,
+          "lng": 137.0324186
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        }
+      },
+      "place_id": "ChIJ6VbNHPrT9l8RTUNBUs-clgQ",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "6WMW+V6",
+          "short_name": "6WMW+V6",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "穴水町",
+          "short_name": "穴水町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "6WMW+V6 日本、石川県穴水町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.23475,
+            "lng": 136.945625
+          },
+          "southwest": {
+            "lat": 37.234625,
+            "lng": 136.9455
+          }
+        },
+        "location": {
+          "lat": 37.234694,
+          "lng": 136.945611
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2360364802915,
+            "lng": 136.9469114802915
+          },
+          "southwest": {
+            "lat": 37.2333385197085,
+            "lng": 136.9442135197085
+          }
+        }
+      },
+      "place_id": "GhIJoUj3cwqeQkARnPf_cUIeYUA",
+      "plus_code": {
+        "compound_code": "6WMW+V6 日本、石川県穴水町",
+        "global_code": "8Q9R6WMW+V6"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

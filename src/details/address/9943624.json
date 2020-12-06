@@ -1,0 +1,749 @@
+{
+  "station": "南黒丸",
+  "lat": 37.387833,
+  "lng": 137.234972,
+  "plus_code": {
+    "compound_code": "96QM+4X 日本、石川県珠洲市",
+    "global_code": "8Q9V96QM+4X"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５−５２",
+          "short_name": "５−５２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "南黒丸",
+          "short_name": "南黒丸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-1224",
+          "short_name": "927-1224",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-1224 石川県珠洲市宝立町南黒丸５−５２",
+      "geometry": {
+        "location": {
+          "lat": 37.3879927,
+          "lng": 137.2350147
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3893416802915,
+            "lng": 137.2363636802915
+          },
+          "southwest": {
+            "lat": 37.3866437197085,
+            "lng": 137.2336657197085
+          }
+        }
+      },
+      "place_id": "ChIJAbLbbRXK9l8RmXilcvb0Pv0",
+      "plus_code": {
+        "compound_code": "96QP+52 日本、石川県珠洲市",
+        "global_code": "8Q9V96QP+52"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５−４７−１",
+          "short_name": "５−４７−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "南黒丸",
+          "short_name": "南黒丸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-1224",
+          "short_name": "927-1224",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-1224 石川県珠洲市宝立町南黒丸５−４７−１",
+      "geometry": {
+        "location": {
+          "lat": 37.3876989,
+          "lng": 137.2358511
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.38904788029149,
+            "lng": 137.2372000802915
+          },
+          "southwest": {
+            "lat": 37.3863499197085,
+            "lng": 137.2345021197085
+          }
+        }
+      },
+      "place_id": "ChIJcXt-dRXK9l8R1Ymr41bhagw",
+      "plus_code": {
+        "compound_code": "96QP+38 日本、石川県珠洲市",
+        "global_code": "8Q9V96QP+38"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "南黒丸",
+          "short_name": "南黒丸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-1224",
+          "short_name": "927-1224",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 南黒丸 宝立町 珠洲市 石川県 927-1224 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3878947,
+            "lng": 137.2361961
+          },
+          "southwest": {
+            "lat": 37.3877358,
+            "lng": 137.2361922
+          }
+        },
+        "location": {
+          "lat": 37.3878153,
+          "lng": 137.2361961
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3891642302915,
+            "lng": 137.2375431302915
+          },
+          "southwest": {
+            "lat": 37.38646626970851,
+            "lng": 137.2348451697085
+          }
+        }
+      },
+      "place_id": "ChIJN62HoBXK9l8RnHoXoXaGxig",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "927-1224",
+          "short_name": "927-1224",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "南黒丸",
+          "short_name": "南黒丸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒927-1224",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3940031,
+            "lng": 137.2390169
+          },
+          "southwest": {
+            "lat": 37.3820301,
+            "lng": 137.2157363
+          }
+        },
+        "location": {
+          "lat": 37.38856699999999,
+          "lng": 137.2274744
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3940031,
+            "lng": 137.2390169
+          },
+          "southwest": {
+            "lat": 37.3820301,
+            "lng": 137.2157363
+          }
+        }
+      },
+      "place_id": "ChIJEU2N9BXK9l8RVTL8DeYwuZo",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "南黒丸",
+          "short_name": "南黒丸",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-1224",
+          "short_name": "927-1224",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-1224 石川県珠洲市宝立町南黒丸",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3940031,
+            "lng": 137.2390169
+          },
+          "southwest": {
+            "lat": 37.3820301,
+            "lng": 137.2157363
+          }
+        },
+        "location": {
+          "lat": 37.38856699999999,
+          "lng": 137.2274744
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3940031,
+            "lng": 137.2390169
+          },
+          "southwest": {
+            "lat": 37.3820301,
+            "lng": 137.2157363
+          }
+        }
+      },
+      "place_id": "ChIJhZvP-kDK9l8R6lh3Kv1FVq8",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "宝立町",
+          "short_name": "宝立町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県珠洲市宝立町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.4258782,
+            "lng": 137.2494124
+          },
+          "southwest": {
+            "lat": 37.3548093,
+            "lng": 137.1317261
+          }
+        },
+        "location": {
+          "lat": 37.398884,
+          "lng": 137.1937319
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.4258782,
+            "lng": 137.2494124
+          },
+          "southwest": {
+            "lat": 37.3548093,
+            "lng": 137.1317261
+          }
+        }
+      },
+      "place_id": "ChIJizpISHnK9l8RTeSv_BSjOsI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県珠洲市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.5359666,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 37.3546371,
+            "lng": 137.0848187
+          }
+        },
+        "location": {
+          "lat": 37.4363883,
+          "lng": 137.260524
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.5359666,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 37.3546371,
+            "lng": 137.0848187
+          }
+        }
+      },
+      "place_id": "ChIJuYt709NK8V8R47YubB4cLiU",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "96QM+4X",
+          "short_name": "96QM+4X",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "珠洲市",
+          "short_name": "珠洲市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "96QM+4X 日本、石川県珠洲市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.387875,
+            "lng": 137.235
+          },
+          "southwest": {
+            "lat": 37.38775,
+            "lng": 137.234875
+          }
+        },
+        "location": {
+          "lat": 37.387833,
+          "lng": 137.234972
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.38916148029151,
+            "lng": 137.2362864802915
+          },
+          "southwest": {
+            "lat": 37.38646351970851,
+            "lng": 137.2335885197085
+          }
+        }
+      },
+      "place_id": "GhIJoKcBg6SxQkAROe__44QnYUA",
+      "plus_code": {
+        "compound_code": "96QM+4X 日本、石川県珠洲市",
+        "global_code": "8Q9V96QM+4X"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

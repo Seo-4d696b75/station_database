@@ -1,0 +1,753 @@
+{
+  "station": "波並",
+  "lat": 37.28725,
+  "lng": 137.115028,
+  "plus_code": {
+    "compound_code": "74P8+W2 日本、石川県能登町",
+    "global_code": "8Q9V74P8+W2"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１８−４６−１",
+          "short_name": "１８−４６−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "波並",
+          "short_name": "波並",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0442",
+          "short_name": "927-0442",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0442 石川県鳳珠郡能登町波並１８−４６−１",
+      "geometry": {
+        "location": {
+          "lat": 37.2872571,
+          "lng": 137.1150706
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2886060802915,
+            "lng": 137.1164195802915
+          },
+          "southwest": {
+            "lat": 37.2859081197085,
+            "lng": 137.1137216197085
+          }
+        }
+      },
+      "place_id": "ChIJSzkTqbHR9l8RAbvYzwuZ1CM",
+      "plus_code": {
+        "compound_code": "74P8+W2 日本、石川県能登町",
+        "global_code": "8Q9V74P8+W2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "波並駅前（バス）",
+          "short_name": "波並駅前（バス）",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "波並",
+          "short_name": "波並",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0442",
+          "short_name": "927-0442",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0442 石川県鳳珠郡能登町波並 波並駅前（バス）",
+      "geometry": {
+        "location": {
+          "lat": 37.2875113,
+          "lng": 137.1153627
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2888602802915,
+            "lng": 137.1167116802915
+          },
+          "southwest": {
+            "lat": 37.2861623197085,
+            "lng": 137.1140137197085
+          }
+        }
+      },
+      "place_id": "ChIJEcQ7AbHR9l8Rs5yKu32PMDw",
+      "plus_code": {
+        "compound_code": "74Q8+24 日本、石川県能登町",
+        "global_code": "8Q9V74Q8+24"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道249号",
+          "short_name": "国道249号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "波並",
+          "short_name": "波並",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0442",
+          "short_name": "927-0442",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0442 石川県鳳珠郡能登町波並 国道249号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2880316,
+            "lng": 137.1157476
+          },
+          "southwest": {
+            "lat": 37.2856672,
+            "lng": 137.1133196
+          }
+        },
+        "location": {
+          "lat": 37.2867095,
+          "lng": 137.1147444
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2881983802915,
+            "lng": 137.1158825802915
+          },
+          "southwest": {
+            "lat": 37.2855004197085,
+            "lng": 137.1131846197085
+          }
+        }
+      },
+      "place_id": "ChIJS-CtsLHR9l8R8sUnj0qp2uc",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "波並",
+          "short_name": "波並",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "927-0442",
+          "short_name": "927-0442",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒927-0442 石川県鳳珠郡能登町波並",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3034038,
+            "lng": 137.1254422
+          },
+          "southwest": {
+            "lat": 37.2808293,
+            "lng": 137.1014655
+          }
+        },
+        "location": {
+          "lat": 37.2922522,
+          "lng": 137.1151314
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3034038,
+            "lng": 137.1254422
+          },
+          "southwest": {
+            "lat": 37.2808293,
+            "lng": 137.1014655
+          }
+        }
+      },
+      "place_id": "ChIJZ5Ac-7jR9l8R6rgf6RsRiBI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "927-0442",
+          "short_name": "927-0442",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "波並",
+          "short_name": "波並",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒927-0442",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.3034038,
+            "lng": 137.1254422
+          },
+          "southwest": {
+            "lat": 37.2808293,
+            "lng": 137.1014655
+          }
+        },
+        "location": {
+          "lat": 37.2922522,
+          "lng": 137.1151314
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3034038,
+            "lng": 137.1254422
+          },
+          "southwest": {
+            "lat": 37.2808293,
+            "lng": 137.1014655
+          }
+        }
+      },
+      "place_id": "ChIJTZNfsLDR9l8RpZuLyfMXnBg",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県鳳珠郡能登町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.24671420000001,
+            "lng": 136.961842
+          }
+        },
+        "location": {
+          "lat": 37.3066518,
+          "lng": 137.1500418
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.24671420000001,
+            "lng": 136.961842
+          }
+        }
+      },
+      "place_id": "ChIJoy-cieXN9l8R8cpGddQ40yM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県鳳珠郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        },
+        "location": {
+          "lat": 37.29894110000001,
+          "lng": 137.0324186
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.406005,
+            "lng": 137.2689339
+          },
+          "southwest": {
+            "lat": 37.1640311,
+            "lng": 136.7881235
+          }
+        }
+      },
+      "place_id": "ChIJ6VbNHPrT9l8RTUNBUs-clgQ",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "74P8+W2",
+          "short_name": "74P8+W2",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "能登町",
+          "short_name": "能登町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "鳳珠郡",
+          "short_name": "鳳珠郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "74P8+W2 日本、石川県能登町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.287375,
+            "lng": 137.115125
+          },
+          "southwest": {
+            "lat": 37.28725,
+            "lng": 137.115
+          }
+        },
+        "location": {
+          "lat": 37.28725,
+          "lng": 137.115028
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.28866148029149,
+            "lng": 137.1164114802915
+          },
+          "southwest": {
+            "lat": 37.2859635197085,
+            "lng": 137.1137135197085
+          }
+        }
+      },
+      "place_id": "GhIJVOOlm8SkQkAR-kMzT64jYUA",
+      "plus_code": {
+        "compound_code": "74P8+W2 日本、石川県能登町",
+        "global_code": "8Q9V74P8+W2"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
