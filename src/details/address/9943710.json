@@ -1,0 +1,832 @@
+{
+  "station": "釜清水",
+  "lat": 36.362444,
+  "lng": 136.610417,
+  "plus_code": {
+    "compound_code": "9J66+X5 日本、石川県白山市",
+    "global_code": "8Q8R9J66+X5"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "７５",
+          "short_name": "７５",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "チ",
+          "short_name": "チ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町チ−７５",
+      "geometry": {
+        "location": {
+          "lat": 36.3623903,
+          "lng": 136.6103826
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3637392802915,
+            "lng": 136.6117315802915
+          },
+          "southwest": {
+            "lat": 36.3610413197085,
+            "lng": 136.6090336197085
+          }
+        }
+      },
+      "place_id": "ChIJM9lZjlVD-F8RBTziCdcrFRs",
+      "plus_code": {
+        "compound_code": "9J66+X5 日本、石川県白山市",
+        "global_code": "8Q8R9J66+X5"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２−１",
+          "short_name": "２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ち",
+          "short_name": "ち",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町ち−２−１",
+      "geometry": {
+        "location": {
+          "lat": 36.3625444,
+          "lng": 136.6106889
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.36389338029149,
+            "lng": 136.6120378802915
+          },
+          "southwest": {
+            "lat": 36.36119541970849,
+            "lng": 136.6093399197085
+          }
+        }
+      },
+      "place_id": "ChIJtW2jjVVD-F8Ry0Kl-SJlcPA",
+      "plus_code": {
+        "compound_code": "9J76+27 日本、石川県白山市",
+        "global_code": "8Q8R9J76+27"
+      },
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "釜清水",
+          "short_name": "釜清水",
+          "types": [
+            "bus_station",
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "ち",
+          "short_name": "ち",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町ち 釜清水",
+      "geometry": {
+        "location": {
+          "lat": 36.36296,
+          "lng": 136.61038
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3643089802915,
+            "lng": 136.6117289802915
+          },
+          "southwest": {
+            "lat": 36.3616110197085,
+            "lng": 136.6090310197085
+          }
+        }
+      },
+      "place_id": "ChIJdTpTCqpE-F8R-dOFbQdyMxY",
+      "plus_code": {
+        "compound_code": "9J76+55 日本、石川県白山市",
+        "global_code": "8Q8R9J76+55"
+      },
+      "types": [
+        "bus_station",
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "国道360号",
+          "short_name": "国道360号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町 国道360号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.36233989999999,
+            "lng": 136.6107642
+          },
+          "southwest": {
+            "lat": 36.3620405,
+            "lng": 136.6094764
+          }
+        },
+        "location": {
+          "lat": 36.3621439,
+          "lng": 136.6101367
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.36353918029149,
+            "lng": 136.6114692802915
+          },
+          "southwest": {
+            "lat": 36.3608412197085,
+            "lng": 136.6087713197085
+          }
+        }
+      },
+      "place_id": "ChIJeZsnhVVD-F8RkhP4AUZEtoA",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "チ",
+          "short_name": "チ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町チ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3650414,
+            "lng": 136.6106919
+          },
+          "southwest": {
+            "lat": 36.3615958,
+            "lng": 136.6067839
+          }
+        },
+        "location": {
+          "lat": 36.3634107,
+          "lng": 136.6085764
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3650414,
+            "lng": 136.6106919
+          },
+          "southwest": {
+            "lat": 36.3615958,
+            "lng": 136.6067839
+          }
+        }
+      },
+      "place_id": "ChIJQwQpQqpE-F8Rp5fs5Hp1dK0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒920-2341",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3704942,
+            "lng": 136.6246582
+          },
+          "southwest": {
+            "lat": 36.3494778,
+            "lng": 136.6024414
+          }
+        },
+        "location": {
+          "lat": 36.3587467,
+          "lng": 136.6137825
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3704942,
+            "lng": 136.6246582
+          },
+          "southwest": {
+            "lat": 36.3494778,
+            "lng": 136.6024414
+          }
+        }
+      },
+      "place_id": "ChIJ48SZeapE-F8RpBXNrybDB6s",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "釜清水町",
+          "short_name": "釜清水町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "920-2341",
+          "short_name": "920-2341",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒920-2341 石川県白山市釜清水町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3704942,
+            "lng": 136.6246582
+          },
+          "southwest": {
+            "lat": 36.3494778,
+            "lng": 136.6024414
+          }
+        },
+        "location": {
+          "lat": 36.3587467,
+          "lng": 136.6137825
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3704942,
+            "lng": 136.6246582
+          },
+          "southwest": {
+            "lat": 36.3494778,
+            "lng": 136.6024414
+          }
+        }
+      },
+      "place_id": "ChIJbxvsFqpE-F8RAVoDfqGca9g",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県白山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.5678655,
+            "lng": 136.8515657
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.4650784
+          }
+        },
+        "location": {
+          "lat": 36.5144209,
+          "lng": 136.5655581
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.5678655,
+            "lng": 136.8515657
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.4650784
+          }
+        }
+      },
+      "place_id": "ChIJyTG34F1d-F8RhjvmgNa0N1Y",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "9J66+X5",
+          "short_name": "9J66+X5",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "白山市",
+          "short_name": "白山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "9J66+X5 日本、石川県白山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3625,
+            "lng": 136.6105
+          },
+          "southwest": {
+            "lat": 36.362375,
+            "lng": 136.610375
+          }
+        },
+        "location": {
+          "lat": 36.362444,
+          "lng": 136.610417
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.36378648029149,
+            "lng": 136.6117864802915
+          },
+          "southwest": {
+            "lat": 36.3610885197085,
+            "lng": 136.6090885197085
+          }
+        }
+      },
+      "place_id": "GhIJ0lCjkGQuQkARhH07iYgTYUA",
+      "plus_code": {
+        "compound_code": "9J66+X5 日本、石川県白山市",
+        "global_code": "8Q8R9J66+X5"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
