@@ -1,0 +1,768 @@
+{
+  "station": "大島(石川)",
+  "lat": 36.987889,
+  "lng": 136.771833,
+  "plus_code": {
+    "compound_code": "XQQC+5P 日本、石川県志賀町",
+    "global_code": "8Q8RXQQC+5P"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "ニ",
+          "short_name": "ニ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島",
+          "short_name": "大島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "925-0147",
+          "short_name": "925-0147",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒925-0147 石川県羽咋郡志賀町大島ニ−１",
+      "geometry": {
+        "location": {
+          "lat": 36.9880434,
+          "lng": 136.7721809
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9893923802915,
+            "lng": 136.7735298802915
+          },
+          "southwest": {
+            "lat": 36.9866944197085,
+            "lng": 136.7708319197085
+          }
+        }
+      },
+      "place_id": "ChIJX6aURANB918RZAflc5c7lgQ",
+      "plus_code": {
+        "compound_code": "XQQC+6V 日本、石川県志賀町",
+        "global_code": "8Q8RXQQC+6V"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "羽咋健民自転車道",
+          "short_name": "県道293号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "大島",
+          "short_name": "大島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "925-0147",
+          "short_name": "925-0147",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒925-0147 石川県羽咋郡志賀町大島 県道293号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9884665,
+            "lng": 136.7717758
+          },
+          "southwest": {
+            "lat": 36.9879197,
+            "lng": 136.7714971
+          }
+        },
+        "location": {
+          "lat": 36.9881981,
+          "lng": 136.7716519
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.98954208029151,
+            "lng": 136.7729854302915
+          },
+          "southwest": {
+            "lat": 36.98684411970851,
+            "lng": 136.7702874697085
+          }
+        }
+      },
+      "place_id": "ChIJ9wDQUQNB918RBkTdHd51O7U",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "ニ",
+          "short_name": "ニ",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "大島",
+          "short_name": "大島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "925-0147",
+          "short_name": "925-0147",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒925-0147 石川県羽咋郡志賀町大島ニ",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.9898201,
+            "lng": 136.7746419
+          },
+          "southwest": {
+            "lat": 36.9862813,
+            "lng": 136.7699332
+          }
+        },
+        "location": {
+          "lat": 36.9881094,
+          "lng": 136.7721625
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9898201,
+            "lng": 136.7746419
+          },
+          "southwest": {
+            "lat": 36.9862813,
+            "lng": 136.7699332
+          }
+        }
+      },
+      "place_id": "ChIJawt9RANB918R5f_l5NvdlDI",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "大島",
+          "short_name": "大島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "925-0147",
+          "short_name": "925-0147",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒925-0147 石川県羽咋郡志賀町大島",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.990555,
+            "lng": 136.785472
+          },
+          "southwest": {
+            "lat": 36.972095,
+            "lng": 136.7647922
+          }
+        },
+        "location": {
+          "lat": 36.9787204,
+          "lng": 136.7751151
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.990555,
+            "lng": 136.785472
+          },
+          "southwest": {
+            "lat": 36.972095,
+            "lng": 136.7647922
+          }
+        }
+      },
+      "place_id": "ChIJaQvP8QdB918Ra8jvhnoI-BE",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "925-0147",
+          "short_name": "925-0147",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "大島",
+          "short_name": "大島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒925-0147",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.990555,
+            "lng": 136.785472
+          },
+          "southwest": {
+            "lat": 36.972095,
+            "lng": 136.7647922
+          }
+        },
+        "location": {
+          "lat": 36.9787204,
+          "lng": 136.7751151
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.990555,
+            "lng": 136.785472
+          },
+          "southwest": {
+            "lat": 36.972095,
+            "lng": 136.7647922
+          }
+        }
+      },
+      "place_id": "ChIJZcBEvgZB918RsDxi6Es_lL4",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県羽咋郡志賀町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2275748,
+            "lng": 136.8622484
+          },
+          "southwest": {
+            "lat": 36.937922,
+            "lng": 136.6685149
+          }
+        },
+        "location": {
+          "lat": 37.006482,
+          "lng": 136.7779323
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2275748,
+            "lng": 136.8622484
+          },
+          "southwest": {
+            "lat": 36.937922,
+            "lng": 136.6685149
+          }
+        }
+      },
+      "place_id": "ChIJ75uanNk5918RfRfxZzwFddE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県羽咋郡",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2275748,
+            "lng": 136.8733696
+          },
+          "southwest": {
+            "lat": 36.7556598,
+            "lng": 136.6685149
+          }
+        },
+        "location": {
+          "lat": 37.0414945,
+          "lng": 136.7873827
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2275748,
+            "lng": 136.8733696
+          },
+          "southwest": {
+            "lat": 36.7556598,
+            "lng": 136.6685149
+          }
+        }
+      },
+      "place_id": "ChIJjXoKkx1B918R5-kkOxE_Mvs",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、石川県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        },
+        "location": {
+          "lat": 36.3260317,
+          "lng": 136.5289653
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.8579593,
+            "lng": 137.3652437
+          },
+          "southwest": {
+            "lat": 36.0674589,
+            "lng": 136.2436536
+          }
+        }
+      },
+      "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "XQQC+5P",
+          "short_name": "XQQC+5P",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "志賀町",
+          "short_name": "志賀町",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "羽咋郡",
+          "short_name": "羽咋郡",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "石川県",
+          "short_name": "石川県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "XQQC+5P 日本、石川県志賀町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.988,
+            "lng": 136.771875
+          },
+          "southwest": {
+            "lat": 36.987875,
+            "lng": 136.77175
+          }
+        },
+        "location": {
+          "lat": 36.987889,
+          "lng": 136.771833
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.9892864802915,
+            "lng": 136.7731614802915
+          },
+          "southwest": {
+            "lat": 36.9865885197085,
+            "lng": 136.7704635197085
+          }
+        }
+      },
+      "place_id": "GhIJAIqRJXN-QkARJ58e27IYYUA",
+      "plus_code": {
+        "compound_code": "XQQC+5P 日本、石川県志賀町",
+        "global_code": "8Q8RXQQC+5P"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
