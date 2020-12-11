@@ -1,0 +1,726 @@
+{
+  "station": "赤岩(長野)",
+  "lat": 36.7865,
+  "lng": 138.361889,
+  "plus_code": {
+    "compound_code": "Q9P6+HQ 日本、長野県中野市",
+    "global_code": "8Q8WQ9P6+HQ"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0004 長野県中野市赤岩 赤岩",
+      "geometry": {
+        "location": {
+          "lat": 36.7867133,
+          "lng": 138.3616335
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.78806228029149,
+            "lng": 138.3629824802915
+          },
+          "southwest": {
+            "lat": 36.78536431970849,
+            "lng": 138.3602845197085
+          }
+        }
+      },
+      "place_id": "ChIJTUa0nGsg9l8RD8b7wOKReWQ",
+      "plus_code": {
+        "compound_code": "Q9P6+MM 日本、長野県中野市",
+        "global_code": "8Q8WQ9P6+MM"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１４４７",
+          "short_name": "１４４７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0004 長野県中野市赤岩１４４７",
+      "geometry": {
+        "location": {
+          "lat": 36.7861814,
+          "lng": 138.3624475
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.78753038029151,
+            "lng": 138.3637964802915
+          },
+          "southwest": {
+            "lat": 36.78483241970851,
+            "lng": 138.3610985197085
+          }
+        }
+      },
+      "place_id": "ChIJnzUEfGwg9l8RI7hgehARFNA",
+      "plus_code": {
+        "compound_code": "Q9P6+FX 日本、長野県中野市",
+        "global_code": "8Q8WQ9P6+FX"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中野市北部公民館",
+          "short_name": "中野市北部公民館",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "１４４７",
+          "short_name": "１４４７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0004 長野県中野市赤岩１４４７ 中野市北部公民館",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7863683,
+            "lng": 138.3627059
+          },
+          "southwest": {
+            "lat": 36.7860059,
+            "lng": 138.3622198
+          }
+        },
+        "location": {
+          "lat": 36.7861377,
+          "lng": 138.3624441
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7875360802915,
+            "lng": 138.3638118302915
+          },
+          "southwest": {
+            "lat": 36.7848381197085,
+            "lng": 138.3611138697085
+          }
+        }
+      },
+      "place_id": "ChIJT0jle2wg9l8RR3Wk9dn1Z28",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "夜間瀬赤岩線",
+          "short_name": "県道434号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0004 長野県中野市赤岩 県道434号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7865928,
+            "lng": 138.3620604
+          },
+          "southwest": {
+            "lat": 36.7864148,
+            "lng": 138.3620416
+          }
+        },
+        "location": {
+          "lat": 36.7865032,
+          "lng": 138.3620588
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7878527802915,
+            "lng": 138.3633999802915
+          },
+          "southwest": {
+            "lat": 36.7851548197085,
+            "lng": 138.3607020197085
+          }
+        }
+      },
+      "place_id": "ChIJiTMWgWsg9l8ROME-3JW3Mgk",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0004 長野県中野市赤岩",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8032484,
+            "lng": 138.4005635
+          },
+          "southwest": {
+            "lat": 36.7826059,
+            "lng": 138.3519191
+          }
+        },
+        "location": {
+          "lat": 36.7939429,
+          "lng": 138.3799356
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8032484,
+            "lng": 138.4005635
+          },
+          "southwest": {
+            "lat": 36.7826059,
+            "lng": 138.3519191
+          }
+        }
+      },
+      "place_id": "ChIJvwKvmhkg9l8RW3CVp5M8UD0",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "383-0004",
+          "short_name": "383-0004",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "赤岩",
+          "short_name": "赤岩",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒383-0004",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8032484,
+            "lng": 138.4005635
+          },
+          "southwest": {
+            "lat": 36.7826059,
+            "lng": 138.3519191
+          }
+        },
+        "location": {
+          "lat": 36.7939429,
+          "lng": 138.3799356
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8032484,
+            "lng": 138.4005635
+          },
+          "southwest": {
+            "lat": 36.7826059,
+            "lng": 138.3519191
+          }
+        }
+      },
+      "place_id": "ChIJv3T1f20g9l8R64Pujmf_n80",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        },
+        "location": {
+          "lat": 36.7419995,
+          "lng": 138.3693553
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        }
+      },
+      "place_id": "ChIJi6GhBJwg9l8R2ZIX-yeKwXs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        },
+        "location": {
+          "lat": 36.1543941,
+          "lng": 137.9218204
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        }
+      },
+      "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Q9P6+HQ",
+          "short_name": "Q9P6+HQ",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Q9P6+HQ 日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7865,
+            "lng": 138.362
+          },
+          "southwest": {
+            "lat": 36.786375,
+            "lng": 138.361875
+          }
+        },
+        "location": {
+          "lat": 36.7865,
+          "lng": 138.361889
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7877864802915,
+            "lng": 138.3632864802915
+          },
+          "southwest": {
+            "lat": 36.7850885197085,
+            "lng": 138.3605885197085
+          }
+        }
+      },
+      "place_id": "GhIJ6SYxCKxkQkARB3k9mJRLYUA",
+      "plus_code": {
+        "compound_code": "Q9P6+HQ 日本、長野県中野市",
+        "global_code": "8Q8WQ9P6+HQ"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "station": "柳沢(長野)",
+  "lat": 36.79925,
+  "lng": 138.359722,
+  "plus_code": {
+    "compound_code": "Q9X5+PV 日本、長野県中野市",
+    "global_code": "8Q8WQ9X5+PV"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "６１２−１",
+          "short_name": "６１２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "柳沢",
+          "short_name": "柳沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0003",
+          "short_name": "383-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0003 長野県中野市柳沢６１２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7995904,
+            "lng": 138.3598491
+          },
+          "southwest": {
+            "lat": 36.7994681,
+            "lng": 138.3596407
+          }
+        },
+        "location": {
+          "lat": 36.7995113,
+          "lng": 138.3597428
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8008782302915,
+            "lng": 138.3610938802915
+          },
+          "southwest": {
+            "lat": 36.7981802697085,
+            "lng": 138.3583959197085
+          }
+        }
+      },
+      "place_id": "ChIJvS1GGjAg9l8R5DAIqEmNJDc",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５２０",
+          "short_name": "５２０",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "柳沢",
+          "short_name": "柳沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0003",
+          "short_name": "383-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0003 長野県中野市柳沢５２０",
+      "geometry": {
+        "location": {
+          "lat": 36.7990745,
+          "lng": 138.3599902
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8004234802915,
+            "lng": 138.3613391802915
+          },
+          "southwest": {
+            "lat": 36.7977255197085,
+            "lng": 138.3586412197085
+          }
+        }
+      },
+      "place_id": "ChIJOfgVCTAg9l8RqI4SGPlfvp8",
+      "plus_code": {
+        "compound_code": "Q9X5+JX 日本、長野県中野市",
+        "global_code": "8Q8WQ9X5+JX"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中野飯山線",
+          "short_name": "県道414号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "柳沢",
+          "short_name": "柳沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0003",
+          "short_name": "383-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0003 長野県中野市柳沢 県道414号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7997061,
+            "lng": 138.3602328
+          },
+          "southwest": {
+            "lat": 36.7993119,
+            "lng": 138.3599617
+          }
+        },
+        "location": {
+          "lat": 36.799509,
+          "lng": 138.3600971
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8008579802915,
+            "lng": 138.3614462302915
+          },
+          "southwest": {
+            "lat": 36.7981600197085,
+            "lng": 138.3587482697085
+          }
+        }
+      },
+      "place_id": "ChIJ__RZGzAg9l8RjGMkEkLH3l4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "383-0003",
+          "short_name": "383-0003",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "柳沢",
+          "short_name": "柳沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒383-0003",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8096035,
+            "lng": 138.3880535
+          },
+          "southwest": {
+            "lat": 36.7935176,
+            "lng": 138.3525822
+          }
+        },
+        "location": {
+          "lat": 36.80375799999999,
+          "lng": 138.3662165
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8096035,
+            "lng": 138.3880535
+          },
+          "southwest": {
+            "lat": 36.7935176,
+            "lng": 138.3525822
+          }
+        }
+      },
+      "place_id": "ChIJIQlvMS4g9l8RDjLx4jdErD8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "柳沢",
+          "short_name": "柳沢",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0003",
+          "short_name": "383-0003",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0003 長野県中野市柳沢",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8096035,
+            "lng": 138.3880535
+          },
+          "southwest": {
+            "lat": 36.7935176,
+            "lng": 138.3525822
+          }
+        },
+        "location": {
+          "lat": 36.80375799999999,
+          "lng": 138.3662165
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8096035,
+            "lng": 138.3880535
+          },
+          "southwest": {
+            "lat": 36.7935176,
+            "lng": 138.3525822
+          }
+        }
+      },
+      "place_id": "ChIJs8AmTSYg9l8RuOJHnYq_8vg",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        },
+        "location": {
+          "lat": 36.7419995,
+          "lng": 138.3693553
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        }
+      },
+      "place_id": "ChIJi6GhBJwg9l8R2ZIX-yeKwXs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        },
+        "location": {
+          "lat": 36.1543941,
+          "lng": 137.9218204
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        }
+      },
+      "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Q9X5+PV",
+          "short_name": "Q9X5+PV",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Q9X5+PV 日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.799375,
+            "lng": 138.35975
+          },
+          "southwest": {
+            "lat": 36.79925,
+            "lng": 138.359625
+          }
+        },
+        "location": {
+          "lat": 36.79925,
+          "lng": 138.359722
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8006614802915,
+            "lng": 138.3610364802915
+          },
+          "southwest": {
+            "lat": 36.7979635197085,
+            "lng": 138.3583385197085
+          }
+        }
+      },
+      "place_id": "GhIJ_Knx0k1mQkAR2zS214JLYUA",
+      "plus_code": {
+        "compound_code": "Q9X5+PV 日本、長野県中野市",
+        "global_code": "8Q8WQ9X5+PV"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

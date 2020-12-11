@@ -1,0 +1,638 @@
+{
+  "station": "中野北",
+  "lat": 36.757528,
+  "lng": 138.363194,
+  "plus_code": {
+    "compound_code": "Q957+27 日本、長野県中野市",
+    "global_code": "8Q8WQ957+27"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "５６２−１",
+          "short_name": "５６２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "新井",
+          "short_name": "新井",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0064",
+          "short_name": "383-0064",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0064 長野県中野市新井５６２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7576578,
+            "lng": 138.3630723
+          },
+          "southwest": {
+            "lat": 36.7575561,
+            "lng": 138.3629012
+          }
+        },
+        "location": {
+          "lat": 36.757627,
+          "lng": 138.3629801
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.75895593029149,
+            "lng": 138.3643357302915
+          },
+          "southwest": {
+            "lat": 36.75625796970849,
+            "lng": 138.3616377697085
+          }
+        }
+      },
+      "place_id": "ChIJi5AOdouKHWARrtKJy2xYVrY",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "５８２",
+          "short_name": "５８２",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "新井",
+          "short_name": "新井",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0064",
+          "short_name": "383-0064",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0064 長野県中野市新井５８２",
+      "geometry": {
+        "location": {
+          "lat": 36.7577602,
+          "lng": 138.3633902
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7591091802915,
+            "lng": 138.3647391802915
+          },
+          "southwest": {
+            "lat": 36.7564112197085,
+            "lng": 138.3620412197085
+          }
+        }
+      },
+      "place_id": "ChIJoyhmeIuKHWARiXaBhQCM2TM",
+      "plus_code": {
+        "compound_code": "Q957+49 日本、長野県中野市",
+        "global_code": "8Q8WQ957+49"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "新井",
+          "short_name": "新井",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0064",
+          "short_name": "383-0064",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 新井 中野市 長野県 383-0064 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7578106,
+            "lng": 138.363148
+          },
+          "southwest": {
+            "lat": 36.7576588,
+            "lng": 138.3627018
+          }
+        },
+        "location": {
+          "lat": 36.7576635,
+          "lng": 138.3630001
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7590836802915,
+            "lng": 138.3642738802915
+          },
+          "southwest": {
+            "lat": 36.7563857197085,
+            "lng": 138.3615759197085
+          }
+        }
+      },
+      "place_id": "ChIJbyd7nouKHWARQo003a6vo0c",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "新井",
+          "short_name": "新井",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "383-0064",
+          "short_name": "383-0064",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒383-0064 長野県中野市新井",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7713765,
+            "lng": 138.3695945
+          },
+          "southwest": {
+            "lat": 36.7549177,
+            "lng": 138.3543118
+          }
+        },
+        "location": {
+          "lat": 36.762031,
+          "lng": 138.3601553
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7713765,
+            "lng": 138.3695945
+          },
+          "southwest": {
+            "lat": 36.7549177,
+            "lng": 138.3543118
+          }
+        }
+      },
+      "place_id": "ChIJncBGjoiKHWARzBGIBZp7L2U",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "383-0064",
+          "short_name": "383-0064",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "新井",
+          "short_name": "新井",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒383-0064",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.7713765,
+            "lng": 138.3695945
+          },
+          "southwest": {
+            "lat": 36.7549177,
+            "lng": 138.3543118
+          }
+        },
+        "location": {
+          "lat": 36.762031,
+          "lng": 138.3601553
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.7713765,
+            "lng": 138.3695945
+          },
+          "southwest": {
+            "lat": 36.7549177,
+            "lng": 138.3543118
+          }
+        }
+      },
+      "place_id": "ChIJq6MihPKKHWAR1Kgu8xXYH6I",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        },
+        "location": {
+          "lat": 36.7419995,
+          "lng": 138.3693553
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8400058,
+            "lng": 138.4063668
+          },
+          "southwest": {
+            "lat": 36.6949007,
+            "lng": 138.2757559
+          }
+        }
+      },
+      "place_id": "ChIJi6GhBJwg9l8R2ZIX-yeKwXs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        },
+        "location": {
+          "lat": 36.1543941,
+          "lng": 137.9218204
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        }
+      },
+      "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Q957+27",
+          "short_name": "Q957+27",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "中野市",
+          "short_name": "中野市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Q957+27 日本、長野県中野市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.757625,
+            "lng": 138.36325
+          },
+          "southwest": {
+            "lat": 36.7575,
+            "lng": 138.363125
+          }
+        },
+        "location": {
+          "lat": 36.757528,
+          "lng": 138.363194
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.75891148029149,
+            "lng": 138.3645364802915
+          },
+          "southwest": {
+            "lat": 36.7562135197085,
+            "lng": 138.3618385197085
+          }
+        }
+      },
+      "place_id": "GhIJ8-ZwrfZgQkARTwMGSZ9LYUA",
+      "plus_code": {
+        "compound_code": "Q957+27 日本、長野県中野市",
+        "global_code": "8Q8WQ957+27"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}

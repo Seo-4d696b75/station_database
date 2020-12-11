@@ -1,0 +1,719 @@
+{
+  "station": "信濃安田",
+  "lat": 36.842028,
+  "lng": 138.366944,
+  "plus_code": {
+    "compound_code": "R9R8+RQ 日本、長野県飯山市",
+    "global_code": "8Q8WR9R8+RQ"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２１",
+          "short_name": "２１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "木島",
+          "short_name": "木島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "389-2234",
+          "short_name": "389-2234",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒389-2234 長野県飯山市木島２１",
+      "geometry": {
+        "location": {
+          "lat": 36.8419588,
+          "lng": 138.3671339
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8433077802915,
+            "lng": 138.3684828802915
+          },
+          "southwest": {
+            "lat": 36.8406098197085,
+            "lng": 138.3657849197085
+          }
+        }
+      },
+      "place_id": "ChIJCRyLgSkf9l8R9XbkSXxj7FQ",
+      "plus_code": {
+        "compound_code": "R9R8+QV 日本、長野県飯山市",
+        "global_code": "8Q8WR9R8+QV"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２２−１",
+          "short_name": "２２−１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "安田",
+          "short_name": "安田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "389-2244",
+          "short_name": "389-2244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒389-2244 長野県飯山市安田２２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.842174,
+            "lng": 138.3672861
+          },
+          "southwest": {
+            "lat": 36.8420384,
+            "lng": 138.3671364
+          }
+        },
+        "location": {
+          "lat": 36.842104,
+          "lng": 138.3672099
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8434551802915,
+            "lng": 138.3685602302915
+          },
+          "southwest": {
+            "lat": 36.8407572197085,
+            "lng": 138.3658622697085
+          }
+        }
+      },
+      "place_id": "ChIJbVEogSkf9l8R8dK8RhkhknA",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "安田",
+          "short_name": "安田",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "木島",
+          "short_name": "木島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "389-2244",
+          "short_name": "389-2244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒389-2244 長野県飯山市木島 安田",
+      "geometry": {
+        "location": {
+          "lat": 36.8423147,
+          "lng": 138.3669779
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8436636802915,
+            "lng": 138.3683268802915
+          },
+          "southwest": {
+            "lat": 36.8409657197085,
+            "lng": 138.3656289197085
+          }
+        }
+      },
+      "place_id": "ChIJ62lzKSof9l8RRKOHwNu-E04",
+      "plus_code": {
+        "compound_code": "R9R8+WQ 日本、長野県飯山市",
+        "global_code": "8Q8WR9R8+WQ"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "飯山野沢温泉線",
+          "short_name": "県道38号",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "木島",
+          "short_name": "木島",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "389-2244",
+          "short_name": "389-2244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒389-2244 長野県飯山市木島 県道38号",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.8431147,
+            "lng": 138.3674741
+          },
+          "southwest": {
+            "lat": 36.841876,
+            "lng": 138.3666142
+          }
+        },
+        "location": {
+          "lat": 36.8425001,
+          "lng": 138.3670334
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8438443302915,
+            "lng": 138.3683931302915
+          },
+          "southwest": {
+            "lat": 36.8411463697085,
+            "lng": 138.3656951697085
+          }
+        }
+      },
+      "place_id": "ChIJl4j4JSof9l8R6Ktru7f1Aws",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "389-2244",
+          "short_name": "389-2244",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "安田",
+          "short_name": "安田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒389-2244",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.84920839999999,
+            "lng": 138.3731111
+          },
+          "southwest": {
+            "lat": 36.8380405,
+            "lng": 138.3639525
+          }
+        },
+        "location": {
+          "lat": 36.8425468,
+          "lng": 138.369212
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.84920839999999,
+            "lng": 138.3731111
+          },
+          "southwest": {
+            "lat": 36.8380405,
+            "lng": 138.3639525
+          }
+        }
+      },
+      "place_id": "ChIJyaDeNdQe9l8RZLubDUTg6Ac",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "安田",
+          "short_name": "安田",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "389-2244",
+          "short_name": "389-2244",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒389-2244 長野県飯山市安田",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.84920839999999,
+            "lng": 138.3731111
+          },
+          "southwest": {
+            "lat": 36.8380405,
+            "lng": 138.3639525
+          }
+        },
+        "location": {
+          "lat": 36.8425468,
+          "lng": 138.369212
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.84920839999999,
+            "lng": 138.3731111
+          },
+          "southwest": {
+            "lat": 36.8380405,
+            "lng": 138.3639525
+          }
+        }
+      },
+      "place_id": "ChIJyaDeNdQe9l8RkZ6sQ3ZLGKA",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県飯山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.5247365
+          },
+          "southwest": {
+            "lat": 36.8035592,
+            "lng": 138.2742006
+          }
+        },
+        "location": {
+          "lat": 36.8517344,
+          "lng": 138.3654889
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.5247365
+          },
+          "southwest": {
+            "lat": 36.8035592,
+            "lng": 138.2742006
+          }
+        }
+      },
+      "place_id": "ChIJWRwQY5Ma9l8R4BO4Q1o2g2Y",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        },
+        "location": {
+          "lat": 36.1543941,
+          "lng": 137.9218204
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        }
+      },
+      "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "R9R8+RQ",
+          "short_name": "R9R8+RQ",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "飯山市",
+          "short_name": "飯山市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "R9R8+RQ 日本、長野県飯山市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.842125,
+            "lng": 138.367
+          },
+          "southwest": {
+            "lat": 36.842,
+            "lng": 138.366875
+          }
+        },
+        "location": {
+          "lat": 36.842028,
+          "lng": 138.366944
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.8434114802915,
+            "lng": 138.3682864802915
+          },
+          "southwest": {
+            "lat": 36.8407135197085,
+            "lng": 138.3655885197085
+          }
+        }
+      },
+      "place_id": "GhIJfCjRksdrQkAR1O5XAb5LYUA",
+      "plus_code": {
+        "compound_code": "R9R8+RQ 日本、長野県飯山市",
+        "global_code": "8Q8WR9R8+RQ"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
