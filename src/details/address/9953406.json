@@ -1,0 +1,752 @@
+{
+  "station": "笠原",
+  "lat": 35.303639,
+  "lng": 137.152667,
+  "plus_code": {
+    "compound_code": "8533+F3 日本、岐阜県多治見市",
+    "global_code": "8Q7V8533+F3"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "２８１５−８",
+          "short_name": "２８１５−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "神戸区",
+          "short_name": "神戸区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒507-0901 岐阜県多治見市笠原町神戸区２８１５−８",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3036611,
+            "lng": 137.1526054
+          },
+          "southwest": {
+            "lat": 35.3035254,
+            "lng": 137.1524397
+          }
+        },
+        "location": {
+          "lat": 35.3036061,
+          "lng": 137.1525286
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.30494223029149,
+            "lng": 137.1538715302915
+          },
+          "southwest": {
+            "lat": 35.3022442697085,
+            "lng": 137.1511735697085
+          }
+        }
+      },
+      "place_id": "ChIJkcffOhRCA2AR24yvw4VhyY4",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２８１５−８",
+          "short_name": "２８１５−８",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "神戸区",
+          "short_name": "神戸区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒507-0901 岐阜県多治見市笠原町神戸区２８１５−８",
+      "geometry": {
+        "location": {
+          "lat": 35.3035985,
+          "lng": 137.1525232
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3049474802915,
+            "lng": 137.1538721802915
+          },
+          "southwest": {
+            "lat": 35.3022495197085,
+            "lng": 137.1511742197085
+          }
+        }
+      },
+      "place_id": "ChIJn-veOhRCA2ARnsWrHFal8V4",
+      "plus_code": {
+        "compound_code": "8533+C2 日本、岐阜県多治見市",
+        "global_code": "8Q7V8533+C2"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Unnamed Road",
+          "short_name": "Unnamed Road",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "神戸区",
+          "short_name": "神戸区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Unnamed Road, 神戸区 笠原町 多治見市 岐阜県 507-0901 日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3035296,
+            "lng": 137.1526961
+          },
+          "southwest": {
+            "lat": 35.3035025,
+            "lng": 137.1525754
+          }
+        },
+        "location": {
+          "lat": 35.3035284,
+          "lng": 137.1526386
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3048650302915,
+            "lng": 137.1539847302915
+          },
+          "southwest": {
+            "lat": 35.3021670697085,
+            "lng": 137.1512867697085
+          }
+        }
+      },
+      "place_id": "ChIJ9W1xOhRCA2ARzqmCpDDXfi0",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "神戸区",
+          "short_name": "神戸区",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒507-0901 岐阜県多治見市笠原町神戸区",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3063796,
+            "lng": 137.1645109
+          },
+          "southwest": {
+            "lat": 35.2947283,
+            "lng": 137.1492524
+          }
+        },
+        "location": {
+          "lat": 35.3017073,
+          "lng": 137.1544899
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3063796,
+            "lng": 137.1645109
+          },
+          "southwest": {
+            "lat": 35.2947283,
+            "lng": 137.1492524
+          }
+        }
+      },
+      "place_id": "ChIJ0XBJdUBCA2ARl6JrkejIot4",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒507-0901",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3191055,
+            "lng": 137.1865488
+          },
+          "southwest": {
+            "lat": 35.2703056,
+            "lng": 137.1326507
+          }
+        },
+        "location": {
+          "lat": 35.2897617,
+          "lng": 137.1605839
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3191055,
+            "lng": 137.1865488
+          },
+          "southwest": {
+            "lat": 35.2703056,
+            "lng": 137.1326507
+          }
+        }
+      },
+      "place_id": "ChIJFTqsT0BCA2ARfpq6ocHWChc",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "笠原町",
+          "short_name": "笠原町",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "507-0901",
+          "short_name": "507-0901",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒507-0901 岐阜県多治見市笠原町",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.3191055,
+            "lng": 137.1865488
+          },
+          "southwest": {
+            "lat": 35.2703056,
+            "lng": 137.1326507
+          }
+        },
+        "location": {
+          "lat": 35.2897617,
+          "lng": 137.1605839
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.3191055,
+            "lng": 137.1865488
+          },
+          "southwest": {
+            "lat": 35.2703056,
+            "lng": 137.1326507
+          }
+        }
+      },
+      "place_id": "ChIJJR1KQUNCA2ARijijf9ymRaM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、岐阜県多治見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.4030491,
+            "lng": 137.1864006
+          },
+          "southwest": {
+            "lat": 35.2703422,
+            "lng": 137.0459087
+          }
+        },
+        "location": {
+          "lat": 35.3327697,
+          "lng": 137.1321388
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.4030491,
+            "lng": 137.1864006
+          },
+          "southwest": {
+            "lat": 35.2703422,
+            "lng": 137.0459087
+          }
+        }
+      },
+      "place_id": "ChIJrQ2X519qA2ARJlle7zz6MQk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、岐阜県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.465098,
+            "lng": 137.6532657
+          },
+          "southwest": {
+            "lat": 35.1337282,
+            "lng": 136.2762022
+          }
+        },
+        "location": {
+          "lat": 35.7437491,
+          "lng": 136.9805103
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.465098,
+            "lng": 137.6532657
+          },
+          "southwest": {
+            "lat": 35.1337282,
+            "lng": 136.2762022
+          }
+        }
+      },
+      "place_id": "ChIJi8OICvLxAmARZ9bM7q0UJ68",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "8533+F3",
+          "short_name": "8533+F3",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "多治見市",
+          "short_name": "多治見市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "岐阜県",
+          "short_name": "岐阜県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "8533+F3 日本、岐阜県多治見市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.30375,
+            "lng": 137.15275
+          },
+          "southwest": {
+            "lat": 35.303625,
+            "lng": 137.152625
+          }
+        },
+        "location": {
+          "lat": 35.303639,
+          "lng": 137.152667
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 35.30503648029149,
+            "lng": 137.1540364802915
+          },
+          "southwest": {
+            "lat": 35.30233851970849,
+            "lng": 137.1513385197085
+          }
+        }
+      },
+      "place_id": "GhIJI2WLpN2mQUARtYXnpeIkYUA",
+      "plus_code": {
+        "compound_code": "8533+F3 日本、岐阜県多治見市",
+        "global_code": "8Q7V8533+F3"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
