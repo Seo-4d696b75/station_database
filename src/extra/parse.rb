@@ -201,11 +201,8 @@ def read_external_link(str)
     list = m[1].split(" ")
     if list.length == 1
       return [ExternalLink.new(list[0]), m.post_match]
-    elsif list.length == 2
-      return [ExternalLink.new(list[0], list[1]), m.post_match]
     else
-      puts "too many args at external link: #{str[0..([100, str.length - 1].min)]}"
-      exit(1)
+      return [ExternalLink.new(list[0], list[1..-1].join(" ")), m.post_match]
     end
   else
     puts "invalid start token at external link: #{str[0..([100, str.length - 1].min)]}"
