@@ -1,0 +1,875 @@
+{
+  "station": "電鉄上田",
+  "lat": 36.397196,
+  "lng": 138.249181,
+  "plus_code": {
+    "compound_code": "96WX+VM 日本、長野県上田市",
+    "global_code": "8Q8W96WX+VM"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "１８８７−１７",
+          "short_name": "１８８７−１７",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神１丁目２−１８８７−１７",
+      "geometry": {
+        "location": {
+          "lat": 36.3971343,
+          "lng": 138.2490641
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.39848328029149,
+            "lng": 138.2504130802915
+          },
+          "southwest": {
+            "lat": 36.3957853197085,
+            "lng": 138.2477151197085
+          }
+        }
+      },
+      "place_id": "ChIJkXdXr9C8HWAR7QKnpBmaeOE",
+      "plus_code": {
+        "compound_code": "96WX+VJ 日本、長野県上田市",
+        "global_code": "8Q8W96WX+VJ"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１",
+          "short_name": "１",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神１丁目２−１",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3973824,
+            "lng": 138.2493524
+          },
+          "southwest": {
+            "lat": 36.3970877,
+            "lng": 138.2489587
+          }
+        },
+        "location": {
+          "lat": 36.3972372,
+          "lng": 138.2491308
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3985840302915,
+            "lng": 138.2505045302915
+          },
+          "southwest": {
+            "lat": 36.3958860697085,
+            "lng": 138.2478065697085
+          }
+        }
+      },
+      "place_id": "ChIJfSnmqNC8HWARsRxEf7eoBPQ",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "お城口天神通り",
+          "short_name": "お城口天神通り",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神１丁目２ お城口天神通り",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3978028,
+            "lng": 138.2496735
+          },
+          "southwest": {
+            "lat": 36.397354,
+            "lng": 138.2488304
+          }
+        },
+        "location": {
+          "lat": 36.3975787,
+          "lng": 138.2492522
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3989273802915,
+            "lng": 138.2506009302915
+          },
+          "southwest": {
+            "lat": 36.3962294197085,
+            "lng": 138.2479029697085
+          }
+        }
+      },
+      "place_id": "ChIJ-UsNqtC8HWARho-65j_buHM",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "２",
+          "short_name": "２",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_4"
+          ]
+        },
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神１丁目２",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.3987682,
+            "lng": 138.2498003
+          },
+          "southwest": {
+            "lat": 36.3969668,
+            "lng": 138.2471036
+          }
+        },
+        "location": {
+          "lat": 36.3976289,
+          "lng": 138.2485282
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3992164802915,
+            "lng": 138.2498009302915
+          },
+          "southwest": {
+            "lat": 36.39651851970851,
+            "lng": 138.2471029697085
+          }
+        }
+      },
+      "place_id": "ChIJT_VVTte8HWARgm6RE_bKWzY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_4"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "１丁目",
+          "short_name": "１丁目",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神１丁目",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.40047,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3941727,
+            "lng": 138.2467924
+          }
+        },
+        "location": {
+          "lat": 36.3958111,
+          "lng": 138.2511722
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.40047,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3941727,
+            "lng": 138.2467924
+          }
+        }
+      },
+      "place_id": "ChIJAZJNDtq8HWARjQODi3RqX2c",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_3"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本 〒386-0025",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4039267,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3933245,
+            "lng": 138.2358252
+          }
+        },
+        "location": {
+          "lat": 36.4007769,
+          "lng": 138.243085
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4039267,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3933245,
+            "lng": 138.2358252
+          }
+        }
+      },
+      "place_id": "ChIJS0p-xda8HWARHZYVXWYu_4I",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "天神",
+          "short_name": "天神",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "386-0025",
+          "short_name": "386-0025",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "日本、〒386-0025 長野県上田市天神",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.4039267,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3933245,
+            "lng": 138.2358252
+          }
+        },
+        "location": {
+          "lat": 36.4007769,
+          "lng": 138.243085
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.4039267,
+            "lng": 138.2530844
+          },
+          "southwest": {
+            "lat": 36.3933245,
+            "lng": 138.2358252
+          }
+        }
+      },
+      "place_id": "ChIJ_eN-2NW8HWARptRz9nPPLaQ",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県上田市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.554678,
+            "lng": 138.4140233
+          },
+          "southwest": {
+            "lat": 36.2172284,
+            "lng": 138.0691375
+          }
+        },
+        "location": {
+          "lat": 36.4019126,
+          "lng": 138.249075
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.554678,
+            "lng": 138.4140233
+          },
+          "southwest": {
+            "lat": 36.2172284,
+            "lng": 138.0691375
+          }
+        }
+      },
+      "place_id": "ChIJsaSJhsy8HWARTFv1slYL1uE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本、長野県",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        },
+        "location": {
+          "lat": 36.1543941,
+          "lng": 137.9218204
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0303686,
+            "lng": 138.739206
+          },
+          "southwest": {
+            "lat": 35.1984262,
+            "lng": 137.3244842
+          }
+        }
+      },
+      "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "日本",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        },
+        "location": {
+          "lat": 36.204824,
+          "lng": 138.252924
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.6412626,
+            "lng": 154.0031455
+          },
+          "southwest": {
+            "lat": 20.3585295,
+            "lng": 122.8554688
+          }
+        }
+      },
+      "place_id": "ChIJLxl_1w9OZzQRRFJmfNR1QvU",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "96WX+VM",
+          "short_name": "96WX+VM",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "上田市",
+          "short_name": "上田市",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "長野県",
+          "short_name": "長野県",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "日本",
+          "short_name": "JP",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "96WX+VM 日本、長野県上田市",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.39725,
+            "lng": 138.24925
+          },
+          "southwest": {
+            "lat": 36.397125,
+            "lng": 138.249125
+          }
+        },
+        "location": {
+          "lat": 36.397196,
+          "lng": 138.249181
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.3985364802915,
+            "lng": 138.2505364802915
+          },
+          "southwest": {
+            "lat": 36.3958385197085,
+            "lng": 138.2478385197085
+          }
+        }
+      },
+      "place_id": "GhIJDw2LUdcyQkARG7luSvlHYUA",
+      "plus_code": {
+        "compound_code": "96WX+VM 日本、長野県上田市",
+        "global_code": "8Q8W96WX+VM"
+      },
+      "types": [
+        "plus_code"
+      ]
+    }
+  ]
+}
