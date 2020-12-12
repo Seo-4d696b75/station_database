@@ -1,4 +1,4 @@
-load("../script/utils.rb")
+load("../../script/utils.rb")
 
 class KMLParser
   def initialize(data)
@@ -16,7 +16,7 @@ class KMLParser
       parse_feature(e)
     end
 
-    File.open("station.csv", "a") do |file|
+    File.open("station.csv", "w") do |file|
       @stations.each { |str| file.puts(str) }
     end
     data = {

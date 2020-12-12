@@ -22,7 +22,7 @@ def parse_segment(data)
     end
     previous = pos
   end
-  if cnt > data["points"].length / 2
+  if cnt > data["points"].length
     data["end"] = start
     data["start"] = fin
     data["points"].reverse!
@@ -60,14 +60,14 @@ def format_polyline(data)
         pivot = value["points"][0]
         s["start"] = value["start"]
         s["end"] = value["end"]
-        s["lat"] = pivot["lat"]
-        s["lng"] = pivot["lng"]
+        s["lat"] = pivot["lat"].round(5)
+        s["lng"] = pivot["lng"].round(5)
         previous = pivot
         s["delta_lat"] = []
         s["delta_lng"] = []
         value["points"].each do |pos|
-          s["delta_lat"] << (pos["lat"] * scale - previous["lat"] * scale).to_i
-          s["delta_lng"] << (pos["lng"] * scale - previous["lng"] * scale).to_i
+          s["delta_lat"] << ((pos["lat"].round(5) - previous["lat"].round(5)) * scale).round
+          s["delta_lng"] << ((pos["lng"].round(5) - previous["lng"].round(5)) * scale).round
           previous = pos
         end
         next s
@@ -92,6 +92,7 @@ class PolylineTest < Minitest::Test
       next if File.exists?(dst)
       if File.exists?(src)
         check_polyline(line, src, dst)
+        puts line["name"]
       else
         close = !!line["closed"]
         impl = !line.key?("impl") || !!line["impl"]
@@ -103,6 +104,7 @@ class PolylineTest < Minitest::Test
   def check_polyline(line, src, dst)
     data = parse_polyline(read_json(src))
     @point_map = Hash.new
+    assert_equal line["name"], data["name"], "name mismatch! src:#{src} name:#{JSON.dump(line)}"
     data["point_list"].each do |item|
       check_point(item["start"], item["points"][0])
       check_point(item["end"], item["points"][-1])
