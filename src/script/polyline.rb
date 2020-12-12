@@ -89,10 +89,9 @@ class PolylineTest < Minitest::Test
       code = line["code"].to_i
       src = "src/polyline/raw/#{code}.json"
       dst = "src/polyline/solved/#{code}.json"
-      next if File.exists?(dst)
       if File.exists?(src)
+        print "\r#{line["code"]} #{line["name"]}"
         check_polyline(line, src, dst)
-        puts line["name"]
       else
         close = !!line["closed"]
         impl = !line.key?("impl") || !!line["impl"]
