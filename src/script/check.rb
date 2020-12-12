@@ -128,7 +128,7 @@ class CSVTest < FormatTest
     File.open("src/solved/line.json", "w") do |f|
       list = @lines.map do |line|
         line.delete_if do |key, value|
-          value == nil || (key == "closed" && !value)
+          value == nil || (key == "closed" && !value) || key == "station_list"
         end
         sort_hash(line)
       end

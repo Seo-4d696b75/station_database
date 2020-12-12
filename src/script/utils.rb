@@ -10,6 +10,13 @@ PATTERN_POST = /^[0-9]{3}-[0-9]{4}$/
 PATTERN_DATE = /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
 PATTERN_COLOR = /^#[0-9A-F]{6}$/
 
+class Float
+  def fixed(digit)
+    format = "%%.%df" % digit
+    return format % self.round(digit)
+  end
+end
+
 def read(path)
   str = ""
   File.open(path, "r:utf-8") do |file|
@@ -173,6 +180,11 @@ def sort_hash(data)
     "closed_date",
     "next",
     "voronoi",
+    "start",
+    "end",
+    "delta_lat",
+    "delta_lng",
+    "points",
   ]
   data.sort do |a, b|
     a = keys.find_index(a[0])
