@@ -81,17 +81,21 @@ def format_polyline(data)
   return f
 end
 
+CUSTOM_ARGV = ARGV.clone
+ARGV.clear
+
 class PolylineTest < Minitest::Test
   def setup()
     @lines = read_json("src/solved/line.json")
     puts "list size: #{@lines.length}"
 
     opt = OptionParser.new
+    @check_all = false
+    @codes = []
     opt.on("-a") { |v| @check_all = v }
-    opt.on("-l VAL") { |v| @code = v.to_i }
-    opt.parse!(ARGV)
-
-    puts "check_all", !!@check_all
+    opt.on("-l VAL") { |v| @codes = v.split(";").map(&:to_i) }
+    opt.parse!(CUSTOM_ARGV)
+    puts @codes
 
     @checked = {}
     @history_path = "src/polyline/.history"
@@ -118,8 +122,8 @@ class PolylineTest < Minitest::Test
         if File.exists?(src)
           time = File::Stat.new(src).mtime
           time = Time.at(time.to_i)
-          if !@checked.key?(code) || time > @checked[code]
-            print "\r#{line["code"]} #{line["name"]}"
+          if !@checked.key?(code) || time > @checked[code] || @codes.include?(code)
+            puts "#{line["code"]} #{line["name"]}"
             check_polyline(line, src, dst)
           end
           @checked[code] = time
