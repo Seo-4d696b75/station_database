@@ -1,6 +1,9 @@
 load("src/script/utils.rb")
 require "minitest/autorun"
 require "set"
+require "optparse"
+require "fileutils"
+require "time"
 
 def parse_segment(data)
   start = data["start"]
@@ -82,20 +85,61 @@ class PolylineTest < Minitest::Test
   def setup()
     @lines = read_json("src/solved/line.json")
     puts "list size: #{@lines.length}"
+
+    opt = OptionParser.new
+    opt.on("-a") { |v| @check_all = v }
+    opt.on("-l VAL") { |v| @code = v.to_i }
+    opt.parse!(ARGV)
+
+    puts "check_all", !!@check_all
+
+    @checked = {}
+    @history_path = "src/polyline/.history"
+    FileUtils.remove(@history_path) if @check_all
+    if File.exists?(@history_path)
+      File.open(@history_path, "r") do |file|
+        file.each_line do |line|
+          values = line.chomp.split(",")
+          next if values.length != 2
+          time = Time.parse(values[1])
+          code = values[0].to_i
+          @checked[code] = time
+        end
+      end
+    end
   end
 
   def test_polyline()
-    @lines.each do |line|
-      code = line["code"].to_i
-      src = "src/polyline/raw/#{code}.json"
-      dst = "src/polyline/solved/#{code}.json"
-      if File.exists?(src)
-        print "\r#{line["code"]} #{line["name"]}"
-        check_polyline(line, src, dst)
-      else
-        close = !!line["closed"]
-        impl = !line.key?("impl") || !!line["impl"]
-        assert close || !impl, "file not found line:#{JSON.dump(line)}"
+    begin
+      @lines.each do |line|
+        code = line["code"].to_i
+        src = "src/polyline/raw/#{code}.json"
+        dst = "src/polyline/solved/#{code}.json"
+        if File.exists?(src)
+          time = File::Stat.new(src).mtime
+          time = Time.at(time.to_i)
+          if !@checked.key?(code) || time > @checked[code]
+            print "\r#{line["code"]} #{line["name"]}"
+            check_polyline(line, src, dst)
+          end
+          @checked[code] = time
+        else
+          close = !!line["closed"]
+          impl = !line.key?("impl") || !!line["impl"]
+          assert close || !impl, "file not found line:#{JSON.dump(line)}"
+        end
+      end
+    rescue => exception
+      puts exception
+    ensure
+      write_history
+    end
+  end
+
+  def write_history()
+    File.open(@history_path, "w") do |file|
+      @checked.each do |key, value|
+        file.puts("#{key},#{value.to_s}")
       end
     end
   end
