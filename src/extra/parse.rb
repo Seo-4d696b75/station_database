@@ -270,6 +270,7 @@ def find_coordinate(templates)
   templates.each do |key, value|
     return value if key.match(WIKI_COORDINATE_NAME)
   end
+  return nil
 end
 
 def parse_coordinate(pos)
