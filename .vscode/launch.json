@@ -8,8 +8,8 @@
 			"name": "Debug Local File",
 			"type": "Ruby",
 			"request": "launch",
-			"program": "${workspaceRoot}/src/script/polyline.rb",
-			"cwd": "${workspaceRoot}"
+			"program": "${workspaceRoot}/src/extra/parse.rb",
+			"cwd": "${workspaceRoot}/src/extra"
 		}
 	]
 }

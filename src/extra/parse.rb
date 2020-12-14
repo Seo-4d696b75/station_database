@@ -291,13 +291,20 @@ def parse(template, pref_map)
       lat = (lat1.to_f + lat2.to_f / 60 + lat3.to_f / 3600).round(6)
       lng = (lng1.to_f + lng2.to_f / 60 + lng3.to_f / 3600).round(6)
     else
-      puts "Warning > coordinate value not found #{name}"
+      # puts "Warning > coordinate value not found #{name}"
     end
   end
   pref = template.get_param("所在地")
   if pref.kind_of?(String) && m = pref.match(/^(.+?[県都府道])/)
     pref = m[1]
   elsif pref.kind_of?(Array)
+    # find "Location" template
+    pref.each do |item|
+      if item.kind_of?(WikiTemplate) && item.name == "Location dec"
+        lat = item.get_param(0).to_f
+        lng = item.get_param(1).to_f
+      end
+    end
     if pref[0].kind_of?(InternalLink)
       pref = pref[0].name
     elsif pref[0].kind_of?(String)
@@ -311,6 +318,10 @@ def parse(template, pref_map)
     exit(0)
   else
     pref = ""
+  end
+
+  if lat == 0 || lng == 0
+    puts "Warning > coordinate value not found #{name}"
   end
 
   if v = pref_map[pref]
