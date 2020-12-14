@@ -236,13 +236,13 @@ def read_internal_link(str)
   end
 end
 
-def get_info(str)
+def get_templates(str)
+  res = {}
   while m = str.match(/.*?\{\{/m)
     t, str = read_template(m.post_match)
-    return t if t.name_include?("駅情報")
+    res[t.name] = t
   end
-  puts "Error > 駅情報 not found"
-  exit(0)
+  return res
 end
 
 def parse_date(obj)
@@ -264,7 +264,30 @@ def parse_date(obj)
   return "NULL"
 end
 
-def parse(template, pref_map)
+WIKI_COORDINATE_NAME = /^ウィキ座標(2段)?度分秒$/
+
+def find_coordinate(templates)
+  templates.each do |key, value|
+    return value if key.match(WIKI_COORDINATE_NAME)
+  end
+end
+
+def parse_coordinate(pos)
+  if !pos.name.match(WIKI_COORDINATE_NAME) || pos.get_param(3) != "N" || pos.get_param(7) != "E"
+    puts "Error > unknown coordinate system #{pos.name}"
+    exit(0)
+  end
+  lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
+  lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+  return [lat, lng]
+end
+
+def parse(templates, pref_map)
+  template = templates["駅情報"]
+  if !template
+    puts "no station-info found"
+    exit(0)
+  end
   name = template.get_param("駅名")
   if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)$/)
     name = m[1]
@@ -274,12 +297,9 @@ def parse(template, pref_map)
   lng = 0
   if pos = template.get_param("座標")
     pos = pos[0] if pos.kind_of?(Array)
-    if pos.name != "ウィキ座標2段度分秒" || pos.get_param(3) != "N" || pos.get_param(7) != "E"
-      puts "Error > unknown coordinate system #{pos.name}"
-      exit(0)
-    end
-    lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
-    lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+    lat, lng = parse_coordinate(pos)
+  elsif pos = find_coordinate(templates)
+    lat, lng = parse_coordinate(pos)
   else
     lat1 = template.get_param("緯度度")
     lat2 = template.get_param("緯度分")
@@ -356,7 +376,7 @@ File.open("list.txt", "r") do |file|
     end
     puts name
     str = str.match(/<text.+?>(.+?)<\/text>/m)[1]
-    list << parse(get_info(str), pref)
+    list << parse(get_templates(str), pref)
   end
 end
 # station list
