@@ -264,7 +264,7 @@ def parse_date(obj)
   return "NULL"
 end
 
-WIKI_COORDINATE_NAME = /^ウィキ座標(2段)?度分秒$/
+WIKI_COORDINATE_NAME = /^(ウィキ座標(2段)?度分秒)|(coord)$/
 
 def find_coordinate(templates)
   templates.each do |key, value|
