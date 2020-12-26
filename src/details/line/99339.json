@@ -1,18 +1,16 @@
 {
   "name":"箱根登山鉄道",
-  "symbol":"OH",
-  "color":"#A14023",
   "station_list":[
-    {"code":100204,"name":"小田原","numbering":[{"index":"47"}]},
-    {"code":9933902,"name":"箱根板橋","numbering":[{"index":"48"}]},
-    {"code":9933903,"name":"風祭","numbering":[{"index":"49"}]},
-    {"code":9933904,"name":"入生田","numbering":[{"index":"50"}]},
-    {"code":9933905,"name":"箱根湯本","numbering":[{"index":"51"}]},
-    {"code":9933906,"name":"塔ノ沢","numbering":[{"index":"52"}]},
-    {"code":9933907,"name":"大平台","numbering":[{"index":"53"}]},
-    {"code":9933908,"name":"宮ノ下","numbering":[{"index":"54"}]},
-    {"code":9933909,"name":"小涌谷","numbering":[{"index":"55"}]},
-    {"code":9933910,"name":"彫刻の森","numbering":[{"index":"56"}]},
-    {"code":9933911,"name":"強羅","numbering":[{"index":"57"}]}
+    {"code":100204,"name":"小田原","numbering":["OH47"]},
+    {"code":9933902,"name":"箱根板橋","numbering":["OH48"]},
+    {"code":9933903,"name":"風祭","numbering":["OH49"]},
+    {"code":9933904,"name":"入生田","numbering":["OH50"]},
+    {"code":9933905,"name":"箱根湯本","numbering":["OH51"]},
+    {"code":9933906,"name":"塔ノ沢","numbering":["OH52"]},
+    {"code":9933907,"name":"大平台","numbering":["OH53"]},
+    {"code":9933908,"name":"宮ノ下","numbering":["OH54"]},
+    {"code":9933909,"name":"小涌谷","numbering":["OH55"]},
+    {"code":9933910,"name":"彫刻の森","numbering":["OH56"]},
+    {"code":9933911,"name":"強羅","numbering":["OH57"]}
   ]
 }

@@ -1,17 +1,15 @@
 {
   "name":"叡山電鉄鞍馬線",
-  "symbol":"E",
-  "color":"#FF0000",
   "station_list":[
-    {"code":9960606,"name":"宝ヶ池","numbering":[{"color":"#007F00","index":"06"}]},
-    {"code":9960702,"name":"八幡前(京都)","numbering":[{"index":"09"}]},
-    {"code":9960703,"name":"岩倉(京都)","numbering":[{"index":"10"}]},
-    {"code":9960704,"name":"木野","numbering":[{"index":"11"}]},
-    {"code":9960705,"name":"京都精華大前","numbering":[{"index":"12"}]},
-    {"code":9960706,"name":"二軒茶屋(京都)","numbering":[{"index":"13"}]},
-    {"code":9960707,"name":"市原","numbering":[{"index":"14"}]},
-    {"code":9960708,"name":"二ノ瀬","numbering":[{"index":"15"}]},
-    {"code":9960709,"name":"貴船口","numbering":[{"index":"16"}]},
-    {"code":9960710,"name":"鞍馬","numbering":[{"index":"17"}]}
+    {"code":9960606,"name":"宝ヶ池","numbering":["E06"]},
+    {"code":9960702,"name":"八幡前(京都)","numbering":["E09"]},
+    {"code":9960703,"name":"岩倉(京都)","numbering":["E10"]},
+    {"code":9960704,"name":"木野","numbering":["E11"]},
+    {"code":9960705,"name":"京都精華大前","numbering":["E12"]},
+    {"code":9960706,"name":"二軒茶屋(京都)","numbering":["E13"]},
+    {"code":9960707,"name":"市原","numbering":["E14"]},
+    {"code":9960708,"name":"二ノ瀬","numbering":["E15"]},
+    {"code":9960709,"name":"貴船口","numbering":["E16"]},
+    {"code":9960710,"name":"鞍馬","numbering":["E17"]}
   ]
 }

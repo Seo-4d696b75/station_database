@@ -1,15 +1,13 @@
 {
   "name":"京阪交野線",
-  "symbol":"KH",
-  "color":"#66CC33",
   "station_list":[
-    {"code":3300120,"name":"枚方市","numbering":[{"index":"21"}]},
-    {"code":3300302,"name":"宮之阪","numbering":[{"index":"61"}]},
-    {"code":3300303,"name":"星ヶ丘(大阪)","numbering":[{"index":"62"}]},
-    {"code":3300304,"name":"村野","numbering":[{"index":"63"}]},
-    {"code":3300305,"name":"郡津","numbering":[{"index":"64"}]},
-    {"code":3300306,"name":"交野市","numbering":[{"index":"65"}]},
-    {"code":3300307,"name":"河内森","numbering":[{"index":"66"}]},
-    {"code":3300308,"name":"私市","numbering":[{"index":"67"}]}
+    {"code":3300120,"name":"枚方市","numbering":["KH21"]},
+    {"code":3300302,"name":"宮之阪","numbering":["KH61"]},
+    {"code":3300303,"name":"星ヶ丘(大阪)","numbering":["KH62"]},
+    {"code":3300304,"name":"村野","numbering":["KH63"]},
+    {"code":3300305,"name":"郡津","numbering":["KH64"]},
+    {"code":3300306,"name":"交野市","numbering":["KH65"]},
+    {"code":3300307,"name":"河内森","numbering":["KH66"]},
+    {"code":3300308,"name":"私市","numbering":["KH67"]}
   ]
 }

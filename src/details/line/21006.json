@@ -1,9 +1,7 @@
 {
   "name":"東武大師線",
-  "symbol":"TS",
-  "color":"#0F6CC3",
   "station_list":[
-    {"code":2100213,"name":"西新井","numbering":[{"index":"13"}]},
-    {"code":2100602,"name":"大師前","numbering":[{"index":"51"}]}
+    {"code":2100213,"name":"西新井","numbering":["TS13"]},
+    {"code":2100602,"name":"大師前","numbering":["TS51"]}
   ]
 }

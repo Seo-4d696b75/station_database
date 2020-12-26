@@ -1,22 +1,20 @@
 {
   "name":"北総鉄道",
-  "symbol":"HS",
-  "color":"#00BDF2",
   "station_list":[
-    {"code":2300110,"name":"京成高砂","numbering":[{"symbol":"KS","index":"10"}]},
-    {"code":9934002,"name":"新柴又","numbering":[{"index":"01"}]},
-    {"code":9934003,"name":"矢切","numbering":[{"index":"02"}]},
-    {"code":9934004,"name":"北国分","numbering":[{"index":"03"}]},
-    {"code":9934005,"name":"秋山","numbering":[{"index":"04"}]},
-    {"code":1130521,"name":"東松戸","numbering":[{"index":"05"}]},
-    {"code":9934007,"name":"松飛台","numbering":[{"index":"06"}]},
-    {"code":9934008,"name":"大町(千葉)","numbering":[{"index":"07"}]},
-    {"code":2100430,"name":"新鎌ヶ谷","numbering":[{"index":"08"}]},
-    {"code":9934010,"name":"西白井","numbering":[{"index":"09"}]},
-    {"code":9934011,"name":"白井","numbering":[{"index":"10"}]},
-    {"code":9934012,"name":"小室","numbering":[{"index":"11"}]},
-    {"code":9934013,"name":"千葉ニュータウン中央","numbering":[{"index":"12"}]},
-    {"code":9934014,"name":"印西牧の原","numbering":[{"index":"13"}]},
-    {"code":9934015,"name":"印旛日本医大","numbering":[{"index":"14"}]}
+    {"code":2300110,"name":"京成高砂","numbering":["KS10"]},
+    {"code":9934002,"name":"新柴又","numbering":["HS01"]},
+    {"code":9934003,"name":"矢切","numbering":["HS02"]},
+    {"code":9934004,"name":"北国分","numbering":["HS03"]},
+    {"code":9934005,"name":"秋山","numbering":["HS04"]},
+    {"code":1130521,"name":"東松戸","numbering":["HS05"]},
+    {"code":9934007,"name":"松飛台","numbering":["HS06"]},
+    {"code":9934008,"name":"大町(千葉)","numbering":["HS07"]},
+    {"code":2100430,"name":"新鎌ヶ谷","numbering":["HS08"]},
+    {"code":9934010,"name":"西白井","numbering":["HS09"]},
+    {"code":9934011,"name":"白井","numbering":["HS10"]},
+    {"code":9934012,"name":"小室","numbering":["HS11"]},
+    {"code":9934013,"name":"千葉ニュータウン中央","numbering":["HS12"]},
+    {"code":9934014,"name":"印西牧の原","numbering":["HS13"]},
+    {"code":9934015,"name":"印旛日本医大","numbering":["HS14"]}
   ]
 }

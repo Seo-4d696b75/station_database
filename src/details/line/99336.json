@@ -1,18 +1,16 @@
 {
   "name":"東京モノレール",
-  "symbol":"MO",
-  "color":"#004098",
   "station_list":[
-    {"code":1130227,"name":"浜松町","numbering":[{"index":"01"}]},
-    {"code":9933602,"name":"天王洲アイル","numbering":[{"index":"02"}]},
-    {"code":9933603,"name":"大井競馬場前","numbering":[{"index":"03"}]},
-    {"code":9933604,"name":"流通センター","numbering":[{"index":"04"}]},
-    {"code":9933605,"name":"昭和島","numbering":[{"index":"05"}]},
-    {"code":9933606,"name":"整備場","numbering":[{"index":"06"}]},
-    {"code":2700205,"name":"天空橋","numbering":[{"index":"07"}]},
-    {"code":9933611,"name":"羽田空港第３ターミナル(東京モノレール)","numbering":[{"index":"08"}]},
-    {"code":9933608,"name":"新整備場","numbering":[{"index":"09"}]},
-    {"code":9933609,"name":"羽田空港第１ターミナル","numbering":[{"index":"10"}]},
-    {"code":9933610,"name":"羽田空港第２ターミナル","numbering":[{"index":"11"}]}
+    {"code":1130227,"name":"浜松町","numbering":["MO01"]},
+    {"code":9933602,"name":"天王洲アイル","numbering":["MO02"]},
+    {"code":9933603,"name":"大井競馬場前","numbering":["MO03"]},
+    {"code":9933604,"name":"流通センター","numbering":["MO04"]},
+    {"code":9933605,"name":"昭和島","numbering":["MO05"]},
+    {"code":9933606,"name":"整備場","numbering":["MO06"]},
+    {"code":2700205,"name":"天空橋","numbering":["MO07"]},
+    {"code":9933611,"name":"羽田空港第３ターミナル(東京モノレール)","numbering":["MO08"]},
+    {"code":9933608,"name":"新整備場","numbering":["MO09"]},
+    {"code":9933609,"name":"羽田空港第１ターミナル","numbering":["MO10"]},
+    {"code":9933610,"name":"羽田空港第２ターミナル","numbering":["MO11"]}
   ]
 }

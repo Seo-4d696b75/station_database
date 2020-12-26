@@ -1,9 +1,7 @@
 {
   "name":"名鉄羽島線",
-  "symbol":"TH",
-  "color":"#DAA520",
   "station_list":[
-    {"code":3002009,"name":"江吉良","numbering":[{"index":"08"}]},
-    {"code":3002102,"name":"新羽島","numbering":[{"index":"09"}]}
+    {"code":3002009,"name":"江吉良","numbering":["TH08"]},
+    {"code":3002102,"name":"新羽島","numbering":["TH09"]}
   ]
 }

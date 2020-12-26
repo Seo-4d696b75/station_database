@@ -201,11 +201,8 @@ def read_external_link(str)
     list = m[1].split(" ")
     if list.length == 1
       return [ExternalLink.new(list[0]), m.post_match]
-    elsif list.length == 2
-      return [ExternalLink.new(list[0], list[1]), m.post_match]
     else
-      puts "too many args at external link: #{str[0..([100, str.length - 1].min)]}"
-      exit(1)
+      return [ExternalLink.new(list[0], list[1..-1].join(" ")), m.post_match]
     end
   else
     puts "invalid start token at external link: #{str[0..([100, str.length - 1].min)]}"
@@ -239,13 +236,13 @@ def read_internal_link(str)
   end
 end
 
-def get_info(str)
+def get_templates(str)
+  res = {}
   while m = str.match(/.*?\{\{/m)
     t, str = read_template(m.post_match)
-    return t if t.name_include?("駅情報")
+    res[t.name] = t
   end
-  puts "Error > 駅情報 not found"
-  exit(0)
+  return res
 end
 
 def parse_date(obj)
@@ -267,7 +264,31 @@ def parse_date(obj)
   return "NULL"
 end
 
-def parse(template, pref_map)
+WIKI_COORDINATE_NAME = /^(ウィキ座標(2段)?度分秒)|(coord)$/
+
+def find_coordinate(templates)
+  templates.each do |key, value|
+    return value if key.match(WIKI_COORDINATE_NAME)
+  end
+  return nil
+end
+
+def parse_coordinate(pos)
+  if !pos.name.match(WIKI_COORDINATE_NAME) || pos.get_param(3) != "N" || pos.get_param(7) != "E"
+    puts "Error > unknown coordinate system #{pos.name}"
+    exit(0)
+  end
+  lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
+  lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+  return [lat, lng]
+end
+
+def parse(templates, pref_map)
+  template = templates["駅情報"]
+  if !template
+    puts "no station-info found"
+    exit(0)
+  end
   name = template.get_param("駅名")
   if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)$/)
     name = m[1]
@@ -277,12 +298,9 @@ def parse(template, pref_map)
   lng = 0
   if pos = template.get_param("座標")
     pos = pos[0] if pos.kind_of?(Array)
-    if pos.name != "ウィキ座標2段度分秒" || pos.get_param(3) != "N" || pos.get_param(7) != "E"
-      puts "Error > unknown coordinate system #{pos.name}"
-      exit(0)
-    end
-    lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
-    lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+    lat, lng = parse_coordinate(pos)
+  elsif pos = find_coordinate(templates)
+    lat, lng = parse_coordinate(pos)
   else
     lat1 = template.get_param("緯度度")
     lat2 = template.get_param("緯度分")
@@ -294,13 +312,20 @@ def parse(template, pref_map)
       lat = (lat1.to_f + lat2.to_f / 60 + lat3.to_f / 3600).round(6)
       lng = (lng1.to_f + lng2.to_f / 60 + lng3.to_f / 3600).round(6)
     else
-      puts "Warning > coordinate value not found #{name}"
+      # puts "Warning > coordinate value not found #{name}"
     end
   end
   pref = template.get_param("所在地")
   if pref.kind_of?(String) && m = pref.match(/^(.+?[県都府道])/)
     pref = m[1]
   elsif pref.kind_of?(Array)
+    # find "Location" template
+    pref.each do |item|
+      if item.kind_of?(WikiTemplate) && item.name == "Location dec"
+        lat = item.get_param(0).to_f
+        lng = item.get_param(1).to_f
+      end
+    end
     if pref[0].kind_of?(InternalLink)
       pref = pref[0].name
     elsif pref[0].kind_of?(String)
@@ -314,6 +339,10 @@ def parse(template, pref_map)
     exit(0)
   else
     pref = ""
+  end
+
+  if lat == 0 || lng == 0
+    puts "Warning > coordinate value not found #{name}"
   end
 
   if v = pref_map[pref]
@@ -348,9 +377,20 @@ File.open("list.txt", "r") do |file|
     end
     puts name
     str = str.match(/<text.+?>(.+?)<\/text>/m)[1]
-    list << parse(get_info(str), pref)
+    list << parse(get_templates(str), pref)
   end
 end
+# station list
 File.open("station.csv", "w") do |file|
   list.each { |e| file.puts(e.join(",")) }
+end
+# line info
+load("../script/utils.rb")
+data = {}
+data["name"] = "name"
+data["station_list"] = list[1..-1].map do |row|
+  { "code" => 0, "name" => row[2] }
+end
+File.open("info.json", "w") do |file|
+  file.write(format_json(data, flat_array: ["station_list"]))
 end

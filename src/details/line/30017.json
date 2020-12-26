@@ -1,18 +1,16 @@
 {
   "name":"名鉄広見線",
-  "symbol":"HM",
-  "color":"#2E8B57",
   "station_list":[
-    {"code":3001518,"name":"犬山","numbering":[{"symbol":"IY","index":"15"}]},
-    {"code":3001702,"name":"富岡前","numbering":[{"index":"01"}]},
-    {"code":3001703,"name":"善師野","numbering":[{"index":"02"}]},
-    {"code":3001704,"name":"西可児","numbering":[{"index":"03"}]},
-    {"code":3001705,"name":"可児川","numbering":[{"index":"04"}]},
-    {"code":3001706,"name":"日本ライン今渡","numbering":[{"index":"05"}]},
-    {"code":3001707,"name":"新可児","numbering":[{"index":"06"}]},
-    {"code":3001708,"name":"明智(名古屋鉄道)","numbering":[{"index":"07"}]},
-    {"code":3001709,"name":"顔戸","numbering":[{"index":"08"}]},
-    {"code":3001710,"name":"御嵩口","numbering":[{"index":"09"}]},
-    {"code":3001711,"name":"御嵩","numbering":[{"index":"10"}]}
+    {"code":3001518,"name":"犬山","numbering":["IY15"]},
+    {"code":3001702,"name":"富岡前","numbering":["HM01"]},
+    {"code":3001703,"name":"善師野","numbering":["HM02"]},
+    {"code":3001704,"name":"西可児","numbering":["HM03"]},
+    {"code":3001705,"name":"可児川","numbering":["HM04"]},
+    {"code":3001706,"name":"日本ライン今渡","numbering":["HM05"]},
+    {"code":3001707,"name":"新可児","numbering":["HM06"]},
+    {"code":3001708,"name":"明智(名古屋鉄道)","numbering":["HM07"]},
+    {"code":3001709,"name":"顔戸","numbering":["HM08"]},
+    {"code":3001710,"name":"御嵩口","numbering":["HM09"]},
+    {"code":3001711,"name":"御嵩","numbering":["HM10"]}
   ]
 }

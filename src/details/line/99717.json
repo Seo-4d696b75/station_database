@@ -1,12 +1,10 @@
 {
   "name":"広電９系統(白島線)",
-  "symbol":"W",
-  "color":"#696969",
   "station_list":[
-    {"code":9971007,"name":"八丁堀(広島)","numbering":[{"index":"1"}]},
-    {"code":9971702,"name":"女学院前","numbering":[{"index":"2"}]},
-    {"code":9971703,"name":"縮景園前","numbering":[{"index":"3"}]},
-    {"code":9971704,"name":"家庭裁判所前","numbering":[{"index":"4"}]},
-    {"code":9971705,"name":"白島(広島電鉄)","numbering":[{"index":"5"}]}
+    {"code":9971007,"name":"八丁堀(広島)","numbering":["W1"]},
+    {"code":9971702,"name":"女学院前","numbering":["W2"]},
+    {"code":9971703,"name":"縮景園前","numbering":["W3"]},
+    {"code":9971704,"name":"家庭裁判所前","numbering":["W4"]},
+    {"code":9971705,"name":"白島(広島電鉄)","numbering":["W5"]}
   ]
 }

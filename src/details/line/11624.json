@@ -1,11 +1,9 @@
 {
   "name":"JR桜島線(ゆめ咲線)",
-  "symbol":"P",
-  "color":"#0A318E",
   "station_list":[
-    {"code":1162307,"name":"西九条","numbering":[{"index":"14"}]},
-    {"code":1162402,"name":"安治川口","numbering":[{"index":"15"}]},
-    {"code":1162403,"name":"ユニバーサルシティ","numbering":[{"index":"16"}]},
-    {"code":1162404,"name":"桜島","numbering":[{"index":"17"}]}
+    {"code":1162307,"name":"西九条","numbering":["P14"]},
+    {"code":1162402,"name":"安治川口","numbering":["P15"]},
+    {"code":1162403,"name":"ユニバーサルシティ","numbering":["P16"]},
+    {"code":1162404,"name":"桜島","numbering":["P17"]}
   ]
 }
