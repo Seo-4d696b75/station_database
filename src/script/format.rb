@@ -10,10 +10,13 @@ class FormatTest < Minitest::Test
     @id_set = Set.new
     @station_map = Hash.new
     @line_map = Hash.new
+    coordinates = Set.new
     @stations.each do |s|
       assert @id_set.add?(s["id"]), "id duplicated #{JSON.dump(s)}"
       assert !@station_map.key?(s["code"]), "station code duplicated #{JSON.dump(s)}"
       assert !@station_map.key?(s["name"]), "station name duplicated #{JSON.dump(s)}"
+      pos = [s["lng"], s["lat"]]
+      assert coordinates.add?(pos), "coordinate duplicated #{JSON.dump(s)}"
       @station_map[s["code"]] = s
       @station_map[s["name"]] = s
     end

@@ -71,11 +71,7 @@ lines.each do |line|
   path = "src/polyline/solved/#{line["code"]}.json"
   if File.exists?(path)
     polyline = read_json(path)
-    details["east"] = polyline["east"]
-    details["west"] = polyline["west"]
-    details["north"] = polyline["north"]
-    details["south"] = polyline["south"]
-    details["polyline_list"] = polyline["polyline_list"]
+    details["polyline_list"] = polyline
   end
 
   list = details["station_list"]
@@ -85,12 +81,9 @@ lines.each do |line|
     sort_hash(e.merge(s))
   end
   File.open("#{dir_dst}/line/#{line["code"]}.json", "w") do |f|
-    f.write(format_json(sort_hash(details), flat_key: ["delta_lng", "delta_lat"], flat_array: ["station_list"]))
+    f.write(format_json(sort_hash(details), flat_key: ["coordinates"], flat_array: ["station_list"]))
   end
-  details["station_list"] = list.map do |e|
-    e.delete("name")
-    next e
-  end
+  details["station_list"] = list
   lines_details << details
 end
 
@@ -136,7 +129,7 @@ data["stations"] = stations.map { |e| sort_hash(e) }
 data["lines"] = lines_details.map { |e| sort_hash(e) }
 data["tree_segments"] = segments
 File.open("#{dir_dst}/data.json", "w") do |f|
-  f.write(format_json(data, flat_array: ["stations", "station_list", "polyline_list", "node_list"]))
+  f.write(format_json(data, flat_array: ["stations", "station_list", "node_list"], flat_key: ["coordinates"]))
 end
 
 puts "All done."

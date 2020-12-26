@@ -2,7 +2,7 @@ load("src/script/utils.rb")
 
 def check_feature(data)
   return false if data["type"] != "Feature"
-  return false if data["properties"].kind_of?(Hash)
+  return false if !data["properties"].kind_of?(Hash)
   check_geometry(data["geometry"])
 end
 
@@ -19,7 +19,7 @@ end
 def check_geometry(data)
   case data["type"]
   when "LineString"
-    return check_line(data)
+    return check_polyline(data)
   when "Polygon"
     return check_polygon(data)
   else
@@ -29,8 +29,8 @@ def check_geometry(data)
   true
 end
 
-def check_line(data)
-  data["coordinated"].each do |p|
+def check_polyline(data)
+  data["coordinates"].each do |p|
     return false if !check_point(p)
   end
   return true
@@ -42,7 +42,7 @@ def check_polygon(data)
   return false if coord.length != 1
   coord.each do |ring|
     ring.each do |p|
-      return false if !check_polygon(p)
+      return false if !check_point(p)
     end
     return false if ring[0] != ring[-1]
   end
