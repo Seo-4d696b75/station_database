@@ -1,6 +1,7 @@
 load("src/script/utils.rb")
 require "minitest/autorun"
 
+# these fields of station item will be checked
 STATION_FIELD = [
   "code",
   "name",
@@ -20,6 +21,7 @@ STATION_FIELD = [
 # "next" and "voronoi" may change due to other stations' changes
 ]
 
+# these fields of line item will be checked
 LINE_FIELD = [
   "code",
   "name",
@@ -32,12 +34,14 @@ LINE_FIELD = [
   "closed",
   "closed_date",
   "station_list",
-  "north",
-  "south",
-  "east",
-  "west",
   "polyline_list",
   "impl",
+]
+
+# these fields are ignored
+IGNORE = [
+  "polyline_list",
+  "station_list",
 ]
 
 class MergeTest < Minitest::Test
@@ -88,23 +92,28 @@ class MergeTest < Minitest::Test
       value.map! do |e|
         s = station_map[e.delete("id")]
         name = s["name"]
-        if numbering = format_numbering(s)
-          next "#{name}(#{numbering})"
+        if n = s["numbering"]
+          next "#{name}(#{n.join("/")})"
         else
           next name
         end
       end
+    elsif key == "line" || key == "station"
+      return "#{value["name"]}(#{value["code"]})"
     end
     if value.kind_of?(Array) || value.kind_of?(Hash)
       return "`#{JSON.dump(value)}`"
     elsif value.kind_of?(Numeric) || value.kind_of?(String) || value == true || value == false
       return value.to_s
+    elsif value == nil
+      return "null"
     end
     raise "unexpected type #{value} #{value.class}"
   end
 
   def check_diff(tag, id, old, current, fields)
     fields.each do |key|
+      next if IGNORE.include?(key)
       old_value = normalize_value(key, old[key], @old_station_map)
       new_value = normalize_value(key, current[key], @station_map)
       if old_value != new_value
@@ -129,10 +138,10 @@ class MergeTest < Minitest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     @stations.each_value do |station|
-      @log << "- **station** new station #{format_md(station)}\n"
+      @log << "- **station** new station #{format_md(station, "station")}\n"
     end
     @lines.each_value do |line|
-      @log << "- **line** new line #{format_md(line)}\n"
+      @log << "- **line** new line #{format_md(line, "line")}\n"
     end
   end
 
