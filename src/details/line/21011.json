@@ -1,15 +1,13 @@
 {
   "name":"東武桐生線",
-  "symbol":"TI",
-  "color":"#FF0000",
   "station_list":[
-    {"code":2100248,"name":"太田(群馬)","numbering":[{"index":"18"}]},
-    {"code":2101102,"name":"三枚橋","numbering":[{"index":"51"}]},
-    {"code":2101103,"name":"治良門橋","numbering":[{"index":"52"}]},
-    {"code":2101104,"name":"藪塚","numbering":[{"index":"53"}]},
-    {"code":2101105,"name":"阿左美","numbering":[{"index":"54"}]},
-    {"code":2101106,"name":"新桐生","numbering":[{"index":"55"}]},
-    {"code":2101107,"name":"相老","numbering":[{"index":"56"}]},
-    {"code":2101108,"name":"赤城","numbering":[{"index":"57"}]}
+    {"code":2100248,"name":"太田(群馬)","numbering":["TI18"]},
+    {"code":2101102,"name":"三枚橋","numbering":["TI51"]},
+    {"code":2101103,"name":"治良門橋","numbering":["TI52"]},
+    {"code":2101104,"name":"藪塚","numbering":["TI53"]},
+    {"code":2101105,"name":"阿左美","numbering":["TI54"]},
+    {"code":2101106,"name":"新桐生","numbering":["TI55"]},
+    {"code":2101107,"name":"相老","numbering":["TI56"]},
+    {"code":2101108,"name":"赤城","numbering":["TI57"]}
   ]
 }

@@ -1,22 +1,20 @@
 {
   "name":"京都市営地下鉄烏丸線",
-  "symbol":"K",
-  "color":"#3CB371",
   "station_list":[
-    {"code":9961001,"name":"国際会館","numbering":[{"index":"01"}]},
-    {"code":9961002,"name":"松ヶ崎(京都)","numbering":[{"index":"02"}]},
-    {"code":9961003,"name":"北山(京都)","numbering":[{"index":"03"}]},
-    {"code":9961004,"name":"北大路","numbering":[{"index":"04"}]},
-    {"code":9961005,"name":"鞍馬口","numbering":[{"index":"05"}]},
-    {"code":9961006,"name":"今出川","numbering":[{"index":"06"}]},
-    {"code":9961007,"name":"丸太町","numbering":[{"index":"07"}]},
-    {"code":9961008,"name":"烏丸御池","numbering":[{"index":"08"}]},
-    {"code":9961009,"name":"四条","numbering":[{"index":"09"}]},
-    {"code":9961010,"name":"五条(京都)","numbering":[{"index":"10"}]},
-    {"code":100216,"name":"京都","numbering":[{"index":"11"}]},
-    {"code":9961012,"name":"九条(京都)","numbering":[{"index":"12"}]},
-    {"code":9961013,"name":"十条(京都市交通局)","numbering":[{"index":"13"}]},
-    {"code":9961014,"name":"くいな橋","numbering":[{"index":"14"}]},
-    {"code":3102505,"name":"竹田(京都)","numbering":[{"index":"15"},{"symbol":"B","color":"#FFD700","index":"05"}]}
+    {"code":9961001,"name":"国際会館","numbering":["K01"]},
+    {"code":9961002,"name":"松ヶ崎(京都)","numbering":["K02"]},
+    {"code":9961003,"name":"北山(京都)","numbering":["K03"]},
+    {"code":9961004,"name":"北大路","numbering":["K04"]},
+    {"code":9961005,"name":"鞍馬口","numbering":["K05"]},
+    {"code":9961006,"name":"今出川","numbering":["K06"]},
+    {"code":9961007,"name":"丸太町","numbering":["K07"]},
+    {"code":9961008,"name":"烏丸御池","numbering":["K08"]},
+    {"code":9961009,"name":"四条","numbering":["K09"]},
+    {"code":9961010,"name":"五条(京都)","numbering":["K10"]},
+    {"code":100216,"name":"京都","numbering":["K11"]},
+    {"code":9961012,"name":"九条(京都)","numbering":["K12"]},
+    {"code":9961013,"name":"十条(京都市交通局)","numbering":["K13"]},
+    {"code":9961014,"name":"くいな橋","numbering":["K14"]},
+    {"code":3102505,"name":"竹田(京都)","numbering":["K15","B05"]}
   ]
 }

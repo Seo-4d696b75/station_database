@@ -1,17 +1,15 @@
 {
   "name":"OsakaMetro堺筋線",
-  "symbol":"K",
-  "color":"#814721",
   "station_list":[
-    {"code":3400811,"name":"天神橋筋六丁目","numbering":[{"index":"11"}]},
-    {"code":9962302,"name":"扇町(大阪)","numbering":[{"index":"12"}]},
-    {"code":9961911,"name":"南森町","numbering":[{"index":"13"}]},
-    {"code":3300139,"name":"北浜(大阪)","numbering":[{"index":"14"}]},
-    {"code":9962108,"name":"堺筋本町","numbering":[{"index":"15"}]},
-    {"code":9962306,"name":"長堀橋","numbering":[{"index":"16"}]},
-    {"code":9962207,"name":"日本橋(大阪)","numbering":[{"index":"17"}]},
-    {"code":9962308,"name":"恵美須町","numbering":[{"index":"18"}]},
-    {"code":9961812,"name":"動物園前","numbering":[{"index":"19"}]},
-    {"code":3200103,"name":"天下茶屋","numbering":[{"index":"20"}]}
+    {"code":3400811,"name":"天神橋筋六丁目","numbering":["K11"]},
+    {"code":9962302,"name":"扇町(大阪)","numbering":["K12"]},
+    {"code":9961911,"name":"南森町","numbering":["K13"]},
+    {"code":3300139,"name":"北浜(大阪)","numbering":["K14"]},
+    {"code":9962108,"name":"堺筋本町","numbering":["K15"]},
+    {"code":9962306,"name":"長堀橋","numbering":["K16"]},
+    {"code":9962207,"name":"日本橋(大阪)","numbering":["K17"]},
+    {"code":9962308,"name":"恵美須町","numbering":["K18"]},
+    {"code":9961812,"name":"動物園前","numbering":["K19"]},
+    {"code":3200103,"name":"天下茶屋","numbering":["K20"]}
   ]
 }

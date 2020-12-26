@@ -1,16 +1,15 @@
 {
   "name":"西鉄貝塚線",
-  "symbol":"NK",
   "station_list":[
-    {"code":3600401,"name":"貝塚(福岡)","numbering":[{"index":"01"}]},
-    {"code":3600402,"name":"名島","numbering":[{"index":"02"}]},
-    {"code":3600403,"name":"西鉄千早","numbering":[{"index":"03"}]},
-    {"code":3600404,"name":"香椎宮前","numbering":[{"index":"04"}]},
-    {"code":3600405,"name":"西鉄香椎","numbering":[{"index":"05"}]},
-    {"code":3600406,"name":"香椎花園前","numbering":[{"index":"06"}]},
-    {"code":3600407,"name":"唐の原","numbering":[{"index":"07"}]},
-    {"code":1191605,"name":"和白","numbering":[{"index":"08"}]},
-    {"code":3600409,"name":"三苫","numbering":[{"index":"09"}]},
-    {"code":3600410,"name":"西鉄新宮","numbering":[{"index":"10"}]}
+    {"code":3600401,"name":"貝塚(福岡)","numbering":["NK01"]},
+    {"code":3600402,"name":"名島","numbering":["NK02"]},
+    {"code":3600403,"name":"西鉄千早","numbering":["NK03"]},
+    {"code":3600404,"name":"香椎宮前","numbering":["NK04"]},
+    {"code":3600405,"name":"西鉄香椎","numbering":["NK05"]},
+    {"code":3600406,"name":"香椎花園前","numbering":["NK06"]},
+    {"code":3600407,"name":"唐の原","numbering":["NK07"]},
+    {"code":1191605,"name":"和白","numbering":["NK08"]},
+    {"code":3600409,"name":"三苫","numbering":["NK09"]},
+    {"code":3600410,"name":"西鉄新宮","numbering":["NK10"]}
   ]
 }

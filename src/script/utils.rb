@@ -276,19 +276,3 @@ def read_value(data, key)
     return nil
   end
 end
-
-def format_numbering(s, line_symbol = nil)
-  if s.key?("numbering")
-    return s["numbering"].map do |n|
-             value = ""
-             if n.key?("symbol")
-               value << n["symbol"]
-             elsif line_symbol
-               value << line_symbol
-             end
-             value << n["index"]
-             next value
-           end.join("/")
-  end
-  return nil
-end

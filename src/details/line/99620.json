@@ -1,18 +1,16 @@
 {
   "name":"OsakaMetro四つ橋線",
-  "symbol":"Y",
-  "color":"#0078BA",
   "station_list":[
-    {"code":9962001,"name":"西梅田","numbering":[{"index":"11"}]},
-    {"code":9962002,"name":"肥後橋","numbering":[{"index":"12"}]},
-    {"code":9961808,"name":"本町","numbering":[{"index":"13"}]},
-    {"code":9962004,"name":"四ツ橋","numbering":[{"index":"14"}]},
-    {"code":9961810,"name":"なんば","numbering":[{"index":"15"}]},
-    {"code":9961811,"name":"大国町","numbering":[{"index":"16"}]},
-    {"code":9962007,"name":"花園町","numbering":[{"index":"17"}]},
-    {"code":9962008,"name":"岸里","numbering":[{"index":"18"}]},
-    {"code":9962009,"name":"玉出","numbering":[{"index":"19"}]},
-    {"code":9962010,"name":"北加賀屋","numbering":[{"index":"20"}]},
-    {"code":9962011,"name":"住之江公園","numbering":[{"index":"21"}]}
+    {"code":9962001,"name":"西梅田","numbering":["Y11"]},
+    {"code":9962002,"name":"肥後橋","numbering":["Y12"]},
+    {"code":9961808,"name":"本町","numbering":["Y13"]},
+    {"code":9962004,"name":"四ツ橋","numbering":["Y14"]},
+    {"code":9961810,"name":"なんば","numbering":["Y15"]},
+    {"code":9961811,"name":"大国町","numbering":["Y16"]},
+    {"code":9962007,"name":"花園町","numbering":["Y17"]},
+    {"code":9962008,"name":"岸里","numbering":["Y18"]},
+    {"code":9962009,"name":"玉出","numbering":["Y19"]},
+    {"code":9962010,"name":"北加賀屋","numbering":["Y20"]},
+    {"code":9962011,"name":"住之江公園","numbering":["Y21"]}
   ]
 }

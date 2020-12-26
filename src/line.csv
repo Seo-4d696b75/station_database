@@ -62,7 +62,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11303,91c205,JR南武線,じぇいあーるなんぶせん,NULL,30,2,#FFD400,JN,0,NULL,1
 11304,66f6db,JR鶴見線,じぇいあーるつるみせん,NULL,13,2,#FFD400,JI,0,NULL,1
 11305,dc7c53,JR武蔵野線,じぇいあーるむさしのせん,NULL,27,2,#F15A22,JM,0,NULL,1
-11306,69b0a0,JR横浜線,じぇいあーるよこはません,NULL,20,2,NULL,JH,0,NULL,1
+11306,69b0a0,JR横浜線,じぇいあーるよこはません,NULL,20,2,#9ACD32,JH,0,NULL,1
 11307,376e23,JR根岸線,じぇいあーるねぎしせん,NULL,12,2,#00B2E5,JK,0,NULL,1
 11308,a048fc,JR横須賀線,じぇいあーるよこすかせん,NULL,19,2,#007AC0,JO,0,NULL,1
 11309,e80090,JR相模線,じぇいあーるさがみせん,NULL,19,2,#009793,NULL,0,NULL,1
@@ -88,7 +88,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11330,a3fab8,JR久留里線,じぇいあーるくるりせん,NULL,14,2,#00AC97,NULL,0,NULL,1
 11331,d88aa7,JR東金線,じぇいあーるとうがねせん,NULL,5,2,#F15A22,NULL,0,NULL,1
 11332,69d2d0,JR京浜東北線,じぇいあーるけいひんとうほくせん,NULL,36,2,#00B2E5,JK,0,NULL,1
-11333,f8787b,JR湘南新宿ライン,じぇいあーるしょうなんしんじゅくらいん,NULL,16,2,NULL,JS,0,NULL,1
+11333,f8787b,JR湘南新宿ライン,じぇいあーるしょうなんしんじゅくらいん,NULL,16,2,#E21F26,JS,0,NULL,1
 11343,d11c9e,JR上野東京ライン,じぇいあーるうえのとうきょうらいん,上野東京ライン,2,2,#F68B1E,JU,0,NULL,1
 11334,771730,JR烏山線,じぇいあーるからすやません,NULL,8,2,#008000,NULL,0,NULL,1
 11335,d103e5,JR吾妻線,じぇいあーるあがつません,NULL,19,2,#0F5474,NULL,0,NULL,1
@@ -124,7 +124,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11503,d27067,JR東海道本線(岐阜～美濃赤坂・米原),じぇいあーるとうかいどうほんせん,NULL,12,3,#F57615,CA,0,NULL,1
 11504,b2110b,JR伊東線,じぇいあーるいとうせん,NULL,6,2,#F68B1E,NULL,0,NULL,1
 11505,3bec94,JR御殿場線,じぇいあーるごてんばせん,NULL,19,3,#247B30,CB,0,NULL,1
-11506,8d391a,JR武豊線,じぇいあーるたけとよせん,NULL,10,3,NULL,NULL,0,NULL,1
+11506,8d391a,JR武豊線,じぇいあーるたけとよせん,NULL,10,3,NULL,CE,0,NULL,1
 11507,8031dd,JR太多線,じぇいあーるたいたせん,NULL,8,3,#BFBA2F,CI,0,NULL,1
 11508,146fd6,JR関西本線(名古屋～亀山),じぇいあーるかんさいほんせん,NULL,18,3,#3DBC87,CJ,0,NULL,1
 11509,10f069,JR関西本線(亀山～加茂),じぇいあーるかんさいほんせん,NULL,12,4,#5726B7,V,0,NULL,1
@@ -188,7 +188,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11723,b9a0cd,JR小野田線,じぇいあーるおのだせん,NULL,12,4,#695FAA,NULL,0,NULL,1
 11724,7d00ac,JR岩徳線,じぇいあーるがんとくせん,NULL,16,4,#00A663,NULL,0,NULL,1
 11801,09faa3,JR土讃線,じぇいあーるどさんせん,NULL,61,5,#FF3399,NULL,0,NULL,1
-11802,030e39,JR高徳線,じぇいあーるこうとくせん,NULL,29,5,#8AC53E,NULL,0,NULL,1
+11802,030e39,JR高徳線,じぇいあーるこうとくせん,NULL,29,5,#8AC53E,T,0,NULL,1
 11803,318b6c,JR徳島線(よしの川ブルーライン),じぇいあーるとくしません,JR徳島線,26,5,#4A92B7,B,0,NULL,1
 11804,9b8bf5,JR牟岐線,じぇいあーるむぎせん,NULL,29,5,#00B5AD,M,0,NULL,1
 11805,f256b8,JR鳴門線,じぇいあーるなるとせん,NULL,7,5,#8C2C5F,N,0,NULL,1
@@ -519,7 +519,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99628,232e25,阪堺電軌上町線,はんかいでんきうえまちせん,NULL,11,202,NULL,HN,0,NULL,1
 99629,1ff203,阪堺電軌阪堺線,はんかいでんきはんかいせん,NULL,31,202,NULL,HN,0,NULL,1
 99630,36e304,神戸高速東西線,こうべこうそくとうざいせん,NULL,9,203,NULL,NULL,0,NULL,1
-99631,1b3343,神戸高速南北線,こうべこうそくなんぼくせん,NULL,2,203,NULL,KB,0,NULL,1
+99631,1b3343,神戸高速南北線,こうべこうそくなんぼくせん,NULL,2,203,#DD0033,KB,0,NULL,1
 99632,8baaea,神鉄有馬線,しんてつありません,NULL,15,204,#FF0000,KB,0,NULL,1
 99633,f2a8bb,神鉄三田線,しんてつさんだせん,NULL,10,204,#008000,KB,0,NULL,1
 99634,3eedc6,神鉄公園都市線,しんてつこうえんとしせん,NULL,6,204,#CCCC33,KB,0,NULL,1
@@ -527,8 +527,8 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99636,6fac09,神戸市営地下鉄北神線,こうべしえいちかてつほくしんせん,NULL,2,211,#01AF98,S,0,NULL,1
 99637,2f164e,山陽電鉄本線,さんようでんてつほんせん,NULL,43,206,#FA2B08,SY,0,NULL,1
 99638,6794e5,山陽電鉄網干線,さんようでんてつあぼしせん,NULL,7,206,#FA2B08,SY,0,NULL,1
-99615,b176a2,能勢電鉄妙見線,のせでんてつみょうけんせん,NULL,14,207,NULL,NS,0,NULL,1
-99640,738ec9,能勢電鉄日生線,のせでんてつにっせいせん,NULL,2,207,NULL,NS,0,NULL,1
+99615,b176a2,能勢電鉄妙見線,のせでんてつみょうけんせん,NULL,14,207,#800000,NS,0,NULL,1
+99640,738ec9,能勢電鉄日生線,のせでんてつにっせいせん,NULL,2,207,#800000,NS,0,NULL,1
 99642,e2c598,三木線,みきせん,三木鉄道三木線,9,208,NULL,NULL,1,2008-04-01,1
 99643,ca37af,北条鉄道,ほくじょうてつどう,北条鉄道北条線,8,209,NULL,NULL,0,NULL,1
 99644,c15849,智頭急行,ちずきゅうこう,智頭急行智頭線,14,210,NULL,NULL,0,NULL,1
@@ -571,7 +571,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99812,ab4f93,伊予鉄道６系統(本町線),いよてつどうろくけいとう(ほんまちせん),伊予鉄道６系統,7,226,#000000,NULL,0,NULL,1
 99814,942976,土佐くろしお鉄道中村線,とさくろしおてつどうなかむらせん,NULL,15,227,NULL,TK,0,NULL,1
 99815,4325cf,土佐くろしお鉄道宿毛線,とさくろしおてつどうすくもせん,NULL,8,227,NULL,TK,0,NULL,1
-99816,f0374f,土佐くろしお鉄道ごめん・なはり線,とさくろしおてつどうごめん・なはりせん,NULL,20,227,NULL,GN,0,NULL,1
+99816,f0374f,土佐くろしお鉄道ごめん・なはり線,とさくろしおてつどうごめん・なはりせん,NULL,20,227,#0000FF,GN,0,NULL,1
 99817,c93cae,とさでん交通後免線,とさでんこうつうごめんせん,土佐電鉄ごめん線,33,228,NULL,NULL,0,NULL,1
 99818,cd3b63,とさでん交通伊野線,とさでんこうつういのせん,土佐電鉄伊野線,34,228,NULL,NULL,0,NULL,1
 99819,a7b315,とさでん交通桟橋線,とさでんこうつうさんばしせん,土佐電鉄桟橋線,11,228,NULL,NULL,0,NULL,1

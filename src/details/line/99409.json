@@ -1,20 +1,19 @@
 {
   "name":"富山地鉄立山線",
-  "color":"#009933",
   "station_list":[
-    {"code":9940807,"name":"寺田(富山)","numbering":[{"index":"08"}]},
-    {"code":9940902,"name":"稚子塚","numbering":[{"index":"44"}]},
-    {"code":9940903,"name":"田添","numbering":[{"index":"45"}]},
-    {"code":9940904,"name":"五百石","numbering":[{"index":"46"}]},
-    {"code":9940905,"name":"榎町","numbering":[{"index":"47"}]},
-    {"code":9940906,"name":"下段","numbering":[{"index":"48"}]},
-    {"code":9940907,"name":"釜ヶ淵","numbering":[{"index":"49"}]},
-    {"code":9940908,"name":"沢中山","numbering":[{"index":"50"}]},
-    {"code":9940909,"name":"岩峅寺","numbering":[{"index":"51"}]},
-    {"code":9940910,"name":"横江","numbering":[{"index":"52"}]},
-    {"code":9940911,"name":"千垣","numbering":[{"index":"53"}]},
-    {"code":9940912,"name":"有峰口","numbering":[{"index":"54"}]},
-    {"code":9940913,"name":"本宮(富山)","numbering":[{"index":"55"}]},
-    {"code":9940914,"name":"立山","numbering":[{"index":"56"}]}
+    {"code":9940807,"name":"寺田(富山)","numbering":["T08"]},
+    {"code":9940902,"name":"稚子塚","numbering":["T44"]},
+    {"code":9940903,"name":"田添","numbering":["T45"]},
+    {"code":9940904,"name":"五百石","numbering":["T46"]},
+    {"code":9940905,"name":"榎町","numbering":["T47"]},
+    {"code":9940906,"name":"下段","numbering":["T48"]},
+    {"code":9940907,"name":"釜ヶ淵","numbering":["T49"]},
+    {"code":9940908,"name":"沢中山","numbering":["T50"]},
+    {"code":9940909,"name":"岩峅寺","numbering":["T51"]},
+    {"code":9940910,"name":"横江","numbering":["T52"]},
+    {"code":9940911,"name":"千垣","numbering":["T53"]},
+    {"code":9940912,"name":"有峰口","numbering":["T54"]},
+    {"code":9940913,"name":"本宮(富山)","numbering":["T55"]},
+    {"code":9940914,"name":"立山","numbering":["T56"]}
   ]
 }

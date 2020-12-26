@@ -1,22 +1,21 @@
 {
   "name":"JR湘南新宿ライン",
-  "symbol":"JS",
   "station_list":[
-    {"code":100403,"name":"大宮(埼玉)","numbering":[{"color":"#E21F26","index":"24"}]},
-    {"code":1131904,"name":"浦和","numbering":[{"color":"#E21F26","index":"23"}]},
-    {"code":1131903,"name":"赤羽","numbering":[{"color":"#E21F26","index":"22"}]},
-    {"code":1130212,"name":"池袋","numbering":[{"color":"#E21F26","index":"21"}]},
-    {"code":1130208,"name":"新宿","numbering":[{"color":"#E21F26","index":"20"}]},
-    {"code":1130205,"name":"渋谷","numbering":[{"color":"#E21F26","index":"19"}]},
-    {"code":1130204,"name":"恵比寿","numbering":[{"color":"#E21F26","index":"18"}]},
-    {"code":1130201,"name":"大崎","numbering":[{"color":"#E21F26","index":"17"}]},
-    {"code":1130804,"name":"西大井","numbering":[{"color":"#E21F26","index":"16"}]},
-    {"code":1130307,"name":"武蔵小杉","numbering":[{"color":"#E21F26","index":"15"}]},
-    {"code":1130805,"name":"新川崎","numbering":[{"color":"#E21F26","index":"14"}]},
-    {"code":1130105,"name":"横浜","numbering":[{"color":"#E21F26","index":"13"}]},
-    {"code":1130807,"name":"保土ケ谷","numbering":[{"color":"#E21F26","index":"12"}]},
-    {"code":1130808,"name":"東戸塚","numbering":[{"color":"#E21F26","index":"11"}]},
-    {"code":1130106,"name":"戸塚","numbering":[{"color":"#E21F26","index":"10"}]},
-    {"code":1130107,"name":"大船","numbering":[{"color":"#E21F26","index":"09"}]}
+    {"code":100403,"name":"大宮(埼玉)","numbering":["JS24"]},
+    {"code":1131904,"name":"浦和","numbering":["JS23"]},
+    {"code":1131903,"name":"赤羽","numbering":["JS22"]},
+    {"code":1130212,"name":"池袋","numbering":["JS21"]},
+    {"code":1130208,"name":"新宿","numbering":["JS20"]},
+    {"code":1130205,"name":"渋谷","numbering":["JS19"]},
+    {"code":1130204,"name":"恵比寿","numbering":["JS18"]},
+    {"code":1130201,"name":"大崎","numbering":["JS17"]},
+    {"code":1130804,"name":"西大井","numbering":["JS16"]},
+    {"code":1130307,"name":"武蔵小杉","numbering":["JS15"]},
+    {"code":1130805,"name":"新川崎","numbering":["JS14"]},
+    {"code":1130105,"name":"横浜","numbering":["JS13"]},
+    {"code":1130807,"name":"保土ケ谷","numbering":["JS12"]},
+    {"code":1130808,"name":"東戸塚","numbering":["JS11"]},
+    {"code":1130106,"name":"戸塚","numbering":["JS10"]},
+    {"code":1130107,"name":"大船","numbering":["JS09"]}
   ]
 }

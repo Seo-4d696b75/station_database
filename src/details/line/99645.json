@@ -1,16 +1,14 @@
 {
   "name":"神戸市営地下鉄西神線",
-  "symbol":"S",
-  "color":"#01AF98",
   "station_list":[
-    {"code":1160803,"name":"新長田","numbering":[{"index":"09"}]},
-    {"code":9963702,"name":"板宿","numbering":[{"index":"10"}]},
-    {"code":9964503,"name":"妙法寺(兵庫)","numbering":[{"index":"11"}]},
-    {"code":9964504,"name":"名谷","numbering":[{"index":"12"}]},
-    {"code":9964505,"name":"総合運動公園","numbering":[{"index":"13"}]},
-    {"code":9964506,"name":"学園都市","numbering":[{"index":"14"}]},
-    {"code":9964507,"name":"伊川谷","numbering":[{"index":"15"}]},
-    {"code":9964508,"name":"西神南","numbering":[{"index":"16"}]},
-    {"code":9964509,"name":"西神中央","numbering":[{"index":"17"}]}
+    {"code":1160803,"name":"新長田","numbering":["S09"]},
+    {"code":9963702,"name":"板宿","numbering":["S10"]},
+    {"code":9964503,"name":"妙法寺(兵庫)","numbering":["S11"]},
+    {"code":9964504,"name":"名谷","numbering":["S12"]},
+    {"code":9964505,"name":"総合運動公園","numbering":["S13"]},
+    {"code":9964506,"name":"学園都市","numbering":["S14"]},
+    {"code":9964507,"name":"伊川谷","numbering":["S15"]},
+    {"code":9964508,"name":"西神南","numbering":["S16"]},
+    {"code":9964509,"name":"西神中央","numbering":["S17"]}
   ]
 }

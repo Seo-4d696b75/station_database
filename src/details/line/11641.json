@@ -1,21 +1,19 @@
 {
   "name":"JRおおさか東線",
-  "symbol":"F",
-  "color":"#347293",
   "station_list":[
-    {"code":100217,"name":"新大阪","numbering":[{"index":"02"}]},
-    {"code":1164110,"name":"南吹田","numbering":[{"index":"03"}]},
-    {"code":1164111,"name":"JR淡路","numbering":[{"index":"04"}]},
-    {"code":1164112,"name":"城北公園通","numbering":[{"index":"05"}]},
-    {"code":1164113,"name":"JR野江","numbering":[{"index":"06"}]},
-    {"code":1161723,"name":"鴫野","numbering":[{"index":"07"}]},
-    {"code":1161722,"name":"放出","numbering":[{"index":"08"}]},
-    {"code":1164102,"name":"高井田中央","numbering":[{"index":"09"}]},
-    {"code":1164103,"name":"JR河内永和","numbering":[{"index":"10"}]},
-    {"code":1164104,"name":"JR俊徳道","numbering":[{"index":"11"}]},
-    {"code":1164105,"name":"JR長瀬","numbering":[{"index":"12"}]},
-    {"code":1164108,"name":"衣摺加美北","numbering":[{"index":"13"}]},
-    {"code":1164106,"name":"新加美","numbering":[{"index":"14"}]},
-    {"code":1160715,"name":"久宝寺","numbering":[{"index":"15"}]}
+    {"code":100217,"name":"新大阪","numbering":["F02"]},
+    {"code":1164110,"name":"南吹田","numbering":["F03"]},
+    {"code":1164111,"name":"JR淡路","numbering":["F04"]},
+    {"code":1164112,"name":"城北公園通","numbering":["F05"]},
+    {"code":1164113,"name":"JR野江","numbering":["F06"]},
+    {"code":1161723,"name":"鴫野","numbering":["F07"]},
+    {"code":1161722,"name":"放出","numbering":["F08"]},
+    {"code":1164102,"name":"高井田中央","numbering":["F09"]},
+    {"code":1164103,"name":"JR河内永和","numbering":["F10"]},
+    {"code":1164104,"name":"JR俊徳道","numbering":["F11"]},
+    {"code":1164105,"name":"JR長瀬","numbering":["F12"]},
+    {"code":1164108,"name":"衣摺加美北","numbering":["F13"]},
+    {"code":1164106,"name":"新加美","numbering":["F14"]},
+    {"code":1160715,"name":"久宝寺","numbering":["F15"]}
   ]
 }

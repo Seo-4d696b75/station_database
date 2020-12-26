@@ -1,13 +1,11 @@
 {
   "name":"西武秩父線",
-  "symbol":"SI",
-  "color":"#FF6600",
   "station_list":[
-    {"code":2200130,"name":"吾野","numbering":[{"index":"31"}]},
-    {"code":2200207,"name":"西吾野","numbering":[{"index":"32"}]},
-    {"code":2200208,"name":"正丸","numbering":[{"index":"33"}]},
-    {"code":2200209,"name":"芦ヶ久保","numbering":[{"index":"34"}]},
-    {"code":2200210,"name":"横瀬","numbering":[{"index":"35"}]},
-    {"code":2200212,"name":"西武秩父","numbering":[{"index":"36"}]}
+    {"code":2200130,"name":"吾野","numbering":["SI31"]},
+    {"code":2200207,"name":"西吾野","numbering":["SI32"]},
+    {"code":2200208,"name":"正丸","numbering":["SI33"]},
+    {"code":2200209,"name":"芦ヶ久保","numbering":["SI34"]},
+    {"code":2200210,"name":"横瀬","numbering":["SI35"]},
+    {"code":2200212,"name":"西武秩父","numbering":["SI36"]}
   ]
 }

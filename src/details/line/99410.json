@@ -1,22 +1,21 @@
 {
   "name":"富山地鉄不二越・上滝線",
-  "color":"#F77321",
   "station_list":[
-    {"code":9940801,"name":"電鉄富山","numbering":[{"index":"01"}]},
-    {"code":9940802,"name":"稲荷町(富山)","numbering":[{"index":"01"}]},
-    {"code":9941016,"name":"栄町(富山)","numbering":[{"index":"58"}]},
-    {"code":9941003,"name":"不二越","numbering":[{"index":"59"}]},
-    {"code":9941004,"name":"大泉(富山)","numbering":[{"index":"60"}]},
-    {"code":9941005,"name":"南富山","numbering":[{"index":"61"}]},
-    {"code":9941006,"name":"朝菜町","numbering":[{"index":"62"}]},
-    {"code":9941007,"name":"上堀","numbering":[{"index":"63"}]},
-    {"code":9941008,"name":"小杉(富山地方鉄道)","numbering":[{"index":"64"}]},
-    {"code":9941009,"name":"布市","numbering":[{"index":"65"}]},
-    {"code":9941010,"name":"開発","numbering":[{"index":"66"}]},
-    {"code":9941011,"name":"月岡(富山)","numbering":[{"index":"67"}]},
-    {"code":9941012,"name":"大庄","numbering":[{"index":"68"}]},
-    {"code":9941013,"name":"上滝","numbering":[{"index":"69"}]},
-    {"code":9941014,"name":"大川寺","numbering":[{"index":"70"}]},
-    {"code":9940909,"name":"岩峅寺","numbering":[{"index":"51"}]}
+    {"code":9940801,"name":"電鉄富山","numbering":["T01"]},
+    {"code":9940802,"name":"稲荷町(富山)","numbering":["T01"]},
+    {"code":9941016,"name":"栄町(富山)","numbering":["T58"]},
+    {"code":9941003,"name":"不二越","numbering":["T59"]},
+    {"code":9941004,"name":"大泉(富山)","numbering":["T60"]},
+    {"code":9941005,"name":"南富山","numbering":["T61"]},
+    {"code":9941006,"name":"朝菜町","numbering":["T62"]},
+    {"code":9941007,"name":"上堀","numbering":["T63"]},
+    {"code":9941008,"name":"小杉(富山地方鉄道)","numbering":["T64"]},
+    {"code":9941009,"name":"布市","numbering":["T65"]},
+    {"code":9941010,"name":"開発","numbering":["T66"]},
+    {"code":9941011,"name":"月岡(富山)","numbering":["T67"]},
+    {"code":9941012,"name":"大庄","numbering":["T68"]},
+    {"code":9941013,"name":"上滝","numbering":["T69"]},
+    {"code":9941014,"name":"大川寺","numbering":["T70"]},
+    {"code":9940909,"name":"岩峅寺","numbering":["T51"]}
   ]
 }

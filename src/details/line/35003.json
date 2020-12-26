@@ -1,10 +1,9 @@
 {
   "name":"阪神武庫川線",
-  "symbol":"HS",
   "station_list":[
-    {"code":3500112,"name":"武庫川","numbering":[{"index":"12"}]},
-    {"code":3500302,"name":"東鳴尾","numbering":[{"index":"53"}]},
-    {"code":3500303,"name":"洲先","numbering":[{"index":"52"}]},
-    {"code":3500304,"name":"武庫川団地前","numbering":[{"index":"51"}]}
+    {"code":3500112,"name":"武庫川","numbering":["HS12"]},
+    {"code":3500302,"name":"東鳴尾","numbering":["HS53"]},
+    {"code":3500303,"name":"洲先","numbering":["HS52"]},
+    {"code":3500304,"name":"武庫川団地前","numbering":["HS51"]}
   ]
 }

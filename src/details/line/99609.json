@@ -1,20 +1,18 @@
 {
   "name":"京都丹後鉄道宮豊線",
-  "symbol":"T",
-  "color":"#F15A22",
   "station_list":[
-    {"code":9960814,"name":"宮津","numbering":[{"index":"14"}]},
-    {"code":9960908,"name":"天橋立","numbering":[{"index":"15"}]},
-    {"code":9960909,"name":"岩滝口","numbering":[{"index":"16"}]},
-    {"code":9960910,"name":"与謝野","numbering":[{"index":"17"}]},
-    {"code":9960911,"name":"京丹後大宮","numbering":[{"index":"18"}]},
-    {"code":9960912,"name":"峰山","numbering":[{"index":"19"}]},
-    {"code":9960913,"name":"網野","numbering":[{"index":"20"}]},
-    {"code":9960914,"name":"夕日ヶ浦木津温泉","numbering":[{"index":"21"}]},
-    {"code":9960915,"name":"小天橋","numbering":[{"index":"22"}]},
-    {"code":9960916,"name":"かぶと山","numbering":[{"index":"23"}]},
-    {"code":9960917,"name":"久美浜","numbering":[{"index":"24"}]},
-    {"code":9960918,"name":"コウノトリの郷","numbering":[{"index":"25"}]},
-    {"code":1161524,"name":"豊岡(兵庫)","numbering":[{"index":"26"}]}
+    {"code":9960814,"name":"宮津","numbering":["T14"]},
+    {"code":9960908,"name":"天橋立","numbering":["T15"]},
+    {"code":9960909,"name":"岩滝口","numbering":["T16"]},
+    {"code":9960910,"name":"与謝野","numbering":["T17"]},
+    {"code":9960911,"name":"京丹後大宮","numbering":["T18"]},
+    {"code":9960912,"name":"峰山","numbering":["T19"]},
+    {"code":9960913,"name":"網野","numbering":["T20"]},
+    {"code":9960914,"name":"夕日ヶ浦木津温泉","numbering":["T21"]},
+    {"code":9960915,"name":"小天橋","numbering":["T22"]},
+    {"code":9960916,"name":"かぶと山","numbering":["T23"]},
+    {"code":9960917,"name":"久美浜","numbering":["T24"]},
+    {"code":9960918,"name":"コウノトリの郷","numbering":["T25"]},
+    {"code":1161524,"name":"豊岡(兵庫)","numbering":["T26"]}
   ]
 }

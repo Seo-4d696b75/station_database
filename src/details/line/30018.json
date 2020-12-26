@@ -1,21 +1,19 @@
 {
   "name":"名鉄小牧線",
-  "symbol":"KM",
-  "color":"#FF69B4",
   "station_list":[
-    {"code":3001801,"name":"上飯田","numbering":[{"index":"13"}]},
-    {"code":3001802,"name":"味鋺","numbering":[{"index":"12"}]},
-    {"code":3001803,"name":"味美(名古屋鉄道)","numbering":[{"index":"11"}]},
-    {"code":3001804,"name":"春日井(名古屋鉄道)","numbering":[{"index":"10"}]},
-    {"code":3001805,"name":"牛山","numbering":[{"index":"09"}]},
-    {"code":3001806,"name":"間内","numbering":[{"index":"08"}]},
-    {"code":3001807,"name":"小牧口","numbering":[{"index":"07"}]},
-    {"code":3001808,"name":"小牧","numbering":[{"index":"06"}]},
-    {"code":3001809,"name":"小牧原","numbering":[{"index":"05"}]},
-    {"code":3001810,"name":"味岡","numbering":[{"index":"04"}]},
-    {"code":3001811,"name":"田県神社前","numbering":[{"index":"03"}]},
-    {"code":3001812,"name":"楽田","numbering":[{"index":"02"}]},
-    {"code":3001813,"name":"羽黒(愛知)","numbering":[{"index":"01"}]},
-    {"code":3001518,"name":"犬山","numbering":[{"symbol":"IY","color":"#2E8B57","index":"15"}]}
+    {"code":3001801,"name":"上飯田","numbering":["KM13"]},
+    {"code":3001802,"name":"味鋺","numbering":["KM12"]},
+    {"code":3001803,"name":"味美(名古屋鉄道)","numbering":["KM11"]},
+    {"code":3001804,"name":"春日井(名古屋鉄道)","numbering":["KM10"]},
+    {"code":3001805,"name":"牛山","numbering":["KM09"]},
+    {"code":3001806,"name":"間内","numbering":["KM08"]},
+    {"code":3001807,"name":"小牧口","numbering":["KM07"]},
+    {"code":3001808,"name":"小牧","numbering":["KM06"]},
+    {"code":3001809,"name":"小牧原","numbering":["KM05"]},
+    {"code":3001810,"name":"味岡","numbering":["KM04"]},
+    {"code":3001811,"name":"田県神社前","numbering":["KM03"]},
+    {"code":3001812,"name":"楽田","numbering":["KM02"]},
+    {"code":3001813,"name":"羽黒(愛知)","numbering":["KM01"]},
+    {"code":3001518,"name":"犬山","numbering":["IY15"]}
   ]
 }

@@ -1,8 +1,7 @@
 {
   "name":"神戸高速南北線",
-  "symbol":"KB",
   "station_list":[
-    {"code":9963006,"name":"新開地","numbering":[{"color":"#DD0033","index":"01"}]},
-    {"code":9963102,"name":"湊川","numbering":[{"color":"#DD0033","index":"02"}]}
+    {"code":9963006,"name":"新開地","numbering":["KB01"]},
+    {"code":9963102,"name":"湊川","numbering":["KB02"]}
   ]
 }

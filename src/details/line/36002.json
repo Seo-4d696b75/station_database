@@ -1,9 +1,8 @@
 {
   "name":"西鉄太宰府線",
-  "symbol":"D",
   "station_list":[
-    {"code":3600112,"name":"西鉄二日市","numbering":[{"symbol":"T","index":"13"}]},
-    {"code":3600202,"name":"西鉄五条","numbering":[{"index":"01"}]},
-    {"code":3600203,"name":"太宰府","numbering":[{"index":"02"}]}
+    {"code":3600112,"name":"西鉄二日市","numbering":["T13"]},
+    {"code":3600202,"name":"西鉄五条","numbering":["D01"]},
+    {"code":3600203,"name":"太宰府","numbering":["D02"]}
   ]
 }

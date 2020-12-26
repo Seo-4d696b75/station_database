@@ -1,9 +1,7 @@
 {
   "name":"名古屋市営地下鉄上飯田線",
-  "symbol":"K",
-  "color":"#E979B9",
   "station_list":[
-    {"code":9951403,"name":"平安通","numbering":[{"index":"02"}]},
-    {"code":3001801,"name":"上飯田","numbering":[{"index":"01"}]}
+    {"code":9951403,"name":"平安通","numbering":["K02"]},
+    {"code":3001801,"name":"上飯田","numbering":["K01"]}
   ]
 }

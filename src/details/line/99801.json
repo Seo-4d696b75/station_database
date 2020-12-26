@@ -1,10 +1,9 @@
 {
   "name":"阿佐海岸鉄道阿佐東線",
-  "symbol":"AK",
   "station_list":[
-    {"code":1180429,"name":"阿波海南","numbering":[{"index":"27"}]},
-    {"code":9980102,"name":"海部","numbering":[{"index":"28"}]},
-    {"code":9980103,"name":"宍喰","numbering":[{"index":"29"}]},
-    {"code":9980104,"name":"甲浦","numbering":[{"index":"30"}]}
+    {"code":1180429,"name":"阿波海南","numbering":["AK27"]},
+    {"code":9980102,"name":"海部","numbering":["AK28"]},
+    {"code":9980103,"name":"宍喰","numbering":["AK29"]},
+    {"code":9980104,"name":"甲浦","numbering":["AK30"]}
   ]
 }
