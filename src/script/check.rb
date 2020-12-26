@@ -1,6 +1,9 @@
+# check raw data in csv files, and write into json files.
+# add "--impl" arg in cmd if extract only station item whose "impl"=true
 load("src/script/format.rb")
 
 require "net/http"
+require "optparse"
 
 STATION_FIELD = [
   "code",
@@ -36,6 +39,11 @@ LINE_FIELD = [
 ]
 
 API_KEY = read("src/api_key.txt")
+IMPL = false
+opt = OptionParser.new
+opt.on("--impl") { |v| IMPL = v }
+opt.parse!(ARGV)
+ARGV.clear()
 
 def get_address(station)
   print "get address of station:#{station["name"]} > "
@@ -104,6 +112,18 @@ class CSVTest < FormatTest
     # read line details from other files
     # registaration of station-line is defined here
     read_line_details()
+
+    if IMPL
+      # filter impl
+      @stations.select! do |s|
+        s["lines"].select! { |code| @line_map[code]["impl"] }
+        s.delete("impl")
+      end
+      @lines.select! do |l|
+        # station_list edited
+        l.delete("impl")
+      end
+    end
   end
 
   def test_station()
@@ -273,7 +293,6 @@ class CSVTest < FormatTest
       size = line["station_size"]
       assert_equal size, details["station_list"].length, "station list size mismatch at #{JSON.dump(line)}"
       line_code = line["code"]
-      symbol = line["symbol"]
       impl_size = 0
 
       write = false
@@ -300,16 +319,25 @@ class CSVTest < FormatTest
         elsif station_code != station["code"] || station_name != station["name"]
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
+
+        if IMPL
+          # only impl
+          next nil if !impl || !station["impl"]
+        end
+
         impl_size += 1 if station["impl"] && impl
         # 駅要素側にも登録路線を記憶
         station["lines"] << line["code"]
         index = i + 1
         # 駅ナンバリングを文字列表現
-        numbering = format_numbering(s, symbol)
-        numbering = "NULL" if numbering == nil
+        numbering = "NULL"
+        if n = s["numbering"]
+          numbering = n.join("/")
+        end
         @register << [station_code, line_code, index, numbering]
         next sort_hash(s)
-      end
+      end.compact
+      line["station_size"] = line["station_list"].length if IMPL
 
       # 更新あるなら駅登録詳細へ反映
       if write

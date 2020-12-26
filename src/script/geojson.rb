@@ -6,6 +6,16 @@ def check_feature(data)
   check_geometry(data["geometry"])
 end
 
+def check_feature_collection(data)
+  return false if data["type"] != "FeatureCollection"
+  f = data["features"]
+  return false if !f.kind_of?(Array)
+  f.each do |e|
+    return false if !check_feature(e)
+  end
+  true
+end
+
 def check_geometry(data)
   case data["type"]
   when "LineString"
@@ -16,6 +26,7 @@ def check_geometry(data)
     puts "unknown geometory type:#{data["type"]}"
     return false
   end
+  true
 end
 
 def check_line(data)

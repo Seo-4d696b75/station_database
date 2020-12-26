@@ -1,6 +1,7 @@
 require "minitest/autorun"
 require "set"
 load("src/script/utils.rb")
+load("src/script/geojson.rb")
 
 class FormatTest < Minitest::Test
   def check_init()
@@ -94,10 +95,7 @@ class FormatTest < Minitest::Test
           assert code != n && @station_map.key?(n), "station code #{n} not found at next #{JSON.dump(station)}"
         end
         # 'voronoi'
-        assert voronoi["lat"] && voronoi["lat"].kind_of?(Float), "invalid voronoi::lat #{JSON.dump(station)}"
-        assert voronoi["lng"] && voronoi["lng"].kind_of?(Float), "invalid voronoi::lng #{JSON.dump(station)}"
-        assert voronoi["delta_lat"] && voronoi["delta_lng"], "voronoi::delta not found #{JSON.dump(station)}"
-        assert_equal voronoi["delta_lng"].length, voronoi["delta_lat"].length, "voronoi::delta length mismatch #{JSON.dump(station)}"
+        assert check_feature(voronoi), "invalide voronoi data #{JSON.dump(station)}"
       end
     end
 
@@ -168,17 +166,14 @@ class FormatTest < Minitest::Test
         polyline = line["polyline_list"]
         assert !impl || closed || polyline, "non-closed line must have polyline data #{name}"
         if polyline
-          assert line["north"] && line["south"] && line["east"] && line["west"], "polyline boundary needed #{name}"
-          north = line["north"]
-          south = line["south"]
-          east = line["east"]
-          west = line["west"]
+          prop = polyline["properties"]
+          north = prop["north"]
+          south = prop["south"]
+          east = prop["east"]
+          west = prop["west"]
           assert north.kind_of?(Float) && south.kind_of?(Float) && east.kind_of?(Float) && west.kind_of?(Float), "invalid polyline boundary #{name}"
           assert south < north && west < east, "polyline boundary not rect!! #{name}"
-          polyline.each do |e|
-            assert e["start"] && e["end"] && e["lat"] && e["lng"] && e["delta_lng"] && e["delta_lat"], "polyline fields lack #{name}"
-            assert_equal e["delta_lng"].length, e["delta_lat"].length, "delta list size mismatch at #{name}"
-          end
+          assert check_feature_collection(polyline), "invalid polyline #{name}"
         end
       end
 
