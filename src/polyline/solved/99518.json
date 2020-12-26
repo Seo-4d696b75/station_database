@@ -1,10 +1,23 @@
 {
-  "name":"名古屋市営地下鉄上飯田線",
-  "point_list":[
-    {"start":"上飯田","end":"平安通","lat":35.2045,"lng":136.92968,"delta_lat":[0,-179,-548,-202],"delta_lng":[0,0,5,6]}
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"LineString",
+        "coordinates":[[136.92968,35.2045],[136.92968,35.20271],[136.92973,35.19723],[136.92979,35.19521]]
+      },
+      "properties":{
+        "start":"上飯田",
+        "end":"平安通"
+      }
+    }
   ],
-  "east":136.92979,
-  "west":136.92968,
-  "north":35.2045,
-  "south":35.19521
+  "properties":{
+    "name":"名古屋市営地下鉄上飯田線",
+    "north":35.2045,
+    "south":35.19521,
+    "east":136.92979,
+    "west":136.92968
+  }
 }

@@ -12,23 +12,11 @@ def parse_segment(data)
   west = 180
   north = -90
   south = 90
-  previous = nil
-  cnt = 0
   data["points"].each do |pos|
     east = [east, pos["lng"]].max
     west = [west, pos["lng"]].min
     north = [north, pos["lat"]].max
     south = [south, pos["lat"]].min
-    if previous
-      cnt += 1 if previous["lat"] > pos["lat"]
-      cnt += 1 if previous["lng"] > pos["lng"]
-    end
-    previous = pos
-  end
-  if cnt > data["points"].length
-    data["end"] = start
-    data["start"] = fin
-    data["points"].reverse!
   end
   return [data, east, west, north, south]
 end
@@ -54,31 +42,33 @@ def parse_polyline(data)
 end
 
 def format_polyline(data)
-  f = {}
-  data.each do |key, value|
-    if key == "point_list"
-      value.map! do |value|
-        s = {}
-        scale = 100000
-        pivot = value["points"][0]
-        s["start"] = value["start"]
-        s["end"] = value["end"]
-        s["lat"] = pivot["lat"].round(5)
-        s["lng"] = pivot["lng"].round(5)
-        previous = pivot
-        s["delta_lat"] = []
-        s["delta_lng"] = []
-        value["points"].each do |pos|
-          s["delta_lat"] << ((pos["lat"].round(5) - previous["lat"].round(5)) * scale).round
-          s["delta_lng"] << ((pos["lng"].round(5) - previous["lng"].round(5)) * scale).round
-          previous = pos
-        end
-        next s
-      end
+  f = data["point_list"].map do |value|
+    p = value["points"].map do |e|
+      [e["lng"].round(5), e["lat"].round(5)]
     end
-    f[key] = value
+    {
+      "type" => "Feature",
+      "geometry" => {
+        "type" => "LineString",
+        "coordinates" => p,
+      },
+      "properties" => {
+        "start" => value["start"],
+        "end" => value["end"],
+      },
+    }
   end
-  return f
+  {
+    "type" => "FeatureCollection",
+    "features" => f,
+    "properties" => {
+      "name" => data["name"],
+      "north" => data["north"],
+      "south" => data["south"],
+      "east" => data["east"],
+      "west" => data["west"],
+    },
+  }
 end
 
 CUSTOM_ARGV = ARGV.clone
@@ -178,7 +168,7 @@ class PolylineTest < Minitest::Test
     end
     assert list.length == 0, "polyline not enclosed. src:#{src} segment:#{JSON.dump(list[0])}"
     File.open(dst, "w") do |file|
-      file.write(format_json(format_polyline(data), flat_array: ["point_list"]))
+      file.write(format_json(format_polyline(data), flat_key: ["coordinates"]))
     end
   end
 
