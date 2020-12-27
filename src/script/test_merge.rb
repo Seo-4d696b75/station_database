@@ -1,3 +1,4 @@
+# check there is no contradiction between a new dataset and old one
 load("src/script/utils.rb")
 require "minitest/autorun"
 
@@ -39,10 +40,7 @@ LINE_FIELD = [
 ]
 
 # these fields are ignored
-IGNORE = [
-  "polyline_list",
-  "station_list",
-]
+IGNORE = []
 
 class MergeTest < Minitest::Test
   def setup()
