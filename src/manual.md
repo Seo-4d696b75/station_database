@@ -27,8 +27,14 @@
 - solved/station.json 駅メモ駅一覧
 - solved/line.json 駅メモ路線一覧
 
+**extra-update**
 ```
 $ ruby src/script/check.rb
+```
+
+**update**
+```
+$ ruby src/script/check.rb --impl
 ```
 
 ### 確認項目
@@ -56,9 +62,7 @@ src/script/diagram.bat
 `solved/line.json`を基に`polyline/raw/*.json`=>`polyline/solved/*.json`に出力する
 
 ```
-cd src
-del polyline/solved/*
-script/polyline.bat
+ruby src/script/polyline.rb
 ```
 
 ## データ統合
