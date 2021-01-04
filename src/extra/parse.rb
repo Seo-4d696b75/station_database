@@ -274,13 +274,19 @@ def find_coordinate(templates)
 end
 
 def parse_coordinate(pos)
-  if !pos.name.match(WIKI_COORDINATE_NAME) || pos.get_param(3) != "N" || pos.get_param(7) != "E"
-    puts "Error > unknown coordinate system #{pos.name}"
-    exit(0)
+  if pos.name.match(WIKI_COORDINATE_NAME)
+    if pos.get_param("format") == "dms"
+      lat = pos.get_param(0).to_f
+      lng = pos.get_param(1).to_f
+      return [lat, lng]
+    elsif pos.get_param(3) == "N" && pos.get_param(7) == "E"
+      lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
+      lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
+      return [lat, lng]
+    end
   end
-  lat = (pos.get_param(0).to_f + pos.get_param(1).to_f / 60 + pos.get_param(2).to_f / 3600).round(6)
-  lng = (pos.get_param(4).to_f + pos.get_param(5).to_f / 60 + pos.get_param(6).to_f / 3600).round(6)
-  return [lat, lng]
+  puts "Error > unknown coordinate system #{pos.name}"
+  exit(0)
 end
 
 def parse(templates, pref_map)
