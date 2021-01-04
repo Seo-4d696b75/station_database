@@ -335,8 +335,8 @@ def parse(templates, pref_map)
       exit(0)
     end
   elsif pref
-    puts "Error > unknown address format: #{pref}"
-    exit(0)
+    puts "Warning > unknown address format: #{pref}"
+    pref = ""
   else
     pref = ""
   end
