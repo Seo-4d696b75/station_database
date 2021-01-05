@@ -484,7 +484,7 @@
   {"code":99525,"id":"b22ca0","name":"長良川鉄道越美南線","name_kana":"ながらがわてつどうえつみなんせん","station_size":38,"company_code":184,"impl":true},
   {"code":99526,"id":"4f39f2","name":"樽見鉄道","name_kana":"たるみてつどう","name_formal":"樽見鉄道樽見線","station_size":19,"company_code":185,"impl":true},
   {"code":99528,"id":"e41235","name":"三岐鉄道三岐線","name_kana":"さんぎてつどうさんぎせん","station_size":15,"company_code":186,"impl":true},
-  {"code":99529,"id":"f4b888","name":"三岐鉄道北勢線","name_kana":"さんぎてつどうほくせいせん","station_size":13,"company_code":186,"impl":true},
+  {"code":99529,"id":"f4b888","name":"三岐鉄道北勢線","name_kana":"さんぎてつどうほくせいせん","station_size":19,"company_code":186,"impl":true},
   {"code":99530,"id":"68703b","name":"伊勢鉄道","name_kana":"いせてつどう","name_formal":"伊勢鉄道伊勢線","station_size":10,"company_code":187,"impl":true},
   {"code":99531,"id":"e5ebeb","name":"伊賀鉄道伊賀線","name_kana":"いがてつどういがせん","station_size":15,"company_code":188,"impl":true},
   {"code":99532,"id":"709fe0","name":"養老鉄道養老線","name_kana":"ようろうてつどうようろうせん","station_size":27,"company_code":189,"impl":true},
@@ -748,5 +748,6 @@
   {"code":30028,"id":"e13b2a","name":"名鉄美濃町線","name_kana":"めいてつみのまちせん","station_size":23,"company_code":20,"closed":true,"color":"#533A98","closed_date":"2005-04-01","impl":false},
   {"code":30029,"id":"5105e9","name":"名鉄田神線","name_kana":"めいてつたがみせん","station_size":3,"company_code":20,"closed":true,"color":"#533A98","closed_date":"2005-04-01","impl":false},
   {"code":31030,"id":"d609b1","name":"近鉄伊賀線","name_kana":"きんてついがせん","station_size":19,"company_code":21,"closed":true,"closed_date":"2007-10-01","impl":false},
-  {"code":31031,"id":"483dcc","name":"近鉄養老線","name_kana":"きんてつようろうせん","station_size":28,"company_code":21,"closed":true,"closed_date":"2007-10-01","impl":false}
+  {"code":31031,"id":"483dcc","name":"近鉄養老線","name_kana":"きんてつようろうせん","station_size":28,"company_code":21,"closed":true,"closed_date":"2007-10-01","impl":false},
+  {"code":31032,"id":"131e36","name":"近鉄北勢線","name_kana":"きんてつほくせいせん","station_size":16,"company_code":21,"closed":true,"closed_date":"2003-04-01","impl":false}
 ]
