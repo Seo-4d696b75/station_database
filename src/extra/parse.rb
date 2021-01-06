@@ -296,7 +296,7 @@ def parse(templates, pref_map)
     exit(0)
   end
   name = template.get_param("駅名")
-  if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)$/)
+  if m = name.match(/^(.+?)仮?(駅|降車場|乗降場|停留場)\*?$/)
     name = m[1]
   end
   name_kana = template.get_param("よみがな")
