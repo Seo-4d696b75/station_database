@@ -1,11 +1,9 @@
 {
   "name":"近鉄天理線",
-  "symbol":"H",
-  "color":"#EEC900",
   "station_list":[
-    {"code":3100207,"name":"平端","numbering":[{"index":"32"}]},
-    {"code":3101102,"name":"二階堂","numbering":[{"index":"33"}]},
-    {"code":3101103,"name":"前栽","numbering":[{"index":"34"}]},
-    {"code":1163705,"name":"天理","numbering":[{"index":"35"}]}
+    {"code":3100207,"name":"平端","numbering":["H32"]},
+    {"code":3101102,"name":"二階堂","numbering":["H33"]},
+    {"code":3101103,"name":"前栽","numbering":["H34"]},
+    {"code":1163705,"name":"天理","numbering":["H35"]}
   ]
 }

@@ -1,12 +1,5 @@
 # データベース管理手引き
 
-## 最新データ
-
-`extra-update`から取得
-
-```
-./src/script/checkout.bat
-```
 
 ## データファイル
 `src`ディレクトリ以下
@@ -34,8 +27,17 @@
 - solved/station.json 駅メモ駅一覧
 - solved/line.json 駅メモ路線一覧
 
+### extra-update
 ```
-ruby src/script/check.rb
+$ ruby src/script/check.rb
+```
+
+### update
+`extra-update`ブランチから対象データを持ってくる  
+**注意** `merge`すると`out`ディレクトリ以下のファイルがコンフリクトする
+```
+$ ./src/script/checkout.bat
+$ ruby src/script/check.rb --impl
 ```
 
 ### 確認項目
@@ -50,22 +52,14 @@ ruby src/script/check.rb
 
 ## 駅のボロノイ図・Kd-tree
 
-`solved/station.json`を入力としてjavaで計算  
+`src/solved/station.json`を入力としてjavaで計算  
 
 ```
 src/script/diagram.bat
 ```
 
-`diagram/station.json`に出力される
+`src/diagram/station.json`に出力される
 
-## 路線のポリラインデータ
-
-`solved/line.json`を基に`polyline/raw/*.json`=>`polyline/solved/*.json`に出力する
-
-```
-del polyline/solved/*
-script/polyline.bat
-```
 
 ## データ統合
 
@@ -79,7 +73,7 @@ script/polyline.bat
 ruby src/script/process.rb [version]
 ```
 
-`../out`に出力
+`./out`に出力
 
 ## GitHub
 

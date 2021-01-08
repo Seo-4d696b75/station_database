@@ -1,13 +1,11 @@
 {
   "name":"JR成田線",
-  "symbol":"JO",
-  "color":"#000000",
   "station_list":[
-    {"code":1131415,"name":"佐倉","numbering":[{"index":"33"}]},
-    {"code":1132702,"name":"酒々井","numbering":[{"index":"34"}]},
-    {"code":1132703,"name":"成田","numbering":[{"index":"35"}]},
-    {"code":1132813,"name":"空港第２ビル（成田第２・第３ターミナル）","numbering":[{"index":"36"}]},
-    {"code":1132705,"name":"成田空港（成田第１ターミナル）","numbering":[{"index":"37"}]},
+    {"code":1131415,"name":"佐倉","numbering":["JO33"]},
+    {"code":1132702,"name":"酒々井","numbering":["JO34"]},
+    {"code":1132703,"name":"成田","numbering":["JO35"]},
+    {"code":1132813,"name":"空港第２ビル（成田第２・第３ターミナル）","numbering":["JO36"]},
+    {"code":1132705,"name":"成田空港（成田第１ターミナル）","numbering":["JO37"]},
     {"code":1132706,"name":"久住"},
     {"code":1132707,"name":"滑河"},
     {"code":1132708,"name":"下総神崎"},

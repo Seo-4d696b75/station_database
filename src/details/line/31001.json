@@ -1,10 +1,8 @@
 {
   "name":"近鉄難波線",
-  "symbol":"A",
-  "color":"#FF0000",
   "station_list":[
-    {"code":3100101,"name":"大阪難波","numbering":[{"index":"01"}]},
-    {"code":3100102,"name":"近鉄日本橋","numbering":[{"index":"02"}]},
-    {"code":3100103,"name":"大阪上本町","numbering":[{"index":"03"}]}
+    {"code":3100101,"name":"大阪難波","numbering":["A01"]},
+    {"code":3100102,"name":"近鉄日本橋","numbering":["A02"]},
+    {"code":3100103,"name":"大阪上本町","numbering":["A03"]}
   ]
 }

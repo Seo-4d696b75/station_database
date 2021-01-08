@@ -1,20 +1,18 @@
 {
   "name":"JR鶴見線",
-  "symbol":"JI",
-  "color":"#FFD400",
   "station_list":[
-    {"code":1130401,"name":"鶴見","numbering":[{"index":"01"}]},
-    {"code":1130402,"name":"国道","numbering":[{"index":"02"}]},
-    {"code":1130403,"name":"鶴見小野","numbering":[{"index":"03"}]},
-    {"code":1130404,"name":"弁天橋","numbering":[{"index":"04"}]},
-    {"code":1130405,"name":"浅野","numbering":[{"index":"05"}]},
-    {"code":1130406,"name":"新芝浦","numbering":[{"index":"51"}]},
-    {"code":1130407,"name":"海芝浦","numbering":[{"index":"52"}]},
-    {"code":1130408,"name":"安善","numbering":[{"index":"06"}]},
-    {"code":1130409,"name":"大川","numbering":[{"index":"61"}]},
-    {"code":1130410,"name":"武蔵白石","numbering":[{"index":"07"}]},
-    {"code":1130328,"name":"浜川崎","numbering":[{"index":"08"}]},
-    {"code":1130412,"name":"昭和","numbering":[{"index":"09"}]},
-    {"code":1130413,"name":"扇町(神奈川)","numbering":[{"index":"10"}]}
+    {"code":1130401,"name":"鶴見","numbering":["JI01"]},
+    {"code":1130402,"name":"国道","numbering":["JI02"]},
+    {"code":1130403,"name":"鶴見小野","numbering":["JI03"]},
+    {"code":1130404,"name":"弁天橋","numbering":["JI04"]},
+    {"code":1130405,"name":"浅野","numbering":["JI05"]},
+    {"code":1130406,"name":"新芝浦","numbering":["JI51"]},
+    {"code":1130407,"name":"海芝浦","numbering":["JI52"]},
+    {"code":1130408,"name":"安善","numbering":["JI06"]},
+    {"code":1130409,"name":"大川","numbering":["JI61"]},
+    {"code":1130410,"name":"武蔵白石","numbering":["JI07"]},
+    {"code":1130328,"name":"浜川崎","numbering":["JI08"]},
+    {"code":1130412,"name":"昭和","numbering":["JI09"]},
+    {"code":1130413,"name":"扇町(神奈川)","numbering":["JI10"]}
   ]
 }

@@ -1,11 +1,9 @@
 {
   "name":"京急逗子線",
-  "symbol":"KK",
-  "color":"#00BFFF",
   "station_list":[
-    {"code":2700139,"name":"金沢八景","numbering":[{"index":"50"}]},
-    {"code":2700402,"name":"六浦","numbering":[{"index":"51"}]},
-    {"code":2700403,"name":"神武寺","numbering":[{"index":"52"}]},
-    {"code":2700404,"name":"逗子・葉山","numbering":[{"index":"53"}]}
+    {"code":2700139,"name":"金沢八景","numbering":["KK50"]},
+    {"code":2700402,"name":"六浦","numbering":["KK51"]},
+    {"code":2700403,"name":"神武寺","numbering":["KK52"]},
+    {"code":2700404,"name":"逗子・葉山","numbering":["KK53"]}
   ]
 }

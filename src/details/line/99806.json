@@ -1,17 +1,15 @@
 {
   "name":"伊予鉄道高浜線",
-  "symbol":"IY",
-  "color":"#9ACD32",
   "station_list":[
-    {"code":9980601,"name":"高浜(愛媛)","numbering":[{"index":"01"}]},
-    {"code":9980602,"name":"梅津寺","numbering":[{"index":"02"}]},
-    {"code":9980603,"name":"港山","numbering":[{"index":"03"}]},
-    {"code":9980604,"name":"三津","numbering":[{"index":"04"}]},
-    {"code":9980605,"name":"山西","numbering":[{"index":"05"}]},
-    {"code":9980606,"name":"西衣山","numbering":[{"index":"06"}]},
-    {"code":9980607,"name":"衣山","numbering":[{"index":"07"}]},
-    {"code":9980608,"name":"古町","numbering":[{"index":"08"}]},
-    {"code":9980609,"name":"大手町(愛媛)","numbering":[{"index":"09"}]},
-    {"code":9980501,"name":"松山市","numbering":[{"index":"10"}]}
+    {"code":9980601,"name":"高浜(愛媛)","numbering":["IY01"]},
+    {"code":9980602,"name":"梅津寺","numbering":["IY02"]},
+    {"code":9980603,"name":"港山","numbering":["IY03"]},
+    {"code":9980604,"name":"三津","numbering":["IY04"]},
+    {"code":9980605,"name":"山西","numbering":["IY05"]},
+    {"code":9980606,"name":"西衣山","numbering":["IY06"]},
+    {"code":9980607,"name":"衣山","numbering":["IY07"]},
+    {"code":9980608,"name":"古町","numbering":["IY08"]},
+    {"code":9980609,"name":"大手町(愛媛)","numbering":["IY09"]},
+    {"code":9980501,"name":"松山市","numbering":["IY10"]}
   ]
 }

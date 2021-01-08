@@ -1,19 +1,20 @@
 {
   "name":"松本電鉄上高地線",
   "station_list":[
-    {"code":1140901,"name":"松本"},
-    {"code":9940702,"name":"西松本"},
-    {"code":9940703,"name":"渚(長野)"},
-    {"code":9940704,"name":"信濃荒井"},
-    {"code":9940705,"name":"大庭"},
-    {"code":9940706,"name":"下新"},
-    {"code":9940707,"name":"北新・松本大学前"},
-    {"code":9940708,"name":"新村"},
-    {"code":9940709,"name":"三溝"},
-    {"code":9940710,"name":"森口"},
-    {"code":9940711,"name":"下島(松本電鉄)"},
-    {"code":9940712,"name":"波田"},
-    {"code":9940713,"name":"渕東"},
-    {"code":9940714,"name":"新島々"}
+    {"code":1140901,"name":"松本","numbering":["AK01"]},
+    {"code":9940702,"name":"西松本","numbering":["AK02"]},
+    {"code":9940703,"name":"渚(長野)","numbering":["AK03"]},
+    {"code":9940704,"name":"信濃荒井","numbering":["AK04"]},
+    {"code":9940705,"name":"大庭","numbering":["AK05"]},
+    {"code":9940706,"name":"下新","numbering":["AK06"]},
+    {"code":9940707,"name":"北新・松本大学前","numbering":["AK07"]},
+    {"code":9940708,"name":"新村","numbering":["AK08"]},
+    {"code":9940709,"name":"三溝","numbering":["AK09"]},
+    {"code":9940710,"name":"森口","numbering":["AK10"]},
+    {"code":9940711,"name":"下島(松本電鉄)","numbering":["AK11"]},
+    {"code":9940712,"name":"波田","numbering":["AK12"]},
+    {"code":9940713,"name":"渕東","numbering":["AK13"]},
+    {"code":9940714,"name":"新島々","numbering":["AK14"]},
+    {"code":9940715,"name":"島々"}
   ]
 }

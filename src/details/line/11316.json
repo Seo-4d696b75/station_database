@@ -1,15 +1,13 @@
 {
   "name":"JR五日市線",
-  "symbol":"JC",
-  "color":"#F15A22",
   "station_list":[
-    {"code":1131506,"name":"拝島","numbering":[{"index":"55"}]},
-    {"code":1131602,"name":"熊川","numbering":[{"index":"81"}]},
-    {"code":1131603,"name":"東秋留","numbering":[{"index":"82"}]},
-    {"code":1131604,"name":"秋川","numbering":[{"index":"83"}]},
-    {"code":1131605,"name":"武蔵引田","numbering":[{"index":"84"}]},
-    {"code":1131606,"name":"武蔵増戸","numbering":[{"index":"85"}]},
-    {"code":1131607,"name":"武蔵五日市","numbering":[{"index":"86"}]},
+    {"code":1131506,"name":"拝島","numbering":["JC55"]},
+    {"code":1131602,"name":"熊川","numbering":["JC81"]},
+    {"code":1131603,"name":"東秋留","numbering":["JC82"]},
+    {"code":1131604,"name":"秋川","numbering":["JC83"]},
+    {"code":1131605,"name":"武蔵引田","numbering":["JC84"]},
+    {"code":1131606,"name":"武蔵増戸","numbering":["JC85"]},
+    {"code":1131607,"name":"武蔵五日市","numbering":["JC86"]},
     {"code":1131608,"name":"武蔵岩井"}
   ]
 }

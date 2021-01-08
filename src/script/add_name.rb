@@ -66,6 +66,7 @@ File.open("prefecture.csv", "r") do |f|
   end
 end
 pref.add("JR")
+pref.add("国鉄")
 csv_each_line("raw/company20200309.csv") do |f|
   pref.add(read_value(f, "company_name"))
 end
@@ -107,7 +108,7 @@ write_csv(dst, DST_FIELD, list)
 duplicated.each do |k, v|
   if v == 1
     puts "name:#{k} not duplicated!!"
-    exit(1)
+    #exit(1)
   end
   puts "#{k} x #{v}"
 end

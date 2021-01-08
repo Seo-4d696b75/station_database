@@ -1,14 +1,13 @@
 {
   "name":"土佐くろしお鉄道宿毛線",
-  "symbol":"TK",
   "station_list":[
-    {"code":9981415,"name":"中村","numbering":[{"index":"40"}]},
-    {"code":9981502,"name":"具同","numbering":[{"index":"41"}]},
-    {"code":9981503,"name":"国見(高知)","numbering":[{"index":"42"}]},
-    {"code":9981504,"name":"有岡","numbering":[{"index":"43"}]},
-    {"code":9981505,"name":"工業団地","numbering":[{"index":"44"}]},
-    {"code":9981506,"name":"平田(高知)","numbering":[{"index":"45"}]},
-    {"code":9981507,"name":"東宿毛","numbering":[{"index":"46"}]},
-    {"code":9981508,"name":"宿毛","numbering":[{"index":"47"}]}
+    {"code":9981415,"name":"中村","numbering":["TK40"]},
+    {"code":9981502,"name":"具同","numbering":["TK41"]},
+    {"code":9981503,"name":"国見(高知)","numbering":["TK42"]},
+    {"code":9981504,"name":"有岡","numbering":["TK43"]},
+    {"code":9981505,"name":"工業団地","numbering":["TK44"]},
+    {"code":9981506,"name":"平田(高知)","numbering":["TK45"]},
+    {"code":9981507,"name":"東宿毛","numbering":["TK46"]},
+    {"code":9981508,"name":"宿毛","numbering":["TK47"]}
   ]
 }

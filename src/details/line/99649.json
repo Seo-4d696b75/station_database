@@ -1,12 +1,11 @@
 {
   "name":"神戸新交通六甲アイランド線",
-  "symbol":"R",
   "station_list":[
-    {"code":1160310,"name":"住吉(JR)","numbering":[{"index":"01"}]},
-    {"code":3500123,"name":"魚崎","numbering":[{"index":"02"}]},
-    {"code":9964903,"name":"南魚崎","numbering":[{"index":"03"}]},
-    {"code":9964904,"name":"アイランド北口","numbering":[{"index":"04"}]},
-    {"code":9964905,"name":"アイランドセンター","numbering":[{"index":"05"}]},
-    {"code":9964906,"name":"マリンパーク","numbering":[{"index":"06"}]}
+    {"code":1160310,"name":"住吉(JR)","numbering":["R01"]},
+    {"code":3500123,"name":"魚崎","numbering":["R02"]},
+    {"code":9964903,"name":"南魚崎","numbering":["R03"]},
+    {"code":9964904,"name":"アイランド北口","numbering":["R04"]},
+    {"code":9964905,"name":"アイランドセンター","numbering":["R05"]},
+    {"code":9964906,"name":"マリンパーク","numbering":["R06"]}
   ]
 }

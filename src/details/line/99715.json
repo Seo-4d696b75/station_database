@@ -1,21 +1,20 @@
 {
   "name":"広電７系統(都心線)",
-  "color":"#00594C",
   "station_list":[
-    {"code":9971501,"name":"横川駅","numbering":[{"symbol":"Y","color":"#FF69B4","index":"5"}]},
-    {"code":9971502,"name":"横川一丁目","numbering":[{"symbol":"Y","color":"#FF69B4","index":"4"}]},
-    {"code":9971503,"name":"別院前","numbering":[{"symbol":"Y","color":"#FF69B4","index":"3"}]},
-    {"code":9971504,"name":"寺町","numbering":[{"symbol":"Y","color":"#FF69B4","index":"2"}]},
-    {"code":9971113,"name":"十日市町","numbering":[{"symbol":"Y","color":"#FF69B4","index":"1"},{"symbol":"M","color":"#008000","index":"12"}]},
-    {"code":9971112,"name":"本川町","numbering":[{"symbol":"M","color":"#008000","index":"11"}]},
-    {"code":9971111,"name":"原爆ドーム前","numbering":[{"symbol":"M","color":"#008000","index":"10"}]},
-    {"code":9971110,"name":"紙屋町西","numbering":[{"symbol":"M","color":"#008000","index":"9"}]},
-    {"code":9970901,"name":"本通","numbering":[{"symbol":"U","color":"#00CCCC","index":"1"}]},
-    {"code":9971011,"name":"袋町","numbering":[{"symbol":"U","color":"#00CCCC","index":"2"}]},
-    {"code":9971012,"name":"中電前","numbering":[{"symbol":"U","color":"#00CCCC","index":"3"}]},
-    {"code":9971013,"name":"市役所前(広島)","numbering":[{"symbol":"U","color":"#00CCCC","index":"4"}]},
-    {"code":9971014,"name":"鷹野橋","numbering":[{"symbol":"U","color":"#00CCCC","index":"5"}]},
-    {"code":9971015,"name":"日赤病院前","numbering":[{"symbol":"U","color":"#00CCCC","index":"6"}]},
-    {"code":9971016,"name":"広電本社前","numbering":[{"symbol":"U","color":"#00CCCC","index":"7"}]}
+    {"code":9971501,"name":"横川駅","numbering":["Y5"]},
+    {"code":9971502,"name":"横川一丁目","numbering":["Y4"]},
+    {"code":9971503,"name":"別院前","numbering":["Y3"]},
+    {"code":9971504,"name":"寺町","numbering":["Y2"]},
+    {"code":9971113,"name":"十日市町","numbering":["Y1","M12"]},
+    {"code":9971112,"name":"本川町","numbering":["M11"]},
+    {"code":9971111,"name":"原爆ドーム前","numbering":["M10"]},
+    {"code":9971110,"name":"紙屋町西","numbering":["M9"]},
+    {"code":9970901,"name":"本通","numbering":["U1"]},
+    {"code":9971011,"name":"袋町","numbering":["U2"]},
+    {"code":9971012,"name":"中電前","numbering":["U3"]},
+    {"code":9971013,"name":"市役所前(広島)","numbering":["U4"]},
+    {"code":9971014,"name":"鷹野橋","numbering":["U5"]},
+    {"code":9971015,"name":"日赤病院前","numbering":["U6"]},
+    {"code":9971016,"name":"広電本社前","numbering":["U7"]}
   ]
 }

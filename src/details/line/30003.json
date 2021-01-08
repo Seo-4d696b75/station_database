@@ -1,21 +1,19 @@
 {
   "name":"名鉄西尾線",
-  "symbol":"GN",
-  "color":"#483D8B",
   "station_list":[
-    {"code":3000117,"name":"新安城","numbering":[{"symbol":"NH","color":"#DC143C","index":"17"}]},
-    {"code":3000302,"name":"北安城","numbering":[{"index":"01"}]},
-    {"code":3000303,"name":"南安城","numbering":[{"index":"02"}]},
-    {"code":3000304,"name":"碧海古井","numbering":[{"index":"03"}]},
-    {"code":3000305,"name":"堀内公園","numbering":[{"index":"04"}]},
-    {"code":3000306,"name":"桜井(愛知)","numbering":[{"index":"05"}]},
-    {"code":3000316,"name":"南桜井(愛知)","numbering":[{"index":"06"}]},
-    {"code":3000307,"name":"米津","numbering":[{"index":"07"}]},
-    {"code":3000308,"name":"桜町前","numbering":[{"index":"08"}]},
-    {"code":3000309,"name":"西尾口","numbering":[{"index":"09"}]},
-    {"code":3000310,"name":"西尾","numbering":[{"index":"10"}]},
-    {"code":3000311,"name":"福地","numbering":[{"index":"11"}]},
-    {"code":3000313,"name":"上横須賀","numbering":[{"index":"12"}]},
-    {"code":3000315,"name":"吉良吉田","numbering":[{"index":"13"}]}
+    {"code":3000117,"name":"新安城","numbering":["NH17"]},
+    {"code":3000302,"name":"北安城","numbering":["GN01"]},
+    {"code":3000303,"name":"南安城","numbering":["GN02"]},
+    {"code":3000304,"name":"碧海古井","numbering":["GN03"]},
+    {"code":3000305,"name":"堀内公園","numbering":["GN04"]},
+    {"code":3000306,"name":"桜井(愛知)","numbering":["GN05"]},
+    {"code":3000316,"name":"南桜井(愛知)","numbering":["GN06"]},
+    {"code":3000307,"name":"米津","numbering":["GN07"]},
+    {"code":3000308,"name":"桜町前","numbering":["GN08"]},
+    {"code":3000309,"name":"西尾口","numbering":["GN09"]},
+    {"code":3000310,"name":"西尾","numbering":["GN10"]},
+    {"code":3000311,"name":"福地","numbering":["GN11"]},
+    {"code":3000313,"name":"上横須賀","numbering":["GN12"]},
+    {"code":3000315,"name":"吉良吉田","numbering":["GN13"]}
   ]
 }

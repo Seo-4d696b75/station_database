@@ -1,6 +1,7 @@
 require "minitest/autorun"
 require "set"
 load("src/script/utils.rb")
+load("src/script/geojson.rb")
 
 class FormatTest < Minitest::Test
   def check_init()
@@ -9,10 +10,13 @@ class FormatTest < Minitest::Test
     @id_set = Set.new
     @station_map = Hash.new
     @line_map = Hash.new
+    coordinates = Set.new
     @stations.each do |s|
       assert @id_set.add?(s["id"]), "id duplicated #{JSON.dump(s)}"
       assert !@station_map.key?(s["code"]), "station code duplicated #{JSON.dump(s)}"
       assert !@station_map.key?(s["name"]), "station name duplicated #{JSON.dump(s)}"
+      pos = [s["lng"], s["lat"]]
+      assert coordinates.add?(pos), "coordinate duplicated #{JSON.dump(s)}"
       @station_map[s["code"]] = s
       @station_map[s["name"]] = s
     end
@@ -45,15 +49,13 @@ class FormatTest < Minitest::Test
       open_date = station["open_date"]
       closed_date = station["closed_date"]
       impl = station.fetch("impl", true)
-      # impl only
-      assert impl, "not impl!! #{JSON.dump(station)}"
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(PATTERN_ID), "invalid id #{JSON.dump(station)}"
       assert name && name.kind_of?(String) && name.length > 0, "invalide name #{JSON.dump(station)}"
       assert !name_original || (name_original.kind_of?(String) && name_original.length > 0 && name.include?(name_original)), "invalide original name #{JSON.dump(station)}"
-      assert !name_kana || name_kana.kind_of?(String) && name_kana.match(PATTERN_KANA), "invalid name_kana #{JSON.dump(station)}"
-      assert name_kana || !impl, "no name_kana found #{JSON.dump(station)}"
+      assert name_kana, "no name_kana found #{JSON.dump(station)}"
+      assert name_kana.kind_of?(String) && name_kana.match(PATTERN_KANA), "invalid name_kana #{JSON.dump(station)}"
       assert lng && lng.kind_of?(Float) && lat && lat.kind_of?(Float), "invalid coordinate #{JSON.dump(station)}"
       assert pref && pref.kind_of?(Integer) && pref > 0 && pref <= 47, "invalid pref #{JSON.dump(station)}"
       assert post && post.kind_of?(String) && post.match(PATTERN_POST), "invalid postal_code #{JSON.dump(station)}"
@@ -96,10 +98,7 @@ class FormatTest < Minitest::Test
           assert code != n && @station_map.key?(n), "station code #{n} not found at next #{JSON.dump(station)}"
         end
         # 'voronoi'
-        assert voronoi["lat"] && voronoi["lat"].kind_of?(Float), "invalid voronoi::lat #{JSON.dump(station)}"
-        assert voronoi["lng"] && voronoi["lng"].kind_of?(Float), "invalid voronoi::lng #{JSON.dump(station)}"
-        assert voronoi["delta_lat"] && voronoi["delta_lng"], "voronoi::delta not found #{JSON.dump(station)}"
-        assert_equal voronoi["delta_lng"].length, voronoi["delta_lat"].length, "voronoi::delta length mismatch #{JSON.dump(station)}"
+        assert check_feature(voronoi), "invalide voronoi data #{JSON.dump(station)}"
       end
     end
 
@@ -141,10 +140,7 @@ class FormatTest < Minitest::Test
       station_size = line["station_size"]
       station_list = line["station_list"]
       closed_date = line["closed_date"]
-      impl = !line.key?("impl") || line["impl"]
-
-      # only impl
-      assert impl, "not impl #{name}"
+      impl = line.fetch("impl", true)
 
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{name}"
@@ -173,17 +169,14 @@ class FormatTest < Minitest::Test
         polyline = line["polyline_list"]
         assert !impl || closed || polyline, "non-closed line must have polyline data #{name}"
         if polyline
-          assert line["north"] && line["south"] && line["east"] && line["west"], "polyline boundary needed #{name}"
-          north = line["north"]
-          south = line["south"]
-          east = line["east"]
-          west = line["west"]
+          prop = polyline["properties"]
+          north = prop["north"]
+          south = prop["south"]
+          east = prop["east"]
+          west = prop["west"]
           assert north.kind_of?(Float) && south.kind_of?(Float) && east.kind_of?(Float) && west.kind_of?(Float), "invalid polyline boundary #{name}"
           assert south < north && west < east, "polyline boundary not rect!! #{name}"
-          polyline.each do |e|
-            assert e["start"] && e["end"] && e["lat"] && e["lng"] && e["delta_lng"] && e["delta_lat"], "polyline fields lack #{name}"
-            assert_equal e["delta_lng"].length, e["delta_lat"].length, "delta list size mismatch at #{name}"
-          end
+          assert check_feature_collection(polyline), "invalid polyline #{name}"
         end
       end
 

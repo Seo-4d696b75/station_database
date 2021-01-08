@@ -1,9 +1,7 @@
 {
   "name":"神戸市営地下鉄北神線",
-  "symbol":"S",
-  "color":"#01AF98",
   "station_list":[
-    {"code":9963210,"name":"谷上","numbering":[{"index":"01"}]},
-    {"code":100302,"name":"新神戸","numbering":[{"index":"02"}]}
+    {"code":9963210,"name":"谷上","numbering":["S01"]},
+    {"code":100302,"name":"新神戸","numbering":["S02"]}
   ]
 }

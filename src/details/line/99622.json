@@ -1,21 +1,19 @@
 {
   "name":"OsakaMetro千日前線",
-  "symbol":"S",
-  "color":"#E44D93",
   "station_list":[
-    {"code":9962201,"name":"野田阪神","numbering":[{"index":"11"}]},
-    {"code":9962202,"name":"玉川(大阪)","numbering":[{"index":"12"}]},
-    {"code":9962106,"name":"阿波座","numbering":[{"index":"13"}]},
-    {"code":9962204,"name":"西長堀","numbering":[{"index":"14"}]},
-    {"code":3500210,"name":"桜川(大阪)","numbering":[{"index":"15"}]},
-    {"code":9961810,"name":"なんば","numbering":[{"index":"16"}]},
-    {"code":9962207,"name":"日本橋(大阪)","numbering":[{"index":"17"}]},
-    {"code":9961915,"name":"谷町九丁目","numbering":[{"index":"18"}]},
-    {"code":1162317,"name":"鶴橋","numbering":[{"index":"19"}]},
-    {"code":9962210,"name":"今里(OsakaMetro)","numbering":[{"index":"20"}]},
-    {"code":9962211,"name":"新深江","numbering":[{"index":"21"}]},
-    {"code":9962212,"name":"小路","numbering":[{"index":"22"}]},
-    {"code":9962213,"name":"北巽","numbering":[{"index":"23"}]},
-    {"code":9962214,"name":"南巽","numbering":[{"index":"24"}]}
+    {"code":9962201,"name":"野田阪神","numbering":["S11"]},
+    {"code":9962202,"name":"玉川(大阪)","numbering":["S12"]},
+    {"code":9962106,"name":"阿波座","numbering":["S13"]},
+    {"code":9962204,"name":"西長堀","numbering":["S14"]},
+    {"code":3500210,"name":"桜川(大阪)","numbering":["S15"]},
+    {"code":9961810,"name":"なんば","numbering":["S16"]},
+    {"code":9962207,"name":"日本橋(大阪)","numbering":["S17"]},
+    {"code":9961915,"name":"谷町九丁目","numbering":["S18"]},
+    {"code":1162317,"name":"鶴橋","numbering":["S19"]},
+    {"code":9962210,"name":"今里(OsakaMetro)","numbering":["S20"]},
+    {"code":9962211,"name":"新深江","numbering":["S21"]},
+    {"code":9962212,"name":"小路","numbering":["S22"]},
+    {"code":9962213,"name":"北巽","numbering":["S23"]},
+    {"code":9962214,"name":"南巽","numbering":["S24"]}
   ]
 }

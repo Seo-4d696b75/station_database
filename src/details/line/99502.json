@@ -1,20 +1,18 @@
 {
   "name":"伊豆箱根鉄道駿豆線",
-  "symbol":"IS",
-  "color":"#000000",
   "station_list":[
-    {"code":100206,"name":"三島","numbering":[{"index":"01"}]},
-    {"code":9950202,"name":"三島広小路","numbering":[{"index":"02"}]},
-    {"code":9950203,"name":"三島田町","numbering":[{"index":"03"}]},
-    {"code":9950204,"name":"三島二日町","numbering":[{"index":"04"}]},
-    {"code":9950205,"name":"大場","numbering":[{"index":"05"}]},
-    {"code":9950206,"name":"伊豆仁田","numbering":[{"index":"06"}]},
-    {"code":9950207,"name":"原木","numbering":[{"index":"07"}]},
-    {"code":9950208,"name":"韮山","numbering":[{"index":"08"}]},
-    {"code":9950209,"name":"伊豆長岡","numbering":[{"index":"09"}]},
-    {"code":9950210,"name":"田京","numbering":[{"index":"10"}]},
-    {"code":9950211,"name":"大仁","numbering":[{"index":"11"}]},
-    {"code":9950212,"name":"牧之郷","numbering":[{"index":"12"}]},
-    {"code":9950213,"name":"修善寺","numbering":[{"index":"13"}]}
+    {"code":100206,"name":"三島","numbering":["IS01"]},
+    {"code":9950202,"name":"三島広小路","numbering":["IS02"]},
+    {"code":9950203,"name":"三島田町","numbering":["IS03"]},
+    {"code":9950204,"name":"三島二日町","numbering":["IS04"]},
+    {"code":9950205,"name":"大場","numbering":["IS05"]},
+    {"code":9950206,"name":"伊豆仁田","numbering":["IS06"]},
+    {"code":9950207,"name":"原木","numbering":["IS07"]},
+    {"code":9950208,"name":"韮山","numbering":["IS08"]},
+    {"code":9950209,"name":"伊豆長岡","numbering":["IS09"]},
+    {"code":9950210,"name":"田京","numbering":["IS10"]},
+    {"code":9950211,"name":"大仁","numbering":["IS11"]},
+    {"code":9950212,"name":"牧之郷","numbering":["IS12"]},
+    {"code":9950213,"name":"修善寺","numbering":["IS13"]}
   ]
 }

@@ -38,5 +38,5 @@ jobs:
           git config --global user.email "s.kaoru509@gmail.com"
           git config --global user.name "Seo-4d696b75"
           git add .
-          git commit -m 'update latest-info'
+          git commit -m '[update] latest-info version:${{steps.version.outputs.value}}'
           git push origin master

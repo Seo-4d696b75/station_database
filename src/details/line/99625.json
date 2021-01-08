@@ -1,17 +1,15 @@
 {
   "name":"OsakaMetro南港ポートタウン線",
-  "symbol":"P",
-  "color":"#00A0DE",
   "station_list":[
-    {"code":9962101,"name":"コスモスクエア","numbering":[{"index":"09"}]},
-    {"code":9962502,"name":"トレードセンター前","numbering":[{"index":"10"}]},
-    {"code":9962503,"name":"中ふ頭","numbering":[{"index":"11"}]},
-    {"code":9962504,"name":"ポートタウン西","numbering":[{"index":"12"}]},
-    {"code":9962505,"name":"ポートタウン東","numbering":[{"index":"13"}]},
-    {"code":9962506,"name":"フェリーターミナル","numbering":[{"index":"14"}]},
-    {"code":9962507,"name":"南港東","numbering":[{"index":"15"}]},
-    {"code":9962508,"name":"南港口","numbering":[{"index":"16"}]},
-    {"code":9962509,"name":"平林(大阪)","numbering":[{"index":"17"}]},
-    {"code":9962011,"name":"住之江公園","numbering":[{"index":"18"}]}
+    {"code":9962101,"name":"コスモスクエア","numbering":["P09"]},
+    {"code":9962502,"name":"トレードセンター前","numbering":["P10"]},
+    {"code":9962503,"name":"中ふ頭","numbering":["P11"]},
+    {"code":9962504,"name":"ポートタウン西","numbering":["P12"]},
+    {"code":9962505,"name":"ポートタウン東","numbering":["P13"]},
+    {"code":9962506,"name":"フェリーターミナル","numbering":["P14"]},
+    {"code":9962507,"name":"南港東","numbering":["P15"]},
+    {"code":9962508,"name":"南港口","numbering":["P16"]},
+    {"code":9962509,"name":"平林(大阪)","numbering":["P17"]},
+    {"code":9962011,"name":"住之江公園","numbering":["P18"]}
   ]
 }
