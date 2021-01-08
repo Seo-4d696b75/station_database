@@ -2,7 +2,7 @@ name: consistency-test
 on:
   pull_request:
     branches:
-      - extra
+      - master
     path: 'out/*'
 jobs:
   test:
@@ -10,21 +10,22 @@ jobs:
     steps: 
       - uses: actions/checkout@v1
         with:
-          ref: 'extra-update'
+          ref: 'update'
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-      - name: fetch data from 'extra'
+      - name: fetch data from 'master'
         run: |
           mkdir artifact
-          curl https://raw.githubusercontent.com/Seo-4d696b75/station_database/extra/out/data.json -o artifact/data.json
+          curl https://raw.githubusercontent.com/Seo-4d696b75/station_database/master/out/data.json -o artifact/master.json
+          curl https://raw.githubusercontent.com/Seo-4d696b75/station_database/extra/out/data.json -o artifact/extra.json
       - name: enable problem matcher
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
       - name: compare data
         run: |
           gem install minitest
-          ruby src/script/test_merge.rb
+          ruby src/script/test_subset.rb
           echo 'diff.md'
           cat artifact/diff.md
       - uses: harupy/comment-on-pr@master
