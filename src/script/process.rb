@@ -1,7 +1,13 @@
+# usage: ./${this_file}.rb ${version} [--impl]
+# param ${version}: int value
+# param[optional] --impl: if this flag set, non-imple station in each staion-list ignored.
+#   Note: station-list in src/details/line/*.json include non-impl stations
+
 load("src/script/utils.rb")
 load("src/script/kdtree.rb")
 
 version = ARGV[0].to_i
+impl = (ARGV[1] == "--impl")
 puts "version: #{version}"
 
 dir_dst = "./out"
@@ -54,8 +60,12 @@ lines.each do |line|
   line.each { |key, value| details[key] = value }
   # 登録路線の抽出（駅メモ）
   details["station_list"].select! do |e|
+    # s == nil if impl && (station 'e' is not impl)
     s = station_map[e["code"]]
     next false if !s
+    if impl
+      next false if e.key?("impl") && !e["impl"]
+    end
     if e["name"] != s["name"]
       puts "Error > unknown station item. expected:#{e} found:#{s}"
       exit(0)
