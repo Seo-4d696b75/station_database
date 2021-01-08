@@ -36,7 +36,7 @@ LINE_FIELD = [
 
 # these fields are ignored when checking differenct between "update" and "master"
 IGNORE = [
-  "station_list",
+  "code",
   "polyline_list",
 ]
 
@@ -68,10 +68,9 @@ class SubsetTest < Minitest::Test
       return value.sort
     elsif key == "station_list"
       # code => id
-      value.each do |item|
-        item["id"] = station_map[item["code"]]["id"]
-      end
-      return value
+      return value.map do |item|
+               station_map[item["code"]]["id"]
+             end
     else
       return value
     end
@@ -183,7 +182,7 @@ class SubsetTest < Minitest::Test
       log "- **station** new station #{format_md(station)}"
     end
     lines.each_value do |line|
-      log << "- **line** new line #{format_md(line)}"
+      log "- **line** new line #{format_md(line)}"
     end
   end
 

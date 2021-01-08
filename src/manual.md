@@ -27,12 +27,6 @@
 - solved/station.json 駅メモ駅一覧
 - solved/line.json 駅メモ路線一覧
 
-### extra-update
-```
-$ ruby src/script/check.rb
-```
-
-### update
 `extra-update`ブランチから対象データを持ってくる  
 **注意** `merge`すると`out`ディレクトリ以下のファイルがコンフリクトする
 ```
@@ -70,7 +64,7 @@ src/script/diagram.bat
 - details/line/*.json 路線詳細
 - polyline/solved/*.json 路線ポリライン
 ```
-ruby src/script/process.rb [version]
+ruby src/script/process.rb ${version} --imple
 ```
 
 `./out`に出力
