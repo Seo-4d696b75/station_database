@@ -46,7 +46,7 @@ def format_polyline(data)
     p = value["points"].map do |e|
       [e["lng"].round(5), e["lat"].round(5)]
     end
-    {
+    d = {
       "type" => "Feature",
       "geometry" => {
         "type" => "LineString",
@@ -57,6 +57,8 @@ def format_polyline(data)
         "end" => value["end"],
       },
     }
+    d["properties"]["closed"] = true if !!value["closed"]
+    next d
   end
   {
     "type" => "FeatureCollection",
