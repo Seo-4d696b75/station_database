@@ -17,9 +17,6 @@
   </tr>
 </table>
 
-
-
-
 ## データの品質  
 位置ゲーム【駅メモ！】内で使用されているデータベースに準拠
 
@@ -42,6 +39,10 @@
 
 ## データの仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/DataFormat)  
+
+
+**version: 20210108 以降**  
+図形データの表現形式を`GeoJSON`に変更
 
 ### 自動テスト
 GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
