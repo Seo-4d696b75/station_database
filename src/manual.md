@@ -64,7 +64,7 @@ src/script/diagram.bat
 - details/line/*.json 路線詳細
 - polyline/solved/*.json 路線ポリライン
 ```
-ruby src/script/process.rb ${version} --imple
+ruby src/script/process.rb ${version} --impl
 ```
 
 `./out`に出力

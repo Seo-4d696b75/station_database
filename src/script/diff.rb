@@ -26,8 +26,8 @@ def format_md(value, key = nil, station_map = nil)
     value = value.map do |e|
       s = station_map[e["id"]]
       name = s["name"]
-      if n = s["numbering"]
-        next "#{name}(#{n.join("/")})"
+      if n = e["numbering"]
+        next "#{name}(#{n})"
       else
         next name
       end

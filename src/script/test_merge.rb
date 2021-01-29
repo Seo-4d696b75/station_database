@@ -42,10 +42,10 @@ LINE_FIELD = [
 
 # these fields are ignored
 IGNORE = [
-  "code",
-  "lines",
-  "polyline_list",
-]
+ #  "code",
+   #  "lines",
+   #  "polyline_list",
+  ]
 
 class MergeTest < Minitest::Test
   def setup()
@@ -71,6 +71,19 @@ class MergeTest < Minitest::Test
     data["lines"].each { |l| @lines[l["id"]] = l }
 
     @log = "## detected diff from `extra` branch  \n\n"
+  end
+
+  def check_diff(tag, id, old, current, fields)
+    fields.each do |key|
+      next if IGNORE.include?(key)
+      old_value = normalize_value(key, old[key], @old_station_map)
+      new_value = normalize_value(key, current[key], @station_map)
+      if old_value != new_value
+        old_value = format_md(old_value, key, @old_station_map)
+        new_value = format_md(new_value, key, @station_map)
+        @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
+      end
+    end
   end
 
   def test_id
