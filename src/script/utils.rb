@@ -5,7 +5,7 @@ require "securerandom"
 Encoding.default_external = "UTF-8"
 
 PATTERN_ID = /^[0-9a-f]{6}$/
-PATTERN_KANA = /^[\p{hiragana}ー・\p{P}]+$/
+PATTERN_KANA = /^[\p{hiragana}ー・\p{P}\s]+$/
 PATTERN_POST = /^[0-9]{3}-[0-9]{4}$/
 PATTERN_DATE = /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/
 PATTERN_COLOR = /^#[0-9A-F]{6}$/

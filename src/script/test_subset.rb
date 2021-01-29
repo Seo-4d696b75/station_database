@@ -1,4 +1,5 @@
 load("src/script/utils.rb")
+load("src/script/diff.rb")
 require "minitest/autorun"
 
 STATION_FIELD = [
@@ -36,8 +37,9 @@ LINE_FIELD = [
 
 # these fields are ignored when checking differenct between "update" and "master"
 IGNORE = [
-  "station_list",
+  "code",
   "polyline_list",
+  "numbering",
 ]
 
 class SubsetTest < Minitest::Test
@@ -56,53 +58,6 @@ class SubsetTest < Minitest::Test
     @log = "## detected diff from `master` branch  \n\n"
   end
 
-  def log(message)
-    puts message
-    @log << message
-    @log << "\n"
-  end
-
-  def normalize_value(key, value, station_map)
-    if key == "lines"
-      # Array of Int
-      return value.sort
-    elsif key == "station_list"
-      # code => id
-      value.each do |item|
-        item["id"] = station_map[item["code"]]["id"]
-      end
-      return value
-    else
-      return value
-    end
-  end
-
-  def format_md(value, key = nil, station_map = nil)
-    if key == "polyline_list"
-      return "`{..data..}`"
-    elsif key == "station_list"
-      value.map! do |e|
-        s = station_map[e.delete("id")]
-        name = s["name"]
-        if n = s["numbering"]
-          next "#{name}(#{n.join("/")})"
-        else
-          next name
-        end
-      end
-    elsif key == "line" || key == "station"
-      return "#{value["name"]}(#{value["code"]})"
-    end
-    if value.kind_of?(Array) || value.kind_of?(Hash)
-      return "`#{JSON.dump(value)}`"
-    elsif value.kind_of?(Numeric) || value.kind_of?(String) || value == true || value == false
-      return value.to_s
-    elsif value == nil
-      return "null"
-    end
-    raise "unexpected type #{value} #{value.class}"
-  end
-
   def check_diff(tag, id, old, current, fields)
     fields.each do |key|
       next if IGNORE.include?(key)
@@ -111,7 +66,7 @@ class SubsetTest < Minitest::Test
       if old_value != new_value
         old_value = format_md(old_value, key, @old_station_map)
         new_value = format_md(new_value, key, @station_map)
-        log "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}"
+        @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
       end
     end
   end
@@ -180,10 +135,10 @@ class SubsetTest < Minitest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     stations.each_value do |station|
-      log "- **station** new station #{format_md(station)}"
+      @log << "- **station** new station #{format_md(station)}\n"
     end
     lines.each_value do |line|
-      log << "- **line** new line #{format_md(line)}"
+      @log << "- **line** new line #{format_md(line)}\n"
     end
   end
 
