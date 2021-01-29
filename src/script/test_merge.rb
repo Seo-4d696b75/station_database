@@ -42,10 +42,10 @@ LINE_FIELD = [
 
 # these fields are ignored
 IGNORE = [
-  "code",
-  "lines",
-  "polyline_list",
-]
+ #  "code",
+   #  "lines",
+   #  "polyline_list",
+  ]
 
 class MergeTest < Minitest::Test
   def setup()
