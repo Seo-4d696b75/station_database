@@ -1,18 +1,16 @@
 {
   "name":"阪急千里線",
-  "symbol":"HK",
-  "color":"#32CD32",
   "station_list":[
-    {"code":3400801,"name":"北千里","numbering":[{"index":"95"}]},
-    {"code":3400802,"name":"山田(大阪)","numbering":[{"index":"94"}]},
-    {"code":3400803,"name":"南千里","numbering":[{"index":"93"}]},
-    {"code":3400804,"name":"千里山","numbering":[{"index":"92"}]},
-    {"code":3400805,"name":"関大前","numbering":[{"index":"91"}]},
-    {"code":3400806,"name":"豊津(大阪)","numbering":[{"index":"90"}]},
-    {"code":3400807,"name":"吹田(阪急電鉄)","numbering":[{"index":"89"}]},
-    {"code":3400808,"name":"下新庄","numbering":[{"index":"88"}]},
-    {"code":3400322,"name":"淡路","numbering":[{"index":"63"}]},
-    {"code":3400810,"name":"柴島","numbering":[{"index":"87"}]},
-    {"code":3400811,"name":"天神橋筋六丁目","numbering":[{"symbol":"K","color":"#814721","index":"11"}]}
+    {"code":3400801,"name":"北千里","numbering":["HK95"]},
+    {"code":3400802,"name":"山田(大阪)","numbering":["HK94"]},
+    {"code":3400803,"name":"南千里","numbering":["HK93"]},
+    {"code":3400804,"name":"千里山","numbering":["HK92"]},
+    {"code":3400805,"name":"関大前","numbering":["HK91"]},
+    {"code":3400806,"name":"豊津(大阪)","numbering":["HK90"]},
+    {"code":3400807,"name":"吹田(阪急電鉄)","numbering":["HK89"]},
+    {"code":3400808,"name":"下新庄","numbering":["HK88"]},
+    {"code":3400322,"name":"淡路","numbering":["HK63"]},
+    {"code":3400810,"name":"柴島","numbering":["HK87"]},
+    {"code":3400811,"name":"天神橋筋六丁目","numbering":["K11"]}
   ]
 }

@@ -1,13 +1,11 @@
 {
   "name":"西武多摩川線",
-  "symbol":"SW",
-  "color":"#FF6600",
   "station_list":[
-    {"code":1131221,"name":"武蔵境","numbering":[{"index":"01"}]},
-    {"code":2201202,"name":"新小金井","numbering":[{"index":"02"}]},
-    {"code":2201203,"name":"多磨","numbering":[{"index":"03"}]},
-    {"code":2201204,"name":"白糸台","numbering":[{"index":"04"}]},
-    {"code":2201205,"name":"競艇場前","numbering":[{"index":"05"}]},
-    {"code":2201206,"name":"是政","numbering":[{"index":"06"}]}
+    {"code":1131221,"name":"武蔵境","numbering":["SW01"]},
+    {"code":2201202,"name":"新小金井","numbering":["SW02"]},
+    {"code":2201203,"name":"多磨","numbering":["SW03"]},
+    {"code":2201204,"name":"白糸台","numbering":["SW04"]},
+    {"code":2201205,"name":"競艇場前","numbering":["SW05"]},
+    {"code":2201206,"name":"是政","numbering":["SW06"]}
   ]
 }

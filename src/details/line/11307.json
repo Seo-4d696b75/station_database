@@ -1,19 +1,17 @@
 {
   "name":"JR根岸線",
-  "symbol":"JK",
-  "color":"#00B2E5",
   "station_list":[
-    {"code":1130105,"name":"横浜","numbering":[{"index":"12"}]},
-    {"code":1130702,"name":"桜木町","numbering":[{"index":"11"}]},
-    {"code":1130703,"name":"関内","numbering":[{"index":"10"}]},
-    {"code":1130704,"name":"石川町","numbering":[{"index":"09"}]},
-    {"code":1130705,"name":"山手","numbering":[{"index":"08"}]},
-    {"code":1130706,"name":"根岸(神奈川)","numbering":[{"index":"07"}]},
-    {"code":1130707,"name":"磯子","numbering":[{"index":"06"}]},
-    {"code":1130708,"name":"新杉田","numbering":[{"index":"05"}]},
-    {"code":1130709,"name":"洋光台","numbering":[{"index":"04"}]},
-    {"code":1130710,"name":"港南台","numbering":[{"index":"03"}]},
-    {"code":1130711,"name":"本郷台","numbering":[{"index":"02"}]},
-    {"code":1130107,"name":"大船","numbering":[{"index":"01"}]}
+    {"code":1130105,"name":"横浜","numbering":["JK12"]},
+    {"code":1130702,"name":"桜木町","numbering":["JK11"]},
+    {"code":1130703,"name":"関内","numbering":["JK10"]},
+    {"code":1130704,"name":"石川町","numbering":["JK09"]},
+    {"code":1130705,"name":"山手","numbering":["JK08"]},
+    {"code":1130706,"name":"根岸(神奈川)","numbering":["JK07"]},
+    {"code":1130707,"name":"磯子","numbering":["JK06"]},
+    {"code":1130708,"name":"新杉田","numbering":["JK05"]},
+    {"code":1130709,"name":"洋光台","numbering":["JK04"]},
+    {"code":1130710,"name":"港南台","numbering":["JK03"]},
+    {"code":1130711,"name":"本郷台","numbering":["JK02"]},
+    {"code":1130107,"name":"大船","numbering":["JK01"]}
   ]
 }

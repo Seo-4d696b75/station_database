@@ -1,18 +1,16 @@
 {
   "name":"OsakaMetro今里筋線",
-  "symbol":"I",
-  "color":"#EE7B1A",
   "station_list":[
-    {"code":9965201,"name":"井高野","numbering":[{"index":"11"}]},
-    {"code":9965202,"name":"瑞光四丁目","numbering":[{"index":"12"}]},
-    {"code":9965203,"name":"だいどう豊里","numbering":[{"index":"13"}]},
-    {"code":9961903,"name":"太子橋今市","numbering":[{"index":"14"}]},
-    {"code":9965205,"name":"清水(大阪)","numbering":[{"index":"15"}]},
-    {"code":9965206,"name":"新森古市","numbering":[{"index":"16"}]},
-    {"code":9965207,"name":"関目成育","numbering":[{"index":"17"}]},
-    {"code":9962413,"name":"蒲生四丁目","numbering":[{"index":"18"}]},
-    {"code":1161723,"name":"鴫野","numbering":[{"index":"19"}]},
-    {"code":9962111,"name":"緑橋","numbering":[{"index":"20"}]},
-    {"code":9962210,"name":"今里(OsakaMetro)","numbering":[{"index":"21"}]}
+    {"code":9965201,"name":"井高野","numbering":["I11"]},
+    {"code":9965202,"name":"瑞光四丁目","numbering":["I12"]},
+    {"code":9965203,"name":"だいどう豊里","numbering":["I13"]},
+    {"code":9961903,"name":"太子橋今市","numbering":["I14"]},
+    {"code":9965205,"name":"清水(大阪)","numbering":["I15"]},
+    {"code":9965206,"name":"新森古市","numbering":["I16"]},
+    {"code":9965207,"name":"関目成育","numbering":["I17"]},
+    {"code":9962413,"name":"蒲生四丁目","numbering":["I18"]},
+    {"code":1161723,"name":"鴫野","numbering":["I19"]},
+    {"code":9962111,"name":"緑橋","numbering":["I20"]},
+    {"code":9962210,"name":"今里(OsakaMetro)","numbering":["I21"]}
   ]
 }

@@ -1,8 +1,8 @@
 {
   "name":"JR根室本線(花咲線)(釧路～根室)",
   "station_list":[
-    {"code":1110731,"name":"釧路","numbering":[{"symbol":"K","color":"#8CC63E","index":"53"}]},
-    {"code":1110802,"name":"東釧路","numbering":[{"symbol":"B","color":"#EF59A1","index":"54"}]},
+    {"code":1110731,"name":"釧路","numbering":["K53"]},
+    {"code":1110802,"name":"東釧路","numbering":["B54"]},
     {"code":1110803,"name":"武佐(北海道)"},
     {"code":1110804,"name":"別保"},
     {"code":1110805,"name":"上尾幌"},

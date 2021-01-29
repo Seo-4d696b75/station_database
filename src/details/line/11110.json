@@ -1,21 +1,20 @@
 {
   "name":"JR石勝線",
-  "color":"#8CC63E",
   "station_list":[
-    {"code":1110906,"name":"南千歳","numbering":[{"symbol":"H","color":"#0072BC","index":"14"}]},
-    {"code":1110506,"name":"追分(北海道)","numbering":[{"symbol":"K","index":"15"}]},
-    {"code":1111003,"name":"東追分","numbering":[{"symbol":"K","index":"16"}]},
-    {"code":1111004,"name":"川端","numbering":[{"symbol":"K","index":"17"}]},
-    {"code":1111005,"name":"滝ノ上","numbering":[{"symbol":"K","index":"18"}]},
-    {"code":1111006,"name":"十三里","numbering":[{"symbol":"K","index":"19"}]},
-    {"code":1111007,"name":"新夕張","numbering":[{"symbol":"K","index":"20"}]},
-    {"code":1111008,"name":"沼ノ沢","numbering":[{"symbol":"Y","index":"21"}]},
-    {"code":1111009,"name":"南清水沢","numbering":[{"symbol":"Y","index":"22"}]},
-    {"code":1111010,"name":"清水沢","numbering":[{"symbol":"Y","index":"23"}]},
-    {"code":1111011,"name":"鹿ノ谷","numbering":[{"symbol":"Y","index":"24"}]},
-    {"code":1111012,"name":"夕張","numbering":[{"symbol":"Y","index":"25"}]},
-    {"code":1111013,"name":"占冠","numbering":[{"symbol":"K","index":"21"}]},
-    {"code":1111014,"name":"トマム","numbering":[{"symbol":"K","index":"22"}]},
-    {"code":1110618,"name":"新得","numbering":[{"symbol":"K","index":"23"}]}
+    {"code":1110906,"name":"南千歳","numbering":["H14"]},
+    {"code":1110506,"name":"追分(北海道)","numbering":["K15"]},
+    {"code":1111003,"name":"東追分","numbering":["K16"]},
+    {"code":1111004,"name":"川端","numbering":["K17"]},
+    {"code":1111005,"name":"滝ノ上","numbering":["K18"]},
+    {"code":1111006,"name":"十三里","numbering":["K19"]},
+    {"code":1111007,"name":"新夕張","numbering":["K20"]},
+    {"code":1111008,"name":"沼ノ沢","numbering":["Y21"]},
+    {"code":1111009,"name":"南清水沢","numbering":["Y22"]},
+    {"code":1111010,"name":"清水沢","numbering":["Y23"]},
+    {"code":1111011,"name":"鹿ノ谷","numbering":["Y24"]},
+    {"code":1111012,"name":"夕張","numbering":["Y25"]},
+    {"code":1111013,"name":"占冠","numbering":["K21"]},
+    {"code":1111014,"name":"トマム","numbering":["K22"]},
+    {"code":1110618,"name":"新得","numbering":["K23"]}
   ]
 }

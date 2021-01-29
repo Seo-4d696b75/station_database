@@ -1,21 +1,19 @@
 {
   "name":"京都丹後鉄道宮福線",
-  "symbol":"F",
-  "color":"#8CC63E",
   "station_list":[
-    {"code":1161514,"name":"福知山","numbering":[{"index":"1"}]},
-    {"code":9960802,"name":"福知山市民病院口","numbering":[{"index":"2"}]},
-    {"code":9960803,"name":"荒河かしの木台","numbering":[{"index":"3"}]},
-    {"code":9960804,"name":"牧(京都)","numbering":[{"index":"4"}]},
-    {"code":9960805,"name":"下天津(京都丹後鉄道)","numbering":[{"index":"5"}]},
-    {"code":9960806,"name":"公庄(京都丹後鉄道)","numbering":[{"index":"6"}]},
-    {"code":9960807,"name":"大江(京都)","numbering":[{"index":"7"}]},
-    {"code":9960808,"name":"大江高校前","numbering":[{"index":"8"}]},
-    {"code":9960809,"name":"二俣","numbering":[{"index":"9"}]},
-    {"code":9960810,"name":"大江山口内宮","numbering":[{"index":"10"}]},
-    {"code":9960811,"name":"辛皮","numbering":[{"index":"11"}]},
-    {"code":9960812,"name":"喜多","numbering":[{"index":"12"}]},
-    {"code":9960813,"name":"宮村","numbering":[{"index":"13"}]},
-    {"code":9960814,"name":"宮津","numbering":[{"index":"14"}]}
+    {"code":1161514,"name":"福知山","numbering":["F1"]},
+    {"code":9960802,"name":"福知山市民病院口","numbering":["F2"]},
+    {"code":9960803,"name":"荒河かしの木台","numbering":["F3"]},
+    {"code":9960804,"name":"牧(京都)","numbering":["F4"]},
+    {"code":9960805,"name":"下天津(京都丹後鉄道)","numbering":["F5"]},
+    {"code":9960806,"name":"公庄(京都丹後鉄道)","numbering":["F6"]},
+    {"code":9960807,"name":"大江(京都)","numbering":["F7"]},
+    {"code":9960808,"name":"大江高校前","numbering":["F8"]},
+    {"code":9960809,"name":"二俣","numbering":["F9"]},
+    {"code":9960810,"name":"大江山口内宮","numbering":["F10"]},
+    {"code":9960811,"name":"辛皮","numbering":["F11"]},
+    {"code":9960812,"name":"喜多","numbering":["F12"]},
+    {"code":9960813,"name":"宮村","numbering":["F13"]},
+    {"code":9960814,"name":"宮津","numbering":["F14"]}
   ]
 }

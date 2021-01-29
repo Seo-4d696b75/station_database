@@ -1,7 +1,9 @@
-# working directory: /
+# check raw data in csv files, and write into json files.
+# add "--impl" arg in cmd if extract only station item whose "impl"=true
 load("src/script/format.rb")
 
 require "net/http"
+require "optparse"
 
 STATION_FIELD = [
   "code",
@@ -37,6 +39,11 @@ LINE_FIELD = [
 ]
 
 API_KEY = read("src/api_key.txt")
+IMPL = false
+opt = OptionParser.new
+opt.on("--impl") { |v| IMPL = v }
+opt.parse!(ARGV)
+ARGV.clear()
 
 def get_address(station)
   print "get address of station:#{station["name"]} > "
@@ -106,14 +113,16 @@ class CSVTest < FormatTest
     # registaration of station-line is defined here
     read_line_details()
 
-    # filter impl
-    @stations.select! do |s|
-      s["lines"].select! { |code| @line_map[code]["impl"] }
-      s.delete("impl")
-    end
-    @lines.select! do |l|
-      # station_list edited
-      l.delete("impl")
+    if IMPL
+      # filter impl
+      @stations.select! do |s|
+        s["lines"].select! { |code| @line_map[code]["impl"] }
+        s.delete("impl")
+      end
+      @lines.select! do |l|
+        # station_list edited
+        l.delete("impl")
+      end
     end
   end
 
@@ -139,7 +148,7 @@ class CSVTest < FormatTest
     File.open("src/solved/line.json", "w") do |f|
       list = @lines.map do |line|
         line.delete_if do |key, value|
-          value == nil || (key == "closed" && !value)
+          value == nil || (key == "closed" && !value) || key == "station_list"
         end
         sort_hash(line)
       end
@@ -162,11 +171,10 @@ class CSVTest < FormatTest
   def read_station
     csv_each_line("src/station.csv") do |fields|
       csv_err("col size != 15") if fields.length != 15
-
-      impl = read_boolean(fields, "impl")
-
       code = fields["code"].to_i
       id = read_value(fields, "id")
+      impl = read_boolean(fields, "impl")
+
       name = read_value(fields, "name")
       name_original = read_value(fields, "original_name")
       name_kana = read_value(fields, "name_kana")
@@ -206,9 +214,6 @@ class CSVTest < FormatTest
   def read_line
     csv_each_line("src/line.csv") do |fields|
       csv_err("fields size != 12") if fields.length != 12
-
-      impl = read_boolean(fields, "impl")
-
       code = fields["code"].to_i
       id = read_value(fields, "id")
       name = read_value(fields, "name")
@@ -220,6 +225,7 @@ class CSVTest < FormatTest
       color = read_value(fields, "color")
       symbol = read_value(fields, "symbol")
       closed = read_boolean(fields, "closed")
+      impl = read_boolean(fields, "impl")
       closed_date = read_date(fields, "closed_date")
       puts "Warning > line closed date not defined #{name}" if closed && !closed_date
 
@@ -268,7 +274,7 @@ class CSVTest < FormatTest
         write = true
       end
       assert station["postal_code"].match(PATTERN_POST), "invalide post code: #{JSON.dump(station)}"
-      write_csv("station.csv", STATION_FIELD, @stations) if write
+      write_csv("src/station.csv", STATION_FIELD, @stations) if write
     end
   end
 
@@ -287,7 +293,6 @@ class CSVTest < FormatTest
       size = line["station_size"]
       assert_equal size, details["station_list"].length, "station list size mismatch at #{JSON.dump(line)}"
       line_code = line["code"]
-      symbol = line["symbol"]
       impl_size = 0
 
       write = false
@@ -295,7 +300,6 @@ class CSVTest < FormatTest
         station_code = s["code"]
         station_name = s["name"]
         impl = s.fetch("impl", true)
-
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
@@ -316,20 +320,24 @@ class CSVTest < FormatTest
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
 
-        # only impl
-        next nil if !impl || !station["impl"]
+        if IMPL
+          # only impl
+          next nil if !impl || !station["impl"]
+        end
 
         impl_size += 1 if station["impl"] && impl
         # 駅要素側にも登録路線を記憶
         station["lines"] << line["code"]
         index = i + 1
         # 駅ナンバリングを文字列表現
-        numbering = format_numbering(s, symbol)
-        numbering = "NULL" if numbering == nil
+        numbering = "NULL"
+        if n = s["numbering"]
+          numbering = n.join("/")
+        end
         @register << [station_code, line_code, index, numbering]
         next sort_hash(s)
       end.compact
-      line["station_size"] = line["station_list"].length
+      line["station_size"] = line["station_list"].length if IMPL
 
       # 更新あるなら駅登録詳細へ反映
       if write

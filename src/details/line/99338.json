@@ -1,16 +1,14 @@
 {
   "name":"東葉高速鉄道",
-  "symbol":"TR",
-  "color":"#3FB036",
   "station_list":[
-    {"code":1130524,"name":"西船橋","numbering":[{"index":"01"}]},
-    {"code":9933802,"name":"東海神","numbering":[{"index":"02"}]},
-    {"code":9933803,"name":"飯山満","numbering":[{"index":"03"}]},
-    {"code":9932906,"name":"北習志野","numbering":[{"index":"04"}]},
-    {"code":9933805,"name":"船橋日大前","numbering":[{"index":"05"}]},
-    {"code":9933806,"name":"八千代緑が丘","numbering":[{"index":"06"}]},
-    {"code":9933807,"name":"八千代中央","numbering":[{"index":"07"}]},
-    {"code":9933808,"name":"村上(千葉)","numbering":[{"index":"08"}]},
-    {"code":9933809,"name":"東葉勝田台","numbering":[{"index":"09"}]}
+    {"code":1130524,"name":"西船橋","numbering":["TR01"]},
+    {"code":9933802,"name":"東海神","numbering":["TR02"]},
+    {"code":9933803,"name":"飯山満","numbering":["TR03"]},
+    {"code":9932906,"name":"北習志野","numbering":["TR04"]},
+    {"code":9933805,"name":"船橋日大前","numbering":["TR05"]},
+    {"code":9933806,"name":"八千代緑が丘","numbering":["TR06"]},
+    {"code":9933807,"name":"八千代中央","numbering":["TR07"]},
+    {"code":9933808,"name":"村上(千葉)","numbering":["TR08"]},
+    {"code":9933809,"name":"東葉勝田台","numbering":["TR09"]}
   ]
 }

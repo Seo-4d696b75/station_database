@@ -1,17 +1,16 @@
 {
   "name":"伊予鉄道３系統(市駅線)",
-  "color":"#FF0000",
   "station_list":[
-    {"code":9980801,"name":"松山市駅","numbering":[{"index":"01"}]},
-    {"code":9980802,"name":"南堀端","numbering":[{"index":"02"}]},
-    {"code":9980821,"name":"市役所前(愛媛)","numbering":[{"index":"21"}]},
-    {"code":9980820,"name":"県庁前(愛媛)","numbering":[{"index":"20"}]},
-    {"code":9980819,"name":"大街道","numbering":[{"index":"19"}]},
-    {"code":9980818,"name":"勝山町","numbering":[{"index":"18"}]},
-    {"code":9980817,"name":"警察署前","numbering":[{"index":"17"}]},
-    {"code":9980816,"name":"上一万","numbering":[{"index":"16"}]},
-    {"code":9981009,"name":"南町","numbering":[{"index":"22"}]},
-    {"code":9981010,"name":"道後公園","numbering":[{"index":"23"}]},
-    {"code":9981011,"name":"道後温泉","numbering":[{"index":"24"}]}
+    {"code":9980801,"name":"松山市駅","numbering":["01"]},
+    {"code":9980802,"name":"南堀端","numbering":["02"]},
+    {"code":9980821,"name":"市役所前(愛媛)","numbering":["21"]},
+    {"code":9980820,"name":"県庁前(愛媛)","numbering":["20"]},
+    {"code":9980819,"name":"大街道","numbering":["19"]},
+    {"code":9980818,"name":"勝山町","numbering":["18"]},
+    {"code":9980817,"name":"警察署前","numbering":["17"]},
+    {"code":9980816,"name":"上一万","numbering":["16"]},
+    {"code":9981009,"name":"南町","numbering":["22"]},
+    {"code":9981010,"name":"道後公園","numbering":["23"]},
+    {"code":9981011,"name":"道後温泉","numbering":["24"]}
   ]
 }

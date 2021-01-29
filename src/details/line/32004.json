@@ -1,10 +1,8 @@
 {
   "name":"南海高師浜線",
-  "symbol":"NK",
-  "color":"#0065AF",
   "station_list":[
-    {"code":3200114,"name":"羽衣","numbering":[{"index":"16"}]},
-    {"code":3200402,"name":"伽羅橋","numbering":[{"index":"16-1"}]},
-    {"code":3200403,"name":"高師浜","numbering":[{"index":"16-2"}]}
+    {"code":3200114,"name":"羽衣","numbering":["NK16"]},
+    {"code":3200402,"name":"伽羅橋","numbering":["NK16-1"]},
+    {"code":3200403,"name":"高師浜","numbering":["NK16-2"]}
   ]
 }

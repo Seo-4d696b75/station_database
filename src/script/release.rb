@@ -5,7 +5,7 @@ size = File.size("out/data.json")
 
 info = {
   "version": version,
-  "size": ("%.2fMB" % (size.to_f / 2 ** 20)),
+  "size": size,
   "url": "https://raw.githubusercontent.com/Seo-4d696b75/station_database/master/out/data.json",
 }
 

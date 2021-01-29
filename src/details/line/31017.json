@@ -1,15 +1,13 @@
 {
   "name":"近鉄田原本線",
-  "symbol":"I",
-  "color":"#EEC900",
   "station_list":[
-    {"code":3101701,"name":"西田原本","numbering":[{"index":"36"}]},
-    {"code":3101702,"name":"黒田(奈良)","numbering":[{"index":"37"}]},
-    {"code":3101703,"name":"但馬","numbering":[{"index":"38"}]},
-    {"code":3101704,"name":"箸尾","numbering":[{"index":"39"}]},
-    {"code":3101705,"name":"池部","numbering":[{"index":"40"}]},
-    {"code":3101706,"name":"佐味田川","numbering":[{"index":"41"}]},
-    {"code":3101707,"name":"大輪田","numbering":[{"index":"42"}]},
-    {"code":3101708,"name":"新王寺","numbering":[{"index":"43"}]}
+    {"code":3101701,"name":"西田原本","numbering":["I36"]},
+    {"code":3101702,"name":"黒田(奈良)","numbering":["I37"]},
+    {"code":3101703,"name":"但馬","numbering":["I38"]},
+    {"code":3101704,"name":"箸尾","numbering":["I39"]},
+    {"code":3101705,"name":"池部","numbering":["I40"]},
+    {"code":3101706,"name":"佐味田川","numbering":["I41"]},
+    {"code":3101707,"name":"大輪田","numbering":["I42"]},
+    {"code":3101708,"name":"新王寺","numbering":["I43"]}
   ]
 }

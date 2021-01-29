@@ -1,9 +1,7 @@
 {
   "name":"南海高野山ケーブル",
-  "symbol":"NK",
-  "color":"#009A41",
   "station_list":[
-    {"code":3200742,"name":"極楽橋","numbering":[{"index":"86"}]},
-    {"code":3200802,"name":"高野山","numbering":[{"index":"87"}]}
+    {"code":3200742,"name":"極楽橋","numbering":["NK86"]},
+    {"code":3200802,"name":"高野山","numbering":["NK87"]}
   ]
 }

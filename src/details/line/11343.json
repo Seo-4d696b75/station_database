@@ -1,9 +1,7 @@
 {
   "name":"JR上野東京ライン",
-  "symbol":"JU",
-  "color":"#F68B1E",
   "station_list":[
-    {"code":100201,"name":"東京","numbering":[{"index":"01"}]},
-    {"code":100402,"name":"上野","numbering":[{"index":"02"}]}
+    {"code":100201,"name":"東京","numbering":["JU01"]},
+    {"code":100402,"name":"上野","numbering":["JU02"]}
   ]
 }

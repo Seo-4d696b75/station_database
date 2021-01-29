@@ -1,15 +1,13 @@
 {
   "name":"近鉄長野線",
-  "symbol":"O",
-  "color":"#006400",
   "station_list":[
-    {"code":3100316,"name":"古市(大阪)","numbering":[{"index":"16"}]},
-    {"code":3102202,"name":"喜志","numbering":[{"index":"17"}]},
-    {"code":3102203,"name":"富田林","numbering":[{"index":"18"}]},
-    {"code":3102204,"name":"富田林西口","numbering":[{"index":"19"}]},
-    {"code":3102205,"name":"川西(大阪)","numbering":[{"index":"20"}]},
-    {"code":3102206,"name":"滝谷不動","numbering":[{"index":"21"}]},
-    {"code":3102207,"name":"汐ノ宮","numbering":[{"index":"22"}]},
-    {"code":3102208,"name":"河内長野","numbering":[{"index":"23"}]}
+    {"code":3100316,"name":"古市(大阪)","numbering":["O16"]},
+    {"code":3102202,"name":"喜志","numbering":["O17"]},
+    {"code":3102203,"name":"富田林","numbering":["O18"]},
+    {"code":3102204,"name":"富田林西口","numbering":["O19"]},
+    {"code":3102205,"name":"川西(大阪)","numbering":["O20"]},
+    {"code":3102206,"name":"滝谷不動","numbering":["O21"]},
+    {"code":3102207,"name":"汐ノ宮","numbering":["O22"]},
+    {"code":3102208,"name":"河内長野","numbering":["O23"]}
   ]
 }
