@@ -8,7 +8,7 @@
 			"name": "Debug Local File",
 			"type": "Ruby",
 			"request": "launch",
-			"program": "${workspaceRoot}/src/script/test_merge.rb",
+			"program": "${workspaceRoot}/src/script/polyline.rb",
 			"cwd": "${workspaceRoot}/"
 		}
 	]
