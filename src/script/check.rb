@@ -38,6 +38,10 @@ LINE_FIELD = [
   "impl",
 ]
 
+REGISTER_FIELDS = [
+  "station_code", "line_code", "index", "numbering", "impl",
+]
+
 API_KEY = read("src/api_key.txt")
 IMPL = false
 opt = OptionParser.new
@@ -138,10 +142,11 @@ class CSVTest < FormatTest
   end
 
   def teardown
-    print "Write station register.csv..."
-    File.open("src/register.csv", "w") do |file|
-      @register.each { |e| file.puts(e.join(",")) }
-    end
+    puts "write csv to out/*.csv impl:#{IMPL}"
+    write_csv("out/station.csv", STATION_FIELD, @stations.select { |s| s["impl"] || !IMPL })
+    write_csv("out/line.csv", LINE_FIELD, @lines.select { |l| l["impl"] || !IMPL })
+    write_csv("out/register.csv", REGISTER_FIELDS, @register.select { |r| r["impl"] || !IMPL })
+    write_csv("src/register.csv", REGISTER_FIELDS, @register)
     puts "OK"
 
     print "Write to json files..."
@@ -282,7 +287,6 @@ class CSVTest < FormatTest
     puts "reading line details..."
 
     @register = []
-    @register << ["station_code", "line_code", "index", "numbering"]
     @lines.each do |line|
       # 路線の登録駅情報
       path = "src/details/line/#{line["code"]}.json"
@@ -320,22 +324,30 @@ class CSVTest < FormatTest
           assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
 
-        if IMPL
-          # only impl
-          next nil if !impl || !station["impl"]
-        end
-
-        impl_size += 1 if station["impl"] && impl
-        # 駅要素側にも登録路線を記憶
-        station["lines"] << line["code"]
         index = i + 1
         # 駅ナンバリングを文字列表現
         numbering = "NULL"
         if n = s["numbering"]
           numbering = n.join("/")
         end
-        @register << [station_code, line_code, index, numbering]
-        next sort_hash(s)
+        @register << {
+          "station_code" => station_code,
+          "line_code" => line_code,
+          "index" => index,
+          "numbering" => numbering,
+          "impl" => (impl && station["impl"]),
+        }
+
+        # 路線登録数の確認 impl only
+        impl_size += 1 if station["impl"] && impl
+
+        if !IMPL || (station["impl"] && impl)
+          # only impl# 駅要素側にも登録路線を記憶
+          station["lines"] << line["code"]
+          next sort_hash(s)
+        else
+          next nil
+        end
       end.compact
       line["station_size"] = line["station_list"].length if IMPL
 
