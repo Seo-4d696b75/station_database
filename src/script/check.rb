@@ -109,7 +109,7 @@ class CSVTest < FormatTest
     read_station()
     read_line()
     # fill in blank id values, if needed
-    check_id()
+    check_id() if !IMPL
 
     self.check_init()
 
@@ -132,7 +132,7 @@ class CSVTest < FormatTest
 
   def test_station()
     # fill in black address and post-code, if needed
-    check_address()
+    check_address() if !IMPL
 
     self.check_station(false)
   end
@@ -143,17 +143,21 @@ class CSVTest < FormatTest
 
   def teardown
     puts "write csv to out/*.csv impl:#{IMPL}"
-    write_csv("out/station.csv", STATION_FIELD, @stations.select { |s| s["impl"] || !IMPL })
-    write_csv("out/line.csv", LINE_FIELD, @lines.select { |l| l["impl"] || !IMPL })
-    write_csv("out/register.csv", REGISTER_FIELDS, @register.select { |r| r["impl"] || !IMPL })
-    write_csv("src/register.csv", REGISTER_FIELDS, @register)
+    if IMPL
+      STATION_FIELD.delete("impl")
+      LINE_FIELD.delete("impl")
+      REGISTER_FIELDS.delete("impl")
+    end
+    write_csv("out/station.csv", STATION_FIELD, @stations)
+    write_csv("out/line.csv", LINE_FIELD, @lines)
+    write_csv("out/register.csv", REGISTER_FIELDS, @register)
     puts "OK"
 
     print "Write to json files..."
     File.open("src/solved/line.json", "w") do |f|
       list = @lines.map do |line|
         line.delete_if do |key, value|
-          value == nil || (key == "closed" && !value) || key == "station_list"
+          value == nil || key == "station_list"
         end
         sort_hash(line)
       end
@@ -162,8 +166,6 @@ class CSVTest < FormatTest
     File.open("src/solved/station.json", "w") do |f|
       list = @stations.map do |s|
         s.delete_if { |key, value| value == nil }
-        s.delete("closed") if !s["closed"]
-        s.delete("original_name") if s["original_name"] == s["name"]
         sort_hash(s)
       end
       f.write(format_json(list, flat: true))
