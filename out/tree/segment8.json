@@ -1,10 +1,10 @@
 {
   "name":"segment8",
   "root":9971125,
-  "east":132.473112,
-  "west":130.880563,
+  "east":132.474071,
+  "west":130.881246,
   "south":34.193637,
-  "north":34.66591,
+  "north":34.666199,
   "station_size":163,
   "node_list":[
     {"code":9971125,"left":1170222,"right":9971119,"id":"6fdf2b","name":"草津南","name_kana":"くさつみなみ","lat":34.378092,"lng":132.398479,"prefecture":34,"lines":[99711],"attr":"heat","postal_code":"733-0863","address":"広島市西区草津南３-１８４８","next":[9971126,9971124,9971420,1161118],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.411572,34.337103],[132.4148,34.358767],[132.383841,34.40674],[132.395191,34.376873],[132.411572,34.337103]]]},"properties":{}},"impl":true},
