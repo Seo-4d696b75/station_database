@@ -119,9 +119,7 @@ segments.map do |seg|
   details = seg.clone
   details["node_list"] = seg["node_list"].map do |n|
     node = n.clone
-    if !node.key?("segment")
-      station_map[n["code"]].each { |key, value| node[key] = value }
-    end
+    station_map[n["code"]].each { |key, value| node[key] = value }
     sort_hash(node)
   end
   details
