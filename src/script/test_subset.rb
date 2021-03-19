@@ -37,9 +37,9 @@ LINE_FIELD = [
 
 # these fields are ignored when checking differenct between "update" and "master"
 IGNORE = [
-  "code",
   "polyline_list",
-  "numbering",
+  "closed",
+  "original_name",
 ]
 
 class SubsetTest < Minitest::Test

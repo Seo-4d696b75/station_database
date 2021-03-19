@@ -30,11 +30,15 @@ class Node
   end
 
   def to_segment(depth, nodes, segments)
+    node = { "code" => @code }
+    node["lat"] = @lat
+    node["lng"] = @lng
+    node["left"] = @left.code if @left
+    node["right"] = @right.code if @right
+    nodes << node
     if @depth == depth
-      node = { "code" => @code }
       name = "segment#{segments.length}"
       node["segment"] = name
-      nodes << node
       segment = {}
       segments << segment
       segment["name"] = name
@@ -49,12 +53,6 @@ class Node
       segment["node_list"] = list
       puts "tree-segment name:#{name} size:#{list.length} lng:[#{@west},#{@east}] lat:[#{@south},#{@north}]"
     else
-      node = { "code" => @code }
-      node["lat"] = @lat
-      node["lng"] = @lng
-      node["left"] = @left.code if @left
-      node["right"] = @right.code if @right
-      nodes << node
       if @left
         if @depth % 2 == 0
           @left.east = @lng

@@ -84,7 +84,7 @@ class PolylineTest < Minitest::Test
     opt = OptionParser.new
     @check_all = false
     @codes = []
-    opt.on("-a") { |v| @check_all = v }
+    opt.on("-a") { |v| @check_all = true }
     opt.on("-l VAL") { |v| @codes = v.split(";").map(&:to_i) }
     opt.parse!(CUSTOM_ARGV)
     puts @codes

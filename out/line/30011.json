@@ -5,11 +5,12 @@
   "name_kana":"めいてつちっこうせん",
   "station_size":2,
   "company_code":20,
+  "closed":false,
   "color":"#808080",
   "symbol":"CH",
   "station_list":[
-    {"code":3000807,"id":"c2051e","name":"大江(愛知)","original_name":"大江","name_kana":"おおえ","lat":35.093258,"lng":136.912758,"prefecture":23,"numbering":["TA03"],"lines":[30008,30011],"attr":"heat","postal_code":"457-0836","address":"名古屋市南区加福本通２-８-１","next":[3000806,3001102,1150229,3000808],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.907041,35.087822],[136.904027,35.097588],[136.91854,35.10149],[136.920913,35.084144],[136.907041,35.087822]]]},"properties":{}}},
-    {"code":3001102,"id":"16be1d","name":"東名古屋港","name_kana":"ひがしなごやこう","lat":35.089091,"lng":136.899255,"prefecture":23,"numbering":["CH01"],"lines":[30011],"attr":"heat","postal_code":"455-0024","address":"名古屋市港区大江町９-９","next":[9951507,3000806,9951505,3000807,3000809,9951506,3000808],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.897389,35.076818],[136.885043,35.069349],[136.891457,35.09461],[136.894973,35.100126],[136.896976,35.101896],[136.904027,35.097588],[136.907041,35.087822],[136.897389,35.076818]]]},"properties":{}}}
+    {"code":3000807,"id":"c2051e","name":"大江(愛知)","original_name":"大江","name_kana":"おおえ","closed":false,"lat":35.093258,"lng":136.912758,"prefecture":23,"numbering":["TA03"],"lines":[30008,30011],"attr":"heat","postal_code":"457-0836","address":"名古屋市南区加福本通２-８-１","next":[3000806,3001102,1150229,3000808],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.907041,35.087822],[136.904027,35.097588],[136.91854,35.10149],[136.920913,35.084144],[136.907041,35.087822]]]},"properties":{}}},
+    {"code":3001102,"id":"16be1d","name":"東名古屋港","original_name":"東名古屋港","name_kana":"ひがしなごやこう","closed":false,"lat":35.089091,"lng":136.899255,"prefecture":23,"numbering":["CH01"],"lines":[30011],"attr":"heat","postal_code":"455-0024","address":"名古屋市港区大江町９-９","next":[9951507,3000806,9951505,3000807,3000809,9951506,3000808],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.897389,35.076818],[136.885043,35.069349],[136.891457,35.09461],[136.894973,35.100126],[136.896976,35.101896],[136.904027,35.097588],[136.907041,35.087822],[136.897389,35.076818]]]},"properties":{}}}
   ],
   "polyline_list":{
     "type":"FeatureCollection",

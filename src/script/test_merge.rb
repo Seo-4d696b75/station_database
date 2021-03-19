@@ -41,11 +41,7 @@ LINE_FIELD = [
 ]
 
 # these fields are ignored
-IGNORE = [
- #  "code",
-   #  "lines",
-   #  "polyline_list",
-  ]
+IGNORE = []
 
 class MergeTest < Minitest::Test
   def setup()
@@ -71,6 +67,7 @@ class MergeTest < Minitest::Test
     data["lines"].each { |l| @lines[l["id"]] = l }
 
     @log = "## detected diff from `extra` branch  \n\n"
+    @log << "**Ignored keys**: #{IGNORE.join(",")}\n" if IGNORE.length > 0
   end
 
   def check_diff(tag, id, old, current, fields)
