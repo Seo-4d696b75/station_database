@@ -41,11 +41,7 @@ LINE_FIELD = [
 ]
 
 # these fields are ignored
-IGNORE = [
-  "closed",
-  "impl",
-  "original_name",
-]
+IGNORE = []
 
 class MergeTest < Minitest::Test
   def setup()

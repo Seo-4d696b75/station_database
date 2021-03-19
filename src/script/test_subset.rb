@@ -37,8 +37,8 @@ LINE_FIELD = [
 
 # these fields are ignored when checking differenct between "update" and "master"
 IGNORE = [
+  "polyline_list",
   "closed",
-  "impl",
   "original_name",
 ]
 
@@ -56,7 +56,6 @@ class SubsetTest < Minitest::Test
     @lines = data["lines"]
 
     @log = "## detected diff from `master` branch  \n\n"
-    @log << "**Ignored keys**: #{IGNORE.join(",")}\n" if IGNORE.length > 0
   end
 
   def check_diff(tag, id, old, current, fields)

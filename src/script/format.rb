@@ -38,7 +38,7 @@ class FormatTest < Minitest::Test
       name = station["name"]
       name_original = station["original_name"]
       name_kana = station["name_kana"]
-      closed = station["closed"]
+      closed = !!station["closed"]
       lng = station["lng"]
       lat = station["lat"]
       pref = station["prefecture"]
@@ -53,14 +53,13 @@ class FormatTest < Minitest::Test
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(PATTERN_ID), "invalid id #{JSON.dump(station)}"
       assert name && name.kind_of?(String) && name.length > 0, "invalide name #{JSON.dump(station)}"
-      assert (name_original.kind_of?(String) && name_original.length > 0 && name.include?(name_original)), "invalide original name #{JSON.dump(station)}"
+      assert !name_original || (name_original.kind_of?(String) && name_original.length > 0 && name.include?(name_original)), "invalide original name #{JSON.dump(station)}"
       assert name_kana, "no name_kana found #{JSON.dump(station)}"
       assert name_kana.kind_of?(String) && name_kana.match(PATTERN_KANA), "invalid name_kana #{JSON.dump(station)}"
       assert lng && lng.kind_of?(Float) && lat && lat.kind_of?(Float), "invalid coordinate #{JSON.dump(station)}"
       assert pref && pref.kind_of?(Integer) && pref > 0 && pref <= 47, "invalid pref #{JSON.dump(station)}"
       assert post && post.kind_of?(String) && post.match(PATTERN_POST), "invalid postal_code #{JSON.dump(station)}"
       assert address && address.kind_of?(String) && address.length > 0, "invalid address #{JSON.dump(station)}"
-      assert closed == true || closed == false, "invalid closed #{JSON.dump(station)}"
       assert !impl || ["eco", "heat", "cool", "unknown"].include?(attribute), "invalid attr #{JSON.dump(station)}"
       assert impl || !attribute, "invalid attr #{JSON.dump(station)}"
       assert lines && lines.kind_of?(Array) && lines.length > 0, "invalid lines #{JSON.dump(station)}"
@@ -135,7 +134,7 @@ class FormatTest < Minitest::Test
       id = line["id"]
       name = line["name"]
       name_kana = line["name_kana"]
-      closed = line["closed"]
+      closed = !!line["closed"]
       symbol = line["symbol"]
       color = line["color"]
       station_size = line["station_size"]
@@ -145,7 +144,6 @@ class FormatTest < Minitest::Test
 
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{name}"
-      assert closed == true || closed == false, "invalid closed #{name}"
       assert id && id.kind_of?(String) && id.match(PATTERN_ID), "invalid id #{name}"
       assert name && name.kind_of?(String) && name.length > 0, "invalide name #{name}"
       assert name_kana && name_kana.kind_of?(String) && name_kana.match(PATTERN_KANA), "invalid name_kana #{name}"
