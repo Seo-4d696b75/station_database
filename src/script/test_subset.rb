@@ -37,12 +37,12 @@ LINE_FIELD = [
 
 # these fields are ignored when checking differenct between "update" and "master"
 IGNORE = [
+  "code",
   "polyline_list",
-  "closed",
-  "original_name",
+  "numbering",
 ]
 
-class SubsetTest < Minitest::Test
+class SubsetTest < MiniTest::Test
   def setup()
     # load a new dataset
     data = read_json("out/data.json")
@@ -100,7 +100,7 @@ class SubsetTest < Minitest::Test
     end
   end
 
-  def test_diff
+  def test_all
     # load old version data from
     data = read_json("artifact/master.json")
     old_version = data["version"]
@@ -140,9 +140,7 @@ class SubsetTest < Minitest::Test
     lines.each_value do |line|
       @log << "- **line** new line #{format_md(line)}\n"
     end
-  end
 
-  def test_subset
     # load whole data from
     data = read_json("artifact/extra.json")
     assert_equal data["version"], @version, "version err"
