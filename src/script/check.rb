@@ -362,8 +362,10 @@ class CSVTest < FormatTest
 
       # 路線ポリラインは廃線,no-implのみ欠損許す
       path = "src/polyline/solved/#{line["code"]}.json"
-      # assert File.exists?(path) || line["closed"] || !line["impl"], "polyline not found. line:#{JSON.dump(line)}"
-      assert File.exists?(path), "polyline not found. line:#{JSON.dump(line)}"
+      assert File.exists?(path) || line["closed"] || !line["impl"], "polyline not found. line:#{JSON.dump(line)}"
+      if !File.exists?(path)
+        puts "polyline not found. line:#{JSON.dump(line)}"
+      end
       # no validation
     end
   end
