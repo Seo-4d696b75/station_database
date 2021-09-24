@@ -364,7 +364,7 @@ class CSVTest < FormatTest
       path = "src/polyline/solved/#{line["code"]}.json"
       assert File.exists?(path) || line["closed"] || !line["impl"], "polyline not found. line:#{JSON.dump(line)}"
       if !File.exists?(path)
-        puts "polyline not found. line:#{JSON.dump(line)}"
+        puts "polyline not found. line:#{line["name"]}"
       end
       # no validation
     end
