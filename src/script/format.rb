@@ -57,6 +57,8 @@ class FormatTest < Minitest::Test
       assert name_kana, "no name_kana found #{JSON.dump(station)}"
       assert name_kana.kind_of?(String) && name_kana.match(PATTERN_KANA), "invalid name_kana #{JSON.dump(station)}"
       assert lng && lng.kind_of?(Float) && lat && lat.kind_of?(Float), "invalid coordinate #{JSON.dump(station)}"
+      assert lng > 127.5 && lng < 146.2, "invalid lng value #{JSON.dump(station)}"
+      assert lat > 26 && lat < 45.8, "invalid lat value #{JSON.dump(station)}"
       assert pref && pref.kind_of?(Integer) && pref > 0 && pref <= 47, "invalid pref #{JSON.dump(station)}"
       assert post && post.kind_of?(String) && post.match(PATTERN_POST), "invalid postal_code #{JSON.dump(station)}"
       assert address && address.kind_of?(String) && address.length > 0, "invalid address #{JSON.dump(station)}"
