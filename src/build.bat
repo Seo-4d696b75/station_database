@@ -1,4 +1,8 @@
 set version=%1
+if "%version%"=="" (
+  echo "version string empty"
+  exit 1
+)
 
 call ./src/check.bat
 
