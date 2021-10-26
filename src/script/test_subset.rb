@@ -1,5 +1,6 @@
 load("src/script/utils.rb")
 load("src/script/diff.rb")
+require "minitest/autorun"
 require "optparse"
 
 opt = OptionParser.new
