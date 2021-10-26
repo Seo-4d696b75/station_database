@@ -2,8 +2,7 @@ name: format-test
 on:
   push:
     branches:
-      - extra-update
-      - extra
+      - feature/update
     path: 'out/*'
 jobs:
   test:
@@ -11,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         with:
-          ref: 'extra-update'
+          ref: 'feature/update'
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
@@ -21,4 +20,5 @@ jobs:
       - name: run test
         run: |
           gem install minitest
-          ruby src/script/test_format.rb
+          ruby src/script/test_format.rb -s out/main/data.json
+          ruby src/script/test_format.rb -s out/extra/data.json
