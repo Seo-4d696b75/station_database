@@ -1,16 +1,20 @@
-# usage: ./${this_file}.rb ${version} [--impl]
-# param ${version}: int value
-# param[optional] --impl: if this flag set, non-imple station in each staion-list ignored.
-#   Note: station-list in src/details/line/*.json include non-impl stations
+# すべてのデータを集約
 
 load("src/script/utils.rb")
 load("src/script/kdtree.rb")
+require "optparse"
 
-version = ARGV[0].to_i
-impl = (ARGV[1] == "--impl")
+impl = false
+dst = "."
+version = 0
+opt = OptionParser.new
+opt.on("-i", "--impl") { impl = true }
+opt.on("-d", "--dst VALUE") { |v| dst = v }
+opt.on("-v", "--version VALUE") { |v| version = v.to_i }
+opt.parse!(ARGV)
+ARGV.clear()
+
 puts "version: #{version}"
-
-dir_dst = "./out"
 
 print "read soved line data..."
 lines = read_json("src/solved/line.json")
@@ -90,7 +94,7 @@ lines.each do |line|
     s = station_map[e["code"]]
     sort_hash(e.merge(s))
   end
-  File.open("#{dir_dst}/line/#{line["code"]}.json", "w") do |f|
+  File.open("#{dst}/line/#{line["code"]}.json", "w") do |f|
     f.write(format_json(sort_hash(details), flat_key: ["coordinates"], flat_array: ["station_list"]))
   end
   details["station_list"] = list
@@ -98,15 +102,15 @@ lines.each do |line|
 end
 
 puts "write line list to file."
-File.open("#{dir_dst}/line.json", "w") do |f|
+File.open("#{dst}/line.json", "w") do |f|
   f.write(format_json(lines.map { |e| sort_hash(e) }, flat: true))
 end
 puts "write station list to file."
-File.open("#{dir_dst}/station.json", "w") do |f|
+File.open("#{dst}/station.json", "w") do |f|
   f.write(format_json(stations.map { |e| sort_hash(e) }, flat: true))
 end
 puts "write raw Kd-tree to file."
-File.open("#{dir_dst}/tree.json", "w") do |f|
+File.open("#{dst}/tree.json", "w") do |f|
   f.write(format_json(tree, flat_array: ["node_list"]))
 end
 
@@ -124,7 +128,7 @@ segments.map do |seg|
   end
   details
 end.each do |seg|
-  File.open("#{dir_dst}/tree/#{seg["name"]}.json", "w") do |f|
+  File.open("#{dst}/tree/#{seg["name"]}.json", "w") do |f|
     f.write(format_json(seg, flat_array: ["node_list"]))
   end
 end
@@ -136,7 +140,7 @@ data["version"] = version
 data["stations"] = stations.map { |e| sort_hash(e) }
 data["lines"] = lines_details.map { |e| sort_hash(e) }
 data["tree_segments"] = segments
-File.open("#{dir_dst}/data.json", "w") do |f|
+File.open("#{dst}/data.json", "w") do |f|
   f.write(format_json(data, flat_array: ["stations", "station_list", "node_list"], flat_key: ["coordinates"]))
 end
 
