@@ -19,9 +19,19 @@ $ src/build.bat ${version}
 
 2. merge PR
 
-`main`へのPRを立てる
+`main`へのPRを立てる  
+もし修正が必要なら編集・1-2の作業を繰り返す
 
-3. publish release
+3. push tag
+
+作業が完成したらtagを付けてpushする  
+github上で対応するreleaseを自動生成する  
+
+```
+$ src/publish.bat ${version}
+```
+
+4. publish release
 
 自動で生成されたdraftを編集・発行
 
