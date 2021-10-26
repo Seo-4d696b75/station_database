@@ -35,7 +35,7 @@ puts "read diagram details"
 tree = read_json("src/diagram/station#{impl ? "" : ".extra"}.json")
 if stations.length != tree["node_list"].length
   puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree["node_list"].length}"
-  exit(0)
+  exit(1)
 end
 
 node_map = {}
@@ -44,7 +44,7 @@ tree["node_list"].each do |e|
   s = station_map[code]
   if !s
     puts "Error > station not found. code:#{code}"
-    exit(0)
+    exit(1)
   end
   s["voronoi"] = e.delete("voronoi")
   s["next"] = e.delete("next")
@@ -59,7 +59,7 @@ lines.each do |line|
   details = read_json(path)
   if details["name"] != line["name"]
     puts "Error > line name mismatch line:#{JSON.dump(line)}"
-    exit(0)
+    exit(1)
   end
   line.each { |key, value| details[key] = value }
   # 登録路線の抽出（駅メモ）
@@ -72,13 +72,13 @@ lines.each do |line|
     end
     if e["name"] != s["name"]
       puts "Error > unknown station item. expected:#{e} found:#{s}"
-      exit(0)
+      exit(1)
     end
     next true
   end
   if details["station_list"].length != line["station_size"]
     puts "Error > station size mismatch. line:#{line} <=> details:#{details["station_list"]}"
-    exit(0)
+    exit(1)
   end
 
   # 路線ポリライン
