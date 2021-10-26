@@ -1,4 +1,4 @@
-name: subset-test
+name: consistency-test
 on:
   pull_request:
     branches:
@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           filename: diff.md # .github/workflows/ ディレクトリ以下固定
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
           name: diff
           path: artifact/*.md
