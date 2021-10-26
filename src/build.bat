@@ -15,7 +15,6 @@ call ./src/pack.bat %version%
 call ./src/release.bat %version%
 
 echo "build complete"
-exit
 
 git add .
 git commit -m "[update] version %version%"
