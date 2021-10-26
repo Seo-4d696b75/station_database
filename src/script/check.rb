@@ -44,8 +44,10 @@ REGISTER_FIELDS = [
 
 API_KEY = read("src/api_key.txt")
 IMPL = false
+DST = "."
 opt = OptionParser.new
-opt.on("--impl") { |v| IMPL = v }
+opt.on("-i", "--impl") { IMPL = true }
+opt.on("-d", "--dst VALUE") { |v| DST = v }
 opt.parse!(ARGV)
 ARGV.clear()
 
@@ -142,19 +144,19 @@ class CSVTest < FormatTest
   end
 
   def teardown
-    puts "write csv to out/*.csv impl:#{IMPL}"
+    puts "write csv to #{DST}/*.csv impl:#{IMPL}"
     if IMPL
       STATION_FIELD.delete("impl")
       LINE_FIELD.delete("impl")
       REGISTER_FIELDS.delete("impl")
     end
-    write_csv("out/station.csv", STATION_FIELD, @stations)
-    write_csv("out/line.csv", LINE_FIELD, @lines)
-    write_csv("out/register.csv", REGISTER_FIELDS, @register)
+    write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
+    write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
+    write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
     puts "OK"
 
     print "Write to json files..."
-    File.open("src/solved/line.json", "w") do |f|
+    File.open("src/solved/line#{IMPL ? "" : ".extra"}.json", "w") do |f|
       list = @lines.map do |line|
         line.delete_if do |key, value|
           value == nil || key == "station_list"
@@ -163,7 +165,7 @@ class CSVTest < FormatTest
       end
       f.write(format_json(list, flat: true))
     end
-    File.open("src/solved/station.json", "w") do |f|
+    File.open("src/solved/station#{IMPL ? "" : ".extra"}.json", "w") do |f|
       list = @stations.map do |s|
         s.delete_if { |key, value| value == nil }
         sort_hash(s)
