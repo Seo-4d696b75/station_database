@@ -78,7 +78,7 @@ ARGV.clear
 
 class PolylineTest < Minitest::Test
   def setup()
-    @lines = read_json("src/solved/line.json")
+    @lines = read_json("src/solved/line.extra.json")
     puts "list size: #{@lines.length}"
 
     opt = OptionParser.new
