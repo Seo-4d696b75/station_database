@@ -1,6 +1,12 @@
 load("src/script/utils.rb")
 load("src/script/diff.rb")
-require "minitest/autorun"
+require "optparse"
+
+opt = OptionParser.new
+opt.on("-m", "--main VALUE") { |v| MAIN_FILE = v }
+opt.on("-e", "--extra VALUE") { |v| EXTRA_FILE = v }
+opt.parse!(ARGV)
+ARGV.clear()
 
 STATION_FIELD = [
   "code",
@@ -36,16 +42,12 @@ LINE_FIELD = [
 ]
 
 # these fields are ignored when checking differenct between "update" and "master"
-IGNORE = [
-  "code",
-  "polyline_list",
-  "numbering",
-]
+IGNORE = []
 
 class SubsetTest < MiniTest::Test
   def setup()
-    # load a new dataset
-    data = read_json("out/data.json")
+    # load main dataset
+    data = read_json(MAIN_FILE)
     @version = data["version"]
     @stations = data["stations"]
     @station_map = Hash.new
@@ -54,21 +56,6 @@ class SubsetTest < MiniTest::Test
       @station_map[s["code"]] = s
     end
     @lines = data["lines"]
-
-    @log = "## detected diff from `master` branch  \n\n"
-  end
-
-  def check_diff(tag, id, old, current, fields)
-    fields.each do |key|
-      next if IGNORE.include?(key)
-      old_value = normalize_value(key, old[key], @old_station_map)
-      new_value = normalize_value(key, current[key], @station_map)
-      if old_value != new_value
-        old_value = format_md(old_value, key, @old_station_map)
-        new_value = format_md(new_value, key, @station_map)
-        @log << "- **#{tag}** id:#{id} name:#{current["name"]} #{key}:#{old_value}=>#{new_value}\n"
-      end
-    end
   end
 
   def check_equal(update, extra, fields)
@@ -100,49 +87,9 @@ class SubsetTest < MiniTest::Test
     end
   end
 
-  def test_all
-    # load old version data from
-    data = read_json("artifact/master.json")
-    old_version = data["version"]
-    assert old_version < @version, "version err"
-    @old_station_map = Hash.new
-    old_stations = data["stations"]
-    old_stations.each do |s|
-      @old_station_map[s["id"]] = s
-      @old_station_map[s["code"]] = s
-    end
-    old_lines = data["lines"]
-
-    # map of new stations and lines
-    stations = Hash.new
-    lines = Hash.new
-    @stations.each { |s| stations[s["id"]] = s }
-    @lines.each { |l| lines[l["id"]] = l }
-
-    # constrain: old dataset is a subset of new dataset
-    # any station item in old dataset must also be included in new dataset
-
-    old_stations.each do |old|
-      id = old["id"]
-      station = stations.delete(id)
-      assert station, "station not found old:#{JSON.dump(old)}"
-      check_diff("station", id, old, station, STATION_FIELD)
-    end
-    old_lines.each do |old|
-      id = old["id"]
-      line = lines.delete(id)
-      assert line, "line not found old:#{JSON.dump(old)}"
-      check_diff("line", id, old, line, LINE_FIELD)
-    end
-    stations.each_value do |station|
-      @log << "- **station** new station #{format_md(station)}\n"
-    end
-    lines.each_value do |line|
-      @log << "- **line** new line #{format_md(line)}\n"
-    end
-
-    # load whole data from
-    data = read_json("artifact/extra.json")
+  def test_subset
+    # load extra data from
+    data = read_json(EXTRA_FILE)
     assert_equal data["version"], @version, "version err"
 
     # constrain: "IMPL" dataset is a subset of "extra" dataset
@@ -174,14 +121,6 @@ class SubsetTest < MiniTest::Test
     end
     lines.each do |id, l|
       assert !l.fetch("impl", true), "impl line #{JSON.dump(l)} not include in update"
-    end
-  end
-
-  def teardown()
-    File.open("artifact/diff.md", "w") { |f| f.write(@log) }
-    File.open(".github/workflows/diff.md", "w") do |f|
-      # python str::format で使用するtemplate
-      f.write(@log.gsub("{", "{{").gsub("}", "}}"))
     end
   end
 end
