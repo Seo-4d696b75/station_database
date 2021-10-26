@@ -12,13 +12,11 @@ if errorlevel 1 (
 
 call ./src/pack.bat %version%
 
+git add .
+git commit -m "[build] version %version%"
+
 call ./src/release.bat %version%
 
-echo "build complete"
-
 git add .
-git commit -m "[update] version %version%"
+git commit -m "[update] version info %version%"
 git push origin feature/update
-
-git tag -a "v%version%" -m "version %version%"
-git push origin "v%version%"
