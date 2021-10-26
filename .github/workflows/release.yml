@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: 'master'
+          ref: 'main'
       - name: Set version value
         id: version
         run: |
@@ -25,18 +25,3 @@ jobs:
           release_name: version ${{ steps.version.outputs.value }}
           draft: true
           prerelease: false
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6'
-      - name: update info
-        run: |
-          ruby src/script/release.rb ${{ steps.version.outputs.value }}
-      - name: commit manifests and push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.email "s.kaoru509@gmail.com"
-          git config --global user.name "Seo-4d696b75"
-          git add .
-          git commit -m '[update] latest-info version:${{steps.version.outputs.value}}'
-          git push origin master
