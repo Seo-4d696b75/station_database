@@ -17,11 +17,11 @@ ARGV.clear()
 puts "version: #{version}"
 
 print "read soved line data..."
-lines = read_json("src/solved/line.json")
+lines = read_json("src/solved/line#{impl ? "" : ".extra"}.json")
 puts "size:#{lines.length}"
 
 print "read soved station data..."
-stations = read_json("src/solved/station.json")
+stations = read_json("src/solved/station#{impl ? "" : ".extra"}.json")
 puts "size:#{stations.length}"
 
 station_map = {}
@@ -32,7 +32,7 @@ end
 
 # 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
 puts "read diagram details"
-tree = read_json("src/diagram/station.json")
+tree = read_json("src/diagram/station#{impl ? "" : ".extra"}.json")
 if stations.length != tree["node_list"].length
   puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree["node_list"].length}"
   exit(0)
