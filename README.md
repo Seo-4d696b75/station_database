@@ -1,5 +1,7 @@
 # 駅データ  
 日本全国の鉄道路線・駅のデータベース編集プロジェクト  
+
+**デフォルトブランチを`main`に変更しました**
   
 ![](https://github.com/Seo-4d696b75/station_database/workflows/format-test/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/consistency-test/badge.svg)
 
@@ -15,7 +17,7 @@
 
 `./out`以下に２種類のデータセットがあります  
 - `main`: 駅メモと同様
-- `extra`: [廃駅・廃路線のデータを独自に追加](https://github.com/Seo-4d696b75/station_database/wiki/extra)  
+- `extra`: [このデータセットは整備中です](https://github.com/Seo-4d696b75/station_database/wiki/extra)
 
 ## データの出典  
 
