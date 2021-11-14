@@ -1,5 +1,7 @@
 # 駅データ  
 日本全国の鉄道路線・駅のデータベース編集プロジェクト  
+
+**デフォルトブランチを`main`に変更しました**
   
 ![](https://github.com/Seo-4d696b75/station_database/workflows/format-test/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/consistency-test/badge.svg)
 
@@ -11,15 +13,11 @@
   </tr>
 </table>
 
-## データの品質  
 位置ゲーム【駅メモ！】内で使用されているデータベースに準拠
 
-### 廃駅データ
-**Pre-release 整備中**  
-廃駅・廃路線のデータを独自に追加  
-
-- [追加データに関して](https://github.com/Seo-4d696b75/station_database/blob/extra-update/src/extra/readme.md)
-- [整備の進行状況](https://github.com/Seo-4d696b75/station_database/projects/1)
+`./out`以下に２種類のデータセットがあります  
+- `main`: 駅メモと同様
+- `extra`: [このデータセットは整備中です](https://github.com/Seo-4d696b75/station_database/wiki/extra)
 
 ## データの出典  
 
@@ -43,7 +41,7 @@
 ## データの仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
 
-### テスト
+## テスト
 GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
 
 - format-test データ形式が仕様で定めた通りであるか確認
@@ -54,3 +52,5 @@ GitHub Actions によるデータのテストが自動で走り結果が上部�
 当ページは、株式会社モバイルファクトリー「ステーションメモリーズ！」の画像を利用しております。  
 該当画像の転載・配布等は禁止しております。  
 © Mobile Factory, Inc.  
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
