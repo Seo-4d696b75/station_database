@@ -1,4424 +1,882 @@
 {
   "sectionLines": [
     {
-      "SECTION_NUM": 1116,
+      "SECTION_NUM": 1126,
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 331,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB02_16407",
-      "BIKOU": "",
-      "CURVE_NUM": 1116,
-      "curveLines": [
-        {
-          "CURVE_LAT": 37.483598,
-          "CURVE_LNG": 138.99265
-        },
-        {
-          "CURVE_LAT": 37.485376,
-          "CURVE_LNG": 138.993314
-        },
-        {
-          "CURVE_LAT": 37.485866,
-          "CURVE_LNG": 138.993592
-        },
-        {
-          "CURVE_LAT": 37.486407,
-          "CURVE_LNG": 138.99397
-        },
-        {
-          "CURVE_LAT": 37.48719,
-          "CURVE_LNG": 138.99473
-        },
-        {
-          "CURVE_LAT": 37.488932,
-          "CURVE_LNG": 138.996689
-        },
-        {
-          "CURVE_LAT": 37.490828,
-          "CURVE_LNG": 138.998754
-        },
-        {
-          "CURVE_LAT": 37.491262,
-          "CURVE_LNG": 138.999235
-        },
-        {
-          "CURVE_LAT": 37.491493,
-          "CURVE_LNG": 138.999391
-        },
-        {
-          "CURVE_LAT": 37.491714,
-          "CURVE_LNG": 138.999484
-        },
-        {
-          "CURVE_LAT": 37.492102,
-          "CURVE_LNG": 138.999565
-        },
-        {
-          "CURVE_LAT": 37.492573,
-          "CURVE_LNG": 138.999554
-        },
-        {
-          "CURVE_LAT": 37.493025,
-          "CURVE_LNG": 138.999461
-        },
-        {
-          "CURVE_LAT": 37.493371,
-          "CURVE_LNG": 138.99935
-        },
-        {
-          "CURVE_LAT": 37.494368,
-          "CURVE_LNG": 138.998933
-        },
-        {
-          "CURVE_LAT": 37.495405,
-          "CURVE_LNG": 138.998368
-        },
-        {
-          "CURVE_LAT": 37.496106,
-          "CURVE_LNG": 138.998032
-        },
-        {
-          "CURVE_LAT": 37.496577,
-          "CURVE_LNG": 138.997801
-        },
-        {
-          "CURVE_LAT": 37.497059,
-          "CURVE_LNG": 138.997669
-        },
-        {
-          "CURVE_LAT": 37.497554,
-          "CURVE_LNG": 138.997543
-        },
-        {
-          "CURVE_LAT": 37.497762,
-          "CURVE_LNG": 138.997432
-        },
-        {
-          "CURVE_LAT": 37.497958,
-          "CURVE_LNG": 138.997236
-        },
-        {
-          "CURVE_LAT": 37.498131,
-          "CURVE_LNG": 138.996975
-        },
-        {
-          "CURVE_LAT": 37.498422,
-          "CURVE_LNG": 138.996411
-        },
-        {
-          "CURVE_LAT": 37.499384,
-          "CURVE_LNG": 138.995029
-        },
-        {
-          "CURVE_LAT": 37.500128,
-          "CURVE_LNG": 138.993754
-        },
-        {
-          "CURVE_LAT": 37.5004,
-          "CURVE_LNG": 138.993162
-        },
-        {
-          "CURVE_LAT": 37.500564,
-          "CURVE_LNG": 138.992547
-        },
-        {
-          "CURVE_LAT": 37.500654,
-          "CURVE_LNG": 138.991909
-        },
-        {
-          "CURVE_LAT": 37.500727,
-          "CURVE_LNG": 138.99093
-        },
-        {
-          "CURVE_LAT": 37.500763,
-          "CURVE_LNG": 138.990064
-        },
-        {
-          "CURVE_LAT": 37.500927,
-          "CURVE_LNG": 138.989153
-        },
-        {
-          "CURVE_LAT": 37.501126,
-          "CURVE_LNG": 138.98847
-        },
-        {
-          "CURVE_LAT": 37.501543,
-          "CURVE_LNG": 138.987559
-        },
-        {
-          "CURVE_LAT": 37.502596,
-          "CURVE_LNG": 138.985623
-        },
-        {
-          "CURVE_LAT": 37.503123,
-          "CURVE_LNG": 138.984537
-        },
-        {
-          "CURVE_LAT": 37.503881,
-          "CURVE_LNG": 138.982275
-        },
-        {
-          "CURVE_LAT": 37.504215,
-          "CURVE_LNG": 138.981196
-        },
-        {
-          "CURVE_LAT": 37.504453,
-          "CURVE_LNG": 138.980136
-        },
-        {
-          "CURVE_LAT": 37.504774,
-          "CURVE_LNG": 138.978645
-        },
-        {
-          "CURVE_LAT": 37.505057,
-          "CURVE_LNG": 138.977257
-        },
-        {
-          "CURVE_LAT": 37.505211,
-          "CURVE_LNG": 138.976287
-        },
-        {
-          "CURVE_LAT": 37.505481,
-          "CURVE_LNG": 138.975234
-        },
-        {
-          "CURVE_LAT": 37.506008,
-          "CURVE_LNG": 138.973062
-        },
-        {
-          "CURVE_LAT": 37.50631,
-          "CURVE_LNG": 138.971848
-        },
-        {
-          "CURVE_LAT": 37.506721,
-          "CURVE_LNG": 138.970016
-        },
-        {
-          "CURVE_LAT": 37.507016,
-          "CURVE_LNG": 138.96816
-        },
-        {
-          "CURVE_LAT": 37.507087,
-          "CURVE_LNG": 138.967826
-        },
-        {
-          "CURVE_LAT": 37.507415,
-          "CURVE_LNG": 138.966444
-        },
-        {
-          "CURVE_LAT": 37.507877,
-          "CURVE_LNG": 138.964253
-        },
-        {
-          "CURVE_LAT": 37.507942,
-          "CURVE_LNG": 138.963945
-        },
-        {
-          "CURVE_LAT": 37.508141,
-          "CURVE_LNG": 138.963617
-        },
-        {
-          "CURVE_LAT": 37.50843,
-          "CURVE_LNG": 138.963257
-        },
-        {
-          "CURVE_LAT": 37.510062,
-          "CURVE_LNG": 138.961131
-        },
-        {
-          "CURVE_LAT": 37.510383,
-          "CURVE_LNG": 138.960771
-        },
-        {
-          "CURVE_LAT": 37.510987,
-          "CURVE_LNG": 138.959961
-        },
-        {
-          "CURVE_LAT": 37.511983,
-          "CURVE_LNG": 138.958779
-        },
-        {
-          "CURVE_LAT": 37.513833,
-          "CURVE_LNG": 138.956768
-        },
-        {
-          "CURVE_LAT": 37.514116,
-          "CURVE_LNG": 138.95653
-        },
-        {
-          "CURVE_LAT": 37.514482,
-          "CURVE_LNG": 138.95637
-        },
-        {
-          "CURVE_LAT": 37.514926,
-          "CURVE_LNG": 138.956261
-        },
-        {
-          "CURVE_LAT": 37.517586,
-          "CURVE_LNG": 138.955676
-        },
-        {
-          "CURVE_LAT": 37.517939,
-          "CURVE_LNG": 138.955464
-        },
-        {
-          "CURVE_LAT": 37.518247,
-          "CURVE_LNG": 138.955213
-        },
-        {
-          "CURVE_LAT": 37.518569,
-          "CURVE_LNG": 138.954834
-        },
-        {
-          "CURVE_LAT": 37.518909,
-          "CURVE_LNG": 138.954314
-        },
-        {
-          "CURVE_LAT": 37.519507,
-          "CURVE_LNG": 138.95326
-        },
-        {
-          "CURVE_LAT": 37.519841,
-          "CURVE_LNG": 138.952515
-        },
-        {
-          "CURVE_LAT": 37.519956,
-          "CURVE_LNG": 138.9522
-        },
-        {
-          "CURVE_LAT": 37.52004,
-          "CURVE_LNG": 138.951866
-        },
-        {
-          "CURVE_LAT": 37.520066,
-          "CURVE_LNG": 138.9515
-        },
-        {
-          "CURVE_LAT": 37.520046,
-          "CURVE_LNG": 138.95105
-        },
-        {
-          "CURVE_LAT": 37.519982,
-          "CURVE_LNG": 138.950594
-        },
-        {
-          "CURVE_LAT": 37.519867,
-          "CURVE_LNG": 138.95024
-        },
-        {
-          "CURVE_LAT": 37.519667,
-          "CURVE_LNG": 138.949778
-        },
-        {
-          "CURVE_LAT": 37.519417,
-          "CURVE_LNG": 138.949315
-        },
-        {
-          "CURVE_LAT": 37.51914,
-          "CURVE_LNG": 138.948846
-        },
-        {
-          "CURVE_LAT": 37.518858,
-          "CURVE_LNG": 138.948486
-        },
-        {
-          "CURVE_LAT": 37.518556,
-          "CURVE_LNG": 138.948088
-        },
-        {
-          "CURVE_LAT": 37.518202,
-          "CURVE_LNG": 138.947696
-        },
-        {
-          "CURVE_LAT": 37.517952,
-          "CURVE_LNG": 138.947368
-        },
-        {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.946957
-        },
-        {
-          "CURVE_LAT": 37.517399,
-          "CURVE_LNG": 138.946494
-        },
-        {
-          "CURVE_LAT": 37.517207,
-          "CURVE_LNG": 138.946096
-        },
-        {
-          "CURVE_LAT": 37.517027,
-          "CURVE_LNG": 138.945653
-        },
-        {
-          "CURVE_LAT": 37.516879,
-          "CURVE_LNG": 138.945203
-        },
-        {
-          "CURVE_LAT": 37.516789,
-          "CURVE_LNG": 138.94474
-        },
-        {
-          "CURVE_LAT": 37.516718,
-          "CURVE_LNG": 138.944181
-        },
-        {
-          "CURVE_LAT": 37.51666,
-          "CURVE_LNG": 138.943263
-        },
-        {
-          "CURVE_LAT": 37.516506,
-          "CURVE_LNG": 138.939857
-        },
-        {
-          "CURVE_LAT": 37.516256,
-          "CURVE_LNG": 138.93558
-        },
-        {
-          "CURVE_LAT": 37.516179,
-          "CURVE_LNG": 138.934499
-        },
-        {
-          "CURVE_LAT": 37.516236,
-          "CURVE_LNG": 138.933908
-        },
-        {
-          "CURVE_LAT": 37.516346,
-          "CURVE_LNG": 138.932822
-        },
-        {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.931942
-        },
-        {
-          "CURVE_LAT": 37.516423,
-          "CURVE_LNG": 138.93101
-        },
-        {
-          "CURVE_LAT": 37.515922,
-          "CURVE_LNG": 138.924354
-        },
-        {
-          "CURVE_LAT": 37.515902,
-          "CURVE_LNG": 138.923956
-        },
-        {
-          "CURVE_LAT": 37.515973,
-          "CURVE_LNG": 138.923403
-        },
-        {
-          "CURVE_LAT": 37.516172,
-          "CURVE_LNG": 138.922902
-        },
-        {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.922548
-        },
-        {
-          "CURVE_LAT": 37.51684,
-          "CURVE_LNG": 138.922285
-        },
-        {
-          "CURVE_LAT": 37.517277,
-          "CURVE_LNG": 138.922118
-        },
-        {
-          "CURVE_LAT": 37.517509,
-          "CURVE_LNG": 138.922137
-        },
-        {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.922153
-        },
-        {
-          "CURVE_LAT": 37.517986,
-          "CURVE_LNG": 138.92232
-        },
-        {
-          "CURVE_LAT": 37.518174,
-          "CURVE_LNG": 138.922393
-        },
-        {
-          "CURVE_LAT": 37.519594,
-          "CURVE_LNG": 138.922913
-        },
-        {
-          "CURVE_LAT": 37.519847,
-          "CURVE_LNG": 138.922968
-        },
-        {
-          "CURVE_LAT": 37.521403,
-          "CURVE_LNG": 138.922953
-        },
-        {
-          "CURVE_LAT": 37.522407,
-          "CURVE_LNG": 138.922905
-        },
-        {
-          "CURVE_LAT": 37.523106,
-          "CURVE_LNG": 138.92281
-        },
-        {
-          "CURVE_LAT": 37.522043,
-          "CURVE_LNG": 138.92289
-        },
-        {
-          "CURVE_LAT": 37.521018,
-          "CURVE_LNG": 138.92293
-        },
-        {
-          "CURVE_LAT": 37.519917,
-          "CURVE_LNG": 138.922945
-        },
-        {
-          "CURVE_LAT": 37.519673,
-          "CURVE_LNG": 138.922911
-        },
-        {
-          "CURVE_LAT": 37.518479,
-          "CURVE_LNG": 138.922482
-        },
-        {
-          "CURVE_LAT": 37.517569,
-          "CURVE_LNG": 138.922084
-        },
-        {
-          "CURVE_LAT": 37.516328,
-          "CURVE_LNG": 138.92126
-        },
-        {
-          "CURVE_LAT": 37.51393,
-          "CURVE_LNG": 138.919657
-        },
-        {
-          "CURVE_LAT": 37.511855,
-          "CURVE_LNG": 138.918494
-        },
-        {
-          "CURVE_LAT": 37.507389,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.506978,
-          "CURVE_LNG": 138.916021
-        },
-        {
-          "CURVE_LAT": 37.506592,
-          "CURVE_LNG": 138.91595
-        },
-        {
-          "CURVE_LAT": 37.506278,
-          "CURVE_LNG": 138.915905
-        },
-        {
-          "CURVE_LAT": 37.505937,
-          "CURVE_LNG": 138.915963
-        },
-        {
-          "CURVE_LAT": 37.505609,
-          "CURVE_LNG": 138.916104
-        },
-        {
-          "CURVE_LAT": 37.505346,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.503069,
-          "CURVE_LNG": 138.917743
-        },
-        {
-          "CURVE_LAT": 37.502622,
-          "CURVE_LNG": 138.918025
-        },
-        {
-          "CURVE_LAT": 37.501335,
-          "CURVE_LNG": 138.918729
-        },
-        {
-          "CURVE_LAT": 37.500244,
-          "CURVE_LNG": 138.919297
-        },
-        {
-          "CURVE_LAT": 37.499407,
-          "CURVE_LNG": 138.919851
-        },
-        {
-          "CURVE_LAT": 37.497979,
-          "CURVE_LNG": 138.921088
-        },
-        {
-          "CURVE_LAT": 37.496446,
-          "CURVE_LNG": 138.922677
-        },
-        {
-          "CURVE_LAT": 37.494298,
-          "CURVE_LNG": 138.924829
-        },
-        {
-          "CURVE_LAT": 37.493286,
-          "CURVE_LNG": 138.925794
-        },
-        {
-          "CURVE_LAT": 37.493024,
-          "CURVE_LNG": 138.926003
-        },
-        {
-          "CURVE_LAT": 37.49281,
-          "CURVE_LNG": 138.926108
-        },
-        {
-          "CURVE_LAT": 37.492602,
-          "CURVE_LNG": 138.926153
-        },
-        {
-          "CURVE_LAT": 37.492344,
-          "CURVE_LNG": 138.926158
-        },
-        {
-          "CURVE_LAT": 37.492103,
-          "CURVE_LNG": 138.926184
-        },
-        {
-          "CURVE_LAT": 37.491685,
-          "CURVE_LNG": 138.926166
-        },
-        {
-          "CURVE_LAT": 37.491313,
-          "CURVE_LNG": 138.926006
-        },
-        {
-          "CURVE_LAT": 37.490976,
-          "CURVE_LNG": 138.925627
-        },
-        {
-          "CURVE_LAT": 37.490663,
-          "CURVE_LNG": 138.925161
-        },
-        {
-          "CURVE_LAT": 37.490047,
-          "CURVE_LNG": 138.923791
-        },
-        {
-          "CURVE_LAT": 37.489141,
-          "CURVE_LNG": 138.921517
-        },
-        {
-          "CURVE_LAT": 37.488723,
-          "CURVE_LNG": 138.920541
-        },
-        {
-          "CURVE_LAT": 37.488491,
-          "CURVE_LNG": 138.920074
-        },
-        {
-          "CURVE_LAT": 37.488189,
-          "CURVE_LNG": 138.919666
-        },
-        {
-          "CURVE_LAT": 37.487899,
-          "CURVE_LNG": 138.919346
-        },
-        {
-          "CURVE_LAT": 37.487399,
-          "CURVE_LNG": 138.918961
-        },
-        {
-          "CURVE_LAT": 37.486192,
-          "CURVE_LNG": 138.918145
-        },
-        {
-          "CURVE_LAT": 37.483509,
-          "CURVE_LNG": 138.916454
-        },
-        {
-          "CURVE_LAT": 37.481186,
-          "CURVE_LNG": 138.915136
-        },
-        {
-          "CURVE_LAT": 37.479497,
-          "CURVE_LNG": 138.914294
-        },
-        {
-          "CURVE_LAT": 37.478736,
-          "CURVE_LNG": 138.913912
-        },
-        {
-          "CURVE_LAT": 37.478063,
-          "CURVE_LNG": 138.91349
-        },
-        {
-          "CURVE_LAT": 37.477552,
-          "CURVE_LNG": 138.91314
-        },
-        {
-          "CURVE_LAT": 37.476901,
-          "CURVE_LNG": 138.912586
-        },
-        {
-          "CURVE_LAT": 37.474892,
-          "CURVE_LNG": 138.910731
-        },
-        {
-          "CURVE_LAT": 37.47243,
-          "CURVE_LNG": 138.908108
-        },
-        {
-          "CURVE_LAT": 37.469364,
-          "CURVE_LNG": 138.904769
-        },
-        {
-          "CURVE_LAT": 37.467309,
-          "CURVE_LNG": 138.902393
-        },
-        {
-          "CURVE_LAT": 37.466693,
-          "CURVE_LNG": 138.901475
-        },
-        {
-          "CURVE_LAT": 37.466357,
-          "CURVE_LNG": 138.900775
-        },
-        {
-          "CURVE_LAT": 37.466066,
-          "CURVE_LNG": 138.900076
-        },
-        {
-          "CURVE_LAT": 37.465857,
-          "CURVE_LNG": 138.899377
-        },
-        {
-          "CURVE_LAT": 37.465671,
-          "CURVE_LNG": 138.898677
-        },
-        {
-          "CURVE_LAT": 37.465265,
-          "CURVE_LNG": 138.896827
-        },
-        {
-          "CURVE_LAT": 37.464255,
-          "CURVE_LNG": 138.892176
-        },
-        {
-          "CURVE_LAT": 37.46336,
-          "CURVE_LNG": 138.887909
-        },
-        {
-          "CURVE_LAT": 37.463267,
-          "CURVE_LNG": 138.887049
-        },
-        {
-          "CURVE_LAT": 37.463244,
-          "CURVE_LNG": 138.886437
-        },
-        {
-          "CURVE_LAT": 37.463279,
-          "CURVE_LNG": 138.885913
-        },
-        {
-          "CURVE_LAT": 37.463395,
-          "CURVE_LNG": 138.884966
-        },
-        {
-          "CURVE_LAT": 37.463604,
-          "CURVE_LNG": 138.883567
-        },
-        {
-          "CURVE_LAT": 37.463674,
-          "CURVE_LNG": 138.882839
-        },
-        {
-          "CURVE_LAT": 37.463688,
-          "CURVE_LNG": 138.88231
-        },
-        {
-          "CURVE_LAT": 37.463485,
-          "CURVE_LNG": 138.872986
-        },
-        {
-          "CURVE_LAT": 37.463466,
-          "CURVE_LNG": 138.869603
-        },
-        {
-          "CURVE_LAT": 37.463434,
-          "CURVE_LNG": 138.867507
-        },
-        {
-          "CURVE_LAT": 37.463378,
-          "CURVE_LNG": 138.866945
-        },
-        {
-          "CURVE_LAT": 37.462125,
-          "CURVE_LNG": 138.861692
-        },
-        {
-          "CURVE_LAT": 37.46194,
-          "CURVE_LNG": 138.861251
-        },
-        {
-          "CURVE_LAT": 37.461659,
-          "CURVE_LNG": 138.860929
-        },
-        {
-          "CURVE_LAT": 37.459965,
-          "CURVE_LNG": 138.859179
-        },
-        {
-          "CURVE_LAT": 37.459579,
-          "CURVE_LNG": 138.858978
-        },
-        {
-          "CURVE_LAT": 37.458803,
-          "CURVE_LNG": 138.858671
-        },
-        {
-          "CURVE_LAT": 37.455344,
-          "CURVE_LNG": 138.857275
-        },
-        {
-          "CURVE_LAT": 37.452995,
-          "CURVE_LNG": 138.856409
-        },
-        {
-          "CURVE_LAT": 37.449419,
-          "CURVE_LNG": 138.854946
-        },
-        {
-          "CURVE_LAT": 37.448761,
-          "CURVE_LNG": 138.854826
-        },
-        {
-          "CURVE_LAT": 37.448038,
-          "CURVE_LNG": 138.854769
-        },
-        {
-          "CURVE_LAT": 37.446589,
-          "CURVE_LNG": 138.854263
-        },
-        {
-          "CURVE_LAT": 37.446119,
-          "CURVE_LNG": 138.854159
-        },
-        {
-          "CURVE_LAT": 37.445829,
-          "CURVE_LNG": 138.854215
-        },
-        {
-          "CURVE_LAT": 37.44554,
-          "CURVE_LNG": 138.854408
-        },
-        {
-          "CURVE_LAT": 37.445348,
-          "CURVE_LNG": 138.85481
-        },
-        {
-          "CURVE_LAT": 37.444986,
-          "CURVE_LNG": 138.856665
-        },
-        {
-          "CURVE_LAT": 37.444858,
-          "CURVE_LNG": 138.857066
-        },
-        {
-          "CURVE_LAT": 37.444704,
-          "CURVE_LNG": 138.857358
-        },
-        {
-          "CURVE_LAT": 37.444411,
-          "CURVE_LNG": 138.857585
-        },
-        {
-          "CURVE_LAT": 37.444103,
-          "CURVE_LNG": 138.85781
-        },
-        {
-          "CURVE_LAT": 37.441178,
-          "CURVE_LNG": 138.858643
-        },
-        {
-          "CURVE_LAT": 37.440803,
-          "CURVE_LNG": 138.85874
-        },
-        {
-          "CURVE_LAT": 37.440601,
-          "CURVE_LNG": 138.858735
-        },
-        {
-          "CURVE_LAT": 37.440022,
-          "CURVE_LNG": 138.858802
-        },
-        {
-          "CURVE_LAT": 37.439348,
-          "CURVE_LNG": 138.858812
-        },
-        {
-          "CURVE_LAT": 37.438809,
-          "CURVE_LNG": 138.8589
-        },
-        {
-          "CURVE_LAT": 37.438361,
-          "CURVE_LNG": 138.858992
-        },
-        {
-          "CURVE_LAT": 37.438135,
-          "CURVE_LNG": 138.859141
-        },
-        {
-          "CURVE_LAT": 37.437904,
-          "CURVE_LNG": 138.859373
-        },
-        {
-          "CURVE_LAT": 37.437688,
-          "CURVE_LNG": 138.859753
-        },
-        {
-          "CURVE_LAT": 37.437544,
-          "CURVE_LNG": 138.860138
-        },
-        {
-          "CURVE_LAT": 37.437395,
-          "CURVE_LNG": 138.86065
-        },
-        {
-          "CURVE_LAT": 37.436974,
-          "CURVE_LNG": 138.861979
-        },
-        {
-          "CURVE_LAT": 37.434609,
-          "CURVE_LNG": 138.869504
-        },
-        {
-          "CURVE_LAT": 37.43447,
-          "CURVE_LNG": 138.870012
-        },
-        {
-          "CURVE_LAT": 37.434393,
-          "CURVE_LNG": 138.870483
-        },
-        {
-          "CURVE_LAT": 37.434321,
-          "CURVE_LNG": 138.870891
-        },
-        {
-          "CURVE_LAT": 37.434249,
-          "CURVE_LNG": 138.871483
-        },
-        {
-          "CURVE_LAT": 37.434278,
-          "CURVE_LNG": 138.872521
-        },
-        {
-          "CURVE_LAT": 37.434605,
-          "CURVE_LNG": 138.876413
-        }
-      ]
-    },
-    {
-      "SECTION_NUM": 1117,
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 331,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1973,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB02_16407",
-      "BIKOU": "",
-      "CURVE_NUM": 1117,
-      "curveLines": [
-        {
-          "CURVE_LAT": 37.523106,
-          "CURVE_LNG": 138.92281
-        },
-        {
-          "CURVE_LAT": 37.522043,
-          "CURVE_LNG": 138.92289
-        },
-        {
-          "CURVE_LAT": 37.521018,
-          "CURVE_LNG": 138.92293
-        },
-        {
-          "CURVE_LAT": 37.519917,
-          "CURVE_LNG": 138.922945
-        },
-        {
-          "CURVE_LAT": 37.519673,
-          "CURVE_LNG": 138.922911
-        },
-        {
-          "CURVE_LAT": 37.518479,
-          "CURVE_LNG": 138.922482
-        },
-        {
-          "CURVE_LAT": 37.517569,
-          "CURVE_LNG": 138.922084
-        },
-        {
-          "CURVE_LAT": 37.516328,
-          "CURVE_LNG": 138.92126
-        },
-        {
-          "CURVE_LAT": 37.51393,
-          "CURVE_LNG": 138.919657
-        },
-        {
-          "CURVE_LAT": 37.511855,
-          "CURVE_LNG": 138.918494
-        },
-        {
-          "CURVE_LAT": 37.507389,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.506978,
-          "CURVE_LNG": 138.916021
-        },
-        {
-          "CURVE_LAT": 37.506592,
-          "CURVE_LNG": 138.91595
-        },
-        {
-          "CURVE_LAT": 37.506278,
-          "CURVE_LNG": 138.915905
-        },
-        {
-          "CURVE_LAT": 37.505937,
-          "CURVE_LNG": 138.915963
-        },
-        {
-          "CURVE_LAT": 37.505609,
-          "CURVE_LNG": 138.916104
-        },
-        {
-          "CURVE_LAT": 37.505346,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.503069,
-          "CURVE_LNG": 138.917743
-        },
-        {
-          "CURVE_LAT": 37.502622,
-          "CURVE_LNG": 138.918025
-        },
-        {
-          "CURVE_LAT": 37.501335,
-          "CURVE_LNG": 138.918729
-        },
-        {
-          "CURVE_LAT": 37.500244,
-          "CURVE_LNG": 138.919297
-        },
-        {
-          "CURVE_LAT": 37.499407,
-          "CURVE_LNG": 138.919851
-        },
-        {
-          "CURVE_LAT": 37.497979,
-          "CURVE_LNG": 138.921088
-        },
-        {
-          "CURVE_LAT": 37.496446,
-          "CURVE_LNG": 138.922677
-        },
-        {
-          "CURVE_LAT": 37.494298,
-          "CURVE_LNG": 138.924829
-        },
-        {
-          "CURVE_LAT": 37.493286,
-          "CURVE_LNG": 138.925794
-        },
-        {
-          "CURVE_LAT": 37.493024,
-          "CURVE_LNG": 138.926003
-        },
-        {
-          "CURVE_LAT": 37.49281,
-          "CURVE_LNG": 138.926108
-        },
-        {
-          "CURVE_LAT": 37.492602,
-          "CURVE_LNG": 138.926153
-        },
-        {
-          "CURVE_LAT": 37.492344,
-          "CURVE_LNG": 138.926158
-        },
-        {
-          "CURVE_LAT": 37.492103,
-          "CURVE_LNG": 138.926184
-        },
-        {
-          "CURVE_LAT": 37.491685,
-          "CURVE_LNG": 138.926166
-        },
-        {
-          "CURVE_LAT": 37.491313,
-          "CURVE_LNG": 138.926006
-        },
-        {
-          "CURVE_LAT": 37.490976,
-          "CURVE_LNG": 138.925627
-        },
-        {
-          "CURVE_LAT": 37.490663,
-          "CURVE_LNG": 138.925161
-        },
-        {
-          "CURVE_LAT": 37.490047,
-          "CURVE_LNG": 138.923791
-        },
-        {
-          "CURVE_LAT": 37.489141,
-          "CURVE_LNG": 138.921517
-        },
-        {
-          "CURVE_LAT": 37.488723,
-          "CURVE_LNG": 138.920541
-        },
-        {
-          "CURVE_LAT": 37.488491,
-          "CURVE_LNG": 138.920074
-        },
-        {
-          "CURVE_LAT": 37.488189,
-          "CURVE_LNG": 138.919666
-        },
-        {
-          "CURVE_LAT": 37.487899,
-          "CURVE_LNG": 138.919346
-        },
-        {
-          "CURVE_LAT": 37.487399,
-          "CURVE_LNG": 138.918961
-        },
-        {
-          "CURVE_LAT": 37.486192,
-          "CURVE_LNG": 138.918145
-        },
-        {
-          "CURVE_LAT": 37.483509,
-          "CURVE_LNG": 138.916454
-        },
-        {
-          "CURVE_LAT": 37.481186,
-          "CURVE_LNG": 138.915136
-        },
-        {
-          "CURVE_LAT": 37.479497,
-          "CURVE_LNG": 138.914294
-        },
-        {
-          "CURVE_LAT": 37.478736,
-          "CURVE_LNG": 138.913912
-        },
-        {
-          "CURVE_LAT": 37.478063,
-          "CURVE_LNG": 138.91349
-        },
-        {
-          "CURVE_LAT": 37.477552,
-          "CURVE_LNG": 138.91314
-        },
-        {
-          "CURVE_LAT": 37.476901,
-          "CURVE_LNG": 138.912586
-        },
-        {
-          "CURVE_LAT": 37.474892,
-          "CURVE_LNG": 138.910731
-        },
-        {
-          "CURVE_LAT": 37.47243,
-          "CURVE_LNG": 138.908108
-        },
-        {
-          "CURVE_LAT": 37.469364,
-          "CURVE_LNG": 138.904769
-        },
-        {
-          "CURVE_LAT": 37.467309,
-          "CURVE_LNG": 138.902393
-        },
-        {
-          "CURVE_LAT": 37.466693,
-          "CURVE_LNG": 138.901475
-        },
-        {
-          "CURVE_LAT": 37.466357,
-          "CURVE_LNG": 138.900775
-        },
-        {
-          "CURVE_LAT": 37.466066,
-          "CURVE_LNG": 138.900076
-        },
-        {
-          "CURVE_LAT": 37.465857,
-          "CURVE_LNG": 138.899377
-        },
-        {
-          "CURVE_LAT": 37.465671,
-          "CURVE_LNG": 138.898677
-        },
-        {
-          "CURVE_LAT": 37.465265,
-          "CURVE_LNG": 138.896827
-        },
-        {
-          "CURVE_LAT": 37.464255,
-          "CURVE_LNG": 138.892176
-        },
-        {
-          "CURVE_LAT": 37.46336,
-          "CURVE_LNG": 138.887909
-        },
-        {
-          "CURVE_LAT": 37.463267,
-          "CURVE_LNG": 138.887049
-        },
-        {
-          "CURVE_LAT": 37.463244,
-          "CURVE_LNG": 138.886437
-        },
-        {
-          "CURVE_LAT": 37.463279,
-          "CURVE_LNG": 138.885913
-        },
-        {
-          "CURVE_LAT": 37.463395,
-          "CURVE_LNG": 138.884966
-        },
-        {
-          "CURVE_LAT": 37.463604,
-          "CURVE_LNG": 138.883567
-        },
-        {
-          "CURVE_LAT": 37.463674,
-          "CURVE_LNG": 138.882839
-        },
-        {
-          "CURVE_LAT": 37.463688,
-          "CURVE_LNG": 138.88231
-        },
-        {
-          "CURVE_LAT": 37.463485,
-          "CURVE_LNG": 138.872986
-        },
-        {
-          "CURVE_LAT": 37.463466,
-          "CURVE_LNG": 138.869603
-        },
-        {
-          "CURVE_LAT": 37.463434,
-          "CURVE_LNG": 138.867507
-        },
-        {
-          "CURVE_LAT": 37.463378,
-          "CURVE_LNG": 138.866945
-        },
-        {
-          "CURVE_LAT": 37.462125,
-          "CURVE_LNG": 138.861692
-        },
-        {
-          "CURVE_LAT": 37.46194,
-          "CURVE_LNG": 138.861251
-        },
-        {
-          "CURVE_LAT": 37.461659,
-          "CURVE_LNG": 138.860929
-        },
-        {
-          "CURVE_LAT": 37.459965,
-          "CURVE_LNG": 138.859179
-        },
-        {
-          "CURVE_LAT": 37.459579,
-          "CURVE_LNG": 138.858978
-        },
-        {
-          "CURVE_LAT": 37.458803,
-          "CURVE_LNG": 138.858671
-        },
-        {
-          "CURVE_LAT": 37.455344,
-          "CURVE_LNG": 138.857275
-        },
-        {
-          "CURVE_LAT": 37.452995,
-          "CURVE_LNG": 138.856409
-        },
-        {
-          "CURVE_LAT": 37.449419,
-          "CURVE_LNG": 138.854946
-        },
-        {
-          "CURVE_LAT": 37.448761,
-          "CURVE_LNG": 138.854826
-        },
-        {
-          "CURVE_LAT": 37.448038,
-          "CURVE_LNG": 138.854769
-        },
-        {
-          "CURVE_LAT": 37.446589,
-          "CURVE_LNG": 138.854263
-        }
-      ]
-    },
-    {
-      "SECTION_NUM": 1118,
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 234,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB02_16407",
-      "BIKOU": "",
-      "CURVE_NUM": 1118,
-      "curveLines": [
-        {
-          "CURVE_LAT": 37.483598,
-          "CURVE_LNG": 138.99265
-        },
-        {
-          "CURVE_LAT": 37.485376,
-          "CURVE_LNG": 138.993314
-        },
-        {
-          "CURVE_LAT": 37.485866,
-          "CURVE_LNG": 138.993592
-        },
-        {
-          "CURVE_LAT": 37.486407,
-          "CURVE_LNG": 138.99397
-        },
-        {
-          "CURVE_LAT": 37.48719,
-          "CURVE_LNG": 138.99473
-        },
-        {
-          "CURVE_LAT": 37.488932,
-          "CURVE_LNG": 138.996689
-        },
-        {
-          "CURVE_LAT": 37.490828,
-          "CURVE_LNG": 138.998754
-        },
-        {
-          "CURVE_LAT": 37.491262,
-          "CURVE_LNG": 138.999235
-        },
-        {
-          "CURVE_LAT": 37.491493,
-          "CURVE_LNG": 138.999391
-        },
-        {
-          "CURVE_LAT": 37.491714,
-          "CURVE_LNG": 138.999484
-        },
-        {
-          "CURVE_LAT": 37.492102,
-          "CURVE_LNG": 138.999565
-        },
-        {
-          "CURVE_LAT": 37.492573,
-          "CURVE_LNG": 138.999554
-        },
-        {
-          "CURVE_LAT": 37.493025,
-          "CURVE_LNG": 138.999461
-        },
-        {
-          "CURVE_LAT": 37.493371,
-          "CURVE_LNG": 138.99935
-        },
-        {
-          "CURVE_LAT": 37.494368,
-          "CURVE_LNG": 138.998933
-        },
-        {
-          "CURVE_LAT": 37.495405,
-          "CURVE_LNG": 138.998368
-        },
-        {
-          "CURVE_LAT": 37.496106,
-          "CURVE_LNG": 138.998032
-        },
-        {
-          "CURVE_LAT": 37.496577,
-          "CURVE_LNG": 138.997801
-        },
-        {
-          "CURVE_LAT": 37.497059,
-          "CURVE_LNG": 138.997669
-        },
-        {
-          "CURVE_LAT": 37.497554,
-          "CURVE_LNG": 138.997543
-        },
-        {
-          "CURVE_LAT": 37.497762,
-          "CURVE_LNG": 138.997432
-        },
-        {
-          "CURVE_LAT": 37.497958,
-          "CURVE_LNG": 138.997236
-        },
-        {
-          "CURVE_LAT": 37.498131,
-          "CURVE_LNG": 138.996975
-        },
-        {
-          "CURVE_LAT": 37.498422,
-          "CURVE_LNG": 138.996411
-        },
-        {
-          "CURVE_LAT": 37.499384,
-          "CURVE_LNG": 138.995029
-        },
-        {
-          "CURVE_LAT": 37.500128,
-          "CURVE_LNG": 138.993754
-        },
-        {
-          "CURVE_LAT": 37.5004,
-          "CURVE_LNG": 138.993162
-        },
-        {
-          "CURVE_LAT": 37.500564,
-          "CURVE_LNG": 138.992547
-        },
-        {
-          "CURVE_LAT": 37.500654,
-          "CURVE_LNG": 138.991909
-        },
-        {
-          "CURVE_LAT": 37.500727,
-          "CURVE_LNG": 138.99093
-        },
-        {
-          "CURVE_LAT": 37.500763,
-          "CURVE_LNG": 138.990064
-        },
-        {
-          "CURVE_LAT": 37.500927,
-          "CURVE_LNG": 138.989153
-        },
-        {
-          "CURVE_LAT": 37.501126,
-          "CURVE_LNG": 138.98847
-        },
-        {
-          "CURVE_LAT": 37.501543,
-          "CURVE_LNG": 138.987559
-        },
-        {
-          "CURVE_LAT": 37.502596,
-          "CURVE_LNG": 138.985623
-        },
-        {
-          "CURVE_LAT": 37.503123,
-          "CURVE_LNG": 138.984537
-        },
-        {
-          "CURVE_LAT": 37.503881,
-          "CURVE_LNG": 138.982275
-        },
-        {
-          "CURVE_LAT": 37.504215,
-          "CURVE_LNG": 138.981196
-        },
-        {
-          "CURVE_LAT": 37.504453,
-          "CURVE_LNG": 138.980136
-        },
-        {
-          "CURVE_LAT": 37.504774,
-          "CURVE_LNG": 138.978645
-        },
-        {
-          "CURVE_LAT": 37.505057,
-          "CURVE_LNG": 138.977257
-        },
-        {
-          "CURVE_LAT": 37.505211,
-          "CURVE_LNG": 138.976287
-        },
-        {
-          "CURVE_LAT": 37.505481,
-          "CURVE_LNG": 138.975234
-        },
-        {
-          "CURVE_LAT": 37.506008,
-          "CURVE_LNG": 138.973062
-        },
-        {
-          "CURVE_LAT": 37.50631,
-          "CURVE_LNG": 138.971848
-        },
-        {
-          "CURVE_LAT": 37.506721,
-          "CURVE_LNG": 138.970016
-        },
-        {
-          "CURVE_LAT": 37.507016,
-          "CURVE_LNG": 138.96816
-        },
-        {
-          "CURVE_LAT": 37.507087,
-          "CURVE_LNG": 138.967826
-        },
-        {
-          "CURVE_LAT": 37.507415,
-          "CURVE_LNG": 138.966444
-        },
-        {
-          "CURVE_LAT": 37.507877,
-          "CURVE_LNG": 138.964253
-        },
-        {
-          "CURVE_LAT": 37.507942,
-          "CURVE_LNG": 138.963945
-        },
-        {
-          "CURVE_LAT": 37.508141,
-          "CURVE_LNG": 138.963617
-        },
-        {
-          "CURVE_LAT": 37.50843,
-          "CURVE_LNG": 138.963257
-        },
-        {
-          "CURVE_LAT": 37.510062,
-          "CURVE_LNG": 138.961131
-        },
-        {
-          "CURVE_LAT": 37.510383,
-          "CURVE_LNG": 138.960771
-        },
-        {
-          "CURVE_LAT": 37.510987,
-          "CURVE_LNG": 138.959961
-        },
-        {
-          "CURVE_LAT": 37.511983,
-          "CURVE_LNG": 138.958779
-        },
-        {
-          "CURVE_LAT": 37.513833,
-          "CURVE_LNG": 138.956768
-        },
-        {
-          "CURVE_LAT": 37.514116,
-          "CURVE_LNG": 138.95653
-        },
-        {
-          "CURVE_LAT": 37.514482,
-          "CURVE_LNG": 138.95637
-        },
-        {
-          "CURVE_LAT": 37.514926,
-          "CURVE_LNG": 138.956261
-        },
-        {
-          "CURVE_LAT": 37.517586,
-          "CURVE_LNG": 138.955676
-        },
-        {
-          "CURVE_LAT": 37.517939,
-          "CURVE_LNG": 138.955464
-        },
-        {
-          "CURVE_LAT": 37.518247,
-          "CURVE_LNG": 138.955213
-        },
-        {
-          "CURVE_LAT": 37.518569,
-          "CURVE_LNG": 138.954834
-        },
-        {
-          "CURVE_LAT": 37.518909,
-          "CURVE_LNG": 138.954314
-        },
-        {
-          "CURVE_LAT": 37.519507,
-          "CURVE_LNG": 138.95326
-        },
-        {
-          "CURVE_LAT": 37.519841,
-          "CURVE_LNG": 138.952515
-        },
-        {
-          "CURVE_LAT": 37.519956,
-          "CURVE_LNG": 138.9522
-        },
-        {
-          "CURVE_LAT": 37.52004,
-          "CURVE_LNG": 138.951866
-        },
-        {
-          "CURVE_LAT": 37.520066,
-          "CURVE_LNG": 138.9515
-        },
-        {
-          "CURVE_LAT": 37.520046,
-          "CURVE_LNG": 138.95105
-        },
-        {
-          "CURVE_LAT": 37.519982,
-          "CURVE_LNG": 138.950594
-        },
-        {
-          "CURVE_LAT": 37.519867,
-          "CURVE_LNG": 138.95024
-        },
-        {
-          "CURVE_LAT": 37.519667,
-          "CURVE_LNG": 138.949778
-        },
-        {
-          "CURVE_LAT": 37.519417,
-          "CURVE_LNG": 138.949315
-        },
-        {
-          "CURVE_LAT": 37.51914,
-          "CURVE_LNG": 138.948846
-        },
-        {
-          "CURVE_LAT": 37.518858,
-          "CURVE_LNG": 138.948486
-        },
-        {
-          "CURVE_LAT": 37.518556,
-          "CURVE_LNG": 138.948088
-        },
-        {
-          "CURVE_LAT": 37.518202,
-          "CURVE_LNG": 138.947696
-        },
-        {
-          "CURVE_LAT": 37.517952,
-          "CURVE_LNG": 138.947368
-        },
-        {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.946957
-        },
-        {
-          "CURVE_LAT": 37.517399,
-          "CURVE_LNG": 138.946494
-        },
-        {
-          "CURVE_LAT": 37.517207,
-          "CURVE_LNG": 138.946096
-        },
-        {
-          "CURVE_LAT": 37.517027,
-          "CURVE_LNG": 138.945653
-        },
-        {
-          "CURVE_LAT": 37.516879,
-          "CURVE_LNG": 138.945203
-        },
-        {
-          "CURVE_LAT": 37.516789,
-          "CURVE_LNG": 138.94474
-        },
-        {
-          "CURVE_LAT": 37.516718,
-          "CURVE_LNG": 138.944181
-        },
-        {
-          "CURVE_LAT": 37.51666,
-          "CURVE_LNG": 138.943263
-        },
-        {
-          "CURVE_LAT": 37.516506,
-          "CURVE_LNG": 138.939857
-        },
-        {
-          "CURVE_LAT": 37.516256,
-          "CURVE_LNG": 138.93558
-        },
-        {
-          "CURVE_LAT": 37.516179,
-          "CURVE_LNG": 138.934499
-        },
-        {
-          "CURVE_LAT": 37.516236,
-          "CURVE_LNG": 138.933908
-        },
-        {
-          "CURVE_LAT": 37.516346,
-          "CURVE_LNG": 138.932822
-        },
-        {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.931942
-        },
-        {
-          "CURVE_LAT": 37.516423,
-          "CURVE_LNG": 138.93101
-        },
-        {
-          "CURVE_LAT": 37.515922,
-          "CURVE_LNG": 138.924354
-        },
-        {
-          "CURVE_LAT": 37.515902,
-          "CURVE_LNG": 138.923956
-        },
-        {
-          "CURVE_LAT": 37.515973,
-          "CURVE_LNG": 138.923403
-        },
-        {
-          "CURVE_LAT": 37.516172,
-          "CURVE_LNG": 138.922902
-        },
-        {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.922548
-        },
-        {
-          "CURVE_LAT": 37.51684,
-          "CURVE_LNG": 138.922285
-        },
-        {
-          "CURVE_LAT": 37.517277,
-          "CURVE_LNG": 138.922118
-        },
-        {
-          "CURVE_LAT": 37.517509,
-          "CURVE_LNG": 138.922137
-        },
-        {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.922153
-        },
-        {
-          "CURVE_LAT": 37.517986,
-          "CURVE_LNG": 138.92232
-        },
-        {
-          "CURVE_LAT": 37.518174,
-          "CURVE_LNG": 138.922393
-        },
-        {
-          "CURVE_LAT": 37.519594,
-          "CURVE_LNG": 138.922913
-        },
-        {
-          "CURVE_LAT": 37.519847,
-          "CURVE_LNG": 138.922968
-        },
-        {
-          "CURVE_LAT": 37.521403,
-          "CURVE_LNG": 138.922953
-        },
-        {
-          "CURVE_LAT": 37.522407,
-          "CURVE_LNG": 138.922905
-        },
-        {
-          "CURVE_LAT": 37.523106,
-          "CURVE_LNG": 138.92281
-        },
-        {
-          "CURVE_LAT": 37.522043,
-          "CURVE_LNG": 138.92289
-        },
-        {
-          "CURVE_LAT": 37.521018,
-          "CURVE_LNG": 138.92293
-        },
-        {
-          "CURVE_LAT": 37.519917,
-          "CURVE_LNG": 138.922945
-        },
-        {
-          "CURVE_LAT": 37.519673,
-          "CURVE_LNG": 138.922911
-        },
-        {
-          "CURVE_LAT": 37.518479,
-          "CURVE_LNG": 138.922482
-        },
-        {
-          "CURVE_LAT": 37.517569,
-          "CURVE_LNG": 138.922084
-        },
-        {
-          "CURVE_LAT": 37.516328,
-          "CURVE_LNG": 138.92126
-        },
-        {
-          "CURVE_LAT": 37.51393,
-          "CURVE_LNG": 138.919657
-        },
-        {
-          "CURVE_LAT": 37.511855,
-          "CURVE_LNG": 138.918494
-        },
-        {
-          "CURVE_LAT": 37.507389,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.506978,
-          "CURVE_LNG": 138.916021
-        },
-        {
-          "CURVE_LAT": 37.506592,
-          "CURVE_LNG": 138.91595
-        },
-        {
-          "CURVE_LAT": 37.506278,
-          "CURVE_LNG": 138.915905
-        },
-        {
-          "CURVE_LAT": 37.505937,
-          "CURVE_LNG": 138.915963
-        },
-        {
-          "CURVE_LAT": 37.505609,
-          "CURVE_LNG": 138.916104
-        },
-        {
-          "CURVE_LAT": 37.505346,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.503069,
-          "CURVE_LNG": 138.917743
-        },
-        {
-          "CURVE_LAT": 37.502622,
-          "CURVE_LNG": 138.918025
-        },
-        {
-          "CURVE_LAT": 37.501335,
-          "CURVE_LNG": 138.918729
-        },
-        {
-          "CURVE_LAT": 37.500244,
-          "CURVE_LNG": 138.919297
-        },
-        {
-          "CURVE_LAT": 37.499407,
-          "CURVE_LNG": 138.919851
-        },
-        {
-          "CURVE_LAT": 37.497979,
-          "CURVE_LNG": 138.921088
-        },
-        {
-          "CURVE_LAT": 37.496446,
-          "CURVE_LNG": 138.922677
-        },
-        {
-          "CURVE_LAT": 37.494298,
-          "CURVE_LNG": 138.924829
-        },
-        {
-          "CURVE_LAT": 37.493286,
-          "CURVE_LNG": 138.925794
-        },
-        {
-          "CURVE_LAT": 37.493024,
-          "CURVE_LNG": 138.926003
-        },
-        {
-          "CURVE_LAT": 37.49281,
-          "CURVE_LNG": 138.926108
-        },
-        {
-          "CURVE_LAT": 37.492602,
-          "CURVE_LNG": 138.926153
-        },
-        {
-          "CURVE_LAT": 37.492344,
-          "CURVE_LNG": 138.926158
-        },
-        {
-          "CURVE_LAT": 37.492103,
-          "CURVE_LNG": 138.926184
-        },
-        {
-          "CURVE_LAT": 37.491685,
-          "CURVE_LNG": 138.926166
-        },
-        {
-          "CURVE_LAT": 37.491313,
-          "CURVE_LNG": 138.926006
-        },
-        {
-          "CURVE_LAT": 37.490976,
-          "CURVE_LNG": 138.925627
-        },
-        {
-          "CURVE_LAT": 37.490663,
-          "CURVE_LNG": 138.925161
-        },
-        {
-          "CURVE_LAT": 37.490047,
-          "CURVE_LNG": 138.923791
-        },
-        {
-          "CURVE_LAT": 37.489141,
-          "CURVE_LNG": 138.921517
-        },
-        {
-          "CURVE_LAT": 37.488723,
-          "CURVE_LNG": 138.920541
-        },
-        {
-          "CURVE_LAT": 37.488491,
-          "CURVE_LNG": 138.920074
-        },
-        {
-          "CURVE_LAT": 37.488189,
-          "CURVE_LNG": 138.919666
-        },
-        {
-          "CURVE_LAT": 37.487899,
-          "CURVE_LNG": 138.919346
-        },
-        {
-          "CURVE_LAT": 37.487399,
-          "CURVE_LNG": 138.918961
-        },
-        {
-          "CURVE_LAT": 37.486192,
-          "CURVE_LNG": 138.918145
-        },
-        {
-          "CURVE_LAT": 37.483509,
-          "CURVE_LNG": 138.916454
-        },
-        {
-          "CURVE_LAT": 37.481186,
-          "CURVE_LNG": 138.915136
-        },
-        {
-          "CURVE_LAT": 37.479497,
-          "CURVE_LNG": 138.914294
-        },
-        {
-          "CURVE_LAT": 37.478736,
-          "CURVE_LNG": 138.913912
-        },
-        {
-          "CURVE_LAT": 37.478063,
-          "CURVE_LNG": 138.91349
-        },
-        {
-          "CURVE_LAT": 37.477552,
-          "CURVE_LNG": 138.91314
-        },
-        {
-          "CURVE_LAT": 37.476901,
-          "CURVE_LNG": 138.912586
-        },
-        {
-          "CURVE_LAT": 37.474892,
-          "CURVE_LNG": 138.910731
-        },
-        {
-          "CURVE_LAT": 37.47243,
-          "CURVE_LNG": 138.908108
-        },
-        {
-          "CURVE_LAT": 37.469364,
-          "CURVE_LNG": 138.904769
-        },
-        {
-          "CURVE_LAT": 37.467309,
-          "CURVE_LNG": 138.902393
-        },
-        {
-          "CURVE_LAT": 37.466693,
-          "CURVE_LNG": 138.901475
-        },
-        {
-          "CURVE_LAT": 37.466357,
-          "CURVE_LNG": 138.900775
-        },
-        {
-          "CURVE_LAT": 37.466066,
-          "CURVE_LNG": 138.900076
-        },
-        {
-          "CURVE_LAT": 37.465857,
-          "CURVE_LNG": 138.899377
-        },
-        {
-          "CURVE_LAT": 37.465671,
-          "CURVE_LNG": 138.898677
-        },
-        {
-          "CURVE_LAT": 37.465265,
-          "CURVE_LNG": 138.896827
-        },
-        {
-          "CURVE_LAT": 37.464255,
-          "CURVE_LNG": 138.892176
-        },
-        {
-          "CURVE_LAT": 37.46336,
-          "CURVE_LNG": 138.887909
-        },
-        {
-          "CURVE_LAT": 37.463267,
-          "CURVE_LNG": 138.887049
-        },
-        {
-          "CURVE_LAT": 37.463244,
-          "CURVE_LNG": 138.886437
-        },
-        {
-          "CURVE_LAT": 37.463279,
-          "CURVE_LNG": 138.885913
-        },
-        {
-          "CURVE_LAT": 37.463395,
-          "CURVE_LNG": 138.884966
-        },
-        {
-          "CURVE_LAT": 37.463604,
-          "CURVE_LNG": 138.883567
-        },
-        {
-          "CURVE_LAT": 37.463674,
-          "CURVE_LNG": 138.882839
-        },
-        {
-          "CURVE_LAT": 37.463688,
-          "CURVE_LNG": 138.88231
-        },
-        {
-          "CURVE_LAT": 37.463485,
-          "CURVE_LNG": 138.872986
-        },
-        {
-          "CURVE_LAT": 37.463466,
-          "CURVE_LNG": 138.869603
-        },
-        {
-          "CURVE_LAT": 37.463434,
-          "CURVE_LNG": 138.867507
-        },
-        {
-          "CURVE_LAT": 37.463378,
-          "CURVE_LNG": 138.866945
-        },
-        {
-          "CURVE_LAT": 37.462125,
-          "CURVE_LNG": 138.861692
-        },
-        {
-          "CURVE_LAT": 37.46194,
-          "CURVE_LNG": 138.861251
-        },
-        {
-          "CURVE_LAT": 37.461659,
-          "CURVE_LNG": 138.860929
-        },
-        {
-          "CURVE_LAT": 37.459965,
-          "CURVE_LNG": 138.859179
-        },
-        {
-          "CURVE_LAT": 37.459579,
-          "CURVE_LNG": 138.858978
-        },
-        {
-          "CURVE_LAT": 37.458803,
-          "CURVE_LNG": 138.858671
-        },
-        {
-          "CURVE_LAT": 37.455344,
-          "CURVE_LNG": 138.857275
-        },
-        {
-          "CURVE_LAT": 37.452995,
-          "CURVE_LNG": 138.856409
-        },
-        {
-          "CURVE_LAT": 37.449419,
-          "CURVE_LNG": 138.854946
-        },
-        {
-          "CURVE_LAT": 37.448761,
-          "CURVE_LNG": 138.854826
-        },
-        {
-          "CURVE_LAT": 37.448038,
-          "CURVE_LNG": 138.854769
-        },
-        {
-          "CURVE_LAT": 37.446589,
-          "CURVE_LNG": 138.854263
-        },
-        {
-          "CURVE_LAT": 37.446119,
-          "CURVE_LNG": 138.854159
-        },
-        {
-          "CURVE_LAT": 37.445829,
-          "CURVE_LNG": 138.854215
-        },
-        {
-          "CURVE_LAT": 37.44554,
-          "CURVE_LNG": 138.854408
-        },
-        {
-          "CURVE_LAT": 37.445348,
-          "CURVE_LNG": 138.85481
-        },
-        {
-          "CURVE_LAT": 37.444986,
-          "CURVE_LNG": 138.856665
-        },
-        {
-          "CURVE_LAT": 37.444858,
-          "CURVE_LNG": 138.857066
-        },
-        {
-          "CURVE_LAT": 37.444704,
-          "CURVE_LNG": 138.857358
-        },
-        {
-          "CURVE_LAT": 37.444411,
-          "CURVE_LNG": 138.857585
-        },
-        {
-          "CURVE_LAT": 37.444103,
-          "CURVE_LNG": 138.85781
-        },
-        {
-          "CURVE_LAT": 37.441178,
-          "CURVE_LNG": 138.858643
-        },
-        {
-          "CURVE_LAT": 37.440803,
-          "CURVE_LNG": 138.85874
-        },
-        {
-          "CURVE_LAT": 37.440601,
-          "CURVE_LNG": 138.858735
-        },
-        {
-          "CURVE_LAT": 37.440022,
-          "CURVE_LNG": 138.858802
-        },
-        {
-          "CURVE_LAT": 37.439348,
-          "CURVE_LNG": 138.858812
-        },
-        {
-          "CURVE_LAT": 37.438809,
-          "CURVE_LNG": 138.8589
-        },
-        {
-          "CURVE_LAT": 37.438361,
-          "CURVE_LNG": 138.858992
-        },
-        {
-          "CURVE_LAT": 37.438135,
-          "CURVE_LNG": 138.859141
-        },
-        {
-          "CURVE_LAT": 37.437904,
-          "CURVE_LNG": 138.859373
-        },
-        {
-          "CURVE_LAT": 37.437688,
-          "CURVE_LNG": 138.859753
-        },
-        {
-          "CURVE_LAT": 37.437544,
-          "CURVE_LNG": 138.860138
-        },
-        {
-          "CURVE_LAT": 37.437395,
-          "CURVE_LNG": 138.86065
-        },
-        {
-          "CURVE_LAT": 37.436974,
-          "CURVE_LNG": 138.861979
-        },
-        {
-          "CURVE_LAT": 37.434609,
-          "CURVE_LNG": 138.869504
-        },
-        {
-          "CURVE_LAT": 37.43447,
-          "CURVE_LNG": 138.870012
-        },
-        {
-          "CURVE_LAT": 37.434393,
-          "CURVE_LNG": 138.870483
-        },
-        {
-          "CURVE_LAT": 37.434321,
-          "CURVE_LNG": 138.870891
-        },
-        {
-          "CURVE_LAT": 37.434249,
-          "CURVE_LNG": 138.871483
-        },
-        {
-          "CURVE_LAT": 37.434278,
-          "CURVE_LNG": 138.872521
-        },
-        {
-          "CURVE_LAT": 37.434605,
-          "CURVE_LNG": 138.876413
-        }
-      ]
-    },
-    {
-      "SECTION_NUM": 1119,
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB02_16407",
+      "SECCHI_END": 1967,
+      "RF_ID": "EB02_16412",
       "BIKOU": "",
-      "CURVE_NUM": 1119,
+      "CURVE_NUM": 1126,
       "curveLines": [
         {
-          "CURVE_LAT": 37.483598,
-          "CURVE_LNG": 138.99265
+          "CURVE_LAT": 37.182966,
+          "CURVE_LNG": 138.267837
         },
         {
-          "CURVE_LAT": 37.485376,
-          "CURVE_LNG": 138.993314
+          "CURVE_LAT": 37.18353,
+          "CURVE_LNG": 138.268328
         },
         {
-          "CURVE_LAT": 37.485866,
-          "CURVE_LNG": 138.993592
+          "CURVE_LAT": 37.183772,
+          "CURVE_LNG": 138.268559
         },
         {
-          "CURVE_LAT": 37.486407,
-          "CURVE_LNG": 138.99397
+          "CURVE_LAT": 37.184075,
+          "CURVE_LNG": 138.268981
         },
         {
-          "CURVE_LAT": 37.48719,
-          "CURVE_LNG": 138.99473
+          "CURVE_LAT": 37.184424,
+          "CURVE_LNG": 138.269675
         },
         {
-          "CURVE_LAT": 37.488932,
-          "CURVE_LNG": 138.996689
+          "CURVE_LAT": 37.184609,
+          "CURVE_LNG": 138.270178
         },
         {
-          "CURVE_LAT": 37.490828,
-          "CURVE_LNG": 138.998754
+          "CURVE_LAT": 37.184656,
+          "CURVE_LNG": 138.270466
         },
         {
-          "CURVE_LAT": 37.491262,
-          "CURVE_LNG": 138.999235
+          "CURVE_LAT": 37.184681,
+          "CURVE_LNG": 138.27095
         },
         {
-          "CURVE_LAT": 37.491493,
-          "CURVE_LNG": 138.999391
+          "CURVE_LAT": 37.184717,
+          "CURVE_LNG": 138.296597
         },
         {
-          "CURVE_LAT": 37.491714,
-          "CURVE_LNG": 138.999484
+          "CURVE_LAT": 37.184773,
+          "CURVE_LNG": 138.323663
         },
         {
-          "CURVE_LAT": 37.492102,
-          "CURVE_LNG": 138.999565
+          "CURVE_LAT": 37.184714,
+          "CURVE_LNG": 138.324068
         },
         {
-          "CURVE_LAT": 37.492573,
-          "CURVE_LNG": 138.999554
+          "CURVE_LAT": 37.184621,
+          "CURVE_LNG": 138.324479
         },
         {
-          "CURVE_LAT": 37.493025,
-          "CURVE_LNG": 138.999461
+          "CURVE_LAT": 37.183633,
+          "CURVE_LNG": 138.328216
         },
         {
-          "CURVE_LAT": 37.493371,
-          "CURVE_LNG": 138.99935
+          "CURVE_LAT": 37.183377,
+          "CURVE_LNG": 138.329056
         },
         {
-          "CURVE_LAT": 37.494368,
-          "CURVE_LNG": 138.998933
+          "CURVE_LAT": 37.183249,
+          "CURVE_LNG": 138.329653
         },
         {
-          "CURVE_LAT": 37.495405,
-          "CURVE_LNG": 138.998368
+          "CURVE_LAT": 37.183048,
+          "CURVE_LNG": 138.330549
         },
         {
-          "CURVE_LAT": 37.496106,
-          "CURVE_LNG": 138.998032
+          "CURVE_LAT": 37.182966,
+          "CURVE_LNG": 138.331195
         },
         {
-          "CURVE_LAT": 37.496577,
-          "CURVE_LNG": 138.997801
+          "CURVE_LAT": 37.18248,
+          "CURVE_LNG": 138.334702
         },
         {
-          "CURVE_LAT": 37.497059,
-          "CURVE_LNG": 138.997669
+          "CURVE_LAT": 37.182316,
+          "CURVE_LNG": 138.335401
         },
         {
-          "CURVE_LAT": 37.497554,
-          "CURVE_LNG": 138.997543
+          "CURVE_LAT": 37.181744,
+          "CURVE_LNG": 138.336836
         },
         {
-          "CURVE_LAT": 37.497762,
-          "CURVE_LNG": 138.997432
+          "CURVE_LAT": 37.181079,
+          "CURVE_LNG": 138.338279
         },
         {
-          "CURVE_LAT": 37.497958,
-          "CURVE_LNG": 138.997236
+          "CURVE_LAT": 37.180975,
+          "CURVE_LNG": 138.338687
         },
         {
-          "CURVE_LAT": 37.498131,
-          "CURVE_LNG": 138.996975
+          "CURVE_LAT": 37.180914,
+          "CURVE_LNG": 138.339053
         },
         {
-          "CURVE_LAT": 37.498422,
-          "CURVE_LNG": 138.996411
+          "CURVE_LAT": 37.18086,
+          "CURVE_LNG": 138.339394
         },
         {
-          "CURVE_LAT": 37.499384,
-          "CURVE_LNG": 138.995029
+          "CURVE_LAT": 37.180778,
+          "CURVE_LNG": 138.339702
         },
         {
-          "CURVE_LAT": 37.500128,
-          "CURVE_LNG": 138.993754
+          "CURVE_LAT": 37.180605,
+          "CURVE_LNG": 138.340142
         },
         {
-          "CURVE_LAT": 37.5004,
-          "CURVE_LNG": 138.993162
+          "CURVE_LAT": 37.180248,
+          "CURVE_LNG": 138.340845
         },
         {
-          "CURVE_LAT": 37.500564,
-          "CURVE_LNG": 138.992547
+          "CURVE_LAT": 37.179853,
+          "CURVE_LNG": 138.341417
         },
         {
-          "CURVE_LAT": 37.500654,
-          "CURVE_LNG": 138.991909
+          "CURVE_LAT": 37.17931,
+          "CURVE_LNG": 138.342091
         },
         {
-          "CURVE_LAT": 37.500727,
-          "CURVE_LNG": 138.99093
+          "CURVE_LAT": 37.17873,
+          "CURVE_LNG": 138.342655
         },
         {
-          "CURVE_LAT": 37.500763,
-          "CURVE_LNG": 138.990064
+          "CURVE_LAT": 37.178093,
+          "CURVE_LNG": 138.343136
         },
         {
-          "CURVE_LAT": 37.500927,
-          "CURVE_LNG": 138.989153
+          "CURVE_LAT": 37.17778,
+          "CURVE_LNG": 138.343436
         },
         {
-          "CURVE_LAT": 37.501126,
-          "CURVE_LNG": 138.98847
+          "CURVE_LAT": 37.17753,
+          "CURVE_LNG": 138.343711
         },
         {
-          "CURVE_LAT": 37.501543,
-          "CURVE_LNG": 138.987559
+          "CURVE_LAT": 37.177238,
+          "CURVE_LNG": 138.344094
         },
         {
-          "CURVE_LAT": 37.502596,
-          "CURVE_LNG": 138.985623
+          "CURVE_LAT": 37.176987,
+          "CURVE_LNG": 138.344534
         },
         {
-          "CURVE_LAT": 37.503123,
-          "CURVE_LNG": 138.984537
+          "CURVE_LAT": 37.176863,
+          "CURVE_LNG": 138.344855
         },
         {
-          "CURVE_LAT": 37.503881,
-          "CURVE_LNG": 138.982275
+          "CURVE_LAT": 37.176781,
+          "CURVE_LNG": 138.345142
         },
         {
-          "CURVE_LAT": 37.504215,
-          "CURVE_LNG": 138.981196
+          "CURVE_LAT": 37.176719,
+          "CURVE_LNG": 138.345496
         },
         {
-          "CURVE_LAT": 37.504453,
-          "CURVE_LNG": 138.980136
+          "CURVE_LAT": 37.176682,
+          "CURVE_LNG": 138.345792
         },
         {
-          "CURVE_LAT": 37.504774,
-          "CURVE_LNG": 138.978645
+          "CURVE_LAT": 37.176658,
+          "CURVE_LNG": 138.346207
         },
         {
-          "CURVE_LAT": 37.505057,
-          "CURVE_LNG": 138.977257
+          "CURVE_LAT": 37.176631,
+          "CURVE_LNG": 138.347582
         },
         {
-          "CURVE_LAT": 37.505211,
-          "CURVE_LNG": 138.976287
+          "CURVE_LAT": 37.176618,
+          "CURVE_LNG": 138.347878
         },
         {
-          "CURVE_LAT": 37.505481,
-          "CURVE_LNG": 138.975234
+          "CURVE_LAT": 37.176579,
+          "CURVE_LNG": 138.348138
         },
         {
-          "CURVE_LAT": 37.506008,
-          "CURVE_LNG": 138.973062
+          "CURVE_LAT": 37.176411,
+          "CURVE_LNG": 138.348884
         },
         {
-          "CURVE_LAT": 37.50631,
-          "CURVE_LNG": 138.971848
+          "CURVE_LAT": 37.176043,
+          "CURVE_LNG": 138.350318
         },
         {
-          "CURVE_LAT": 37.506721,
-          "CURVE_LNG": 138.970016
+          "CURVE_LAT": 37.175815,
+          "CURVE_LNG": 138.351245
         },
         {
-          "CURVE_LAT": 37.507016,
-          "CURVE_LNG": 138.96816
+          "CURVE_LAT": 37.17556,
+          "CURVE_LNG": 138.352166
         },
         {
-          "CURVE_LAT": 37.507087,
-          "CURVE_LNG": 138.967826
+          "CURVE_LAT": 37.175363,
+          "CURVE_LNG": 138.352877
         },
         {
-          "CURVE_LAT": 37.507415,
-          "CURVE_LNG": 138.966444
+          "CURVE_LAT": 37.175124,
+          "CURVE_LNG": 138.353469
         },
         {
-          "CURVE_LAT": 37.507877,
-          "CURVE_LNG": 138.964253
+          "CURVE_LAT": 37.174836,
+          "CURVE_LNG": 138.354152
         },
         {
-          "CURVE_LAT": 37.507942,
-          "CURVE_LNG": 138.963945
+          "CURVE_LAT": 37.173672,
+          "CURVE_LNG": 138.356323
         },
         {
-          "CURVE_LAT": 37.508141,
-          "CURVE_LNG": 138.963617
+          "CURVE_LAT": 37.172924,
+          "CURVE_LNG": 138.357577
         },
         {
-          "CURVE_LAT": 37.50843,
-          "CURVE_LNG": 138.963257
+          "CURVE_LAT": 37.172776,
+          "CURVE_LNG": 138.357894
         },
         {
-          "CURVE_LAT": 37.510062,
-          "CURVE_LNG": 138.961131
+          "CURVE_LAT": 37.172661,
+          "CURVE_LNG": 138.358198
         },
         {
-          "CURVE_LAT": 37.510383,
-          "CURVE_LNG": 138.960771
+          "CURVE_LAT": 37.172533,
+          "CURVE_LNG": 138.358679
         },
         {
-          "CURVE_LAT": 37.510987,
-          "CURVE_LNG": 138.959961
+          "CURVE_LAT": 37.172472,
+          "CURVE_LNG": 138.358922
         },
         {
-          "CURVE_LAT": 37.511983,
-          "CURVE_LNG": 138.958779
+          "CURVE_LAT": 37.172421,
+          "CURVE_LNG": 138.359281
         },
         {
-          "CURVE_LAT": 37.513833,
-          "CURVE_LNG": 138.956768
+          "CURVE_LAT": 37.172348,
+          "CURVE_LNG": 138.359724
         },
         {
-          "CURVE_LAT": 37.514116,
-          "CURVE_LNG": 138.95653
+          "CURVE_LAT": 37.172291,
+          "CURVE_LNG": 138.360077
         },
         {
-          "CURVE_LAT": 37.514482,
-          "CURVE_LNG": 138.95637
+          "CURVE_LAT": 37.172287,
+          "CURVE_LNG": 138.360678
         },
         {
-          "CURVE_LAT": 37.514926,
-          "CURVE_LNG": 138.956261
+          "CURVE_LAT": 37.172371,
+          "CURVE_LNG": 138.368281
         },
         {
-          "CURVE_LAT": 37.517586,
-          "CURVE_LNG": 138.955676
+          "CURVE_LAT": 37.172326,
+          "CURVE_LNG": 138.36871
         },
         {
-          "CURVE_LAT": 37.517939,
-          "CURVE_LNG": 138.955464
+          "CURVE_LAT": 37.172258,
+          "CURVE_LNG": 138.369031
         },
         {
-          "CURVE_LAT": 37.518247,
-          "CURVE_LNG": 138.955213
+          "CURVE_LAT": 37.172116,
+          "CURVE_LNG": 138.369456
         },
         {
-          "CURVE_LAT": 37.518569,
-          "CURVE_LNG": 138.954834
+          "CURVE_LAT": 37.17195,
+          "CURVE_LNG": 138.369894
         },
         {
-          "CURVE_LAT": 37.518909,
-          "CURVE_LNG": 138.954314
+          "CURVE_LAT": 37.17181,
+          "CURVE_LNG": 138.370115
         },
         {
-          "CURVE_LAT": 37.519507,
-          "CURVE_LNG": 138.95326
+          "CURVE_LAT": 37.171647,
+          "CURVE_LNG": 138.370323
         },
         {
-          "CURVE_LAT": 37.519841,
-          "CURVE_LNG": 138.952515
+          "CURVE_LAT": 37.168767,
+          "CURVE_LNG": 138.374046
         },
         {
-          "CURVE_LAT": 37.519956,
-          "CURVE_LNG": 138.9522
+          "CURVE_LAT": 37.168393,
+          "CURVE_LNG": 138.374362
         },
         {
-          "CURVE_LAT": 37.52004,
-          "CURVE_LNG": 138.951866
+          "CURVE_LAT": 37.162086,
+          "CURVE_LNG": 138.379558
         },
         {
-          "CURVE_LAT": 37.520066,
-          "CURVE_LNG": 138.9515
+          "CURVE_LAT": 37.161788,
+          "CURVE_LNG": 138.37981
         },
         {
-          "CURVE_LAT": 37.520046,
-          "CURVE_LNG": 138.95105
+          "CURVE_LAT": 37.161453,
+          "CURVE_LNG": 138.380211
         },
         {
-          "CURVE_LAT": 37.519982,
-          "CURVE_LNG": 138.950594
+          "CURVE_LAT": 37.161233,
+          "CURVE_LNG": 138.380553
         },
         {
-          "CURVE_LAT": 37.519867,
-          "CURVE_LNG": 138.95024
+          "CURVE_LAT": 37.161003,
+          "CURVE_LNG": 138.380978
         },
         {
-          "CURVE_LAT": 37.519667,
-          "CURVE_LNG": 138.949778
+          "CURVE_LAT": 37.160855,
+          "CURVE_LNG": 138.381435
         },
         {
-          "CURVE_LAT": 37.519417,
-          "CURVE_LNG": 138.949315
+          "CURVE_LAT": 37.16073,
+          "CURVE_LNG": 138.381938
         },
         {
-          "CURVE_LAT": 37.51914,
-          "CURVE_LNG": 138.948846
+          "CURVE_LAT": 37.160444,
+          "CURVE_LNG": 138.383179
         },
         {
-          "CURVE_LAT": 37.518858,
-          "CURVE_LNG": 138.948486
+          "CURVE_LAT": 37.159622,
+          "CURVE_LNG": 138.386596
         },
         {
-          "CURVE_LAT": 37.518556,
-          "CURVE_LNG": 138.948088
+          "CURVE_LAT": 37.159568,
+          "CURVE_LNG": 138.386929
         },
         {
-          "CURVE_LAT": 37.518202,
-          "CURVE_LNG": 138.947696
+          "CURVE_LAT": 37.159578,
+          "CURVE_LNG": 138.394639
         },
         {
-          "CURVE_LAT": 37.517952,
-          "CURVE_LNG": 138.947368
+          "CURVE_LAT": 37.159557,
+          "CURVE_LNG": 138.395004
         },
         {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.946957
+          "CURVE_LAT": 37.159262,
+          "CURVE_LNG": 138.39662
         },
         {
-          "CURVE_LAT": 37.517399,
-          "CURVE_LNG": 138.946494
+          "CURVE_LAT": 37.15922,
+          "CURVE_LNG": 138.396959
         },
         {
-          "CURVE_LAT": 37.517207,
-          "CURVE_LNG": 138.946096
+          "CURVE_LAT": 37.159218,
+          "CURVE_LNG": 138.398761
         },
         {
-          "CURVE_LAT": 37.517027,
-          "CURVE_LNG": 138.945653
+          "CURVE_LAT": 37.159269,
+          "CURVE_LNG": 138.399172
         },
         {
-          "CURVE_LAT": 37.516879,
-          "CURVE_LNG": 138.945203
+          "CURVE_LAT": 37.160436,
+          "CURVE_LNG": 138.404502
         },
         {
-          "CURVE_LAT": 37.516789,
-          "CURVE_LNG": 138.94474
+          "CURVE_LAT": 37.161256,
+          "CURVE_LNG": 138.408163
         },
         {
-          "CURVE_LAT": 37.516718,
-          "CURVE_LNG": 138.944181
+          "CURVE_LAT": 37.161305,
+          "CURVE_LNG": 138.408699
         },
         {
-          "CURVE_LAT": 37.51666,
-          "CURVE_LNG": 138.943263
+          "CURVE_LAT": 37.161199,
+          "CURVE_LNG": 138.410893
         },
         {
-          "CURVE_LAT": 37.516506,
-          "CURVE_LNG": 138.939857
+          "CURVE_LAT": 37.161154,
+          "CURVE_LNG": 138.411334
         },
         {
-          "CURVE_LAT": 37.516256,
-          "CURVE_LNG": 138.93558
+          "CURVE_LAT": 37.16095,
+          "CURVE_LNG": 138.413834
         },
         {
-          "CURVE_LAT": 37.516179,
-          "CURVE_LNG": 138.934499
+          "CURVE_LAT": 37.160776,
+          "CURVE_LNG": 138.414746
         },
         {
-          "CURVE_LAT": 37.516236,
-          "CURVE_LNG": 138.933908
+          "CURVE_LAT": 37.160644,
+          "CURVE_LNG": 138.415321
         },
         {
-          "CURVE_LAT": 37.516346,
-          "CURVE_LNG": 138.932822
+          "CURVE_LAT": 37.160483,
+          "CURVE_LNG": 138.415828
         },
         {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.931942
+          "CURVE_LAT": 37.160285,
+          "CURVE_LNG": 138.416331
         },
         {
-          "CURVE_LAT": 37.516423,
-          "CURVE_LNG": 138.93101
+          "CURVE_LAT": 37.160111,
+          "CURVE_LNG": 138.416772
         },
         {
-          "CURVE_LAT": 37.515922,
-          "CURVE_LNG": 138.924354
+          "CURVE_LAT": 37.159897,
+          "CURVE_LNG": 138.417292
         },
         {
-          "CURVE_LAT": 37.515902,
-          "CURVE_LNG": 138.923956
+          "CURVE_LAT": 37.158714,
+          "CURVE_LNG": 138.420339
         },
         {
-          "CURVE_LAT": 37.515973,
-          "CURVE_LNG": 138.923403
+          "CURVE_LAT": 37.158452,
+          "CURVE_LNG": 138.421012
         },
         {
-          "CURVE_LAT": 37.516172,
-          "CURVE_LNG": 138.922902
+          "CURVE_LAT": 37.158287,
+          "CURVE_LNG": 138.421624
         },
         {
-          "CURVE_LAT": 37.516442,
-          "CURVE_LNG": 138.922548
-        },
-        {
-          "CURVE_LAT": 37.51684,
-          "CURVE_LNG": 138.922285
-        },
-        {
-          "CURVE_LAT": 37.517277,
-          "CURVE_LNG": 138.922118
-        },
-        {
-          "CURVE_LAT": 37.517509,
-          "CURVE_LNG": 138.922137
-        },
-        {
-          "CURVE_LAT": 37.517669,
-          "CURVE_LNG": 138.922153
-        },
-        {
-          "CURVE_LAT": 37.517986,
-          "CURVE_LNG": 138.92232
-        },
-        {
-          "CURVE_LAT": 37.518174,
-          "CURVE_LNG": 138.922393
-        },
-        {
-          "CURVE_LAT": 37.519594,
-          "CURVE_LNG": 138.922913
-        },
-        {
-          "CURVE_LAT": 37.519847,
-          "CURVE_LNG": 138.922968
-        },
-        {
-          "CURVE_LAT": 37.521403,
-          "CURVE_LNG": 138.922953
-        },
-        {
-          "CURVE_LAT": 37.522407,
-          "CURVE_LNG": 138.922905
-        },
-        {
-          "CURVE_LAT": 37.523106,
-          "CURVE_LNG": 138.92281
-        },
-        {
-          "CURVE_LAT": 37.522043,
-          "CURVE_LNG": 138.92289
-        },
-        {
-          "CURVE_LAT": 37.521018,
-          "CURVE_LNG": 138.92293
-        },
-        {
-          "CURVE_LAT": 37.519917,
-          "CURVE_LNG": 138.922945
-        },
-        {
-          "CURVE_LAT": 37.519673,
-          "CURVE_LNG": 138.922911
-        },
-        {
-          "CURVE_LAT": 37.518479,
-          "CURVE_LNG": 138.922482
-        },
-        {
-          "CURVE_LAT": 37.517569,
-          "CURVE_LNG": 138.922084
-        },
-        {
-          "CURVE_LAT": 37.516328,
-          "CURVE_LNG": 138.92126
-        },
-        {
-          "CURVE_LAT": 37.51393,
-          "CURVE_LNG": 138.919657
-        },
-        {
-          "CURVE_LAT": 37.511855,
-          "CURVE_LNG": 138.918494
-        },
-        {
-          "CURVE_LAT": 37.507389,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.506978,
-          "CURVE_LNG": 138.916021
-        },
-        {
-          "CURVE_LAT": 37.506592,
-          "CURVE_LNG": 138.91595
-        },
-        {
-          "CURVE_LAT": 37.506278,
-          "CURVE_LNG": 138.915905
-        },
-        {
-          "CURVE_LAT": 37.505937,
-          "CURVE_LNG": 138.915963
-        },
-        {
-          "CURVE_LAT": 37.505609,
-          "CURVE_LNG": 138.916104
-        },
-        {
-          "CURVE_LAT": 37.505346,
-          "CURVE_LNG": 138.916246
-        },
-        {
-          "CURVE_LAT": 37.503069,
-          "CURVE_LNG": 138.917743
-        },
-        {
-          "CURVE_LAT": 37.502622,
-          "CURVE_LNG": 138.918025
-        },
-        {
-          "CURVE_LAT": 37.501335,
-          "CURVE_LNG": 138.918729
-        },
-        {
-          "CURVE_LAT": 37.500244,
-          "CURVE_LNG": 138.919297
-        },
-        {
-          "CURVE_LAT": 37.499407,
-          "CURVE_LNG": 138.919851
-        },
-        {
-          "CURVE_LAT": 37.497979,
-          "CURVE_LNG": 138.921088
-        },
-        {
-          "CURVE_LAT": 37.496446,
-          "CURVE_LNG": 138.922677
-        },
-        {
-          "CURVE_LAT": 37.494298,
-          "CURVE_LNG": 138.924829
-        },
-        {
-          "CURVE_LAT": 37.493286,
-          "CURVE_LNG": 138.925794
-        },
-        {
-          "CURVE_LAT": 37.493024,
-          "CURVE_LNG": 138.926003
-        },
-        {
-          "CURVE_LAT": 37.49281,
-          "CURVE_LNG": 138.926108
-        },
-        {
-          "CURVE_LAT": 37.492602,
-          "CURVE_LNG": 138.926153
-        },
-        {
-          "CURVE_LAT": 37.492344,
-          "CURVE_LNG": 138.926158
-        },
-        {
-          "CURVE_LAT": 37.492103,
-          "CURVE_LNG": 138.926184
-        },
-        {
-          "CURVE_LAT": 37.491685,
-          "CURVE_LNG": 138.926166
-        },
-        {
-          "CURVE_LAT": 37.491313,
-          "CURVE_LNG": 138.926006
-        },
-        {
-          "CURVE_LAT": 37.490976,
-          "CURVE_LNG": 138.925627
-        },
-        {
-          "CURVE_LAT": 37.490663,
-          "CURVE_LNG": 138.925161
-        },
-        {
-          "CURVE_LAT": 37.490047,
-          "CURVE_LNG": 138.923791
-        },
-        {
-          "CURVE_LAT": 37.489141,
-          "CURVE_LNG": 138.921517
-        },
-        {
-          "CURVE_LAT": 37.488723,
-          "CURVE_LNG": 138.920541
-        },
-        {
-          "CURVE_LAT": 37.488491,
-          "CURVE_LNG": 138.920074
-        },
-        {
-          "CURVE_LAT": 37.488189,
-          "CURVE_LNG": 138.919666
-        },
-        {
-          "CURVE_LAT": 37.487899,
-          "CURVE_LNG": 138.919346
-        },
-        {
-          "CURVE_LAT": 37.487399,
-          "CURVE_LNG": 138.918961
-        },
-        {
-          "CURVE_LAT": 37.486192,
-          "CURVE_LNG": 138.918145
-        },
-        {
-          "CURVE_LAT": 37.483509,
-          "CURVE_LNG": 138.916454
-        },
-        {
-          "CURVE_LAT": 37.481186,
-          "CURVE_LNG": 138.915136
-        },
-        {
-          "CURVE_LAT": 37.479497,
-          "CURVE_LNG": 138.914294
-        },
-        {
-          "CURVE_LAT": 37.478736,
-          "CURVE_LNG": 138.913912
-        },
-        {
-          "CURVE_LAT": 37.478063,
-          "CURVE_LNG": 138.91349
-        },
-        {
-          "CURVE_LAT": 37.477552,
-          "CURVE_LNG": 138.91314
-        },
+          "CURVE_LAT": 37.157953,
+          "CURVE_LNG": 138.422528
+        }
+      ]
+    },
+    {
+      "SECTION_NUM": 1127,
+      "JIGYOSHA_SHUBETSU_CODE": 4,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
+      "SECCHI_START": 1968,
+      "SECCHI_END": 1970,
+      "RF_ID": "EB02_16412",
+      "BIKOU": "",
+      "CURVE_NUM": 1127,
+      "curveLines": [
         {
-          "CURVE_LAT": 37.476901,
-          "CURVE_LNG": 138.912586
+          "CURVE_LAT": 37.183633,
+          "CURVE_LNG": 138.328216
         },
         {
-          "CURVE_LAT": 37.474892,
-          "CURVE_LNG": 138.910731
+          "CURVE_LAT": 37.183377,
+          "CURVE_LNG": 138.329056
         },
         {
-          "CURVE_LAT": 37.47243,
-          "CURVE_LNG": 138.908108
+          "CURVE_LAT": 37.183249,
+          "CURVE_LNG": 138.329653
         },
         {
-          "CURVE_LAT": 37.469364,
-          "CURVE_LNG": 138.904769
+          "CURVE_LAT": 37.183048,
+          "CURVE_LNG": 138.330549
         },
         {
-          "CURVE_LAT": 37.467309,
-          "CURVE_LNG": 138.902393
+          "CURVE_LAT": 37.182966,
+          "CURVE_LNG": 138.331195
         },
         {
-          "CURVE_LAT": 37.466693,
-          "CURVE_LNG": 138.901475
+          "CURVE_LAT": 37.18248,
+          "CURVE_LNG": 138.334702
         },
         {
-          "CURVE_LAT": 37.466357,
-          "CURVE_LNG": 138.900775
+          "CURVE_LAT": 37.182316,
+          "CURVE_LNG": 138.335401
         },
         {
-          "CURVE_LAT": 37.466066,
-          "CURVE_LNG": 138.900076
+          "CURVE_LAT": 37.181744,
+          "CURVE_LNG": 138.336836
         },
         {
-          "CURVE_LAT": 37.465857,
-          "CURVE_LNG": 138.899377
+          "CURVE_LAT": 37.181079,
+          "CURVE_LNG": 138.338279
         },
         {
-          "CURVE_LAT": 37.465671,
-          "CURVE_LNG": 138.898677
+          "CURVE_LAT": 37.180975,
+          "CURVE_LNG": 138.338687
         },
         {
-          "CURVE_LAT": 37.465265,
-          "CURVE_LNG": 138.896827
+          "CURVE_LAT": 37.180914,
+          "CURVE_LNG": 138.339053
         },
         {
-          "CURVE_LAT": 37.464255,
-          "CURVE_LNG": 138.892176
+          "CURVE_LAT": 37.18086,
+          "CURVE_LNG": 138.339394
         },
         {
-          "CURVE_LAT": 37.46336,
-          "CURVE_LNG": 138.887909
+          "CURVE_LAT": 37.180778,
+          "CURVE_LNG": 138.339702
         },
         {
-          "CURVE_LAT": 37.463267,
-          "CURVE_LNG": 138.887049
+          "CURVE_LAT": 37.180605,
+          "CURVE_LNG": 138.340142
         },
         {
-          "CURVE_LAT": 37.463244,
-          "CURVE_LNG": 138.886437
+          "CURVE_LAT": 37.180248,
+          "CURVE_LNG": 138.340845
         },
         {
-          "CURVE_LAT": 37.463279,
-          "CURVE_LNG": 138.885913
+          "CURVE_LAT": 37.179853,
+          "CURVE_LNG": 138.341417
         },
         {
-          "CURVE_LAT": 37.463395,
-          "CURVE_LNG": 138.884966
+          "CURVE_LAT": 37.17931,
+          "CURVE_LNG": 138.342091
         },
         {
-          "CURVE_LAT": 37.463604,
-          "CURVE_LNG": 138.883567
+          "CURVE_LAT": 37.17873,
+          "CURVE_LNG": 138.342655
         },
         {
-          "CURVE_LAT": 37.463674,
-          "CURVE_LNG": 138.882839
+          "CURVE_LAT": 37.178093,
+          "CURVE_LNG": 138.343136
         },
         {
-          "CURVE_LAT": 37.463688,
-          "CURVE_LNG": 138.88231
+          "CURVE_LAT": 37.17778,
+          "CURVE_LNG": 138.343436
         },
         {
-          "CURVE_LAT": 37.463485,
-          "CURVE_LNG": 138.872986
+          "CURVE_LAT": 37.17753,
+          "CURVE_LNG": 138.343711
         },
         {
-          "CURVE_LAT": 37.463466,
-          "CURVE_LNG": 138.869603
+          "CURVE_LAT": 37.177238,
+          "CURVE_LNG": 138.344094
         },
         {
-          "CURVE_LAT": 37.463434,
-          "CURVE_LNG": 138.867507
+          "CURVE_LAT": 37.176987,
+          "CURVE_LNG": 138.344534
         },
         {
-          "CURVE_LAT": 37.463378,
-          "CURVE_LNG": 138.866945
+          "CURVE_LAT": 37.176863,
+          "CURVE_LNG": 138.344855
         },
         {
-          "CURVE_LAT": 37.462125,
-          "CURVE_LNG": 138.861692
+          "CURVE_LAT": 37.176781,
+          "CURVE_LNG": 138.345142
         },
         {
-          "CURVE_LAT": 37.46194,
-          "CURVE_LNG": 138.861251
+          "CURVE_LAT": 37.176719,
+          "CURVE_LNG": 138.345496
         },
         {
-          "CURVE_LAT": 37.461659,
-          "CURVE_LNG": 138.860929
+          "CURVE_LAT": 37.176682,
+          "CURVE_LNG": 138.345792
         },
         {
-          "CURVE_LAT": 37.459965,
-          "CURVE_LNG": 138.859179
+          "CURVE_LAT": 37.176658,
+          "CURVE_LNG": 138.346207
         },
         {
-          "CURVE_LAT": 37.459579,
-          "CURVE_LNG": 138.858978
+          "CURVE_LAT": 37.176631,
+          "CURVE_LNG": 138.347582
         },
         {
-          "CURVE_LAT": 37.458803,
-          "CURVE_LNG": 138.858671
+          "CURVE_LAT": 37.176618,
+          "CURVE_LNG": 138.347878
         },
         {
-          "CURVE_LAT": 37.455344,
-          "CURVE_LNG": 138.857275
+          "CURVE_LAT": 37.176579,
+          "CURVE_LNG": 138.348138
         },
         {
-          "CURVE_LAT": 37.452995,
-          "CURVE_LNG": 138.856409
+          "CURVE_LAT": 37.176411,
+          "CURVE_LNG": 138.348884
         },
         {
-          "CURVE_LAT": 37.449419,
-          "CURVE_LNG": 138.854946
+          "CURVE_LAT": 37.176043,
+          "CURVE_LNG": 138.350318
         },
         {
-          "CURVE_LAT": 37.448761,
-          "CURVE_LNG": 138.854826
+          "CURVE_LAT": 37.175815,
+          "CURVE_LNG": 138.351245
         },
         {
-          "CURVE_LAT": 37.448038,
-          "CURVE_LNG": 138.854769
+          "CURVE_LAT": 37.17556,
+          "CURVE_LNG": 138.352166
         },
         {
-          "CURVE_LAT": 37.446589,
-          "CURVE_LNG": 138.854263
+          "CURVE_LAT": 37.175363,
+          "CURVE_LNG": 138.352877
         },
         {
-          "CURVE_LAT": 37.446119,
-          "CURVE_LNG": 138.854159
+          "CURVE_LAT": 37.175124,
+          "CURVE_LNG": 138.353469
         },
         {
-          "CURVE_LAT": 37.445829,
-          "CURVE_LNG": 138.854215
+          "CURVE_LAT": 37.174836,
+          "CURVE_LNG": 138.354152
         },
         {
-          "CURVE_LAT": 37.44554,
-          "CURVE_LNG": 138.854408
+          "CURVE_LAT": 37.173672,
+          "CURVE_LNG": 138.356323
         },
         {
-          "CURVE_LAT": 37.445348,
-          "CURVE_LNG": 138.85481
+          "CURVE_LAT": 37.172924,
+          "CURVE_LNG": 138.357577
         },
         {
-          "CURVE_LAT": 37.444986,
-          "CURVE_LNG": 138.856665
+          "CURVE_LAT": 37.172776,
+          "CURVE_LNG": 138.357894
         },
         {
-          "CURVE_LAT": 37.444858,
-          "CURVE_LNG": 138.857066
+          "CURVE_LAT": 37.172661,
+          "CURVE_LNG": 138.358198
         },
         {
-          "CURVE_LAT": 37.444704,
-          "CURVE_LNG": 138.857358
+          "CURVE_LAT": 37.172533,
+          "CURVE_LNG": 138.358679
         },
         {
-          "CURVE_LAT": 37.444411,
-          "CURVE_LNG": 138.857585
+          "CURVE_LAT": 37.172472,
+          "CURVE_LNG": 138.358922
         },
         {
-          "CURVE_LAT": 37.444103,
-          "CURVE_LNG": 138.85781
+          "CURVE_LAT": 37.172421,
+          "CURVE_LNG": 138.359281
         },
         {
-          "CURVE_LAT": 37.441178,
-          "CURVE_LNG": 138.858643
+          "CURVE_LAT": 37.172348,
+          "CURVE_LNG": 138.359724
         },
         {
-          "CURVE_LAT": 37.440803,
-          "CURVE_LNG": 138.85874
+          "CURVE_LAT": 37.172291,
+          "CURVE_LNG": 138.360077
         },
         {
-          "CURVE_LAT": 37.440601,
-          "CURVE_LNG": 138.858735
+          "CURVE_LAT": 37.172287,
+          "CURVE_LNG": 138.360678
         },
         {
-          "CURVE_LAT": 37.440022,
-          "CURVE_LNG": 138.858802
+          "CURVE_LAT": 37.172371,
+          "CURVE_LNG": 138.368281
         },
         {
-          "CURVE_LAT": 37.439348,
-          "CURVE_LNG": 138.858812
+          "CURVE_LAT": 37.172326,
+          "CURVE_LNG": 138.36871
         },
         {
-          "CURVE_LAT": 37.438809,
-          "CURVE_LNG": 138.8589
+          "CURVE_LAT": 37.172258,
+          "CURVE_LNG": 138.369031
         },
         {
-          "CURVE_LAT": 37.438361,
-          "CURVE_LNG": 138.858992
+          "CURVE_LAT": 37.172116,
+          "CURVE_LNG": 138.369456
         },
         {
-          "CURVE_LAT": 37.438135,
-          "CURVE_LNG": 138.859141
+          "CURVE_LAT": 37.17195,
+          "CURVE_LNG": 138.369894
         },
         {
-          "CURVE_LAT": 37.437904,
-          "CURVE_LNG": 138.859373
+          "CURVE_LAT": 37.17181,
+          "CURVE_LNG": 138.370115
         },
         {
-          "CURVE_LAT": 37.437688,
-          "CURVE_LNG": 138.859753
+          "CURVE_LAT": 37.171647,
+          "CURVE_LNG": 138.370323
         },
         {
-          "CURVE_LAT": 37.437544,
-          "CURVE_LNG": 138.860138
+          "CURVE_LAT": 37.168767,
+          "CURVE_LNG": 138.374046
         },
         {
-          "CURVE_LAT": 37.437395,
-          "CURVE_LNG": 138.86065
+          "CURVE_LAT": 37.168393,
+          "CURVE_LNG": 138.374362
         },
         {
-          "CURVE_LAT": 37.436974,
-          "CURVE_LNG": 138.861979
+          "CURVE_LAT": 37.162086,
+          "CURVE_LNG": 138.379558
         },
         {
-          "CURVE_LAT": 37.434609,
-          "CURVE_LNG": 138.869504
+          "CURVE_LAT": 37.161788,
+          "CURVE_LNG": 138.37981
         },
         {
-          "CURVE_LAT": 37.43447,
-          "CURVE_LNG": 138.870012
+          "CURVE_LAT": 37.161453,
+          "CURVE_LNG": 138.380211
         },
         {
-          "CURVE_LAT": 37.434393,
-          "CURVE_LNG": 138.870483
+          "CURVE_LAT": 37.161233,
+          "CURVE_LNG": 138.380553
         },
         {
-          "CURVE_LAT": 37.434321,
-          "CURVE_LNG": 138.870891
+          "CURVE_LAT": 37.161003,
+          "CURVE_LNG": 138.380978
         },
         {
-          "CURVE_LAT": 37.434249,
-          "CURVE_LNG": 138.871483
+          "CURVE_LAT": 37.160855,
+          "CURVE_LNG": 138.381435
         },
         {
-          "CURVE_LAT": 37.434278,
-          "CURVE_LNG": 138.872521
+          "CURVE_LAT": 37.16073,
+          "CURVE_LNG": 138.381938
         },
         {
-          "CURVE_LAT": 37.434605,
-          "CURVE_LNG": 138.876413
+          "CURVE_LAT": 37.160444,
+          "CURVE_LNG": 138.383179
         }
       ]
     }
   ],
   "stationLines": [
     {
-      "STATION_NUM": 10573,
-      "STATION_NAME": "\u9577\u5009",
+      "STATION_NUM": 10708,
+      "STATION_NAME": "\u65b0\u9ed2\u4e95",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407002",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.434393,
-      "POINT_LNG": 138.870483
-    },
-    {
-      "STATION_NUM": 10574,
-      "STATION_NAME": "\u571f\u5408\u53e3",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407003",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.437395,
-      "POINT_LNG": 138.86065
-    },
-    {
-      "STATION_NUM": 10575,
-      "STATION_NAME": "\u5927\u5b66\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407004",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.440601,
-      "POINT_LNG": 138.858735
-    },
-    {
-      "STATION_NUM": 10576,
-      "STATION_NAME": "\u9ad8\u6821\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407005",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.444411,
-      "POINT_LNG": 138.857585
-    },
-    {
-      "STATION_NUM": 10577,
-      "STATION_NAME": "\u9577\u5ca1",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407006",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.446589,
-      "POINT_LNG": 138.854263
-    },
-    {
-      "STATION_NUM": 10578,
-      "STATION_NAME": "\u888b\u753a",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1936,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407007",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.452995,
-      "POINT_LNG": 138.856409
-    },
-    {
-      "STATION_NUM": 10579,
-      "STATION_NAME": "\u4e2d\u8d8a\u9ad8\u6821\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1955,
-      "SECCHI_START": 1970,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407008",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.455344,
-      "POINT_LNG": 138.857275
-    },
-    {
-      "STATION_NUM": 10580,
-      "STATION_NAME": "\u4e0b\u9577\u5ca1",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407009",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.458803,
-      "POINT_LNG": 138.858671
-    },
-    {
-      "STATION_NUM": 10581,
-      "STATION_NAME": "\u4e0b\u65b0\u4fdd",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407010",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.463466,
-      "POINT_LNG": 138.869603
-    },
-    {
-      "STATION_NUM": 10582,
-      "STATION_NAME": "\u540d\u6728\u91ce",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407017",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.516328,
-      "POINT_LNG": 138.92126
-    },
-    {
-      "STATION_NUM": 10583,
-      "STATION_NAME": "\u4e0a\u898b\u9644",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407018",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.523106,
-      "POINT_LNG": 138.92281
-    },
-    {
-      "STATION_NUM": 10584,
-      "STATION_NAME": "\u660e\u660c",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407019",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.516256,
-      "POINT_LNG": 138.93558
-    },
-    {
-      "STATION_NUM": 10585,
-      "STATION_NAME": "\u672c\u660e",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407020",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.519507,
-      "POINT_LNG": 138.95326
-    },
-    {
-      "STATION_NUM": 10586,
-      "STATION_NAME": "\u592a\u7530",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407021",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.510383,
-      "POINT_LNG": 138.960771
-    },
-    {
-      "STATION_NUM": 10587,
-      "STATION_NAME": "\u4e0a\u5317\u8c37",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407022",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.506721,
-      "POINT_LNG": 138.970016
-    },
-    {
-      "STATION_NUM": 10588,
-      "STATION_NAME": "\u9577\u5009",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407002",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.434393,
-      "POINT_LNG": 138.870483
-    },
-    {
-      "STATION_NUM": 10589,
-      "STATION_NAME": "\u9577\u5009",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1924,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407002",
+      "SECCHI_END": 1967,
+      "RF_ID": "EB03_16412001",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.434393,
-      "POINT_LNG": 138.870483
+      "POINT_LAT": 37.182966,
+      "POINT_LNG": 138.267837
     },
     {
-      "STATION_NUM": 10590,
-      "STATION_NAME": "\u571f\u5408\u53e3",
+      "STATION_NUM": 10709,
+      "STATION_NAME": "\u5317\u56db\u30c4\u5c4b",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407003",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.437395,
-      "POINT_LNG": 138.86065
-    },
-    {
-      "STATION_NUM": 10591,
-      "STATION_NAME": "\u571f\u5408\u53e3",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1953,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407003",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.437395,
-      "POINT_LNG": 138.86065
-    },
-    {
-      "STATION_NUM": 10592,
-      "STATION_NAME": "\u5927\u5b66\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407004",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.440601,
-      "POINT_LNG": 138.858735
-    },
-    {
-      "STATION_NUM": 10593,
-      "STATION_NAME": "\u56db\u90ce\u4e38",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1924,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407004",
+      "SECCHI_END": 1967,
+      "RF_ID": "EB03_16412002",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.440601,
-      "POINT_LNG": 138.858735
+      "POINT_LAT": 37.184717,
+      "POINT_LNG": 138.296597
     },
     {
-      "STATION_NUM": 10594,
-      "STATION_NAME": "\u9ad8\u6821\u524d",
+      "STATION_NUM": 10710,
+      "STATION_NAME": "\u767e\u9593\u753a",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407005",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.444411,
-      "POINT_LNG": 138.857585
-    },
-    {
-      "STATION_NUM": 10595,
-      "STATION_NAME": "\u9ad8\u6821\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1953,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407005",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.444411,
-      "POINT_LNG": 138.857585
-    },
-    {
-      "STATION_NUM": 10596,
-      "STATION_NAME": "\u9577\u5ca1",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407006",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.446589,
-      "POINT_LNG": 138.854263
-    },
-    {
-      "STATION_NUM": 10597,
-      "STATION_NAME": "\u9577\u5ca1",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1916,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407006",
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412003",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.446589,
-      "POINT_LNG": 138.854263
+      "POINT_LAT": 37.183633,
+      "POINT_LNG": 138.328216
     },
     {
-      "STATION_NUM": 10598,
-      "STATION_NAME": "\u888b\u753a",
+      "STATION_NUM": 10711,
+      "STATION_NAME": "\u9d5c\u30ce\u6728",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1936,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407007",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.452995,
-      "POINT_LNG": 138.856409
-    },
-    {
-      "STATION_NUM": 10599,
-      "STATION_NAME": "\u888b\u753a",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1936,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407007",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.452995,
-      "POINT_LNG": 138.856409
-    },
-    {
-      "STATION_NUM": 10600,
-      "STATION_NAME": "\u5bb6\u653f\u9ad8\u6821\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1955,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1969,
-      "RF_ID": "EB03_16407008",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.455344,
-      "POINT_LNG": 138.857275
-    },
-    {
-      "STATION_NUM": 10601,
-      "STATION_NAME": "\u5bb6\u653f\u9ad8\u6821\u524d",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1955,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407008",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.455344,
-      "POINT_LNG": 138.857275
-    },
-    {
-      "STATION_NUM": 10602,
-      "STATION_NAME": "\u6771\u795e\u7530",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
       "KYOYO_START": 1955,
       "SECCHI_START": 1955,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407008",
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412004",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.455344,
-      "POINT_LNG": 138.857275
+      "POINT_LAT": 37.181079,
+      "POINT_LNG": 138.338279
     },
     {
-      "STATION_NUM": 10603,
-      "STATION_NAME": "\u4e0b\u9577\u5ca1",
+      "STATION_NUM": 10712,
+      "STATION_NAME": "\u660e\u6cbb\u6751",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407009",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.458803,
-      "POINT_LNG": 138.858671
-    },
-    {
-      "STATION_NUM": 10604,
-      "STATION_NAME": "\u4e0b\u9577\u5ca1",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407009",
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412005",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.458803,
-      "POINT_LNG": 138.858671
+      "POINT_LAT": 37.176043,
+      "POINT_LNG": 138.350318
     },
     {
-      "STATION_NUM": 10605,
-      "STATION_NAME": "\u4e0b\u65b0\u4fdd",
+      "STATION_NUM": 10713,
+      "STATION_NAME": "\u82b1\u30f6\u5d0e",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407010",
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1955,
+      "SECCHI_START": 1955,
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412006",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.463466,
-      "POINT_LNG": 138.869603
+      "POINT_LAT": 37.172421,
+      "POINT_LNG": 138.359281
     },
     {
-      "STATION_NUM": 10606,
-      "STATION_NAME": "\u4e0b\u65b0\u4fdd",
+      "STATION_NUM": 10714,
+      "STATION_NAME": "\u5927\u6c60",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1916,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1930,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407010",
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412007",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.463466,
-      "POINT_LNG": 138.869603
+      "POINT_LAT": 37.172116,
+      "POINT_LNG": 138.369456
     },
     {
-      "STATION_NUM": 10607,
-      "STATION_NAME": "\u540d\u6728\u91ce",
+      "STATION_NUM": 10715,
+      "STATION_NAME": "\u98ef\u5ba4",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407017",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.516328,
-      "POINT_LNG": 138.92126
-    },
-    {
-      "STATION_NUM": 10608,
-      "STATION_NAME": "\u540d\u6728\u91ce",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1953,
-      "SECCHI_START": 1953,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407017",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.516328,
-      "POINT_LNG": 138.92126
-    },
-    {
-      "STATION_NUM": 10609,
-      "STATION_NAME": "\u4e0a\u898b\u9644",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407018",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.523106,
-      "POINT_LNG": 138.92281
-    },
-    {
-      "STATION_NUM": 10610,
-      "STATION_NAME": "\u4e0a\u898b\u9644",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407018",
+      "SECCHI_END": 1970,
+      "RF_ID": "EB03_16412008",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.523106,
-      "POINT_LNG": 138.92281
+      "POINT_LAT": 37.160444,
+      "POINT_LNG": 138.383179
     },
     {
-      "STATION_NUM": 10611,
-      "STATION_NAME": "\u660e\u660c",
+      "STATION_NUM": 10716,
+      "STATION_NAME": "\u4e0b\u4fdd\u5009",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407019",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.516256,
-      "POINT_LNG": 138.93558
-    },
-    {
-      "STATION_NUM": 10612,
-      "STATION_NAME": "\u660e\u660c",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
+      "KYOYO_START": 1914,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407019",
+      "SECCHI_END": 1967,
+      "RF_ID": "EB03_16412009",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.516256,
-      "POINT_LNG": 138.93558
+      "POINT_LAT": 37.161199,
+      "POINT_LNG": 138.410893
     },
     {
-      "STATION_NUM": 10613,
-      "STATION_NAME": "\u672c\u660e",
+      "STATION_NUM": 10717,
+      "STATION_NAME": "\u6d66\u5ddd\u539f",
       "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407020",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.519507,
-      "POINT_LNG": 138.95326
-    },
-    {
-      "STATION_NUM": 10614,
-      "STATION_NAME": "\u672c\u660e",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407020",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.519507,
-      "POINT_LNG": 138.95326
-    },
-    {
-      "STATION_NUM": 10615,
-      "STATION_NAME": "\u592a\u7530",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407021",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.510383,
-      "POINT_LNG": 138.960771
-    },
-    {
-      "STATION_NUM": 10616,
-      "STATION_NAME": "\u592a\u7530",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407021",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.510383,
-      "POINT_LNG": 138.960771
-    },
-    {
-      "STATION_NUM": 10617,
-      "STATION_NAME": "\u4e0a\u5317\u8c37",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407022",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.506721,
-      "POINT_LNG": 138.970016
-    },
-    {
-      "STATION_NUM": 10618,
-      "STATION_NAME": "\u4e0a\u5317\u8c37",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407022",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.506721,
-      "POINT_LNG": 138.970016
-    },
-    {
-      "STATION_NUM": 10619,
-      "STATION_NAME": "\u8033\u53d6",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407016",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.503069,
-      "POINT_LNG": 138.917743
-    },
-    {
-      "STATION_NUM": 10620,
-      "STATION_NAME": "\u8033\u53d6",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407016",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.503069,
-      "POINT_LNG": 138.917743
-    },
-    {
-      "STATION_NUM": 10621,
-      "STATION_NAME": "\u8033\u53d6",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407016",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.503069,
-      "POINT_LNG": 138.917743
-    },
-    {
-      "STATION_NUM": 10622,
-      "STATION_NAME": "\u60a0\u4e45\u5c71",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407001",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.434605,
-      "POINT_LNG": 138.876413
-    },
-    {
-      "STATION_NUM": 10623,
-      "STATION_NAME": "\u60a0\u4e45\u5c71",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407001",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.434605,
-      "POINT_LNG": 138.876413
-    },
-    {
-      "STATION_NUM": 10624,
-      "STATION_NAME": "\u60a0\u4e45\u5c71",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1924,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407001",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.434605,
-      "POINT_LNG": 138.876413
-    },
-    {
-      "STATION_NUM": 10625,
-      "STATION_NAME": "\u5c0f\u66fd\u6839",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407011",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.463688,
-      "POINT_LNG": 138.88231
-    },
-    {
-      "STATION_NUM": 10626,
-      "STATION_NAME": "\u5c0f\u66fd\u6839",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407011",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.463688,
-      "POINT_LNG": 138.88231
-    },
-    {
-      "STATION_NUM": 10627,
-      "STATION_NAME": "\u5c0f\u66fd\u6839",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407011",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.463688,
-      "POINT_LNG": 138.88231
-    },
-    {
-      "STATION_NUM": 10628,
-      "STATION_NAME": "\u5bae\u4e0b",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407012",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.464255,
-      "POINT_LNG": 138.892176
-    },
-    {
-      "STATION_NUM": 10629,
-      "STATION_NAME": "\u5bae\u4e0b",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407012",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.464255,
-      "POINT_LNG": 138.892176
-    },
-    {
-      "STATION_NUM": 10630,
-      "STATION_NAME": "\u5bae\u4e0b",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407012",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.464255,
-      "POINT_LNG": 138.892176
-    },
-    {
-      "STATION_NUM": 10631,
-      "STATION_NAME": "\u6d66\u702c",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407013",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.469364,
-      "POINT_LNG": 138.904769
-    },
-    {
-      "STATION_NUM": 10632,
-      "STATION_NAME": "\u6d66\u702c",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407013",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.469364,
-      "POINT_LNG": 138.904769
-    },
-    {
-      "STATION_NUM": 10633,
-      "STATION_NAME": "\u6d66\u702c",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407013",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.469364,
-      "POINT_LNG": 138.904769
-    },
-    {
-      "STATION_NUM": 10634,
-      "STATION_NAME": "\u52a0\u6d25\u4fdd",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407014",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.479497,
-      "POINT_LNG": 138.914294
-    },
-    {
-      "STATION_NUM": 10635,
-      "STATION_NAME": "\u52a0\u6d25\u4fdd",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407014",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.479497,
-      "POINT_LNG": 138.914294
-    },
-    {
-      "STATION_NUM": 10636,
-      "STATION_NAME": "\u52a0\u6d25\u4fdd",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407014",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.479497,
-      "POINT_LNG": 138.914294
-    },
-    {
-      "STATION_NUM": 10637,
-      "STATION_NAME": "\u693f\u6ca2",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407015",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.492344,
-      "POINT_LNG": 138.926158
-    },
-    {
-      "STATION_NUM": 10638,
-      "STATION_NAME": "\u693f\u6ca2",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407015",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.492344,
-      "POINT_LNG": 138.926158
-    },
-    {
-      "STATION_NUM": 10639,
-      "STATION_NAME": "\u693f\u6ca2",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1974,
-      "RF_ID": "EB03_16407015",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.492344,
-      "POINT_LNG": 138.926158
-    },
-    {
-      "STATION_NUM": 10640,
-      "STATION_NAME": "\u6961\u539f",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
+      "RF_NUM": 16412,
+      "ROSEN_NAME": "\u9838\u57ce\u9244\u9053",
+      "KAISHA_NUM": 361,
+      "KAISHA_NAME": "\u9838\u57ce\u9244\u9053",
       "KYOYO_START": 1916,
       "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407023",
+      "SECCHI_END": 1967,
+      "RF_ID": "EB03_16412010",
       "TRANSITION_NUM": 0,
       "TRANSITION_REMARK": "",
       "BIKOU": "",
-      "POINT_LAT": 37.498422,
-      "POINT_LNG": 138.996411
-    },
-    {
-      "STATION_NUM": 10641,
-      "STATION_NAME": "\u6961\u539f",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407023",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.498422,
-      "POINT_LNG": 138.996411
-    },
-    {
-      "STATION_NUM": 10642,
-      "STATION_NAME": "\u6961\u539f",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1916,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407023",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.498422,
-      "POINT_LNG": 138.996411
-    },
-    {
-      "STATION_NUM": 10643,
-      "STATION_NAME": "\u6803\u5c3e",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u9244\u9053",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1950,
-      "SECCHI_END": 1955,
-      "RF_ID": "EB03_16407024",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.483598,
-      "POINT_LNG": 138.99265
-    },
-    {
-      "STATION_NUM": 10644,
-      "STATION_NAME": "\u6803\u5c3e",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u6803\u5c3e\u96fb\u9244",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1956,
-      "SECCHI_END": 1959,
-      "RF_ID": "EB03_16407024",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.483598,
-      "POINT_LNG": 138.99265
-    },
-    {
-      "STATION_NUM": 10645,
-      "STATION_NAME": "\u6803\u5c3e",
-      "JIGYOSHA_SHUBETSU_CODE": 4,
-      "RF_NUM": 16407,
-      "ROSEN_NAME": "\u6803\u5c3e\u7dda",
-      "KAISHA_NUM": 233,
-      "KAISHA_NAME": "\u8d8a\u5f8c\u4ea4\u901a",
-      "KYOYO_START": 1915,
-      "SECCHI_START": 1960,
-      "SECCHI_END": 1972,
-      "RF_ID": "EB03_16407024",
-      "TRANSITION_NUM": 0,
-      "TRANSITION_REMARK": "",
-      "BIKOU": "",
-      "POINT_LAT": 37.483598,
-      "POINT_LNG": 138.99265
+      "POINT_LAT": 37.157953,
+      "POINT_LNG": 138.422528
     }
   ]
 }
