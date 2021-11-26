@@ -44,7 +44,7 @@ REGISTER_FIELDS = [
 
 API_KEY = read("src/api_key.txt")
 IMPL = false
-DST = "."
+DST = nil
 opt = OptionParser.new
 opt.on("-i", "--impl") { IMPL = true }
 opt.on("-d", "--dst VALUE") { |v| DST = v }
@@ -144,16 +144,18 @@ class CSVTest < FormatTest
   end
 
   def teardown
-    puts "write csv to #{DST}/*.csv impl:#{IMPL}"
-    if IMPL
-      STATION_FIELD.delete("impl")
-      LINE_FIELD.delete("impl")
-      REGISTER_FIELDS.delete("impl")
+    if DST
+      puts "write csv to #{DST}/*.csv impl:#{IMPL}"
+      if IMPL
+        STATION_FIELD.delete("impl")
+        LINE_FIELD.delete("impl")
+        REGISTER_FIELDS.delete("impl")
+      end
+      write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
+      write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
+      write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
+      puts "OK"
     end
-    write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
-    write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
-    write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
-    puts "OK"
 
     print "Write to json files..."
     File.open("src/solved/line#{IMPL ? "" : ".extra"}.json", "w") do |f|
