@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - feature/update
+      - feature/extra
     path: 'out/*'
 jobs:
   test:
