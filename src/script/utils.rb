@@ -206,6 +206,7 @@ def write_csv(file, fields, records)
         value = "1" if value == true
         value = "0" if value == false
         value = "NULL" if value == nil
+        #value = value.round(6) if value kind_of?(Float)
         next value
       end.join(","))
     end
@@ -216,21 +217,89 @@ $csv_no = -1
 $csv_line = nil
 $csv_file = nil
 
-def csv_each_line(name)
+class CSVLine
+  attr_reader :length
+
+  def initialize(header, line)
+    @length = line.length
+    @data = {}
+    @header = header
+    header.each_with_index { |f, i| @data[f] = line[i] } if header
+    line.each_with_index { |e, i| @data[i] = e }
+  end
+
+  def [](key)
+    @data[key]
+  end
+
+  def []=(key, value)
+    if key.kind_of?(Integer)
+      raise IndexError.new if key < 0 || key >= self.length
+      @data[key] = value
+      @data[@header[key]] = value if @header
+    elsif key.kind_of?(String)
+      raise StandardError.new("header not set") if !@header
+      idx = @header.index(key)
+      raise IndexError.new("key not found in headers") if !idx
+      raise IndexError.new if idx < 0 || idx >= self.length
+      @data[idx] = value
+      @data[key] = value
+    else
+      raise StandardError.new("invalid key type")
+    end
+  end
+
+  def boolean(key)
+    value = self[key]
+    if value && value == "0"
+      return false
+    elsif value && value == "1"
+      return true
+    else
+      csv_err("invalid '#{key} value")
+      return nil
+    end
+  end
+
+  def date(key)
+    value = self[key]
+    if value && value == "NULL"
+      return nil
+    elsif value && value.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)
+      return value
+    else
+      csv_err("invalid '#{key}' value")
+      return nil
+    end
+  end
+
+  def str(key)
+    value = data[key]
+    if value && value == "NULL"
+      return nil
+    elsif value && value.length > 0
+      return value
+    else
+      csv_err("empty '#{key}' value")
+      return nil
+    end
+  end
+end
+
+def csv_each_line(name, has_header = true)
   $csv_file = name
   File.open(name, "r:utf-8") do |file|
-    header = []
+    header = nil
     file.each_line.each_with_index do |line, i|
       $csv_no = i + 1
-      if i == 0
+      if i == 0 && has_header
         header = line.chomp.split(",")
         next
       end
       $csv_line = line
       line = line.chomp.split(",")
-      csv_err("col size mismatch. #{line.length} <=> hader:#{header.length} ") if line.length != header.length
-      data = {}
-      header.each_with_index { |f, i| data[f] = line[i] }
+      csv_err("col size mismatch. #{line.length} > hader:#{header.length} ") if header && line.length > header.length
+      data = CSVLine.new(header, line)
       $csv_line = data
       yield(data)
     end
@@ -239,40 +308,4 @@ end
 
 def csv_err(mes)
   assert false, "#{mes} at csv file #{$csv_file}:#{$csv_no}\n#{$csv_line}"
-end
-
-def read_boolean(data, key)
-  value = data[key]
-  if value && value == "0"
-    return false
-  elsif value && value == "1"
-    return true
-  else
-    csv_err("invalid '#{key} value")
-    return nil
-  end
-end
-
-def read_date(data, key)
-  value = data[key]
-  if value && value == "NULL"
-    return nil
-  elsif value && value.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)
-    return value
-  else
-    csv_err("invalid '#{key}' value")
-    return nil
-  end
-end
-
-def read_value(data, key)
-  value = data[key]
-  if value && value == "NULL"
-    return nil
-  elsif value && value.length > 0
-    return value
-  else
-    csv_err("empty '#{key}' value")
-    return nil
-  end
 end
