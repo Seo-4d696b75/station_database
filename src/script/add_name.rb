@@ -47,9 +47,9 @@ if File.exists?(dst)
   csv_each_line(dst) do |fields|
     csv_err("col size != 14") if fields.length != 15
     list << fields
-    history.add(read_value(fields, "id"))
-    name = read_value(fields, "name")
-    original = read_value(fields, "original_name")
+    history.add(fields.str("id"))
+    name = fields.str("name")
+    original = fields.str("original_name")
     if name != original
       duplicated[original] = duplicated[original] + 1
     end
@@ -68,14 +68,14 @@ end
 pref.add("JR")
 pref.add("国鉄")
 csv_each_line("raw/company20200309.csv") do |f|
-  pref.add(read_value(f, "company_name"))
+  pref.add(f.str("company_name"))
 end
 
 csv_each_line(src) do |fields|
   begin
     csv_err("col size != 14") if fields.length != 14
-    if history.add?(read_value(fields, "id"))
-      name = read_value(fields, "name")
+    if history.add?(fields.str("id"))
+      name = fields.str("name")
       original = name
       if m = name.match(/^(?<name>.+?)\((?<suffix>[^\(\)]+)\)$/)
         suffix = m[:suffix]

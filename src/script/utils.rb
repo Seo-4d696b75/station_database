@@ -206,7 +206,8 @@ def write_csv(file, fields, records)
         value = "1" if value == true
         value = "0" if value == false
         value = "NULL" if value == nil
-        #value = value.round(6) if value kind_of?(Float)
+        # TODO
+        #value = ("%.06f" % value) if value.kind_of?(Float)
         next value
       end.join(","))
     end
@@ -274,7 +275,7 @@ class CSVLine
   end
 
   def str(key)
-    value = data[key]
+    value = self[key]
     if value && value == "NULL"
       return nil
     elsif value && value.length > 0
