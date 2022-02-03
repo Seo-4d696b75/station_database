@@ -103,11 +103,11 @@ end
 
 puts "write line list to file."
 File.open("#{dst}/line.json", "w") do |f|
-  f.write(format_json(lines.map { |e| sort_hash(e) }, flat: true))
+  f.write(format_json(lines.map { |e| sort_hash(e) }, flat_array: [:root]))
 end
 puts "write station list to file."
 File.open("#{dst}/station.json", "w") do |f|
-  f.write(format_json(stations.map { |e| sort_hash(e) }, flat: true))
+  f.write(format_json(stations.map { |e| sort_hash(e) }, flat_array: [:root]))
 end
 puts "write raw Kd-tree to file."
 File.open("#{dst}/tree.json", "w") do |f|

@@ -163,14 +163,14 @@ class CSVTest < FormatTest
         end
         sort_hash(line)
       end
-      f.write(format_json(list, flat: true))
+      f.write(format_json(list, flat_array: [:root]))
     end
     File.open("src/solved/station#{IMPL ? "" : ".extra"}.json", "w") do |f|
       list = @stations.map do |s|
         s.delete_if { |key, value| value == nil }
         sort_hash(s)
       end
-      f.write(format_json(list, flat: true))
+      f.write(format_json(list, flat_array: [:root]))
     end
     puts "OK"
 
