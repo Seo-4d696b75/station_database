@@ -2,7 +2,7 @@ name: format-test
 on:
   push:
     branches:
-      - feature/update
+      - feature/*
     path: 'out/*'
 jobs:
   test:

@@ -87,63 +87,92 @@ class IDSet
   end
 end
 
-def format_json(data, flat_key: [], flat_array: [], flat: false, depth: 0)
-  if data.kind_of?(String)
-    return "\"#{data.to_s}\""
-  elsif data.kind_of?(Numeric) || data == true || data == false
-    return data.to_s
-  elsif data.kind_of?(Hash)
-    return JSON.dump(data) if flat
-    str = "{\n"
-    str << ("  " * (depth + 1))
-    str << data.to_a.map do |e|
-      key, value = e
-      if value.kind_of?(Array)
-        if flat_key.include?(key)
-          next "\"#{key}\":#{JSON.dump(value)}"
-        else
-          value = format_json(
-            value,
-            flat_key: flat_key,
-            flat_array: flat_array,
-            flat: flat_array.include?(key),
-            depth: (depth + 1),
-          )
-          next "\"#{key}\":#{value}"
-        end
-      end
-      value = format_json(
-        value,
-        flat_key: flat_key,
-        flat_array: flat_array,
-        flat: flat_key.include?(key),
-        depth: (depth + 1),
-      )
-      "\"#{key}\":#{value}"
-    end.join(",\n" + ("  " * (depth + 1)))
-    str << "\n"
-    str << ("  " * depth)
-    str << "}"
-    return str
-  elsif data.kind_of?(Array)
-    str = "[\n"
-    str << ("  " * (depth + 1))
-    str << data.map do |value|
-      format_json(
-        value,
-        flat_key: flat_key,
-        flat_array: flat_array,
-        flat: flat,
-        depth: (depth + 1),
-      )
-    end.join(",\n" + ("  " * (depth + 1)))
-    str << "\n"
-    str << ("  " * depth)
-    str << "]"
-    return str
-  else
-    raise "invalid json data: " + data.to_s
+def format_json_obj(obj, flat: false, flat_key: [], flat_array: [], depth: 0)
+  str = "{"
+  str << "\n" + ("  " * (depth + 1)) if !flat
+  sep = flat ? "," : ",\n" + ("  " * (depth + 1))
+  str << obj.to_a.map do |e|
+    key, value = e
+    value = format_json_value(
+      key, value,
+      flat: flat,
+      flat_key: flat_key,
+      flat_array: flat_array,
+      depth: depth + 1,
+    )
+    value = "\"#{key}\":#{value}"
+  end.join(sep)
+  str << "\n" + ("  " * depth) if !flat
+  str << "}"
+  str
+end
+
+def format_json_array(array, flat: false, flat_element: false, flat_key: [], flat_array: [], depth: 0)
+  str = "["
+  str << "\n" + ("  " * (depth + 1)) if !flat
+  sep = flat ? "," : ",\n" + ("  " * (depth + 1))
+  str << array.map do |value|
+    format_json_value(
+      nil, value,
+      flat: flat || flat_element,
+      flat_key: flat_key,
+      flat_array: flat_array,
+      depth: (depth + 1),
+    )
+  end.join(sep)
+  str << "\n" + ("  " * depth) if !flat
+  str << "]"
+  return str
+end
+
+def format_json_value(key, value, flat: false, flat_key: [], flat_array: [], depth: 0)
+  case true
+  when value.kind_of?(String)
+    return "\"#{value.to_s}\""
+  when value.kind_of?(Integer) || value == true || value == false
+    return value.to_s
+  when value == nil
+    return "null"
+  when value.kind_of?(Hash)
+    return format_json_obj(
+             value,
+             flat: flat || flat_key.include?(key),
+             flat_key: flat_key,
+             flat_array: flat_array,
+             depth: depth,
+           )
+  when value.kind_of?(Array)
+    return format_json_array(
+             value,
+             flat: flat || flat_key.include?(key),
+             flat_element: flat_array.include?(key),
+             flat_key: flat_key,
+             flat_array: flat_array,
+             depth: depth,
+           )
+  when value.kind_of?(Float) && (key == "lat" || key == "lng")
+    # 座標値は小数点以下６桁までの有効数字
+    return value.round(6)
+  when value.kind_of?(Float)
+    return value.to_s
   end
+  raise "unexpected json value key:#{key} value:#{JSON.dump(value)}"
+end
+
+# JSON.dumpに代わるカスタムエンコーダー
+#
+# ルートになるオブジェクトは特別に`:root`をkeyとして扱う
+# @param data 文字列に変換するオブジェクト
+# @param flat_key Array<String|Symbol> 指定したkeyに対するjson objectは１行で出力
+# @param flat_array Array<String|Symbol> 指定したkeyに対するArrayの各要素にあるjson objectを１行で出力
+def format_json(data, flat_key: [], flat_array: [])
+  format_json_value(
+    :root, data,
+    flat: flat_key.include?(:root),
+    flat_key: flat_key,
+    flat_array: flat_array,
+    depth: 0,
+  )
 end
 
 def sort_hash(data)
@@ -206,6 +235,8 @@ def write_csv(file, fields, records)
         value = "1" if value == true
         value = "0" if value == false
         value = "NULL" if value == nil
+        # 座標値は小数点以下６桁までの有効数字
+        value = ("%.06f" % value) if value.kind_of?(Float) && (f == "lat" || f == "lng")
         next value
       end.join(","))
     end
