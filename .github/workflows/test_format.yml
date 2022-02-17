@@ -1,17 +1,12 @@
 name: format-test
 on:
   push:
-    branches:
-      - feature/update
-      - feature/extra
     path: 'out/*'
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-        with:
-          ref: 'feature/update'
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
