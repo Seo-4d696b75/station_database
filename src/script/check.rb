@@ -44,7 +44,7 @@ REGISTER_FIELDS = [
 
 API_KEY = read("src/api_key.txt")
 IMPL = false
-DST = "."
+DST = nil
 opt = OptionParser.new
 opt.on("-i", "--impl") { IMPL = true }
 opt.on("-d", "--dst VALUE") { |v| DST = v }
@@ -144,16 +144,18 @@ class CSVTest < FormatTest
   end
 
   def teardown
-    puts "write csv to #{DST}/*.csv impl:#{IMPL}"
-    if IMPL
-      STATION_FIELD.delete("impl")
-      LINE_FIELD.delete("impl")
-      REGISTER_FIELDS.delete("impl")
+    if DST
+      puts "write csv to #{DST}/*.csv impl:#{IMPL}"
+      if IMPL
+        STATION_FIELD.delete("impl")
+        LINE_FIELD.delete("impl")
+        REGISTER_FIELDS.delete("impl")
+      end
+      write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
+      write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
+      write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
+      puts "OK"
     end
-    write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
-    write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
-    write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
-    puts "OK"
 
     print "Write to json files..."
     File.open("src/solved/line#{IMPL ? "" : ".extra"}.json", "w") do |f|
@@ -181,19 +183,19 @@ class CSVTest < FormatTest
     csv_each_line("src/station.csv") do |fields|
       csv_err("col size != 15") if fields.length != 15
       code = fields["code"].to_i
-      id = read_value(fields, "id")
-      impl = read_boolean(fields, "impl")
+      id = fields.str("id")
+      impl = fields.boolean("impl")
 
-      name = read_value(fields, "name")
-      name_original = read_value(fields, "original_name")
-      name_kana = read_value(fields, "name_kana")
+      name = fields.str("name")
+      name_original = fields.str("original_name")
+      name_kana = fields.str("name_kana")
       lat = fields["lat"].to_f
       lng = fields["lng"].to_f
       pref = fields["prefecture"].to_i
-      closed = read_boolean(fields, "closed")
-      attr = read_value(fields, "attr")
-      postal_code = read_value(fields, "postal_code")
-      address = read_value(fields, "address")
+      closed = fields.boolean("closed")
+      attr = fields.str("attr")
+      postal_code = fields.str("postal_code")
+      address = fields.str("address")
       station = {}
       station["code"] = code
       station["id"] = id
@@ -208,8 +210,8 @@ class CSVTest < FormatTest
       station["address"] = address
       station["impl"] = impl
       station["closed"] = closed
-      station["open_date"] = read_date(fields, "open_date")
-      station["closed_date"] = read_date(fields, "closed_date")
+      station["open_date"] = fields.date("open_date")
+      station["closed_date"] = fields.date("closed_date")
 
       puts "Warning > may be invalid suffix of name:#{name_original}" if name_original.end_with?("駅", "停留所", "乗降場")
       # 登録路線用
@@ -224,18 +226,18 @@ class CSVTest < FormatTest
     csv_each_line("src/line.csv") do |fields|
       csv_err("fields size != 12") if fields.length != 12
       code = fields["code"].to_i
-      id = read_value(fields, "id")
-      name = read_value(fields, "name")
-      name_kana = read_value(fields, "name_kana")
-      name_formal = read_value(fields, "name_formal")
+      id = fields.str("id")
+      name = fields.str("name")
+      name_kana = fields.str("name_kana")
+      name_formal = fields.str("name_formal")
       station_size = fields["station_size"].to_i
-      company_code = read_value(fields, "company_code")
+      company_code = fields.str("company_code")
       company_code = company_code.to_i if company_code
-      color = read_value(fields, "color")
-      symbol = read_value(fields, "symbol")
-      closed = read_boolean(fields, "closed")
-      impl = read_boolean(fields, "impl")
-      closed_date = read_date(fields, "closed_date")
+      color = fields.str("color")
+      symbol = fields.str("symbol")
+      closed = fields.boolean("closed")
+      impl = fields.boolean("impl")
+      closed_date = fields.date("closed_date")
       puts "Warning > line closed date not defined #{name}" if closed && !closed_date
 
       line = {}

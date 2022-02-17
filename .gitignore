@@ -1,7 +1,6 @@
 *.zip
 *.lnk
 *.pem
-src/polyline/src
 src/api_key.txt
 src/location/map/*.png
 src/location/raw/*.jpg
@@ -9,8 +8,6 @@ src/location/raw/*.png
 src/location/string.png
 artifact/
 .github/workflows/*.md
-src/polyline/kml/*
 src/polyline/.history
-src/extra/pcpulab/kml/*
 src/details/address/*
 **/tmp.*

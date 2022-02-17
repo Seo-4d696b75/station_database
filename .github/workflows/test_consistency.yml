@@ -10,7 +10,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v1
         with:
-          ref: 'feature/update'
+          ref: ${{github.head_ref}}
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'

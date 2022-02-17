@@ -113,10 +113,10 @@ class SubsetTest < MiniTest::Test
       check_diff("line", id, old, line, LINE_FIELD)
     end
     stations.each_value do |station|
-      @log << "- **station** new station #{format_md(station)}\n"
+      @log << "- **station** new station #{format_md(station, key = "station")}\n"
     end
     lines.each_value do |line|
-      @log << "- **line** new line #{format_md(line)}\n"
+      @log << "- **line** new line #{format_md(line, key = "line")}\n"
     end
   end
 

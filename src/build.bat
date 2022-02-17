@@ -16,11 +16,11 @@ if errorlevel 1 (
 
 call ./src/pack.bat %version%
 
-git add .
-git commit -m "[build] version %version%"
-
 call ./src/release.bat %version%
 
-git add .
+git add ./src ./out
+git commit -m "[build] version %version%"
+
+git add ./latest*
 git commit -m "[update] version info %version%"
 git push origin feature/update
