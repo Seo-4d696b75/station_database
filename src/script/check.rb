@@ -149,14 +149,17 @@ class CSVTest < FormatTest
   def teardown
     if DST
       puts "write csv to #{DST}/*.csv impl:#{IMPL}"
+      station_field = STATION_FIELD.dup
+      line_field = LINE_FIELD.dup
+      register_field = REGISTER_FIELDS.dup
       if IMPL
-        STATION_FIELD.delete("impl")
-        LINE_FIELD.delete("impl")
-        REGISTER_FIELDS.delete("impl")
+        station_field.delete("impl")
+        line_field.delete("impl")
+        register_field.delete("impl")
       end
-      write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
-      write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
-      write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
+      write_csv("#{DST}/station.csv", station_field, @stations)
+      write_csv("#{DST}/line.csv", line_field, @lines)
+      write_csv("#{DST}/register.csv", register_field, @register)
       puts "OK"
     end
 
