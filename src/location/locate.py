@@ -41,30 +41,27 @@ if len(sys.argv) <= 2 or sys.argv[2] != '-n':
 map = cv2.cvtColor(cv2.imread(des),cv2.COLOR_BGR2RGB)
 
 head = cv2.cvtColor(cv2.imread(config.get('url','header')),cv2.COLOR_BGR2RGB)
-foot = cv2.cvtColor(cv2.imread(config.get('url','footer')),cv2.COLOR_BGR2RGB)
 
 res = cv2.matchTemplate(map, head, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 url_start = (max_loc[0] + head.shape[1], max_loc[1])
-url = map[url_start[1]:url_start[1]+head.shape[0], url_start[0]:map.shape[1], :]
-res = cv2.matchTemplate(url, foot, cv2.TM_CCOEFF)
-min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
-url_end = (url_start[0] + max_loc[0], url_start[1] + head.shape[0])
-url = map[url_start[1]:url_end[1], url_start[0]:url_end[0], :]
+# 長さ400pxで切り取り
+url = map[url_start[1]:url_start[1]+head.shape[0], url_start[0]:url_start[0]+400, :]
 cv2.imwrite('string.png', url)
 proc = subprocess.run('tesseract string.png stdout'.split(), stdout=subprocess.PIPE)
 string = re.sub('\s','',proc.stdout.decode('utf-8'))
+print(f"string: {string}")
 
 while True:
-  m = re.match('([0-9\.]+),([0-9\.]+),([0-9\.]+)', string)
+  m = re.match('([0-9\.]+)/([0-9\.]+)/([0-9\.]+)(&.*)?', string)
   if m:
     break
   print('fail to convert coordicate: %s' % string)
   pyperclip.copy(string)
   string = input('put correct value: ')
-center_lat = float(m.group(1))
-center_lng = float(m.group(2))
-zoom = float(m.group(3))
+center_lat = float(m.group(2))
+center_lng = float(m.group(3))
+zoom = float(m.group(1))
 
 print("map: %s\nlng:%.7f, lat:%.7f zoom:%.2f" % (map_file, center_lng, center_lat, zoom))
 
@@ -93,22 +90,28 @@ map_x *= scale
 map_y *= scale
 map = cv2.resize(map, dsize=(w,h))
 
-
+# テンプレート画像の読み込み
 img_file = '%s/%d.png' % (config.get('img','src'), code)
 print('img : %s' % img_file)
 img = cv2.cvtColor(cv2.imread(img_file),cv2.COLOR_BGR2RGB)
 img = img[clip_y:(clip_y+clip_height), clip_x:(clip_x+clip_width), :]
+# テンプレート画像中のピン指し示す位置の検出
 pin = cv2.cvtColor(cv2.imread(config.get('img','pin')), cv2.COLOR_BGR2RGB)
 res = cv2.matchTemplate(img, pin, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 pin_x += max_loc[0]
 pin_y += max_loc[1]
 
+# エッジ検出
+map = cv2.Canny(map, 50, 100)
+img = cv2.Canny(img, 20, 80)
+
+# マップ画像どうしのテンプレートマッチング
 res = cv2.matchTemplate(map, img, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 top_left = max_loc
 bottom_right = (top_left[0] + clip_width, top_left[1] + clip_height)
-extract = map.copy()[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0], :]
+extract = map.copy()[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0]]
 cv2.rectangle(map,top_left, bottom_right, 255, 10)
 
 def grad(p, res, size, point):
