@@ -111,7 +111,13 @@ class CSVTest < FormatTest
     read_station()
     read_line()
     # fill in blank id values, if needed
-    check_id() if !IMPL
+    check_id()
+    # fill in blank address and post-code, if needed
+    check_address()
+
+    # save with formatted values
+    write_csv("src/station.csv", STATION_FIELD, @stations)
+    write_csv("src/line.csv", LINE_FIELD, @lines)
 
     self.check_init()
 
@@ -133,9 +139,6 @@ class CSVTest < FormatTest
   end
 
   def test_station()
-    # fill in black address and post-code, if needed
-    check_address() if !IMPL
-
     self.check_station(false)
   end
 
@@ -146,14 +149,17 @@ class CSVTest < FormatTest
   def teardown
     if DST
       puts "write csv to #{DST}/*.csv impl:#{IMPL}"
+      station_field = STATION_FIELD.dup
+      line_field = LINE_FIELD.dup
+      register_field = REGISTER_FIELDS.dup
       if IMPL
-        STATION_FIELD.delete("impl")
-        LINE_FIELD.delete("impl")
-        REGISTER_FIELDS.delete("impl")
+        station_field.delete("impl")
+        line_field.delete("impl")
+        register_field.delete("impl")
       end
-      write_csv("#{DST}/station.csv", STATION_FIELD, @stations)
-      write_csv("#{DST}/line.csv", LINE_FIELD, @lines)
-      write_csv("#{DST}/register.csv", REGISTER_FIELDS, @register)
+      write_csv("#{DST}/station.csv", station_field, @stations)
+      write_csv("#{DST}/line.csv", line_field, @lines)
+      write_csv("#{DST}/register.csv", register_field, @register)
       puts "OK"
     end
 
@@ -263,29 +269,19 @@ class CSVTest < FormatTest
 
   def check_id
     puts "add id to new station/line time."
-    write_id = false
     (@stations + @lines).each do |s|
       if !s["id"]
         s["id"] = @id_set.get()
-        write_id = true
       end
-    end
-    if write_id
-      write_csv("src/station.csv", STATION_FIELD, @stations)
-      write_csv("src/line.csv", LINE_FIELD, @lines)
-      puts "id added and saved."
     end
   end
 
   def check_address
     @stations.each do |station|
-      write = false
       if !station["postal_code"] || !station["address"]
         get_address(station)
-        write = true
       end
       assert station["postal_code"].match(PATTERN_POST), "invalide post code: #{JSON.dump(station)}"
-      write_csv("src/station.csv", STATION_FIELD, @stations) if write
     end
   end
 

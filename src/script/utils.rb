@@ -236,7 +236,7 @@ def write_csv(file, fields, records)
         value = "0" if value == false
         value = "NULL" if value == nil
         # 座標値は小数点以下６桁までの有効数字
-        value = ("%.06f" % value) if value.kind_of?(Float) && (f == "lat" || f == "lng")
+        value = format("%.06f", value.round(6)) if value.kind_of?(Float) && (f == "lat" || f == "lng")
         next value
       end.join(","))
     end
