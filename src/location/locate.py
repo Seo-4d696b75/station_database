@@ -104,7 +104,7 @@ pin_y += max_loc[1]
 
 # エッジ検出
 map = cv2.Canny(map, 50, 100)
-img = cv2.Canny(img, 20, 80)
+img = cv2.Canny(img, 10, 50)
 
 # マップ画像どうしのテンプレートマッチング
 res = cv2.matchTemplate(map, img, cv2.TM_CCOEFF)
