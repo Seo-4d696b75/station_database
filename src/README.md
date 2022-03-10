@@ -10,7 +10,10 @@ echo $API_KEY > src/api_key.txt
 ## ボロノイ分割計算のセットアップ
 [diagram](https://github.com/Seo-4d696b75/diagram)のプロジェクトをbuildしてjarファイルを用意
 
-`diagram.bat, diagram.sh`内の変数`$JAR`を適宜変更する
+`diagram.bat, diagram.sh`内の変数`$JAR`を適宜変更する  
+
+**改行コードについて**  
+`LF`に統一したいので `git config core.autocrlf input` を確認
 
 # 更新作業
 
