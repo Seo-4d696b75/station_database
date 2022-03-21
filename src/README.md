@@ -1,5 +1,22 @@
 # データベース管理手引き
 
+# Setup
+## API keyの用意
+GCP consoleから Geocoding API が利用可能なAPI keyを取得する
+```bash
+echo $API_KEY > src/api_key.txt
+```
+
+## ボロノイ分割計算のセットアップ
+[diagram](https://github.com/Seo-4d696b75/diagram)のプロジェクトをbuildしてjarファイルを用意
+
+`diagram.bat, diagram.sh`内の変数`$JAR`を適宜変更する  
+
+**改行コードについて**  
+`LF`に統一したいので `git config core.autocrlf input` を確認
+
+# 更新作業
+
 **編集するデータ**
 - station.csv 駅情報
 - line.csv 路線情報
