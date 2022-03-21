@@ -103,8 +103,8 @@ pin_x += max_loc[0]
 pin_y += max_loc[1]
 
 # エッジ検出
-map = cv2.Canny(map, 50, 100)
-img = cv2.Canny(img, 20, 80)
+map = cv2.Canny(map, 10, 50)
+img = cv2.Canny(img, 10, 50)
 
 # マップ画像どうしのテンプレートマッチング
 res = cv2.matchTemplate(map, img, cv2.TM_CCOEFF)
@@ -114,66 +114,8 @@ bottom_right = (top_left[0] + clip_width, top_left[1] + clip_height)
 extract = map.copy()[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0]]
 cv2.rectangle(map,top_left, bottom_right, 255, 10)
 
-def grad(p, res, size, point):
-  sum = np.array([0,0,0,0,0])
-  for dx in range(-size//2,size//2+1,1):
-    for dy in range(-size//2,size//2+1,1):
-      x = point[0] + dx
-      y = point[1] + dy
-      z = res[y,x]
-      a = p[0]*(x-p[1])**2 + p[2]*(y-p[3])**2 + p[4] - z
-      sum = sum + np.array([
-        2*a*(x-p[1])**2,
-        -4*a*p[0]*(x-p[1]),
-        2*a*(y-p[3])**2,
-        -4*a*p[2]*(y-p[3]),
-        2*a
-      ])
-  len = np.linalg.norm(sum)
-  return sum / len
-
-def sse(p, res, size, point):
-  sum = 0
-  for dx in range(-size//2,size//2+1,1):
-    for dy in range(-size//2,size//2+1,1):
-      x = point[0] + dx
-      y = point[1] + dy
-      z = res[y,x]
-      sum += (p[0]*(x-p[1])**2 + p[2]*(y-p[3])**2 + p[4] - z)**2
-  return sum
-
-
 x,y = top_left
-'''
-# 移動幅固定の最急降下法で最適化問題を解く
-size = 9
-step = 0.01
-# initialize params
-p1 = (res[y,x-1] + res[y,x+1] - res[y,x]*2)/2
-p3 = (res[y-1,x] + res[y+1,x] - res[y,x]*2)/2
-p2 = x
-p4 = y
-p5 = res[y,x]
-p = np.array([p1,p2,p3,p4,p5])
 
-previous = sse(p, res, size, top_left)
-
-
-while True:
-  dp = grad(p, res, size, top_left) * (-1 * step) 
-  p = p + dp
-  next = sse(p, res, size, top_left)
-  if abs(next/previous -1) < 0.01:
-    break
-  previous = next
-
-
-point = (p[1],p[3])
-print('subpixel estimate: %s -> %s' % (str(top_left),str(point) ))
-'''
-
-#x = point[0] + pin_x
-#y = point[1] + pin_y
 x += pin_x
 y += pin_y
 
