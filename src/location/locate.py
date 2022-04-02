@@ -15,19 +15,28 @@ import datetime
 # 設定の読み込み
 config = configparser.ConfigParser()
 config.read('config.ini')
+# ピン画像中のピンが指し示すpixel座標
 pin_x = float(config.get('img', 'targetX'))
 pin_y = float(config.get('img', 'targetY'))
+# テンプレート画像（app内で表示した地図画像）のうち使用する箇所を切り抜く
+# ピンの位置を必ず含むこと
 clip_x = int(config.get('img', 'clipX'))
 clip_y = int(config.get('img', 'clipY'))
 clip_width = int(config.get('img', 'clipWidth'))
 clip_height = int(config.get('img', 'clipHeight'))
-
-target_zoom = float(config.get('map', 'zoom'))
+# テンプレート画像の dp/pixel 比率
+img_density = float(config.get('img', 'density'))
+# テンプレート画像でのgoogle mapのzoom-level
+target_zoom = float(config.get('img', 'zoom'))
+# 地図画像（中心座標既知）のうち地図が表示されている範囲
+# 左右はmargin=0とする
 margin_top = int(config.get('map', 'marginTop'))
 margin_bottom = int(config.get('map', 'marginBottom'))
+# 地図画像のうち左右の使用しない範囲
 margin_left = int(config.get('map', 'marginLeft'))
 margin_right = int(config.get('map', 'marginRight'))
-
+# 地図画像の pixel(DOM単位)/物理pixel 比率
+map_density = float(config.get('map', 'density'))
 code = int(sys.argv[1])
 
 dir = config.get('map', 'des')
@@ -45,23 +54,22 @@ head = cv2.cvtColor(cv2.imread(config.get('url','header')),cv2.COLOR_BGR2RGB)
 res = cv2.matchTemplate(map, head, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 url_start = (max_loc[0] + head.shape[1], max_loc[1])
-# 長さ400pxで切り取り
-url = map[url_start[1]:url_start[1]+head.shape[0], url_start[0]:url_start[0]+400, :]
+# 幅600pxで切り抜き
+url = map[url_start[1]:url_start[1]+head.shape[0], url_start[0]:url_start[0] + 600, :]
 cv2.imwrite('string.png', url)
 proc = subprocess.run('tesseract string.png stdout'.split(), stdout=subprocess.PIPE)
 string = re.sub('\s','',proc.stdout.decode('utf-8'))
-print(f"string: {string}")
 
 while True:
-  m = re.match('([0-9\.]+)/([0-9\.]+)/([0-9\.]+)(&.*)?', string)
+  m = re.match('([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*', string)
   if m:
     break
   print('fail to convert coordicate: %s' % string)
   pyperclip.copy(string)
   string = input('put correct value: ')
-center_lat = float(m.group(2))
-center_lng = float(m.group(3))
-zoom = float(m.group(1))
+center_lat = float(m.group(1))
+center_lng = float(m.group(2))
+zoom = float(m.group(3))
 
 print("map: %s\nlng:%.7f, lat:%.7f zoom:%.2f" % (map_file, center_lng, center_lat, zoom))
 
@@ -77,12 +85,13 @@ dθ/dx = 1/R (const.)より緯度に依らず単純な比例関係で計算で�
 ただし pixel coordinate はDOMにおけるサイズのdip単位'px'に対応するから
 画像上のピクセル単位に合わせる必要がある
 '''
-unit = 360 / (256 * math.pow(2, target_zoom)) / float(config.get('map', 'density'))
+unit = 360 / (256 * math.pow(2, target_zoom)) / img_density
 
 map = map[margin_top:(h-margin_bottom), margin_left:(w-margin_right), :]
 map_x = w/2 - margin_left
 map_y = (h - margin_top - margin_bottom)/2
-scale = math.pow(2, target_zoom - zoom)
+# 地図のzoom-level * density比率　の差を調整して物理pixelのスケールを一致させる
+scale = math.pow(2, target_zoom - zoom) * (img_density/map_density)
 h,w,c = map.shape
 h = int(h * scale)
 w = int(w * scale)
@@ -90,90 +99,26 @@ map_x *= scale
 map_y *= scale
 map = cv2.resize(map, dsize=(w,h))
 
-# テンプレート画像の読み込み
+
 img_file = '%s/%d.png' % (config.get('img','src'), code)
 print('img : %s' % img_file)
 img = cv2.cvtColor(cv2.imread(img_file),cv2.COLOR_BGR2RGB)
 img = img[clip_y:(clip_y+clip_height), clip_x:(clip_x+clip_width), :]
-# テンプレート画像中のピン指し示す位置の検出
 pin = cv2.cvtColor(cv2.imread(config.get('img','pin')), cv2.COLOR_BGR2RGB)
 res = cv2.matchTemplate(img, pin, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 pin_x += max_loc[0]
 pin_y += max_loc[1]
 
-# エッジ検出
-map = cv2.Canny(map, 50, 100)
-img = cv2.Canny(img, 20, 80)
-
-# マップ画像どうしのテンプレートマッチング
 res = cv2.matchTemplate(map, img, cv2.TM_CCOEFF)
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 top_left = max_loc
 bottom_right = (top_left[0] + clip_width, top_left[1] + clip_height)
-extract = map.copy()[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0]]
+extract = map.copy()[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0], :]
 cv2.rectangle(map,top_left, bottom_right, 255, 10)
 
-def grad(p, res, size, point):
-  sum = np.array([0,0,0,0,0])
-  for dx in range(-size//2,size//2+1,1):
-    for dy in range(-size//2,size//2+1,1):
-      x = point[0] + dx
-      y = point[1] + dy
-      z = res[y,x]
-      a = p[0]*(x-p[1])**2 + p[2]*(y-p[3])**2 + p[4] - z
-      sum = sum + np.array([
-        2*a*(x-p[1])**2,
-        -4*a*p[0]*(x-p[1]),
-        2*a*(y-p[3])**2,
-        -4*a*p[2]*(y-p[3]),
-        2*a
-      ])
-  len = np.linalg.norm(sum)
-  return sum / len
-
-def sse(p, res, size, point):
-  sum = 0
-  for dx in range(-size//2,size//2+1,1):
-    for dy in range(-size//2,size//2+1,1):
-      x = point[0] + dx
-      y = point[1] + dy
-      z = res[y,x]
-      sum += (p[0]*(x-p[1])**2 + p[2]*(y-p[3])**2 + p[4] - z)**2
-  return sum
-
-
 x,y = top_left
-'''
-# 移動幅固定の最急降下法で最適化問題を解く
-size = 9
-step = 0.01
-# initialize params
-p1 = (res[y,x-1] + res[y,x+1] - res[y,x]*2)/2
-p3 = (res[y-1,x] + res[y+1,x] - res[y,x]*2)/2
-p2 = x
-p4 = y
-p5 = res[y,x]
-p = np.array([p1,p2,p3,p4,p5])
 
-previous = sse(p, res, size, top_left)
-
-
-while True:
-  dp = grad(p, res, size, top_left) * (-1 * step) 
-  p = p + dp
-  next = sse(p, res, size, top_left)
-  if abs(next/previous -1) < 0.01:
-    break
-  previous = next
-
-
-point = (p[1],p[3])
-print('subpixel estimate: %s -> %s' % (str(top_left),str(point) ))
-'''
-
-#x = point[0] + pin_x
-#y = point[1] + pin_y
 x += pin_x
 y += pin_y
 
