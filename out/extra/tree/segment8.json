@@ -1,10 +1,10 @@
 {
   "name":"segment8",
   "root":1170229,
-  "east":131.327694,
-  "west":130.699412,
+  "east":131.322776,
+  "west":130.699277,
   "south":33.865702,
-  "north":34.542322,
+  "north":34.542287,
   "station_size":177,
   "node_list":[
     {"code":1170229,"left":3600627,"right":9972703,"id":"aab2b2","name":"湯玉","original_name":"湯玉","name_kana":"ゆたま","closed":false,"lat":34.209249,"lng":130.932681,"prefecture":35,"lines":[11702],"attr":"cool","postal_code":"759-6303","address":"下関市豊浦町大字宇賀","next":[9972909,1170230,9972907,1170226,1170228],"voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.857669,34.197838],[130.988563,34.183245],[130.998981,34.204219],[131.002689,34.234819],[130.994301,34.236374],[130.857669,34.197838]]]},"properties":{}},"impl":true},
