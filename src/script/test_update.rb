@@ -103,8 +103,13 @@ class SubsetTest < MiniTest::Test
     old_stations.each do |old|
       id = old["id"]
       station = stations.delete(id)
-      assert station, "station not found old:#{JSON.dump(old)}"
-      check_diff("station", id, old, station, STATION_FIELD)
+      # extra　データセット固有の駅に関しては削除を許容する（一時的な対応）      
+      assert station || !old["impl"], "station not found old:#{JSON.dump(old)}"
+      if station
+        check_diff("station", id, old, station, STATION_FIELD)
+      else
+        @log << "- **station** deleted #{format_md(old, key = "station")}\n"
+      end
     end
     old_lines.each do |old|
       id = old["id"]

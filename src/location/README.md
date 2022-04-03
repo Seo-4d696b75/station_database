@@ -1,5 +1,28 @@
 # GoogleMap座標抽出したい
 
+## セットアップ
+### OCRツール
+Tesseractを使用
+```bash
+brew install tesseract
+```
+### Python + ライブラリ
+**推奨** Anaconda環境の使用  
+
+```bash
+conda create --name locate-station python=3.8
+conda activate locate-station
+pip install \
+  numpy \
+  matplotlib \
+  opencv-python \
+  pyperclip
+``` 
+
+### 各種設定
+`./config.ini`に記述  
+環境依存の値に注意
+
 ## 入力
 - zoom_level=18の地図画像で目的位置にピン画像あり
 - 該当位置周辺の地図画像で座標値既知のもの

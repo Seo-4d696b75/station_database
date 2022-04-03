@@ -6,8 +6,6 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-test 0 -eq 9
-
 ./src/check.sh
 
 ./src/diagram.sh
@@ -16,7 +14,7 @@ ruby src/script/polyline.rb
 
 ./src/pack.sh $version
 
-/src/release.sh $version
+./src/release.sh $version
 
 
 git add ./src ./out
