@@ -15,11 +15,8 @@ class CSVFormatTest < FormatTest
     self.check_init()
   end
 
-  def test_station()
+  def test_all()
     self.check_station()
-  end
-
-  def test_line()
     self.check_line()
   end
 end

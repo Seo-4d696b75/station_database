@@ -138,11 +138,8 @@ class CSVTest < FormatTest
     end
   end
 
-  def test_station()
+  def test_all()
     self.check_station(false)
-  end
-
-  def test_line()
     self.check_line(false)
   end
 
