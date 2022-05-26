@@ -14,11 +14,12 @@
             "cwd": "${workspaceRoot}/src/location"
         },
         {
-            "name": "Debug Local File",
+            "name": "Ruby: Debug Current File",
             "type": "Ruby",
             "request": "launch",
-            "program": "${workspaceRoot}/src/script/polyline.rb",
-            "cwd": "${workspaceRoot}/"
+            "program": "${file}",
+            "cwd": "${workspaceRoot}/",
+            "pathToRDebugIDE": "/Users/k_senda/.rbenv/shims/rdebug-ide"
         }
     ]
 }
