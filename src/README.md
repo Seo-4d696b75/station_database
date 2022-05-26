@@ -22,6 +22,7 @@ echo $API_KEY > src/api_key.txt
 - line.csv 路線情報
 - check/line.csv 路線の登録駅数（駅メモ）
 - check/prefecture.csv 都道府県情報（駅メモでの駅数）
+- check/polyline_ignore.csv ポリライン欠損を許す路線一覧
 - details/line/*.json 路線詳細（登録駅リスト）
 - polyline/raw/*.json 路線ポリライン
 
