@@ -17,7 +17,7 @@
 
 `./out`以下に２種類のデータセットがあります  
 - `main`: 駅メモと同様
-- `extra`: [このデータセットは整備中です](https://github.com/Seo-4d696b75/station_database/wiki/extra)
+- `extra`: [駅メモのデータセットに廃線・廃駅を独自に追加](https://github.com/Seo-4d696b75/station_database/wiki/extra)
 
 ## データの出典  
 
@@ -36,7 +36,9 @@
   独自追加の廃駅・廃路線のデータはこのサイトからスクリプトで自動取得
 
 ## データの更新
-基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は[このファイル](./latest_info.json)で定義されています。
+基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
+- [`main`データセット: /latest_info.json](./latest_info.json)
+- [`extra`データセット: /latest_info.extra.json](./latest_info.extra.json)
 
 ## データの仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
