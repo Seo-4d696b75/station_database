@@ -41,6 +41,9 @@
 ## データの仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
 
+## データの誤り
+[報告を受け付けています.こちらを参考にしてください.](./CONTRIBUTING.md)
+
 ## テスト
 GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
 
