@@ -1,4 +1,4 @@
-JAR="/Users/k_senda/Documents/ekimemo/diagram/out/artifacts/jp_seo_diagram_app_main_jar/jp.seo.diagram.app.main.jar"
+JAR="/Users/k_senda/Documents/ekimemo/diagram/build/artifacts/diagram_app_main_jar/diagram.app.main.jar"
 
 java -jar $JAR src/solved/station.json src/diagram/station.json
 if [ $? -ne 0 ]; then
