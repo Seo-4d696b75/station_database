@@ -130,7 +130,7 @@ end
 
 puts "build Kd-tree"
 root = Node.new(node_map[tree["root"]], 0, node_map)
-segments = root.serialize(6)
+segments = root.serialize(4)
 
 # write segmented tree
 segments.map do |seg|
