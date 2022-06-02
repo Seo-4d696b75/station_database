@@ -39,6 +39,7 @@ if stations.length != tree["node_list"].length
 end
 
 node_map = {}
+delaunay_map = {}
 tree["node_list"].each do |e|
   code = e["code"]
   s = station_map[code]
@@ -47,7 +48,7 @@ tree["node_list"].each do |e|
     exit(1)
   end
   s["voronoi"] = e.delete("voronoi")
-  s["next"] = e.delete("next")
+  delaunay_map[code] = e.delete("next")
   node_map[code] = e
 end
 
@@ -115,6 +116,9 @@ File.open("#{dst}/tree.json", "w") do |f|
 end
 
 puts "write delaunay to file."
+stations.each do |s|
+  s["next"] = delaunay_map[s["code"]]
+end
 File.open("#{dst}/delaunay.json", "w") do |f|
   f.write(format_json(stations.map do |s| 
     e = {
