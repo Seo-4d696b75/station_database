@@ -19,7 +19,8 @@
 - `main`: 駅メモと同様
 - `extra`: [駅メモのデータセットに廃線・廃駅を独自に追加](https://github.com/Seo-4d696b75/station_database/wiki/extra)
 
-## データの出典  
+# データの詳細
+### 出典  
 
 * [駅データ.jp](http://www.ekidata.jp/)  
   基本的な路線・駅の名称・位置情報など
@@ -35,22 +36,33 @@
 * [wikipedia - 日本の廃止鉄道路線](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%BB%83%E6%AD%A2%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E4%B8%80%E8%A6%A7)  
   独自追加の廃駅・廃路線のデータはこのサイトからスクリプトで自動取得
 
-## データの更新
+### 更新
 基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
 - [`main`データセット: /latest_info.json](./latest_info.json)
 - [`extra`データセット: /latest_info.extra.json](./latest_info.extra.json)
 
-## データの仕様  
+### 仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
 
-## データの誤り
+### 誤りの報告
 [報告を受け付けています.こちらを参考にしてください.](./CONTRIBUTING.md)
 
-## テスト
+### テスト
 GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
 
 - format-test データ形式が仕様で定めた通りであるか確認
 - consistency-test 更新前後でデータの欠損や予期せぬ変化がないか確認
+
+# データを使う
+<img src="https://user-images.githubusercontent.com/25225028/81793250-145a5300-9544-11ea-81fa-bee3a8ecc8ac.png" height="150">  
+
+### 駅サガース
+[位置情報ゲーム「駅メモ！」の支援ツールサイト](https://seo-4d696b75.github.io/ekisagasu/)  
+駅や路線のデータを確認したり，チェックインする駅やレーダーでアクセスできる範囲をGoogleMap上で視覚化します．[Github](https://github.com/Seo-4d696b75/ekisagasu)
+
+
+### Station API
+[日本中の駅・路線データへの簡潔なアクセス手段を提供します](https://station-service.herokuapp.com/api/docs)
 
 ---------------------------
 
