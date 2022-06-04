@@ -39,6 +39,7 @@ if stations.length != tree["node_list"].length
 end
 
 node_map = {}
+delaunay_map = {}
 tree["node_list"].each do |e|
   code = e["code"]
   s = station_map[code]
@@ -47,7 +48,7 @@ tree["node_list"].each do |e|
     exit(1)
   end
   s["voronoi"] = e.delete("voronoi")
-  s["next"] = e.delete("next")
+  delaunay_map[code] = e.delete("next")
   node_map[code] = e
 end
 
@@ -114,9 +115,26 @@ File.open("#{dst}/tree.json", "w") do |f|
   f.write(format_json(tree, flat_array: ["node_list"]))
 end
 
+puts "write delaunay to file."
+stations.each do |s|
+  s["next"] = delaunay_map[s["code"]]
+end
+File.open("#{dst}/delaunay.json", "w") do |f|
+  f.write(format_json(stations.map do |s| 
+    e = {
+      "name" => s["name"],
+      "code" => s["code"],
+      "lat" => s["lat"],
+      "lng" => s["lng"],
+      "next" => s["next"],
+    }
+    sort_hash(e)
+  end, flat_array: [:root]))
+end
+
 puts "build Kd-tree"
 root = Node.new(node_map[tree["root"]], 0, node_map)
-segments = root.serialize(6)
+segments = root.serialize(4)
 
 # write segmented tree
 segments.map do |seg|

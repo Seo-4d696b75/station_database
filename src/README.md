@@ -12,20 +12,25 @@ echo $API_KEY > src/api_key.txt
 
 `diagram.bat, diagram.sh`内の変数`$JAR`を適宜変更する  
 
-**改行コードについて**  
+## 改行コードの統一
 `LF`に統一したいので `git config core.autocrlf input` を確認
 
 # 更新作業
 
-**編集するデータ**
+## 編集するデータ  
+
+**マスターデータ**  
 - station.csv 駅情報
 - line.csv 路線情報
-- check/line.csv 路線の登録駅数（駅メモ）
-- check/prefecture.csv 都道府県情報（駅メモでの駅数）
 - details/line/*.json 路線詳細（登録駅リスト）
 - polyline/raw/*.json 路線ポリライン
 
-**build作業**
+**確認データ**  
+- check/line.csv 路線の登録駅数（駅メモ）
+- check/prefecture.csv 都道府県情報（駅メモでの駅数）
+- check/polyline_ignore.csv ポリライン欠損を許す路線一覧
+
+## build作業
 `./out`以下に出力
 
 1. build & push

@@ -138,11 +138,8 @@ class CSVTest < FormatTest
     end
   end
 
-  def test_station()
+  def test_all()
     self.check_station(false)
-  end
-
-  def test_line()
     self.check_line(false)
   end
 
@@ -288,6 +285,11 @@ class CSVTest < FormatTest
   def read_line_details
     puts "reading line details..."
 
+    polyline_ignore = [] 
+    csv_each_line("src/check/polyline_ignore.csv") do |line|
+      polyline_ignore << line.str("name")
+    end
+
     @register = []
     @lines.each do |line|
       # 路線の登録駅情報
@@ -362,9 +364,8 @@ class CSVTest < FormatTest
 
       # 路線ポリラインは廃線,no-implのみ欠損許す
       path = "src/polyline/solved/#{line["code"]}.json"
-      assert File.exists?(path) || line["closed"] || !line["impl"], "polyline not found. line:#{JSON.dump(line)}"
       if !File.exists?(path)
-        puts "polyline not found. line:#{line["name"]}"
+        assert polyline_ignore.include?(line["name"]) && line["closed"], "polyline not found. line:#{JSON.dump(line)}"
       end
       # no validation
     end

@@ -1,11 +1,13 @@
 {
-  "name":"荒尾市営電気鉄道",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "荒尾市営電気鉄道",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"荒尾",
-      "end":"緑ヶ丘",
-      "points":[
+      "start": "荒尾",
+      "end": "緑ヶ丘",
+      "points": [
+        {"lat":32.99709,"lng":130.43510},
+        {"lat":32.99527,"lng":130.43510},
         {"lat":32.99411,"lng":130.43503},
         {"lat":32.99317,"lng":130.43488},
         {"lat":32.99223,"lng":130.43466},
