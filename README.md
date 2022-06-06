@@ -38,8 +38,8 @@
 
 ### 更新
 基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
-- [`main`データセット: /latest_info.json](./latest_info.json)
-- [`extra`データセット: /latest_info.extra.json](./latest_info.extra.json)
+- `main`データセット: [/latest_info.json](./latest_info.json)
+- `extra`データセット: [/latest_info.extra.json](./latest_info.extra.json)
 
 ### 仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
@@ -53,16 +53,19 @@ GitHub Actions によるデータのテストが自動で走り結果が上部�
 - format-test データ形式が仕様で定めた通りであるか確認
 - consistency-test 更新前後でデータの欠損や予期せぬ変化がないか確認
 
-# データを使う
-<img src="https://user-images.githubusercontent.com/25225028/81793250-145a5300-9544-11ea-81fa-bee3a8ecc8ac.png" height="150">  
+# データを使う  
 
 ### 駅サガース
+<img src="https://user-images.githubusercontent.com/25225028/81793250-145a5300-9544-11ea-81fa-bee3a8ecc8ac.png" height="150">  
+
 [位置情報ゲーム「駅メモ！」の支援ツールサイト](https://seo-4d696b75.github.io/ekisagasu/)  
-駅や路線のデータを確認したり，チェックインする駅やレーダーでアクセスできる範囲をGoogleMap上で視覚化します．[Github](https://github.com/Seo-4d696b75/ekisagasu)
+駅や路線のデータを確認したり，チェックインする駅やレーダーでアクセスできる範囲をGoogleMap上で視覚化します．
 
 
 ### Station API
-[日本中の駅・路線データへの簡潔なアクセス手段を提供します](https://station-service.herokuapp.com/api/docs)
+<img src="https://user-images.githubusercontent.com/25225028/172097592-58523958-feb4-4c5a-9a05-0291bca7c31d.png" height="150">
+
+[このデータベースの駅情報をAPIで取得できます.](https://station-service.herokuapp.com/api/docs)  
 
 ---------------------------
 
