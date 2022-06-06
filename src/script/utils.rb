@@ -178,9 +178,6 @@ end
 def sort_hash(data)
   keys = [
     "code",
-    "left",
-    "right",
-    "segment",
     "id",
     "name",
     "original_name",
@@ -191,6 +188,9 @@ def sort_hash(data)
     "closed",
     "lat",
     "lng",
+    "left",
+    "right",
+    "segment",
     "prefecture",
     "numbering",
     "lines",

@@ -112,24 +112,8 @@ File.open("#{dst}/station.json", "w") do |f|
 end
 puts "write raw Kd-tree to file."
 File.open("#{dst}/tree.json", "w") do |f|
+  tree["node_list"].map!{|e| sort_hash(e)}
   f.write(format_json(tree, flat_array: ["node_list"]))
-end
-
-puts "write delaunay to file."
-stations.each do |s|
-  s["next"] = delaunay_map[s["code"]]
-end
-File.open("#{dst}/delaunay.json", "w") do |f|
-  f.write(format_json(stations.map do |s| 
-    e = {
-      "name" => s["name"],
-      "code" => s["code"],
-      "lat" => s["lat"],
-      "lng" => s["lng"],
-      "next" => s["next"],
-    }
-    sort_hash(e)
-  end, flat_array: [:root]))
 end
 
 puts "build Kd-tree"
@@ -149,6 +133,23 @@ end.each do |seg|
   File.open("#{dst}/tree/#{seg["name"]}.json", "w") do |f|
     f.write(format_json(seg, flat_array: ["node_list"]))
   end
+end
+
+puts "write delaunay to file."
+stations.each do |s|
+  s["next"] = delaunay_map[s["code"]]
+end
+File.open("#{dst}/delaunay.json", "w") do |f|
+  f.write(format_json(stations.map do |s| 
+    e = {
+      "name" => s["name"],
+      "code" => s["code"],
+      "lat" => s["lat"],
+      "lng" => s["lng"],
+      "next" => s["next"],
+    }
+    sort_hash(e)
+  end, flat_array: [:root]))
 end
 
 # one-file
