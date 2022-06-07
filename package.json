@@ -1,0 +1,28 @@
+{
+  "name": "station_database",
+  "version": "0.0.1",
+  "description": "JSON・CSVデータの処理・テストに利用するスクリプト",
+  "private": "true",
+  "main": "not-exist.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seo-4d696b75/station_database.git"
+  },
+  "keywords": [
+    "json",
+    "csv"
+  ],
+  "author": "Seo-4d696b75",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seo-4d696b75/station_database/issues"
+  },
+  "homepage": "https://github.com/Seo-4d696b75/station_database#readme",
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
