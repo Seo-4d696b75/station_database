@@ -7,6 +7,7 @@ import { csvStation, jsonStationList } from "./model/station"
 import { getAssert } from "./validate/assert"
 import { Line, validateLine } from "./validate/line"
 import { isStationSetMatched, isStationSetPartialMatched, Station, validateStation } from "./validate/station"
+import glob from "glob";
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -197,6 +198,20 @@ describe(`${dataset}データセット`, () => {
         })
       })
       isStationSetPartialMatched(list, stationCodeMap, assert, ["code", "name", "lat", "lng"])
+    })
+    describe("line/*.json", () => {
+      test("ファイルの有無確認", () => {
+        const files = glob.sync(`${dir}/line/*.json`)
+        let assert = getAssert("line/*.json")
+        assert(files.length === lineCodemap.size, "line/*.jsonのファイル数と路線数が不一致")
+        files.forEach(file => {
+          const m = file.match(/\/(?<code>[0-9]+)[.]json$/)
+          assert(m, "路線ファイル名が不正 file:" + file)
+          if (!m) throw Error()
+          const code = Number(m.groups?.["code"] ?? "0")
+          assert(lineCodemap.has(code), "路線ファイルに対応する路線コードが見つからない code:" + code)
+        })
+      })
     })
   })
 })
