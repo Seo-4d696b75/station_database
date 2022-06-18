@@ -3,7 +3,7 @@ import { csvLine, jsonLineList } from "./model/line"
 import { csvPrefecture } from "./model/prefecture"
 import { csvStation, jsonStationList } from "./model/station"
 import { getAssert } from "./validate/assert"
-import { validateLine } from "./validate/line"
+import { Line, validateLine } from "./validate/line"
 import { Station, validateStation } from "./validate/station"
 
 const dataset = process.env.DATASET
@@ -13,8 +13,9 @@ if (dataset !== "main" && dataset !== "extra") {
 
 const extra = dataset === "extra"
 
-const stations: Station[] = []
 const stationCodeMap = new Map<number, Station>()
+const lineCodemap = new Map<number, Line>()
+const idSet = new Set<string>()
 
 describe(`${dataset}データセット`, () => {
 
@@ -25,7 +26,6 @@ describe(`${dataset}データセット`, () => {
       const file = `${dir}/station.csv`
       const list = readCsvSafe(file, csvStation)
       // 駅集合に対する検査
-      const idSet = new Set<string>()
       const posSet = new Set<string>()
       const nameMap = new Map<string, Station>()
       const prefectureCnt: number[] = Array(48).fill(0)
@@ -109,21 +109,56 @@ describe(`${dataset}データセット`, () => {
         // 同一駅が存在するか
         const csv = stationCodeMap.get(s.code)
         assert(csv, "同一駅が.csvに見つからない")
-        expect(s).toMatchObject(csv as any)
+        expect(s).toMatchObject(csv ?? {})
       })
     })
     test("line.csv", () => {
       const file = `${dir}/line.csv`
-      readCsvSafe(file, csvLine).forEach((line, i) => {
+      const nameSet = new Set<string>()
+      readCsvSafe(file, csvLine).forEach((csv, i) => {
+        const line: Line = {
+          ...csv,
+          impl: csv.impl === undefined || csv.impl
+        }
         const assert = getAssert(`line.csv line:${i}`, line)
+        // extra　の整合性
+        assert(extra || csv.impl === undefined, "extra==falseの場合はimpl==undefined")
+        assert(!extra || csv.impl !== undefined, "extra==trueの場合はimpl!=undefined")
         validateLine(line, assert, extra)
+        // 路線集合に対する検査
+        // IDは重複ない
+        assert(!idSet.has(line.id), "idが重複")
+        idSet.add(line.id)
+        // codeの重複なし
+        assert(!lineCodemap.has(line.code), "code重複")
+        lineCodemap.set(line.code, line)
+        // nameの重複なし
+        assert(!nameSet.has(line.name), "駅名の重複")
+        nameSet.add(line.name)
       })
     })
     test("line.json", () => {
       const file = `${dir}/line.json`
-      readJsonSafe(file, jsonLineList).forEach((line, i) => {
+      readJsonSafe(file, jsonLineList).forEach((json, i) => {
+        const line: Line = {
+          ...json,
+          name_formal: json.name_formal ?? null,
+          company_code: json.company_code ?? null,
+          color: json.color ?? null,
+          symbol: json.symbol ?? null,
+          closed_date: json.closed_date ?? null,
+          impl: json.impl === undefined || json.impl
+        }
         const assert = getAssert(`line.json root[${i}]`, line)
+        // extra　の整合性
+        assert(extra || json.impl === undefined, "extra==falseの場合はimpl==undefined")
+        assert(!extra || json.impl !== undefined, "extra==trueの場合はimpl!=undefined")
         validateLine(line, assert, extra)
+
+        // 同一路線が存在するか
+        const csv = lineCodemap.get(line.code)
+        assert(csv, "同一路線が.csvに見つからない")
+        expect(line).toMatchObject(csv ?? {})
       })
     })
   })
