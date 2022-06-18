@@ -53,6 +53,8 @@ tree["node_list"].each do |e|
 end
 
 puts "read station-list and polyline data."
+# clean
+Dir.glob("#{dst}/line/*").each{ |file|  File.delete(file)}
 lines_details = []
 lines.each do |line|
   # 路線の詳細情報
@@ -120,6 +122,8 @@ puts "build Kd-tree"
 root = Node.new(node_map[tree["root"]], 0, node_map)
 segments = root.serialize(4)
 
+# clean
+Dir.glob("#{dst}/tree/*").each{ |file|  File.delete(file)}
 # write segmented tree
 segments.map do |seg|
   details = seg.clone
