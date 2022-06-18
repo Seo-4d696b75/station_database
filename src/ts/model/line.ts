@@ -1,6 +1,7 @@
+import { JSONSchemaType } from "ajv"
 import { dateString, kanaName, stationLineId, stationLineName } from "./common"
 
-export const lineCode = {
+export const lineCode: JSONSchemaType<number> = {
   type: "integer",
   minimum: 1000,
   maximum: 99999,
