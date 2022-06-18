@@ -9,13 +9,13 @@ export const stationCode: JSONSchemaType<number> = {
   maximum: 9999999,
 }
 
-const stationLat: JSONSchemaType<number> = {
+export const stationLat: JSONSchemaType<number> = {
   type: "number",
   exclusiveMinimum: 26.0,
   exclusiveMaximum: 45.8,
 }
 
-const stationLng: JSONSchemaType<number> = {
+export const stationLng: JSONSchemaType<number> = {
   type: "number",
   exclusiveMinimum: 127.5,
   exclusiveMaximum: 146.2,

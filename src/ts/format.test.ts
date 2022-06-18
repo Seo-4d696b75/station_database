@@ -1,11 +1,12 @@
 import { readCsvSafe, readJsonSafe } from "./io"
+import { jsonDelaunayList } from "./model/delaunay"
 import { csvLine, jsonLineList } from "./model/line"
 import { csvPrefecture } from "./model/prefecture"
 import { csvRegister, StationRegister } from "./model/register"
 import { csvStation, jsonStationList } from "./model/station"
 import { getAssert } from "./validate/assert"
 import { Line, validateLine } from "./validate/line"
-import { Station, validateStation } from "./validate/station"
+import { isStationSetMatched, isStationSetPartialMatched, Station, validateStation } from "./validate/station"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -120,7 +121,7 @@ describe(`${dataset}データセット`, () => {
 
     test("register.csv", () => {
       const file = `${dir}/register.csv`
-      readCsvSafe(file, csvRegister).forEach((r,i) => {
+      readCsvSafe(file, csvRegister).forEach((r, i) => {
         let assert = getAssert("register.csv > line:" + i, r)
         assert(stationCodeMap.has(r.station_code), "駅コードが見つからない")
         assert(lineCodemap.has(r.line_code), "路線コードが見つからない")
@@ -154,7 +155,7 @@ describe(`${dataset}データセット`, () => {
     })
     test("station.json", () => {
       const file = `${dir}/station.json`
-      readJsonSafe(file, jsonStationList).forEach((json, i) => {
+      const list = readJsonSafe(file, jsonStationList).map((json, i) => {
         const s: Station = {
           ...json,
           open_date: json.open_date ?? null,
@@ -169,11 +170,6 @@ describe(`${dataset}データセット`, () => {
         assert(!extra || json.impl !== undefined, "extra==trueの場合はimpl!=undefined")
         validateStation(s, assert, extra)
 
-        // 同一駅が存在するか
-        const csv = stationCodeMap.get(s.code)
-        assert(csv, "同一駅が.csvに見つからない")
-        expect(s).toMatchObject(csv ?? {})
-
         // 登録路線の確認
         const register = stationRegister.filter(r => r.station_code === s.code).map(r => r.line_code)
         assert(register.length === json.lines.length, "register.csvの登録路線数と異なる")
@@ -185,7 +181,22 @@ describe(`${dataset}データセット`, () => {
           let len = json.lines.filter(code => lineCodemap.get(code)?.closed === false).length
           assert(len > 0, "現役駅は１つ以上の現役路線に登録が必要")
         }
+        return s
       })
+      // 同一駅が存在するか
+      isStationSetMatched(list, stationCodeMap, getAssert("station.json"))
+    })
+    test("delaunay.json", () => {
+      const file = `${dir}/delaunay.json`
+      const list = readJsonSafe(file, jsonDelaunayList)
+      let assert = getAssert("delaunay.json")
+      list.forEach(s => {
+        s.next.forEach(code => {
+          assert(code !== s.code, "自身の駅コードは隣接点に含まれない code:" + code)
+          assert(stationCodeMap.has(code), "路線コードが見つからない" + code)
+        })
+      })
+      isStationSetPartialMatched(list, stationCodeMap, assert, ["code", "name", "lat", "lng"])
     })
   })
 })
