@@ -1,4 +1,5 @@
 import { dateString, kanaName, stationLineId, stationLineName } from "./common"
+import { lineCode } from "./line"
 
 export const stationCode = {
   type: "integer",
@@ -22,12 +23,6 @@ const prefectureCode = {
   type: "integer",
   minimum: 1,
   maximum: 47,
-}
-
-const lineCode = {
-  type: "integer",
-  minimum: 1000,
-  maximum: 99999,
 }
 
 const lineCodes = {
