@@ -19,7 +19,7 @@ export interface Station {
 }
 
 export function validateStation(s: Station, assert: Assert, extra: boolean) {
-  
+
   assert(extra || s.impl, "extra==falseの場合はs.impl==true")
 
   // attr 整合性
@@ -39,4 +39,29 @@ export function validateStation(s: Station, assert: Assert, extra: boolean) {
 
   // nameの整合性
   assert(s.name === s.original_name || s.name.includes(s.original_name), "駅名originalはsubstring")
+}
+
+export function isStationSetMatched(target: Station[], reference: Map<number, Station>, assert: Assert) {
+  isStationSetPartialMatched(target, reference, assert, ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"])
+}
+
+export function isStationSetPartialMatched<Key extends keyof Station>(target: Pick<Station, Key | "code">[], reference: Map<number, Pick<Station, Key | "code">>, assert: Assert, keys: Key[]) {
+  assert(target.length === reference.size, "集合のサイズが異なる")
+  const codeSet = new Set<number>()
+  target.forEach((actual, i) => {
+    assert(!codeSet.has(actual.code), "駅コードが重複している code:" + actual.code)
+    codeSet.add(actual.code)
+    const expected = reference.get(actual.code)
+    assert(expected, "対応する駅が見つからない code:" + actual.code)
+    if (!expected) throw Error()
+    keys.forEach(key => {
+      const actualValue = actual[key]
+      const expectedValue = expected[key]
+      if (typeof actualValue === "object" || typeof expectedValue === "object") {
+        assert(JSON.stringify(actualValue) === JSON.stringify(expectedValue), `key:${key} の値が異なる at actual[${i}]`)
+      } else {
+        assert(actualValue === expectedValue, `key:${key} の値が異なる at actual[${i}]`)
+      }
+    })
+  })
 }
