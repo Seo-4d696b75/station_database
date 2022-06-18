@@ -2,6 +2,7 @@ import { readCsvSafe, readJsonSafe } from "./io"
 import { csvLine, jsonLineList } from "./model/line"
 import { csvStation, jsonStationList } from "./model/station"
 import { getAssert } from "./validate/assert"
+import { validateLine } from "./validate/line"
 import { validateStation } from "./validate/station"
 
 const dataset = process.env.DATASET
@@ -26,17 +27,23 @@ describe(`${dataset}データセット`, () => {
     test("station.json", () => {
       const file = `${dir}/station.json`
       readJsonSafe(file, jsonStationList).forEach((s, i) => {
-        let assert = getAssert(`station.json root[${i}]`, s)
+        const assert = getAssert(`station.json root[${i}]`, s)
         validateStation(s, assert, extra)
       })
     })
     test("line.csv", () => {
       const file = `${dir}/line.csv`
-      readCsvSafe(file, csvLine)
+      readCsvSafe(file, csvLine).forEach((line, i) => {
+        const assert = getAssert(`line.csv line:${i}`, line)
+        validateLine(line, assert, extra)
+      })
     })
     test("line.json", () => {
       const file = `${dir}/line.json`
-      readJsonSafe(file, jsonLineList)
+      readJsonSafe(file, jsonLineList).forEach((line, i) => {
+        const assert = getAssert(`line.json root[${i}]`, line)
+        validateLine(line, assert, extra)
+      })
     })
   })
 })
