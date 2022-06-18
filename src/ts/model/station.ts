@@ -1,5 +1,6 @@
 import { JSONSchemaType } from "ajv"
 import { dateString, kanaName, stationLineId, stationLineName } from "./common"
+import { jsonVoronoi, JSONVoronoiGeo } from "./geo"
 import { lineCode } from "./line"
 
 export const stationCode: JSONSchemaType<number> = {
@@ -46,110 +47,6 @@ const stationAttr: JSONSchemaType<string | undefined> = {
 const postalCode: JSONSchemaType<string> = {
   type: "string",
   pattern: "[0-9]{3}-[0-9]{4}"
-}
-
-const coordinate = {
-  type: "array",
-  minItems: 2,
-  maxItems: 2,
-  items: [
-    // lng,latの順序
-    {
-      type: "number",
-      minimum: 112,
-      maximum: 160,
-    },
-    {
-      type: "number",
-      minimum: 20,
-      maximum: 60,
-    },
-  ]
-}
-
-export interface JSONVoronoiGeo {
-  type: "Feature"
-  geometry: {
-    type: "Polygon"
-    coordinates: number[][][]
-  } | {
-    type: "LineString"
-    coordinates: number[][]
-  }
-  properties: {}
-}
-
-const voronoi: JSONSchemaType<JSONVoronoiGeo> = {
-  type: "object",
-  properties: {
-    type: {
-      type: "string",
-      const: "Feature"
-    },
-    geometry: {
-      type: "object",
-      required: [
-        "type",
-        "coordinates",
-      ],
-      oneOf: [
-        {
-          type: "object",
-          properties: {
-            type: {
-              type: "string",
-              const: "Polygon"
-            },
-            coordinates: {
-              type: "array",
-              // ボロノイ領域は中空のないポリゴン
-              minItems: 1,
-              maxItems: 1,
-              items: {
-                type: "array",
-                minItems: 3,
-                items: coordinate,
-              }
-            },
-          },
-          required: [
-            "type",
-            "coordinates",
-          ],
-          additionalProperties: false,
-        },
-        {
-          type: "object",
-          properties: {
-            // 外周部の一部は閉じていない
-            type: {
-              type: "string",
-              const: "LineString"
-            },
-            coordinates: {
-              type: "array",
-              minItems: 2,
-              items: coordinate,
-            }
-          },
-          required: [
-            "type",
-            "coordinates",
-          ],
-          additionalProperties: false,
-        },
-      ]
-    },
-    properties: {
-      type: "object",
-      const: {},
-    },
-  },
-  required: [
-    "type",
-    "properties",
-  ],
-  additionalProperties: false,
 }
 
 export interface JSONStation {
@@ -199,7 +96,7 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
     address: { type: "string", minLength: 1 },
     open_date: dateString,
     closed_date: dateString,
-    voronoi: voronoi,
+    voronoi: jsonVoronoi,
     impl: { type: "boolean", nullable: true },
   },
   required: [
@@ -223,4 +120,71 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
 export const jsonStationList: JSONSchemaType<JSONStation[]> = {
   type: "array",
   items: jsonStation,
+}
+
+
+export interface CSVStation {
+  code: number
+  id: string
+  name: string
+  original_name: string
+  name_kana: string
+  lat: number
+  lng: number
+  prefecture: number
+  postal_code: string
+  address: string
+  closed: boolean
+  open_date: string | null
+  closed_date: string | null
+  impl?: boolean
+  attr: string | null
+}
+
+export const csvStation: JSONSchemaType<CSVStation> = {
+  type: "object",
+  properties: {
+    code: stationCode,
+    id: stationLineId,
+    name: stationLineName,
+    original_name: stationLineName,
+    name_kana: kanaName,
+    lat: stationLat,
+    lng: stationLng,
+    prefecture: prefectureCode,
+    postal_code: postalCode,
+    address: { type: "string", minLength: 1 },
+    closed: { type: "boolean" },
+    open_date: dateString,
+    closed_date: dateString,
+    impl: { type: "boolean", nullable: true },
+    attr: {
+      type: "string",
+      nullable: true,
+      enum: [
+        "eco",
+        "heat",
+        "cool",
+        "unknown",
+        null,
+      ]
+    },
+  },
+  required: [
+    "code",
+    "id",
+    "name",
+    "original_name",
+    "name_kana",
+    "lat",
+    "lng",
+    "prefecture",
+    "postal_code",
+    "address",
+    "closed",
+    "open_date",
+    "closed_date",
+    "attr",
+  ],
+  additionalProperties: false,
 }
