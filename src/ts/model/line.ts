@@ -7,41 +7,60 @@ export const lineCode: JSONSchemaType<number> = {
   maximum: 99999,
 }
 
-const lineColor = {
-  type: "string",
-  pattern: "#[0-9A-F]{6}"
+export interface JSONLine {
+  code: number
+  id: string
+  name: string
+  name_kana: string
+  name_formal?: string
+  station_size: number
+  company_code?: number
+  closed: boolean
+  color?: string
+  symbol?: string
+  closed_date?: string
+  impl?: boolean
 }
 
-const stationSize = {
-  type: "integer",
-  minimum: 1,
-}
-
-const companyCode = {
-  type: "integer",
-  minimum: 0,
-}
-
-const lineSymbol = {
-  type: "string",
-  minLength: 1,
-}
-
-export const jsonLine = {
+export const jsonLine: JSONSchemaType<JSONLine> = {
   type: "object",
   properties: {
     code: lineCode,
     id: stationLineId,
     name: stationLineName,
     name_kana: kanaName,
-    name_formal: stationLineName,
-    station_size: stationSize,
-    company_code: companyCode,
-    closed: { type: "boolean" },
-    color: lineColor,
-    symbol: lineSymbol,
+    name_formal: {
+      type: "string",
+      nullable: true,
+      minLength: 1
+    },
+    station_size: {
+      type: "integer",
+      minimum: 1,
+    },
+    company_code: {
+      type: "integer",
+      nullable: true,
+      minimum: 0,
+    },
+    closed: {
+      type: "boolean",
+    },
+    color: {
+      type: "string",
+      nullable: true,
+      pattern: "#[0-9A-F]{6}"
+    },
+    symbol: {
+      type: "string",
+      nullable: true,
+      minLength: 1,
+    },
     closed_date: dateString,
-    impl: { type: "boolean" },
+    impl: {
+      type: "boolean",
+      nullable: true,
+    },
   },
   required: [
     "code",
@@ -54,7 +73,7 @@ export const jsonLine = {
   additionalProperties: false,
 }
 
-export const jsonLineList = {
+export const jsonLineList: JSONSchemaType<JSONLine[]> = {
   type: "array",
   items: jsonLine,
 }
