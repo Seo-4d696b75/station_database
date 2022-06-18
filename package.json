@@ -5,7 +5,9 @@
   "private": "true",
   "main": "not-exist.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
+    "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts"
   },
   "repository": {
     "type": "git",
