@@ -5,6 +5,28 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "name": "jest (active file)",
+            "runtimeExecutable": "/Users/k_senda/.nodebrew/current/bin/node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--inspect-brk",
+                "${workspaceRoot}/node_modules/jest/bin/jest.js",
+                "--runInBand"
+            ],
+            "args": [
+                "${fileBasename}", // jest.config.tsで指定するテスト対象に含まれるファイルのみ有効 絶対パスだとだめ
+                "--silent",
+            ],
+            "env": {
+                "DATASET": "main",
+            },
+            "console": "integratedTerminal",
+            "smartStep": true,
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
