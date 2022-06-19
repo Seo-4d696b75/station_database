@@ -5,9 +5,10 @@ import { csvPrefecture } from "./model/prefecture"
 import { csvRegister, StationRegister } from "./model/register"
 import { csvStation, jsonStationList } from "./model/station"
 import { eachAssert, withAssert } from "./validate/assert"
-import { Line, validateLine } from "./validate/line"
-import { isStationSetMatched, isStationSetPartialMatched, Station, validateStation } from "./validate/station"
+import { isLineSetMatched, Line, validateLine } from "./validate/line"
+import { isStationSetMatched, Station, validateStation } from "./validate/station"
 import glob from "glob";
+import { isObjectSetPartialMatched } from "./validate/set"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -130,7 +131,7 @@ describe(`${dataset}データセット`, () => {
 
     test("line.json", () => {
       const file = `${dir}/line.json`
-      readJsonSafe(file, jsonLineList).forEach(eachAssert("root", (json, assert) => {
+      const list = readJsonSafe(file, jsonLineList).map(eachAssert("root", (json, assert) => {
         const line: Line = {
           ...json,
           name_formal: json.name_formal ?? null,
@@ -145,11 +146,10 @@ describe(`${dataset}データセット`, () => {
         assert(!extra || json.impl !== undefined, "extra==trueの場合はimpl!=undefined")
         validateLine(line, assert, extra)
 
-        // 同一路線が存在するか
-        const csv = lineCodemap.get(line.code)
-        assert(csv, "同一路線が.csvに見つからない")
-        expect(line).toMatchObject(csv ?? {})
+        return line
       }))
+      // 同一路線が存在するか
+      isLineSetMatched(list, lineCodemap)
     })
     test("station.json", () => {
       const file = `${dir}/station.json`
@@ -181,7 +181,7 @@ describe(`${dataset}データセット`, () => {
         return s
       }))
       // 同一駅が存在するか
-      //isStationSetMatched(list, stationCodeMap, getAssert("station.json"))
+      isStationSetMatched(list, stationCodeMap)
     })
     test("delaunay.json", () => {
       const file = `${dir}/delaunay.json`
@@ -192,7 +192,7 @@ describe(`${dataset}データセット`, () => {
           assert(stationCodeMap.has(code), "路線コードが見つからない" + code)
         }))
       }))
-      //isStationSetPartialMatched(list, stationCodeMap, assert, ["code", "name", "lat", "lng"])
+      isObjectSetPartialMatched(list, stationCodeMap, ["code", "name", "lat", "lng"])
     })
     describe("line/*.json", () => {
       test("ファイルの有無確認", () => {
