@@ -10,14 +10,17 @@ export function withAssert<R = void>(where: string, value: any, testCase: (asser
   try {
     return testCase(assert)
   } catch (e) {
+    const dataMessage =
+      "Where: " + where + "\n" +
+      "Value: " + JSON.stringify(value)
     if (e instanceof JestAssertionError) {
-      const dataMessage =
-        "Where: " + where + "\n" +
-        "Value: " + JSON.stringify(value)
-      e.data = [dataMessage, ...e.data]
-      e.message = e.title + "\n\n" + e.data.join("\n\n")
+      e.appendDataStack(dataMessage)
+      throw e
+    } else {
+      const err = new JestAssertionError("message", withAssert, e)
+      err.appendDataStack(dataMessage)
+      throw err
     }
-    throw e
   }
 }
 
@@ -29,15 +32,60 @@ class JestAssertionError extends Error {
   data: string[]
   title: string
   message: string
+  stackTrace: string = ""
 
-  constructor(title: string, where: Function) {
+  constructor(title: string, where: Function, cause?: any) {
     super(title)
+
+    Object.defineProperty(this, 'name', {
+      configurable: true,
+      enumerable: false,
+      value: this.constructor.name,
+      writable: true,
+    })
+
     this.data = []
     this.title = title
-    this.message = title
+
+    if (cause) {
+      if (cause instanceof Error) {
+        this.title = `catch other error\n  ${cause.name}: ${cause.message}`
+      } else {
+        this.title = `something has been thrown\n${JSON.stringify(cause, undefined, 2)}`
+      }
+    }
+
+    this.message = this.title
 
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, where)
+      this.stackTrace = extractStackTrace(this)
+      if (cause instanceof Error && cause.stack) {
+        this.stackTrace = extractStackTrace(cause)
+          + "\n\nJestAssertionError is thrown from\n"
+          + this.stackTrace
+        this.stack = "JestAssertionError: "
+          + this.message
+          + "\n\n"
+          + this.stackTrace
+      }
     }
   }
+
+  appendDataStack(dataMessage: string) {
+    this.data = [dataMessage, ...this.data]
+    this.message = this.title + "\n\n" + this.data.join("\n\n")
+    this.stack = "JestAssertionError: "
+      + this.message
+      + "\n\n"
+      + this.stackTrace
+  }
+}
+
+function extractStackTrace(e: Error): string {
+  const str = e.stack
+  if (!str) return ""
+  const m = str.match(/(?<trace>(at\s+.+[\n\r\s]*)+)$/)
+  if (!m) return ""
+  return m.groups?.["trace"] ?? ""
 }
