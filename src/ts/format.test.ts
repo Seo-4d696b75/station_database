@@ -200,7 +200,7 @@ describe(`${dataset}データセット`, () => {
         // polyline未定義を許す路線一覧
         const polylineIgnore = readCsvSafe("src/check/polyline_ignore.csv", csvPolylineIgnore).map(e => e.name)
         // 各路線の登録駅数（駅メモ実装のみ）
-        const lineStationSize = new Map<string,number>()
+        const lineStationSize = new Map<string, number>()
         readCsvSafe("src/check/line.csv", csvLineStationSize).forEach(e => {
           lineStationSize.set(e.name, e.size)
         })
@@ -215,21 +215,32 @@ describe(`${dataset}データセット`, () => {
           assert(json.polyline_list || polylineIgnore.includes(json.name), "ポリラインの欠損が許されていない")
           // 駅リストの確認
           assert(json.station_size === json.station_list.length, "station_sizeとstation_list.length不一致")
-          const stations = stationRegister.filter(r => r.line_code === json.code)
-          assert(stations.length === json.station_size, "駅リストのサイズがregister.csvと異なる")
+          const registrations = stationRegister.filter(r => r.line_code === json.code)
+          assert(registrations.length === json.station_size, "駅リストのサイズがregister.csvと異なる")
           const set = new Set<number>()
           let implSize = 0
-          json.station_list.forEach(eachAssert("station_list", (s,assert) => {
+          json.station_list.forEach(eachAssert("station_list", (s, assert) => {
             assert(!set.has(s.code), "駅が重複")
             set.add(s.code)
             const station = normalizeStation(s)
             assertStationMatched(station, stationCodeMap.get(s.code), assert)
-            if(station.impl){
+            if (station.impl) {
               implSize++
             }
+            // 対応する駅登録があるか
+            const registration = registrations.find(r => r.station_code === station.code)
+            assert(registration, "対応する駅登録がCSVにない")
+            if (!registration) throw Error()
+            withAssert("register.csv", registration, assert => {
+              // 駅ナンバリング
+              let numbering = s.numbering ? s.numbering.join("/") : null
+              assert.equals(numbering, registration.numbering, "駅ナンバリングが異なる")
+            })
           }))
-          if(line.impl){
+          if (!extra) {
             // 登録駅数の確認
+            // extraデータセットでは確認しない
+            // https://github.com/Seo-4d696b75/station_database/issues/72
             assert(lineStationSize.has(line.name), "路線の登録駅数（実装のみ）が見つからない")
             const expected = lineStationSize.get(line.name) ?? 0
             assert.equals(implSize, expected, "路線の登録駅数（実装のみ）が異なる")
