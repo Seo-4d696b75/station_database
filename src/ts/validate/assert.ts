@@ -1,12 +1,27 @@
-export type Assert = (isValid: any, errorMessage?: string) => void
+export interface Assert {
+  (isValid: any, errorMessage?: string): void
+  equals: (actual: Primitive, expected: Primitive, errorMessage?: string) => void
+}
+
+type Primitive = string | number | boolean | null | undefined
 
 export function withAssert<R = void>(where: string, value: any, testCase: (assert: Assert) => R): R {
-  const assert: Assert = (isValid, error) => {
-    if (isValid === false || isValid === null || isValid === undefined) {
-      const message = error ?? "assertion failed"
-      throw new JestAssertionError(message, assert)
+  const assert: Assert = Object.assign(
+    (isValid: any, error?: string) => {
+      if (isValid === false || isValid === null || isValid === undefined) {
+        const message = error ?? "assertion failed"
+        throw new JestAssertionError(message, assert)
+      }
+    }, {
+    equals: (actual: Primitive, expected: Primitive, errorMessage?: string) => {
+      if (actual !== expected) {
+        const message = (errorMessage ?? "assertion failed")
+          + `\n\nActual:   ${actual}\nExpected: ${expected}`
+        throw new JestAssertionError(message, assert.equals)
+      }
     }
   }
+  )
   try {
     return testCase(assert)
   } catch (e) {
