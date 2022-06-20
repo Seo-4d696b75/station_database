@@ -5,10 +5,11 @@ import { csvPrefecture } from "./model/prefecture"
 import { csvRegister, StationRegister } from "./model/register"
 import { csvStation, jsonStationList, normalizeStation } from "./model/station"
 import { eachAssert, withAssert } from "./validate/assert"
-import { isLineSetMatched, Line, validateLine } from "./validate/line"
-import { isStationSetMatched, Station, validateStation } from "./validate/station"
+import { assertLineMatched, assertLineSetMatched, Line, validateLine } from "./validate/line"
+import { assertStationMatched, assertStationSetMatched, Station, validateStation } from "./validate/station"
 import glob from "glob";
-import { isObjectSetPartialMatched } from "./validate/set"
+import { assertObjectSetPartialMatched } from "./validate/set"
+import { jsonLineDetail } from "./model/lineDetail"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -141,7 +142,7 @@ describe(`${dataset}データセット`, () => {
         return line
       }))
       // 同一路線が存在するか
-      isLineSetMatched(list, lineCodemap)
+      assertLineSetMatched(list, lineCodemap)
     })
     test("station.json", () => {
       const file = `${dir}/station.json`
@@ -167,7 +168,7 @@ describe(`${dataset}データセット`, () => {
         return s
       }))
       // 同一駅が存在するか
-      isStationSetMatched(list, stationCodeMap)
+      assertStationSetMatched(list, stationCodeMap)
     })
     test("delaunay.json", () => {
       const file = `${dir}/delaunay.json`
@@ -178,7 +179,7 @@ describe(`${dataset}データセット`, () => {
           assert(stationCodeMap.has(code), "路線コードが見つからない" + code)
         }))
       }))
-      isObjectSetPartialMatched(list, stationCodeMap, ["code", "name", "lat", "lng"])
+      assertObjectSetPartialMatched(list, stationCodeMap, ["code", "name", "lat", "lng"])
     })
     describe("line/*.json", () => {
       test("ファイルの有無確認", () => {
