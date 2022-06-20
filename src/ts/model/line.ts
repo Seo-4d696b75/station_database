@@ -1,4 +1,5 @@
 import { JSONSchemaType } from "ajv"
+import { Line } from "../validate/line"
 import { dateString, kanaName, stationLineId, stationLineName } from "./common"
 
 export const lineCode: JSONSchemaType<number> = {
@@ -20,6 +21,23 @@ export interface JSONLine {
   symbol?: string
   closed_date?: string
   impl?: boolean
+}
+
+export function normalizeLine(raw: JSONLine): Line {
+  return {
+    code: raw.code,
+    id: raw.id,
+    name: raw.name,
+    name_kana: raw.name_kana,
+    name_formal: raw.name_formal ?? null,
+    station_size: raw.station_size,
+    company_code: raw.company_code ?? null,
+    closed: raw.closed,
+    color: raw.color ?? null,
+    symbol: raw.symbol ?? null,
+    closed_date: raw.closed_date ?? null,
+    impl: raw.impl === undefined || raw.impl
+  }
 }
 
 export const jsonLine: JSONSchemaType<JSONLine> = {

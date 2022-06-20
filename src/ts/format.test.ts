@@ -1,9 +1,9 @@
 import { readCsvSafe, readJsonSafe } from "./io"
 import { jsonDelaunayList } from "./model/delaunay"
-import { csvLine, jsonLineList } from "./model/line"
+import { csvLine, jsonLineList, normalizeLine } from "./model/line"
 import { csvPrefecture } from "./model/prefecture"
 import { csvRegister, StationRegister } from "./model/register"
-import { csvStation, jsonStationList } from "./model/station"
+import { csvStation, jsonStationList, normalizeStation } from "./model/station"
 import { eachAssert, withAssert } from "./validate/assert"
 import { isLineSetMatched, Line, validateLine } from "./validate/line"
 import { isStationSetMatched, Station, validateStation } from "./validate/station"
@@ -132,15 +132,7 @@ describe(`${dataset}データセット`, () => {
     test("line.json", () => {
       const file = `${dir}/line.json`
       const list = readJsonSafe(file, jsonLineList).map(eachAssert("root", (json, assert) => {
-        const line: Line = {
-          ...json,
-          name_formal: json.name_formal ?? null,
-          company_code: json.company_code ?? null,
-          color: json.color ?? null,
-          symbol: json.symbol ?? null,
-          closed_date: json.closed_date ?? null,
-          impl: json.impl === undefined || json.impl
-        }
+        const line = normalizeLine(json)
         // extra　の整合性
         assert(extra || json.impl === undefined, "extra==falseの場合はimpl==undefined")
         assert(!extra || json.impl !== undefined, "extra==trueの場合はimpl!=undefined")
@@ -154,13 +146,7 @@ describe(`${dataset}データセット`, () => {
     test("station.json", () => {
       const file = `${dir}/station.json`
       const list = readJsonSafe(file, jsonStationList).map(eachAssert("root", (json, assert) => {
-        const s: Station = {
-          ...json,
-          open_date: json.open_date ?? null,
-          closed_date: json.closed_date ?? null,
-          impl: json.impl === undefined || json.impl,
-          attr: json.attr ?? null,
-        }
+        const s = normalizeStation(json)
 
         // extra　の整合性
         assert(extra || json.impl === undefined, "extra==falseの場合はimpl==undefined")
