@@ -1,5 +1,5 @@
 import { Assert } from "./assert"
-import { isObjectSetPartialMatched } from "./set"
+import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set"
 
 export interface Line {
   code: number
@@ -27,7 +27,12 @@ export function validateLine(line: Line, assert: Assert, extra: boolean) {
 
 }
 
-export function isLineSetMatched(target: Line[], reference: Map<number, Line>) {
-  isObjectSetPartialMatched(target, reference, ["code", "id", "name", "name_kana", "name_formal", "station_size", "company_code", "color", "symbol", "closed", "closed_date", "impl"])
+const keys: ReadonlyArray<keyof Line> = ["code", "id", "name", "name_kana", "name_formal", "station_size", "company_code", "color", "symbol", "closed", "closed_date", "impl"]
+
+export function assertLineSetMatched(target: Line[], reference: Map<number, Line>) {
+  assertObjectSetPartialMatched(target, reference, keys)
 }
 
+export function assertLineMatched(target: Line, reference: Line | undefined, assert: Assert) {
+  assertObjectPartialMatched(target, reference, keys, assert)
+}

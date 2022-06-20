@@ -1,5 +1,5 @@
 import { Assert, eachAssert, withAssert } from "./assert"
-import { isObjectSetPartialMatched } from "./set"
+import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set"
 
 export interface Station {
   code: number
@@ -42,6 +42,12 @@ export function validateStation(s: Station, assert: Assert, extra: boolean) {
   assert(s.name === s.original_name || s.name.includes(s.original_name), "駅名originalはsubstring")
 }
 
-export function isStationSetMatched(target: Station[], reference: Map<number, Station>) {
-  isObjectSetPartialMatched(target, reference, ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"])
+const keys: ReadonlyArray<keyof Station> = ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"]
+
+export function assertStationSetMatched(target: Station[], reference: Map<number, Station>) {
+  assertObjectSetPartialMatched(target, reference, keys)
+}
+
+export function assertStationMatched(target: Station, reference: Station | undefined, assert: Assert) {
+  assertObjectPartialMatched(target, reference, keys, assert)
 }
