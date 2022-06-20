@@ -10,6 +10,8 @@ import { assertStationMatched, assertStationSetMatched, Station, validateStation
 import glob from "glob";
 import { assertObjectSetPartialMatched } from "./validate/set"
 import { jsonLineDetail } from "./model/lineDetail"
+import { csvPolylineIgnore } from "./model/polylineIgnore"
+import { csvLineStationSize } from "./model/lineStationSize"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -192,6 +194,46 @@ describe(`${dataset}データセット`, () => {
           if (!m) throw Error()
           const code = Number(m.groups?.["code"] ?? "0")
           assert(lineCodemap.has(code), "路線ファイルに対応する路線コードが見つからない code:" + code)
+        }))
+      })
+      test("各ファイルの確認", () => {
+        // polyline未定義を許す路線一覧
+        const polylineIgnore = readCsvSafe("src/check/polyline_ignore.csv", csvPolylineIgnore).map(e => e.name)
+        // 各路線の登録駅数（駅メモ実装のみ）
+        const lineStationSize = new Map<string,number>()
+        readCsvSafe("src/check/line.csv", csvLineStationSize).forEach(e => {
+          lineStationSize.set(e.name, e.size)
+        })
+        Array.from(lineCodemap.keys()).forEach(eachAssert(`lineMap.keys`, (code, assert) => {
+          const file = `${dir}/line/${code}.json`
+          const json = readJsonSafe(file, jsonLineDetail)
+          // 対応路線の確認
+          const line = normalizeLine(json)
+          const csv = lineCodemap.get(line.code)
+          assertLineMatched(line, csv, assert)
+          // ポリラインの確認
+          assert(json.polyline_list || polylineIgnore.includes(json.name), "ポリラインの欠損が許されていない")
+          // 駅リストの確認
+          assert(json.station_size === json.station_list.length, "station_sizeとstation_list.length不一致")
+          const stations = stationRegister.filter(r => r.line_code === json.code)
+          assert(stations.length === json.station_size, "駅リストのサイズがregister.csvと異なる")
+          const set = new Set<number>()
+          let implSize = 0
+          json.station_list.forEach(eachAssert("station_list", (s,assert) => {
+            assert(!set.has(s.code), "駅が重複")
+            set.add(s.code)
+            const station = normalizeStation(s)
+            assertStationMatched(station, stationCodeMap.get(s.code), assert)
+            if(station.impl){
+              implSize++
+            }
+          }))
+          if(line.impl){
+            // 登録駅数の確認
+            assert(lineStationSize.has(line.name), "路線の登録駅数（実装のみ）が見つからない")
+            const expected = lineStationSize.get(line.name) ?? 0
+            assert.equals(implSize, expected, "路線の登録駅数（実装のみ）が異なる")
+          }
         }))
       })
     })

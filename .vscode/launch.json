@@ -19,7 +19,7 @@
                 "--silent",
             ],
             "env": {
-                "DATASET": "main",
+                "DATASET": "extra",
             },
             "console": "integratedTerminal",
             "smartStep": true,
