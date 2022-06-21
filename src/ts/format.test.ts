@@ -12,6 +12,7 @@ import { assertObjectSetPartialMatched } from "./validate/set"
 import { jsonLineDetail } from "./model/lineDetail"
 import { csvPolylineIgnore } from "./model/polylineIgnore"
 import { csvLineStationSize } from "./model/lineStationSize"
+import { validateGeoFeature, validateGeoPolyline } from "./validate/geo"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -167,6 +168,8 @@ describe(`${dataset}データセット`, () => {
           let len = json.lines.filter(code => lineCodemap.get(code)?.closed === false).length
           assert(len > 0, "現役駅は１つ以上の現役路線に登録が必要")
         }
+        // ボロノイ範囲のGeoJSON
+        validateGeoFeature(json.voronoi)
         return s
       }))
       // 同一駅が存在するか
@@ -213,6 +216,10 @@ describe(`${dataset}データセット`, () => {
           assertLineMatched(line, csv, assert)
           // ポリラインの確認
           assert(json.polyline_list || polylineIgnore.includes(json.name), "ポリラインの欠損が許されていない")
+          if (json.polyline_list) {
+            assert.equals(json.polyline_list.properties.name, json.name)
+            validateGeoPolyline(json.polyline_list)
+          }
           // 駅リストの確認
           assert(json.station_size === json.station_list.length, "station_sizeとstation_list.length不一致")
           const registrations = stationRegister.filter(r => r.line_code === json.code)
