@@ -27,7 +27,7 @@ export function withAssert<R = void>(where: string, value: any, testCase: (asser
   } catch (e) {
     const dataMessage =
       "Where: " + where + "\n" +
-      "Value: " + JSON.stringify(value)
+      "Value: " + representValue(value)
     if (e instanceof JestAssertionError) {
       e.appendDataStack(dataMessage)
       throw e
@@ -103,4 +103,34 @@ function extractStackTrace(e: Error): string {
   const m = str.match(/(?<trace>(at\s+.+[\n\r\s]*)+)$/)
   if (!m) return ""
   return m.groups?.["trace"] ?? ""
+}
+
+// JSON.stringifyだと長すぎるデータも簡潔に表現する
+function representValue(data: any, depth: number = 2, maxItems: number = 20): string {
+  if (Array.isArray(data)) {
+    if (depth === 0) return "[Array]"
+    const items = data.length > maxItems ? data.slice(0, maxItems) : data
+    const itemStr = items.map(e => representValue(e, depth - 1, maxItems)).join(",")
+    return data.length > maxItems ?
+      `[${itemStr}, ..${data.length - maxItems} items..]` :
+      `[${itemStr}]`
+  } else if (typeof data === "object") {
+    if (depth === 0) return "[Object]"
+    const keys = Array.from(Object.keys(data))
+    const select = keys.length > maxItems ? keys.splice(0, maxItems) : keys
+    const itemStr = select.map(key => {
+      const value = representValue(data[key], depth - 1, maxItems)
+      return `"${key}":${value}`
+    }).join(",")
+    return data.length > maxItems ?
+      `{${itemStr}, ..${data.length - maxItems} items..}` :
+      `{${itemStr}}`
+  } else if (typeof data === "string") {
+    return `"${data}"`
+  } else if (typeof data === "boolean") {
+    return `${data}`
+  } else if (typeof data === "number") {
+    return `${data}`
+  }
+  throw Error("can not represent value in string:" + data)
 }
