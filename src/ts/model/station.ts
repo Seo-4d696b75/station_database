@@ -35,16 +35,6 @@ const lineCodes: JSONSchemaType<number[]> = {
   uniqueItems: true,
 }
 
-const stationAttr: JSONSchemaType<string | undefined> = {
-  type: "string",
-  enum: [
-    "eco",
-    "heat",
-    "cool",
-    "unknown",
-  ]
-}
-
 const postalCode: JSONSchemaType<string> = {
   type: "string",
   pattern: "[0-9]{3}-[0-9]{4}"
