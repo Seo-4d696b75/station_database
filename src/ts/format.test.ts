@@ -12,7 +12,7 @@ import { assertObjectSetPartialMatched } from "./validate/set"
 import { jsonLineDetail } from "./model/lineDetail"
 import { csvPolylineIgnore } from "./model/polylineIgnore"
 import { csvLineStationSize } from "./model/lineStationSize"
-import { validateGeoFeature, validateGeoPolyline } from "./validate/geo"
+import { validateGeoVoronoi, validateGeoPolyline } from "./validate/geo"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -169,7 +169,7 @@ describe(`${dataset}データセット`, () => {
           assert(len > 0, "現役駅は１つ以上の現役路線に登録が必要")
         }
         // ボロノイ範囲のGeoJSON
-        validateGeoFeature(json.voronoi)
+        validateGeoVoronoi(json.voronoi)
         return s
       }))
       // 同一駅が存在するか

@@ -1,12 +1,12 @@
 import { JSONPolylineGeo, JSONVoronoiGeo } from "../model/geo";
-import { eachAssert, withAssert } from "./assert";
+import { Assert, eachAssert, withAssert } from "./assert";
 
-export function validateGeoFeature(obj: JSONVoronoiGeo): RectBounds {
+export function validateGeoVoronoi(obj: JSONVoronoiGeo): RectBounds {
   const geometry = obj.geometry
   if (geometry.type === "Polygon") {
     return withAssert("Feature(Polygon)", geometry, assert => {
       const list = geometry.coordinates[0]
-      assert(list.length >= 3, "座標リストが短い")
+      assert(list.length >= 4, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert.equals(start[0], end[0], "始点と終点の座標が違う[0]")
@@ -16,7 +16,7 @@ export function validateGeoFeature(obj: JSONVoronoiGeo): RectBounds {
   } else {
     return withAssert("Feature(LineString)", geometry, assert => {
       const list = geometry.coordinates
-      assert(list.length >= 3, "座標リストが短い")
+      assert(list.length >= 2, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert(`${start[0]}/${start[1]}` !== `${end[0]}/${end[1]}`, "始点と終点の座標が重複している")
@@ -79,10 +79,33 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
   withAssert("polyline_list", obj, assert => {
     const edges: Edge[] = []
     let rect = initRect()
+    const joinMap = new Map<string, string>()
+    const checkJoinCoordinate = (tag: string, pos: [number, number], assert: Assert) => {
+      const join = joinMap.get(tag)
+      const str = `${pos[0]}/${pos[1]}`
+      if (join) {
+        assert.equals(str, join, `tag:${tag} の座標が一致しない`)
+      } else {
+        joinMap.set(tag, str)
+      }
+    }
     obj.features.forEach(eachAssert("FeatureCollection", (feature, assert) => {
-      const r = validateGeoFeature(feature)
+      const list = feature.geometry.coordinates
+      const start = list[0]
+      const end = list[list.length - 1]
+      if (feature.properties.start === feature.properties.end) {
+        // 環状の場合
+        assert(list.length >= 3, "座標リストが短い")
+        assert(`${start[0]}/${start[1]}` === `${end[0]}/${end[1]}`, "始点と終点の座標が一致しない")
+      } else {
+        assert(list.length >= 2, "座標リストが短い")
+        assert(`${start[0]}/${start[1]}` !== `${end[0]}/${end[1]}`, "始点と終点の座標が重複している")
+      }
+      const r = validateGeoCoordinates("coordinates", list)
       edges.push(feature.properties)
       rect = unionRect(rect, r)
+      checkJoinCoordinate(feature.properties.start, start, assert)
+      checkJoinCoordinate(feature.properties.end, end, assert)
     }))
     // rect範囲の確認
     assert.equals(rect.north, obj.properties.north)
@@ -101,7 +124,7 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
         if (edge.start === edge.end) {
           // 例外
           // 環状線など一部の路線では辺でループを表現している
-          return true
+          return false
         }
         let next: string | null = null
         if (edge.start === tag) {
@@ -109,9 +132,11 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
         } else if (edge.end === tag) {
           next = edge.start
         }
-        if (next && !history.has(next)) {
-          history.add(next)
-          queue.push(next)
+        if (next) {
+          if (!history.has(next)) {
+            history.add(next)
+            queue.push(next)
+          }
           return false
         }
         return true
