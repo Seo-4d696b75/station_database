@@ -13,6 +13,7 @@ import { jsonLineDetail } from "./model/lineDetail"
 import { csvPolylineIgnore } from "./model/polylineIgnore"
 import { csvLineStationSize } from "./model/lineStationSize"
 import { validateGeoVoronoi, validateGeoPolyline } from "./validate/geo"
+import { jsonKdTree } from "./model/tree"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -253,6 +254,13 @@ describe(`${dataset}データセット`, () => {
             assert.equals(implSize, expected, "路線の登録駅数（実装のみ）が異なる")
           }
         }))
+      })
+    })
+    describe("KdTree", () => {
+      test("tree.json", () => {
+        const file = `${dir}/tree.json`
+        const tree = readJsonSafe(file, jsonKdTree)
+        assertObjectSetPartialMatched(tree.node_list, stationCodeMap, ["code", "name", "lat", "lng"])
       })
     })
   })
