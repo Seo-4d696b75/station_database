@@ -12,6 +12,19 @@ def parse_segment(data)
   west = 180
   north = -90
   south = 90
+  # 重複防止 & 小数点以下桁数調整
+  previous = nil
+  data["points"].select! do |pos|
+    next false if previous == pos
+    previous = pos
+    next true
+  end
+  data["points"].map! do |pos|
+    {
+      "lat" => pos["lat"].round(5),
+      "lng" => pos["lng"].round(5),
+    }
+  end
   data["points"].each do |pos|
     east = [east, pos["lng"]].max
     west = [west, pos["lng"]].min
