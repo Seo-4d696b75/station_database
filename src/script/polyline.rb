@@ -12,6 +12,12 @@ def parse_segment(data)
   west = 180
   north = -90
   south = 90
+  previous = nil
+  data["points"].select! do |pos|
+    next false if previous == pos
+    previous = pos
+    next true
+  end
   data["points"].each do |pos|
     east = [east, pos["lng"]].max
     west = [west, pos["lng"]].min
