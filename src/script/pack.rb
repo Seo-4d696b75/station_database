@@ -73,6 +73,7 @@ lines.each do |line|
     if impl
       next false if e.key?("impl") && !e["impl"]
     end
+    e.delete("impl")
     if e["name"] != s["name"]
       puts "Error > unknown station item. expected:#{e} found:#{s}"
       exit(1)

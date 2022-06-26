@@ -1,10 +1,11 @@
 class Node
-  attr_reader :code, :depth, :left, :right, :lat, :lng
+  attr_reader :code, :depth, :left, :right, :lat, :lng, :name
 
   def initialize(data, depth, map)
     @code = data["code"]
     @lat = data["lat"]
     @lng = data["lng"]
+    @name = data["name"]
     @depth = depth
     @left = data.key?("left") ? Node.new(map[data["left"]], depth + 1, map) : nil
     @right = data.key?("right") ? Node.new(map[data["right"]], depth + 1, map) : nil
@@ -25,6 +26,7 @@ class Node
 
   def to_segment(depth, nodes, segments)
     node = { "code" => @code }
+    node["name"] = @name
     node["lat"] = @lat
     node["lng"] = @lng
     node["left"] = @left.code if @left
