@@ -15,6 +15,7 @@ import { csvLineStationSize } from "./model/lineStationSize"
 import { validateGeoVoronoi, validateGeoPolyline } from "./validate/geo"
 import { jsonKdTree, jsonKdTreeSegment } from "./model/tree"
 import { validateTreeSegment } from "./validate/tree"
+import { jsonAllData } from "./model/data"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -310,6 +311,25 @@ describe(`${dataset}データセット`, () => {
             }))
           })
           assertStationSetMatched(list, stationCodeMap)
+        })
+      })
+    })
+    test("data.json", () => {
+      const file = `${dir}/data.json`
+      const data = readJsonSafe(file, jsonAllData)
+      const stations = data.stations.map(s => normalizeStation(s))
+      assertStationSetMatched(stations, stationCodeMap)
+      const lines = data.lines.map(line => normalizeLine(line))
+      assertLineSetMatched(lines, lineCodemap)
+      data.lines.forEach(eachAssert("lines", (line, assert) => {
+        assert.equals(line.station_size, line.station_list.length)
+      }))
+      withAssert("tree_segments", data.tree_segments, assert => {
+        const files = glob.sync(`${dir}/tree/*.json`)
+        assert.equals(data.tree_segments.length, files.length)
+        data.tree_segments.forEach(segment => {
+          const file = `${dir}/tree/${segment.name}.json`
+          assert(files.includes(file))
         })
       })
     })

@@ -4,16 +4,19 @@ import { jsonLine, JSONLine } from "./line";
 import { jsonStation, JSONStation } from "./station";
 
 // 駅ナンバリングが追加されている
-interface JSONStationRegistration extends JSONStation {
+export interface JSONStationRegistration {
+  code: number
+  name: string
   numbering?: string[]
 }
 
-const jsonStationRegistration: JSONSchemaType<JSONStationRegistration> = {
+const jsonStationRegistration: JSONSchemaType<JSONStationRegistration & JSONStation> = {
   type: "object",
   properties: {
     ...jsonStation.properties,
     numbering: {
       type: "array",
+      nullable: true,
       minItems: 1,
       items: {
         type: "string",
@@ -28,7 +31,7 @@ const jsonStationRegistration: JSONSchemaType<JSONStationRegistration> = {
 }
 
 export interface JSONLineDetail extends JSONLine {
-  station_list: JSONStationRegistration[]
+  station_list: (JSONStationRegistration & JSONStation)[]
   polyline_list?: JSONPolylineGeo
 }
 
