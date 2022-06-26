@@ -52,7 +52,7 @@ export const jsonKdTree: JSONSchemaType<JSONKdTree> = {
   additionalProperties: false,
 }
 
-interface JSONKdTreeSegmentNode extends JSONKdTreeNode {
+export interface JSONKdTreeSegmentNode extends JSONKdTreeNode {
   segment?: string
 }
 

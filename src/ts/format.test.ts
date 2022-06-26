@@ -13,7 +13,8 @@ import { jsonLineDetail } from "./model/lineDetail"
 import { csvPolylineIgnore } from "./model/polylineIgnore"
 import { csvLineStationSize } from "./model/lineStationSize"
 import { validateGeoVoronoi, validateGeoPolyline } from "./validate/geo"
-import { jsonKdTree } from "./model/tree"
+import { jsonKdTree, jsonKdTreeSegment } from "./model/tree"
+import { validateTreeSegment } from "./validate/tree"
 
 const dataset = process.env.DATASET
 if (dataset !== "main" && dataset !== "extra") {
@@ -260,7 +261,56 @@ describe(`${dataset}データセット`, () => {
       test("tree.json", () => {
         const file = `${dir}/tree.json`
         const tree = readJsonSafe(file, jsonKdTree)
-        assertObjectSetPartialMatched(tree.node_list, stationCodeMap, ["code", "name", "lat", "lng"])
+        withAssert("tree.json", tree, assert => {
+          validateTreeSegment(tree, assert)
+          assertObjectSetPartialMatched(tree.node_list, stationCodeMap, ["code", "name", "lat", "lng"])
+        })
+      })
+      describe("segment", () => {
+        const files = glob.sync(`${dir}/tree/*.json`)
+        const rootFile = `${dir}/tree/root.json`
+        test("ファイルの確認", () => {
+          withAssert("tree/*.json", files, assert => {
+            const idx = files.indexOf(rootFile)
+            assert(idx >= 0, "root.jsonが見つからない")
+            files.splice(idx, 1)
+            files.forEach(eachAssert("files", (file, assert) => {
+              const m = file.match(/\/segment[0-9]+[.]json$/)
+              assert(m, "segmentファイル名が不正 file:" + file)
+            }))
+          })
+        })
+        test("各ファイルの確認", () => {
+          const list: Station[] = []
+          const segmentMap = new Map<string, number>()
+          files.forEach(eachAssert("files", (file, assert) => {
+            const segment = readJsonSafe(file, jsonKdTreeSegment)
+            assert(!segmentMap.has(segment.name), "segment-name重複している")
+            segmentMap.set(segment.name, segment.root)
+            segment.node_list.forEach(eachAssert("node_list", (node, assert) => {
+              assert(!node.segment, "segmentの分割はrootのみ")
+              list.push(normalizeStation(node))
+            }))
+            validateTreeSegment(segment, assert)
+          }))
+          withAssert("root", rootFile, assert => {
+            const root = readJsonSafe(rootFile, jsonKdTreeSegment)
+            assert.equals(root.name, "root")
+            root.node_list.filter(node => !node.segment).forEach(node => {
+              list.push(normalizeStation(node))
+            })
+            validateTreeSegment(root, assert)
+            const segments = root.node_list.filter(node => node.segment)
+            assert.equals(segments.length, segmentMap.size, "segmentサイズが一致しない")
+            segments.forEach(eachAssert("segments", (node, assert) => {
+              const name = node.segment ?? ""
+              assert(segmentMap.has(name), "segmentが見つからない")
+              const code = segmentMap.get(name)
+              assert.equals(code, node.code, "segmentのrootが一致しない")
+            }))
+          })
+          assertStationSetMatched(list, stationCodeMap)
+        })
       })
     })
   })
