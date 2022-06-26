@@ -1,11 +1,6 @@
 {
   "name":"segment13",
   "root":1140708,
-  "east":140.492626,
-  "west":137.015274,
-  "south":36.30016,
-  "north":37.097457,
-  "station_size":583,
   "node_list":[
     {"code":1140708,"id":"42da0e","name":"北飯山","original_name":"北飯山","name_kana":"きたいいやま","closed":false,"lat":36.85883,"lng":138.363765,"left":9940839,"right":9933016,"prefecture":20,"lines":[11407],"attr":"heat","postal_code":"389-2253","address":"飯山市大字飯山","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.302883,36.910362],[138.441053,36.832432],[138.427645,36.827065],[138.289296,36.881846],[138.289649,36.885871],[138.302883,36.910362]]]},"properties":{}}},
     {"code":9940839,"id":"6999d3","name":"新庄田中","original_name":"新庄田中","name_kana":"しんじょうたなか","closed":false,"lat":36.697972,"lng":137.241417,"left":1140920,"right":9942515,"prefecture":16,"lines":[99408],"attr":"eco","postal_code":"930-0985","address":"富山県富山市田中町四丁目96-3","open_date":"2012-12-21","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.246593,36.709123],[137.248104,36.68302],[137.243149,36.687408],[137.236461,36.696328],[137.234987,36.707232],[137.23614,36.708695],[137.246593,36.709123]]]},"properties":{}}},

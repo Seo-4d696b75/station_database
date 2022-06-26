@@ -1,11 +1,6 @@
 {
   "name":"segment16",
   "root":1111532,
-  "east":180.0,
-  "west":140.793833,
-  "south":43.030455,
-  "north":90.0,
-  "station_size":711,
   "node_list":[
     {"code":1111532,"id":"85ab7b","name":"天塩川温泉","original_name":"天塩川温泉","name_kana":"てしおがわおんせん","closed":false,"lat":44.665041,"lng":142.258682,"left":9911607,"right":1111505,"prefecture":1,"lines":[11115],"attr":"cool","postal_code":"098-2502","address":"中川郡音威子府村字咲来","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[142.118731,44.611647],[142.106969,44.580342],[142.298135,44.667623],[142.217865,44.693413],[142.118731,44.611647]]]},"properties":{}},"impl":true},
     {"code":9911607,"id":"874de4","name":"幸町(北海道)","original_name":"幸町","name_kana":"さいわいちょう","closed":true,"lat":43.467,"lng":142.170889,"left":1110919,"right":1111543,"prefecture":1,"lines":[99116],"postal_code":"075-0163","address":"北海道芦別市緑泉町１９","open_date":"1958-01-20","closed_date":"1989-03-26","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[142.192955,43.47402],[142.162553,43.469678],[142.183599,43.450253],[142.211369,43.429806],[142.219213,43.425683],[142.192955,43.47402]]]},"properties":{}},"impl":false},

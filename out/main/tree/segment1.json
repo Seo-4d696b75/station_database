@@ -1,11 +1,6 @@
 {
   "name":"segment1",
   "root":9992504,
-  "east":131.983923,
-  "west":-180.0,
-  "south":-90.0,
-  "north":33.209822,
-  "station_size":583,
   "node_list":[
     {"code":9992504,"id":"954a6e","name":"市役所前(鹿児島)","original_name":"市役所前","name_kana":"しやくしょまえ","closed":false,"lat":31.597179,"lng":130.558015,"left":9991511,"right":1190713,"prefecture":46,"lines":[99925,99926],"attr":"eco","postal_code":"892-0816","address":"鹿児島市山下町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.542199,31.603191],[130.548134,31.59825],[130.563204,31.594333],[130.511759,31.637866],[130.512301,31.636443],[130.535295,31.610172],[130.542199,31.603191]]]},"properties":{}}},
     {"code":9991511,"id":"dd6d32","name":"浜町アーケード","original_name":"浜町アーケード","name_kana":"はまのまちあーけーど","closed":false,"lat":32.744762,"lng":129.876812,"left":9992111,"right":1190533,"prefecture":42,"lines":[99915,99916],"attr":"cool","postal_code":"850-0853","address":"長崎市浜町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[129.878542,32.745062],[129.876929,32.743848],[129.874489,32.745742],[129.874594,32.747165],[129.874947,32.747514],[129.874971,32.747519],[129.878542,32.745062]]]},"properties":{}}},

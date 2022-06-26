@@ -1,11 +1,6 @@
 {
   "name":"segment14",
   "root":1121631,
-  "east":140.793833,
-  "west":137.019706,
-  "south":37.748139,
-  "north":90.0,
-  "station_size":711,
   "node_list":[
     {"code":1121631,"id":"a8fde8","name":"大石田","original_name":"大石田","name_kana":"おおいしだ","closed":false,"lat":38.595916,"lng":140.375349,"left":1122002,"right":1120251,"prefecture":6,"lines":[11216,99231],"attr":"cool","postal_code":"999-4111","address":"北村山郡大石田町大石田","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.263929,38.532139],[140.233548,38.555661],[140.229334,38.559753],[140.222265,38.567344],[140.276372,38.600822],[140.384706,38.614101],[140.393994,38.575658],[140.263929,38.532139]]]},"properties":{}},"impl":true},
     {"code":1122002,"id":"44ef4e","name":"升形","original_name":"升形","name_kana":"ますかた","closed":false,"lat":38.751646,"lng":140.24423,"left":1121914,"right":1121458,"prefecture":6,"lines":[11220],"attr":"cool","postal_code":"996-0111","address":"新庄市大字升形字下夕野","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.267735,38.706695],[140.236167,38.668891],[140.221811,38.793698],[140.265253,38.79471],[140.269289,38.790291],[140.279194,38.734175],[140.267735,38.706695]]]},"properties":{}},"impl":true},

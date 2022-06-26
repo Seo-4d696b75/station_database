@@ -1,11 +1,6 @@
 {
   "name":"segment6",
   "root":1160918,
-  "east":135.713091,
-  "west":-180.0,
-  "south":34.772574,
-  "north":90.0,
-  "station_size":711,
   "node_list":[
     {"code":1160918,"id":"1860b6","name":"はりま勝原","original_name":"はりま勝原","name_kana":"はりまかつはら","closed":false,"lat":34.810071,"lng":134.613855,"left":1170122,"right":9963406,"prefecture":28,"lines":[11609],"attr":"heat","postal_code":"671-1211","address":"姫路市勝原区熊見","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[134.627011,34.834092],[134.620309,34.838269],[134.602172,34.835993],[134.598198,34.806552],[134.606689,34.800903],[134.621798,34.804825],[134.629137,34.81333],[134.627011,34.834092]]]},"properties":{}},"impl":true},
     {"code":1170122,"id":"9b0b70","name":"静間","original_name":"静間","name_kana":"しずま","closed":false,"lat":35.195467,"lng":132.468015,"left":1163425,"right":9972011,"prefecture":32,"lines":[11701],"attr":"eco","postal_code":"694-0031","address":"大田市静間町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.493669,35.104195],[132.485894,35.100546],[132.460016,35.138061],[132.44798,35.259888],[132.479459,35.222663],[132.499255,35.107751],[132.493669,35.104195]]]},"properties":{}},"impl":true},

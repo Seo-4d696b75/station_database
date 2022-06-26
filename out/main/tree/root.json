@@ -1,7 +1,6 @@
 {
   "name":"root",
   "root":9942506,
-  "station_size":15,
   "node_list":[
     {"code":9942506,"id":"81a1f9","name":"高岡","original_name":"高岡","name_kana":"たかおか","closed":false,"lat":36.740948,"lng":137.015274,"left":9962922,"right":1141632,"prefecture":16,"lines":[11417,11418,99425],"attr":"eco","postal_code":"933-0021","address":"高岡市下関町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.003038,36.736171],[137.032189,36.730196],[137.022645,36.743812],[137.021163,36.744339],[137.003038,36.736171]]]},"properties":{}}},
     {"code":9962922,"id":"6c2af4","name":"花田口","original_name":"花田口","name_kana":"はなたぐち","closed":false,"lat":34.581519,"lng":135.476651,"left":9971811,"right":3300303,"prefecture":27,"lines":[99629],"attr":"heat","postal_code":"590-0943","address":"堺市堺区車之町東１丁","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.472978,34.586687],[135.472769,34.582933],[135.47949,34.576661],[135.481156,34.579146],[135.472978,34.586687]]]},"properties":{}}},
