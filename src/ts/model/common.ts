@@ -3,20 +3,29 @@ import { JSONSchemaType } from "ajv"
 export const stationLineId: JSONSchemaType<string> = {
   type: "string",
   pattern: "[0-9a-f]{6}",
+  title: "駅・路線ID",
+  description: "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）."
 }
 
 export const stationLineName: JSONSchemaType<string> = {
   type: "string",
   minLength: 1,
+  title: "駅・路線の名前",
+  description: "駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります."
 }
 
 export const kanaName: JSONSchemaType<string> = {
   type: "string",
   pattern: "[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+",
+  title: "駅・路線の名前のかな表現",
+  description: "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります."
 }
 
-export const dateString = {
-  type: "string" as "string",
+export const dateStringPattern = "[0-9]{4}-[0-9]{2}-[0-9]{2}"
+
+export const stationLineImpl = {
+  type: "boolean" as "boolean",
   nullable: true as true,
-  pattern: "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+  title: "駅・路線が駅メモに実装されているか表現します",
+  description: "true: 駅メモに登録されています. false: 登録されていない独自追加された廃駅・廃線です. 'main'データセットの一部ではこの属性は省略され、'undefined'はtrueと同じ扱いです.",
 }

@@ -1,11 +1,13 @@
 import { JSONSchemaType } from "ajv"
 import { Line } from "../validate/line"
-import { dateString, kanaName, stationLineId, stationLineName } from "./common"
+import { dateStringPattern, kanaName, stationLineId, stationLineImpl, stationLineName } from "./common"
 
 export const lineCode: JSONSchemaType<number> = {
   type: "integer",
   minimum: 1000,
   maximum: 99999,
+  title: "路線コード",
+  description: "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
 }
 
 export interface JSONLine {
@@ -74,11 +76,14 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
       nullable: true,
       minLength: 1,
     },
-    closed_date: dateString,
-    impl: {
-      type: "boolean",
+    closed_date: {
+      type: "string",
       nullable: true,
+      pattern: dateStringPattern,
+      title: "路線の廃止日",
+      description: "廃線の一部のみ定義されます. 現役駅の場合は定義されません."
     },
+    impl: stationLineImpl,
   },
   required: [
     "code",
@@ -145,11 +150,12 @@ export const csvLine: JSONSchemaType<CSVLine> = {
     closed: {
       type: "boolean",
     },
-    closed_date: dateString,
-    impl: {
-      type: "boolean",
+    closed_date: {
+      type: "string",
       nullable: true,
+      pattern: dateStringPattern,
     },
+    impl: stationLineImpl,
   },
   required: [
     "code",

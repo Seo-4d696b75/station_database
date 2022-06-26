@@ -10,13 +10,17 @@ const coordinate: JSONSchemaType<[number, number]> = {
       type: "number",
       minimum: 112,
       maximum: 160,
+      title: "経度",
     },
     {
       type: "number",
       minimum: 20,
       maximum: 60,
+      title: "緯度"
     },
-  ]
+  ],
+  title: "座標点",
+  description : "緯度・経度の組み合わせで座標を表します. リストの長さは２で固定で、経度・緯度の順番です."
 }
 
 export interface JSONVoronoiGeo {
@@ -33,6 +37,8 @@ export interface JSONVoronoiGeo {
 
 export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
   type: "object",
+  title: "ボロノイ範囲",
+  description: "原則としてポリゴンで表現されます. ただし外周部の一部駅のボロノイ範囲は閉じていないため、ポリライン(LineString)で表現されます. JSONによる図形の表現方法は[GeoJSON](https://geojson.org/geojson-spec.html)に従います.",
   properties: {
     type: {
       type: "string",
@@ -40,6 +46,7 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
     },
     geometry: {
       type: "object",
+      title: "geometry(Polygon/LineString)",
       required: [
         "type",
         "coordinates",
@@ -47,6 +54,7 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
       oneOf: [
         {
           type: "object",
+          title: "geometry(Polygon)",
           properties: {
             type: {
               type: "string",
@@ -54,6 +62,8 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
             },
             coordinates: {
               type: "array",
+              title: "Polygonの座標リスト",
+              description: "ボロノイ範囲は中空のないポリゴンのため、長さ１のリスト",
               // ボロノイ領域は中空のないポリゴン
               minItems: 1,
               maxItems: 1,
@@ -61,6 +71,8 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
                 type: "array",
                 minItems: 3,
                 items: coordinate,
+                title: "Polygonの座標リスト[0]",
+                description : "始点と終点の座標が一致します",
               }
             },
           },
@@ -72,6 +84,7 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
         },
         {
           type: "object",
+          title: "geometry(LineString)",
           properties: {
             // 外周部の一部は閉じていない
             type: {
@@ -80,6 +93,7 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
             },
             coordinates: {
               type: "array",
+              title: "LineStringの座標リスト",
               minItems: 2,
               items: coordinate,
             }
@@ -94,6 +108,8 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
     },
     properties: {
       type: "object",
+      title: "Featureのプロパティ",
+      description: "空のオブジェクトです",
       const: {},
     },
   },
