@@ -1,11 +1,6 @@
 {
   "name":"segment12",
   "root":9933304,
-  "east":180.0,
-  "west":139.539259,
-  "south":35.711627,
-  "north":36.595732,
-  "station_size":711,
   "node_list":[
     {"code":9933304,"id":"00d840","name":"鰭ヶ崎","original_name":"鰭ヶ崎","name_kana":"ひれがさき","closed":false,"lat":35.840948,"lng":139.911121,"left":9930907,"right":1122908,"prefecture":12,"lines":[99333],"attr":"heat","postal_code":"270-0161","address":"千葉県流山市大字鰭ケ崎字宮ノ後1438番地3","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.909848,35.833626],[139.905201,35.8452],[139.909085,35.848982],[139.920143,35.845648],[139.909848,35.833626]]]},"properties":{}},"impl":true},
     {"code":9930907,"id":"f045d4","name":"六町","original_name":"六町","name_kana":"ろくちょう","closed":false,"lat":35.784963,"lng":139.821816,"left":9930516,"right":2100304,"prefecture":13,"lines":[99309],"attr":"heat","postal_code":"121-0073","address":"足立区六町四丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.824586,35.777993],[139.836416,35.793401],[139.822598,35.807374],[139.80884,35.798038],[139.805502,35.787026],[139.809368,35.77965],[139.824586,35.777993]]]},"properties":{}},"impl":true},

@@ -1,11 +1,6 @@
 {
   "name":"segment12",
   "root":9930501,
-  "east":180.0,
-  "west":139.574291,
-  "south":35.691367,
-  "north":36.30016,
-  "station_size":582,
   "node_list":[
     {"code":9930501,"id":"93acd4","name":"三ノ輪橋","original_name":"三ノ輪橋","name_kana":"みのわばし","closed":false,"lat":35.732248,"lng":139.791412,"left":2100104,"right":9934011,"prefecture":13,"lines":[99305],"attr":"eco","postal_code":"116-0003","address":"荒川区南千住１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.795871,35.731058],[139.788985,35.730867],[139.793094,35.737924],[139.794508,35.737157],[139.795871,35.731058]]]},"properties":{}}},
     {"code":2100104,"id":"6b344e","name":"大山(東京)","original_name":"大山","name_kana":"おおやま","closed":false,"lat":35.748398,"lng":139.702589,"left":9930522,"right":2100106,"prefecture":13,"lines":[21001],"attr":"heat","postal_code":"173-0023","address":"板橋区大山町４-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.708224,35.744951],[139.704448,35.754781],[139.701661,35.755415],[139.693239,35.746837],[139.697157,35.741707],[139.706709,35.739267],[139.706917,35.739364],[139.70706,35.739649],[139.708224,35.744951]]]},"properties":{}}},

@@ -1,11 +1,6 @@
 {
   "name":"segment2",
   "root":9990918,
-  "east":131.983923,
-  "west":-180.0,
-  "south":33.209822,
-  "north":34.581519,
-  "station_size":582,
   "node_list":[
     {"code":9990918,"id":"670ec3","name":"木屋瀬","original_name":"木屋瀬","name_kana":"こやのせ","closed":false,"lat":33.778483,"lng":130.724957,"left":3600111,"right":1190606,"prefecture":40,"lines":[99909],"attr":"cool","postal_code":"807-1261","address":"北九州市八幡西区木屋瀬５-２１０-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.716829,33.772956],[130.716272,33.780189],[130.742922,33.782669],[130.721474,33.769606],[130.716829,33.772956]]]},"properties":{}}},
     {"code":3600111,"id":"bd275d","name":"都府楼前","original_name":"都府楼前","name_kana":"とふろうまえ","closed":false,"lat":33.511677,"lng":130.508011,"left":1190508,"right":1190303,"prefecture":40,"lines":[36001],"attr":"cool","postal_code":"818-0104","address":"太宰府市通古賀３-１４-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.501834,33.522645],[130.497168,33.509065],[130.51258,33.506559],[130.517053,33.511209],[130.517411,33.522657],[130.513285,33.535769],[130.51019,33.537224],[130.501834,33.522645]]]},"properties":{}}},

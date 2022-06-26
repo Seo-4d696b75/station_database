@@ -1,11 +1,6 @@
 {
   "name":"segment5",
   "root":3500205,
-  "east":135.659755,
-  "west":-180.0,
-  "south":34.581519,
-  "north":34.77553,
-  "station_size":583,
   "node_list":[
     {"code":3500205,"id":"21080d","name":"出来島","original_name":"出来島","name_kana":"できじま","closed":false,"lat":34.707173,"lng":135.436921,"left":9963723,"right":9962210,"prefecture":27,"lines":[35002],"attr":"cool","postal_code":"555-0031","address":"大阪市西淀川区出来島１-１３-６","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.439498,34.712443],[135.432678,34.713622],[135.41517,34.692464],[135.411983,34.687011],[135.416438,34.686538],[135.418237,34.68662],[135.44326,34.706182],[135.439498,34.712443]]]},"properties":{}}},
     {"code":9963723,"id":"a71762","name":"西江井ヶ島","original_name":"西江井ヶ島","name_kana":"にしえいがしま","closed":false,"lat":34.685688,"lng":134.908105,"left":1160812,"right":9963002,"prefecture":28,"lines":[99637],"attr":"eco","postal_code":"674-0065","address":"兵庫県明石市大久保町西島高見","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[134.757512,34.432834],[134.768906,34.426092],[134.920372,34.693624],[134.907104,34.691052],[134.757512,34.432834]]]},"properties":{}}},

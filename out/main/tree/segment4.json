@@ -1,11 +1,6 @@
 {
   "name":"segment4",
   "root":9980413,
-  "east":137.015274,
-  "west":131.983923,
-  "south":34.262007,
-  "north":34.581519,
-  "station_size":582,
   "node_list":[
     {"code":9980413,"id":"e2286c","name":"塩屋(香川)","original_name":"塩屋","name_kana":"しおや","closed":false,"lat":34.335583,"lng":134.155142,"left":9971114,"right":9961604,"prefecture":37,"lines":[99804],"attr":"cool","postal_code":"761-0122","address":"高松市牟礼町大町１５０２-５","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[134.246955,34.525908],[134.204619,34.517756],[134.156854,34.375554],[134.152008,34.341669],[134.150378,34.327291],[134.206666,34.385767],[134.300233,34.509728],[134.246955,34.525908]]]},"properties":{}}},
     {"code":9971114,"id":"41e3ec","name":"土橋(広島)","original_name":"土橋","name_kana":"どばし","closed":false,"lat":34.3948,"lng":132.446322,"left":1171622,"right":1161108,"prefecture":34,"lines":[99711,99712,99714,99716],"attr":"cool","postal_code":"730-0853","address":"広島市中区堺町２","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.44503,34.396645],[132.448569,34.39555],[132.450659,34.391486],[132.450242,34.390857],[132.445595,34.392018],[132.44503,34.396645]]]},"properties":{}}},

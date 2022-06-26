@@ -1,11 +1,6 @@
 {
   "name":"segment3",
   "root":9981728,
-  "east":137.015274,
-  "west":131.983923,
-  "south":-90.0,
-  "north":34.262007,
-  "station_size":583,
   "node_list":[
     {"code":9981728,"id":"9eac31","name":"知寄町二丁目","original_name":"知寄町二丁目","name_kana":"ちよりちょうにちょうめ","closed":false,"lat":33.558097,"lng":133.55989,"left":1180715,"right":1151029,"prefecture":39,"lines":[99817],"attr":"cool","postal_code":"781-0806","address":"高知市知寄町二丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[133.557412,33.549528],[133.55929,33.568176],[133.561988,33.568153],[133.559678,33.547994],[133.559187,33.548213],[133.557412,33.549528]]]},"properties":{}}},
     {"code":1180715,"id":"cfe2b6","name":"高野川","original_name":"高野川","name_kana":"こうのかわ","closed":false,"lat":33.701624,"lng":132.65877,"left":1180158,"right":9980609,"prefecture":38,"lines":[11807],"attr":"heat","postal_code":"799-3201","address":"伊予市双海町高野川","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.565847,33.807483],[132.669076,33.659281],[132.69135,33.682036],[132.682337,33.71326],[132.631899,33.767702],[132.624889,33.773285],[132.618143,33.777624],[132.582646,33.798265],[132.565847,33.807483]]]},"properties":{}}},

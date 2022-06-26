@@ -1,11 +1,6 @@
 {
   "name":"segment10",
   "root":1132318,
-  "east":139.574291,
-  "west":137.015274,
-  "south":35.487445,
-  "north":36.30016,
-  "station_size":582,
   "node_list":[
     {"code":1132318,"id":"c25921","name":"深谷","original_name":"深谷","name_kana":"ふかや","closed":false,"lat":36.191344,"lng":139.28127,"left":1131142,"right":2201002,"prefecture":11,"lines":[11323],"attr":"eco","postal_code":"366-0824","address":"深谷市西島町１丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.261983,36.166594],[139.25046,36.171068],[139.270503,36.232242],[139.295518,36.232007],[139.319395,36.222546],[139.301794,36.17148],[139.291654,36.166862],[139.261983,36.166594]]]},"properties":{}}},
     {"code":1131142,"id":"b6ee17","name":"すずらんの里","original_name":"すずらんの里","name_kana":"すずらんのさと","closed":false,"lat":35.930288,"lng":138.211775,"left":1140226,"right":1140118,"prefecture":20,"lines":[11311],"attr":"heat","postal_code":"391-0021","address":"諏訪郡富士見町富士見","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.309849,36.057586],[138.114169,35.83214],[138.115826,35.824731],[138.128681,35.781452],[138.313638,36.050086],[138.309849,36.057586]]]},"properties":{}}},
