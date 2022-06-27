@@ -11,3 +11,12 @@
 **maximum number of items**: リストの長さの最大値を指定します value.length <= `2`
 
 **minimum number of items**: リストの長さの最小値を指定します value.length >= `2`
+
+## itemsの値の例
+
+```json
+[
+  140.731677,
+  41.776316
+]
+```

@@ -48,6 +48,16 @@
 
 **minimum**: この数値の最小値を指定します value >= `100000`
 
+### codeの値の例
+
+```json
+1110101
+```
+
+```json
+100409
+```
+
 ## id
 
 データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.
@@ -76,6 +86,16 @@
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9a-f%5D%7B6%7D "try regular expression with regexr.com")
 
+### idの値の例
+
+```json
+"d8aab0"
+```
+
+```json
+"e16e64"
+```
+
 ## name
 
 駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります.
@@ -98,6 +118,20 @@
 
 **minimum length**: 文字列の長さの最小値を指定します value.length >= `1`
 
+### nameの値の例
+
+```json
+"函館"
+```
+
+```json
+"福島(福島)"
+```
+
+```json
+"JR函館本線(函館～長万部)"
+```
+
 ## original\_name
 
 原則として各鉄道会社が示すままの駅名と同じ値です. nameとは異なり重複防止の接尾語を含みません.
@@ -119,6 +153,16 @@
 ### original\_nameの値の制限
 
 **minimum length**: 文字列の長さの最小値を指定します value.length >= `1`
+
+### original\_nameの値の例
+
+```json
+"函館"
+```
+
+```json
+"福島"
+```
 
 ## name\_kana
 
@@ -148,6 +192,20 @@
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B "try regular expression with regexr.com")
 
+### name\_kanaの値の例
+
+```json
+"はこだて"
+```
+
+```json
+"ふくしま"
+```
+
+```json
+"じぇいあーるはこだてほんせん"
+```
+
 ## closed
 
 true: 廃駅, false: 現役駅 'main'データセットの一部では省略されます. 'undefined'の場合はfalseとして扱います.
@@ -168,7 +226,7 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 ## lat
 
-１０進小数で表記した緯度
+１０進小数で表記した緯度（小数点以下６桁）
 
 `lat`
 
@@ -190,9 +248,19 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 **minimum (exclusive)**: この数値の最小値を指定します value > `26`
 
+### latの値の例
+
+```json
+41.773709
+```
+
+```json
+37.754123
+```
+
 ## lng
 
-１０進小数で表記した経度
+１０進小数で表記した経度（小数点以下６桁）
 
 `lng`
 
@@ -213,6 +281,16 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 **maximum (exclusive)**: この数値の最大値を指定します value < `146.2`
 
 **minimum (exclusive)**: この数値の最小値を指定します value > `127.5`
+
+### lngの値の例
+
+```json
+140.726413
+```
+
+```json
+140.45968
+```
 
 ## prefecture
 
@@ -261,6 +339,25 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 **minimum number of items**: リストの長さの最小値を指定します value.length >= `1`
 
 **unique items**: リストのすべての要素は互いに異なる値です. 重複は許可されません.
+
+### linesの値の例
+
+```json
+[
+  11101,
+  11119
+]
+```
+
+```json
+[
+  1004,
+  11231,
+  11216,
+  99213,
+  99215
+]
+```
 
 ## attr
 
@@ -319,6 +416,16 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B3%7D-%5B0-9%5D%7B4%7D "try regular expression with regexr.com")
 
+### postal\_codeの値の例
+
+```json
+"040-0063"
+```
+
+```json
+"960-8031"
+```
+
 ## address
 
 駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します. データソースの違いにより住所表現の粒度が異なる場合があります.
@@ -340,6 +447,16 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 ### addressの値の制限
 
 **minimum length**: 文字列の長さの最小値を指定します value.length >= `1`
+
+### addressの値の例
+
+```json
+"北海道函館市若松町１２-１３"
+```
+
+```json
+"福島市栄町"
+```
 
 ## open\_date
 
@@ -369,6 +486,12 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
 
+### open\_dateの値の例
+
+```json
+"1902-12-10"
+```
+
 ## closed\_date
 
 廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません.
@@ -397,6 +520,12 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
 
+### closed\_dateの値の例
+
+```json
+"2022-03-12"
+```
+
 ## voronoi
 
 原則としてポリゴンで表現されます. ただし外周部の一部駅のボロノイ範囲は閉じていないため、ポリライン(LineString)で表現されます. JSONによる図形の表現方法は[GeoJSON](https://geojson.org/geojson-spec.html)に従います.
@@ -414,6 +543,58 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 ### voronoiの型定義
 
 `object` ([ボロノイ範囲](station-properties-ボロノイ範囲.md))
+
+### voronoiの値の例
+
+```json
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.72591,
+          41.771256
+        ],
+        [
+          140.717527,
+          41.773829
+        ],
+        [
+          140.71735,
+          41.774204
+        ],
+        [
+          140.714999,
+          41.785757
+        ],
+        [
+          140.714787,
+          41.792259
+        ],
+        [
+          140.72972,
+          41.788694
+        ],
+        [
+          140.730562,
+          41.78452
+        ],
+        [
+          140.731074,
+          41.778908
+        ],
+        [
+          140.72591,
+          41.771256
+        ]
+      ]
+    ]
+  },
+  "properties": {}
+}
+```
 
 ## impl
 

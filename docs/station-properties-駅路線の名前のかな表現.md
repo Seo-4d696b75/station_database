@@ -11,3 +11,17 @@
 ```
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B "try regular expression with regexr.com")
+
+## name\_kanaの値の例
+
+```json
+"はこだて"
+```
+
+```json
+"ふくしま"
+```
+
+```json
+"じぇいあーるはこだてほんせん"
+```

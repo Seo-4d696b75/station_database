@@ -7,3 +7,13 @@
 **maximum (exclusive)**: この数値の最大値を指定します value < `146.2`
 
 **minimum (exclusive)**: この数値の最小値を指定します value > `127.5`
+
+## lngの値の例
+
+```json
+140.726413
+```
+
+```json
+140.45968
+```

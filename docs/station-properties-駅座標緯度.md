@@ -7,3 +7,13 @@
 **maximum (exclusive)**: この数値の最大値を指定します value < `45.8`
 
 **minimum (exclusive)**: この数値の最小値を指定します value > `26`
+
+## latの値の例
+
+```json
+41.773709
+```
+
+```json
+37.754123
+```

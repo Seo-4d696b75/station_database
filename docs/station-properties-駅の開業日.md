@@ -11,3 +11,9 @@
 ```
 
 [正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
+
+## open\_dateの値の例
+
+```json
+"1902-12-10"
+```
