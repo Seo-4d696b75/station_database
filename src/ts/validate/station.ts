@@ -40,6 +40,12 @@ export function validateStation(s: Station, assert: Assert, extra: boolean) {
 
   // nameの整合性
   assert(s.name === s.original_name || s.name.includes(s.original_name), "駅名originalはsubstring")
+
+  // lat,lng 小数点以下桁数
+  let lat = s.lat * Math.pow(10, 6)
+  assert(Math.abs(lat - Math.round(lat)) < 0.0001)
+  let lng = s.lng * Math.pow(10, 6)
+  assert(Math.abs(lng - Math.round(lng)) < 0.0001)
 }
 
 const keys: ReadonlyArray<keyof Station> = ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"]
