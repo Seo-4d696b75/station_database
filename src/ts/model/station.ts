@@ -9,7 +9,8 @@ export const stationCode: JSONSchemaType<number> = {
   minimum: 100000,
   maximum: 9999999,
   title: "駅コード",
-  description: "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
+  description: "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
+  examples: [1110101, 100409],
 }
 
 export const stationLat: JSONSchemaType<number> = {
@@ -17,7 +18,8 @@ export const stationLat: JSONSchemaType<number> = {
   exclusiveMinimum: 26.0,
   exclusiveMaximum: 45.8,
   title: "駅座標（緯度）",
-  description: "１０進小数で表記した緯度"
+  description: "１０進小数で表記した緯度（小数点以下６桁）",
+  examples: [41.773709, 37.754123]
 }
 
 export const stationLng: JSONSchemaType<number> = {
@@ -25,7 +27,8 @@ export const stationLng: JSONSchemaType<number> = {
   exclusiveMinimum: 127.5,
   exclusiveMaximum: 146.2,
   title: "駅座標（経度）",
-  description: "１０進小数で表記した経度"
+  description: "１０進小数で表記した経度（小数点以下６桁）",
+  examples: [140.726413, 140.459680]
 }
 
 const prefectureCode: JSONSchemaType<number> = {
@@ -42,14 +45,19 @@ const lineCodes: JSONSchemaType<number[]> = {
   minItems: 1,
   uniqueItems: true,
   title: "駅が登録されている路線",
-  description: "路線コードのリストで表現されます.各駅は必ずひとつ以上の路線に属するため、空のリストは許可しません."
+  description: "路線コードのリストで表現されます.各駅は必ずひとつ以上の路線に属するため、空のリストは許可しません.",
+  examples: [
+    [11101, 11119],
+    [1004, 11231, 11216, 99213, 99215],
+  ]
 }
 
 const postalCode: JSONSchemaType<string> = {
   type: "string",
   pattern: "[0-9]{3}-[0-9]{4}",
   title: "駅の所在地を表す郵便番号",
-  description: "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します."
+  description: "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します.",
+  examples: ["040-0063", "960-8031"],
 }
 
 const stationAddress: JSONSchemaType<string> = {
@@ -57,6 +65,10 @@ const stationAddress: JSONSchemaType<string> = {
   minLength: 1,
   title: "駅の所在地の住所",
   description: "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します. データソースの違いにより住所表現の粒度が異なる場合があります.",
+  examples: [
+    "北海道函館市若松町１２-１３",
+    "福島市栄町",
+  ],
 }
 
 const openDate = {
@@ -64,7 +76,8 @@ const openDate = {
   nullable: true as true,
   pattern: dateStringPattern,
   title: "駅の開業日",
-  description: "一部の駅のみ定義されます."
+  description: "一部の駅のみ定義されます.",
+  examples: ["1902-12-10"],
 }
 
 const closedDate = {
@@ -72,7 +85,8 @@ const closedDate = {
   nullable: true as true,
   pattern: dateStringPattern,
   title: "駅の廃止日",
-  description: "廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません."
+  description: "廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません.",
+  examples: ["2022-03-12"],
 }
 
 const closed = {
@@ -124,7 +138,10 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
       type: "string",
       minLength: 1,
       title: "オリジナルの駅名称",
-      description: "原則として各鉄道会社が示すままの駅名と同じ値です. nameとは異なり重複防止の接尾語を含みません."
+      description: "原則として各鉄道会社が示すままの駅名と同じ値です. nameとは異なり重複防止の接尾語を含みません.",
+      examples: [
+        "函館", "福島"
+      ]
     },
     name_kana: kanaName,
     closed: closed,
