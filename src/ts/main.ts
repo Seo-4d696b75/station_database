@@ -1,9 +1,23 @@
 
-import { readCsvSafe, readJsonSafe } from "./io";
-import { csvLine, jsonLineList } from "./model/line";
-import { csvStation, jsonStation, jsonStationList } from "./model/station";
-import glob from "glob";
+import { writeFileSync } from "fs";
+import { jsonAllData } from "./model/data";
+import { jsonDelaunayList } from "./model/delaunay";
+import { jsonLineList } from "./model/line";
+import { jsonLineDetail } from "./model/lineDetail";
+import { jsonStationList } from "./model/station";
+import { jsonKdTree, jsonKdTreeSegment } from "./model/tree";
 
-let list = readCsvSafe("out/main/line.csv", csvLine)
-const files = glob.sync("out/main/line/*.json")
-console.log(files.length, files[0])
+// station.json
+writeFileSync("out/schema/station.schema.json", JSON.stringify(jsonStationList, undefined, 2))
+// line.json
+writeFileSync("out/schema/line.schema.json", JSON.stringify(jsonLineList, undefined, 2))
+// line/*.json
+writeFileSync("out/schema/line_detail.schema.json", JSON.stringify(jsonLineDetail, undefined, 2))
+// delaunay.json
+writeFileSync("out/schema/delaunay.schema.json", JSON.stringify(jsonDelaunayList, undefined, 2))
+// tree.json
+writeFileSync("out/schema/tree.schema.json", JSON.stringify(jsonKdTree, undefined, 2))
+// tree/*.json
+writeFileSync("out/schema/tree_segment.schema.json", JSON.stringify(jsonKdTreeSegment, undefined, 2))
+// data.json
+writeFileSync("out/schema/data.schema.json", JSON.stringify(jsonAllData, undefined, 2))

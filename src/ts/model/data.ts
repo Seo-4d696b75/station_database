@@ -3,8 +3,8 @@ import { stationLineName } from "./common"
 import { jsonPolyline, JSONPolylineGeo } from "./geo"
 import { jsonLine, JSONLine } from "./line"
 import { JSONStationRegistration } from "./lineDetail"
-import { jsonStationList, JSONStation, stationCode, stationLat, stationLng, jsonStation } from "./station"
-import { JSONKdTreeNode, JSONKdTreeSegmentNode } from "./tree"
+import { JSONStation, jsonStation, stationCode, stationLat, stationLng } from "./station"
+import { JSONKdTreeSegmentNode } from "./tree"
 
 export interface AllData {
   version: number
@@ -144,19 +144,30 @@ const jsonKdTreeSegment: JSONSchemaType<KdTreeSegment> = {
 
 export const jsonAllData: JSONSchemaType<AllData> = {
   type: "object",
+  title: "All-Data",
   properties: {
-    version: { type: "integer" },
+    version: { 
+      type: "integer",
+      title: "データバージョン",
+      description: "データのバージョンをpublishした日付 yyyyMMddの形式で表現します."
+    },
     stations: {
       type: "array",
       items: jsonStationNext,
+      title: "駅リスト",
+      description: "すべての駅のリスト"
     },
     lines: {
       type: "array",
       items: jsonLineDetailSimple,
+      title: "路線リスト",
+      description: "すべての路線のリスト. 各路線の詳細データを含みます."
     },
     tree_segments: {
       type: "array",
       items: jsonKdTreeSegment,
+      title: "探索部分木リスト",
+      description: "すべての駅の探索木を分割したリスト."
     }
   },
   required: ["version", "stations", "lines", "tree_segments"],

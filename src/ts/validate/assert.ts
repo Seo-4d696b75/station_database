@@ -107,7 +107,11 @@ function extractStackTrace(e: Error): string {
 
 // JSON.stringifyだと長すぎるデータも簡潔に表現する
 function representValue(data: any, depth: number = 2, maxItems: number = 20): string {
-  if (Array.isArray(data)) {
+  if (data === null) {
+    return "null"
+  } else if (data === undefined) {
+    return "undefined"
+  } else if (Array.isArray(data)) {
     if (depth === 0) return "[Array]"
     const items = data.length > maxItems ? data.slice(0, maxItems) : data
     const itemStr = items.map(e => representValue(e, depth - 1, maxItems)).join(",")

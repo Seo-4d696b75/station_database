@@ -1,11 +1,13 @@
 import { JSONSchemaType } from "ajv"
 import { Line } from "../validate/line"
-import { dateString, kanaName, stationLineId, stationLineName } from "./common"
+import { dateStringPattern, kanaName, stationLineId, stationLineImpl, stationLineName } from "./common"
 
 export const lineCode: JSONSchemaType<number> = {
   type: "integer",
   minimum: 1000,
   maximum: 99999,
+  title: "路線コード",
+  description: "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
 }
 
 export interface JSONLine {
@@ -42,6 +44,10 @@ export function normalizeLine(raw: JSONLine): Line {
 
 export const jsonLine: JSONSchemaType<JSONLine> = {
   type: "object",
+  title: "路線オブジェクト",
+  examples: [
+    { "code": 11319, "id": "2d2b3a", "name": "JR東北本線(宇都宮線)", "name_kana": "じぇいあーるとうほくほんせん", "name_formal": "JR東北本線", "station_size": 33, "company_code": 2, "closed": false, "color": "#F68B1E", "symbol": "JU" },
+  ],
   properties: {
     code: lineCode,
     id: stationLineId,
@@ -50,35 +56,53 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
     name_formal: {
       type: "string",
       nullable: true,
-      minLength: 1
+      minLength: 1,
+      title: "路線の正式名称",
+      description: "nameと一致する場合はundefined",
+      examples: ["JR東北本線"],
     },
     station_size: {
       type: "integer",
       minimum: 1,
+      title: "登録駅数",
+      description: "かならず１駅以上登録があります",
+      examples: [3, 24]
     },
     company_code: {
       type: "integer",
       nullable: true,
       minimum: 0,
+      title: "事業者コード",
     },
     closed: {
       type: "boolean",
+      title: "廃線フラグ",
+      description: "廃線の場合はtrue",
     },
     color: {
       type: "string",
       nullable: true,
-      pattern: "#[0-9A-F]{6}"
+      pattern: "#[0-9A-F]{6}",
+      title: "路線カラー",
+      description: "RGBチャネル16進数",
+      examples: ["#F68B1E"],
     },
     symbol: {
       type: "string",
       nullable: true,
       minLength: 1,
+      title: "路線記号",
+      examples: ["JU"]
     },
-    closed_date: dateString,
-    impl: {
-      type: "boolean",
+    closed_date: {
+      type: "string",
       nullable: true,
+      pattern: dateStringPattern,
+      title: "路線の廃止日",
+      description: "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
+      examples: ["2015-03-14"],
     },
+    impl: stationLineImpl,
   },
   required: [
     "code",
@@ -94,6 +118,8 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
 export const jsonLineList: JSONSchemaType<JSONLine[]> = {
   type: "array",
   items: jsonLine,
+  title: "路線リスト",
+  description: "すべての路線を含むリスト",
 }
 
 export interface CSVLine {
@@ -145,11 +171,12 @@ export const csvLine: JSONSchemaType<CSVLine> = {
     closed: {
       type: "boolean",
     },
-    closed_date: dateString,
-    impl: {
-      type: "boolean",
+    closed_date: {
+      type: "string",
       nullable: true,
+      pattern: dateStringPattern,
     },
+    impl: stationLineImpl,
   },
   required: [
     "code",
