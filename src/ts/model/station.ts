@@ -130,6 +130,9 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
   title: "駅オブジェクト",
   description: "駅の情報",
   type: "object",
+  examples: [
+    { "code": 100409, "id": "7bfd6b", "name": "福島(福島)", "original_name": "福島", "name_kana": "ふくしま", "closed": false, "lat": 37.754123, "lng": 140.45968, "prefecture": 7, "lines": [1004, 11231, 11216, 99213, 99215], "attr": "heat", "postal_code": "960-8031", "address": "福島市栄町", "voronoi": { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[140.436325, 37.741446], [140.441067, 37.754985], [140.446198, 37.756742], [140.501679, 37.758667], [140.510809, 37.752683], [140.527108, 37.739585], [140.534984, 37.729765], [140.436325, 37.741446]]] }, "properties": {} } },
+  ],
   properties: {
     code: stationCode,
     id: stationLineId,
@@ -189,6 +192,8 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
 export const jsonStationList: JSONSchemaType<JSONStation[]> = {
   type: "array",
   items: jsonStation,
+  title: "駅リスト",
+  description: "すべての駅を含みます"
 }
 
 

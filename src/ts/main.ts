@@ -5,5 +5,7 @@ import { csvStation, jsonStation, jsonStationList } from "./model/station";
 import glob from "glob";
 import {writeFileSync} from "fs"
 
-const schema = jsonStation
-writeFileSync("out/schema/station.schema.json", JSON.stringify(schema, undefined, 2))
+// station.json
+writeFileSync("out/schema/station.schema.json", JSON.stringify(jsonStationList, undefined, 2))
+// line.json
+writeFileSync("out/schema/line.schema.json", JSON.stringify(jsonLineList, undefined, 2))
