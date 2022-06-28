@@ -1,0 +1,634 @@
+{
+  "type": "object",
+  "title": "探索部分木",
+  "description": "駅を座標点から探索するためのデータ構造(kd-tree)の部分木",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "title": "部分木の名前",
+      "description": "部分木の名前はファイル名と一致します ${name}.json"
+    },
+    "root": {
+      "type": "integer",
+      "title": "ルート駅コード",
+      "description": "部分木のルートに位置する頂点の駅コード. node_listに該当する頂点（駅）が必ず含まれます."
+    },
+    "node_list": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "探索部分木の頂点",
+        "description": "駅の座標点を頂点として扱います. left, rightで下に続く子頂点を表します.",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "駅コード",
+            "description": "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
+            "examples": [
+              1110101,
+              100409
+            ]
+          },
+          "id": {
+            "type": "string",
+            "pattern": "[0-9a-f]{6}",
+            "title": "駅・路線ID",
+            "description": "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
+            "examples": [
+              "d8aab0",
+              "e16e64"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "駅・路線の名前",
+            "description": "駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります.",
+            "examples": [
+              "函館",
+              "福島(福島)",
+              "JR函館本線(函館～長万部)"
+            ]
+          },
+          "original_name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "オリジナルの駅名称",
+            "description": "原則として各鉄道会社が示すままの駅名と同じ値です. nameとは異なり重複防止の接尾語を含みません.",
+            "examples": [
+              "函館",
+              "福島"
+            ]
+          },
+          "name_kana": {
+            "type": "string",
+            "pattern": "[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+",
+            "title": "駅・路線の名前のかな表現",
+            "description": "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります.",
+            "examples": [
+              "はこだて",
+              "ふくしま",
+              "じぇいあーるはこだてほんせん"
+            ]
+          },
+          "closed": {
+            "type": "boolean",
+            "nullable": true,
+            "title": "廃駅フラグ",
+            "description": "true: 廃駅, false: 現役駅 'main'データセットの一部では省略されます. 'undefined'の場合はfalseとして扱います."
+          },
+          "lat": {
+            "type": "number",
+            "exclusiveMinimum": 26,
+            "exclusiveMaximum": 45.8,
+            "title": "駅座標（緯度）",
+            "description": "１０進小数で表記した緯度（小数点以下６桁）",
+            "examples": [
+              41.773709,
+              37.754123
+            ]
+          },
+          "lng": {
+            "type": "number",
+            "exclusiveMinimum": 127.5,
+            "exclusiveMaximum": 146.2,
+            "title": "駅座標（経度）",
+            "description": "１０進小数で表記した経度（小数点以下６桁）",
+            "examples": [
+              140.726413,
+              140.45968
+            ]
+          },
+          "prefecture": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 47,
+            "title": "都道府県コード",
+            "description": "駅が所在する都道府県を表します.都道府県コードの値は全国地方公共団体コード（JIS X 0401）に従います."
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1000,
+              "maximum": 99999,
+              "title": "路線コード",
+              "description": "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "title": "駅が登録されている路線",
+            "description": "路線コードのリストで表現されます.各駅は必ずひとつ以上の路線に属するため、空のリストは許可しません.",
+            "examples": [
+              [
+                11101,
+                11119
+              ],
+              [
+                1004,
+                11231,
+                11216,
+                99213,
+                99215
+              ]
+            ]
+          },
+          "attr": {
+            "type": "string",
+            "nullable": true,
+            "title": "駅の属性",
+            "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は'undefined'.",
+            "enum": [
+              "eco",
+              "heat",
+              "cool",
+              "unknown"
+            ]
+          },
+          "postal_code": {
+            "type": "string",
+            "pattern": "[0-9]{3}-[0-9]{4}",
+            "title": "駅の所在地を表す郵便番号",
+            "description": "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します.",
+            "examples": [
+              "040-0063",
+              "960-8031"
+            ]
+          },
+          "address": {
+            "type": "string",
+            "minLength": 1,
+            "title": "駅の所在地の住所",
+            "description": "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します. データソースの違いにより住所表現の粒度が異なる場合があります.",
+            "examples": [
+              "北海道函館市若松町１２-１３",
+              "福島市栄町"
+            ]
+          },
+          "open_date": {
+            "type": "string",
+            "nullable": true,
+            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "title": "駅の開業日",
+            "description": "一部の駅のみ定義されます.",
+            "examples": [
+              "1902-12-10"
+            ]
+          },
+          "closed_date": {
+            "type": "string",
+            "nullable": true,
+            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "title": "駅の廃止日",
+            "description": "廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません.",
+            "examples": [
+              "2022-03-12"
+            ]
+          },
+          "voronoi": {
+            "type": "object",
+            "title": "ボロノイ範囲",
+            "description": "原則としてポリゴンで表現されます. ただし外周部の一部駅のボロノイ範囲は閉じていないため、ポリライン(LineString)で表現されます. JSONによる図形の表現方法は[GeoJSON](https://geojson.org/geojson-spec.html)に従います.",
+            "examples": [
+              {
+                "type": "Feature",
+                "geometry": {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        140.72591,
+                        41.771256
+                      ],
+                      [
+                        140.717527,
+                        41.773829
+                      ],
+                      [
+                        140.71735,
+                        41.774204
+                      ],
+                      [
+                        140.714999,
+                        41.785757
+                      ],
+                      [
+                        140.714787,
+                        41.792259
+                      ],
+                      [
+                        140.72972,
+                        41.788694
+                      ],
+                      [
+                        140.730562,
+                        41.78452
+                      ],
+                      [
+                        140.731074,
+                        41.778908
+                      ],
+                      [
+                        140.72591,
+                        41.771256
+                      ]
+                    ]
+                  ]
+                },
+                "properties": {}
+              }
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "Feature"
+              },
+              "geometry": {
+                "type": "object",
+                "title": "geometry(Polygon/LineString)",
+                "required": [
+                  "type",
+                  "coordinates"
+                ],
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "title": "geometry(Polygon)",
+                    "examples": [
+                      {
+                        "type": "Polygon",
+                        "coordinates": [
+                          [
+                            [
+                              140.72591,
+                              41.771256
+                            ],
+                            [
+                              140.717527,
+                              41.773829
+                            ],
+                            [
+                              140.71735,
+                              41.774204
+                            ],
+                            [
+                              140.714999,
+                              41.785757
+                            ],
+                            [
+                              140.714787,
+                              41.792259
+                            ],
+                            [
+                              140.72972,
+                              41.788694
+                            ],
+                            [
+                              140.730562,
+                              41.78452
+                            ],
+                            [
+                              140.731074,
+                              41.778908
+                            ],
+                            [
+                              140.72591,
+                              41.771256
+                            ]
+                          ]
+                        ]
+                      }
+                    ],
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "const": "Polygon"
+                      },
+                      "coordinates": {
+                        "type": "array",
+                        "title": "Polygonの座標リスト",
+                        "description": "ボロノイ範囲は中空のないポリゴンのため、長さ１のリスト",
+                        "examples": [
+                          [
+                            [
+                              [
+                                140.72591,
+                                41.771256
+                              ],
+                              [
+                                140.717527,
+                                41.773829
+                              ],
+                              [
+                                140.71735,
+                                41.774204
+                              ],
+                              [
+                                140.714999,
+                                41.785757
+                              ],
+                              [
+                                140.714787,
+                                41.792259
+                              ],
+                              [
+                                140.72972,
+                                41.788694
+                              ],
+                              [
+                                140.730562,
+                                41.78452
+                              ],
+                              [
+                                140.731074,
+                                41.778908
+                              ],
+                              [
+                                140.72591,
+                                41.771256
+                              ]
+                            ]
+                          ]
+                        ],
+                        "minItems": 1,
+                        "maxItems": 1,
+                        "items": {
+                          "type": "array",
+                          "minItems": 3,
+                          "items": {
+                            "type": "array",
+                            "minItems": 2,
+                            "maxItems": 2,
+                            "items": [
+                              {
+                                "type": "number",
+                                "minimum": 112,
+                                "maximum": 160,
+                                "title": "経度"
+                              },
+                              {
+                                "type": "number",
+                                "minimum": 20,
+                                "maximum": 60,
+                                "title": "緯度"
+                              }
+                            ],
+                            "title": "座標点",
+                            "description": "緯度・経度の組み合わせで座標を表します. リストの長さは２で固定で、経度・緯度の順番です.",
+                            "examples": [
+                              [
+                                140.731677,
+                                41.776316
+                              ]
+                            ]
+                          },
+                          "title": "Polygonの座標リスト[0]",
+                          "description": "始点と終点の座標が一致します"
+                        }
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "coordinates"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "object",
+                    "title": "geometry(LineString)",
+                    "examples": [
+                      {
+                        "type": "LineString",
+                        "coordinates": [
+                          [
+                            160,
+                            32.2175
+                          ],
+                          [
+                            145.486252,
+                            43.24743
+                          ],
+                          [
+                            145.480118,
+                            43.249398
+                          ],
+                          [
+                            145.412432,
+                            42.926476
+                          ],
+                          [
+                            145.393203,
+                            42.31716
+                          ],
+                          [
+                            145.394284,
+                            42.306034
+                          ],
+                          [
+                            145.479425,
+                            41.700239
+                          ],
+                          [
+                            146.005674,
+                            39.188776
+                          ],
+                          [
+                            149.514356,
+                            35.886453
+                          ],
+                          [
+                            150.83862,
+                            34.697293
+                          ],
+                          [
+                            151.547974,
+                            34.255494
+                          ],
+                          [
+                            160,
+                            29.000091
+                          ]
+                        ]
+                      }
+                    ],
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "const": "LineString"
+                      },
+                      "coordinates": {
+                        "type": "array",
+                        "title": "LineStringの座標リスト",
+                        "minItems": 2,
+                        "items": {
+                          "type": "array",
+                          "minItems": 2,
+                          "maxItems": 2,
+                          "items": [
+                            {
+                              "type": "number",
+                              "minimum": 112,
+                              "maximum": 160,
+                              "title": "経度"
+                            },
+                            {
+                              "type": "number",
+                              "minimum": 20,
+                              "maximum": 60,
+                              "title": "緯度"
+                            }
+                          ],
+                          "title": "座標点",
+                          "description": "緯度・経度の組み合わせで座標を表します. リストの長さは２で固定で、経度・緯度の順番です.",
+                          "examples": [
+                            [
+                              140.731677,
+                              41.776316
+                            ]
+                          ]
+                        },
+                        "examples": [
+                          [
+                            [
+                              160,
+                              32.2175
+                            ],
+                            [
+                              145.486252,
+                              43.24743
+                            ],
+                            [
+                              145.480118,
+                              43.249398
+                            ],
+                            [
+                              145.412432,
+                              42.926476
+                            ],
+                            [
+                              145.393203,
+                              42.31716
+                            ],
+                            [
+                              145.394284,
+                              42.306034
+                            ],
+                            [
+                              145.479425,
+                              41.700239
+                            ],
+                            [
+                              146.005674,
+                              39.188776
+                            ],
+                            [
+                              149.514356,
+                              35.886453
+                            ],
+                            [
+                              150.83862,
+                              34.697293
+                            ],
+                            [
+                              151.547974,
+                              34.255494
+                            ],
+                            [
+                              160,
+                              29.000091
+                            ]
+                          ]
+                        ]
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "coordinates"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "properties": {
+                "type": "object",
+                "title": "Featureのプロパティ",
+                "description": "空のオブジェクトです",
+                "const": {}
+              }
+            },
+            "required": [
+              "type",
+              "properties"
+            ],
+            "additionalProperties": false
+          },
+          "impl": {
+            "type": "boolean",
+            "nullable": true,
+            "title": "駅・路線が駅メモに実装されているか表現します",
+            "description": "true: 駅メモに登録されています. false: 登録されていない独自追加された廃駅・廃線です. 'main'データセットの一部ではこの属性は省略され、'undefined'はtrueと同じ扱いです."
+          },
+          "left": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(left)",
+            "description": "緯度または経度の値がこの駅の座標より小さい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          },
+          "right": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(right)",
+            "description": "緯度または経度の値がこの駅の座標より大きい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          },
+          "segment": {
+            "type": "string",
+            "minLength": 1,
+            "nullable": true,
+            "title": "部分木の名前",
+            "description": "segmentが定義されている場合、指定された名前の部分木がこの頂点の下に続きます."
+          }
+        },
+        "required": [
+          "code",
+          "id",
+          "name",
+          "original_name",
+          "name_kana",
+          "closed",
+          "lat",
+          "lng",
+          "prefecture",
+          "lines",
+          "postal_code",
+          "address",
+          "voronoi"
+        ],
+        "additionalProperties": false
+      },
+      "title": "頂点リスト",
+      "description": "部分木を構成する頂点（駅）のリスト"
+    }
+  },
+  "required": [
+    "name",
+    "root",
+    "node_list"
+  ],
+  "additionalProperties": false
+}
