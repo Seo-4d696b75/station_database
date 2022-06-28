@@ -12,6 +12,7 @@ export interface JSONStationRegistration {
 
 const jsonStationRegistration: JSONSchemaType<JSONStationRegistration & JSONStation> = {
   type: "object",
+  title: "駅オブジェクト(路線登録)",
   properties: {
     ...jsonStation.properties,
     numbering: {
@@ -22,6 +23,11 @@ const jsonStationRegistration: JSONSchemaType<JSONStationRegistration & JSONStat
         type: "string",
         minLength: 1,
       },
+      title: "駅ナンバリング",
+      description: "各路線における駅のナンバリング",
+      examples: [
+        ["H75"],
+      ],
     },
   },
   required: [
@@ -37,12 +43,15 @@ export interface JSONLineDetail extends JSONLine {
 
 export const jsonLineDetail: JSONSchemaType<JSONLineDetail> = {
   type: "object",
+  title: "路線詳細オブジェクト",
   properties: {
     ...jsonLine.properties,
     station_list: {
       type: "array",
       minItems: 1,
       items: jsonStationRegistration,
+      title: "登録駅リスト",
+      description: "原則として駅メモ実装と同じ順序です",
     },
     polyline_list: jsonPolyline,
   },

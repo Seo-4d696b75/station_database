@@ -163,6 +163,8 @@ export interface JSONPolylineGeo {
 
 export const jsonPolyline: JSONSchemaType<JSONPolylineGeo> = {
   type: "object",
+  title: "路線ポリライン",
+  description: "Feature(LineString)で表現されるポリラインの集合FeatureCollectionです. フォーマットの詳細はGeoJSONに従います.",
   properties: {
     type: {
       type: "string",
@@ -223,10 +225,13 @@ export const jsonPolyline: JSONSchemaType<JSONPolylineGeo> = {
     },
     properties: {
       type: "object",
+      title: "路線ポリライン付加情報",
+      description: "north, south, east, westでポイライン全体の範囲を示します.",
       properties: {
         name: {
           type: "string",
           minLength: 1,
+          title: "路線名",
         },
         north: { type: "number" },
         south: { type: "number" },
