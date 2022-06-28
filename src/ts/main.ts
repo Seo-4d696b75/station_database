@@ -1,11 +1,10 @@
 
-import { readCsvSafe, readJsonSafe } from "./io";
-import { csvLine, jsonLineList } from "./model/line";
-import { csvStation, jsonStation, jsonStationList } from "./model/station";
-import glob from "glob";
-import { writeFileSync } from "fs"
-import { jsonLineDetail } from "./model/lineDetail";
+import { writeFileSync } from "fs";
+import { jsonAllData } from "./model/data";
 import { jsonDelaunayList } from "./model/delaunay";
+import { jsonLineList } from "./model/line";
+import { jsonLineDetail } from "./model/lineDetail";
+import { jsonStationList } from "./model/station";
 import { jsonKdTree, jsonKdTreeSegment } from "./model/tree";
 
 // station.json
@@ -20,3 +19,5 @@ writeFileSync("out/schema/delaunay.schema.json", JSON.stringify(jsonDelaunayList
 writeFileSync("out/schema/tree.schema.json", JSON.stringify(jsonKdTree, undefined, 2))
 // tree/*.json
 writeFileSync("out/schema/tree_segment.schema.json", JSON.stringify(jsonKdTreeSegment, undefined, 2))
+// data.json
+writeFileSync("out/schema/data.schema.json", JSON.stringify(jsonAllData, undefined, 2))
