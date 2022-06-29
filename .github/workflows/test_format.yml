@@ -5,6 +5,7 @@ on:
       - 'out/main/**'
       - 'out/extra/**'
       - 'src/ts/**'
+      - '.github/workflows/**'
 jobs:
   test:
     runs-on: ubuntu-latest
