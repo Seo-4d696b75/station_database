@@ -1,11 +1,6 @@
 {
   "name":"segment8",
   "root":9943903,
-  "east":137.019706,
-  "west":135.713091,
-  "south":35.219918,
-  "north":90.0,
-  "station_size":711,
   "node_list":[
     {"code":9943903,"id":"22f60a","name":"北町","original_name":"北町","name_kana":"きたまち","closed":true,"lat":36.583194,"lng":136.628972,"left":9941924,"right":9952607,"prefecture":17,"lines":[99439],"postal_code":"920-0025","address":"石川県金沢市駅西本町５丁目２-１７","open_date":"1914-08-11","closed_date":"1971-09-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.638411,36.588439],[136.636893,36.592406],[136.631831,36.599734],[136.617489,36.570169],[136.623491,36.568618],[136.6276,36.567761],[136.628197,36.567853],[136.638411,36.588439]]]},"properties":{}},"impl":false},
     {"code":9941924,"id":"e95e68","name":"蓬生","original_name":"蓬生","name_kana":"よもぎ","closed":true,"lat":36.047891,"lng":136.49336,"left":9942115,"right":9944105,"prefecture":18,"lines":[99419],"postal_code":"911-0832","address":"福井県勝山市遅羽町蓬生２９−５１","closed_date":"1973-08-13","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.53871,36.059081],[136.530803,36.053851],[136.460875,36.036779],[136.46424,36.04318],[136.465429,36.044509],[136.474406,36.049357],[136.53871,36.059081]]]},"properties":{}},"impl":false},

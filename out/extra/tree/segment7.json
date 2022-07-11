@@ -1,11 +1,6 @@
 {
   "name":"segment7",
   "root":3102737,
-  "east":137.019706,
-  "west":135.713091,
-  "south":34.544359,
-  "north":35.219918,
-  "station_size":712,
   "node_list":[
     {"code":3102737,"id":"44db95","name":"高田本山","original_name":"高田本山","name_kana":"たかだほんざん","closed":false,"lat":34.755082,"lng":136.516431,"left":3300110,"right":1150807,"prefecture":24,"lines":[31027],"attr":"cool","postal_code":"514-0111","address":"津市一身田平野３６９-２","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.50936,34.751074],[136.521728,34.765722],[136.543269,34.743448],[136.50936,34.751074]]]},"properties":{}},"impl":true},
     {"code":3300110,"id":"4456b9","name":"墨染","original_name":"墨染","name_kana":"すみぞめ","closed":false,"lat":34.948206,"lng":135.769126,"left":1163703,"right":3300710,"prefecture":26,"lines":[33001],"attr":"heat","postal_code":"612-0051","address":"京都市伏見区墨染町６９１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.768957,34.942888],[135.76619,34.943976],[135.763581,34.953249],[135.772368,34.952158],[135.77248,34.941869],[135.768957,34.942888]]]},"properties":{}},"impl":true},

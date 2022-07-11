@@ -334,13 +334,15 @@ class CSVTest < FormatTest
         if n = s["numbering"]
           numbering = n.join("/")
         end
-        @register << {
-          "station_code" => station_code,
-          "line_code" => line_code,
-          "index" => index,
-          "numbering" => numbering,
-          "impl" => (impl && station["impl"]),
-        }
+        if !IMPL || (impl && station["impl"] && line["impl"])
+          @register << {
+            "station_code" => station_code,
+            "line_code" => line_code,
+            "index" => index,
+            "numbering" => numbering,
+            "impl" => (impl && station["impl"]),
+          }
+        end
 
         # 路線登録数の確認 impl only
         impl_size += 1 if station["impl"] && impl

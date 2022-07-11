@@ -1,11 +1,6 @@
 {
   "name":"segment13",
   "root":1040202,
-  "east":140.793833,
-  "west":137.019706,
-  "south":36.595732,
-  "north":37.748139,
-  "station_size":712,
   "node_list":[
     {"code":1040202,"id":"a67fe4","name":"片貝(新潟)","original_name":"片貝","name_kana":"かたかい","closed":true,"lat":37.370083,"lng":138.779889,"left":9944821,"right":9921605,"prefecture":15,"lines":[10402],"postal_code":"947-0101","address":"新潟県小千谷市片貝町４７８４−１２","open_date":"1911-09-14","closed_date":"1984-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.788872,37.352877],[138.761545,37.340237],[138.755624,37.360039],[138.772701,37.384819],[138.805172,37.380457],[138.788872,37.352877]]]},"properties":{}},"impl":false},
     {"code":9944821,"id":"5d1808","name":"四ヶ郷","original_name":"四ヶ郷","name_kana":"しかごう","closed":true,"lat":36.776222,"lng":138.359778,"left":9941003,"right":9942311,"prefecture":20,"lines":[99448],"postal_code":"383-0063","address":"長野県中野市間長瀬５００","open_date":"1925-07-12","closed_date":"2002-03-31","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.338953,36.785855],[138.343377,36.763566],[138.377225,36.769751],[138.380606,36.7773],[138.338953,36.785855]]]},"properties":{}},"impl":false},

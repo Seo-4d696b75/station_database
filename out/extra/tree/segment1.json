@@ -1,11 +1,6 @@
 {
   "name":"segment1",
   "root":9992520,
-  "east":131.330142,
-  "west":-180.0,
-  "south":-90.0,
-  "north":33.248632,
-  "station_size":712,
   "node_list":[
     {"code":9992520,"id":"5d46b2","name":"宇宿一丁目","original_name":"宇宿一丁目","name_kana":"うすきいっちょうめ","closed":false,"lat":31.546439,"lng":130.539068,"left":9991317,"right":1192506,"prefecture":46,"lines":[99925],"attr":"heat","postal_code":"890-0073","address":"鹿児島市宇宿１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.530541,31.553885],[130.537131,31.546085],[130.612629,31.498026],[130.615348,31.504001],[130.530541,31.553885]]]},"properties":{}},"impl":true},
     {"code":9991317,"id":"142ac3","name":"八千代町","original_name":"八千代町","name_kana":"やちよまち","closed":false,"lat":32.754979,"lng":129.870436,"left":9993910,"right":1191802,"prefecture":42,"lines":[99913,99914],"attr":"cool","postal_code":"850-0043","address":"長崎市八千代町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[129.862334,32.752483],[129.871341,32.753783],[129.875707,32.756198],[129.878209,32.759224],[129.878544,32.761142],[129.862334,32.752483]]]},"properties":{}},"impl":true},

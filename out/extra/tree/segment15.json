@@ -1,11 +1,6 @@
 {
   "name":"segment15",
   "root":100420,
-  "east":180.0,
-  "west":140.793833,
-  "south":36.595732,
-  "north":43.030455,
-  "station_size":712,
   "node_list":[
     {"code":100420,"id":"c953e7","name":"二戸","original_name":"二戸","name_kana":"にのへ","closed":false,"lat":40.25997,"lng":141.286211,"left":9922511,"right":1120605,"prefecture":3,"lines":[1004,99205,11233],"attr":"cool","postal_code":"028-6103","address":"二戸市石切所","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[141.095084,40.310315],[141.08285,40.309147],[141.109685,40.263559],[141.14204,40.216307],[141.178183,40.209497],[141.379776,40.254797],[141.095084,40.310315]]]},"properties":{}},"impl":true},
     {"code":9922511,"id":"44b2a7","name":"栗駒","original_name":"栗駒","name_kana":"くりこま","closed":true,"lat":38.829611,"lng":140.991861,"left":9923703,"right":1123170,"prefecture":4,"lines":[99225],"postal_code":"989-5301","address":"宮城県栗原市栗駒岩ケ崎上町裏５６−２","open_date":"1922-12-17","closed_date":"2007-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.922419,38.925306],[140.881181,39.046882],[140.999662,38.952646],[141.001706,38.811717],[140.959728,38.862676],[140.927761,38.913613],[140.922419,38.925306]]]},"properties":{}},"impl":false},

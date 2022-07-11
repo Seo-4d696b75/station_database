@@ -1,11 +1,6 @@
 {
   "name":"segment14",
   "root":9921110,
-  "east":140.492626,
-  "west":137.015274,
-  "south":37.097457,
-  "north":90.0,
-  "station_size":582,
   "node_list":[
     {"code":9921110,"id":"922043","name":"長井","original_name":"長井","name_kana":"ながい","closed":false,"lat":38.106505,"lng":140.033486,"left":1140816,"right":9922204,"prefecture":6,"lines":[99211],"attr":"eco","postal_code":"993-0084","address":"長井市栄町","open_date":"1914-11-15","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.98613,38.1056],[140.086914,38.115549],[140.090974,38.1153],[140.090624,38.114525],[140.085787,38.108177],[139.998047,38.097791],[139.98613,38.1056]]]},"properties":{}}},
     {"code":1140816,"id":"1705e8","name":"粟生津","original_name":"粟生津","name_kana":"あおうづ","closed":false,"lat":37.653988,"lng":138.873484,"left":1140429,"right":1122615,"prefecture":15,"lines":[11408],"attr":"eco","postal_code":"959-0222","address":"燕市下粟生津","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.897079,37.610832],[138.884617,37.602372],[138.843578,37.659016],[138.892183,37.665762],[138.903661,37.649878],[138.905634,37.641919],[138.903796,37.618495],[138.897079,37.610832]]]},"properties":{}}},

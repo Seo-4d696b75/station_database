@@ -1,11 +1,6 @@
 {
   "name":"segment9",
   "root":1150135,
-  "east":139.539259,
-  "west":137.019706,
-  "south":-90.0,
-  "north":35.603921,
-  "station_size":712,
   "node_list":[
     {"code":1150135,"id":"fb262e","name":"御厨(静岡)","original_name":"御厨","name_kana":"みくりや","closed":false,"lat":34.718447,"lng":137.88534,"left":3000522,"right":1130114,"prefecture":22,"lines":[11501],"attr":"eco","postal_code":"438-0038","address":"静岡県磐田市鎌田","open_date":"2020-03-14","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[138.345799,32.81567],[137.855172,34.768501],[137.859336,34.769312],[137.883939,34.768372],[137.999775,34.563172],[138.046617,34.45743],[138.353887,33.03641],[138.345799,32.81567]]]},"properties":{}},"impl":true},
     {"code":3000522,"id":"74d94f","name":"重原","original_name":"重原","name_kana":"しげはら","closed":false,"lat":34.994824,"lng":137.023727,"left":9952003,"right":1141114,"prefecture":23,"lines":[30005],"attr":"heat","postal_code":"472-0026","address":"知立市上重原町本郷４-４","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.013256,35.005322],[137.029324,35.003802],[137.036784,34.993373],[137.017998,34.986125],[137.013256,35.005322]]]},"properties":{}},"impl":true},

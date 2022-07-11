@@ -1,11 +1,6 @@
 {
   "name":"segment11",
   "root":2800612,
-  "east":180.0,
-  "west":139.539259,
-  "south":-90.0,
-  "north":35.711627,
-  "station_size":712,
   "node_list":[
     {"code":2800612,"id":"fea66e","name":"江戸川橋","original_name":"江戸川橋","name_kana":"えどがわばし","closed":false,"lat":35.709495,"lng":139.733538,"left":2600603,"right":1132607,"prefecture":13,"lines":[28006],"attr":"eco","postal_code":"112-0014","address":"東京都文京区関口一丁目19-6","open_date":"1974-10-30","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.731722,35.715013],[139.726393,35.711665],[139.726319,35.711204],[139.728053,35.705584],[139.74077,35.707831],[139.742159,35.709935],[139.731722,35.715013]]]},"properties":{}},"impl":true},
     {"code":2600603,"id":"edaad6","name":"鵜の木","original_name":"鵜の木","name_kana":"うのき","closed":false,"lat":35.575452,"lng":139.680554,"left":2700124,"right":2800221,"prefecture":13,"lines":[26006],"attr":"eco","postal_code":"146-0091","address":"大田区鵜の木２-４-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.673626,35.575606],[139.674989,35.568525],[139.677706,35.566788],[139.684708,35.57546],[139.680729,35.580498],[139.678747,35.580887],[139.673626,35.575606]]]},"properties":{}},"impl":true},
