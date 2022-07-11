@@ -1,11 +1,6 @@
 {
   "name":"segment6",
   "root":1163309,
-  "east":135.659755,
-  "west":-180.0,
-  "south":34.77553,
-  "north":90.0,
-  "station_size":582,
   "node_list":[
     {"code":1163309,"id":"b63d0a","name":"西栗栖","original_name":"西栗栖","name_kana":"にしくりす","closed":false,"lat":34.952378,"lng":134.470646,"left":1170323,"right":9964305,"prefecture":28,"lines":[11633],"attr":"heat","postal_code":"679-5154","address":"たつの市新宮町鍛冶屋","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[134.443269,34.884623],[134.456417,34.884894],[134.523115,35.044923],[134.414229,34.926446],[134.418051,34.912671],[134.426562,34.894812],[134.443269,34.884623]]]},"properties":{}}},
     {"code":1170323,"id":"614a46","name":"生山","original_name":"生山","name_kana":"しょうやま","closed":false,"lat":35.171066,"lng":133.322054,"left":1171409,"right":1170504,"prefecture":31,"lines":[11703],"attr":"eco","postal_code":"689-5211","address":"日野郡日南町生山","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[133.231138,35.108057],[133.207323,35.177839],[133.210074,35.27741],[133.218178,35.280972],[133.363414,35.155218],[133.245334,35.096184],[133.242109,35.098209],[133.231138,35.108057]]]},"properties":{}}},

@@ -1,11 +1,6 @@
 {
   "name":"segment15",
   "root":1121103,
-  "east":180.0,
-  "west":140.492626,
-  "south":36.30016,
-  "north":40.71309,
-  "station_size":582,
   "node_list":[
     {"code":1121103,"id":"da9faa","name":"小岩井","original_name":"小岩井","name_kana":"こいわい","closed":false,"lat":39.709731,"lng":141.02465,"left":1121706,"right":1120915,"prefecture":3,"lines":[11211],"attr":"eco","postal_code":"020-0757","address":"岩手県滝沢市大釜風林19-2","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[141.044399,39.813897],[141.039827,39.820288],[140.977018,39.843734],[140.955195,39.845353],[140.970156,39.771444],[141.03985,39.601732],[141.052064,39.617393],[141.044399,39.813897]]]},"properties":{}}},
     {"code":1121706,"id":"ddae9d","name":"葛岡","original_name":"葛岡","name_kana":"くずおか","closed":false,"lat":38.268816,"lng":140.818583,"left":9921323,"right":1122116,"prefecture":4,"lines":[11217],"attr":"eco","postal_code":"989-3121","address":"仙台市青葉区郷六字葛岡下","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.797073,38.226042],[140.810522,38.310596],[140.828997,38.264411],[140.797073,38.226042]]]},"properties":{}}},

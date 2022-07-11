@@ -1,11 +1,6 @@
 {
   "name":"segment8",
   "root":3002004,
-  "east":137.015274,
-  "west":135.659755,
-  "south":35.132731,
-  "north":90.0,
-  "station_size":582,
   "node_list":[
     {"code":3002004,"id":"4548b8","name":"南宿","original_name":"南宿","name_kana":"みなみじゅく","closed":false,"lat":35.347869,"lng":136.728604,"left":9942105,"right":3001418,"prefecture":21,"lines":[30020],"attr":"heat","postal_code":"501-6203","address":"羽島市足近町南宿字北出９１６-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.710526,35.37161],[136.695265,35.360664],[136.706329,35.34904],[136.742886,35.340473],[136.746472,35.348584],[136.710526,35.37161]]]},"properties":{}}},
     {"code":9942105,"id":"59f08e","name":"西鯖江","original_name":"西鯖江","name_kana":"にしさばえ","closed":false,"lat":35.946352,"lng":136.1819,"left":9960202,"right":9941912,"prefecture":18,"lines":[99421],"attr":"eco","postal_code":"916-0027","address":"鯖江市桜町１-３-１３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.174142,35.95501],[136.164165,35.943751],[136.183754,35.941091],[136.185498,35.945137],[136.184996,35.948665],[136.175327,35.954914],[136.174142,35.95501]]]},"properties":{}}},

@@ -1,11 +1,6 @@
 {
   "name":"segment3",
   "root":1180806,
-  "east":137.019706,
-  "west":131.330142,
-  "south":-90.0,
-  "north":34.158024,
-  "station_size":712,
   "node_list":[
     {"code":1180806,"id":"dde596","name":"土佐昭和","original_name":"土佐昭和","name_kana":"とさしょうわ","closed":false,"lat":33.220047,"lng":132.897413,"left":9993414,"right":1180429,"prefecture":39,"lines":[11808],"attr":"cool","postal_code":"786-0511","address":"高岡郡四万十町昭和","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.982408,33.510456],[132.978835,33.510306],[132.977177,33.50959],[132.853563,33.162766],[132.876481,33.10029],[132.897827,33.099077],[132.901643,33.099363],[133.00239,33.411597],[132.982408,33.510456]]]},"properties":{}},"impl":true},
     {"code":9993414,"id":"ab96c4","name":"古城","original_name":"古城","name_kana":"ふるしろ","closed":true,"lat":33.466265,"lng":131.726837,"left":1190643,"right":1180712,"prefecture":44,"lines":[99934],"postal_code":"873-0231","address":"大分県国東市安岐町下原３１０６","closed_date":"1966-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[131.891625,33.388427],[131.705114,33.483769],[131.69938,33.483835],[131.749902,33.439186],[131.856317,33.378057],[131.891625,33.388427]]]},"properties":{}},"impl":false},

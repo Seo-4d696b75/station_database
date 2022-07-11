@@ -1,11 +1,6 @@
 {
   "name":"segment5",
   "root":9962506,
-  "east":135.713091,
-  "west":-180.0,
-  "south":34.544359,
-  "north":34.772574,
-  "station_size":712,
   "node_list":[
     {"code":9962506,"id":"8b1b53","name":"フェリーターミナル","original_name":"フェリーターミナル","name_kana":"ふぇりーたーみなる","closed":false,"lat":34.619253,"lng":135.434962,"left":9963722,"right":3102005,"prefecture":27,"lines":[99625],"attr":"heat","postal_code":"559-0031","address":"大阪市住之江区南港東４-８-５２","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.393885,34.588472],[135.392425,34.586746],[135.442283,34.620233],[135.448871,34.633582],[135.425907,34.621976],[135.393885,34.588472]]]},"properties":{}},"impl":true},
     {"code":9963722,"id":"3f8b68","name":"江井ヶ島","original_name":"江井ヶ島","name_kana":"えいがしま","closed":false,"lat":34.679022,"lng":134.919879,"left":9972303,"right":9963206,"prefecture":28,"lines":[99637],"attr":"eco","postal_code":"674-0064","address":"兵庫県明石市大久保町江井島字辻鼻","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[134.862976,34.545912],[134.848764,34.520744],[134.824916,34.525022],[134.920372,34.693624],[134.9268,34.698747],[134.929825,34.678541],[134.862976,34.545912]]]},"properties":{}},"impl":true},

@@ -1,7 +1,6 @@
 {
   "name":"root",
   "root":3001218,
-  "station_size":15,
   "node_list":[
     {"code":3001218,"id":"7c77b8","name":"旭前","original_name":"旭前","name_kana":"あさひまえ","closed":false,"lat":35.214162,"lng":137.019706,"left":9970406,"right":1140302,"prefecture":23,"lines":[30012],"attr":"heat","postal_code":"488-0855","address":"愛知県尾張旭市旭前町五丁目4-5","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.030632,35.198758],[137.02062,35.198132],[137.007894,35.233593],[137.024646,35.237455],[137.030632,35.198758]]]},"properties":{}},"impl":true},
     {"code":9970406,"id":"8aee74","name":"弥生","original_name":"弥生","name_kana":"やよい","closed":false,"lat":34.544359,"lng":133.747534,"left":1170214,"right":1161710,"prefecture":33,"lines":[99704],"attr":"heat","postal_code":"712-8035","address":"倉敷市水島東弥生町７８","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[133.715833,34.553477],[133.730405,34.555217],[133.777321,34.549039],[133.771139,34.531016],[133.715833,34.553477]]]},"properties":{}},"impl":true},

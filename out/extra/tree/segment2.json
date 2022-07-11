@@ -1,11 +1,6 @@
 {
   "name":"segment2",
   "root":1191112,
-  "east":131.330142,
-  "west":-180.0,
-  "south":33.248632,
-  "north":34.544359,
-  "station_size":712,
   "node_list":[
     {"code":1191112,"id":"626f81","name":"浦田(福岡)","original_name":"浦田","name_kana":"うらた","closed":false,"lat":33.655801,"lng":130.699277,"left":1190912,"right":3600635,"prefecture":40,"lines":[11911],"attr":"heat","postal_code":"820-0001","address":"飯塚市鯰田","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.689584,33.653147],[130.714361,33.642414],[130.733693,33.650797],[130.735609,33.652701],[130.694157,33.664598],[130.689584,33.653147]]]},"properties":{}},"impl":true},
     {"code":1190912,"id":"40c43b","name":"波多江","original_name":"波多江","name_kana":"はたえ","closed":false,"lat":33.563876,"lng":130.226374,"left":1190503,"right":3601505,"prefecture":40,"lines":[11909],"attr":"heat","postal_code":"819-1103","address":"福岡県糸島市波多江駅北四丁目3-13","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.178935,33.721141],[130.247213,33.451],[130.261253,33.423407],[130.266567,33.481436],[130.193782,33.686408],[130.178935,33.721141]]]},"properties":{}},"impl":true},
