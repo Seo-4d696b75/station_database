@@ -53,29 +53,20 @@ ARGV.clear()
 
 def get_address(station)
   print "get address of station:#{station["name"]} > "
-  data = nil
-  file = "src/details/address/#{station["code"]}.json"
-  if !data
-    uri = URI.parse("https://maps.googleapis.com/")
-    https = Net::HTTP.new(uri.host, uri.port)
-    https.use_ssl = true
-    https.verify_mode = OpenSSL::SSL::VERIFY_NONE
-    https.verify_depth = 5
-    res = https.start { |w| w.get("/maps/api/geocode/json?latlng=#{station["lat"]},#{station["lng"]}&key=#{API_KEY}&language=ja") }
-    assert_equal res.code, "200", "response from /maps/api/geocode/json"
-    data = JSON.parse(res.body)
-    assert_equal data["status"], "OK", "response:\n#{JSON.pretty_generate(data)}"
-    h = {}
-    h["station"] = station["name"]
-    h["lat"] = station["lat"]
-    h["lng"] = station["lng"]
-    h["plus_code"] = data["plus_code"]
-    h["results"] = data["results"]
-    File.open("src/details/address/#{station["code"]}.json", "w") { |f| f.write(JSON.pretty_generate(h)) }
-    data = data["results"][0]
-    puts "GeocodeAPI success."
-  end
-  puts "address: #{data["formatted_address"]}"
+
+  uri = URI.parse("https://maps.googleapis.com/")
+  https = Net::HTTP.new(uri.host, uri.port)
+  https.use_ssl = true
+  https.verify_mode = OpenSSL::SSL::VERIFY_NONE
+  https.verify_depth = 5
+  res = https.start { |w| w.get("/maps/api/geocode/json?latlng=#{station["lat"]},#{station["lng"]}&key=#{API_KEY}&language=ja") }
+  assert_equal res.code, "200", "response from /maps/api/geocode/json"
+  data = JSON.parse(res.body)
+  assert_equal data["status"], "OK", "response:\n#{JSON.pretty_generate(data)}"
+   
+  data = data["results"][0]
+
+  puts "address: #{data["formatted_address"]} #{data}"
   # 郵便番号
   list = data["address_components"].select { |c| c["types"].include?("postal_code") }
   assert_equal list.length, 1, "fail to extract postal-code"
