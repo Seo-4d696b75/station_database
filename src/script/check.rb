@@ -4,6 +4,7 @@ load("src/script/format.rb")
 
 require "net/http"
 require "optparse"
+require "dotenv"
 
 STATION_FIELD = [
   "code",
@@ -42,7 +43,9 @@ REGISTER_FIELDS = [
   "station_code", "line_code", "index", "numbering", "impl",
 ]
 
-API_KEY = read("src/api_key.txt")
+Dotenv.load "src/.env"
+API_KEY = ENV["GOOGLE_GEOCODING_API_KEY"]
+puts API_KEY
 IMPL = false
 DST = nil
 opt = OptionParser.new

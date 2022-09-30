@@ -1,7 +1,7 @@
 *.zip
 *.lnk
 *.pem
-src/api_key.txt
+src/.env
 src/location/map/*.png
 src/location/raw/*.jpg
 src/location/raw/*.png
