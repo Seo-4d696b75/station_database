@@ -1,9 +1,9 @@
-set JAR=""
+FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/.env") do SET %%i=%%j
 
-java -jar %JAR% src/solved/station.json src/diagram/station.json
+java -jar %DIAGRAM_JAR_PATH% src/solved/station.json src/diagram/station.json
 if errorlevel 1 call :stop
 
-java -jar %JAR% src/solved/station.extra.json src/diagram/station.extra.json
+java -jar %DIAGRAM_JAR_PATH% src/solved/station.extra.json src/diagram/station.extra.json
 if errorlevel 1 call :stop
 
 exit /b

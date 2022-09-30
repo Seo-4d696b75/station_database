@@ -1,5 +1,7 @@
 # データベース管理手引き
 
+開発者向けの説明です
+
 # Setup
 
 ## Node + TypeScript の環境構築
@@ -7,10 +9,17 @@
 明示的な型定義によりデータ定義の曖昧さを可能な限り排除しつつ、
 JS譲りの高い生産性が期待できます
 
-`nodebrew`などでNodeバージョンを指定します
+`nodebrew`の利用
 
 ```bash
 nodebrew use v16.14.0
+```
+
+`nodenv`の利用
+
+```bash
+nodenv install 16.14.0
+nodenv global 16.14.0
 ```
 
 必要なパッケージの取得
@@ -18,17 +27,35 @@ nodebrew use v16.14.0
 npm install
 ```
 
+## Gemの依存解決
+
+rubyスクリプトで使用します
+
+```bash
+gem install dotenv
+```
 
 ## API keyの用意
-GCP consoleから Geocoding API が利用可能なAPI keyを取得する
-```bash
-echo $API_KEY > src/api_key.txt
+GCP consoleから Geocoding API が利用可能なAPI keyを取得して以下のファイルで指定します
+
+`src/.env`  
+
+```env
+GOOGLE_GEOCODING_API_KEY=${API_KEY}
+DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 ```
 
 ## ボロノイ分割計算のセットアップ
 [diagram](https://github.com/Seo-4d696b75/diagram)のプロジェクトをbuildしてjarファイルを用意
 
-`diagram.bat, diagram.sh`内の変数`$JAR`を適宜変更する  
+以下のファイルでjarファイルを指定します
+
+`src/.env`  
+
+```env
+GOOGLE_GEOCODING_API_KEY=${API_KEY}
+DIAGRAM_JAR_PATH=${PATH_TO_JAR}
+```
 
 ## 改行コードの統一
 `LF`に統一したいので `git config core.autocrlf input` を確認
