@@ -68,7 +68,7 @@ GitHub Actions によるデータのテストが自動で走り結果が上部�
 ### Station API
 <img src="https://user-images.githubusercontent.com/25225028/172097592-58523958-feb4-4c5a-9a05-0291bca7c31d.png" height="150">
 
-[このデータベースの駅情報をAPIで取得できます.](https://station-service.herokuapp.com/api/docs)  
+[このデータベースの駅情報をAPIで取得できます.](https://station-service-5bzhd44ozq-an.a.run.app/api/docs)  
 
 ---------------------------
 
