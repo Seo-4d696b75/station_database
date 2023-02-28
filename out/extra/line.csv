@@ -38,7 +38,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11208,8cbf9c,JR大船渡線(ドラゴンレール大船渡線),じぇいあーるおおふなとせん,JR大船渡線,39,2,#F18E44,NULL,0,NULL,1
 11209,7b973e,JR釜石線(銀河ドリームライン釜石線),じぇいあーるかまいしせん,JR釜石線,24,2,#0073BF,NULL,0,NULL,1
 11210,862068,JR北上線,じぇいあーるきたかみせん,NULL,17,2,#851A72,NULL,0,NULL,1
-11211,02c554,JR田沢湖線,じぇいあーるたざわこせん,NULL,17,2,#9D72B0,NULL,0,NULL,1
+11211,02c554,JR田沢湖線,じぇいあーるたざわこせん,NULL,18,2,#9D72B0,NULL,0,NULL,1
 11212,11653a,JR花輪線(十和田八幡平四季彩ライン),じぇいあーるはなわせん(とわだはちまんたいしきさいらいん),JR花輪線,27,2,#FF0000,NULL,0,NULL,1
 11213,0de295,JR山田線,じぇいあーるやまだせん,NULL,18,2,#CD7A1E,NULL,0,NULL,1
 11214,ca35da,JR羽越本線,じぇいあーるうえつほんせん,NULL,60,2,#75C8FF,NULL,0,NULL,1
@@ -82,7 +82,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11323,e31da4,JR高崎線,じぇいあーるたかさきせん,NULL,24,2,#F68B1E,JU,0,NULL,1
 11324,baba65,JR外房線,じぇいあーるそとぼうせん,NULL,27,2,#DB4028,NULL,0,NULL,1
 11325,c628ee,JR内房線,じぇいあーるうちぼうせん,NULL,32,2,#00BFFF,NULL,0,NULL,1
-11326,c930f9,JR京葉線,じぇいあーるけいようせん,NULL,17,2,#C9242F,JE,0,NULL,1
+11326,c930f9,JR京葉線,じぇいあーるけいようせん,NULL,18,2,#C9242F,JE,0,NULL,1
 11327,f204e9,JR成田線,じぇいあーるなりたせん,NULL,28,2,#000000,JO,0,NULL,1
 11328,859601,JR成田エクスプレス,じぇいあーるなりたえくすぷれす,NULL,19,2,NULL,NULL,0,NULL,1
 11329,7fe2ca,JR鹿島線,じぇいあーるかしません,NULL,7,2,#C56E2E,NULL,0,NULL,1
@@ -272,6 +272,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 26006,3d7165,東急多摩川線,とうきゅうたまがわせん,NULL,7,16,#AE0378,TM,0,NULL,1
 26007,0477d1,東急世田谷線,とうきゅうせたがやせん,NULL,10,16,#FCC70D,SG,0,NULL,1
 26008,fe06ac,東急こどもの国線,とうきゅうこどものくにせん,NULL,3,16,#0068B7,KD,0,NULL,1
+26009,8e20ba,東急新横浜線,とうきゅうしんよこはません,NULL,3,16,#6F1585,SH,0,NULL,1
 27001,8f85fa,京急本線,けいきゅうほんせん,NULL,50,17,#00BFFF,KK,0,NULL,1
 27002,cd1b4a,京急空港線,けいきゅうくうこうせん,NULL,7,17,#00BFFF,KK,0,NULL,1
 27003,c7fc45,京急大師線,けいきゅうたいしせん,NULL,8,17,#00BFFF,KK,0,NULL,1
@@ -288,7 +289,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 28010,e98d36,東京メトロ副都心線,とうきょうめとろふくとしんせん,NULL,16,18,#BB641D,F,0,NULL,1
 29001,7410d9,相鉄本線,そうてつほんせん,NULL,18,19,#2288CC,SO,0,NULL,1
 29002,a3ba62,相鉄いずみ野線,そうてついずみのせん,NULL,8,19,#2288CC,SO,0,NULL,1
-29003,d931ec,相鉄新横浜線,そうてつしんよこはません,NULL,2,19,#2288CC,SO,0,NULL,1
+29003,d931ec,相鉄新横浜線,そうてつしんよこはません,NULL,3,19,#2288CC,SO,0,NULL,1
 30001,18140a,名鉄名古屋本線,めいてつなごやほんせん,NULL,60,20,#DC143C,NH,0,NULL,1
 30002,23e75e,名鉄豊川線,めいてつとよかわせん,NULL,5,20,#DC143C,TK,0,NULL,1
 30003,2ed17c,名鉄西尾線,めいてつにしおせん,NULL,17,20,#483D8B,GN,0,NULL,1
@@ -583,7 +584,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99928,9f2290,平成筑豊鉄道門司港レトロ観光線,へいせいちくほうてつどうもじこうれとろかんこうせん,NULL,4,230,NULL,NULL,0,NULL,1
 99905,6d0684,福岡市営地下鉄空港線,ふくおかしえいちかてつくうこうせん,NULL,13,231,#EE5511,K,0,NULL,1
 99906,8cd01c,福岡市営地下鉄箱崎線,ふくおかしえいちかてつはこざきせん,NULL,7,231,#0077CC,H,0,NULL,1
-99907,d01086,福岡市営地下鉄七隈線,ふくおかしえいちかてつななくません,NULL,16,231,#00AA44,N,0,NULL,1
+99907,d01086,福岡市営地下鉄七隈線,ふくおかしえいちかてつななくません,NULL,18,231,#00AA44,N,0,NULL,1
 99908,10d5c0,北九州高速鉄道,きたきゅうしゅうこうそくてつどう,NULL,13,232,NULL,NULL,0,NULL,1
 99909,643708,筑豊電気鉄道,ちくほうでんきてつどう,筑豊電気鉄道線,21,233,#E30075,CK,0,NULL,1
 99910,e6a53c,松浦鉄道西九州線(有田～伊万里),まつうらてうどう,NULL,11,234,NULL,NULL,0,NULL,1
