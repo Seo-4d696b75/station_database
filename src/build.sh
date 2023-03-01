@@ -1,10 +1,6 @@
 set -e
 
-version=$1
-if [ $# -ne 1 ]; then
-  echo "version string not found"
-  exit 1
-fi
+source ./src/build.env
 
 ./src/check.sh
 
@@ -12,13 +8,13 @@ fi
 
 ruby src/script/polyline.rb
 
-./src/pack.sh $version
+./src/pack.sh $VERSION
 
-./src/release.sh $version
+./src/release.sh $VERSION
 
 
 git add ./src ./out
-git commit -m "[build] version ${version}"
+git commit -m "[build] version ${VERSION}"
 
 git add ./latest*
-git commit -m "[update] version info ${version}"
+git commit -m "[update] version info ${VERSION}"
