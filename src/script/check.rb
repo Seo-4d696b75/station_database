@@ -1,5 +1,9 @@
-# check raw data in csv files, and write into json files.
-# add "--impl" arg in cmd if extract only station item whose "impl"=true
+# src/*.csvファイルを入力としてデータ整合性の確認・データの自動補完を行います
+# オプション
+# -i [--impl]: "impl"=trueのデータのみ対象にします
+# -d [--dst] DIR: DIRを指定するとbuildしたjsonファイル群を出力します（補完作業なし） 
+#                 DIRの指定がない場合はインタラクションモードで実行します（補完作業あり）
+
 load("src/script/format.rb")
 
 require "net/http"
@@ -45,12 +49,14 @@ REGISTER_FIELDS = [
 
 Dotenv.load "src/.env.local"
 API_KEY = ENV["GOOGLE_GEOCODING_API_KEY"]
-puts API_KEY
-IMPL = false
-DST = nil
+
+$interaction = false
+$impl = true
+$dst = nil
 opt = OptionParser.new
-opt.on("-i", "--impl") { IMPL = true }
-opt.on("-d", "--dst VALUE") { |v| DST = v }
+opt.on("-e", "--extra") { $impl = false }
+opt.on("-i", "--interaction") { $interaction = true }
+opt.on("-d", "--dst VALUE") { |v| $dst = v }
 opt.parse!(ARGV)
 ARGV.clear()
 
@@ -110,8 +116,10 @@ class CSVTest < FormatTest
     check_address()
 
     # save with formatted values
-    write_csv("src/station.csv", STATION_FIELD, @stations)
-    write_csv("src/line.csv", LINE_FIELD, @lines)
+    if $interaction
+      write_csv("src/station.csv", STATION_FIELD, @stations)
+      write_csv("src/line.csv", LINE_FIELD, @lines)
+    end
 
     self.check_init()
 
@@ -119,7 +127,7 @@ class CSVTest < FormatTest
     # registaration of station-line is defined here
     read_line_details()
 
-    if IMPL
+    if $impl
       # filter impl
       @stations.select! do |s|
         s["lines"].select! { |code| @line_map[code]["impl"] }
@@ -138,40 +146,39 @@ class CSVTest < FormatTest
   end
 
   def teardown
-    if DST
-      puts "write csv to #{DST}/*.csv impl:#{IMPL}"
+    if $dst
+      puts "write csv to #{$dst}/*.csv impl:#{$impl}"
       station_field = STATION_FIELD.dup
       line_field = LINE_FIELD.dup
       register_field = REGISTER_FIELDS.dup
-      if IMPL
+      if $impl
         station_field.delete("impl")
         line_field.delete("impl")
         register_field.delete("impl")
       end
-      write_csv("#{DST}/station.csv", station_field, @stations)
-      write_csv("#{DST}/line.csv", line_field, @lines)
-      write_csv("#{DST}/register.csv", register_field, @register)
+      write_csv("#{$dst}/station.csv", station_field, @stations)
+      write_csv("#{$dst}/line.csv", line_field, @lines)
+      write_csv("#{$dst}/register.csv", register_field, @register)
       puts "OK"
-    end
 
-    print "Write to json files..."
-    File.open("src/solved/line#{IMPL ? "" : ".extra"}.json", "w") do |f|
-      list = @lines.map do |line|
-        line.delete_if do |key, value|
-          value == nil || key == "station_list"
+      print "Write to json files..."
+      File.open("build/line#{$impl ? "" : ".extra"}.json", "w") do |f|
+        list = @lines.map do |line|
+          line.delete_if do |key, value|
+            value == nil || key == "station_list"
+          end
+          sort_hash(line)
         end
-        sort_hash(line)
+        f.write(format_json(list, flat_array: [:root]))
       end
-      f.write(format_json(list, flat_array: [:root]))
-    end
-    File.open("src/solved/station#{IMPL ? "" : ".extra"}.json", "w") do |f|
-      list = @stations.map do |s|
-        s.delete_if { |key, value| value == nil }
-        sort_hash(s)
+      File.open("build/station#{$impl ? "" : ".extra"}.json", "w") do |f|
+        list = @stations.map do |s|
+          s.delete_if { |key, value| value == nil }
+          sort_hash(s)
+        end
+        f.write(format_json(list, flat_array: [:root]))
       end
-      f.write(format_json(list, flat_array: [:root]))
     end
-    puts "OK"
 
     puts "All done."
   end
@@ -262,6 +269,7 @@ class CSVTest < FormatTest
     puts "add id to new station/line time."
     (@stations + @lines).each do |s|
       if !s["id"]
+        assert($interaction, "not interaction mode")
         s["id"] = @id_set.get()
       end
     end
@@ -270,6 +278,7 @@ class CSVTest < FormatTest
   def check_address
     @stations.each do |station|
       if !station["postal_code"] || !station["address"]
+        assert($interaction, "not interaction mode")
         get_address(station)
       end
       assert station["postal_code"].match(PATTERN_POST), "invalide post code: #{JSON.dump(station)}"
@@ -308,12 +317,14 @@ class CSVTest < FormatTest
         if station_code != station["code"]
           # 駅名の重複なしのため駅名一致なら同値
           puts "station code changed. #{station_name}@#{line["name"]}(#{line["code"]}) #{station_code}=>#{station["code"]}"
+          assert($interaction, "not interaction mode")
           station_code = station["code"]
           s["code"] = station["code"]
           write = true
         elsif station_name != station["name"]
           # 駅名変更は慎重に
           print "station name changed. #{station_code}@#{line["name"]}(#{line["code"]}) #{station_name}=>#{station["name"]} Is this OK? Y/N =>"
+          assert($interaction, "not interaction mode")
           assert gets.chomp.match(/^[yY]?$/), "abort"
           station_name = station["name"]
           s["name"] = station["name"]
@@ -328,7 +339,7 @@ class CSVTest < FormatTest
         if n = s["numbering"]
           numbering = n.join("/")
         end
-        if !IMPL || (impl && station["impl"] && line["impl"])
+        if !$impl || (impl && station["impl"] && line["impl"])
           @register << {
             "station_code" => station_code,
             "line_code" => line_code,
@@ -341,7 +352,7 @@ class CSVTest < FormatTest
         # 路線登録数の確認 impl only
         impl_size += 1 if station["impl"] && impl
 
-        if !IMPL || (station["impl"] && impl)
+        if !$impl || (station["impl"] && impl)
           # only impl# 駅要素側にも登録路線を記憶
           station["lines"] << line["code"]
           next sort_hash(s)
@@ -349,10 +360,11 @@ class CSVTest < FormatTest
           next nil
         end
       end.compact
-      line["station_size"] = line["station_list"].length if IMPL
+      line["station_size"] = line["station_list"].length if $impl
 
       # 更新あるなら駅登録詳細へ反映
       if write
+        assert($interaction, "not interaction mode")
         File.open(path, "w:utf-8") do |f|
           f.write(format_json(details, flat_array: ["station_list"]))
         end
