@@ -43,7 +43,7 @@ REGISTER_FIELDS = [
   "station_code", "line_code", "index", "numbering", "impl",
 ]
 
-Dotenv.load "src/.env"
+Dotenv.load "src/.env.local"
 API_KEY = ENV["GOOGLE_GEOCODING_API_KEY"]
 puts API_KEY
 IMPL = false

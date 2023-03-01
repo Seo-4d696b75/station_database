@@ -1,6 +1,6 @@
 set -e
 
-source ./src/build.env
+source ./src/.env
 
 ./src/check.sh
 

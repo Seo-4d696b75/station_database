@@ -1,4 +1,4 @@
-FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/build.env") do SET %%i=%%j
+FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/.env") do SET %%i=%%j
 
 call ./src/check.bat
 
