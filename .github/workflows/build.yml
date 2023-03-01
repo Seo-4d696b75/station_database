@@ -44,10 +44,10 @@ jobs:
           mkdir -p build/polyline
       - name: Run Checks
         run: |
-          ruby src/script/check.rb -d out/main
-          ruby src/script/check.rb -e -d out/extra
+          bundle exec ruby src/script/check.rb -d out/main
+          bundle exec ruby src/script/check.rb -e -d out/extra
       - name: Build Polyline
-        run: ruby src/script/polyline.rb
+        run: bundle exec ruby src/script/polyline.rb
       - name: Build Voronoi
         env:
           GITHUB_PACKAGE_USERNAME: Seo-4d696b75
@@ -58,8 +58,13 @@ jobs:
           ./gradlew run --args="../../build/station.extra.json ../../build/diagram.extra.json"
       - name: Pack Data
         run: |
-          ruby src/script/pack.rb -d out/main -v ${{ env.VERSION }}
-          ruby src/script/pack.rb -e -d out/extra -v ${{ env.VERSION }}
+          bundle exec ruby src/script/pack.rb \
+            -d out/main \
+            -v ${{ env.VERSION }}
+          bundle exec ruby src/script/pack.rb \
+            -e \
+            -d out/extra \
+            -v ${{ env.VERSION }}
       - name: Check Diff
         id: check_diff
         runs: |
@@ -68,10 +73,18 @@ jobs:
           echo "extra=$(git diff --name-only -- out/extra/ | wc -l)" >> $GITHUB_OUTPUT
       - name: Update Info (main)
         if: ${{ steps.check_diff.outputs.main }} > 0
-        run: ruby src/script/release.rb -s out/main/data.json -d latest_info.json -v ${{ env.VERSION }}
+        run: |
+          bundle exec ruby src/script/release.rb \
+            -s out/main/data.json \
+            -d latest_info.json \
+            -v ${{ env.VERSION }}
       - name: Update Info (extra)
         if: ${{ steps.check_diff.outputs.extra }} > 0
-        run: ruby src/script/release.rb -s out/extra/data.json -d latest_info.extra.json -v ${{ env.VERSION }}
+        run: |
+          bundle exec ruby src/script/release.rb \
+            -s out/extra/data.json \
+            -d latest_info.extra.json \
+            -v ${{ env.VERSION }}
       - name: Commit and Push
         run: |
           git config --global user.email "action@github.com"

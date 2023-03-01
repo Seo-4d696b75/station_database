@@ -24,6 +24,6 @@ jobs:
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
       - name: Run Test (main)
-        run: ruby src/script/check.rb
+        run: bundle exec ruby src/script/check.rb
       - name: Run Test (extra)
-        run: ruby src/script/check.rb -e
+        run: bundle exec ruby src/script/check.rb -e

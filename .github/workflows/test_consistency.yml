@@ -26,9 +26,19 @@ jobs:
           echo "::add-matcher::.github/problem-matcher.json"
       - name: compare data
         run: |
-          ruby src/script/test_update.rb -o artifact/main.json -n out/main/data.json -l diff.main.md -m "detected changes in 'main' dataset"
-          ruby src/script/test_update.rb -o artifact/extra.json -n out/extra/data.json -l diff.extra.md -m "detected changes in 'extra' dataset"
-          ruby src/script/test_subset.rb -m out/main/data.json -e out/extra/data.json
+          bundle exec ruby src/script/test_update.rb \
+            -o artifact/main.json \
+            -n out/main/data.json \
+            -l diff.main.md \
+            -m "detected changes in 'main' dataset"
+          bundle exec ruby src/script/test_update.rb \
+            -o artifact/extra.json \
+            -n out/extra/data.json \
+            -l diff.extra.md \
+            -m "detected changes in 'extra' dataset"
+          bundle exec ruby src/script/test_subset.rb \
+            -m out/main/data.json \
+            -e out/extra/data.json
       - name: check comment
         run: |
           cat artifact/diff.main.md
