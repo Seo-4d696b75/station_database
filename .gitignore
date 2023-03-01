@@ -8,8 +8,7 @@ src/location/raw/*.png
 src/location/string.png
 artifact/
 .github/workflows/*.md
-src/polyline/.history
-src/details/address/*
 **/tmp.*
 **/.DS_Store
 /node_modules
+/build
