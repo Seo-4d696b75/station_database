@@ -10,7 +10,13 @@ artifact/
 .github/workflows/*.md
 **/tmp.*
 **/.DS_Store
-/node_modules
 /build
-.ruby-version
+
+# Typescript + node
 .node-version
+/node_modules
+
+# ruby + bundler
+# GithubActionsとローカルの環境が異なるとワークフロー落ちる
+.ruby-version
+Gemfile.lock

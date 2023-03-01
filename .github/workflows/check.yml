@@ -12,8 +12,6 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    env:
-      BUNDLE_GEMFILE: src/script/Gemfile
     steps:
       - uses: actions/checkout@v2
         with:
