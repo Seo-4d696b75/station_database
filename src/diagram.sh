@@ -1,4 +1,4 @@
-source ./src/.env
+source ./src/.env.local
 
 java -jar $DIAGRAM_JAR_PATH src/solved/station.json src/diagram/station.json
 if [ $? -ne 0 ]; then

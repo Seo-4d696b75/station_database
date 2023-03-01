@@ -38,7 +38,7 @@ gem install dotenv
 ## API keyの用意
 GCP consoleから Geocoding API が利用可能なAPI keyを取得して以下のファイルで指定します
 
-`src/.env`  
+`src/.env.local`  
 
 ```env
 GOOGLE_GEOCODING_API_KEY=${API_KEY}
@@ -50,7 +50,7 @@ DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 
 以下のファイルでjarファイルを指定します
 
-`src/.env`  
+`src/.env.local`  
 
 ```env
 GOOGLE_GEOCODING_API_KEY=${API_KEY}

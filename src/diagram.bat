@@ -1,4 +1,4 @@
-FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/.env") do SET %%i=%%j
+FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/.env.local") do SET %%i=%%j
 
 java -jar %DIAGRAM_JAR_PATH% src/solved/station.json src/diagram/station.json
 if errorlevel 1 call :stop
