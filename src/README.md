@@ -21,7 +21,9 @@ rubyスクリプトで使用します
 rbenv install 2.7.0
 rbenv local 2.7.0
 gem install bundler
-bundle install --gemfile=src/script/Gemfile
+bundle install
+
+bundle exec ruby ${your_ruby_script}.rb
 ```
 
 ## API keyの用意
@@ -55,9 +57,9 @@ GOOGLE_GEOCODING_API_KEY=${API_KEY}
 - src/check/prefecture.csv 都道府県情報（駅メモでの駅数）
 - src/check/polyline_ignore.csv ポリライン欠損を許す路線一覧
 
-スクリプトでデータ自動補完できます
+スクリプトでデータ自動補完できます（オプション`-i`のインタラクションモードで実行）
 ```bash
-ruby src/script/check.rb
+bundle exec ruby src/script/check.rb -i
 ```
 
 ### 3. バージョン更新
@@ -93,8 +95,5 @@ ruby src/script/check.rb
 
 [Polyline Editor](https://seo-4d696b75.github.io/polyline-editor/)  
 
-`solved/line.json`を基に`polyline/raw/*.json`=>`polyline/solved/*.json`に出力する
-
-```
-ruby src/script/polyline.rb
-```
+- `src/polyline/*.json`にデータを定義します
+- ポリラインの欠損を許容する場合は`src/check/polyline_ignore.csv`に路線名を追記します
