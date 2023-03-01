@@ -18,8 +18,7 @@ jobs:
       - name: Load version
         uses: xom9ikk/dotenv@v2
         with:
-          path: src/build.env
-          load-mode: strict
+          path: src
       - name: Add Tag
         run: |
           git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"

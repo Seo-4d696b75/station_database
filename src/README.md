@@ -80,7 +80,7 @@ DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 
 1. バージョンの指定
 
-`src/build.env`の定義を更新
+`src/.env`の定義を更新
 
 2. build & push
 
