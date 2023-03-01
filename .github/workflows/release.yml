@@ -1,27 +1,35 @@
 name: auto-release
 on:
-  push:
-    tags: 
-      - v*
+  pull_request:
+    branches:
+      - main
+    types: 
+      - closed
 jobs:
   release:
     runs-on: ubuntu-latest
+    # PRがmainにマージされたとき
+    if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
           ref: 'main'
-      - name: Set version value
-        id: version
+      - name: Load version
+        uses: xom9ikk/dotenv@v2
+        with:
+          path: src/build.env
+          load-mode: strict
+      - name: Add Tag
         run: |
-          VALUE=$(echo ${{ github.ref }} | sed -e "s/^.*v\([0-9]*\)/\1/")
-          echo "::set-output name=value::${VALUE}"
+          git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
+          git push origin "v${{ env.VERSION }}"
       - name: Create Release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: version ${{ steps.version.outputs.value }}
+          tag_name: "v${{ env.VERSION }}"
+          release_name: "駅情報更新 ${{ env.VERSION }}"
           draft: true
           prerelease: false
