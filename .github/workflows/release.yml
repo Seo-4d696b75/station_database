@@ -21,6 +21,8 @@ jobs:
           path: src
       - name: Add Tag
         run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "actions-user"
           git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
