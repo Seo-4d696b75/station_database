@@ -3,7 +3,8 @@ on:
   pull_request:
     branches:
       - main
-    path: 'out/*'
+    paths:
+      - 'out/**/*'
 jobs:
   test:
     runs-on: ubuntu-latest

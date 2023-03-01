@@ -2,19 +2,29 @@ name: auto-build
 on:
   pull_request:
     branches:
-      - build
+      - main
+    paths: 
+      - 'src/check/*'
+      - 'src/line/*'
+      - 'src/polyline/*'
+      - 'src/*.csv'
     types: 
       - closed
+
+permissions:
+  pull-requests: write
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
-    # PRがbuildにマージされたとき
+    # PRがmainにマージされたとき
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: 'build'
+          ref: ${{ github.base_ref }}
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.6'
@@ -69,6 +79,12 @@ jobs:
           git commit -m "[build] version ${{ env.VERSION }}"
           git add ./latest*
           git commit -m "[update] version info ${{ env.VERSION }}"
-          git push origin build
-          
-
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: build
+          branch-suffix: timestamp
+          base: main
+          title: "[Build] version ${{ env.VERSION }}"
+          body: "auto build"

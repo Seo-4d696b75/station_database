@@ -42,19 +42,6 @@ GCP consoleから Geocoding API が利用可能なAPI keyを取得して以下�
 
 ```env
 GOOGLE_GEOCODING_API_KEY=${API_KEY}
-DIAGRAM_JAR_PATH=${PATH_TO_JAR}
-```
-
-## ボロノイ分割計算のセットアップ
-[diagram](https://github.com/Seo-4d696b75/diagram)のプロジェクトをbuildしてjarファイルを用意
-
-以下のファイルでjarファイルを指定します
-
-`src/.env.local`  
-
-```env
-GOOGLE_GEOCODING_API_KEY=${API_KEY}
-DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 ```
 
 ## 改行コードの統一
@@ -62,41 +49,56 @@ DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 
 # 更新作業
 
-## 編集するデータ  
+### 1. 作業ブランチの用意
+
+`feature/update-$version`
+
+### 2. データの編集
 
 **マスターデータ**  
-- station.csv 駅情報
-- line.csv 路線情報
-- details/line/*.json 路線詳細（登録駅リスト）
-- polyline/raw/*.json 路線ポリライン
+- src/station.csv 駅情報
+- src/line.csv 路線情報
+- src/line/*.json 路線詳細（登録駅リスト）
+- src/polyline/*.json 路線ポリライン
 
 **確認データ**  
-- check/line.csv 路線の登録駅数（駅メモ）
-- check/prefecture.csv 都道府県情報（駅メモでの駅数）
-- check/polyline_ignore.csv ポリライン欠損を許す路線一覧
+- src/check/line.csv 路線の登録駅数（駅メモ）
+- src/check/prefecture.csv 都道府県情報（駅メモでの駅数）
+- src/check/polyline_ignore.csv ポリライン欠損を許す路線一覧
 
-## build作業
-`./out`以下に出力
+スクリプトでデータ自動補完できます
+```bash
+ruby src/script/check.rb
+```
 
-1. バージョンの指定
+### 3. バージョン更新
 
 `src/.env`の定義を更新
 
-2. build & push
+### 4. ビルド作業
 
-```
-$ src/build.sh
-```
+`main`ブランチをbaseにPRを出す
 
-3. merge PR
+- テストが自動起動
+- PRをマージ
+- `auto-build`で自動ビルド
 
-`main`へのPRを立てる  
-もし修正が必要なら編集・1-2の作業を繰り返す
+### 5. リリース作業
 
-4. publish release
+ビルド完了後に`main`ブランチをbaseにPRが自動作成
 
-`main`にPRがマージされると自動でtagが打たれてreleaseを作成  
-次に自動で生成されたdraftを編集・発行
+
+- テストx2が自動起動
+- PRをマージ
+- 自動でtagが打たれてreleaseを作成 
+- 生成されたdraftを編集・発行
+
+**注意**  
+自動生成されたPRはGithubActionsのワークフローをトリガーできないので、  
+- PRを一度closeしてからreopenする
+- 適当なcommitをpushする
+
+
 
 ## 路線のポリラインデータ
 

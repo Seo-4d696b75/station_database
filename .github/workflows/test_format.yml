@@ -1,19 +1,17 @@
 name: format-test
 on:
-  push:
+  pull_request:
+    branches:
+      - main
     paths: 
-      - 'out/main/**'
-      - 'out/extra/**'
-      - 'src/ts/**'
-      - '.github/workflows/**'
+      - 'out/**/*'
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{github.ref}}
-          fetch-depth: 0
+          ref: ${{github.head_ref}}
       - name: setup Node.js
         uses: actions/setup-node@v3
         with:

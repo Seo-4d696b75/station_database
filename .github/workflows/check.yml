@@ -2,7 +2,7 @@ name: check-src
 on:
   pull_request:
     branches:
-      - build
+      - main
     paths: 
       - 'src/check/*'
       - 'src/line/*'
