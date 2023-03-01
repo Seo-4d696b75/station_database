@@ -296,7 +296,7 @@ class CSVTest < FormatTest
     @register = []
     @lines.each do |line|
       # 路線の登録駅情報
-      path = "src/details/line/#{line["code"]}.json"
+      path = "src/line/#{line["code"]}.json"
       assert File.exists?(path), "file:#{path} not found. line:#{JSON.dump(line)}"
       details = read_json(path)
       assert_equal line["name"], details["name"], "name mismatch(details). file:#{line["code"]}.json line:#{JSON.dump(line)}"
@@ -371,7 +371,7 @@ class CSVTest < FormatTest
       end
 
       # 路線ポリラインは廃線,no-implのみ欠損許す
-      path = "src/polyline/solved/#{line["code"]}.json"
+      path = "src/polyline/#{line["code"]}.json"
       if !File.exists?(path)
         assert polyline_ignore.include?(line["name"]) && line["closed"], "polyline not found. line:#{JSON.dump(line)}"
       end

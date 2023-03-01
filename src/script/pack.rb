@@ -4,11 +4,11 @@ load("src/script/utils.rb")
 load("src/script/kdtree.rb")
 require "optparse"
 
-impl = false
+impl = true
 dst = "."
 version = 0
 opt = OptionParser.new
-opt.on("-i", "--impl") { impl = true }
+opt.on("-e", "--extra") { impl = false }
 opt.on("-d", "--dst VALUE") { |v| dst = v }
 opt.on("-v", "--version VALUE") { |v| version = v.to_i }
 opt.parse!(ARGV)
@@ -17,11 +17,11 @@ ARGV.clear()
 puts "version: #{version}"
 
 print "read soved line data..."
-lines = read_json("src/solved/line#{impl ? "" : ".extra"}.json")
+lines = read_json("build/line#{impl ? "" : ".extra"}.json")
 puts "size:#{lines.length}"
 
 print "read soved station data..."
-stations = read_json("src/solved/station#{impl ? "" : ".extra"}.json")
+stations = read_json("build/station#{impl ? "" : ".extra"}.json")
 puts "size:#{stations.length}"
 
 station_map = {}
@@ -32,7 +32,7 @@ end
 
 # 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
 puts "read diagram details"
-tree = read_json("src/diagram/station#{impl ? "" : ".extra"}.json")
+tree = read_json("build/diagram#{impl ? "" : ".extra"}.json")
 if stations.length != tree["node_list"].length
   puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree["node_list"].length}"
   exit(1)
@@ -58,7 +58,7 @@ Dir.glob("#{dst}/line/*").each{ |file|  File.delete(file)}
 lines_details = []
 lines.each do |line|
   # 路線の詳細情報
-  path = "src/details/line/#{line["code"]}.json"
+  path = "src/line/#{line["code"]}.json"
   details = read_json(path)
   if details["name"] != line["name"]
     puts "Error > line name mismatch line:#{JSON.dump(line)}"
@@ -86,7 +86,7 @@ lines.each do |line|
   end
 
   # 路線ポリライン
-  path = "src/polyline/solved/#{line["code"]}.json"
+  path = "build/polyline/#{line["code"]}.json"
   if File.exists?(path)
     polyline = read_json(path)
     details["polyline_list"] = polyline
