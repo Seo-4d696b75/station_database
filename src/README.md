@@ -5,34 +5,23 @@
 # Setup
 
 ## Node + TypeScript の環境構築
-データのバッチ処理にTypeScriptを利用しています  
-明示的な型定義によりデータ定義の曖昧さを可能な限り排除しつつ、
-JS譲りの高い生産性が期待できます
-
-`nodebrew`の利用
-
-```bash
-nodebrew use v16.14.0
-```
-
-`nodenv`の利用
+データのバッチ処理にTypeScriptを利用しています
 
 ```bash
 nodenv install 16.14.0
-nodenv global 16.14.0
-```
-
-必要なパッケージの取得
-```bash
+nodenv local 16.14.0
 npm install
 ```
 
-## Gemの依存解決
+## Ruby(Gem)の依存解決
 
 rubyスクリプトで使用します
 
 ```bash
-gem install dotenv
+rbenv install 2.7.0
+rbenv local 2.7.0
+gem install bundler
+bundle install --gemfile=src/script/Gemfile
 ```
 
 ## API keyの用意

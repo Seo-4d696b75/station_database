@@ -8,13 +8,16 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: src/script/Gemfile
     steps: 
       - uses: actions/checkout@v1
         with:
           ref: ${{github.head_ref}}
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
+          ruby-version: '2.7'
+          bundler-cache: true
       - name: fetch data from 'main' branch
         run: |
           mkdir artifact
@@ -25,7 +28,6 @@ jobs:
           echo "::add-matcher::.github/problem-matcher.json"
       - name: compare data
         run: |
-          gem install minitest
           ruby src/script/test_update.rb -o artifact/main.json -n out/main/data.json -l diff.main.md -m "detected changes in 'main' dataset"
           ruby src/script/test_update.rb -o artifact/extra.json -n out/extra/data.json -l diff.extra.md -m "detected changes in 'extra' dataset"
           ruby src/script/test_subset.rb -m out/main/data.json -e out/extra/data.json
