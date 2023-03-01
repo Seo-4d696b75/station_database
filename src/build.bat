@@ -1,8 +1,4 @@
-set version=%1
-if "%version%"=="" (
-  echo "version string empty"
-  exit 1
-)
+FOR /F "usebackq delims== tokens=1,2" %%i IN ("src/build.env") do SET %%i=%%j
 
 call ./src/check.bat
 
@@ -14,12 +10,12 @@ if errorlevel 1 (
   exit 1
 )
 
-call ./src/pack.bat %version%
+call ./src/pack.bat %VERSION%
 
-call ./src/release.bat %version%
+call ./src/release.bat %VERSION%
 
 git add ./src ./out
-git commit -m "[build] version %version%"
+git commit -m "[build] version %VERSION%"
 
 git add ./latest*
-git commit -m "[update] version info %version%"
+git commit -m "[update] version info %VERSION%"
