@@ -5,34 +5,25 @@
 # Setup
 
 ## Node + TypeScript の環境構築
-データのバッチ処理にTypeScriptを利用しています  
-明示的な型定義によりデータ定義の曖昧さを可能な限り排除しつつ、
-JS譲りの高い生産性が期待できます
-
-`nodebrew`の利用
-
-```bash
-nodebrew use v16.14.0
-```
-
-`nodenv`の利用
+データのバッチ処理にTypeScriptを利用しています
 
 ```bash
 nodenv install 16.14.0
-nodenv global 16.14.0
-```
-
-必要なパッケージの取得
-```bash
+nodenv local 16.14.0
 npm install
 ```
 
-## Gemの依存解決
+## Ruby(Gem)の依存解決
 
 rubyスクリプトで使用します
 
 ```bash
-gem install dotenv
+rbenv install 2.7.0
+rbenv local 2.7.0
+gem install bundler
+bundle install
+
+bundle exec ruby ${your_ruby_script}.rb
 ```
 
 ## API keyの用意
@@ -42,19 +33,6 @@ GCP consoleから Geocoding API が利用可能なAPI keyを取得して以下�
 
 ```env
 GOOGLE_GEOCODING_API_KEY=${API_KEY}
-DIAGRAM_JAR_PATH=${PATH_TO_JAR}
-```
-
-## ボロノイ分割計算のセットアップ
-[diagram](https://github.com/Seo-4d696b75/diagram)のプロジェクトをbuildしてjarファイルを用意
-
-以下のファイルでjarファイルを指定します
-
-`src/.env.local`  
-
-```env
-GOOGLE_GEOCODING_API_KEY=${API_KEY}
-DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 ```
 
 ## 改行コードの統一
@@ -62,48 +40,52 @@ DIAGRAM_JAR_PATH=${PATH_TO_JAR}
 
 # 更新作業
 
-## 編集するデータ  
+### 1. 作業ブランチの用意
+
+`feature/update-$version`
+
+### 2. データの編集
 
 **マスターデータ**  
-- station.csv 駅情報
-- line.csv 路線情報
-- details/line/*.json 路線詳細（登録駅リスト）
-- polyline/raw/*.json 路線ポリライン
+- src/station.csv 駅情報
+- src/line.csv 路線情報
+- src/line/*.json 路線詳細（登録駅リスト）
+- src/polyline/*.json 路線ポリライン
 
 **確認データ**  
-- check/line.csv 路線の登録駅数（駅メモ）
-- check/prefecture.csv 都道府県情報（駅メモでの駅数）
-- check/polyline_ignore.csv ポリライン欠損を許す路線一覧
+- src/check/line.csv 路線の登録駅数（駅メモ）
+- src/check/prefecture.csv 都道府県情報（駅メモでの駅数）
+- src/check/polyline_ignore.csv ポリライン欠損を許す路線一覧
 
-## build作業
-`./out`以下に出力
+スクリプトでデータ自動補完できます（オプション`-i`のインタラクションモードで実行）
+```bash
+bundle exec ruby src/script/check.rb -i
+```
 
-1. バージョンの指定
+### 3. バージョン更新
 
 `src/.env`の定義を更新
 
-2. build & push
+### 4. ビルド作業
 
-```
-$ src/build.sh
-```
+作業ブランチをpushすると`auto-build`ワークフローが起動して自動ビルド  
+ビルド成功すると差分がcommit&pushされる
 
-3. merge PR
+### 5. リリース作業
 
-`main`へのPRを立てる  
-もし修正が必要なら編集・1-2の作業を繰り返す
+ビルド完了後に`main`ブランチをbaseにPRを作成
 
-4. publish release
 
-`main`にPRがマージされると自動でtagが打たれてreleaseを作成  
-次に自動で生成されたdraftを編集・発行
+- テストが自動起動
+- PRをマージ
+- 自動でtagが打たれてreleaseを作成 
+- 生成されたdraftを編集・発行
+
+
 
 ## 路線のポリラインデータ
 
 [Polyline Editor](https://seo-4d696b75.github.io/polyline-editor/)  
 
-`solved/line.json`を基に`polyline/raw/*.json`=>`polyline/solved/*.json`に出力する
-
-```
-ruby src/script/polyline.rb
-```
+- `src/polyline/*.json`にデータを定義します
+- ポリラインの欠損を許容する場合は`src/check/polyline_ignore.csv`に路線名を追記します

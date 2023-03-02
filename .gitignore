@@ -8,8 +8,17 @@ src/location/raw/*.png
 src/location/string.png
 artifact/
 .github/workflows/*.md
-src/polyline/.history
-src/details/address/*
 **/tmp.*
 **/.DS_Store
+/build
+
+# Typescript + node
+.node-version
 /node_modules
+
+# ruby + bundler
+.ruby-version
+.bundle
+vendor/bundle
+# GithubActionsとローカルの環境が異なるとワークフロー落ちる
+Gemfile.lock
