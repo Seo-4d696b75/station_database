@@ -32,6 +32,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '11'
+          cache: 'gradle'
       - name: Load version
         uses: xom9ikk/dotenv@v2
         with:
