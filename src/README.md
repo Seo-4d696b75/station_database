@@ -68,26 +68,18 @@ bundle exec ruby src/script/check.rb -i
 
 ### 4. ビルド作業
 
-`main`ブランチをbaseにPRを出す
-
-- テストが自動起動
-- PRをマージ
-- `auto-build`で自動ビルド
+作業ブランチをpushすると`auto-build`ワークフローが起動して自動ビルド  
+ビルド成功すると差分がcommit&pushされる
 
 ### 5. リリース作業
 
-ビルド完了後に`main`ブランチをbaseにPRが自動作成
+ビルド完了後に`main`ブランチをbaseにPRを作成
 
 
-- テストx2が自動起動
+- テストが自動起動
 - PRをマージ
 - 自動でtagが打たれてreleaseを作成 
 - 生成されたdraftを編集・発行
-
-**注意**  
-自動生成されたPRはGithubActionsのワークフローをトリガーできないので、  
-- PRを一度closeしてからreopenする
-- 適当なcommitをpushする
 
 
 
