@@ -10,6 +10,7 @@ on:
       - 'src/line/*'
       - 'src/polyline/*'
       - 'src/*.csv'
+      - 'src/.env'
 
 permissions:
   contents: write
