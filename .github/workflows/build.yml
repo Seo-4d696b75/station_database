@@ -64,7 +64,7 @@ jobs:
             -v ${{ env.VERSION }}
       - name: Check Diff
         id: check_diff
-        runs: |
+        run: |
           git add -N .
           echo "main=$(git diff --name-only -- out/main/ | wc -l)" >> $GITHUB_OUTPUT
           echo "extra=$(git diff --name-only -- out/extra/ | wc -l)" >> $GITHUB_OUTPUT
