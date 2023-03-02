@@ -3,7 +3,7 @@
 
 **デフォルトブランチを`main`に変更しました**
   
-![](https://github.com/Seo-4d696b75/station_database/workflows/format-test/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/consistency-test/badge.svg)
+![](https://github.com/Seo-4d696b75/station_database/workflows/auto-build/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/test/badge.svg)
 
 <br/>
 <table>
@@ -53,8 +53,8 @@
 ### テスト
 GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
 
-- format-test データ形式が仕様で定めた通りであるか確認
-- consistency-test 更新前後でデータの欠損や予期せぬ変化がないか確認
+- format データ形式が仕様で定めた通りであるか確認
+- consistency 更新前後でデータの欠損や予期せぬ変化がないか確認
 
 # データを使う  
 

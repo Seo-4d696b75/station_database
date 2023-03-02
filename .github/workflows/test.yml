@@ -1,4 +1,4 @@
-name: consistency-test
+name: test
 on:
   pull_request:
     branches:
@@ -6,7 +6,23 @@ on:
     paths:
       - 'out/**/*'
 jobs:
-  test:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{github.head_ref}}
+      - name: setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.14.0'
+      - name: setup node modules
+        run: npm install
+      - name: run test (main)
+        run: npm run test-format-main
+      - name: run text (extra)
+        run: npm run test-format-extra
+  consistency:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v1
