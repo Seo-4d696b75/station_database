@@ -17,6 +17,8 @@ artifact/
 /node_modules
 
 # ruby + bundler
-# GithubActionsとローカルの環境が異なるとワークフロー落ちる
 .ruby-version
+.bundle
+vendor/bundle
+# GithubActionsとローカルの環境が異なるとワークフロー落ちる
 Gemfile.lock
