@@ -1,7 +1,5 @@
 # 駅データ  
 日本全国の鉄道路線・駅のデータベース編集プロジェクト  
-
-**デフォルトブランチを`main`に変更しました**
   
 ![](https://github.com/Seo-4d696b75/station_database/workflows/auto-build/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/test/badge.svg)
 
@@ -14,6 +12,18 @@
 </table>
 
 位置ゲーム【駅メモ！】内で使用されているデータベースに準拠
+
+#### 主要なデータファイル
+
+| ファイル名 | データ内容 | 形式 |  
+|---|---|---|  
+|[station.csv](out/main/station.csv)| 駅一覧 | CSV |  
+|[station.json](out/main/station.json) | 駅一覧 | JSON |  
+|[line.csv](out/main/line.csv)| 路線一覧 | CSV |  
+|[line.json](out/main/line.json)| 路線一覧 | JSON |  
+
+
+#### データセットの種類
 
 `./out`以下に２種類のデータセットがあります  
 - `main`: 駅メモと同様
