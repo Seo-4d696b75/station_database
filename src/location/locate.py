@@ -1,16 +1,17 @@
-import sys
-import re
 import configparser
-import math
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-import os 
-import glob
-import shutil
-import pyperclip
-import subprocess
 import datetime
+import glob
+import math
+import os
+import re
+import shutil
+import subprocess
+import sys
+
+import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+import pyperclip
 
 # 設定の読み込み
 config = configparser.ConfigParser()
@@ -100,7 +101,7 @@ map_y *= scale
 map = cv2.resize(map, dsize=(w,h))
 
 
-img_file = '%s/%d.png' % (config.get('img','src'), code)
+img_file = '%s/%d.jpg' % (config.get('img','src'), code)
 print('img : %s' % img_file)
 img = cv2.cvtColor(cv2.imread(img_file),cv2.COLOR_BGR2RGB)
 img = img[clip_y:(clip_y+clip_height), clip_x:(clip_x+clip_width), :]
@@ -129,7 +130,7 @@ print('code:%d lat:%.6f lng:%.6f' % (code,lat,lng))
 pyperclip.copy('%.6f,%.6f' % (lat,lng))
 
 f = open('log.txt', encoding='utf-8', mode='a')
-f.write('%s code:%d lat:%.6f lng:%.6f\n' % (datetime.datetime.now(), code, lat, lng))
+f.write('%s code:%d lat:%.6f lng:%.6f max:%.6f\n' % (datetime.datetime.now(), code, lat, lng, max_val))
 f.close()
 
 plt.subplot(221)
