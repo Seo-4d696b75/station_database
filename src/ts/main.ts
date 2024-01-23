@@ -1,7 +1,6 @@
 import axios from "axios"
 import { JSDOM } from "jsdom"
-
-process.env.TZ = "Asia/Tokyo"
+import { Octokit } from "octokit"
 
 async function getNewsPath() {
   const body = (await axios.get<string>("https://ekimemo.com/news?page=8")).data
@@ -49,6 +48,19 @@ async function processNewsItem(path: string) {
 }
 
 (async () => {
+
+  process.env.TZ = "Asia/Tokyo"
+  await import("dotenv/config")
+
+  const octokit = new Octokit({
+    auth: process.env.GITHUB_ACCESS_TOKEN,
+  })
+  const d = await octokit.request("GET /repos/{owner}/{repo}/issues", {
+    owner: "Seo-4d696b75",
+    repo: "station_database",
+    state: "open",
+    labels: "駅情報更新",
+  })
   const paths = await getNewsPath()
   for (const path of paths) {
     await processNewsItem(path)
