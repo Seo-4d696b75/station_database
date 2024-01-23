@@ -13,9 +13,10 @@ jobs:
         with:
           ref: ${{github.head_ref}}
       - name: setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '16.14.0'
+          node-version-file: .node-version
+          cache: 'npm' 
       - name: setup node modules
         run: npm install
       - name: run test (main)
