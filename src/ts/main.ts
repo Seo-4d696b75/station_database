@@ -1,17 +1,16 @@
-import puppeteer, { Page } from "puppeteer"
+import axios from "axios"
+import { JSDOM } from "jsdom"
 
-async function getNewsPath(page: Page) {
-  await page.goto("https://ekimemo.com/news?page=8")
-  const size = await page.evaluate(() => document.querySelectorAll(".news-list > .news-item").length)
-
+async function getNewsPath(dom: JSDOM) {
+  const list = dom.window.document.querySelectorAll(".news-list > .news-item")
   const paths: string[] = []
-  for (let idx = 0; idx < size; idx++) {
-    const label = await page.evaluate((i) => document.querySelectorAll(".news-list > .news-item")[i].querySelector(".news-category-label")?.textContent, idx)
+  for (const e of list) {
+    const label = e.querySelector(".news-category-label")?.textContent
     if (label !== "アプリ情報") {
       continue
     }
-    const title = await page.evaluate((i) => document.querySelectorAll(".news-list > .news-item")[i].querySelector(".news-title")?.textContent, idx)
-    const href = await page.evaluate((i) => document.querySelectorAll(".news-list > .news-item")[i].querySelector("a")?.getAttribute("href"), idx)
+    const title = e.querySelector(".news-title")?.textContent
+    const href = e.querySelector("a")?.getAttribute("href")
     if (title?.includes("駅情報更新のお知らせ") && href) {
       paths.push(href)
     }
@@ -20,11 +19,8 @@ async function getNewsPath(page: Page) {
 }
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: "new"
-  })
-  const page = await browser.newPage()
-  const paths = await getNewsPath(page)
-  browser.close()
+  const body = (await axios.get<string>("https://ekimemo.com/news?page=8")).data
+  const dom = new JSDOM(body)
+  const paths = await getNewsPath(dom)
   console.log(paths.length)
 })()
