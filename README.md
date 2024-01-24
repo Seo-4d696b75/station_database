@@ -46,8 +46,13 @@
 * [wikipedia - 日本の廃止鉄道路線](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%BB%83%E6%AD%A2%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E4%B8%80%E8%A6%A7)  
   独自追加の廃駅・廃路線のデータはこのサイトからスクリプトで自動取得
 
-### 更新
-基本的に[運営からのお知らせ](https://ekimemo.com/news/)で公表される駅情報の更新に応じて同様の作業を実施。各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
+### データの更新
+[公式のお知らせページ](https://ekimemo.com/news/)で駅情報更新が公表されると、
+
+1. 今後の対応予定として[issueを自動登録します](https://github.com/Seo-4d696b75/station_database/issues?q=is%3Aissue+is%3Aopen+label%3A%E9%A7%85%E6%83%85%E5%A0%B1%E6%9B%B4%E6%96%B0)
+2. 公表された更新日に合わせてデータ更新を実施します
+
+実施された各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。また現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
 - `main`データセット: [/latest_info.json](./latest_info.json)
 - `extra`データセット: [/latest_info.extra.json](./latest_info.extra.json)
 
