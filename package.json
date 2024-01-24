@@ -7,7 +7,8 @@
   "scripts": {
     "docs": "ts-node src/ts/jsonschema.ts && rm -f docs/*.md && jsonschema2md -d out/schema -o docs/ -x - -i src/schema_locale -h false -n",
     "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
-    "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts"
+    "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts",
+    "check-update": "ts-node src/ts/check_update.ts"
   },
   "repository": {
     "type": "git",
