@@ -33,7 +33,7 @@ function getUpdateDate(dom: JSDOM, publish: Date): Date {
     if (m && m.groups) {
       const month = parseInt(m.groups["month"])
       const day = parseInt(m.groups["day"])
-      const date = new Date(publish.getFullYear(), month, day)
+      const date = new Date(publish.getFullYear(), month - 1, day)
       while (date.getTime() < publish.getDate()) {
         date.setFullYear(date.getFullYear() + 1)
       }
