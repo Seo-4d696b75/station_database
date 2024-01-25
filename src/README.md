@@ -8,8 +8,8 @@
 データのバッチ処理にTypeScriptを利用しています
 
 ```bash
-nodenv install 16.14.0
-nodenv local 16.14.0
+nodenv install ${最新版}
+nodenv local ${最新版}
 npm install
 ```
 

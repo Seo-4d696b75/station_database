@@ -1,0 +1,24 @@
+name: check-update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * 5" # JSTで毎週土曜00:00に実行
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: "npm"
+      - name: setup node modules
+        run: npm install
+      - name: run script
+        run: npm run check-update

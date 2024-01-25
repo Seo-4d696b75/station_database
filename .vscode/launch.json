@@ -5,6 +5,30 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "ts-node (active file)",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--nolazy",
+                "-r",
+                "ts-node/register"
+            ], // ts-nodeを読み込みます(nolazyは無くても動きます。V8エンジンにスクリプト解析を延滞させないためのオプション(指定しないとブレークポイントスキップする可能性があるため))
+            "args": [
+                "${file}",
+                "--transpile-only"
+            ], // デバッグを開始するファイルを指定する。
+            "skipFiles": [
+                "<node_internals>/**",
+                "node_modules/**"
+            ],
+            "env": {
+                "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json"
+            },
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "smartStep": true,
+        },
+        {
             "type": "node",
             "name": "jest (active file)",
             "runtimeExecutable": "/Users/k_senda/.nodebrew/current/bin/node",

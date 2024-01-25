@@ -5,9 +5,10 @@
   "private": "true",
   "main": "not-exist.js",
   "scripts": {
-    "docs": "ts-node src/ts/main.ts && rm -f docs/*.md && jsonschema2md -d out/schema -o docs/ -x - -i src/schema_locale -h false -n",
+    "docs": "ts-node src/ts/jsonschema.ts && rm -f docs/*.md && jsonschema2md -d out/schema -o docs/ -x - -i src/schema_locale -h false -n",
     "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
-    "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts"
+    "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts",
+    "check-update": "ts-node src/ts/check_update.ts"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,14 @@
     "@adobe/jsonschema2md": "^7.1.1",
     "@types/glob": "^7.2.0",
     "@types/jest": "^28.1.1",
+    "@types/jsdom": "^21.1.6",
     "ajv": "^8.11.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.2",
     "glob": "^8.0.3",
     "jest": "^28.1.1",
+    "jsdom": "^24.0.0",
+    "octokit": "^3.1.2",
     "ts-jest": "^28.0.4",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
