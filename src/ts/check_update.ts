@@ -44,28 +44,28 @@ function getUpdateDate(dom: JSDOM, publish: Date): Date {
 }
 
 // 駅情報更新の登録済みissueを取得
-async function getUpdateIssues(octokit: Octokit): Promise<Date[]> {
+async function getUpdateIssues(octokit: Octokit): Promise<Set<number>> {
   const res = await octokit.request("GET /repos/{owner}/{repo}/issues", {
     owner: "Seo-4d696b75",
     repo: "station_database",
-    state: "open",
+    state: "all",
     labels: "駅情報更新",
   })
-  return res
+  const set = new Set<number>()
+  res
     .data
-    .map(issue => {
+    .forEach(issue => {
       const m = issue.title.match(/(?<date>[0-9]{4}\/[0-9]{2}\/[0-9]{2})/)
       if (m && m.groups) {
-        return new Date(m.groups["date"])
-      } else {
-        return null
+        const d = new Date(m.groups["date"])
+        set.add(d.getTime())
       }
     })
-    .filter((d): d is Date => !!d)
+  return set
 }
 
 // 駅情報更新のお知らせを確認＆必要ならissue登録
-async function processNewsItem(path: string, issues: Date[], octokit: Octokit) {
+async function processNewsItem(path: string, issues: Set<number>, octokit: Octokit) {
   const url = `https://ekimemo.com${path}`
   const body = (await axios.get<string>(url)).data
   const dom = new JSDOM(body)
@@ -79,7 +79,7 @@ async function processNewsItem(path: string, issues: Date[], octokit: Octokit) {
     day: "2-digit",
   })
 
-  if (!issues.find(i => i.getTime() === update.getTime())) {
+  if (!issues.has(update.getTime())) {
     const body = `
 # 駅情報更新
 
