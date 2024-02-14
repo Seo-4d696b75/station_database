@@ -5,8 +5,9 @@ import { Octokit } from "octokit"
 import path from "path"
 
 // お知らせ一覧から駅情報更新のpathを抽出
-async function getNewsPath() {
-  const body = (await axios.get<string>("https://ekimemo.com/news?page=1")).data
+async function getNewsPath(page: number) {
+  console.log(`お知らせ一覧を探索中 page: ${page}`)
+  const body = (await axios.get<string>(`https://ekimemo.com/news?page=${page}`)).data
   const dom = new JSDOM(body)
   const list = dom.window.document.querySelectorAll(".news-list > .news-item")
   const paths: string[] = []
@@ -43,29 +44,36 @@ function getUpdateDate(dom: JSDOM, publish: Date): Date {
   throw Error("update date not found")
 }
 
-// 駅情報更新の登録済みissueを取得
-async function getUpdateIssues(octokit: Octokit): Promise<Date[]> {
+async function getUpdateIssues(octokit: Octokit): Promise<Set<number>> {
+  // 直近のissueを登録が新しい順に最大30件取得する
   const res = await octokit.request("GET /repos/{owner}/{repo}/issues", {
     owner: "Seo-4d696b75",
     repo: "station_database",
-    state: "open",
+    state: "all",
     labels: "駅情報更新",
+    page: 1,
+    per_page: 30,
+    sort: "created",
+    direction: "desc",
   })
-  return res
+  const set = new Set<number>()
+
+  // openなissue、もしくはcompletedとしてcloseされたissueのみ検査する
+  res
     .data
-    .map(issue => {
+    .filter(issue => issue.state === "open" || issue.state_reason === "completed")
+    .forEach(issue => {
       const m = issue.title.match(/(?<date>[0-9]{4}\/[0-9]{2}\/[0-9]{2})/)
       if (m && m.groups) {
-        return new Date(m.groups["date"])
-      } else {
-        return null
+        const d = new Date(m.groups["date"])
+        set.add(d.getTime())
       }
     })
-    .filter((d): d is Date => !!d)
+  return set
 }
 
 // 駅情報更新のお知らせを確認＆必要ならissue登録
-async function processNewsItem(path: string, issues: Date[], octokit: Octokit) {
+async function processNewsItem(path: string, issues: Set<number>, octokit: Octokit) {
   const url = `https://ekimemo.com${path}`
   const body = (await axios.get<string>(url)).data
   const dom = new JSDOM(body)
@@ -79,7 +87,7 @@ async function processNewsItem(path: string, issues: Date[], octokit: Octokit) {
     day: "2-digit",
   })
 
-  if (!issues.find(i => i.getTime() === update.getTime())) {
+  if (!issues.has(update.getTime())) {
     const body = `
 # 駅情報更新
 
@@ -103,27 +111,34 @@ ${newsBody?.replace(/^\s+/, "")}
   } else {
     console.log(`issueが登録済み: ${title}`)
   }
+  return update.getTime()
 }
 
 (async () => {
 
   process.env.TZ = "Asia/Tokyo"
 
-  // get news
-  const paths = await getNewsPath()
-  if (paths.length === 0) {
-    return
-  }
-
-  // get issues
+  // issueに登録済みなissueの駅情報更新日時(Unix Timestamp)を取得
   dotenv.config({ path: path.resolve(__dirname, "../.env.local") })
   const octokit = new Octokit({
     auth: process.env.GITHUB_ACCESS_TOKEN,
   })
-  const issues = await getUpdateIssues(octokit)
+  const registeredUpdates = await getUpdateIssues(octokit)
+  const latestUpdate = Math.max(...registeredUpdates)
 
-  // check each news, register an issue if needed
-  for (const path of paths) {
-    await processNewsItem(path, issues, octokit)
+  // issueに登録済みで最新の駅情報更新が見つかるまでお知らせ一覧を探索
+  let hasFound = false
+  for (let page = 1; !hasFound && page < 10; page += 1) {
+    const paths = await getNewsPath(page)
+    // 各お知らせを確認して必要ならissue登録
+    for (const path of paths) {
+      const update = await processNewsItem(path, registeredUpdates, octokit)
+      if (update === latestUpdate) {
+        hasFound = true
+        break
+      }
+    }
   }
+
+  console.log(`更新の確認を終了します hasFound: ${hasFound}`)
 })()
