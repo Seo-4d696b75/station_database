@@ -57,8 +57,11 @@ async function getUpdateIssues(octokit: Octokit): Promise<Set<number>> {
     direction: "desc",
   })
   const set = new Set<number>()
+
+  // openなissue、もしくはcompletedとしてcloseされたissueのみ検査する
   res
     .data
+    .filter(issue => issue.state === "open" || issue.state_reason === "completed")
     .forEach(issue => {
       const m = issue.title.match(/(?<date>[0-9]{4}\/[0-9]{2}\/[0-9]{2})/)
       if (m && m.groups) {
