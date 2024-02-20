@@ -62,18 +62,17 @@ proc = subprocess.run('tesseract string.png stdout'.split(), stdout=subprocess.P
 string = re.sub('\s','',proc.stdout.decode('utf-8'))
 
 while True:
-  m = re.match('([0-9\.]+),([0-9\.]+),([0-9\.]+)z.*', string)
+  m = re.match('([0-9\.]+)/([0-9\.]+)/([0-9\.]+).*', string)
   if m:
     break
-  print('fail to convert coordicate: %s' % string)
+  print('fail to convert coordinates: %s' % string)
   pyperclip.copy(string)
   string = input('put correct value: ')
-center_lat = float(m.group(1))
-center_lng = float(m.group(2))
-zoom = float(m.group(3))
+center_lat = float(m.group(2))
+center_lng = float(m.group(3))
+zoom = float(m.group(1))
 
 print("map: %s\nlng:%.7f, lat:%.7f zoom:%.2f" % (map_file, center_lng, center_lat, zoom))
-
 
 print('Clip zie :[%d:%d, %d:%d]' % (clip_y, clip_y + clip_height, clip_x, clip_x + clip_width))
 
