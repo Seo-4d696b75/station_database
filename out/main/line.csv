@@ -4,7 +4,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 1004,a719bd,東北新幹線,とうほくしんかんせん,NULL,23,2,#008000,NULL,0,NULL
 1005,d4a3f7,上越新幹線,じょうえつしんかんせん,NULL,12,2,NULL,NULL,0,NULL
 1006,0dd500,上越新幹線(上越線),じょうえつしんかんせん(じょうえつせん),上越新幹線(ガーラ湯沢支線),2,2,#00B3E6,NULL,0,NULL
-1009,4e16d0,北陸新幹線,ほくりくしんかんせん,NULL,13,2,NULL,NULL,0,NULL
+1009,4e16d0,北陸新幹線,ほくりくしんかんせん,NULL,19,2,NULL,NULL,0,NULL
 1010,6b44b9,九州新幹線,きゅうしゅうしんかんせん,NULL,12,6,#FF0000,NULL,0,NULL
 1011,444fde,北海道新幹線,ほっかいどうしんかんせん,NULL,4,1,#2BC431,NULL,0,NULL
 1012,994861,西九州新幹線,にしきゅうしゅうしんかんせん,NULL,5,6,NULL,NULL,0,NULL
@@ -298,7 +298,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 30006,a3172a,名鉄豊田線,めいてつとよたせん,NULL,9,20,#9ACD32,TT,0,NULL
 30007,26f31b,名鉄空港線,めいてつくうこうせん,NULL,3,20,#0000CD,TA,0,NULL
 30008,123a1f,名鉄常滑線,めいてつとこなめせん,NULL,26,20,#0000CD,TA,0,NULL
-30009,7d13fd,名鉄河和線,めいてつこうわせん,NULL,19,20,#00BFFF,KC,0,NULL
+30009,7d13fd,名鉄河和線,めいてつこうわせん,NULL,20,20,#00BFFF,KC,0,NULL
 30010,79caf5,名鉄知多新線,めいてつちたしんせん,NULL,6,20,#00BFFF,KC,0,NULL
 30011,2b1859,名鉄築港線,めいてつちっこうせん,NULL,2,20,#808080,CH,0,NULL
 30012,0ef6c7,名鉄瀬戸線,めいてつせとせん,NULL,20,20,#800080,ST,0,NULL
@@ -364,7 +364,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 35001,ee70aa,阪神本線,はんしんほんせん,NULL,33,25,NULL,HS,0,NULL
 35002,708c3b,阪神なんば線,はんしんなんばせん,NULL,11,25,NULL,HS,0,NULL
 35003,58f677,阪神武庫川線,はんしんむこがわせん,NULL,4,25,NULL,HS,0,NULL
-36001,88f993,西鉄天神大牟田線,にしてつてんじんおおむたせん,NULL,49,26,NULL,T,0,NULL
+36001,88f993,西鉄天神大牟田線,にしてつてんじんおおむたせん,NULL,50,26,NULL,T,0,NULL
 36002,d19406,西鉄太宰府線,にしてつだざいふせん,NULL,3,26,NULL,D,0,NULL
 36003,673daf,西鉄甘木線,にしてつあまぎせん,NULL,12,26,NULL,A,0,NULL
 36004,e4c7a6,西鉄貝塚線,にしてつかいづかせん,NULL,10,26,NULL,NK,0,NULL
@@ -455,7 +455,8 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99423,1671be,日本海ひすいライン,にほんかいひすいらいん,NULL,13,244,#3782BD,NULL,0,NULL
 99424,9e5d4f,妙高はねうまライン,みょうこうはねうまらいん,NULL,10,244,#35C98E,NULL,0,NULL
 99425,0870d5,あいの風とやま鉄道線,あいのかぜとやまてつどうせん,NULL,23,245,#00A556,NULL,0,NULL
-99426,b2e0af,IRいしかわ鉄道線,あいあーるいしかわてつどう,IRいしかわ鉄道株式会社,5,246,#00A7E3,NULL,0,NULL
+99426,b2e0af,IRいしかわ鉄道線,あいあーるいしかわてつどう,IRいしかわ鉄道株式会社,19,246,#00A7E3,NULL,0,NULL
+99455,36b866,ハピラインふくい線,はぴらいんふくいせん,ハピラインふくい線,19,NULL,NULL,NULL,0,NULL
 99418,6c98dc,のと鉄道七尾線,のとてつどうななおせん,NULL,8,166,NULL,NULL,0,NULL
 99419,6953a0,えちぜん鉄道勝山永平寺線,えちぜんてつどうかつやまえいへいじせん,NULL,23,167,#FFA500,E,0,NULL
 99420,48988c,えちぜん鉄道三国芦原線,えちぜんてつどうみくにあわらせん,NULL,24,167,#0066FF,NULL,0,NULL
@@ -504,7 +505,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99611,f27eff,京都市営地下鉄東西線,きょうとしえいちかてつとうざいせん,NULL,17,195,#FF4500,T,0,NULL
 99612,43e5a0,京福電鉄嵐山本線,けいふくでんてつあらしやまほんせん,NULL,13,196,#D7003A,A,0,NULL
 99613,8fc107,京福電鉄北野線,けいふくでんてつきたのせん,NULL,10,196,#5654A2,B,0,NULL
-99614,51dae2,北大阪急行電鉄,きたおおさかきゅうこうでんてつ,NULL,4,197,#E5171F,M,0,NULL
+99614,51dae2,北大阪急行電鉄,きたおおさかきゅうこうでんてつ,NULL,6,197,#E5171F,M,0,NULL
 99616,ddb7f3,泉北高速鉄道線,せんぼくこうそくてつどう,NULL,6,198,#007FFF,SB,0,NULL
 99617,34a778,水間鉄道,みずまてつどう,水間鉄道水間線,10,199,NULL,NULL,0,NULL
 99618,4b5c36,OsakaMetro御堂筋線,おおさかめとろみどうすじせん,高速電気軌道第1号線,20,249,#E5171F,M,0,NULL
