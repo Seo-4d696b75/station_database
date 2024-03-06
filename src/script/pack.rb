@@ -55,7 +55,7 @@ end
 puts "read station-list and polyline data."
 # clean
 Dir.glob("#{dst}/line/*").each{ |file|  File.delete(file)}
-lines_details = []
+
 lines.each do |line|
   # 路線の詳細情報
   path = "src/line/#{line["code"]}.json"
@@ -89,20 +89,19 @@ lines.each do |line|
   path = "build/polyline/#{line["code"]}.json"
   if File.exists?(path)
     polyline = read_json(path)
-    details["polyline_list"] = polyline
+    File.open("#{dst}/polyline/#{line["code"]}.json", "w") do |f|
+      f.write(format_json(sort_hash(polyline), flat_key: ["coordinates"]))
+    end
   end
-
-  list = details["station_list"]
+  
   # 路線ファイルの書き出し
-  details["station_list"] = list.map do |e|
+  details["station_list"].map! do |e|
     s = station_map[e["code"]]
     sort_hash(e.merge(s))
   end
   File.open("#{dst}/line/#{line["code"]}.json", "w") do |f|
     f.write(format_json(sort_hash(details), flat_key: ["coordinates"], flat_array: ["station_list"]))
-  end
-  details["station_list"] = list
-  lines_details << details
+  end  
 end
 
 puts "write line list to file."
@@ -155,17 +154,6 @@ File.open("#{dst}/delaunay.json", "w") do |f|
     }
     sort_hash(e)
   end, flat_array: [:root]))
-end
-
-# one-file
-puts "write all the data to one file."
-data = {}
-data["version"] = version
-data["stations"] = stations.map { |e| sort_hash(e) }
-data["lines"] = lines_details.map { |e| sort_hash(e) }
-data["tree_segments"] = segments
-File.open("#{dst}/data.json", "w") do |f|
-  f.write(format_json(data, flat_array: ["stations", "station_list", "node_list"], flat_key: ["coordinates"]))
 end
 
 puts "All done."
