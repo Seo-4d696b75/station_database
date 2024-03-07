@@ -7,7 +7,7 @@ plugins {
 }
 
 application {
-    mainClass.set("jp.seo.station.app.DiagramCalc")
+    mainClass.set("jp.seo.station.app.MainKt")
 }
 
 val props = Properties().apply {
@@ -33,5 +33,5 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.seo4d696b75:diagram:0.1.2")
+    implementation("com.github.seo4d696b75:diagram:0.2.2")
 }
