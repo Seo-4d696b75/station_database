@@ -7,8 +7,8 @@ class Node
     @lng = data["lng"]
     @name = data["name"]
     @depth = depth
-    @left = data.key?("left") ? Node.new(map[data["left"]], depth + 1, map) : nil
-    @right = data.key?("right") ? Node.new(map[data["right"]], depth + 1, map) : nil
+    @left = data["left"] ? Node.new(map[data["left"]], depth + 1, map) : nil
+    @right = data["right"] ? Node.new(map[data["right"]], depth + 1, map) : nil
   end
 
   def serialize(depth = 4)
