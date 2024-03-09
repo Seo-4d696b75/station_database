@@ -1,0 +1,23 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"LineString",
+        "coordinates":[[135.16579,34.67959],[135.16644,34.67897],[135.16871,34.6769],[135.16923,34.67634]]
+      },
+      "properties":{
+        "start":"湊川",
+        "end":"新開地"
+      }
+    }
+  ],
+  "properties":{
+    "name":"神戸高速南北線",
+    "north":34.67959,
+    "south":34.67634,
+    "east":135.16923,
+    "west":135.16579
+  }
+}
