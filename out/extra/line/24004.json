@@ -9,8 +9,8 @@
   "color":"#DD3377",
   "symbol":"KO",
   "station_list":[
-    {"code":2400123,"id":"ba759a","name":"東府中","original_name":"東府中","name_kana":"ひがしふちゅう","closed":false,"lat":35.668766,"lng":139.495257,"prefecture":13,"numbering":["KO23"],"lines":[24001,24004],"attr":"eco","postal_code":"183-0015","address":"府中市清水が丘１-８-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.497155,35.66238],[139.494161,35.661314],[139.490381,35.663325],[139.489624,35.679535],[139.491049,35.685824],[139.494297,35.687317],[139.501797,35.684732],[139.50342,35.680325],[139.497155,35.66238]]]},"properties":{}},"impl":true},
-    {"code":2400402,"id":"d2670e","name":"府中競馬正門前","original_name":"府中競馬正門前","name_kana":"ふちゅうけいばせいもんまえ","closed":false,"lat":35.668288,"lng":139.485019,"prefecture":13,"numbering":["KO46"],"lines":[24004],"attr":"cool","postal_code":"183-0016","address":"府中市八幡町１-１８","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.480751,35.668056],[139.481832,35.664679],[139.483684,35.661339],[139.490381,35.663325],[139.489624,35.679535],[139.480751,35.668056]]]},"properties":{}},"impl":true}
+    {"code":2400123,"id":"ba759a","name":"東府中","original_name":"東府中","name_kana":"ひがしふちゅう","closed":false,"lat":35.668766,"lng":139.495257,"prefecture":13,"numbering":["KO23"],"lines":[24001,24004],"attr":"eco","postal_code":"183-0015","address":"府中市清水が丘１-８-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.497155,35.66238],[139.494161,35.661314],[139.490381,35.663325],[139.489624,35.679535],[139.491049,35.685824],[139.494297,35.687317],[139.501797,35.684732],[139.50342,35.680325],[139.497155,35.66238]]]},"properties":{}},"extra":false},
+    {"code":2400402,"id":"d2670e","name":"府中競馬正門前","original_name":"府中競馬正門前","name_kana":"ふちゅうけいばせいもんまえ","closed":false,"lat":35.668288,"lng":139.485019,"prefecture":13,"numbering":["KO46"],"lines":[24004],"attr":"cool","postal_code":"183-0016","address":"府中市八幡町１-１８","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.480751,35.668056],[139.481832,35.664679],[139.483684,35.661339],[139.490381,35.663325],[139.489624,35.679535],[139.480751,35.668056]]]},"properties":{}},"extra":false}
   ],
-  "impl":true
+  "extra":false
 }

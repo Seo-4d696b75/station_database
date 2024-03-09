@@ -9,8 +9,8 @@
   "color":"#0F6CC3",
   "symbol":"TS",
   "station_list":[
-    {"code":2100213,"id":"e4b840","name":"西新井","original_name":"西新井","name_kana":"にしあらい","closed":false,"lat":35.777323,"lng":139.790372,"prefecture":13,"numbering":["TS13"],"lines":[21002,21006],"attr":"eco","postal_code":"123-0843","address":"足立区西新井栄町２丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.78614,35.762522],[139.783703,35.766074],[139.787492,35.785921],[139.80108,35.785589],[139.78614,35.762522]]]},"properties":{}},"impl":true},
-    {"code":2100602,"id":"3ed08f","name":"大師前","original_name":"大師前","name_kana":"だいしまえ","closed":false,"lat":35.778989,"lng":139.781647,"prefecture":13,"numbering":["TS51"],"lines":[21006],"attr":"heat","postal_code":"123-0841","address":"足立区西新井１-３-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.775361,35.777909],[139.778086,35.77169],[139.783129,35.766486],[139.783703,35.766074],[139.787492,35.785921],[139.780879,35.789852],[139.776946,35.785188],[139.775361,35.777909]]]},"properties":{}},"impl":true}
+    {"code":2100213,"id":"e4b840","name":"西新井","original_name":"西新井","name_kana":"にしあらい","closed":false,"lat":35.777323,"lng":139.790372,"prefecture":13,"numbering":["TS13"],"lines":[21002,21006],"attr":"eco","postal_code":"123-0843","address":"足立区西新井栄町２丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.78614,35.762522],[139.783703,35.766074],[139.787492,35.785921],[139.80108,35.785589],[139.78614,35.762522]]]},"properties":{}},"extra":false},
+    {"code":2100602,"id":"3ed08f","name":"大師前","original_name":"大師前","name_kana":"だいしまえ","closed":false,"lat":35.778989,"lng":139.781647,"prefecture":13,"numbering":["TS51"],"lines":[21006],"attr":"heat","postal_code":"123-0841","address":"足立区西新井１-３-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.775361,35.777909],[139.778086,35.77169],[139.783129,35.766486],[139.783703,35.766074],[139.787492,35.785921],[139.780879,35.789852],[139.776946,35.785188],[139.775361,35.777909]]]},"properties":{}},"extra":false}
   ],
-  "impl":true
+  "extra":false
 }
