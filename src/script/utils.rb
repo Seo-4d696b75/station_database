@@ -215,7 +215,7 @@ def sort_hash(data)
     "delta_lng",
     "points",
     "polyline_list",
-    "impl",
+    "extra",
   ]
   data.sort do |a, b|
     a = keys.find_index(a[0])

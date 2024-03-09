@@ -29,7 +29,7 @@ class FormatTest < Minitest::Test
     end
   end
 
-  def check_station(diagram = true)
+  def check_station
     pref_cnt = Array.new(48, 0)
     dup_name = Hash.new([])
     @stations.each do |station|
@@ -48,7 +48,7 @@ class FormatTest < Minitest::Test
       lines = station["lines"]
       open_date = station["open_date"]
       closed_date = station["closed_date"]
-      impl = station.fetch("impl", true)
+      extra = !!station["extra"]
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{JSON.dump(station)}"
       assert id && id.kind_of?(String) && id.match(PATTERN_ID), "invalid id #{JSON.dump(station)}"
@@ -62,8 +62,8 @@ class FormatTest < Minitest::Test
       assert pref && pref.kind_of?(Integer) && pref > 0 && pref <= 47, "invalid pref #{JSON.dump(station)}"
       assert post && post.kind_of?(String) && post.match(PATTERN_POST), "invalid postal_code #{JSON.dump(station)}"
       assert address && address.kind_of?(String) && address.length > 0, "invalid address #{JSON.dump(station)}"
-      assert !impl || ["eco", "heat", "cool", "unknown"].include?(attribute), "invalid attr #{JSON.dump(station)}"
-      assert impl || !attribute, "invalid attr #{JSON.dump(station)}"
+      assert extra || ["eco", "heat", "cool", "unknown"].include?(attribute), "invalid attr #{JSON.dump(station)}"
+      assert !extra || !attribute, "invalid attr #{JSON.dump(station)}"
       assert lines && lines.kind_of?(Array) && lines.length > 0, "invalid lines #{JSON.dump(station)}"
       assert !open_date || open_date.match(PATTERN_DATE), "invalid open date #{JSON.dump(station)}"
       assert !closed_date || closed_date.match(PATTERN_DATE), "invalid closed date #{JSON.dump(station)}"
@@ -78,36 +78,22 @@ class FormatTest < Minitest::Test
       end
 
       # cnt in each prefecture
-      pref_cnt[pref] += 1 if impl
+      pref_cnt[pref] += 1 if !extra
 
       # 'closed'
-      assert !impl || closed == (attribute == "unknown"), "invalid attr<=>closed value #{JSON.dump(station)}"
+      assert extra || closed == (attribute == "unknown"), "invalid attr<=>closed value #{JSON.dump(station)}"
       # 'lines'
       assert lines.length > 0, "not registered in any line, staion:#{JSON.dump(station)}"
       lines.each do |code|
         assert @line_map.key?(code), "line code #{code} not found at lines #{JSON.dump(station)}"
       end
       assert closed || lines.map { |code| @line_map[code] }.select { |l| !l["closed"] }.length > 0, "non-closed station must be in non-closed line #{JSON.dump(station)}"
-
-      if diagram
-        next_station = station["next"]
-        voronoi = station["voronoi"]
-        assert next_station && next_station.kind_of?(Array) && next_station.length > 0, "invalid next #{JSON.dump(station)}"
-        assert voronoi, "voronoi not found #{JSON.dump(station)}"
-
-        # 'next'
-        next_station.each do |n|
-          assert code != n && @station_map.key?(n), "station code #{n} not found at next #{JSON.dump(station)}"
-        end
-        # 'voronoi'
-        assert check_feature(voronoi), "invalide voronoi data #{JSON.dump(station)}"
-      end
     end
 
     # check name duplication
     dup_name.each do |key, value|
       if s = @station_map[key]
-        assert s.fetch("impl", true) && value.select { |v| v.fetch("impl", true) }.length == 0, "original_name '#{key}' duplicated, but no suffix in name of #{JSON.dump(s)}"
+        assert !s["extra"] && value.select { |v| !v["extra"] }.length == 0, "original_name '#{key}' duplicated, but no suffix in name of #{JSON.dump(s)}"
         # may be value.length == 1
         next
       end
@@ -123,7 +109,7 @@ class FormatTest < Minitest::Test
     end
   end
 
-  def check_line(polyline = true)
+  def check_line
     line_impl_size = Hash.new
     csv_each_line("src/check/line.csv") do |fields|
       name = fields["name"]
@@ -142,7 +128,7 @@ class FormatTest < Minitest::Test
       station_size = line["station_size"]
       station_list = line["station_list"]
       closed_date = line["closed_date"]
-      impl = line.fetch("impl", true)
+      extra = !!line["extra"]
 
       # check field value
       assert code && code.kind_of?(Integer), "invalid code #{name}"
@@ -158,28 +144,12 @@ class FormatTest < Minitest::Test
       station_list.each do |item|
         s = @station_map[item["code"]]
         assert s && s["lines"].include?(code), "invalid station item:#{item["code"]} at #{name}"
-        impl_size += 1 if s.fetch("impl", true) && item.fetch("impl", true)
+        impl_size += 1 if !s["extra"] && !item["extra"]
       end
-      if impl
+      if !extra
         size = line_impl_size[name]
         assert size, "line:#{name} not found at check/line. at station_list #{JSON.dump(line)}"
         assert_equal size, impl_size, "station size(impl) mismatch at station_list #{JSON.dump(line)}"
-      end
-
-      # polyline
-      if polyline
-        polyline = line["polyline_list"]
-        assert !impl || closed || polyline, "non-closed line must have polyline data #{name}"
-        if polyline
-          prop = polyline["properties"]
-          north = prop["north"]
-          south = prop["south"]
-          east = prop["east"]
-          west = prop["west"]
-          assert north.kind_of?(Float) && south.kind_of?(Float) && east.kind_of?(Float) && west.kind_of?(Float), "invalid polyline boundary #{name}"
-          assert south < north && west < east, "polyline boundary not rect!! #{name}"
-          assert check_feature_collection(polyline), "invalid polyline #{name}"
-        end
       end
 
       # date

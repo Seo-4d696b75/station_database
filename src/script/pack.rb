@@ -4,11 +4,11 @@ load("src/script/utils.rb")
 load("src/script/kdtree.rb")
 require "optparse"
 
-impl = true
+extra = false
 dst = "."
 version = 0
 opt = OptionParser.new
-opt.on("-e", "--extra") { impl = false }
+opt.on("-e", "--extra") { extra = true }
 opt.on("-d", "--dst VALUE") { |v| dst = v }
 opt.on("-v", "--version VALUE") { |v| version = v.to_i }
 opt.parse!(ARGV)
@@ -16,12 +16,13 @@ ARGV.clear()
 
 puts "version: #{version}"
 
+# TODO src/*.csv を使う
 print "read soved line data..."
-lines = read_json("build/line#{impl ? "" : ".extra"}.json")
+lines = read_json("build/line#{extra ? ".extra" : ""}.json")
 puts "size:#{lines.length}"
 
 print "read soved station data..."
-stations = read_json("build/station#{impl ? "" : ".extra"}.json")
+stations = read_json("build/station#{extra ? ".extra" : ""}.json")
 puts "size:#{stations.length}"
 
 station_map = {}
@@ -32,7 +33,7 @@ end
 
 # 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
 puts "read diagram details"
-tree = read_json("build/diagram#{impl ? "" : ".extra"}.json")
+tree = read_json("build/diagram#{extra ? ".extra" : ""}.json")
 if stations.length != tree["node_list"].length
   puts "Error > station size mismatch. list:#{stations.length} diagram:#{tree["node_list"].length}"
   exit(1)
@@ -60,25 +61,17 @@ lines.each do |line|
   # 路線の詳細情報
   path = "src/line/#{line["code"]}.json"
   details = read_json(path)
-  if details["name"] != line["name"]
-    puts "Error > line name mismatch line:#{JSON.dump(line)}"
-    exit(1)
-  end
   line.each { |key, value| details[key] = value }
   # 登録路線の抽出（駅メモ）
   details["station_list"].select! do |e|
-    # s == nil if impl && (station 'e' is not impl)
     s = station_map[e["code"]]
-    next false if !s
-    if impl
-      next false if e.key?("impl") && !e["impl"]
+    next false if !s # TODO station.csv なら必ずhitする
+    if extra || (!e["extra"] && !s["extra"] && !line["extra"])
+      # 出力先 out/*/line/*.json .station_list[].extra は別の意味になる
+      e.delete("extra")
+      next true
     end
-    e.delete("impl")
-    if e["name"] != s["name"]
-      puts "Error > unknown station item. expected:#{e} found:#{s}"
-      exit(1)
-    end
-    next true
+    next false
   end
   if details["station_list"].length != line["station_size"]
     puts "Error > station size mismatch. line:#{line} <=> details:#{details["station_list"]}"
@@ -87,13 +80,13 @@ lines.each do |line|
 
   # 路線ポリライン
   path = "build/polyline/#{line["code"]}.json"
-  if File.exists?(path)
+  if File.exist?(path)
     polyline = read_json(path)
     File.open("#{dst}/polyline/#{line["code"]}.json", "w") do |f|
       f.write(format_json(sort_hash(polyline), flat_key: ["coordinates"]))
     end
   end
-  
+
   # 路線ファイルの書き出し
   details["station_list"].map! do |e|
     s = station_map[e["code"]]
@@ -101,7 +94,7 @@ lines.each do |line|
   end
   File.open("#{dst}/line/#{line["code"]}.json", "w") do |f|
     f.write(format_json(sort_hash(details), flat_key: ["coordinates"], flat_array: ["station_list"]))
-  end  
+  end
 end
 
 puts "write line list to file."
@@ -144,7 +137,7 @@ stations.each do |s|
   s["next"] = delaunay_map[s["code"]]
 end
 File.open("#{dst}/delaunay.json", "w") do |f|
-  f.write(format_json(stations.map do |s| 
+  f.write(format_json(stations.map do |s|
     e = {
       "name" => s["name"],
       "code" => s["code"],

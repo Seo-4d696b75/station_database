@@ -234,15 +234,13 @@ describe(`${dataset}データセット`, () => {
             withAssert("register.csv", registration, assert => {
               // 駅登録の順序
               // TODO mainデータセットの場合、check.rbでextraを飛ばしてindexをカウントしている
-              // assert.equals(idx + 1, registration.index, "駅の登録順が異なる")
+              assert.equals(idx + 1, registration.index, "駅の登録順が異なる")
               // 駅ナンバリング
               let numbering = s.numbering ? s.numbering.join("/") : null
               assert.equals(numbering, registration.numbering, "駅ナンバリングが異なる")
               // 駅メモ実装での登録駅数をカウント
               // 注意： extraの意味の対象が異なる！
               // line/*.json .station_list[].extra: 駅自体
-              //     ┗━▶ こちらでは正しくカウントできない 
-              //     https://github.com/Seo-4d696b75/station_database/issues/72
               // register.csv: 路線に対する駅登録
               if (!registration.extra) {
                 implSize++
@@ -250,9 +248,12 @@ describe(`${dataset}データセット`, () => {
             })
           }))
 
-          assert(lineStationSize.has(line.name), "路線の登録駅数（実装のみ）が見つからない")
+          // 駅メモ実装路線の場合は登録駅数が別途定義されている
+          assert(line.extra || lineStationSize.has(line.name), "路線の登録駅数（駅メモ実装）が見つからない")
+
+          // extra路線における駅メモ実装の登録液数は0
           const expected = lineStationSize.get(line.name) ?? 0
-          assert.equals(implSize, expected, "路線の登録駅数（実装のみ）が異なる")
+          assert.equals(implSize, expected, "路線の登録駅数（駅メモ）が異なる")
 
         }))
       })

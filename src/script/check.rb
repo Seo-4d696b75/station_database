@@ -1,9 +1,10 @@
 # src/*.csvファイルを入力としてデータ整合性の確認・データの自動補完を行います
 # オプション
-# -i [--impl]: "impl"=trueのデータのみ対象にします
-# -d [--dst] DIR: DIRを指定するとbuildしたjsonファイル群を出力します（補完作業なし） 
+# -e [--extra]: extraデータセットを対象とします
+# -d [--dst] DIR: DIRを指定するとbuildしたjsonファイル群を出力します（補完作業なし）
 #                 DIRの指定がない場合はインタラクションモードで実行します（補完作業あり）
 
+# TODO build機能と src/**/* の自動補完機能+test機能を分離する
 load("src/script/format.rb")
 
 require "net/http"
@@ -24,7 +25,7 @@ STATION_FIELD = [
   "closed",
   "open_date",
   "closed_date",
-  "impl",
+  "extra",
   "attr",
 ]
 
@@ -40,21 +41,21 @@ LINE_FIELD = [
   "symbol",
   "closed",
   "closed_date",
-  "impl",
+  "extra",
 ]
 
 REGISTER_FIELDS = [
-  "station_code", "line_code", "index", "numbering", "impl",
+  "station_code", "line_code", "index", "numbering", "extra",
 ]
 
 Dotenv.load "src/.env.local"
 API_KEY = ENV["GOOGLE_GEOCODING_API_KEY"]
 
 $interaction = false
-$impl = true
+$extra = false
 $dst = nil
 opt = OptionParser.new
-opt.on("-e", "--extra") { $impl = false }
+opt.on("-e", "--extra") { $extra = true }
 opt.on("-i", "--interaction") { $interaction = true }
 opt.on("-d", "--dst VALUE") { |v| $dst = v }
 opt.parse!(ARGV)
@@ -72,7 +73,7 @@ def get_address(station)
   assert_equal res.code, "200", "response from /maps/api/geocode/json"
   data = JSON.parse(res.body)
   assert_equal data["status"], "OK", "response:\n#{JSON.pretty_generate(data)}"
-   
+
   data = data["results"][0]
 
   puts "address: #{data["formatted_address"]} #{data}"
@@ -127,34 +128,34 @@ class CSVTest < FormatTest
     # registaration of station-line is defined here
     read_line_details()
 
-    if $impl
-      # filter impl
+    if !$extra
+      # filter not extra
       @stations.select! do |s|
-        s["lines"].select! { |code| @line_map[code]["impl"] }
-        s.delete("impl")
+        s["lines"].select! { |code| !@line_map[code]["extra"] }
+        !s.delete("extra")
       end
       @lines.select! do |l|
         # station_list edited
-        l.delete("impl")
+        !l.delete("extra")
       end
     end
   end
 
   def test_all()
-    self.check_station(false)
-    self.check_line(false)
+    self.check_station
+    self.check_line
   end
 
   def teardown
     if $dst
-      puts "write csv to #{$dst}/*.csv impl:#{$impl}"
+      puts "write csv to #{$dst}/*.csv extra:#{$extra}"
       station_field = STATION_FIELD.dup
       line_field = LINE_FIELD.dup
       register_field = REGISTER_FIELDS.dup
-      if $impl
-        station_field.delete("impl")
-        line_field.delete("impl")
-        register_field.delete("impl")
+      if !$extra
+        station_field.delete("extra")
+        line_field.delete("extra")
+        register_field.delete("extra")
       end
       write_csv("#{$dst}/station.csv", station_field, @stations)
       write_csv("#{$dst}/line.csv", line_field, @lines)
@@ -162,7 +163,7 @@ class CSVTest < FormatTest
       puts "OK"
 
       print "Write to json files..."
-      File.open("build/line#{$impl ? "" : ".extra"}.json", "w") do |f|
+      File.open("build/line#{$extra ? ".extra" : ""}.json", "w") do |f|
         list = @lines.map do |line|
           line.delete_if do |key, value|
             value == nil || key == "station_list"
@@ -171,7 +172,7 @@ class CSVTest < FormatTest
         end
         f.write(format_json(list, flat_array: [:root]))
       end
-      File.open("build/station#{$impl ? "" : ".extra"}.json", "w") do |f|
+      File.open("build/station#{$extra ? ".extra" : ""}.json", "w") do |f|
         list = @stations.map do |s|
           s.delete_if { |key, value| value == nil }
           sort_hash(s)
@@ -188,7 +189,7 @@ class CSVTest < FormatTest
       csv_err("col size != 15") if fields.length != 15
       code = fields["code"].to_i
       id = fields.str("id")
-      impl = fields.boolean("impl")
+      extra = fields.boolean("extra")
 
       name = fields.str("name")
       name_original = fields.str("original_name")
@@ -212,7 +213,7 @@ class CSVTest < FormatTest
       station["attr"] = attr
       station["postal_code"] = postal_code
       station["address"] = address
-      station["impl"] = impl
+      station["extra"] = extra
       station["closed"] = closed
       station["open_date"] = fields.date("open_date")
       station["closed_date"] = fields.date("closed_date")
@@ -222,7 +223,7 @@ class CSVTest < FormatTest
       station["lines"] = []
       @stations << station
     end
-    impl_size = @stations.select { |s| s["impl"] }.length
+    impl_size = @stations.select { |s| !s["extra"] }.length
     puts "station size: #{@stations.length} (impl #{impl_size})"
   end
 
@@ -240,7 +241,7 @@ class CSVTest < FormatTest
       color = fields.str("color")
       symbol = fields.str("symbol")
       closed = fields.boolean("closed")
-      impl = fields.boolean("impl")
+      extra = fields.boolean("extra")
       closed_date = fields.date("closed_date")
       puts "Warning > line closed date not defined #{name}" if closed && !closed_date
 
@@ -255,13 +256,13 @@ class CSVTest < FormatTest
       line["color"] = color
       line["symbol"] = symbol
       line["closed"] = closed
-      line["impl"] = impl
+      line["extra"] = extra
       line["closed_date"] = closed_date
 
       @lines << line
     end
 
-    impl_size = @lines.select { |s| s["impl"] }.length
+    impl_size = @lines.select { |s| !s["extra"] }.length
     puts "lins size: #{@lines.length} (impl #{impl_size})"
   end
 
@@ -288,7 +289,14 @@ class CSVTest < FormatTest
   def read_line_details
     puts "reading line details..."
 
-    polyline_ignore = [] 
+    impl_size_map = Hash.new
+    csv_each_line("src/check/line.csv") do |fields|
+      name = fields["name"]
+      size = fields["size"].to_i
+      impl_size_map[name] = size
+    end
+
+    polyline_ignore = []
     csv_each_line("src/check/polyline_ignore.csv") do |line|
       polyline_ignore << line.str("name")
     end
@@ -297,20 +305,24 @@ class CSVTest < FormatTest
     @lines.each do |line|
       # 路線の登録駅情報
       path = "src/line/#{line["code"]}.json"
-      assert File.exists?(path), "file:#{path} not found. line:#{JSON.dump(line)}"
+      assert File.exist?(path), "file:#{path} not found. line:#{JSON.dump(line)}"
       details = read_json(path)
       assert_equal line["name"], details["name"], "name mismatch(details). file:#{line["code"]}.json line:#{JSON.dump(line)}"
       # 登録駅数の確認
       size = line["station_size"]
       assert_equal size, details["station_list"].length, "station list size mismatch at #{JSON.dump(line)}"
       line_code = line["code"]
-      impl_size = 0
 
+      # 登録駅の駅コード・駅名の変化があれば更新する
       write = false
+      # 登録駅数
+      count = 0
+      # 駅メモ登録駅数
+      impl_size = 0
       line["station_list"] = details["station_list"].map.each_with_index do |s, i|
         station_code = s["code"]
         station_name = s["name"]
-        impl = s.fetch("impl", true)
+        extra = !!s["extra"]
         # 名前解決
         station = nil
         assert (station = @station_map[station_name]) || (station = @station_map[station_code]), "station not found #{station_name}(#{station_code}) at station_list #{JSON.dump(line)}"
@@ -329,38 +341,46 @@ class CSVTest < FormatTest
           station_name = station["name"]
           s["name"] = station["name"]
           write = true
-        elsif station_code != station["code"] || station_name != station["name"]
-          assert false, "fail to solve station item. specified:#{station_name}(#{station_code}) <=> found:#{JSON.dump(station)} at station_list #{JSON.dump(line)}"
         end
 
-        index = i + 1
         # 駅ナンバリングを文字列表現
         numbering = "NULL"
         if n = s["numbering"]
           numbering = n.join("/")
         end
-        if !$impl || (impl && station["impl"] && line["impl"])
+
+        # mainデータセットの登録駅に注意
+        # src/line/*.json .station_list[].extra: 路線に対する登録
+        # src/*.csv extra: 路線・駅自体
+        if $extra || (!extra && !station["extra"] && !line["extra"])
+          register_extra = extra || station["extra"] || line["extra"]
+          count += 1
           @register << {
             "station_code" => station_code,
             "line_code" => line_code,
-            "index" => index,
+            "index" => count,
             "numbering" => numbering,
-            "impl" => (impl && station["impl"]),
+            "extra" => register_extra,
           }
-        end
+          impl_size += 1 if !register_extra
 
-        # 路線登録数の確認 impl only
-        impl_size += 1 if station["impl"] && impl
-
-        if !$impl || (station["impl"] && impl)
-          # only impl# 駅要素側にも登録路線を記憶
+          # 駅要素側にも登録路線を記憶
           station["lines"] << line["code"]
           next sort_hash(s)
         else
           next nil
         end
       end.compact
-      line["station_size"] = line["station_list"].length if $impl
+
+      line["station_size"] = line["station_list"].length
+
+      # 駅メモ実装の登録駅数を確認
+      if !line["extra"]
+        assert impl_size_map.key?(line["name"]), "no staion size found in check/line.csv @#{line["name"]}"
+        assert_equal impl_size, impl_size_map[line["name"]], "station size (impl) mismatch vs check/line.csv @#{line["name"]}}"
+      else
+        assert_equal impl_size, 0, "station size (impl) of extra line must be 0 @#{line["name"]}"
+      end
 
       # 更新あるなら駅登録詳細へ反映
       if write
@@ -370,12 +390,11 @@ class CSVTest < FormatTest
         end
       end
 
-      # 路線ポリラインは廃線,no-implのみ欠損許す
+      # 路線ポリラインは廃線,extraのみ欠損許す
       path = "src/polyline/#{line["code"]}.json"
-      if !File.exists?(path)
-        assert polyline_ignore.include?(line["name"]) && line["closed"], "polyline not found. line:#{JSON.dump(line)}"
+      if !File.exist?(path)
+        assert polyline_ignore.include?(line["name"]), "polyline not found. line:#{JSON.dump(line)}"
       end
-      # no validation
     end
   end
 end
