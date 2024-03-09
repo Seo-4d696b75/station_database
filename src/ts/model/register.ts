@@ -7,7 +7,7 @@ export interface StationRegister {
   line_code: number
   index: number
   numbering: string | null
-  impl?: boolean
+  extra?: boolean
 }
 
 export const csvRegister: JSONSchemaType<StationRegister> = {
@@ -23,7 +23,7 @@ export const csvRegister: JSONSchemaType<StationRegister> = {
       type: "string",
       nullable: true,
     },
-    impl: {
+    extra: {
       type: "boolean",
       nullable: true,
     }
