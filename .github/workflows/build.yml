@@ -64,6 +64,10 @@ jobs:
             -e \
             -d out/extra \
             -v ${{ env.VERSION }}
+      - name: zip data
+        run: |
+          ./src/zip.sh main
+          ./src/zip.sh extra
       - name: Check Diff
         id: check_diff
         run: |
