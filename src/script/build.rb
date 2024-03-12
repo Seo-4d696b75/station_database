@@ -1,8 +1,6 @@
 load('src/script/io.rb')
 load('src/script/kdtree.rb')
 require 'optparse'
-require 'parallel'
-require 'minitest'
 
 # 指定したデータセットでビルドする
 #
@@ -22,15 +20,6 @@ opt = OptionParser.new
 opt.on('-e', '--extra') { extra = true }
 opt.parse!(ARGV)
 ARGV.clear
-
-# use assert outside minitest
-include Minitest::Assertions
-class << self
-  attr_accessor :assertions
-end
-self.assertions = 0
-
-# csv fields to be writen
 
 dir = "out/#{extra ? 'extra' : 'main'}"
 

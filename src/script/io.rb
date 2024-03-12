@@ -2,6 +2,14 @@ load('src/script/json.rb')
 load('src/script/csv.rb')
 load('src/script/polyline.rb')
 require 'json'
+require 'minitest'
+
+# use assert outside minitest
+include Minitest::Assertions
+class << self
+  attr_accessor :assertions
+end
+self.assertions = 0
 
 Encoding.default_external = 'UTF-8'
 
@@ -177,6 +185,16 @@ class Array
   def write_delaunay_json(file)
     fields = %w[
       code name lat lng next
+    ]
+    array = map { |n| normalize_hash n, fields, false }
+    str = format_json(array, flat_array: [:root])
+    File.write file, str
+  end
+
+  # 図形計算の入力（一時ファイル）
+  def write_diagram_json(file)
+    fields = %w[
+      code name lat lng
     ]
     array = map { |n| normalize_hash n, fields, false }
     str = format_json(array, flat_array: [:root])
