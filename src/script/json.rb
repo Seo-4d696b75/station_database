@@ -1,37 +1,3 @@
-require 'securerandom'
-
-class IDSet
-  def initialize
-    @id = Set.new
-  end
-
-  def add?(e)
-    id = nil
-    id = e if e.is_a?(String)
-    id = e['id'] if e.is_a?(Hash)
-    if id
-      if id.match(/[0-9a-f]{6}/)
-        return true if @id.add?(id)
-
-        puts "Error > id:#{id} duplicated  item:#{e}"
-
-      else
-        puts "Error > invalid id item:#{e}"
-      end
-    else
-      puts "Error > no id item:#{e}"
-    end
-    false
-  end
-
-  def get
-    while true
-      id = SecureRandom.hex(3)
-      return id if @id.add?(id)
-    end
-  end
-end
-
 def format_json_obj(obj, flat: false, flat_key: [], flat_array: [], depth: 0)
   str = '{'
   str << "\n" + ('  ' * (depth + 1)) unless flat
@@ -120,61 +86,14 @@ def format_json(data, flat_key: [], flat_array: [])
   )
 end
 
-@json_keys = %w[
-  code
-  id
-  name
-  original_name
-  name_kana
-  name_formal
-  station_size
-  company_code
-  closed
-  lat
-  lng
-  left
-  right
-  segment
-  prefecture
-  numbering
-  lines
-  color
-  symbol
-  station_list
-  north
-  south
-  east
-  west
-  point_list
-  attr
-  postal_code
-  address
-  open_date
-  closed_date
-  next
-  voronoi
-  start
-  end
-  delta_lat
-  delta_lng
-  points
-  polyline_list
-  extra
-].freeze
-
-# 一部のkeyは定義なしでも共用する
-NULLABLE_KEYS = %w[
-  left right numbering
-].freeze
-
 def normalize_hash(src, keys, extra)
   dst = {}
   keys.each do |key|
     # mainデータセットでは`extra`属性不要
     next if !extra && key == 'extra'
 
-    # 指定したkeyの定義を確認（value=nilでもkeyの定義を要求する、一部のkeyを除く）
-    raise "value for key:#{key} not set in #{JSON.dump(src)}" unless src.key?(key) || NULLABLE_KEYS.include?(key)
+    # 指定したkeyの定義を確認（value=nilでもkeyの定義を要求する）
+    raise "value for key:#{key} not set in #{JSON.dump(src)}" unless src.key?(key)
 
     value = src[key]
     # nullはkey-value自体を削除
