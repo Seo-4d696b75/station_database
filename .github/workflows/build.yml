@@ -25,7 +25,7 @@ jobs:
           ref: ${{ github.ref }}
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: .ruby-version
           bundler-cache: true
       - name: Set up JDK
         uses: actions/setup-java@v2
