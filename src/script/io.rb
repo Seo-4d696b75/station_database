@@ -59,8 +59,6 @@ def read_csv_stations
     station['closed_date'] = fields.date('closed_date')
     station['lines'] = []
 
-    puts "Warning > may be invalid suffix of name:#{name_original}" if name_original.end_with?('駅', '停留所', '乗降場')
-
     list << station
   end
   list
@@ -83,8 +81,6 @@ def read_csv_lines
     closed = fields.boolean('closed')
     extra = fields.boolean('extra')
     closed_date = fields.date('closed_date')
-
-    puts "Warning > line closed date not defined #{name}" if closed && !closed_date
 
     line = {}
     line['code'] = code

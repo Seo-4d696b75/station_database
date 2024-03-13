@@ -50,7 +50,7 @@ end
 # 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
 puts 'read src/diagram/build/*.json'
 tree = read_json("src/diagram/build/diagram#{extra ? '.extra' : ''}.json")
-assert_equal tree['node_list'].length, stations.length, 'station and tree node size mismatch'
+assert_equal stations.length, tree['node_list'].length, 'kd-tree頂点数が駅数と異なります'
 tree['node_list'].map! do |e|
   # nullでもkeyを要求する
   e['left'] = nil unless e.key?('left')
@@ -58,7 +58,7 @@ tree['node_list'].map! do |e|
 
   # 対応する駅
   s = station_map[e['code']]
-  assert s, "station not foun at tree node:#{e}"
+  assert s, "kd-treeの頂点に対応する駅が見つかりません node:#{JSON.dump(e)}"
   # stationsと同じインスタンスを持たせておく
   s.merge!(e)
 end
