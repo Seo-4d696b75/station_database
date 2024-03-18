@@ -29,8 +29,8 @@ Dir.glob(["#{dir}/**/*.json", "#{dir}/**/*.csv"]).each { |file| File.delete(file
 
 # 駅・路線マスターデータの取得
 puts 'reading src/*.csv'
-stations = read_csv_stations
-lines = read_csv_lines
+stations = read_csv_stations 'src/station.csv'
+lines = read_csv_lines 'src/line.csv'
 
 line_map = {}
 lines.each { |l| line_map[l['code']] = l }

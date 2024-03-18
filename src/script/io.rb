@@ -23,9 +23,9 @@ def read_json(path)
   JSON.parse(str)
 end
 
-def read_csv_stations
+def read_csv_stations(path)
   list = []
-  read_csv 'src/station.csv' do |fields|
+  read_csv path do |fields|
     assert_equal fields.length, 15
     code = fields['code'].to_i
     id = fields.str('id')
@@ -64,9 +64,9 @@ def read_csv_stations
   list
 end
 
-def read_csv_lines
+def read_csv_lines(path)
   list = []
-  read_csv 'src/line.csv' do |fields|
+  read_csv path do |fields|
     assert_equal fields.length, 12
     code = fields['code'].to_i
     id = fields.str('id')

@@ -6,8 +6,8 @@ load('src/script/geocoding.rb')
 load('src/script/idset.rb')
 
 puts 'reading station.csv line.csv'
-station_list = read_csv_stations
-line_list = read_csv_lines
+station_list = read_csv_stations 'src/station.csv'
+line_list = read_csv_lines 'src/line.csv'
 
 puts 'checking station/line id'
 ids = IDSet.new

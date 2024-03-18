@@ -7,7 +7,7 @@ load('src/script/io.rb')
 #   - src/diagram/build/station.json
 #   - src/diagram/build/station.extra.json
 
-stations = read_csv_stations
+stations = read_csv_stations 'src/station.csv'
 
 # extraデータセット
 puts "station size (extra): #{stations.length}"
