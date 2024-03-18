@@ -23,6 +23,28 @@ def read_json(path)
   JSON.parse(str)
 end
 
+def read_json_lines(dir, station_list: false, polyline: false)
+  read_json("#{dir}/line.json").map do |line|
+    if station_list
+      detail = read_json "#{dir}/line/#{line['code']}.json"
+      # 最低限の路線登録情報だけ確認する
+      line['station_list'] = detail['station_list'].map do |r|
+        {
+          'id' => r['id'],
+          'code' => r['code'],
+          'name' => r['name'],
+          'numbering' => r['numbering']
+        }
+      end
+    end
+    if polyline
+      geo = read_json "#{dir}/polyline/#{line['code']}.json"
+      line['polyline'] = geo
+    end
+    line
+  end
+end
+
 def read_csv_stations(path)
   list = []
   read_csv path do |fields|
