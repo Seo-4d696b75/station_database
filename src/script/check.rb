@@ -1,4 +1,5 @@
 # src/**/* ファイルを入力としてデータ整合性の確認・データの自動補完を行います
+require 'parallel'
 
 load('src/script/io.rb')
 load('src/script/geocoding.rb')
@@ -125,9 +126,12 @@ polyline_ignore = []
 read_csv 'src/check/polyline_ignore.csv' do |line|
   polyline_ignore << line.str('name')
 end
-line_list.each do |line|
+Parallel.each(line_list, in_threads: 4) do |line|
   path = "src/polyline/#{line['code']}.json"
-  unless File.exist?(path)
+  if File.exist?(path)
+    data = read_json path
+    validate_polyline(line, data)
+  else
     assert polyline_ignore.include?(line['name']),
            "路線ポリラインが見つかりません.欠損を許可する場合は src/check/polyline.csv への追加が必要です line:#{JSON.dump(line)}"
   end
