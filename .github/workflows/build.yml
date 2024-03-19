@@ -49,13 +49,8 @@ jobs:
           ./gradlew run --args="build/station.extra.json build/diagram.extra.json"
       - name: build data
         run: |
-          bundle exec ruby src/script/pack.rb \
-            -d out/main \
-            -v ${{ env.VERSION }}
-          bundle exec ruby src/script/pack.rb \
-            -e \
-            -d out/extra \
-            -v ${{ env.VERSION }}
+          bundle exec ruby src/script/build.rb 
+          bundle exec ruby src/script/build.rb -e
       - name: zip data
         run: |
           ./src/zip.sh main
@@ -70,14 +65,14 @@ jobs:
         if: ${{ steps.check_diff.outputs.main }} > 0
         run: |
           bundle exec ruby src/script/release.rb \
-            -s out/main/data.json \
+            -s out/main/json.zip \
             -d latest_info.json \
             -v ${{ env.VERSION }}
       - name: Update Info (extra)
         if: ${{ steps.check_diff.outputs.extra }} > 0
         run: |
           bundle exec ruby src/script/release.rb \
-            -s out/extra/data.json \
+            -s out/extra/json.zip \
             -d latest_info.extra.json \
             -v ${{ env.VERSION }}
       - name: Commit and Push
