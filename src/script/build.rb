@@ -1,6 +1,7 @@
 load('src/script/io.rb')
 load('src/script/kdtree.rb')
 require 'optparse'
+require 'parallel'
 
 # 指定したデータセットでビルドする
 #
