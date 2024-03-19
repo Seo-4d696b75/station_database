@@ -9,8 +9,8 @@
   "color":"#DAA520",
   "symbol":"TH",
   "station_list":[
-    {"code":3002009,"id":"98f5a7","name":"江吉良","original_name":"江吉良","name_kana":"えぎら","closed":false,"lat":35.31543,"lng":136.699686,"prefecture":21,"numbering":["TH08"],"lines":[30020,30021],"attr":"heat","postal_code":"501-6236","address":"羽島市江吉良町江東８３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.707801,35.318256],[136.693145,35.319033],[136.693124,35.312378],[136.711008,35.313236],[136.714446,35.31431],[136.707801,35.318256]]]},"properties":{}},"extra":false},
-    {"code":3002102,"id":"b10d41","name":"新羽島","original_name":"新羽島","name_kana":"しんはしま","closed":false,"lat":35.315471,"lng":136.686582,"prefecture":21,"numbering":["TH09"],"lines":[30021],"attr":"heat","postal_code":"501-6301","address":"羽島市舟橋町宮北１-１-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.679908,35.295483],[136.689431,35.326773],[136.693145,35.319033],[136.693124,35.312378],[136.689212,35.302875],[136.682683,35.296806],[136.679908,35.295483]]]},"properties":{}},"extra":false}
+    {"code":3002009,"id":"98f5a7","name":"江吉良","original_name":"江吉良","name_kana":"えぎら","closed":false,"lat":35.31543,"lng":136.699686,"prefecture":21,"numbering":["TH08"],"lines":[30020,30021],"attr":"heat","postal_code":"501-6236","address":"羽島市江吉良町江東８３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.707801,35.318256],[136.693145,35.319033],[136.693124,35.312378],[136.711008,35.313236],[136.714446,35.31431],[136.707801,35.318256]]]},"properties":{}}},
+    {"code":3002102,"id":"b10d41","name":"新羽島","original_name":"新羽島","name_kana":"しんはしま","closed":false,"lat":35.315471,"lng":136.686582,"prefecture":21,"numbering":["TH09"],"lines":[30021],"attr":"heat","postal_code":"501-6301","address":"羽島市舟橋町宮北１-１-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.679908,35.295483],[136.689431,35.326773],[136.693145,35.319033],[136.693124,35.312378],[136.689212,35.302875],[136.682683,35.296806],[136.679908,35.295483]]]},"properties":{}}}
   ],
   "extra":false
 }
