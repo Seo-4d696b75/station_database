@@ -38,8 +38,8 @@ def read_json_lines(dir, station_list: false, polyline: false)
       end
     end
     if polyline
-      geo = read_json "#{dir}/polyline/#{line['code']}.json"
-      line['polyline'] = geo
+      path = "#{dir}/polyline/#{line['code']}.json"
+      line['polyline'] = read_json path if File.exist? path
     end
     line
   end
