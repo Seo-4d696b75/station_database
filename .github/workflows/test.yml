@@ -23,8 +23,24 @@ jobs:
         run: npm run test-format-main
       - name: run text (extra)
         run: npm run test-format-extra
+  fetch-base:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{github.base_ref}}
+      - name: fetch data
+        run: |
+          mkdir artifact
+          cp out/main/json.zip artifact/main.zip
+          cp out/extra/json.zip artifact/extra.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: base-data
+          path: artifact
   consistency:
     runs-on: ubuntu-latest
+    needs: fetch-base
     steps: 
       - uses: actions/checkout@v4
         with:
@@ -33,43 +49,41 @@ jobs:
         with:
           ruby-version: .ruby-version
           bundler-cache: true
-      - name: fetch data from 'main' branch
+      - name: download base data
+        uses: actions/download-artifact@v4
+        with:
+          name: base-data  
+      - name: unzip base data
         run: |
-          mkdir artifact
-          curl https://raw.githubusercontent.com/Seo-4d696b75/station_database/main/out/main/data.json -o artifact/main.json
-          curl https://raw.githubusercontent.com/Seo-4d696b75/station_database/main/out/extra/data.json -o artifact/extra.json
+          unzip -q artifact/main.zip -d artifact
+          mv artifact/json artifact/main
+          unzip -q artifact/extra.zip -d artifact
+          mv artifact/json artifact/extra
       - name: enable problem matcher
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
+      - name: check subset
+        run: bundle exec ruby src/script/test_subset.rb 
       - name: compare data
         run: |
-          bundle exec ruby src/script/test_update.rb \
-            -o artifact/main.json \
-            -n out/main/data.json \
-            -l diff.main.md \
-            -m "detected changes in 'main' dataset"
-          bundle exec ruby src/script/test_update.rb \
-            -o artifact/extra.json \
-            -n out/extra/data.json \
-            -l diff.extra.md \
-            -m "detected changes in 'extra' dataset"
-          bundle exec ruby src/script/test_subset.rb \
-            -m out/main/data.json \
-            -e out/extra/data.json
+          bundle exec ruby src/script/test_update.rb 
+          bundle exec ruby src/script/test_update.rb -e
       - name: check comment
         run: |
-          cat artifact/diff.main.md
+          cat artifact/diff.md
           cat artifact/diff.extra.md
           touch .github/workflows/diff.md
-          cat .github/workflows/diff.main.md >> .github/workflows/diff.md
-          cat .github/workflows/diff.extra.md >> .github/workflows/diff.md
+          cat artifact/diff.md | sed s/{/{{/g | sed s/}/}}/g >> .github/workflows/diff.md
+          cat artifact/diff.extra.md | sed s/{/{{/g | sed s/}/}}/g >> .github/workflows/diff.md
       - name: comment on PR
         uses: harupy/comment-on-pr@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          filename: diff.md # .github/workflows/ ディレクトリ以下固定
-      - uses: actions/upload-artifact@v2
+          # .github/workflows/ ディレクトリ以下固定
+          # python str::format で整形されるため"{}"は"{{}}"に調整しておく
+          filename: diff.md 
+      - uses: actions/upload-artifact@v4
         with:
           name: diff
           path: artifact/*.md
