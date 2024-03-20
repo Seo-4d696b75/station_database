@@ -159,7 +159,7 @@ class SubsetTest < MiniTest::Test
       end
     end
 
-    log << '\n'
+    log << "\n\n"
 
     station_log = @log.select { |tag, _| tag['type'] == 'station' }
     unless station_log.empty?
@@ -173,7 +173,7 @@ class SubsetTest < MiniTest::Test
     end
 
     log << "差分はありません  \n" if station_log.empty? && line_log.empty?
-    log << '\n'
+    log << "\n\n"
 
     File.open("artifact/#{@log_file}", 'w') { |f| f.write(log) }
   end
