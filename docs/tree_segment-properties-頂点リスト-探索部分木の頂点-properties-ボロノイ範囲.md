@@ -59,7 +59,7 @@
 | Property                  | Type     | Required | Nullable | Defined by                                                                                                                                                                               |
 | :------------------------ | :------- | :------- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [type](#type)             | `string` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-type.md "undefined#/properties/node_list/items/properties/voronoi/properties/type")                          |
-| [geometry](#geometry)     | Merged   | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry") |
+| [geometry](#geometry)     | Merged   | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry") |
 | [properties](#properties) | `object` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-featureのプロパティ.md "undefined#/properties/node_list/items/properties/voronoi/properties/properties")           |
 
 ## type
@@ -94,7 +94,7 @@
 
 `geometry`
 
-*   undefinedを許可します
+*   undefinedを許可しません
 
 *   Type: `object` ([geometry(Polygon/LineString)](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md))
 

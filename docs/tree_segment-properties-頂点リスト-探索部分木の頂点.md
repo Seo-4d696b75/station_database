@@ -4,28 +4,28 @@
 
 # itemsのプロパティ
 
-| Property                         | Type      | Required | Nullable | Defined by                                                                                                                                  |
-| :------------------------------- | :-------- | :------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [code](#code)                    | `integer` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")                  |
-| [id](#id)                        | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線id.md "undefined#/properties/node_list/items/properties/id")                   |
-| [name](#name)                    | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")                |
-| [original\_name](#original_name) | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md "undefined#/properties/node_list/items/properties/original_name")    |
-| [name\_kana](#name_kana)         | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md "undefined#/properties/node_list/items/properties/name_kana")      |
-| [closed](#closed)                | `boolean` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md "undefined#/properties/node_list/items/properties/closed")               |
-| [lat](#lat)                      | `number`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")                  |
-| [lng](#lng)                      | `number`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")                  |
-| [prefecture](#prefecture)        | `integer` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md "undefined#/properties/node_list/items/properties/prefecture")         |
-| [lines](#lines)                  | `array`   | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線.md "undefined#/properties/node_list/items/properties/lines")          |
-| [attr](#attr)                    | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md "undefined#/properties/node_list/items/properties/attr")                  |
-| [postal\_code](#postal_code)     | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md "undefined#/properties/node_list/items/properties/postal_code")   |
-| [address](#address)              | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md "undefined#/properties/node_list/items/properties/address")           |
-| [open\_date](#open_date)         | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md "undefined#/properties/node_list/items/properties/open_date")            |
-| [closed\_date](#closed_date)     | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md "undefined#/properties/node_list/items/properties/closed_date")          |
-| [voronoi](#voronoi)              | `object`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md "undefined#/properties/node_list/items/properties/voronoi")             |
-| [impl](#impl)                    | `boolean` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が駅メモに実装されているか表現します.md "undefined#/properties/node_list/items/properties/impl") |
-| [left](#left)                    | `integer` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")          |
-| [right](#right)                  | `integer` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")        |
-| [segment](#segment)              | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md "undefined#/properties/node_list/items/properties/segment")             |
+| Property                         | Type      | Required | Nullable | Defined by                                                                                                                                 |
+| :------------------------------- | :-------- | :------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| [code](#code)                    | `integer` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")                 |
+| [id](#id)                        | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線id.md "undefined#/properties/node_list/items/properties/id")                  |
+| [name](#name)                    | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")               |
+| [original\_name](#original_name) | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md "undefined#/properties/node_list/items/properties/original_name")   |
+| [name\_kana](#name_kana)         | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md "undefined#/properties/node_list/items/properties/name_kana")     |
+| [closed](#closed)                | `boolean` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md "undefined#/properties/node_list/items/properties/closed")              |
+| [lat](#lat)                      | `number`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")                 |
+| [lng](#lng)                      | `number`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")                 |
+| [prefecture](#prefecture)        | `integer` | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md "undefined#/properties/node_list/items/properties/prefecture")        |
+| [lines](#lines)                  | `array`   | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線.md "undefined#/properties/node_list/items/properties/lines")         |
+| [attr](#attr)                    | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md "undefined#/properties/node_list/items/properties/attr")                 |
+| [postal\_code](#postal_code)     | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md "undefined#/properties/node_list/items/properties/postal_code")  |
+| [address](#address)              | `string`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md "undefined#/properties/node_list/items/properties/address")          |
+| [open\_date](#open_date)         | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md "undefined#/properties/node_list/items/properties/open_date")           |
+| [closed\_date](#closed_date)     | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md "undefined#/properties/node_list/items/properties/closed_date")         |
+| [voronoi](#voronoi)              | `object`  | Required | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md "undefined#/properties/node_list/items/properties/voronoi")            |
+| [extra](#extra)                  | `boolean` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/properties/node_list/items/properties/extra") |
+| [left](#left)                    | `integer` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")         |
+| [right](#right)                  | `integer` | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")       |
+| [segment](#segment)              | `string`  | Optional | non-null | [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md "undefined#/properties/node_list/items/properties/segment")            |
 
 ## code
 
@@ -599,23 +599,23 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 }
 ```
 
-## impl
+## extra
 
-true: 駅メモに登録されています. false: 登録されていない独自追加された廃駅・廃線です. 'main'データセットの一部ではこの属性は省略され、'undefined'はtrueと同じ扱いです.
+false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です.
 
-`impl`
+`extra`
 
 *   undefinedを許可します
 
-*   Type: `boolean` ([駅・路線が駅メモに実装されているか表現します](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が駅メモに実装されているか表現します.md))
+*   Type: `boolean` ([駅・路線が独自実装の登録か否かを表します](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が独自実装の登録か否かを表します.md))
 
 *   non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が駅メモに実装されているか表現します.md "undefined#/properties/node_list/items/properties/impl")
+*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/properties/node_list/items/properties/extra")
 
-### implの型定義
+### extraの型定義
 
-`boolean` ([駅・路線が駅メモに実装されているか表現します](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が駅メモに実装されているか表現します.md))
+`boolean` ([駅・路線が独自実装の登録か否かを表します](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線が独自実装の登録か否かを表します.md))
 
 ## left
 
