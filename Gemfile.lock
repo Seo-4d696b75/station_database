@@ -33,6 +33,7 @@ GEM
 PLATFORMS
   -darwin-22
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   dotenv (~> 2.8.1)
