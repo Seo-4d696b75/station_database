@@ -109,3 +109,28 @@ token=${github_access_token}
 
 - `src/polyline/*.json`にデータを定義します
 - ポリラインの欠損を許容する場合は`src/check/polyline_ignore.csv`に路線名を追記します
+
+# JSONスキーマ・ドキュメンの整備
+
+`out/**/*.json`ファイルのフォーマットをJSON schemaで厳密に表現しています。
+
+## 1. TypeScriptの型定義
+
+`src/ts/model/*.ts`にてTypeScriptの型でJSONフォーマットを表現し、
+[ajvライブラリ](https://ajv.js.org/)でJSON schemaを定義・バリデーションを実装しています。
+
+## 2. JSON schema の出力
+
+`out/schema/*.schema.json`を生成します
+
+```bash
+npm run schema
+```
+
+## 3. ドキュメンの出力
+
+JSON schema をもとにマークダウン形式で`docs/*.md`を出力します
+
+```bash
+npm run docs
+```
