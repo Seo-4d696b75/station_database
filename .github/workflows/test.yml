@@ -3,7 +3,6 @@ on:
   pull_request:
     branches:
       - main
-      - feature/polyline-format
     paths:
       - 'out/**/*'
 jobs:
