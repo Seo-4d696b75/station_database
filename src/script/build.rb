@@ -80,7 +80,8 @@ lines.each do |line|
     # src/line/*.json .station_list[].extra:
     #   路線(extra=true)における駅(extra=true)の登録のうち、
     #   駅メモ実装には含まれない登録のみextra=trueを指定している
-    r['extra'] = station['extra'] || line['extra'] || r['extra']
+    #   nil => false 変換が必要！
+    r['extra'] = !!(station['extra'] || line['extra'] || r['extra']) # rubocop:disable Style/DoubleNegation
 
     # mainデータセットの登録駅に注意
     next nil if !extra && r['extra']
