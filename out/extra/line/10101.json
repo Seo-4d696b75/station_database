@@ -4,10 +4,11 @@
   "name":"相生線",
   "name_kana":"あいおいせん",
   "name_formal":"国鉄相生線",
-  "station_size":14,
+  "station_size":15,
   "company_code":0,
   "closed":true,
   "station_list":[
+    {"code":1111642,"id":"05b582","name":"網走","original_name":"網走","name_kana":"あばしり","closed":false,"lat":44.019873,"lng":144.254156,"prefecture":1,"lines":[11116,11117,10101,10117],"attr":"cool","postal_code":"093-0046","address":"網走市新町２丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[144.2133,44.106608],[144.255869,43.979676],[144.256189,43.979475],[144.257959,43.981481],[144.299272,44.247599],[144.252729,44.178842],[144.2133,44.106608]]]},"properties":{}},"extra":false},
     {"code":1111638,"id":"c145da","name":"美幌","original_name":"美幌","name_kana":"びほろ","closed":false,"lat":43.836967,"lng":144.10563,"prefecture":1,"lines":[11116,10101],"attr":"cool","postal_code":"092-0015","address":"網走郡美幌町字新町３丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[144.042859,43.834614],[144.063381,43.826056],[144.152746,43.832975],[144.074207,43.91088],[144.042859,43.834614]]]},"properties":{}},"extra":false},
     {"code":1010102,"id":"c08402","name":"旭通","original_name":"旭通","name_kana":"あさひどおり","closed":true,"lat":43.821778,"lng":144.106806,"prefecture":1,"lines":[10101],"postal_code":"092-0043","address":"北海道網走郡美幌町字東３条南１丁目５−３","open_date":"1955-08-20","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[144.152746,43.832975],[144.063381,43.826056],[144.268045,43.694715],[144.291189,43.734234],[144.152746,43.832975]]]},"properties":{}},"extra":true},
     {"code":1010103,"id":"93352f","name":"上美幌","original_name":"上美幌","name_kana":"かみびほろ","closed":true,"lat":43.788361,"lng":144.085361,"prefecture":1,"lines":[10101],"postal_code":"092-0030","address":"北海道網走郡美幌町字美富","open_date":"1924-11-17","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[144.253031,43.662228],[144.025856,43.818829],[144.042859,43.834614],[144.063381,43.826056],[144.268045,43.694715],[144.253031,43.662228]]]},"properties":{}},"extra":true},

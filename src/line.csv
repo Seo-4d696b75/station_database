@@ -1,6 +1,6 @@
 code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed,closed_date,extra
-1002,0096b0,東海道新幹線,とうかいどうしんかんせん,NULL,17,3,#0000FF,NULL,0,NULL,0
-1003,4c9e90,山陽新幹線,さんようしんかんせん,NULL,19,4,#0000FF,NULL,0,NULL,0
+1002,0096b0,東海新幹線,とうかいしんかんせん,NULL,16,3,#0000FF,NULL,0,NULL,0
+1003,4c9e90,山陽新幹線,さんようしんかんせん,NULL,19,4,NULL,NULL,0,NULL,0
 1004,a719bd,東北新幹線,とうほくしんかんせん,NULL,23,2,#008000,NULL,0,NULL,0
 1005,d4a3f7,上越新幹線,じょうえつしんかんせん,NULL,12,2,NULL,NULL,0,NULL,0
 1006,0dd500,上越新幹線(上越線),じょうえつしんかんせん(じょうえつせん),上越新幹線(ガーラ湯沢支線),2,2,#00B3E6,NULL,0,NULL,0
@@ -630,7 +630,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99344,6935b0,宇都宮芳賀ライトレール線,うつのみやはがらいとれーるせん,NULL,19,NULL,NULL,NULL,0,NULL,0
 11232,7bdaac,JR仙石東北ライン,じぇいあーるせんせきとうほくらいん,NULL,14,2,NULL,NULL,0,NULL,0
 99219,7ea4bc,三陸鉄道南リアス線,さんりくてつどうみなみりあすせん,NULL,10,109,#008DD1,NULL,1,2019-03-23,0
-10101,2668b4,相生線,あいおいせん,国鉄相生線,14,0,NULL,NULL,1,1985-04-01,1
+10101,2668b4,相生線,あいおいせん,国鉄相生線,15,0,NULL,NULL,1,1985-04-01,1
 10102,458cfe,胆振線,いぶりせん,国鉄胆振線,22,0,NULL,NULL,1,1986-11-01,1
 10103,22bef0,岩内線,いわないせん,国鉄岩内線,6,0,NULL,NULL,1,1985-07-01,1
 11120,7f2986,JR歌志内線,じぇいあーるうたしないせん,JR歌志内線,7,1,NULL,NULL,1,1988-04-25,1

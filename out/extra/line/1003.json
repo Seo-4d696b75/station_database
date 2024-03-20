@@ -6,7 +6,6 @@
   "station_size":19,
   "company_code":4,
   "closed":false,
-  "color":"#0000FF",
   "station_list":[
     {"code":100217,"id":"5d9093","name":"新大阪","original_name":"新大阪","name_kana":"しんおおさか","closed":false,"lat":34.734136,"lng":135.501852,"prefecture":27,"lines":[1002,1003,11602,11641,99618],"attr":"cool","postal_code":"532-0011","address":"大阪市淀川区西中島５丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.500436,34.737721],[135.492319,34.733782],[135.502356,34.729433],[135.504617,34.728807],[135.506967,34.735151],[135.500436,34.737721]]]},"properties":{}},"extra":false},
     {"code":100302,"id":"27f8fc","name":"新神戸","original_name":"新神戸","name_kana":"しんこうべ","closed":false,"lat":34.706417,"lng":135.195758,"prefecture":28,"lines":[1003,99636,99646],"attr":"heat","postal_code":"650-0001","address":"神戸市中央区加納町１丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.199037,34.700373],[135.186612,34.70112],[135.170323,34.713624],[135.173323,34.722302],[135.181514,34.73314],[135.1931,34.738242],[135.201798,34.739404],[135.205433,34.71836],[135.199037,34.700373]]]},"properties":{}},"extra":false},
