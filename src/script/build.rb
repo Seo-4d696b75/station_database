@@ -99,6 +99,8 @@ lines.each do |line|
     # 駅要素側にも登録路線を記憶
     station['lines'] << line['code']
     # 駅の詳細情報を追加する
+    # extraの意味が路線登録=>駅自体に変わる点に注意
+    r.delete('extra')
     next station.merge(r)
   end.compact
   line['station_size'] = line['station_list'].length
