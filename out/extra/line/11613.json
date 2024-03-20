@@ -7,8 +7,8 @@
   "company_code":4,
   "closed":false,
   "station_list":[
-    {"code":1160802,"id":"5a8290","name":"兵庫","original_name":"兵庫","name_kana":"ひょうご","closed":false,"lat":34.668343,"lng":135.164706,"prefecture":28,"lines":[11608,11613],"attr":"eco","postal_code":"652-0897","address":"神戸市兵庫区駅南通５丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.16804,34.66156],[135.169418,34.66275],[135.170029,34.665935],[135.163241,34.669796],[135.158388,34.664668],[135.158598,34.66213],[135.159944,34.661387],[135.16804,34.66156]]]},"properties":{}}},
-    {"code":1161302,"id":"c5f87f","name":"和田岬","original_name":"和田岬","name_kana":"わだみさき","closed":false,"lat":34.657278,"lng":135.174268,"prefecture":28,"lines":[11613,99647],"attr":"eco","postal_code":"652-0863","address":"神戸市兵庫区和田宮通４丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.195546,34.650138],[135.194222,34.656773],[135.193696,34.658402],[135.169418,34.66275],[135.16804,34.66156],[135.18502,34.601868],[135.196104,34.632096],[135.195546,34.650138]]]},"properties":{}}}
+    {"code":1160802,"id":"5a8290","name":"兵庫","original_name":"兵庫","name_kana":"ひょうご","closed":false,"lat":34.668343,"lng":135.164706,"prefecture":28,"lines":[11608,11613],"attr":"eco","postal_code":"652-0897","address":"神戸市兵庫区駅南通５丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.16804,34.66156],[135.169418,34.66275],[135.170029,34.665935],[135.163241,34.669796],[135.158388,34.664668],[135.158598,34.66213],[135.159944,34.661387],[135.16804,34.66156]]]},"properties":{}},"extra":false},
+    {"code":1161302,"id":"c5f87f","name":"和田岬","original_name":"和田岬","name_kana":"わだみさき","closed":false,"lat":34.657278,"lng":135.174268,"prefecture":28,"lines":[11613,99647],"attr":"eco","postal_code":"652-0863","address":"神戸市兵庫区和田宮通４丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.195546,34.650138],[135.194222,34.656773],[135.193696,34.658402],[135.169418,34.66275],[135.16804,34.66156],[135.18502,34.601868],[135.196104,34.632096],[135.195546,34.650138]]]},"properties":{}},"extra":false}
   ],
   "extra":false
 }
