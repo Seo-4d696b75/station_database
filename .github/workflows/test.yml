@@ -56,6 +56,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: base-data  
+          path: artifact
       - name: unzip base data
         run: |
           unzip -q artifact/main.zip -d artifact
