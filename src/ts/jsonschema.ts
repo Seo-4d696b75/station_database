@@ -1,6 +1,7 @@
 
 import { writeFileSync } from "fs";
 import { jsonDelaunayList } from "./model/delaunay";
+import { jsonPolyline } from "./model/geo";
 import { jsonLineList } from "./model/line";
 import { jsonLineDetail } from "./model/lineDetail";
 import { jsonStationList } from "./model/station";
@@ -18,3 +19,5 @@ writeFileSync("out/schema/delaunay.schema.json", JSON.stringify(jsonDelaunayList
 writeFileSync("out/schema/tree.schema.json", JSON.stringify(jsonKdTree, undefined, 2))
 // tree/*.json
 writeFileSync("out/schema/tree_segment.schema.json", JSON.stringify(jsonKdTreeSegment, undefined, 2))
+// polyline/*.json
+writeFileSync("out/schema/polyline.schema.json", JSON.stringify(jsonPolyline, undefined, 2))
