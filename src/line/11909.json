@@ -1,7 +1,7 @@
 {
   "name":"JR筑肥線(姪浜～西唐津)",
   "station_list":[
-    {"code":100319,"name":"博多","impl":false},
+    {"code":100319,"name":"博多","extra":true},
     {"code":1190902,"name":"筑前簑島"},
     {"code":1190903,"name":"筑前高宮"},
     {"code":1190904,"name":"小笹"},
@@ -30,6 +30,6 @@
     {"code":1190927,"name":"西唐津","numbering":["JK21"]},
     {"code":1190928,"name":"鏡"},
     {"code":1190929,"name":"久里"},
-    {"code":1192004,"name":"山本(佐賀)","impl":false}
+    {"code":1192004,"name":"山本(佐賀)","extra":true}
   ]
 }

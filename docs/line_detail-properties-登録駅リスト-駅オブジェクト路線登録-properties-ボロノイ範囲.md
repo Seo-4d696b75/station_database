@@ -59,7 +59,7 @@
 | Property                  | Type     | Required | Nullable | Defined by                                                                                                                                                                                          |
 | :------------------------ | :------- | :------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [type](#type)             | `string` | Required | non-null | [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-type.md "undefined#/properties/station_list/items/properties/voronoi/properties/type")                          |
-| [geometry](#geometry)     | Merged   | Optional | non-null | [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry") |
+| [geometry](#geometry)     | Merged   | Required | non-null | [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry") |
 | [properties](#properties) | `object` | Required | non-null | [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-featureのプロパティ.md "undefined#/properties/station_list/items/properties/voronoi/properties/properties")           |
 
 ## type
@@ -94,7 +94,7 @@
 
 `geometry`
 
-*   undefinedを許可します
+*   undefinedを許可しません
 
 *   Type: `object` ([geometry(Polygon/LineString)](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md))
 

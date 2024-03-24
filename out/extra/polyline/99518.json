@@ -1,0 +1,23 @@
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"LineString",
+        "coordinates":[[136.92968,35.2045],[136.92968,35.20271],[136.92973,35.19723],[136.92979,35.19521]]
+      },
+      "properties":{
+        "start":"上飯田",
+        "end":"平安通"
+      }
+    }
+  ],
+  "properties":{
+    "name":"名古屋市営地下鉄上飯田線",
+    "north":35.2045,
+    "south":35.19521,
+    "east":136.92979,
+    "west":136.92968
+  }
+}

@@ -3,6 +3,9 @@
 	"cmake.configureOnOpen": false,
     "files.eol": "\n",
     "cSpell.words": [
-        "polyline"
-    ]
+        "polyline",
+        "voronoi"
+    ],
+    "rubyLsp.formatter": "rubocop",
+    "rubyLsp.rubyVersionManager": "rbenv"
 }

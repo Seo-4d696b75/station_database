@@ -1,7 +1,7 @@
 import { JSONSchemaType } from "ajv"
 import { Station } from "../validate/station"
-import { kanaName, stationLineId, stationLineName, dateStringPattern, stationLineImpl } from "./common"
-import { jsonVoronoi, JSONVoronoiGeo } from "./geo"
+import { dateStringPattern, kanaName, stationLineExtra, stationLineId, stationLineName } from "./common"
+import { JSONVoronoiGeo, jsonVoronoi } from "./geo"
 import { lineCode } from "./line"
 
 export const stationCode: JSONSchemaType<number> = {
@@ -113,7 +113,7 @@ export interface JSONStation {
   open_date?: string
   closed_date?: string
   voronoi: JSONVoronoiGeo
-  impl?: boolean
+  extra?: boolean
 }
 
 export function normalizeStation(json: JSONStation): Station {
@@ -121,7 +121,7 @@ export function normalizeStation(json: JSONStation): Station {
     ...json,
     open_date: json.open_date ?? null,
     closed_date: json.closed_date ?? null,
-    impl: json.impl === undefined || json.impl,
+    extra: !!json.extra,
     attr: json.attr ?? null,
   }
 }
@@ -169,7 +169,7 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
     open_date: openDate,
     closed_date: closedDate,
     voronoi: jsonVoronoi,
-    impl: stationLineImpl,
+    extra: stationLineExtra,
   },
   required: [
     "code",
@@ -211,7 +211,7 @@ export interface CSVStation {
   closed: boolean
   open_date: string | null
   closed_date: string | null
-  impl?: boolean
+  extra?: boolean
   attr: string | null
 }
 
@@ -231,7 +231,7 @@ export const csvStation: JSONSchemaType<CSVStation> = {
     closed: closed,
     open_date: openDate,
     closed_date: closedDate,
-    impl: stationLineImpl,
+    extra: stationLineExtra,
     attr: {
       type: "string",
       nullable: true,

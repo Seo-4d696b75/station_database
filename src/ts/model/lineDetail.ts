@@ -1,5 +1,4 @@
 import { JSONSchemaType } from "ajv";
-import { jsonPolyline, JSONPolylineGeo } from "./geo";
 import { jsonLine, JSONLine } from "./line";
 import { jsonStation, JSONStation } from "./station";
 
@@ -38,7 +37,6 @@ const jsonStationRegistration: JSONSchemaType<JSONStationRegistration & JSONStat
 
 export interface JSONLineDetail extends JSONLine {
   station_list: (JSONStationRegistration & JSONStation)[]
-  polyline_list?: JSONPolylineGeo
 }
 
 export const jsonLineDetail: JSONSchemaType<JSONLineDetail> = {
@@ -53,7 +51,6 @@ export const jsonLineDetail: JSONSchemaType<JSONLineDetail> = {
       title: "登録駅リスト",
       description: "原則として駅メモ実装と同じ順序です",
     },
-    polyline_list: jsonPolyline,
   },
   required: [
     ...jsonLine.required,

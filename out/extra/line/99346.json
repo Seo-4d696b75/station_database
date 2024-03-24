@@ -8,32 +8,9 @@
   "company_code":119,
   "closed":true,
   "station_list":[
-    {"code":9934601,"id":"52db63","name":"東園(東京)","original_name":"東園","name_kana":"ひがしえん","closed":true,"lat":35.715835,"lng":139.770141,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園９","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767583,35.715716],[139.772847,35.714272],[139.773598,35.714831],[139.773659,35.71504],[139.769196,35.720339],[139.767583,35.715716]]]},"properties":{}},"impl":true},
-    {"code":9934602,"id":"c6395d","name":"西園","original_name":"西園","name_kana":"にしえん","closed":true,"lat":35.714308,"lng":139.769722,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園３","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.772847,35.714272],[139.767583,35.715716],[139.764207,35.711274],[139.764342,35.7111],[139.770469,35.711296],[139.772847,35.714272]]]},"properties":{}},"impl":true}
+    {"code":9934601,"id":"52db63","name":"東園(東京)","original_name":"東園","name_kana":"ひがしえん","closed":true,"lat":35.715835,"lng":139.770141,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園９","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767583,35.715716],[139.772847,35.714272],[139.773598,35.714831],[139.773659,35.71504],[139.769196,35.720339],[139.767583,35.715716]]]},"properties":{}},"extra":false},
+    {"code":9934602,"id":"c6395d","name":"西園","original_name":"西園","name_kana":"にしえん","closed":true,"lat":35.714308,"lng":139.769722,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園３","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.772847,35.714272],[139.767583,35.715716],[139.764207,35.711274],[139.764342,35.7111],[139.770469,35.711296],[139.772847,35.714272]]]},"properties":{}},"extra":false}
   ],
   "closed_date":"2023-12-27",
-  "polyline_list":{
-    "type":"FeatureCollection",
-    "features":[
-      {
-        "type":"Feature",
-        "geometry":{
-          "type":"LineString",
-          "coordinates":[[139.76947,35.71444],[139.76991,35.71419],[139.77017,35.71419],[139.77048,35.71425],[139.77056,35.71434],[139.77058,35.7145],[139.77055,35.71463],[139.77046,35.71475],[139.7702,35.71492],[139.77009,35.71511],[139.76999,35.71537],[139.76998,35.7157],[139.77002,35.71606]]
-        },
-        "properties":{
-          "start":"西園",
-          "end":"東園"
-        }
-      }
-    ],
-    "properties":{
-      "name":"上野懸垂線(上野動物園モノレール)",
-      "north":35.71606,
-      "south":35.71419,
-      "east":139.77058,
-      "west":139.76947
-    }
-  },
-  "impl":true
+  "extra":false
 }

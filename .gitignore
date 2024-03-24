@@ -1,4 +1,3 @@
-*.zip
 *.lnk
 *.pem
 src/.env.local
@@ -10,14 +9,10 @@ artifact/
 .github/workflows/*.md
 **/tmp.*
 **/.DS_Store
-/build
 
 # Typescript + node
 /node_modules
 
 # ruby + bundler
-.ruby-version
 .bundle
 vendor/bundle
-# GithubActionsとローカルの環境が異なるとワークフロー落ちる
-Gemfile.lock

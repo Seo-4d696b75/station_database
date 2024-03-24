@@ -13,12 +13,12 @@ export interface Line {
   symbol: string | null
   closed: boolean
   closed_date: string | null
-  impl: boolean
+  extra: boolean
 }
 
 export function validateLine(line: Line, assert: Assert, extra: boolean) {
 
-  assert(extra || line.impl, "extra==falseの場合はimpl==true")
+  assert(extra || !line.extra, "mainデータセットの場合はextra==false")
 
   assert(line.closed || !line.closed_date, "現役路線に廃止日は設定できません")
   // 一部貨路線は現役だけど旅客路線としては廃線などの場合あり
@@ -27,7 +27,7 @@ export function validateLine(line: Line, assert: Assert, extra: boolean) {
 
 }
 
-const keys: ReadonlyArray<keyof Line> = ["code", "id", "name", "name_kana", "name_formal", "station_size", "company_code", "color", "symbol", "closed", "closed_date", "impl"]
+const keys: ReadonlyArray<keyof Line> = ["code", "id", "name", "name_kana", "name_formal", "station_size", "company_code", "color", "symbol", "closed", "closed_date", "extra"]
 
 export function assertLineSetMatched(target: Line[], reference: Map<number, Line>) {
   assertObjectSetPartialMatched(target, reference, keys)

@@ -133,6 +133,7 @@ export const jsonVoronoi: JSONSchemaType<JSONVoronoiGeo> = {
   },
   required: [
     "type",
+    "geometry",
     "properties",
   ],
   additionalProperties: false,

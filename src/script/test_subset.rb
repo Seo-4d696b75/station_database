@@ -1,127 +1,117 @@
-load("src/script/utils.rb")
-load("src/script/diff.rb")
-require "minitest/autorun"
-require "optparse"
+load('src/script/io.rb')
+require 'minitest/autorun'
 
-opt = OptionParser.new
-opt.on("-m", "--main VALUE") { |v| MAIN_FILE = v }
-opt.on("-e", "--extra VALUE") { |v| EXTRA_FILE = v }
-opt.parse!(ARGV)
-ARGV.clear()
-
-STATION_FIELD = [
-  "code",
-  "name",
-  "original_name",
-  "name_kana",
-  "lat",
-  "lng",
-  "prefecture",
-  "postal_code",
-  "address",
-  "closed",
-  "open_date",
-  "closed_date",
-  "attr",
-  "lines",
-# "next" and "voronoi" may change due to other stations' changes
-]
-
-LINE_FIELD = [
-  "code",
-  "name",
-  "name_kana",
-  "name_formal",
-  "station_size",
-  "company_code",
-  "color",
-  "symbol",
-  "closed",
-  "closed_date",
-  "station_list",
-  "polyline_list",
-]
-
-# these fields are ignored when checking differenct between "update" and "master"
-IGNORE = []
-
+# mainデータセットの駅・路線がextraデータセットのサブセットか確認する
+#  駅： out/*/station.json
+#  路線： out/*/line.json
 class SubsetTest < MiniTest::Test
-  def setup()
-    # load main dataset
-    data = read_json(MAIN_FILE)
-    @version = data["version"]
-    @stations = data["stations"]
-    @station_map = Hash.new
+  def setup
+    # mainデータセットの読み込み
+    @stations = read_json 'out/main/station.json'
+    @station_map = {}
     @stations.each do |s|
-      @station_map[s["id"]] = s
-      @station_map[s["code"]] = s
+      @station_map[s['id']] = s
+      @station_map[s['code']] = s
     end
-    @lines = data["lines"]
+    @lines = read_json_lines('out/main', station_list: true)
   end
 
-  def check_equal(update, extra, fields)
+  def check_equal(main, extra, fields)
     fields.each do |key|
-      update_value = update[key]
+      main_value = main[key]
       extra_value = extra[key]
-      if update_value && extra_value
+      if !main_value.nil? && !extra_value.nil?
         case key
-        when "lines"
-          is_subset(update_value, extra_value, extra)
-        when "station_size"
-          assert update_value <= extra_value, "station_size extra:#{extra_value} update:#{JSON.dump(update)}"
-        when "station_list"
-          is_subset(update_value, extra_value, extra)
+        when 'lines'
+          is_subset(main_value, extra_value, extra)
+        when 'station_size'
+          assert main_value <= extra_value, "登録駅数に不整合があります extra:#{extra_value} update:#{JSON.dump(main)}"
+        when 'station_list'
+          is_subset(main_value, extra_value, extra)
         else
-          # other fields must be completely matched
-          assert_equal update_value, extra_value, "not equal name:#{update["name"]} key:#{key}"
+          # その他のfieldは完全な等価性を要求する
+          assert_equal main_value, extra_value, "値が一致しません name:#{main['name']} key:#{key}"
         end
       else
-        # it is ok that both of them are nil
-        assert !update_value && !extra_value, "lack of field(#{key}) update:#{update_value} extra:#{extra_value} name:#{update["name"]}"
+        # 両方nullのみ許可する
+        assert !main_value && !extra_value,
+               "値が欠損しています key:#{key} main:#{main_value} extra:#{extra_value} name:#{main['name']}"
       end
     end
   end
 
   def is_subset(child, parent, data)
     child.each do |item|
-      assert parent.include?(item), "array not subset. child:#{child} parent:#{parent} @#{JSON.dump(data)}"
+      assert parent.include?(item), "Listがサブセットではありません \nitem:#{item}\nparent:#{parent} \n@#{JSON.dump(data)}"
     end
   end
 
   def test_subset
-    # load extra data from
-    data = read_json(EXTRA_FILE)
-    assert_equal data["version"], @version, "version err"
+    # extraデータセットを読み込み
+    stations = {}
+    lines = {}
+    read_json('out/extra/station.json').each do |s|
+      stations[s['id']] = s
+    end
+    read_json_lines('out/extra', station_list: true).each do |l|
+      lines[l['id']] = l
+    end
 
-    # constrain: "IMPL" dataset is a subset of "extra" dataset
-    # all the fields of each station item are same or in relationship of sebset.
-
-    # map of superset
-    stations = Hash.new
-    lines = Hash.new
-    data["stations"].each { |s| stations[s["id"]] = s }
-    data["lines"].each { |l| lines[l["id"]] = l }
-
+    # "voronoi" は他の駅の座標点が変化すると影響を受けるため無視する
+    station_fields = %w[
+      code
+      id
+      name
+      original_name
+      name_kana
+      closed
+      lat
+      lng
+      prefecture
+      lines
+      attr
+      postal_code
+      address
+      open_date
+      closed_date
+      extra
+    ]
     @stations.each do |s|
-      assert s.fetch("impl", true), "not impl #{JSON.dump(s)} at update"
-      station = stations.delete(s["id"])
-      assert station, "station not found, but in subset:#{JSON.dump(s)}"
-      assert station.fetch("impl", true), "not impl #{JSON.dump(station)} at extra"
-      check_equal(s, station, STATION_FIELD)
+      assert !s['extra'], "mainデータセットにextra駅は含みません #{JSON.dump(s)}"
+      station = stations.delete(s['id'])
+      assert station, "extraデータセットに駅が見つかりません main:#{JSON.dump(s)}"
+      assert !station['extra'], "mainデータセットに含まれる駅はextraデータセットでもextra=falseです #{JSON.dump(station)}"
+      check_equal s, station, station_fields
     end
+
+    line_fields = %w[
+      code
+      id
+      name
+      name_kana
+      name_formal
+      station_size
+      company_code
+      closed
+      color
+      symbol
+      closed_date
+      station_list
+      extra
+    ]
     @lines.each do |l|
-      assert l.fetch("impl", true), "not impl #{l["name"]} at update"
-      line = lines.delete(l["id"])
-      assert line, "station not found, but in subset:#{l["name"]}"
-      assert line.fetch("impl", true), "not impl #{line["name"]} at extra"
-      check_equal(l, line, LINE_FIELD)
+      assert !l['extra'], "mainデータセットにextra路線は含みません #{l['name']}"
+      line = lines.delete(l['id'])
+      assert line, "extraデータセットに路線が見つかりません main:#{l['name']}"
+      assert !line['extra'], "mainデータセットにextra路線は含みません #{line['name']}"
+      check_equal l, line, line_fields
     end
-    # remain item must be "impl" == false
-    stations.each do |id, s|
-      assert !s.fetch("impl", true), "impl station #{JSON.dump(s)} not included in update"
+
+    stations.each_value do |s|
+      assert s['extra'], "extraデータセットに追加できる駅はextra=trueです #{JSON.dump(s)}"
     end
-    lines.each do |id, l|
-      assert !l.fetch("impl", true), "impl line #{JSON.dump(l)} not include in update"
+    lines.each_value do |l|
+      assert l['extra'], "extraデータセットに追加できる路線はextra=trueです #{JSON.dump(l)}"
     end
   end
 end
