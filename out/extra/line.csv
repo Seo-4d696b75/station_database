@@ -84,7 +84,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11325,c628ee,JR内房線,じぇいあーるうちぼうせん,NULL,32,2,#00BFFF,NULL,0,NULL,0
 11326,c930f9,JR京葉線,じぇいあーるけいようせん,NULL,18,2,#C9242F,JE,0,NULL,0
 11327,f204e9,JR成田線,じぇいあーるなりたせん,NULL,28,2,#000000,JO,0,NULL,0
-11328,859601,JR成田エクスプレス,じぇいあーるなりたえくすぷれす,NULL,19,2,NULL,NULL,0,NULL,0
+11328,859601,JR成田エクスプレス,じぇいあーるなりたえくすぷれす,NULL,14,2,NULL,NULL,0,NULL,0
 11329,7fe2ca,JR鹿島線,じぇいあーるかしません,NULL,7,2,#C56E2E,NULL,0,NULL,0
 11330,a3fab8,JR久留里線,じぇいあーるくるりせん,NULL,14,2,#00AC97,NULL,0,NULL,0
 11331,d88aa7,JR東金線,じぇいあーるとうがねせん,NULL,5,2,#F15A22,NULL,0,NULL,0
@@ -113,7 +113,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 11412,a44152,JR篠ノ井線,じぇいあーるしののいせん,NULL,15,2,#F77321,NULL,0,NULL,0
 11413,a0c4b3,JR飯田線(豊橋～天竜峡),じぇいあーるいいだせん,NULL,51,3,#87CEEB,CD,0,NULL,0
 11414,e23796,JR飯田線(天竜峡～辰野),じぇいあーるいいだせん,NULL,44,3,#87CEEB,CD,0,NULL,0
-11415,0a8372,JR北陸本線(米原～金沢),じぇいあーるほくりくほんせん,NULL,51,4,NULL,NULL,0,NULL,0
+11415,0a8372,JR北陸本線(米原～敦賀),じぇいあーるほくりくほんせん,NULL,20,4,NULL,NULL,0,NULL,0
 11416,7e050d,JR高山本線,じぇいあーるたかやまほんせん,NULL,45,3,NULL,CG,0,NULL,0
 11417,eb96b5,JR城端線,じぇいあーるじょうはなせん,NULL,14,4,NULL,NULL,0,NULL,0
 11418,ec058d,JR氷見線,じぇいあーるひみせん,NULL,8,4,NULL,NULL,0,NULL,0
@@ -410,7 +410,7 @@ code,id,name,name_kana,name_formal,station_size,company_code,color,symbol,closed
 99315,5dc29f,ひたちなか海浜鉄道湊線,ひたちなかかいひんてつどうみなとせん,NULL,11,129,NULL,NULL,0,NULL,0
 99316,75a89b,横浜市営地下鉄ブルーライン,よこはましえいちかてつぶるーらいん,横浜市高速鉄道1号線・3号線,32,130,#006BF0,B,0,NULL,0
 99343,e53f38,横浜市営地下鉄グリーンライン,よこはましえいちかてつぐりーんらいん,横浜市高速鉄道4号線,10,130,#40CC40,G,0,NULL,0
-99317,15e74c,横浜新都市交通金沢シーサイドライン,よこはましんとしこうつうかなざわしーさいどらいん,NULL,14,131,#F68B1E,NULL,0,NULL,0
+99317,15e74c,金沢シーサイドライン,かなざわしーさいどらいん,NULL,14,131,#F68B1E,NULL,0,NULL,0
 99318,7ce0b6,関東鉄道常総線,かんとうてつどうじょうそうせん,NULL,25,132,NULL,NULL,0,NULL,0
 99319,4c254c,関東鉄道竜ヶ崎線,かんとうてつどうりゅうがさきせん,NULL,3,132,NULL,NULL,0,NULL,0
 99320,45966b,江ノ島電鉄線,えのしまでんてつせん,NULL,15,133,#005B1A,EN,0,NULL,0
