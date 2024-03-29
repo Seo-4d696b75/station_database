@@ -37,9 +37,9 @@ export const kanaName: JSONSchemaType<string> = {
 
 export const dateStringPattern = "[0-9]{4}-[0-9]{2}-[0-9]{2}"
 
-export const stationLineImpl = {
+export const stationLineExtra = {
   type: "boolean" as "boolean",
   nullable: true as true,
-  title: "駅・路線が駅メモに実装されているか表現します",
-  description: "true: 駅メモに登録されています. false: 登録されていない独自追加された廃駅・廃線です. 'main'データセットの一部ではこの属性は省略され、'undefined'はtrueと同じ扱いです.",
+  title: "駅・路線が独自実装の登録か否かを表します",
+  description: "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です.",
 }

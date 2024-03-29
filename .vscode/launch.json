@@ -61,11 +61,9 @@
         },
         {
             "name": "Ruby: Debug Current File",
-            "type": "Ruby",
+            "type": "ruby_lsp",
             "request": "launch",
-            "program": "${file}",
-            "cwd": "${workspaceRoot}/",
-            "pathToRDebugIDE": "/Users/k_senda/.rbenv/shims/rdebug-ide"
+            "program": "ruby ${file}"
         }
     ]
 }

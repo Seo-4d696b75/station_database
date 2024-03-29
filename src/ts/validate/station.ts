@@ -1,4 +1,4 @@
-import { Assert, eachAssert, withAssert } from "./assert"
+import { Assert } from "./assert"
 import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set"
 
 export interface Station {
@@ -15,22 +15,21 @@ export interface Station {
   closed: boolean
   open_date: string | null
   closed_date: string | null
-  impl: boolean
+  extra: boolean
   attr: string | null
 }
 
 export function validateStation(s: Station, assert: Assert, extra: boolean) {
 
-  assert(extra || s.impl, "extra==falseの場合はs.impl==true")
+  assert(extra || !s.extra, "mainデータセットの場合はextra==false")
 
   // attr 整合性
-  assert(!s.impl || s.attr, "s.impl==trueの場合はattr!=null")
-  assert(s.impl || !s.attr, "s.impl==falseの場合はattr==null")
+  assert(s.extra || s.attr, "extra==falseの場合はattr!=null")
+  assert(!s.extra || !s.attr, "extra==trueの場合はattr==null")
   // 一部貨物駅は現役だけど旅客駅としては廃駅などの場合あり
   // TODO 廃駅の定義が曖昧
-  //assert(s.impl || s.closed, "s.impl==falseの場合はclosed==true")
-  assert(!s.impl || s.closed === (s.attr === "unknown"), "s.impl==true, 廃駅の属性はunknown")
-
+  //assert(!s.extra || s.closed, "extra==trueの場合はclosed==true")
+  assert(s.extra || s.closed === (s.attr === "unknown"), "extra==falseの場合は廃駅の属性はunknown")
 
   // date の整合性
   if (s.open_date && s.closed_date) {
@@ -48,7 +47,7 @@ export function validateStation(s: Station, assert: Assert, extra: boolean) {
   assert(Math.abs(lng - Math.round(lng)) < 0.0001)
 }
 
-const keys: ReadonlyArray<keyof Station> = ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "impl", "attr"]
+const keys: ReadonlyArray<keyof Station> = ["code", "id", "name", "name_kana", "original_name", "lat", "lng", "prefecture", "postal_code", "address", "closed", "open_date", "closed_date", "extra", "attr"]
 
 export function assertStationSetMatched(target: Station[], reference: Map<number, Station>) {
   assertObjectSetPartialMatched(target, reference, keys)

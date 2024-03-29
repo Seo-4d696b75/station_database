@@ -1,0 +1,135 @@
+{
+  "type": "object",
+  "title": "路線ポリライン",
+  "description": "Feature(LineString)で表現されるポリラインの集合FeatureCollectionです. フォーマットの詳細はGeoJSONに従います.",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "FeatureCollection"
+    },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "Feature"
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "LineString"
+              },
+              "coordinates": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": [
+                    {
+                      "type": "number",
+                      "minimum": 112,
+                      "maximum": 160,
+                      "title": "経度"
+                    },
+                    {
+                      "type": "number",
+                      "minimum": 20,
+                      "maximum": 60,
+                      "title": "緯度"
+                    }
+                  ],
+                  "title": "座標点",
+                  "description": "緯度・経度の組み合わせで座標を表します. リストの長さは２で固定で、経度・緯度の順番です.",
+                  "examples": [
+                    [
+                      140.731677,
+                      41.776316
+                    ]
+                  ]
+                }
+              }
+            },
+            "required": [
+              "type",
+              "coordinates"
+            ],
+            "additionalProperties": false
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "start": {
+                "type": "string",
+                "minLength": 1
+              },
+              "end": {
+                "type": "string",
+                "minLength": 1
+              },
+              "closed": {
+                "type": "boolean",
+                "nullable": true
+              }
+            },
+            "required": [
+              "start",
+              "end"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "type",
+          "geometry",
+          "properties"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "properties": {
+      "type": "object",
+      "title": "路線ポリライン付加情報",
+      "description": "north, south, east, westでポイライン全体の範囲を示します.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "title": "路線名"
+        },
+        "north": {
+          "type": "number"
+        },
+        "south": {
+          "type": "number"
+        },
+        "east": {
+          "type": "number"
+        },
+        "west": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "name",
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "type",
+    "features",
+    "properties"
+  ],
+  "additionalProperties": false
+}

@@ -1,6 +1,6 @@
 import { JSONSchemaType } from "ajv"
 import { Line } from "../validate/line"
-import { dateStringPattern, kanaName, stationLineId, stationLineImpl, stationLineName } from "./common"
+import { dateStringPattern, kanaName, stationLineExtra, stationLineId, stationLineName } from "./common"
 
 export const lineCode: JSONSchemaType<number> = {
   type: "integer",
@@ -22,7 +22,7 @@ export interface JSONLine {
   color?: string
   symbol?: string
   closed_date?: string
-  impl?: boolean
+  extra?: boolean
 }
 
 export function normalizeLine(raw: JSONLine): Line {
@@ -38,7 +38,7 @@ export function normalizeLine(raw: JSONLine): Line {
     color: raw.color ?? null,
     symbol: raw.symbol ?? null,
     closed_date: raw.closed_date ?? null,
-    impl: raw.impl === undefined || raw.impl
+    extra: !!raw.extra,
   }
 }
 
@@ -102,7 +102,7 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
       description: "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
       examples: ["2015-03-14"],
     },
-    impl: stationLineImpl,
+    extra: stationLineExtra,
   },
   required: [
     "code",
@@ -134,7 +134,7 @@ export interface CSVLine {
   symbol: string | null
   closed: boolean
   closed_date: string | null
-  impl?: boolean
+  extra?: boolean
 }
 
 export const csvLine: JSONSchemaType<CSVLine> = {
@@ -176,7 +176,7 @@ export const csvLine: JSONSchemaType<CSVLine> = {
       nullable: true,
       pattern: dateStringPattern,
     },
-    impl: stationLineImpl,
+    extra: stationLineExtra,
   },
   required: [
     "code",

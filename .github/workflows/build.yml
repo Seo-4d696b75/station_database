@@ -1,16 +1,13 @@
 name: auto-build
 on:
+  workflow_dispatch:
   push:
     branches:
       - develop
       - feature/update*
     paths: 
       # build対象となるsrcファイルに差分がある場合
-      - 'src/check/*'
-      - 'src/line/*'
-      - 'src/polyline/*'
-      - 'src/*.csv'
-      - 'src/.env'
+      - 'src/**'
 
 permissions:
   contents: write
@@ -20,12 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: .ruby-version
           bundler-cache: true
       - name: Set up JDK
         uses: actions/setup-java@v2
@@ -37,33 +34,24 @@ jobs:
         uses: xom9ikk/dotenv@v2
         with:
           path: src
-      - name: Check Build Dir
-        run: |
-          mkdir -p build
-          mkdir -p build/polyline
-      - name: Run Checks
-        run: |
-          bundle exec ruby src/script/check.rb -d out/main
-          bundle exec ruby src/script/check.rb -e -d out/extra
-      - name: Build Polyline
-        run: bundle exec ruby src/script/polyline.rb
-      - name: Build Voronoi
+      - name: build diagram
         env:
           GITHUB_PACKAGE_USERNAME: Seo-4d696b75
           GITHUB_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          mkdir -p src/diagram/build
+          bundle exec ruby src/script/prebuild_diagram.rb
           cd src/diagram
-          ./gradlew run --args="../../build/station.json ../../build/diagram.json"
-          ./gradlew run --args="../../build/station.extra.json ../../build/diagram.extra.json"
-      - name: Pack Data
+          ./gradlew run --args="build/station.json build/diagram.json"
+          ./gradlew run --args="build/station.extra.json build/diagram.extra.json"
+      - name: build data
         run: |
-          bundle exec ruby src/script/pack.rb \
-            -d out/main \
-            -v ${{ env.VERSION }}
-          bundle exec ruby src/script/pack.rb \
-            -e \
-            -d out/extra \
-            -v ${{ env.VERSION }}
+          bundle exec ruby src/script/build.rb 
+          bundle exec ruby src/script/build.rb -e
+      - name: zip data
+        run: |
+          ./src/zip.sh main
+          ./src/zip.sh extra
       - name: Check Diff
         id: check_diff
         run: |
@@ -74,14 +62,14 @@ jobs:
         if: ${{ steps.check_diff.outputs.main }} > 0
         run: |
           bundle exec ruby src/script/release.rb \
-            -s out/main/data.json \
+            -s out/main/json.zip \
             -d latest_info.json \
             -v ${{ env.VERSION }}
       - name: Update Info (extra)
         if: ${{ steps.check_diff.outputs.extra }} > 0
         run: |
           bundle exec ruby src/script/release.rb \
-            -s out/extra/data.json \
+            -s out/extra/json.zip \
             -d latest_info.extra.json \
             -v ${{ env.VERSION }}
       - name: Commit and Push

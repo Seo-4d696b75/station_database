@@ -5,25 +5,28 @@
 # Setup
 
 ## Node + TypeScript の環境構築
-データのバッチ処理にTypeScriptを利用しています
+
+`nodenv`でNodeバージョンを管理しています（バージョンの定義場所：`/.node-version`）
 
 ```bash
-nodenv install ${最新版}
-nodenv local ${最新版}
+nodenv install 
 npm install
+
+npm run ${package.jsonで定義したscript名称}
+npx ts-node ${ts_file}
+npx jest ${ts_test_file}
 ```
 
-## Ruby(Gem)の依存解決
+## Ruby(Gem)の環境構築
 
-rubyスクリプトで使用します
+rbenvでRubyのバージョンを管理しています（バージョンの定義場所：`/.ruby-version`）
 
 ```bash
-rbenv install 2.7.0
-rbenv local 2.7.0
+rbenv install 
 gem install bundler
 bundle install
 
-bundle exec ruby ${your_ruby_script}.rb
+bundle exec ruby ${your_ruby_file}
 ```
 
 ## API keyの用意
@@ -57,10 +60,14 @@ GOOGLE_GEOCODING_API_KEY=${API_KEY}
 - src/check/prefecture.csv 都道府県情報（駅メモでの駅数）
 - src/check/polyline_ignore.csv ポリライン欠損を許す路線一覧
 
-スクリプトでデータ自動補完できます（オプション`-i`のインタラクションモードで実行）
+スクリプトでデータの整合性チェック・自動補完ができます
 ```bash
-bundle exec ruby src/script/check.rb -i
+bundle exec ruby src/script/check.rb
 ```
+
+自動補完・自動修正に対応しているフィールは以下の通りです
+- src/station.csv 各駅の郵便番号（postal_code）と住所（address）
+- src/line/*.json 路線登録駅の駅コード・ID（コード or IDのいずれかがsrc/station.csvのマスターデータと一致している必要あり）
 
 ### 3. バージョン更新
 
@@ -68,8 +75,21 @@ bundle exec ruby src/script/check.rb -i
 
 ### 4. ビルド作業
 
-作業ブランチをpushすると`auto-build`ワークフローが起動して自動ビルド  
-ビルド成功すると差分がcommit&pushされる
+**リモート**
+
+作業ブランチをpushすると[auto-build ワークフロー](../.github/workflows/build.yml)が起動して自動ビルドが実行され、ビルド成功すると差分がcommit&pushされます
+
+**ローカル**
+
+基本的にはワークフローと同様にshellスクリプトを実行します
+
+ただし図形計算にGitHub Packageを利用する関係でGitHubアカウントの認証情報が必要です
+
+`src/diagram/credentials.properties`
+```
+username=${github_user_name}
+token=${github_access_token}
+```
 
 ### 5. リリース作業
 
@@ -89,3 +109,28 @@ bundle exec ruby src/script/check.rb -i
 
 - `src/polyline/*.json`にデータを定義します
 - ポリラインの欠損を許容する場合は`src/check/polyline_ignore.csv`に路線名を追記します
+
+# JSONスキーマ・ドキュメンの整備
+
+`out/**/*.json`ファイルのフォーマットをJSON schemaで厳密に表現しています。
+
+## 1. TypeScriptの型定義
+
+`src/ts/model/*.ts`にてTypeScriptの型でJSONフォーマットを表現し、
+[ajvライブラリ](https://ajv.js.org/)でJSON schemaを定義・バリデーションを実装しています。
+
+## 2. JSON schema の出力
+
+`out/schema/*.schema.json`を生成します
+
+```bash
+npm run schema
+```
+
+## 3. ドキュメンの出力
+
+JSON schema をもとにマークダウン形式で`docs/*.md`を出力します
+
+```bash
+npm run docs
+```

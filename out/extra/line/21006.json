@@ -9,31 +9,8 @@
   "color":"#0F6CC3",
   "symbol":"TS",
   "station_list":[
-    {"code":2100213,"id":"e4b840","name":"西新井","original_name":"西新井","name_kana":"にしあらい","closed":false,"lat":35.777323,"lng":139.790372,"prefecture":13,"numbering":["TS13"],"lines":[21002,21006],"attr":"eco","postal_code":"123-0843","address":"足立区西新井栄町２丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.78614,35.762522],[139.783703,35.766074],[139.787492,35.785921],[139.80108,35.785589],[139.78614,35.762522]]]},"properties":{}},"impl":true},
-    {"code":2100602,"id":"3ed08f","name":"大師前","original_name":"大師前","name_kana":"だいしまえ","closed":false,"lat":35.778989,"lng":139.781647,"prefecture":13,"numbering":["TS51"],"lines":[21006],"attr":"heat","postal_code":"123-0841","address":"足立区西新井１-３-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.775361,35.777909],[139.778086,35.77169],[139.783129,35.766486],[139.783703,35.766074],[139.787492,35.785921],[139.780879,35.789852],[139.776946,35.785188],[139.775361,35.777909]]]},"properties":{}},"impl":true}
+    {"code":2100213,"id":"e4b840","name":"西新井","original_name":"西新井","name_kana":"にしあらい","closed":false,"lat":35.777323,"lng":139.790372,"prefecture":13,"numbering":["TS13"],"lines":[21002,21006],"attr":"eco","postal_code":"123-0843","address":"足立区西新井栄町２丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.78614,35.762522],[139.783703,35.766074],[139.787492,35.785921],[139.80108,35.785589],[139.78614,35.762522]]]},"properties":{}},"extra":false},
+    {"code":2100602,"id":"3ed08f","name":"大師前","original_name":"大師前","name_kana":"だいしまえ","closed":false,"lat":35.778989,"lng":139.781647,"prefecture":13,"numbering":["TS51"],"lines":[21006],"attr":"heat","postal_code":"123-0841","address":"足立区西新井１-３-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.775361,35.777909],[139.778086,35.77169],[139.783129,35.766486],[139.783703,35.766074],[139.787492,35.785921],[139.780879,35.789852],[139.776946,35.785188],[139.775361,35.777909]]]},"properties":{}},"extra":false}
   ],
-  "polyline_list":{
-    "type":"FeatureCollection",
-    "features":[
-      {
-        "type":"Feature",
-        "geometry":{
-          "type":"LineString",
-          "coordinates":[[139.79096,35.7767],[139.78977,35.77786],[139.78859,35.77905],[139.78783,35.77932],[139.78745,35.77942],[139.7872,35.77948],[139.78701,35.7795],[139.78675,35.7795],[139.78607,35.77949],[139.78503,35.77946],[139.78439,35.77944],[139.78395,35.77941],[139.78366,35.77939],[139.78343,35.77935],[139.7823,35.7791],[139.78205,35.77904],[139.78126,35.77886]]
-        },
-        "properties":{
-          "start":"大師前",
-          "end":"西新井"
-        }
-      }
-    ],
-    "properties":{
-      "name":"東武大師線",
-      "north":35.7795,
-      "south":35.7767,
-      "east":139.79096,
-      "west":139.78126
-    }
-  },
-  "impl":true
+  "extra":false
 }
