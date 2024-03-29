@@ -1,16 +1,13 @@
 name: auto-build
 on:
+  workflow_dispatch:
   push:
     branches:
       - develop
       - feature/update*
     paths: 
       # build対象となるsrcファイルに差分がある場合
-      - 'src/check/*'
-      - 'src/line/*'
-      - 'src/polyline/*'
-      - 'src/*.csv'
-      - 'src/.env'
+      - 'src/**'
 
 permissions:
   contents: write
