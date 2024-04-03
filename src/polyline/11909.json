@@ -4,7 +4,7 @@
     {
       "start": "姪浜",
       "end": "博多",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":33.58362,"lng":130.32588},
         {"lat":33.58355,"lng":130.32734},
@@ -622,7 +622,7 @@
     {
       "start": "山本",
       "end": "虹ノ松原",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":33.39317,"lng":129.98124},
         {"lat":33.39504,"lng":129.98020},
