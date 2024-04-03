@@ -134,7 +134,7 @@ Parallel.each(lines, in_threads: 4) do |line|
   next unless File.exist?(src)
 
   data = parse_polyline(read_json(src))
-  data.write_polyline_json "#{dir}/polyline/#{code}.json"
+  data.write_polyline_json "#{dir}/polyline/#{code}.json", extra
 end
 
 # tree/*.json
