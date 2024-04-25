@@ -4,7 +4,7 @@
     {
       "start": "白菊町",
       "end": "野町",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":36.55925,"lng":136.64719},
         {"lat":36.55926,"lng":136.64584},
@@ -242,7 +242,7 @@
     {
       "start": "鶴来",
       "end": "加賀一の宮",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":36.45204,"lng":136.62401},
         {"lat":36.45187,"lng":136.62411},

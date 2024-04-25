@@ -1021,7 +1021,7 @@
     {
       "start": "美唄",
       "end": "南美唄",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":43.31863,"lng":141.85848},
         {"lat":43.31814,"lng":141.85841},
@@ -1110,7 +1110,7 @@
     {
       "start": "上砂川",
       "end": "砂川",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":43.48115,"lng":141.98857},
         {"lat":43.48206,"lng":141.98649},

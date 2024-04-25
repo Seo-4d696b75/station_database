@@ -218,7 +218,7 @@
     {
       "start": "小牧口",
       "end": "旧小牧",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":35.28270,"lng":136.92716},
         {"lat":35.28308,"lng":136.92694},
@@ -234,7 +234,7 @@
     {
       "start": "岩倉",
       "end": "旧小牧",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":35.27797,"lng":136.87357},
         {"lat":35.27834,"lng":136.87353},
@@ -291,7 +291,7 @@
     {
       "start": "旧小牧",
       "end": "小牧",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":35.28670,"lng":136.92584},
         {"lat":35.28854,"lng":136.92645},

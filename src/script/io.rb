@@ -319,8 +319,9 @@ class Hash
   end
 
   # 路線ポリライン
-  def write_polyline_json(file)
+  def write_polyline_json(file, extra)
     f = self['point_list'].map do |value|
+      next nil if !extra && value['extra']
       p = value['points'].map do |e|
         [e['lng'].round(5), e['lat'].round(5)]
       end
@@ -335,9 +336,8 @@ class Hash
           'end' => value['end']
         }
       }
-      d['properties']['closed'] = true if value['closed']
       next d
-    end
+    end.compact
     hash = {
       'type' => 'FeatureCollection',
       'features' => f,

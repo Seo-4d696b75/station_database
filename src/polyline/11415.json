@@ -4,7 +4,7 @@
     {
       "start": "敦賀北",
       "end": "湯尾",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":35.65156,"lng":136.09365},
         {"lat":35.65172,"lng":136.09415},
@@ -781,7 +781,7 @@
     {
       "start": "木ノ本",
       "end": "疋田",
-      "closed": true,
+      "extra": true,
       "points": [
         {"lat":35.53134,"lng":136.20901},
         {"lat":35.53177,"lng":136.20868},
