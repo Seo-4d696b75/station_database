@@ -2,7 +2,7 @@ name: check-update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * 5" # JSTで毎週土曜00:00に実行
+    - cron: "0 3 * * 1,3,5" # JSTで毎週月・水・金曜12:00に実行
 jobs:
   check:
     runs-on: ubuntu-latest
