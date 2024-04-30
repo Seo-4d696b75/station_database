@@ -76,7 +76,7 @@ GitHub Actions によるデータのテストが自動で走り結果が上部�
 ### 駅サガース
 <img src="https://user-images.githubusercontent.com/25225028/81793250-145a5300-9544-11ea-81fa-bee3a8ecc8ac.png" height="150">  
 
-[位置情報ゲーム「駅メモ！」の支援ツールサイト](https://seo-4d696b75.github.io/ekisagasu/)  
+[位置情報ゲーム「駅メモ！」の支援ツールサイト](https://ekisagasu.seo4d696b75.com/)  
 駅や路線のデータを確認したり，チェックインする駅やレーダーでアクセスできる範囲をGoogleMap上で視覚化します．
 
 

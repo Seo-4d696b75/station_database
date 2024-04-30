@@ -319,10 +319,24 @@ class Hash
   end
 
   # 路線ポリライン
-  def write_polyline_json(file)
+  def write_polyline_json(file, extra)
+    # 座標値の範囲を計算
+    east = -180
+    west = 180
+    north = -90
+    south = 90
+
     f = self['point_list'].map do |value|
+      next nil if !extra && value['extra']
+
       p = value['points'].map do |e|
-        [e['lng'].round(5), e['lat'].round(5)]
+        lng = e['lng'].round(5)
+        lat = e['lat'].round(5)
+        east = [east, lng].max
+        west = [west, lng].min
+        north = [north, lat].max
+        south = [south, lat].min
+        [lng, lat]
       end
       d = {
         'type' => 'Feature',
@@ -335,18 +349,17 @@ class Hash
           'end' => value['end']
         }
       }
-      d['properties']['closed'] = true if value['closed']
       next d
-    end
+    end.compact
     hash = {
       'type' => 'FeatureCollection',
       'features' => f,
       'properties' => {
         'name' => self['name'],
-        'north' => self['north'],
-        'south' => self['south'],
-        'east' => self['east'],
-        'west' => self['west']
+        'north' => north,
+        'south' => south,
+        'east' => east,
+        'west' => west
       }
     }
     str = format_json(hash, flat_key: ['coordinates'])
