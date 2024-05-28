@@ -34,6 +34,7 @@ jobs:
           mkdir artifact
           cp out/main/json.zip artifact/main.zip
           cp out/extra/json.zip artifact/extra.zip
+          cp src/.env artifact/.env
       - uses: actions/upload-artifact@v4
         with:
           name: base-data
@@ -65,6 +66,8 @@ jobs:
       - name: enable problem matcher
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
+      - name: check version
+        run: bundle exec ruby src/script/test_version.rb
       - name: check subset
         run: bundle exec ruby src/script/test_subset.rb 
       - name: compare data
