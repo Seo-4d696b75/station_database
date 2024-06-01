@@ -16,10 +16,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # secrets.GITHUB_TOKENでcommit&pushしても次のワークフローを起動しないためGitHub Appから一時tokenを発行する
+      # see https://github.com/marketplace/actions/github-app-token
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
+          token: ${{ steps.generate_token.outputs.token }}
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: .ruby-version
