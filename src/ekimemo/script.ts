@@ -1,6 +1,8 @@
+import axios from "axios";
 import { parse } from 'csv-parse/sync';
 import * as fs from 'fs';
-import { JSDOM } from "jsdom";
+
+const MIN_INTERVAL = 300
 
 interface CSVRecord {
   code: string
@@ -8,29 +10,19 @@ interface CSVRecord {
   ekimemo: string
 }
 
-let data = fs.readFileSync("src/ekimemo/line.csv")
-const lines = parse(data, { columns: true }) as CSVRecord[]
-data = fs.readFileSync("src/ekimemo/station.csv")
+const data = fs.readFileSync("src/ekimemo/station.csv")
 const stations = parse(data, { columns: true }) as CSVRecord[]
 
-lines.forEach(line => {
-  const html = fs.readFileSync(`src/ekimemo/line/${line.ekimemo}.html`)
-  const dom = new JSDOM(html)
-  const list = dom.window.document.querySelectorAll(".line-station-list > .line-station-item")
-  list.forEach(item => {
-    const name = item.querySelector(".station-name")?.textContent
-    const path = item.querySelector("a")?.getAttribute("href")
-    const code = path?.match(/\/database\/station\/(\d+)\/activity/)?.[1]
-    if (!name || !code) throw Error("name or code not found at line HTML " + line.ekimemo)
-    const r = stations.find(r => r.name === name)
-    if (!r) throw Error("station not found " + name)
-    if (r.ekimemo !== "NULL" && r.ekimemo !== code) throw Error(`station code mismatch ${name} ${code} !== ${r.code}`)
-    r.ekimemo = code
-  })
-})
+(async () => {
+  for (const s of stations) {
+    const start = Date.now()
+    const res = await axios.get<string>(`https://ekimemo.com/database/station/${s.ekimemo}/activity`)
+    fs.writeFileSync(`src/ekimemo/station/${s.ekimemo}.html`, res.data)
+    console.log(s.ekimemo, s.name)
 
-const miss = stations.filter(r => r.ekimemo === "NULL")
-if (miss.length !== 0) throw Error("station code not found " + miss)
-
-const csv = "code,name,ekimemo\n" + stations.map(r => `${r.code},${r.name},${r.ekimemo}`).join("\n")
-fs.writeFileSync("src/ekimemo/station.csv", csv)
+    const time = Date.now() - start
+    await new Promise((resolve, _) => {
+      setTimeout(() => resolve(null), Math.max(MIN_INTERVAL - time, 10))
+    })
+  }
+})()
