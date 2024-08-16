@@ -45,7 +45,7 @@ async function getLine(code: number): Promise<LinePage | null> {
   const data = fs.readFileSync("src/ekimemo/line.csv")
   const lines = parse(data, { columns: true }) as LineRecord[]
 
-  for (let code = 608; code <= MAX_LINE_CODE; code++) {
+  for (let code = 1; code <= MAX_LINE_CODE; code++) {
     const start = Date.now()
     const page = await getLine(code)
     if (page) {
