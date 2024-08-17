@@ -1,5 +1,5 @@
 import Ajv, { JSONSchemaType } from "ajv";
-import { readFileSync } from "fs"
+import { readFileSync } from "fs";
 
 const ajv = new Ajv()
 
@@ -20,6 +20,7 @@ const falseValue = "0"
 type CSVFieldType = "string" | "integer" | "number" | "boolean"
 
 interface CSVFieldSchema {
+  index: number
   name: string
   type: CSVFieldType
   nullable: boolean
@@ -33,64 +34,45 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   if (!fieldSchemaEntries) {
     throw Error("CSVスキーマは properties: [Object] でフィールドを定義してください")
   }
-  const requiredFields = schema.required
-  if (!requiredFields || !Array.isArray(requiredFields)) {
-    throw Error("CSVスキーマは required: string[] が必要")
-  }
   const str = readFileSync(path).toString()
   const lines = str.split(/[\r\n]+/ig)
   if (lines[lines.length - 1] === "") {
     lines.splice(lines.length - 1, 1)
   }
+
+  // ヘッダーの確認
   const headers = lines[0].split(",")
   lines.splice(0, 1)
-  const fieldSchemaList: CSVFieldSchema[] = headers.map(header => {
-    const schema = fieldSchemaEntries[header]
-    if (!schema) {
-      throw Error(`フィールド'${header}'に該当するスキーマが見つかりません`)
-    }
+  const fieldSchemaList: CSVFieldSchema[] = Object.entries(fieldSchemaEntries).map(pair => {
+    const [key, schema] = pair as [string, any]
     const type = schema.type
     if (typeof type !== "string") {
-      throw Error(`フィールド'${header}'に型定義 type: string が見つかりません`)
+      throw Error(`フィールド'${key}'に型定義 type: string が見つかりません`)
     }
     if (!["string", "integer", "number", "boolean"].includes(type)) {
-      throw Error(`フィールド'${header}'の型定義 type: '${type}' が不正です`)
+      throw Error(`フィールド'${key}'の型定義 type: '${type}' が不正です`)
     }
+    const index = headers.findIndex(h => h === key)
+    if (index < 0) throw Error(`型定義 ${key}: ${type} に対応するCSVのヘッダーが見つかりません`)
     const nullable = !!schema.nullable
     return {
-      name: header,
+      index: index,
+      name: key,
       type: type as CSVFieldType,
       nullable: nullable
     }
   })
-  // 欠損・順序の確認
-  let previousIdx = -1
-  let previousKey = ""
-  for (const [key, fieldSchema] of Object.entries(fieldSchemaEntries)) {
-    const idx = headers.findIndex(f => f === key)
-    if (idx < 0) {
-      if (requiredFields.includes(key)) {
-        throw Error(`requiredに指定されたフィールド'${key}'が見つかりません`)
-      }
-    } else {
-      if (previousIdx > idx) {
-        throw Error(`フィールド'${key}'と'${previousKey}'の順序がスキーマと反転しています`)
-      }
-      previousIdx = idx
-      previousKey = key
-    }
-  }
+
   // 各行のバリデーション
   const validate = ajv.compile(schema)
-  return lines.map((str,lineIdx) => {
+  return lines.map((str, lineIdx) => {
     const fields = str.split(",")
-    if (fields.length !== fieldSchemaList.length) {
+    if (fields.length !== headers.length) {
       throw Error(`フィールドの数がヘッダと異なります size:${fields.length} at line ${lineIdx}: ${str}`)
     }
     const obj: any = {}
-    fields.forEach((v, i) => {
-      const schema = fieldSchemaList[i]
-      const value = parseCsvField(v, schema)
+    fieldSchemaList.forEach(schema => {
+      const value = parseCsvField(fields[schema.index], schema)
       obj[schema.name] = value
     })
     if (validate(obj)) {
