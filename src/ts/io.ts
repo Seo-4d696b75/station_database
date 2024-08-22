@@ -34,6 +34,10 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   if (!fieldSchemaEntries) {
     throw Error("CSVスキーマは properties: [Object] でフィールドを定義してください")
   }
+  const requiredFields = schema.required
+  if (!requiredFields || !Array.isArray(requiredFields)) {
+    throw Error("CSVスキーマは required: string[] が必要です")
+  }
   const str = readFileSync(path).toString()
   const lines = str.split(/[\r\n]+/ig)
   if (lines[lines.length - 1] === "") {
@@ -53,7 +57,8 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
       throw Error(`フィールド'${key}'の型定義 type: '${type}' が不正です`)
     }
     const index = headers.findIndex(h => h === key)
-    if (index < 0) throw Error(`型定義 ${key}: ${type} に対応するCSVのヘッダーが見つかりません`)
+    // required に設定されていないカラムの欠損を許す
+    if (index < 0 && requiredFields.includes(key)) throw Error(`型定義 ${key}: ${type} に対応するCSVのヘッダーが見つかりません`)
     const nullable = !!schema.nullable
     return {
       index: index,
@@ -72,8 +77,12 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
     }
     const obj: any = {}
     fieldSchemaList.forEach(schema => {
-      const value = parseCsvField(fields[schema.index], schema)
-      obj[schema.name] = value
+      if (schema.index < 0) {
+        obj[schema.name] = undefined
+      } else {
+        const value = parseCsvField(fields[schema.index], schema)
+        obj[schema.name] = value
+      }
     })
     if (validate(obj)) {
       return obj
