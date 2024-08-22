@@ -134,3 +134,27 @@ JSON schema をもとにマークダウン形式で`docs/*.md`を出力します
 ```bash
 npm run docs
 ```
+
+# 駅メモとの整合性チェック
+
+https://ekimemo.com/database/** から取得できるデータと比較して差分を検査します. ただし全部の路線・駅（総数10000程度）のページをダウンロードするのに時間がかかるためCIでの定期実行はありません. 
+
+## ダウンロード
+
+```bash
+rm -rf src/ekimemo/station src/ekimemo/line
+npm run download
+```
+
+## テスト
+
+以下の項目において駅メモと差分が無いか確認します
+- 駅の名前
+- 駅の緯度・経度
+- 駅の所在都道府県
+- 駅のよみがな
+- 路線の登録駅・順序
+
+```bash
+npm run test-ekimemo
+```
