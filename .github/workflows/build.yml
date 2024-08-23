@@ -8,6 +8,7 @@ on:
     paths:
       # build対象となるsrcファイルに差分がある場合
       - "src/**"
+      - ".github/workflows/build.yml"
 
 permissions:
   contents: write
