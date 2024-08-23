@@ -61,8 +61,11 @@ jobs:
         id: check_diff
         run: |
           git add -N .
-          echo "main=$(git diff --name-only -- out/main/ | wc -l)" >> $GITHUB_OUTPUT
-          echo "extra=$(git diff --name-only -- out/extra/ | wc -l)" >> $GITHUB_OUTPUT
+          main=$(git diff --name-only -- out/main/ | wc -l)
+          extra=$(git diff --name-only -- out/extra/ | wc -l)
+          echo "detected file changes main: $main, extra: $extra"
+          echo "main=$main" >> $GITHUB_OUTPUT
+          echo "extra=$extra" >> $GITHUB_OUTPUT
       - name: update summary (main)
         if: ${{ steps.check_diff.outputs.main }} > 0
         run: |
