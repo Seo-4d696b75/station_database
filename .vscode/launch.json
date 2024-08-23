@@ -31,7 +31,7 @@
         {
             "type": "node",
             "name": "jest (active file)",
-            "runtimeExecutable": "/Users/k_senda/.nodebrew/current/bin/node",
+            "runtimeExecutable": "/Users/k_senda/.nodenv/shims/node",
             "request": "launch",
             "runtimeArgs": [
                 "--inspect-brk",
