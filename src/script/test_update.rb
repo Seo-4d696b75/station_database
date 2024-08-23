@@ -148,32 +148,36 @@ class SubsetTest < MiniTest::Test
   def teardown
     log = "## #{@log_title}  \n\n"
 
-    line_log = @log.select { |tag, _| tag['type'] == 'line' }
-    unless line_log.empty?
-      log << "### 路線  \n"
-      line_log.each do |tag, messages|
-        log << "- #{tag['name']}  \n"
-        messages&.each do |m|
-          log << "  - #{m}  \n"
+    if @log.empty?
+      log << "差分はありません  \n"
+    else
+      log << "<details><summary>#{@log.size}件の差分があります</summary>\n\n"
+      line_log = @log.select { |tag, _| tag['type'] == 'line' }
+      unless line_log.empty?
+        log << "### 路線  \n"
+        line_log.each do |tag, messages|
+          log << "- #{tag['name']}  \n"
+          messages&.each do |m|
+            log << "  - #{m}  \n"
+          end
+        end
+      end
+
+      log << "\n\n"
+
+      station_log = @log.select { |tag, _| tag['type'] == 'station' }
+      unless station_log.empty?
+        log << "### 駅  \n"
+        station_log.each do |tag, messages|
+          log << "- #{tag['name']}  \n"
+          messages&.each do |m|
+            log << "  - #{m}  \n"
+          end
         end
       end
     end
 
-    log << "\n\n"
-
-    station_log = @log.select { |tag, _| tag['type'] == 'station' }
-    unless station_log.empty?
-      log << "### 駅  \n"
-      station_log.each do |tag, messages|
-        log << "- #{tag['name']}  \n"
-        messages&.each do |m|
-          log << "  - #{m}  \n"
-        end
-      end
-    end
-
-    log << "差分はありません  \n" if station_log.empty? && line_log.empty?
-    log << "\n\n"
+    log << "</details>\n\n"
 
     File.open("artifact/#{@log_file}", 'w') { |f| f.write(log) }
   end
