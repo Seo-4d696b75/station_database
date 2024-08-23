@@ -51,15 +51,6 @@
             "port": 9229
         },
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "cwd": "${workspaceRoot}/src/location"
-        },
-        {
             "name": "Ruby: Debug Current File",
             "type": "ruby_lsp",
             "request": "launch",
