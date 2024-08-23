@@ -64,10 +64,10 @@ jobs:
           main=$(git diff --name-only -- out/main/ | wc -l)
           extra=$(git diff --name-only -- out/extra/ | wc -l)
           echo "detected file changes main: $main, extra: $extra"
-          echo "main=$main" >> $GITHUB_OUTPUT
-          echo "extra=$extra" >> $GITHUB_OUTPUT
+          echo "main=$([ "$main" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
+          echo "extra=$([ "$extra" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
       - name: update summary (main)
-        if: ${{ steps.check_diff.outputs.main }} > 0
+        if: steps.check_diff.outputs.main == 'true'
         run: |
           ./src/zip.sh main
           bundle exec ruby src/script/release.rb \
@@ -75,7 +75,7 @@ jobs:
             -d latest_info.json \
             -v ${{ env.VERSION }}
       - name: update summary (extra)
-        if: ${{ steps.check_diff.outputs.extra }} > 0
+        if: steps.check_diff.outputs.extra == 'true'
         run: |
           ./src/zip.sh extra
           bundle exec ruby src/script/release.rb \
@@ -83,7 +83,7 @@ jobs:
             -d latest_info.extra.json \
             -v ${{ env.VERSION }}
       - name: Commit and Push
-        if: ${{ steps.check_diff.outputs.main }} + ${{ steps.check_diff.outputs.extra }} > 0
+        if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "actions-user"
