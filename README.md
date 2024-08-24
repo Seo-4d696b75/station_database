@@ -66,6 +66,10 @@
 ### 仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
 
+### 公式との差分確認
+一部の駅情報はゲーム内情報と一致しているかを不定期で確認しています.  
+[詳細はこちらのWikiを参照してください.](https://github.com/Seo-4d696b75/station_database/wiki/test_ekimemo)
+
 ### 誤りの報告
 [報告を受け付けています.こちらを参考にしてください.](./CONTRIBUTING.md)
 

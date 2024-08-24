@@ -146,6 +146,11 @@ rm -rf src/ekimemo/station src/ekimemo/line
 npm run download
 ```
 
+公式Webサイトで使用する駅・路線の識別子と当データベースのcodeとの対応表も出力されます
+- [駅一覧](./ekimemo/station.csv)
+- [路線一覧](./ekimemo/line.csv)
+
+
 ## テスト
 
 以下の項目において駅メモと差分が無いか確認します
