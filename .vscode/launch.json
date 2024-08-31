@@ -31,7 +31,7 @@
         {
             "type": "node",
             "name": "jest (active file)",
-            "runtimeExecutable": "/Users/k_senda/.nodebrew/current/bin/node",
+            "runtimeExecutable": "/Users/k_senda/.nodenv/shims/node",
             "request": "launch",
             "runtimeArgs": [
                 "--inspect-brk",
@@ -49,15 +49,6 @@
             "smartStep": true,
             "internalConsoleOptions": "neverOpen",
             "port": 9229
-        },
-        {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "cwd": "${workspaceRoot}/src/location"
         },
         {
             "name": "Ruby: Debug Current File",

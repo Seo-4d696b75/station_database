@@ -1,10 +1,11 @@
 import Ajv, { JSONSchemaType } from "ajv";
-import { readFileSync } from "fs"
+import * as csv from "csv-parse/sync";
+import * as fs from "fs";
 
 const ajv = new Ajv()
 
 export function readJsonSafe<T>(path: string, schema: JSONSchemaType<T>): T {
-  const str = readFileSync(path).toString()
+  const str = fs.readFileSync(path).toString()
   const validate = ajv.compile(schema)
   const data = JSON.parse(str)
   if (validate(data)) {
@@ -20,6 +21,7 @@ const falseValue = "0"
 type CSVFieldType = "string" | "integer" | "number" | "boolean"
 
 interface CSVFieldSchema {
+  index: number
   name: string
   type: CSVFieldType
   nullable: boolean
@@ -35,93 +37,97 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   }
   const requiredFields = schema.required
   if (!requiredFields || !Array.isArray(requiredFields)) {
-    throw Error("CSVスキーマは required: string[] が必要")
+    throw Error("CSVスキーマは required: string[] が必要です")
   }
-  const str = readFileSync(path).toString()
-  const lines = str.split(/[\r\n]+/ig)
-  if (lines[lines.length - 1] === "") {
-    lines.splice(lines.length - 1, 1)
-  }
-  const headers = lines[0].split(",")
-  lines.splice(0, 1)
-  const fieldSchemaList: CSVFieldSchema[] = headers.map(header => {
-    const schema = fieldSchemaEntries[header]
-    if (!schema) {
-      throw Error(`フィールド'${header}'に該当するスキーマが見つかりません`)
-    }
+  const str = fs.readFileSync(path).toString()
+
+  // 値の変換
+  const fieldSchema = new Map(Object.entries(fieldSchemaEntries).map(pair => {
+    const [key, schema] = pair as [string, any]
     const type = schema.type
     if (typeof type !== "string") {
-      throw Error(`フィールド'${header}'に型定義 type: string が見つかりません`)
+      throw Error(`フィールド'${key}'に型定義 type が見つかりません`)
     }
     if (!["string", "integer", "number", "boolean"].includes(type)) {
-      throw Error(`フィールド'${header}'の型定義 type: '${type}' が不正です`)
+      throw Error(`フィールド'${key}'の型定義 type: '${type}' が不正です`)
     }
     const nullable = !!schema.nullable
-    return {
-      name: header,
-      type: type as CSVFieldType,
-      nullable: nullable
+    return [
+      key,
+      {
+        type: type as CSVFieldType,
+        nullable: nullable
+      },
+    ]
+  }))
+  const castValue = (value: string, context: csv.CastingContext) => {
+    const { type, nullable } = fieldSchema.get(context.column as string)!!
+    // null確認
+    if (value === nullValue && !context.quoting) {
+      if (!nullable) {
+        throw Error(`null は許可されていません column:${context.column} line:${context.lines}`)
+      }
+      return null
     }
-  })
-  // 欠損・順序の確認
-  let previousIdx = -1
-  let previousKey = ""
-  for (const [key, fieldSchema] of Object.entries(fieldSchemaEntries)) {
-    const idx = headers.findIndex(f => f === key)
-    if (idx < 0) {
-      if (requiredFields.includes(key)) {
-        throw Error(`requiredに指定されたフィールド'${key}'が見つかりません`)
-      }
-    } else {
-      if (previousIdx > idx) {
-        throw Error(`フィールド'${key}'と'${previousKey}'の順序がスキーマと反転しています`)
-      }
-      previousIdx = idx
-      previousKey = key
+    switch (type) {
+      case "string":
+        return value
+      case "integer":
+      case "number":
+        const n = Number(value)
+        if (Number.isNaN(n)) {
+          throw Error(`number型に変換できません：${value} column:${context.column} line:${context.lines}`)
+        }
+        return n
+      case "boolean":
+        if (value === trueValue) {
+          return true
+        } else if (value === falseValue) {
+          return false
+        } else {
+          throw Error(`boolean型に変換できません：${value} column:${context.column} line:${context.lines}`)
+        }
     }
   }
-  // 各行のバリデーション
-  const validate = ajv.compile(schema)
-  return lines.map((str,lineIdx) => {
-    const fields = str.split(",")
-    if (fields.length !== fieldSchemaList.length) {
-      throw Error(`フィールドの数がヘッダと異なります size:${fields.length} at line ${lineIdx}: ${str}`)
-    }
-    const obj: any = {}
-    fields.forEach((v, i) => {
-      const schema = fieldSchemaList[i]
-      const value = parseCsvField(v, schema)
-      obj[schema.name] = value
-    })
-    if (validate(obj)) {
-      return obj
-    } else {
-      throw validate.errors
-    }
-  })
-}
 
-function parseCsvField(value: string, schema: CSVFieldSchema): any {
-  if (value === nullValue && schema.nullable) {
-    return null
-  }
-  switch (schema.type) {
-    case "string":
-      return value
-    case "integer":
-    case "number":
-      const n = Number(value)
-      if (Number.isNaN(n)) {
-        throw Error(`number型に変換できません：${value}`)
+  // ヘッダーの確認
+  const validateHeader = (header: string[]) => {
+    for (const column of fieldSchema.keys()) {
+      if (!header.includes(column) && requiredFields.includes(column)) {
+        throw Error(`ヘッダーに'${column}'が見つかりません`)
       }
-      return n
-    case "boolean":
-      if (value === trueValue) {
-        return true
-      } else if (value === falseValue) {
-        return false
-      } else {
-        throw Error(`boolean型に変換できません：${value}`)
-      }
+    }
   }
+
+  // 各行のバリデーション
+  const validateRecord = ajv.compile(schema)
+
+  return csv.parse(
+    str,
+    {
+      columns: (record) => {
+        const header = record as string[]
+        validateHeader(header)
+        return header
+      },
+      cast: (value, context) => {
+        if (context.header) {
+          return value
+        } else {
+          return castValue(value, context)
+        }
+      },
+      onRecord: (record, context) => {
+        if (validateRecord(record)) {
+          return record
+        } else {
+          throw Error(
+            `validation error line:${context.lines}\n`
+            + `description:\n${JSON.stringify(validateRecord.errors?.[0], undefined, 2)}\n`
+            + `record:\n${JSON.stringify(record, undefined, 2)}`
+          )
+        }
+      }
+    },
+  ) as T[]
 }

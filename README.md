@@ -1,5 +1,5 @@
 # 駅データ  
-日本全国の鉄道路線・駅のデータベース編集プロジェクト  
+日本全国の鉄道路線・駅のデータベース収集プロジェクト  
   
 ![](https://github.com/Seo-4d696b75/station_database/workflows/auto-build/badge.svg) ![](https://github.com/Seo-4d696b75/station_database/workflows/test/badge.svg)
 
@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-位置ゲーム【駅メモ！】内で使用されているデータベースに準拠
+スマートフォン位置ゲーム「駅メモ！」で使用されているデータベースに準拠
 
 #### 主要なデータファイル
 
@@ -22,6 +22,14 @@
 |[line.csv](out/main/line.csv)| 路線一覧 | CSV |  
 |[line.json](out/main/line.json)| 路線一覧 | JSON |  
 
+#### データのバージョン
+
+データ更新を行った日付に対応するタグ `v${yyyyMMdd}` が付与されています. これまでの更新内容とバージョンの一覧は[こちらから確認できます](https://github.com/Seo-4d696b75/station_database/releases).
+
+また現在の最新バージョン情報は次のファイルでも定義されています.  
+
+- `main`データセット: [/latest_info.json](./latest_info.json)
+- `extra`データセット: [/latest_info.extra.json](./latest_info.extra.json)
 
 #### データセットの種類
 
@@ -33,31 +41,34 @@
 ### 出典  
 
 * [駅データ.jp](http://www.ekidata.jp/)  
-  基本的な路線・駅の名称・位置情報など
+  基本的な路線・駅の名称・位置情報など  
+  **当データベースの更新は完全に独自で行っており、駅データ.jp側の更新は反映していません**
 
-* [【駅メモ！】ステーションメモリーズ！情報wiki](https://ek1mem0.wiki.fc2.com/)  
-  [旧サイトから移転しました](https://ekimemo.wiki.fc2.com/)  
-  上記の駅データ.jpとの差分をこちらの情報で埋めるのに利用
+* [【駅メモ！】駅の思い出](https://ekimemo.com/database)  
+  公式サイトより各路線・駅のページをスクレイピング
 
 * [国土数値情報ダウンロードサービス](http://nlftp.mlit.go.jp/ksj/index.html)    
   4.交通＞鉄道 2008/2017年度版 を加工して使用  
   鉄道路線のポリライン情報のみ利用
   
 * [wikipedia - 日本の廃止鉄道路線](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%BB%83%E6%AD%A2%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E4%B8%80%E8%A6%A7)  
-  独自追加の廃駅・廃路線のデータはこのサイトからスクリプトで自動取得
+  独自追加の廃駅・廃路線のデータはこのサイトをスクレイピング
 
 ### データの更新
 [公式のお知らせページ](https://ekimemo.com/news/)で駅情報更新が公表されると、
 
 1. 今後の対応予定として[issueを自動登録します](https://github.com/Seo-4d696b75/station_database/issues?q=is%3Aissue+is%3Aopen+label%3A%E9%A7%85%E6%83%85%E5%A0%B1%E6%9B%B4%E6%96%B0)
 2. 公表された更新日に合わせてデータ更新を実施します
+3. 完了後に新しいデータバージョンの[tagとreleaseを発行します](https://github.com/Seo-4d696b75/station_database/releases)
 
-実施された各更新内容は[Release Notesの一覧](https://github.com/Seo-4d696b75/station_database/releases)に表示されます。また現在の最新データのバージョン・場所等の情報は次のファイルで定義されています。  
-- `main`データセット: [/latest_info.json](./latest_info.json)
-- `extra`データセット: [/latest_info.extra.json](./latest_info.extra.json)
+
 
 ### 仕様  
 [詳細はWikiページ参照](https://github.com/Seo-4d696b75/station_database/wiki/data)  
+
+### 公式との差分確認
+一部の駅情報はゲーム内情報と一致しているかを不定期で確認しています.  
+[詳細はこちらのWikiを参照してください.](https://github.com/Seo-4d696b75/station_database/wiki/test_ekimemo)
 
 ### 誤りの報告
 [報告を受け付けています.こちらを参考にしてください.](./CONTRIBUTING.md)
@@ -66,10 +77,10 @@
 [こちらを参照して開発環境をセットアップできます](./src/README.md)
 
 ### テスト
-GitHub Actions によるデータのテストが自動で走り結果が上部のバッジに表示されています。  
+データ更新時に以下のテストが自動実行されます.  
 
-- format データ形式が仕様で定めた通りであるか確認
-- consistency 更新前後でデータの欠損や予期せぬ変化がないか確認
+- format: データ形式が仕様で定めた通りであるか確認
+- consistency: 更新前後でデータの欠損や予期せぬ変化がないか確認
 
 # データを使う  
 

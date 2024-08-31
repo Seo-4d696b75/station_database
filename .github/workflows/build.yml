@@ -5,9 +5,10 @@ on:
     branches:
       - develop
       - feature/update*
-    paths: 
+    paths:
       # build対象となるsrcファイルに差分がある場合
-      - 'src/**'
+      - "src/**"
+      - ".github/workflows/build.yml"
 
 permissions:
   contents: write
@@ -36,9 +37,9 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          distribution: 'zulu'
-          java-version: '11'
-          cache: 'gradle'
+          distribution: "zulu"
+          java-version: "11"
+          cache: "gradle"
       - name: Load version
         uses: xom9ikk/dotenv@v2
         with:
@@ -57,31 +58,33 @@ jobs:
         run: |
           bundle exec ruby src/script/build.rb 
           bundle exec ruby src/script/build.rb -e
-      - name: zip data
-        run: |
-          ./src/zip.sh main
-          ./src/zip.sh extra
       - name: Check Diff
         id: check_diff
         run: |
           git add -N .
-          echo "main=$(git diff --name-only -- out/main/ | wc -l)" >> $GITHUB_OUTPUT
-          echo "extra=$(git diff --name-only -- out/extra/ | wc -l)" >> $GITHUB_OUTPUT
-      - name: Update Info (main)
-        if: ${{ steps.check_diff.outputs.main }} > 0
+          main=$(git diff --name-only -- out/main/ | wc -l)
+          extra=$(git diff --name-only -- out/extra/ | wc -l)
+          echo "detected file changes main: $main, extra: $extra"
+          echo "main=$([ "$main" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
+          echo "extra=$([ "$extra" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
+      - name: update summary (main)
+        if: steps.check_diff.outputs.main == 'true'
         run: |
+          ./src/zip.sh main
           bundle exec ruby src/script/release.rb \
             -s out/main/json.zip \
             -d latest_info.json \
             -v ${{ env.VERSION }}
-      - name: Update Info (extra)
-        if: ${{ steps.check_diff.outputs.extra }} > 0
+      - name: update summary (extra)
+        if: steps.check_diff.outputs.extra == 'true'
         run: |
+          ./src/zip.sh extra
           bundle exec ruby src/script/release.rb \
             -s out/extra/json.zip \
             -d latest_info.extra.json \
             -v ${{ env.VERSION }}
       - name: Commit and Push
+        if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "actions-user"

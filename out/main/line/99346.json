@@ -8,8 +8,8 @@
   "company_code":119,
   "closed":true,
   "station_list":[
-    {"code":9934601,"id":"52db63","name":"東園(東京)","original_name":"東園","name_kana":"ひがしえん","closed":true,"lat":35.715835,"lng":139.770141,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園９","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767583,35.715716],[139.772847,35.714272],[139.773598,35.714831],[139.773659,35.71504],[139.769196,35.720339],[139.767583,35.715716]]]},"properties":{}}},
-    {"code":9934602,"id":"c6395d","name":"西園","original_name":"西園","name_kana":"にしえん","closed":true,"lat":35.714308,"lng":139.769722,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園３","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.772847,35.714272],[139.767583,35.715716],[139.764207,35.711274],[139.764342,35.7111],[139.770469,35.711296],[139.772847,35.714272]]]},"properties":{}}}
+    {"code":9934601,"id":"52db63","name":"東園(東京)","original_name":"東園","name_kana":"ひがしえん","closed":true,"lat":35.715833,"lng":139.770139,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園９","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767581,35.715711],[139.772848,35.714273],[139.773597,35.714832],[139.773657,35.715036],[139.769196,35.720335],[139.767581,35.715711]]]},"properties":{}}},
+    {"code":9934602,"id":"c6395d","name":"西園","original_name":"西園","name_kana":"にしえん","closed":true,"lat":35.714306,"lng":139.769722,"prefecture":13,"lines":[99346],"attr":"unknown","postal_code":"110-0007","address":"東京都台東区上野公園３","closed_date":"2023-12-27","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767581,35.715711],[139.764206,35.711275],[139.764343,35.711099],[139.77047,35.711295],[139.772848,35.714273],[139.767581,35.715711]]]},"properties":{}}}
   ],
   "closed_date":"2023-12-27"
 }
