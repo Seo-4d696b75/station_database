@@ -142,7 +142,7 @@ https://ekimemo.com/database/** から取得できるデータと比較して差
 ## ダウンロード
 
 ```bash
-rm -rf src/ekimemo/station src/ekimemo/line
+rm -f src/ekimemo/station/* src/ekimemo/line/*
 npm run download
 ```
 
