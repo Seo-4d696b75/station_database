@@ -1,0 +1,23 @@
+name: ekimemo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 1 * *" # JSTで毎月１日18:00に実行
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: "npm"
+      - name: download
+        run: |
+          mkdir -p src/ekimemo/station src/ekimemo/line
+          rm -f src/ekimemo/station/* src/ekimemo/line/*
+          npm run download
+      - name: run test
+        run: npm run test-ekimemo
