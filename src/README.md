@@ -137,12 +137,12 @@ npm run docs
 
 # 駅メモとの整合性チェック
 
-https://ekimemo.com/database/** から取得できるデータと比較して差分を検査します. ただし全部の路線・駅（総数10000程度）のページをダウンロードするのに時間がかかるためCIでの定期実行はありません. 
+https://ekimemo.com/database/** から取得できるデータと比較して差分を検査します. ただし全部の路線・駅（総数10000程度）のページをダウンロードするのに時間がかかるため、PRのチェックには含まれません
 
 ## ダウンロード
 
 ```bash
-rm -rf src/ekimemo/station src/ekimemo/line
+rm -f src/ekimemo/station/* src/ekimemo/line/*
 npm run download
 ```
 

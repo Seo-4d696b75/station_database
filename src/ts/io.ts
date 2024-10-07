@@ -20,13 +20,6 @@ const falseValue = "0"
 
 type CSVFieldType = "string" | "integer" | "number" | "boolean"
 
-interface CSVFieldSchema {
-  index: number
-  name: string
-  type: CSVFieldType
-  nullable: boolean
-}
-
 export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   if (schema.type !== "object") {
     throw Error("CSVスキーマは type:'object'が必要")
@@ -61,7 +54,12 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
     ]
   }))
   const castValue = (value: string, context: csv.CastingContext) => {
-    const { type, nullable } = fieldSchema.get(context.column as string)!!
+    const schema = fieldSchema.get(context.column as string)
+    if (!schema) {
+      // 対応するスキーマ不在の場合
+      return value
+    }
+    const { type, nullable } = schema
     // null確認
     if (value === nullValue && !context.quoting) {
       if (!nullable) {
