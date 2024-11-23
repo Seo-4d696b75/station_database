@@ -129,15 +129,7 @@ describe(`${dataset}データセット`, () => {
             assert(stations.filter(s => !s.extra).length === 0)
           } else {
             // 重複がある場合はnameに区別の接尾語がつくのでname !== original
-            assert(
-              stations.length > 1 || (
-                // FIXME 暫定対応
-                // https://github.com/Seo-4d696b75/station_database/issues/151
-                stations.length === 1 &&
-                original === "宝町" &&
-                stations[0].name === "宝町(東京)"
-              )
-            )
+            assert(stations.length > 1)
           }
         })
       })
