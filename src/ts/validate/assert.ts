@@ -65,10 +65,7 @@ export function assertEach<T>(list: T[], listName: string, testCase: (element: T
 }
 
 class JestAssertionError extends Error {
-  data: string[]
-  title: string
   message: string
-  stackTrace: string = ""
 
   constructor(title: string, where: Function, cause?: any) {
     super(title)
@@ -80,50 +77,25 @@ class JestAssertionError extends Error {
       writable: true,
     })
 
-    this.data = []
-    this.title = title
 
     if (cause) {
       if (cause instanceof Error) {
-        this.title = `catch other error\n  ${cause.name}: ${cause.message}`
+        this.message = `catch other error\n  ${cause.name}: ${cause.message}`
       } else {
-        this.title = `something has been thrown\n${JSON.stringify(cause, undefined, 2)}`
+        this.message = `something has been thrown\n${JSON.stringify(cause, undefined, 2)}`
       }
+    } else {
+      this.message = title
     }
-
-    this.message = this.title
 
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, where)
-      this.stackTrace = extractStackTrace(this)
-      if (cause instanceof Error && cause.stack) {
-        this.stackTrace = extractStackTrace(cause)
-          + "\n\nJestAssertionError is thrown from\n"
-          + this.stackTrace
-        this.stack = "JestAssertionError: "
-          + this.message
-          + "\n\n"
-          + this.stackTrace
-      }
     }
   }
 
   appendDataStack(dataMessage: string) {
-    this.data = [...this.data, dataMessage]
-    this.message = this.title + "\n\n" + this.data.join("\n\n")
-    this.stack = "JestAssertionError: "
-      + this.message
-      + "\n\n"
-      + this.stackTrace
+    this.message += `\n\n${dataMessage}`
   }
-}
-
-function extractStackTrace(e: Error): string {
-  const str = e.stack
-  if (!str) return ""
-  const m = str.match(/(?<trace>(at\s+.+[\n\r\s]*)+)$/)
-  if (!m) return ""
-  return m.groups?.["trace"] ?? ""
 }
 
 // JSON.stringifyだと長すぎるデータも簡潔に表現する
