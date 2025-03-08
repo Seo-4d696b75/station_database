@@ -54,7 +54,7 @@ const lineCodes: JSONSchemaType<number[]> = {
 
 const postalCode: JSONSchemaType<string> = {
   type: "string",
-  pattern: "[0-9]{3}-[0-9]{4}",
+  pattern: "^[0-9]{3}-[0-9]{4}$",
   title: "駅の所在地を表す郵便番号",
   description: "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します.",
   examples: ["040-0063", "960-8031"],

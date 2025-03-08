@@ -82,7 +82,7 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
     color: {
       type: "string",
       nullable: true,
-      pattern: "#[0-9A-F]{6}",
+      pattern: "^#[0-9A-F]{6}$",
       title: "路線カラー",
       description: "RGBチャネル16進数",
       examples: ["#F68B1E"],
@@ -161,7 +161,7 @@ export const csvLine: JSONSchemaType<CSVLine> = {
     color: {
       type: "string",
       nullable: true,
-      pattern: "#[0-9A-F]{6}"
+      pattern: "^#[0-9A-F]{6}$"
     },
     symbol: {
       type: "string",
