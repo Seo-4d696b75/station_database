@@ -11,7 +11,7 @@ import { csvPrefecture } from "./model/prefecture"
 import { StationRegister, csvRegister } from "./model/register"
 import { csvStation, jsonStationList, normalizeStation } from "./model/station"
 import { jsonKdTree, jsonKdTreeSegment } from "./model/tree"
-import { eachAssert, withAssert } from "./validate/assert"
+import { assertEach, withAssert } from "./validate/assert"
 import { validateGeoPolyline, validateGeoVoronoi } from "./validate/geo"
 import { Line, assertLineMatched, assertLineSetMatched, validateLine } from "./validate/line"
 import { assertObjectSetPartialMatched } from "./validate/set"
@@ -40,7 +40,7 @@ describe(`${dataset}データセット`, () => {
     test("line.csv", () => {
       const file = `${dir}/line.csv`
       const nameSet = new Set<string>()
-      readCsvSafe(file, csvLine).forEach(eachAssert("root", (csv, assert) => {
+      assertEach(readCsvSafe(file, csvLine), "root", (csv, assert) => {
         const line: Line = {
           ...csv,
           extra: !!csv.extra,
@@ -59,7 +59,7 @@ describe(`${dataset}データセット`, () => {
         // nameの重複なし
         assert(!nameSet.has(line.name), "駅名の重複")
         nameSet.add(line.name)
-      }))
+      })
     })
     test("station.csv", () => {
       const file = `${dir}/station.csv`
@@ -71,7 +71,7 @@ describe(`${dataset}データセット`, () => {
       const prefectureCnt: number[] = Array(48).fill(0)
       const duplicatedName = new Map<string, Station[]>()
 
-      list.forEach(eachAssert("root", (csv, assert) => {
+      assertEach(list, "root", (csv, assert) => {
         const s: Station = {
           ...csv,
           extra: !!csv.extra,
@@ -107,14 +107,18 @@ describe(`${dataset}データセット`, () => {
             ...duplicatedName.get(s.original_name) ?? []
           ])
         }
-      }))
+      })
 
       // 都道府県ごとの駅数を確認
-      readCsvSafe("src/check/prefecture.csv", csvPrefecture).forEach(eachAssert("prefecture.csv root", (p, assert) => {
-        const actual = prefectureCnt[p.code]
-        const expected = p.size
-        assert(actual === expected, `${p.name} > 実装駅数が不一致 actual:${actual} expected:${expected}`)
-      }))
+      assertEach(
+        readCsvSafe("src/check/prefecture.csv", csvPrefecture),
+        "prefecture.csv root",
+        (p, assert) => {
+          const actual = prefectureCnt[p.code]
+          const expected = p.size
+          assert(actual === expected, `${p.name} > 実装駅数が不一致 actual:${actual} expected:${expected}`)
+        },
+      )
 
       // 駅名重複の確認
       duplicatedName.forEach((stations, original) => {
@@ -137,36 +141,29 @@ describe(`${dataset}データセット`, () => {
 
     test("register.csv", () => {
       const file = `${dir}/register.csv`
-      readCsvSafe(file, csvRegister).forEach(eachAssert("root", (r, assert) => {
+      assertEach(readCsvSafe(file, csvRegister), "root", (r, assert) => {
         assert(stationCodeMap.has(r.station_code), "駅コードが見つからない")
         assert(lineCodemap.has(r.line_code), "路線コードが見つからない")
         stationRegister.push(r)
-      }))
+      })
     })
 
     test("line.json", () => {
       const file = `${dir}/line.json`
-      const list = readJsonSafe(file, jsonLineList).map(eachAssert("root", (json, assert) => {
-        const line = normalizeLine(json)
-
+      const list = readJsonSafe(file, jsonLineList).map(json => normalizeLine(json))
+      assertEach(list, "root", (line, assert) => {
         // 各路線の検査
         validateLine(line, assert, extra)
-
-        return line
-      }))
+      })
       // 同一路線が存在するか
       assertLineSetMatched(list, lineCodemap)
     })
     test("station.json", () => {
       const file = `${dir}/station.json`
-      const list = readJsonSafe(file, jsonStationList).map(eachAssert("root", (json, assert) => {
-        const s = normalizeStation(json)
-
-        // 各駅の検査
-        validateStation(s, assert, extra)
-
+      const stations = readJsonSafe(file, jsonStationList)
+      assertEach(stations, "root", (json, assert) => {
         // 登録路線の確認
-        const register = stationRegister.filter(r => r.station_code === s.code).map(r => r.line_code)
+        const register = stationRegister.filter(r => r.station_code === json.code).map(r => r.line_code)
         assert(register.length === json.lines.length, "register.csvの登録路線数と異なる")
         json.lines.forEach(code => {
           assert(lineCodemap.has(code), "路線コードが見つからない" + code)
@@ -178,20 +175,25 @@ describe(`${dataset}データセット`, () => {
         }
         // ボロノイ範囲のGeoJSON
         validateGeoVoronoi(json.voronoi)
-        return s
-      }))
+      })
+
+      const list = stations.map(s => normalizeStation(s))
+      assertEach(list, "root", (s, assert) => {
+        // 各駅の検査
+        validateStation(s, assert, extra)
+      })
       // 同一駅が存在するか
       assertStationSetMatched(list, stationCodeMap)
     })
     test("delaunay.json", () => {
       const file = `${dir}/delaunay.json`
       const list = readJsonSafe(file, jsonDelaunayList)
-      list.forEach(eachAssert("root", s => {
-        s.next.forEach(eachAssert("next", (code, assert) => {
+      assertEach(list, "root", (s, assert) => {
+        assertEach(s.next, "next", (code, assert) => {
           assert(code !== s.code, "自身の駅コードは隣接点に含まれない code:" + code)
           assert(stationCodeMap.has(code), "路線コードが見つからない" + code)
-        }))
-      }))
+        })
+      })
       assertObjectSetPartialMatched(list, stationCodeMap, ["code", "name", "lat", "lng"])
     })
     describe("line/*.json", () => {
@@ -206,7 +208,7 @@ describe(`${dataset}データセット`, () => {
         readCsvSafe("src/check/line.csv", csvLineStationSize).forEach(e => {
           lineStationSize.set(e.name, e.size)
         })
-        Array.from(lineCodemap.keys()).forEach(eachAssert(`lineMap.keys`, (code, assert) => {
+        assertEach(lineCodemap.keys(), "lineMap.keys", (code, assert) => {
           const file = `${dir}/line/${code}.json`
           assert(existsSync(file), "路線ファイルが見つからない file:" + file)
           const json = readJsonSafe(file, jsonLineDetail)
@@ -220,7 +222,7 @@ describe(`${dataset}データセット`, () => {
           assert(registrations.length === json.station_size, "駅リストのサイズがregister.csvと異なる")
           const set = new Set<number>()
           let implSize = 0
-          json.station_list.forEach(eachAssert("station_list", (s, assert, idx) => {
+          assertEach(json.station_list, "station_list", (s, assert, idx) => {
             assert(!set.has(s.code), "駅が重複")
             set.add(s.code)
             const station = normalizeStation(s)
@@ -246,7 +248,7 @@ describe(`${dataset}データセット`, () => {
                 implSize++
               }
             })
-          }))
+          })
 
           // 駅メモ実装路線の場合は登録駅数が別途定義されている
           assert(line.extra || lineStationSize.has(line.name), "路線の登録駅数（駅メモ実装）が見つからない")
@@ -255,7 +257,7 @@ describe(`${dataset}データセット`, () => {
           const expected = lineStationSize.get(line.name) ?? 0
           assert.equals(implSize, expected, "路線の登録駅数（駅メモ）が異なる")
 
-        }))
+        })
       })
     })
 
@@ -270,7 +272,7 @@ describe(`${dataset}データセット`, () => {
       })
 
       test("各ファイルの確認", () => {
-        Array.from(lineCodemap.values()).forEach(eachAssert("lineMap.keys", (line, assert) => {
+        assertEach(lineCodemap.values(), "lineMap.keys", (line, assert) => {
           if (polylineIgnore.includes(line.name)) {
             return
           }
@@ -278,7 +280,7 @@ describe(`${dataset}データセット`, () => {
           assert(existsSync(file), "ポリラインファイルが見つからない file:" + file)
           const json = readJsonSafe(file, jsonPolyline)
           validateGeoPolyline(json)
-        }))
+        })
       })
     })
 
@@ -299,25 +301,25 @@ describe(`${dataset}データセット`, () => {
             const idx = files.indexOf(rootFile)
             assert(idx >= 0, "root.jsonが見つからない")
             files.splice(idx, 1)
-            files.forEach(eachAssert("files", (file, assert) => {
+            assertEach(files, "files", (file, assert) => {
               const m = file.match(/\/segment[0-9]+[.]json$/)
               assert(m, "segmentファイル名が不正 file:" + file)
-            }))
+            })
           })
         })
         test("各ファイルの確認", () => {
           const list: Station[] = []
           const segmentMap = new Map<string, number>()
-          files.forEach(eachAssert("files", (file, assert) => {
+          assertEach(files, "files", (file, assert) => {
             const segment = readJsonSafe(file, jsonKdTreeSegment)
             assert(!segmentMap.has(segment.name), "segment-name重複している")
             segmentMap.set(segment.name, segment.root)
-            segment.node_list.forEach(eachAssert("node_list", (node, assert) => {
+            assertEach(segment.node_list, "node_list", (node, assert) => {
               assert(!node.segment, "segmentの分割はrootのみ")
               list.push(normalizeStation(node))
-            }))
+            })
             validateTreeSegment(segment, assert)
-          }))
+          })
           withAssert("root", rootFile, assert => {
             const root = readJsonSafe(rootFile, jsonKdTreeSegment)
             assert.equals(root.name, "root")
@@ -327,12 +329,12 @@ describe(`${dataset}データセット`, () => {
             validateTreeSegment(root, assert)
             const segments = root.node_list.filter(node => node.segment)
             assert.equals(segments.length, segmentMap.size, "segmentサイズが一致しない")
-            segments.forEach(eachAssert("segments", (node, assert) => {
+            assertEach(segments, "segments", (node, assert) => {
               const name = node.segment ?? ""
               assert(segmentMap.has(name), "segmentが見つからない")
               const code = segmentMap.get(name)
               assert.equals(code, node.code, "segmentのrootが一致しない")
-            }))
+            })
           })
           assertStationSetMatched(list, stationCodeMap)
         })

@@ -5,7 +5,7 @@ export interface Assert {
 
 type Primitive = string | number | boolean | null | undefined
 
-export function withAssert<R = void>(where: string, value: any, testCase: (assert: Assert) => R): R {
+export function withAssert<R>(where: string, value: any, testCase: (assert: Assert) => R): R {
   const assert: Assert = Object.assign(
     (isValid: any, error?: string) => {
       if (isValid === false || isValid === null || isValid === undefined) {
@@ -56,12 +56,33 @@ export function withAssert<R = void>(where: string, value: any, testCase: (asser
   }
 }
 
-export function eachAssert<T, R = void>(listName: string, testCase: (element: T, assert: Assert, idx: number) => R): ((element: T, idx: number) => R) {
-  return (element, idx) => withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx))
+export function assertEach<T, R>(
+  iterable: { [Symbol.iterator](): Iterator<T> },
+  listName: string,
+  testCase: (element: T, assert: Assert, idx: number) => R,
+): R[] {
+  let idx = 0
+  const result: R[] = []
+  for (const element of iterable) {
+    result.push(withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx)))
+    idx++
+  }
+  return result
 }
 
-export function assertEach<T>(list: T[], listName: string, testCase: (element: T, assert: Assert, idx: number) => void) {
-  list.forEach((element, idx) => withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx)))
+export async function assertEachAsync<T, R>(
+  iterable: { [Symbol.iterator](): Iterator<T> },
+  listName: string,
+  testCase: (element: T, assert: Assert, idx: number) => Promise<R>,
+): Promise<R[]> {
+  let idx = 0
+  let result: Promise<R[]> = Promise.resolve([])
+  for (const element of iterable) {
+    const promise = withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx))
+    idx++
+    result = result.then(list => promise.then(r => [...list, r]))
+  }
+  return result
 }
 
 class JestAssertionError extends Error {

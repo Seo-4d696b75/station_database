@@ -1,4 +1,4 @@
-import { Assert, eachAssert, withAssert } from "./assert"
+import { Assert, assertEach, withAssert } from "./assert"
 
 type ObjectType<Keys extends string> = {
   [key in Keys]: any
@@ -7,12 +7,12 @@ type ObjectType<Keys extends string> = {
 export function assertObjectSetPartialMatched<Key extends string>(target: ObjectType<Key | "code">[], reference: Map<number, ObjectType<Key | "code">>, keys: readonly Key[]) {
   expect(target.length).toBe(reference.size)
   const codeSet = new Set<number>()
-  target.forEach(eachAssert("target", (actual, assert) => {
+  assertEach(target, "target", (actual, assert) => {
     assert(!codeSet.has(actual.code), "コードが重複している")
     codeSet.add(actual.code)
     const expected = reference.get(actual.code)
     assertObjectPartialMatched(actual, expected, keys, assert)
-  }))
+  })
 }
 
 export function assertObjectPartialMatched<Key extends string>(target: ObjectType<Key | "code">, reference: ObjectType<Key | "code"> | undefined, keys: readonly Key[], assert: Assert) {

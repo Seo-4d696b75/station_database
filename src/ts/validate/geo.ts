@@ -1,26 +1,26 @@
 import { JSONPolylineGeo, JSONVoronoiGeo } from "../model/geo";
-import { Assert, eachAssert, withAssert } from "./assert";
+import { Assert, assertEach, withAssert } from "./assert";
 
-export function validateGeoVoronoi(obj: JSONVoronoiGeo): RectBounds {
+export function validateGeoVoronoi(obj: JSONVoronoiGeo) {
   const geometry = obj.geometry
   if (geometry.type === "Polygon") {
-    return withAssert("Feature(Polygon)", geometry, assert => {
+    withAssert("Feature(Polygon)", geometry, assert => {
       const list = geometry.coordinates[0]
       assert(list.length >= 4, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert.equals(start[0], end[0], "始点と終点の座標が違う[0]")
       assert.equals(start[1], end[1], "始点と終点の座標が違う[1]")
-      return validateGeoCoordinates("coordinates[0]", list)
+      validateGeoCoordinates("coordinates[0]", list)
     })
   } else {
-    return withAssert("Feature(LineString)", geometry, assert => {
+    withAssert("Feature(LineString)", geometry, assert => {
       const list = geometry.coordinates
       assert(list.length >= 2, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert(`${start[0]}/${start[1]}` !== `${end[0]}/${end[1]}`, "始点と終点の座標が重複している")
-      return validateGeoCoordinates("coordinates", list)
+      validateGeoCoordinates("coordinates", list)
     })
   }
 }
@@ -28,13 +28,13 @@ export function validateGeoVoronoi(obj: JSONVoronoiGeo): RectBounds {
 function validateGeoCoordinates(name: string, list: [number, number][]): RectBounds {
   const rect = initRect()
   let previous = ""
-  list.forEach(eachAssert(name, (pos, assert) => {
+  assertEach(list, name, (pos, assert) => {
     const [lng, lat] = pos
     const current = `${lat}/${lng}`
     assert(previous !== current, "直前の座標と重複している")
     previous = current
     addPoint(rect, lat, lng)
-  }))
+  })
   return rect
 }
 
@@ -89,7 +89,7 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
         joinMap.set(tag, str)
       }
     }
-    obj.features.forEach(eachAssert("FeatureCollection", (feature, assert) => {
+    assertEach(obj.features, "FeatureCollection", (feature, assert) => {
       const list = feature.geometry.coordinates
       const start = list[0]
       const end = list[list.length - 1]
@@ -106,7 +106,7 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
       rect = unionRect(rect, r)
       checkJoinCoordinate(feature.properties.start, start, assert)
       checkJoinCoordinate(feature.properties.end, end, assert)
-    }))
+    })
     // rect範囲の確認
     assert.equals(rect.north, obj.properties.north)
     assert.equals(rect.south, obj.properties.south)
