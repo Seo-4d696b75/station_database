@@ -23,7 +23,24 @@ export function withAssert<R = void>(where: string, value: any, testCase: (asser
   }
   )
   try {
-    return testCase(assert)
+    const result = testCase(assert)
+    if (result instanceof Promise) {
+      return result.catch(e => {
+        const dataMessage =
+          "Where: " + where + "\n" +
+          "Value: " + representValue(value)
+        if (e instanceof JestAssertionError) {
+          e.appendDataStack(dataMessage)
+          return Promise.reject(e)
+        } else {
+          const err = new JestAssertionError("message", withAssert, e)
+          err.appendDataStack(dataMessage)
+          return Promise.reject(err)
+        }
+      }) as (R & Promise<any>)
+    } else {
+      return result
+    }
   } catch (e) {
     const dataMessage =
       "Where: " + where + "\n" +
@@ -41,6 +58,10 @@ export function withAssert<R = void>(where: string, value: any, testCase: (asser
 
 export function eachAssert<T, R = void>(listName: string, testCase: (element: T, assert: Assert, idx: number) => R): ((element: T, idx: number) => R) {
   return (element, idx) => withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx))
+}
+
+export function assertEach<T>(list: T[], listName: string, testCase: (element: T, assert: Assert, idx: number) => void) {
+  list.forEach((element, idx) => withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx)))
 }
 
 class JestAssertionError extends Error {
@@ -88,7 +109,7 @@ class JestAssertionError extends Error {
   }
 
   appendDataStack(dataMessage: string) {
-    this.data = [dataMessage, ...this.data]
+    this.data = [...this.data, dataMessage]
     this.message = this.title + "\n\n" + this.data.join("\n\n")
     this.stack = "JestAssertionError: "
       + this.message
