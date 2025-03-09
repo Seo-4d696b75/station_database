@@ -1,17 +1,40 @@
 import Ajv, { JSONSchemaType } from "ajv";
 import * as csv from "csv-parse/sync";
 import * as fs from "fs";
-
+import { defaultPrimitiveFormatter, formatJson, JSONQuery } from "./json";
 const ajv = new Ajv()
 
 export function readJsonSafe<T>(path: string, schema: JSONSchemaType<T>): T {
   const str = fs.readFileSync(path).toString()
-  const validate = ajv.compile(schema)
+  const validator = ajv.compile(schema)
   const data = JSON.parse(str)
-  if (validate(data)) {
+  if (validator(data)) {
     return data
   }
-  throw validate.errors
+  throw validator.errors
+}
+
+export async function writeJsonSafe<T>(
+  path: string,
+  schema: JSONSchemaType<T>,
+  data: T,
+  flat: JSONQuery[],
+) {
+  const str = formatJson(
+    data,
+    schema,
+    {
+      space: 2,
+      indent: (context) => !flat.includes(context.location),
+      format: (context, value) => {
+        if (typeof value === "number" && (context.current === "lat" || context.current === "lng")) {
+          return value.toFixed(6)
+        }
+        return defaultPrimitiveFormatter(context, value)
+      },
+    },
+  )
+  await fs.promises.writeFile(path, str)
 }
 
 const nullValue = "NULL"
