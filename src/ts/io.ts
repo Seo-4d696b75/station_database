@@ -1,5 +1,6 @@
 import Ajv, { JSONSchemaType } from "ajv";
 import * as csv from "csv-parse/sync";
+import { createObjectCsvWriter } from 'csv-writer';
 import * as fs from "fs";
 import { defaultPrimitiveFormatter, formatJson, JSONQuery } from "./json";
 const ajv = new Ajv()
@@ -43,7 +44,14 @@ const falseValue = "0"
 
 type CSVFieldType = "string" | "integer" | "number" | "boolean"
 
-export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
+interface CSVColumn {
+  column: string
+  type: CSVFieldType
+  nullable: boolean
+  required: boolean
+}
+
+function toCSVColumn<T>(schema: JSONSchemaType<T>): CSVColumn[] {
   if (schema.type !== "object") {
     throw Error("CSVスキーマは type:'object'が必要")
   }
@@ -55,10 +63,8 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   if (!requiredFields || !Array.isArray(requiredFields)) {
     throw Error("CSVスキーマは required: string[] が必要です")
   }
-  const str = fs.readFileSync(path).toString()
 
-  // 値の変換
-  const fieldSchema = new Map(Object.entries(fieldSchemaEntries).map(pair => {
+  return Object.entries(fieldSchemaEntries).map(pair => {
     const [key, schema] = pair as [string, any]
     const type = schema.type
     if (typeof type !== "string") {
@@ -68,14 +74,19 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
       throw Error(`フィールド'${key}'の型定義 type: '${type}' が不正です`)
     }
     const nullable = !!schema.nullable
-    return [
-      key,
-      {
-        type: type as CSVFieldType,
-        nullable: nullable
-      },
-    ]
-  }))
+    return {
+      column: key,
+      type: type as CSVFieldType,
+      nullable: nullable,
+      required: requiredFields.includes(key),
+    }
+  })
+}
+
+export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
+  const fieldSchema = new Map(toCSVColumn(schema).map(column => [column.column, column]))
+
+  // 値の変換
   const castValue = (value: string, context: csv.CastingContext) => {
     const schema = fieldSchema.get(context.column as string)
     if (!schema) {
@@ -113,15 +124,19 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
 
   // ヘッダーの確認
   const validateHeader = (header: string[]) => {
-    for (const column of fieldSchema.keys()) {
-      if (!header.includes(column) && requiredFields.includes(column)) {
-        throw Error(`ヘッダーに'${column}'が見つかりません`)
+    for (const schema of fieldSchema.values()) {
+      // 必須フィールドがヘッダーにない場合
+      // required でない値に対応するヘッダ・列の欠損は許容する（その場合すべてのレコードの値は undefined となる）
+      if (!header.includes(schema.column) && schema.required) {
+        throw Error(`ヘッダーに'${schema.column}'が見つかりません`)
       }
     }
   }
 
   // 各行のバリデーション
   const validateRecord = ajv.compile(schema)
+
+  const str = fs.readFileSync(path).toString()
 
   return csv.parse(
     str,
@@ -151,4 +166,68 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
       }
     },
   ) as T[]
+}
+
+
+export async function writeCsvSafe<T>(path: string, schema: JSONSchemaType<T>, values: T[]) {
+  const fieldSchema = toCSVColumn(schema)
+
+  const header = fieldSchema.map(field => {
+    return {
+      id: field.column,
+      title: field.column,
+    }
+  })
+
+  const toString = (value: any, line: number, schema: CSVColumn) => {
+    const { column, type, nullable } = schema
+    // null確認
+    if (value === null) {
+      if (!nullable) {
+        throw Error(`null は許可されていません column:${column} line:${line}`)
+      }
+      return nullValue
+    }
+    switch (type) {
+      case "string":
+        if (typeof value !== 'string') {
+          throw Error(`string型で出力できません：${value} column:${column} line:${line}`)
+        }
+        return value
+      case "integer":
+        if (typeof value !== 'number') {
+          throw Error(`integer型で出力できません：${value} column:${column} line:${line}`)
+        }
+        return Math.round(value).toString()
+      case "number":
+        if (typeof value !== 'number') {
+          throw Error(`number型で出力できません：${value} column:${column} line:${line}`)
+        }
+        // 座標値は小数点以下６桁までの有効数字
+        return (column === "lat" || column === "lng") ? value.toFixed(6) : value.toString()
+      case "boolean":
+        if (value === true) {
+          return trueValue
+        } else if (value === false) {
+          return falseValue
+        } else {
+          throw Error(`boolean型に変換できません：${value} column:${column} line:${line}`)
+        }
+    }
+  }
+
+  const csvWriter = createObjectCsvWriter({
+    path: path,
+    header: header,
+  })
+
+  const records = values.map((value, index) => {
+    let dst: any = {}
+    for (const field of fieldSchema) {
+      dst[field.column] = toString((value as any)[field.column], index + 1, field)
+    }
+    return dst
+  })
+
+  await csvWriter.writeRecords(records)
 }
