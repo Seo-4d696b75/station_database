@@ -1,4 +1,20 @@
 import { JSONSchemaType } from "ajv"
+import { stationLineName } from "./common"
+
+const lat: JSONSchemaType<number> = {
+  type: "number",
+  minimum: 20,
+  maximum: 60,
+  title: "緯度"
+}
+
+const lng: JSONSchemaType<number> = {
+  type: "number",
+  minimum: 112,
+  maximum: 160,
+  title: "経度"
+}
+
 
 const coordinate: JSONSchemaType<[number, number]> = {
   type: "array",
@@ -6,18 +22,8 @@ const coordinate: JSONSchemaType<[number, number]> = {
   maxItems: 2,
   items: [
     // lng,latの順序
-    {
-      type: "number",
-      minimum: 112,
-      maximum: 160,
-      title: "経度",
-    },
-    {
-      type: "number",
-      minimum: 20,
-      maximum: 60,
-      title: "緯度"
-    },
+    lng,
+    lat,
   ],
   title: "座標点",
   description: "緯度・経度の組み合わせで座標を表します. リストの長さは２で固定で、経度・緯度の順番です.",
@@ -249,4 +255,65 @@ export const jsonPolyline: JSONSchemaType<JSONPolylineGeo> = {
     "properties",
   ],
   additionalProperties: false,
+}
+
+// TODO 独自フォーマット廃止の検討
+export interface JSONPolylineSrc {
+  name: string
+  point_list: JSONPolylineSegment[]
+}
+
+export interface JSONPolylineSegment {
+  start: string
+  end: string
+  points: JSONPolylinePoint[]
+  extra?: boolean
+  closed?: boolean
+}
+
+export interface JSONPolylinePoint {
+  lng: number
+  lat: number
+}
+
+export const jsonPolylineSrc: JSONSchemaType<JSONPolylineSrc> = {
+  type: "object",
+  properties: {
+    name: stationLineName,
+    point_list: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          start: { type: "string", minLength: 1 },
+          end: { type: "string", minLength: 1 },
+          points: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                lng: lng,
+                lat: lat,
+              },
+              required: ["lng", "lat"],
+              additionalProperties: false,
+            },
+          },
+          extra: {
+            type: "boolean",
+            nullable: true,
+          },
+          closed: {
+            type: "boolean",
+            nullable: true,
+          },
+        },
+        required: ["start", "end", "points"],
+        additionalProperties: false,
+      },
+    },
+  },
+  required: ["name", "point_list",],
+  // origin など不用な属性を許可
+  additionalProperties: true,
 }
