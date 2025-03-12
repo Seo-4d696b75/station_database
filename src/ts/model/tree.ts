@@ -1,6 +1,7 @@
 import { JSONSchemaType } from "ajv"
-import { stationLineName } from "./common"
-import { JSONStation, jsonStation, stationCode, stationLat, stationLng } from "./station"
+import { kanaName, originalStationName, stationLineId, stationLineName } from "./common"
+import { Dataset } from "./dataset"
+import { JSONStation, jsonStation, stationClosed, stationCode, stationLat, stationLng } from "./station"
 
 export interface JSONKdTreeNode {
   code: number
@@ -68,34 +69,48 @@ export interface JSONKdTreeSegmentNode extends JSONKdTreeNode {
   segment?: string
 }
 
-export type JSONStationNode = JSONStation & JSONKdTreeSegmentNode
+export type JSONStationNode<D extends Dataset> = JSONStation<D> & JSONKdTreeSegmentNode
 
-const jsonStationNode: JSONSchemaType<JSONStationNode> = {
-  type: "object",
-  title: "探索部分木の頂点",
-  description: "駅の座標点を頂点として扱います. left, rightで下に続く子頂点を表します.",
-  properties: {
-    ...jsonStation.properties,
-    ...jsonKdTreeNode.properties,
-    segment: {
-      type: "string",
-      minLength: 1,
-      nullable: true,
-      title: "部分木の名前",
-      description: "segmentが定義されている場合、指定された名前の部分木がこの頂点の下に続きます.",
+const jsonStationNode = (dataset: Dataset): JSONSchemaType<JSONStationNode<typeof dataset>> => {
+  const s = jsonStation(dataset)
+  return {
+    type: "object",
+    title: "探索部分木の頂点",
+    description: "駅の座標点を頂点として扱います. left, rightで下に続く子頂点を表します.",
+    properties: {
+      // 順序に注意
+      code: stationCode,
+      id: stationLineId,
+      name: stationLineName,
+      original_name: originalStationName,
+      name_kana: kanaName,
+      closed: stationClosed,
+      lat: stationLat,
+      lng: stationLng,
+      // left, right
+      ...jsonKdTreeNode.properties,
+      segment: {
+        type: "string",
+        minLength: 1,
+        nullable: true,
+        title: "部分木の名前",
+        description: "segmentが定義されている場合、指定された名前の部分木がこの頂点の下に続きます.",
+      },
+      // 残り
+      ...s.properties,
     },
-  },
-  required: jsonStation.required,
-  additionalProperties: false,
+    required: s.required,
+    additionalProperties: false,
+  }
 }
 
-export interface JSONKdTreeSegment {
+export interface JSONKdTreeSegment<T extends JSONKdTreeSegmentNode = JSONKdTreeSegmentNode> {
   name: string
   root: number
-  node_list: JSONStationNode[]
+  node_list: T[]
 }
 
-export const jsonKdTreeSegment: JSONSchemaType<JSONKdTreeSegment> = {
+export const jsonKdTreeSegment = (dataset: Dataset): JSONSchemaType<JSONKdTreeSegment<JSONStationNode<typeof dataset>>> => ({
   type: "object",
   title: "探索部分木",
   description: "駅を座標点から探索するためのデータ構造(kd-tree)の部分木",
@@ -114,11 +129,11 @@ export const jsonKdTreeSegment: JSONSchemaType<JSONKdTreeSegment> = {
     node_list: {
       type: "array",
       minItems: 1,
-      items: jsonStationNode,
+      items: jsonStationNode(dataset),
       title: "頂点リスト",
       description: "部分木を構成する頂点（駅）のリスト",
     }
   },
   required: ["name", "root", "node_list"],
   additionalProperties: false,
-}
+})  

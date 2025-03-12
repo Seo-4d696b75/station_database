@@ -1,9 +1,9 @@
 import { JSONSchemaType } from "ajv"
 import { Station } from "../validate/station"
-import { dateStringPattern, kanaName, stationLineExtra, stationLineId, stationLineName } from "./common"
-import { JSONVoronoiGeo, jsonVoronoi } from "./geo"
+import { dateStringPattern, kanaName, originalStationName, stationAttr, stationLineExtra, stationLineId, stationLineName } from "./common"
+import { Dataset, hasExtra } from "./dataset"
+import { jsonVoronoi, JSONVoronoiGeo } from "./geo"
 import { lineCode } from "./line"
-
 export const stationCode: JSONSchemaType<number> = {
   type: "integer",
   minimum: 100000,
@@ -31,7 +31,7 @@ export const stationLng: JSONSchemaType<number> = {
   examples: [140.726413, 140.459680]
 }
 
-const prefectureCode: JSONSchemaType<number> = {
+export const prefectureCode: JSONSchemaType<number> = {
   type: "integer",
   minimum: 1,
   maximum: 47,
@@ -89,14 +89,14 @@ const closedDate = {
   examples: ["2022-03-12"],
 }
 
-const closed = {
+export const stationClosed = {
   type: "boolean" as "boolean",
   nullable: true as true,
   title: "廃駅フラグ",
   description: "true: 廃駅, false: 現役駅 'main'データセットの一部では省略されます. 'undefined'の場合はfalseとして扱います."
 }
 
-export interface JSONStation {
+export type JSONStation<D extends Dataset> = {
   code: number
   id: string
   name: string
@@ -107,26 +107,27 @@ export interface JSONStation {
   lng: number
   prefecture: number
   lines: number[],
-  attr?: string
   postal_code: string
   address: string
   open_date?: string
   closed_date?: string
   voronoi: JSONVoronoiGeo
-  extra?: boolean
-}
+} & (D extends 'main' ? { attr: string } : { attr?: string, extra: boolean })
 
-export function normalizeStation(json: JSONStation): Station {
+export function normalizeStation(json: JSONStation<Dataset>): Station {
   return {
     ...json,
     open_date: json.open_date ?? null,
     closed_date: json.closed_date ?? null,
-    extra: !!json.extra,
+    extra: hasExtra(json) ? json.extra : false,
     attr: json.attr ?? null,
   }
 }
 
-export const jsonStation: JSONSchemaType<JSONStation> = {
+export const jsonStation = (dataset: Dataset): JSONSchemaType<JSONStation<typeof dataset>> =>
+  dataset === 'main' ? jsonStationMain : jsonStationExtra
+
+const jsonStationMain: JSONSchemaType<JSONStation<'main'>> = {
   title: "駅オブジェクト",
   description: "駅の情報",
   type: "object",
@@ -137,32 +138,60 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
     code: stationCode,
     id: stationLineId,
     name: stationLineName,
-    original_name: {
-      type: "string",
-      minLength: 1,
-      title: "オリジナルの駅名称",
-      description: "原則として各鉄道会社が示すままの駅名と同じ値です. nameとは異なり重複防止の接尾語を含みません.",
-      examples: [
-        "函館", "福島"
-      ]
-    },
+    original_name: originalStationName,
     name_kana: kanaName,
-    closed: closed,
+    closed: stationClosed,
+    lat: stationLat,
+    lng: stationLng,
+    prefecture: prefectureCode,
+    lines: lineCodes,
+    attr: stationAttr,
+    postal_code: postalCode,
+    address: stationAddress,
+    open_date: openDate,
+    closed_date: closedDate,
+    voronoi: jsonVoronoi,
+  },
+  required: [
+    "code",
+    "id",
+    "name",
+    "original_name",
+    "name_kana",
+    "closed",
+    "lat",
+    "lng",
+    "prefecture",
+    "lines",
+    "attr",
+    "postal_code",
+    "address",
+    "voronoi",
+  ],
+  additionalProperties: false,
+}
+
+const jsonStationExtra: JSONSchemaType<JSONStation<'extra'>> = {
+  title: "駅オブジェクト",
+  description: "駅の情報",
+  type: "object",
+  examples: [
+    { "code": 100409, "id": "7bfd6b", "name": "福島(福島)", "original_name": "福島", "name_kana": "ふくしま", "closed": false, "lat": 37.754123, "lng": 140.45968, "prefecture": 7, "lines": [1004, 11231, 11216, 99213, 99215], "attr": "heat", "postal_code": "960-8031", "address": "福島市栄町", "voronoi": { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [[[140.436325, 37.741446], [140.441067, 37.754985], [140.446198, 37.756742], [140.501679, 37.758667], [140.510809, 37.752683], [140.527108, 37.739585], [140.534984, 37.729765], [140.436325, 37.741446]]] }, "properties": {} } },
+  ],
+  properties: {
+    code: stationCode,
+    id: stationLineId,
+    name: stationLineName,
+    original_name: originalStationName,
+    name_kana: kanaName,
+    closed: stationClosed,
     lat: stationLat,
     lng: stationLng,
     prefecture: prefectureCode,
     lines: lineCodes,
     attr: {
-      type: "string",
+      ...stationAttr,
       nullable: true,
-      title: "駅の属性",
-      description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は'undefined'.",
-      enum: [
-        "eco",
-        "heat",
-        "cool",
-        "unknown",
-      ]
     },
     postal_code: postalCode,
     address: stationAddress,
@@ -185,19 +214,20 @@ export const jsonStation: JSONSchemaType<JSONStation> = {
     "postal_code",
     "address",
     "voronoi",
+    "extra",
   ],
   additionalProperties: false,
 }
 
-export const jsonStationList: JSONSchemaType<JSONStation[]> = {
+export const jsonStationList = (dataset: Dataset): JSONSchemaType<JSONStation<typeof dataset>[]> => ({
   type: "array",
-  items: jsonStation,
+  items: jsonStation(dataset),
   title: "駅リスト",
   description: "すべての駅を含みます"
-}
+})
 
 
-export interface CSVStation {
+export type CSVStation<D extends Dataset> = {
   code: number
   id: string
   name: string
@@ -211,11 +241,12 @@ export interface CSVStation {
   closed: boolean
   open_date: string | null
   closed_date: string | null
-  extra?: boolean
-  attr: string | null
-}
+} & (D extends 'main' ? { attr: string } : { attr: string | null, extra: boolean })
 
-export const csvStation: JSONSchemaType<CSVStation> = {
+export const csvStation = (dataset: Dataset): JSONSchemaType<CSVStation<typeof dataset>> =>
+  dataset === 'main' ? csvStationMain : csvStationExtra
+
+const csvStationMain: JSONSchemaType<CSVStation<'main'>> = {
   type: "object",
   properties: {
     code: stationCode,
@@ -228,20 +259,54 @@ export const csvStation: JSONSchemaType<CSVStation> = {
     prefecture: prefectureCode,
     postal_code: postalCode,
     address: stationAddress,
-    closed: closed,
+    closed: stationClosed,
+    open_date: openDate,
+    closed_date: closedDate,
+    attr: stationAttr,
+  },
+  required: [
+    "code",
+    "id",
+    "name",
+    "original_name",
+    "name_kana",
+    "lat",
+    "lng",
+    "prefecture",
+    "postal_code",
+    "address",
+    "closed",
+    "open_date",
+    "closed_date",
+    "attr",
+  ],
+  additionalProperties: false,
+}
+
+const csvStationExtra: JSONSchemaType<CSVStation<'extra'>> = {
+  type: "object",
+  properties: {
+    code: stationCode,
+    id: stationLineId,
+    name: stationLineName,
+    original_name: stationLineName,
+    name_kana: kanaName,
+    lat: stationLat,
+    lng: stationLng,
+    prefecture: prefectureCode,
+    postal_code: postalCode,
+    address: stationAddress,
+    closed: stationClosed,
     open_date: openDate,
     closed_date: closedDate,
     extra: stationLineExtra,
     attr: {
-      type: "string",
+      ...stationAttr,
       nullable: true,
       enum: [
-        "eco",
-        "heat",
-        "cool",
-        "unknown",
+        ...stationAttr.enum,
         null,
-      ]
+      ],
     },
   },
   required: [
@@ -259,6 +324,7 @@ export const csvStation: JSONSchemaType<CSVStation> = {
     "open_date",
     "closed_date",
     "attr",
+    "extra",
   ],
   additionalProperties: false,
 }

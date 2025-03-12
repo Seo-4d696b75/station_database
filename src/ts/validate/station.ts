@@ -1,4 +1,5 @@
 import { readCsvSafe } from "../io"
+import { Dataset, hasExtra } from "../model/dataset"
 import { csvPrefecture } from "../model/prefecture"
 import { CSVStation, JSONStation } from "../model/station"
 import { Assert, assertEach } from "./assert"
@@ -26,12 +27,12 @@ export interface Station {
   attr: string | null
 }
 
-export function normalizeJSONStation(json: JSONStation): Station {
+export function normalizeJSONStation(json: JSONStation<Dataset>): Station {
   return {
     ...json,
     open_date: json.open_date ?? null,
     closed_date: json.closed_date ?? null,
-    extra: !!json.extra,
+    extra: hasExtra(json) ? json.extra : false,
     attr: json.attr ?? null,
   }
 }
@@ -39,11 +40,11 @@ export function normalizeJSONStation(json: JSONStation): Station {
 /**
  * 登録路線一覧 `line` は空リストで初期化
  */
-export function normalizeCSVStation(csv: CSVStation): Station {
+export function normalizeCSVStation(csv: CSVStation<Dataset>): Station {
   return {
     ...csv,
     lines: [],
-    extra: !!csv.extra,
+    extra: hasExtra(csv) ? csv.extra : false,
   }
 }
 
@@ -55,7 +56,7 @@ export function validateStations(stations: Station[], where: string, extra: bool
   const map = new Map<string, Station>()
   const coordinates = new Set<string>()
   const prefCount = new Array(48).fill(0)
-  const duplicatedNameMap = new Map<string, CSVStation[]>()
+  const duplicatedNameMap = new Map<string, Station[]>()
 
   assertEach(stations, where, (s, assert) => {
     assert(!ids.has(s.id), "idが重複")

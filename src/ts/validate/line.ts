@@ -1,3 +1,4 @@
+import { Dataset, hasExtra } from "../model/dataset"
 import { CSVLine, JSONLine } from "../model/line"
 import { Assert, assertEach } from "./assert"
 import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set"
@@ -20,7 +21,7 @@ export interface Line {
   extra: boolean
 }
 
-export function normalizeJSONLine(json: JSONLine): Line {
+export function normalizeJSONLine(json: JSONLine<Dataset>): Line {
   return {
     ...json,
     name_formal: json.name_formal ?? null,
@@ -28,14 +29,14 @@ export function normalizeJSONLine(json: JSONLine): Line {
     color: json.color ?? null,
     symbol: json.symbol ?? null,
     closed_date: json.closed_date ?? null,
-    extra: !!json.extra,
+    extra: hasExtra(json) ? json.extra : false,
   }
 }
 
-export function normalizeCSVLine(csv: CSVLine): Line {
+export function normalizeCSVLine(csv: CSVLine<Dataset>): Line {
   return {
     ...csv,
-    extra: !!csv.extra,
+    extra: hasExtra(csv) ? csv.extra : false,
   }
 }
 

@@ -120,7 +120,7 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
 }
 
 // TODO 独自フォーマット廃止の検討
-export function validatePolylineSrc(line: CSVLine, path: string) {
+export function validatePolylineSrc(line: CSVLine<'main'>, path: string) {
   const data = readJsonSafe(path, jsonPolylineSrc)
   withAssert(path, data, (assert) => {
     assert.equals(data.name, line.name, `路線ポリラインの路線名が異なります`)

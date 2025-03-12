@@ -26,7 +26,7 @@ if (!API_KEY) {
   throw new Error('GOOGLE_GEOCODING_API_KEY is not set in environment variables')
 }
 
-export async function fetchAddress(station: Readonly<CSVStation>): Promise<Pick<CSVStation, 'postal_code' | 'address'>> {
+export async function fetchAddress(station: Readonly<CSVStation<'extra'>>): Promise<Pick<CSVStation<'extra'>, 'postal_code' | 'address'>> {
   console.log(`駅の住所を取得中: ${station.name}`)
 
   try {

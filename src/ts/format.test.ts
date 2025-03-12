@@ -1,13 +1,14 @@
 import { existsSync } from "fs"
-import glob from "glob"
+import { globSync } from "glob"
 import { readCsvSafe, readJsonSafe } from "./io"
+import { hasExtra, parseDataset } from "./model/dataset"
 import { jsonDelaunayList } from "./model/delaunay"
 import { jsonPolyline } from "./model/geo"
 import { csvLine, jsonLineList } from "./model/line"
 import { jsonLineDetail } from "./model/lineDetail"
 import { csvLineStationSize } from "./model/lineStationSize"
 import { csvPolylineIgnore } from "./model/polylineIgnore"
-import { StationRegister, csvRegister } from "./model/register"
+import { CSVStationRegister, csvRegister } from "./model/register"
 import { csvStation, jsonStationList, normalizeStation } from "./model/station"
 import { jsonKdTree, jsonKdTreeSegment } from "./model/tree"
 import { assertEach, withAssert } from "./validate/assert"
@@ -17,16 +18,12 @@ import { assertObjectSetPartialMatched } from "./validate/set"
 import { Station, assertStationMatched, assertStationSetMatched, normalizeCSVStation, validateStations } from "./validate/station"
 import { validateTreeSegment } from "./validate/tree"
 
-const dataset = process.env.DATASET
-if (dataset !== "main" && dataset !== "extra") {
-  throw Error(`不明なデータセットの指定：${dataset}`)
-}
-
+const dataset = parseDataset(process.env.DATASET)
 const extra = dataset === "extra"
 
 const stationCodeMap = new Map<number, Station>()
 const lineCodemap = new Map<number, Line>()
-const stationRegister: StationRegister[] = []
+const stationRegister: CSVStationRegister<typeof dataset>[] = []
 
 describe(`${dataset}データセット`, () => {
 
@@ -37,7 +34,7 @@ describe(`${dataset}データセット`, () => {
 
     test("line.csv", () => {
       const file = `${dir}/line.csv`
-      const lines = readCsvSafe(file, csvLine).map(csv => normalizeCSVLine(csv))
+      const lines = readCsvSafe(file, csvLine(dataset)).map(csv => normalizeCSVLine(csv))
 
       validateLines(lines, "line.csv", extra)
       lines.forEach(line => {
@@ -46,7 +43,7 @@ describe(`${dataset}データセット`, () => {
     })
     test("station.csv", () => {
       const file = `${dir}/station.csv`
-      const stations = readCsvSafe(file, csvStation).map(csv => normalizeCSVStation(csv))
+      const stations = readCsvSafe(file, csvStation(dataset)).map(csv => normalizeCSVStation(csv))
 
       validateStations(stations, "station.csv", extra)
       stations.forEach(station => {
@@ -56,7 +53,7 @@ describe(`${dataset}データセット`, () => {
 
     test("register.csv", () => {
       const file = `${dir}/register.csv`
-      assertEach(readCsvSafe(file, csvRegister), "register.csv", (r, assert) => {
+      assertEach(readCsvSafe(file, csvRegister(dataset)), "register.csv", (r, assert) => {
         assert(stationCodeMap.has(r.station_code), "駅コードが見つからない")
         assert(lineCodemap.has(r.line_code), "路線コードが見つからない")
         stationRegister.push(r)
@@ -65,7 +62,7 @@ describe(`${dataset}データセット`, () => {
 
     test("line.json", () => {
       const file = `${dir}/line.json`
-      const list = readJsonSafe(file, jsonLineList).map(json => normalizeJSONLine(json))
+      const list = readJsonSafe(file, jsonLineList(dataset)).map(json => normalizeJSONLine(json))
 
       // 同一集合なら不用かも？
       validateLines(list, "line.json", extra)
@@ -74,7 +71,7 @@ describe(`${dataset}データセット`, () => {
     })
     test("station.json", () => {
       const file = `${dir}/station.json`
-      const stations = readJsonSafe(file, jsonStationList)
+      const stations = readJsonSafe(file, jsonStationList(dataset))
       assertEach(stations, "station.json", (json, assert) => {
         // 登録路線の確認
         const register = stationRegister.filter(r => r.station_code === json.code).map(r => r.line_code)
@@ -113,7 +110,7 @@ describe(`${dataset}データセット`, () => {
     })
     describe("line/*.json", () => {
       test("ファイルの有無確認", () => {
-        const files = glob.sync(`${dir}/line/*.json`)
+        const files = globSync(`${dir}/line/*.json`)
         // line/*.jsonのファイル数と路線数一致
         expect(files.length).toBe(lineCodemap.size)
       })
@@ -126,7 +123,7 @@ describe(`${dataset}データセット`, () => {
         assertEach(lineCodemap.keys(), "lines", (code, assert) => {
           const file = `${dir}/line/${code}.json`
           assert(existsSync(file), "路線ファイルが見つからない file:" + file)
-          const json = readJsonSafe(file, jsonLineDetail)
+          const json = readJsonSafe(file, jsonLineDetail(dataset))
           // 対応路線の確認
           const line = normalizeJSONLine(json)
           const csv = lineCodemap.get(line.code)
@@ -159,7 +156,7 @@ describe(`${dataset}データセット`, () => {
               // 注意： extraの意味の対象が異なる！
               // line/*.json .station_list[].extra: 駅自体
               // register.csv: 路線に対する駅登録
-              if (!registration.extra) {
+              if (!hasExtra(registration) || !registration.extra) {
                 implSize++
               }
             })
@@ -183,7 +180,7 @@ describe(`${dataset}データセット`, () => {
       const polylineIgnore = readCsvSafe("src/check/polyline_ignore.csv", csvPolylineIgnore).map(e => e.name)
 
       test("ファイルの有無確認", () => {
-        const files = glob.sync(`${dir}/polyline/*.json`)
+        const files = globSync(`${dir}/polyline/*.json`)
         expect(files.length).toBe(lineCodemap.size - polylineIgnore.length)
       })
 
@@ -210,7 +207,7 @@ describe(`${dataset}データセット`, () => {
         })
       })
       describe("segment", () => {
-        const files = glob.sync(`${dir}/tree/*.json`)
+        const files = globSync(`${dir}/tree/*.json`)
         const rootFile = `${dir}/tree/root.json`
         test("ファイルの確認", () => {
           withAssert("tree/*.json", files, assert => {
@@ -227,7 +224,7 @@ describe(`${dataset}データセット`, () => {
           const list: Station[] = []
           const segmentMap = new Map<string, number>()
           assertEach(files, "files", (file, assert) => {
-            const segment = readJsonSafe(file, jsonKdTreeSegment)
+            const segment = readJsonSafe(file, jsonKdTreeSegment(dataset))
             assert(!segmentMap.has(segment.name), "segment-name重複している")
             segmentMap.set(segment.name, segment.root)
             assertEach(segment.node_list, "node_list", (node, assert) => {
@@ -237,7 +234,7 @@ describe(`${dataset}データセット`, () => {
             validateTreeSegment(segment, assert)
           })
           withAssert("root", rootFile, assert => {
-            const root = readJsonSafe(rootFile, jsonKdTreeSegment)
+            const root = readJsonSafe(rootFile, jsonKdTreeSegment(dataset))
             assert.equals(root.name, "root")
             root.node_list.filter(node => !node.segment).forEach(node => {
               list.push(normalizeStation(node))

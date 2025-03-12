@@ -16,11 +16,11 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
 
 (async () => {
 
-  const stationMap = new Map<number | string, CSVStation>()
-  const lineMap = new Map<number | string, CSVLine>()
+  const stationMap = new Map<number | string, CSVStation<'extra'>>()
+  const lineMap = new Map<number | string, CSVLine<'extra'>>()
 
   console.log('line.csv 路線一覧の確認')
-  const lines = readCsvSafe('src/line.csv', csvLine).map(l => normalizeCSVLine(l))
+  const lines = readCsvSafe('src/line.csv', csvLine('extra')).map(l => normalizeCSVLine(l))
   validateLines(lines, 'line.csv', true)
   lines.forEach(line => {
     lineMap.set(line.code, line)
@@ -28,7 +28,7 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
   })
 
   console.log('station.csv 駅一覧の確認')
-  const stations = readCsvSafe('src/station.csv', csvStation).map(s => normalizeCSVStation(s))
+  const stations = readCsvSafe('src/station.csv', csvStation('extra')).map(s => normalizeCSVStation(s))
   validateStations(stations, 'station.csv', true)
   stations.forEach(station => {
     // original_name の検証
@@ -50,8 +50,8 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
       station.address = address.address
     }
   }
-  await writeCsvSafe('src/station.csv', csvStation, stations)
-  await writeCsvSafe('src/line.csv', csvLine, lines)
+  await writeCsvSafe('src/station.csv', csvStation('extra'), stations)
+  await writeCsvSafe('src/line.csv', csvLine('extra'), lines)
 
   // 路線の登録駅情報
   console.log('line/*.json 各路線の登録駅を確認')
