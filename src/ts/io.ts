@@ -50,7 +50,6 @@ interface CSVColumn {
   column: string
   type: CSVFieldType
   nullable: boolean
-  required: boolean
 }
 
 function toCSVColumn<T>(schema: JSONSchemaType<T>): CSVColumn[] {
@@ -74,6 +73,9 @@ function toCSVColumn<T>(schema: JSONSchemaType<T>): CSVColumn[] {
     }
     if (!["string", "integer", "number", "boolean"].includes(type)) {
       throw Error(`フィールド'${key}'の型定義 type: '${type}' が不正です`)
+    }
+    if (!requiredFields.includes(key)) {
+      throw Error(`requiredでないフィールド'${key}'を扱えません`)
     }
     const nullable = !!schema.nullable
     return {
@@ -127,9 +129,8 @@ export function readCsvSafe<T>(path: string, schema: JSONSchemaType<T>): T[] {
   // ヘッダーの確認
   const validateHeader = (header: string[]) => {
     for (const schema of fieldSchema.values()) {
-      // 必須フィールドがヘッダーにない場合
-      // required でない値に対応するヘッダ・列の欠損は許容する（その場合すべてのレコードの値は undefined となる）
-      if (!header.includes(schema.column) && schema.required) {
+      // ヘッダー不在の場合
+      if (!header.includes(schema.column)) {
         throw Error(`ヘッダーに'${schema.column}'が見つかりません`)
       }
     }
