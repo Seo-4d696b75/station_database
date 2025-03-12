@@ -156,7 +156,6 @@ export interface JSONPolylineGeo {
     properties: {
       start: string
       end: string
-      closed?: boolean
     }
   }[]
   properties: {
@@ -217,10 +216,6 @@ export const jsonPolyline: JSONSchemaType<JSONPolylineGeo> = {
                 type: "string",
                 minLength: 1,
               },
-              closed: {
-                type: "boolean",
-                nullable: true,
-              }
             },
             required: ["start", "end"],
             additionalProperties: false,
