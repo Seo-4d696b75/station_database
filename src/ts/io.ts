@@ -2,6 +2,7 @@ import Ajv, { JSONSchemaType } from "ajv";
 import * as csv from "csv-parse/sync";
 import { createObjectCsvWriter } from 'csv-writer';
 import * as fs from "fs";
+import { filterBySchema } from "./filter";
 import { defaultPrimitiveFormatter, formatJson, JSONQuery } from "./json";
 const ajv = new Ajv()
 
@@ -21,15 +22,16 @@ export async function writeJsonSafe<T>(
   data: T,
   flat: JSONQuery[],
 ) {
+  const filtered = filterBySchema(data, schema)
   const str = formatJson(
-    data,
-    schema,
+    filtered,
     {
       space: 2,
       indent: (context) => !flat.includes(context.location),
       format: (context, value) => {
-        if (typeof value === "number" && (context.current === "lat" || context.current === "lng")) {
-          return value.toFixed(6)
+        // GeoJSONの座標値は整数の場合も小数点を表記する（Rubyの旧実装に合わせる）
+        if (typeof value === "number" && context.location.match(/geometry\.coordinates(\[\]){2,3}$/)) {
+          return Number.isInteger(value) ? value.toFixed(1) : value.toString()
         }
         return defaultPrimitiveFormatter(context, value)
       },
