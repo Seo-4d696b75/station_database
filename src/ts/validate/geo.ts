@@ -1,6 +1,4 @@
-import { readJsonSafe } from "../io";
-import { JSONPolylineGeo, jsonPolylineSrc, JSONVoronoiGeo } from "../model/geo";
-import { CSVLine } from "../model/line";
+import { JSONPolylineGeo, JSONPolylineSrc, JSONVoronoiGeo } from "../model/geo";
 import { Assert, assertEach, withAssert } from "./assert";
 
 export function validateGeoVoronoi(obj: JSONVoronoiGeo) {
@@ -120,42 +118,37 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
 }
 
 // TODO 独自フォーマット廃止の検討
-export function validatePolylineSrc(line: CSVLine<'main'>, path: string) {
-  const data = readJsonSafe(path, jsonPolylineSrc)
-  withAssert(path, data, (assert) => {
-    assert.equals(data.name, line.name, `路線ポリラインの路線名が異なります`)
-
-    const pointMap = new Map<string, [number, number]>()
-    const validatePoint = (tag: string, pos: [number, number], assert: Assert) => {
-      if (pointMap.has(tag)) {
-        const existingPos = pointMap.get(tag)
-        assert(
-          pos[0] === existingPos![0] && pos[1] === existingPos![1],
-          `路線ポリラインのセグメント末端の座標が一致しません tag:${tag}`
-        )
-      } else {
-        pointMap.set(tag, pos)
-      }
+export function validatePolylineSrc(data: JSONPolylineSrc, assert: Assert) {
+  const pointMap = new Map<string, [number, number]>()
+  const validatePoint = (tag: string, pos: [number, number], assert: Assert) => {
+    if (pointMap.has(tag)) {
+      const existingPos = pointMap.get(tag)
+      assert(
+        pos[0] === existingPos![0] && pos[1] === existingPos![1],
+        `路線ポリラインのセグメント末端の座標が一致しません tag:${tag}`
+      )
+    } else {
+      pointMap.set(tag, pos)
     }
-    assertEach(data.point_list, 'point_list', (item, assert) => {
-      validatePoint(item.start, [item.points[0].lng, item.points[0].lat], assert)
-      validatePoint(item.end, [item.points[item.points.length - 1].lng, item.points[item.points.length - 1].lat], assert)
+  }
+  assertEach(data.point_list, 'point_list', (item, assert) => {
+    validatePoint(item.start, [item.points[0].lng, item.points[0].lat], assert)
+    validatePoint(item.end, [item.points[item.points.length - 1].lng, item.points[item.points.length - 1].lat], assert)
 
-      // 重複確認
-      let previous: [number, number] | null = null
-      assertEach(item.points, 'points', (p, assert) => {
-        const point: [number, number] = [p.lng, p.lat]
-        assert(
-          !previous || previous[0] !== point[0] || previous[1] !== point[1],
-          `路線ポリラインの座標が重複しています ${JSON.stringify(point)}@${line.name}(${line.code})`
-        )
-        previous = point
-      })
+    // 重複確認
+    let previous: [number, number] | null = null
+    assertEach(item.points, 'points', (p, assert) => {
+      const point: [number, number] = [p.lng, p.lat]
+      assert(
+        !previous || previous[0] !== point[0] || previous[1] !== point[1],
+        `路線ポリラインの座標が重複しています`
+      )
+      previous = point
     })
-
-    // ポリラインの各セグメントが正しく連結されているか（互いに到達可能か）確認する
-    assert(isJointPolyline(data.point_list), `路線ポリラインの各セグメントが連結ではありません. `)
   })
+
+  // ポリラインの各セグメントが正しく連結されているか（互いに到達可能か）確認する
+  assert(isJointPolyline(data.point_list), `路線ポリラインの各セグメントが連結ではありません. `)
 }
 
 // 幅優先探索でグラフの連結判定

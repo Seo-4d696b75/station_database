@@ -12,7 +12,7 @@ import { jsonLineDetail, JSONLineDetail, jsonLineDetailSrc, JSONStationRegistrat
 import { csvRegister, CSVStationRegister } from './model/register'
 import { csvStation, JSONStation, jsonStationList } from './model/station'
 import { jsonKdTree, jsonKdTreeSegment, JSONKdTreeSegment, JSONStationNode } from './model/tree'
-import { assertEach, withAssert } from './validate/assert'
+import { assertEach, assertEachAsync, withAssert } from './validate/assert'
 import { normalizeCSVLine } from './validate/line'
 import { normalizeCSVStation } from './validate/station'
 
@@ -60,7 +60,7 @@ async function main() {
   // 駅の詳細（ボロノイ領域・隣接点・Kd-tree）
   console.log('read src/diagram/build/*.json')
   const treePath = `src/diagram/build/diagram${dataset === 'extra' ? '.extra' : ''}.json`
-  const tree = readJsonSafe(treePath, jsonDiagramStations)
+  const tree = await readJsonSafe(treePath, jsonDiagramStations)
 
   // 駅の全ての情報をまとめる
   const mergedStations = new Map<number, MergedStation>()
@@ -90,9 +90,9 @@ async function main() {
   const registers: CSVStationRegister<'extra'>[] = []
   const mergedLines: MergedLine[] = []
 
-  assertEach(lines, "lines", (line, assert) => {
+  await assertEachAsync(lines, "lines", async (line, assert) => {
     const path = `src/line/${line.code}.json`
-    const details = readJsonSafe(path, jsonLineDetailSrc)
+    const details = await readJsonSafe(path, jsonLineDetailSrc)
     const merged: MergedLine = withAssert(path, details, assert => {
       let count = 0
       const list: (JSONStationRegistration & JSONStation<'extra'>)[] = assertEach(
@@ -207,7 +207,7 @@ async function main() {
     const src = `src/polyline/${line.code}.json`
     if (!existsSync(src)) return
 
-    const data = readJsonSafe(src, jsonPolylineSrc)
+    const data = await readJsonSafe(src, jsonPolylineSrc)
     const geoData = convertToPolylineGeo(data, dataset)
 
     await writeJsonSafe(

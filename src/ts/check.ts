@@ -3,6 +3,7 @@
 import { existsSync } from "fs"
 import { fetchAddress } from "./geocoding"
 import { readCsvSafe, readJsonSafe, writeCsvSafe, writeJsonSafe } from "./io"
+import { jsonPolylineSrc } from "./model/geo"
 import { CSVLine, csvLine } from "./model/line"
 import { jsonLineDetailSrc } from "./model/lineDetail"
 import { csvLineStationSize } from "./model/lineStationSize"
@@ -59,88 +60,95 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
   readCsvSafe('src/check/line.csv', csvLineStationSize).forEach(e => {
     implSizeMap.set(e.name, e.size)
   })
-  await assertEachAsync(lines, 'line.csv', async (line, assert) => {
-    const path = `src/line/${line.code}.json`
 
-    assert(existsSync(path), '路線詳細ファイルが見つかりません')
-    const details = readJsonSafe(path, jsonLineDetailSrc)
+  // 対話的に路線ファイルを確認するため Promise.all で並行化しない
+  for (const line of lines) {
+    await withAssert('line[]', line, async (assert) => {
+      const path = `src/line/${line.code}.json`
+      assert(existsSync(path), '路線詳細ファイルが見つかりません')
+      const details = await readJsonSafe(path, jsonLineDetailSrc)
 
-    await withAssert(path, details, async (assert) => {
+      await withAssert(path, details, async (assert) => {
 
-      assert.equals(details.name, line.name, '路線詳細の駅名が異なります')
+        assert.equals(details.name, line.name, '路線詳細の駅名が異なります')
 
-      // 登録駅数の確認
-      const size = line.station_size
-      assert.equals(details.station_list.length, size, `路線詳細の登録駅数が異なります ${details.name} (${line.code}.json)`)
+        // 登録駅数の確認
+        const size = line.station_size
+        assert.equals(details.station_list.length, size, `路線詳細の登録駅数が異なります ${details.name} (${line.code}.json)`)
 
-      // 登録駅の駅コード・駅名の変化があれば更新する
-      let write = false
-      // 駅メモ登録駅数
-      let implSize = 0
+        // 登録駅の駅コード・駅名の変化があれば更新する
+        let write = false
+        // 駅メモ登録駅数
+        let implSize = 0
 
-      await assertEachAsync(details.station_list, 'station_list', async (station, assert) => {
-        const stationCode = station.code
-        const stationName = station.name
+        for (const station of details.station_list) {
+          await withAssert('station_list[]', station, async (assert) => {
+            const stationCode = station.code
+            const stationName = station.name
 
-        // 駅の名前解決
-        const maybeStation = stationMap.get(stationName) || stationMap.get(stationCode)
-        assert(maybeStation, `路線詳細の登録駅が見つかりません ${stationName}(${stationCode}) at ${details.name} (${line.code}.json)`)
+            // 駅の名前解決
+            const maybeStation = stationMap.get(stationName) || stationMap.get(stationCode)
+            assert(maybeStation, `路線詳細の登録駅が見つかりません ${stationName}(${stationCode}) at ${details.name} (${line.code}.json)`)
 
-        // assertで存在を確認したので、以降はnon-nullとして扱える
-        const validStation = maybeStation as Station
+            // assertで存在を確認したので、以降はnon-nullとして扱える
+            const validStation = maybeStation as Station
 
-        if (stationCode !== validStation.code) {
-          // 駅名の重複なしのため駅名一致なら同値
-          console.log(`路線登録駅のコードを自動修正します ${stationName}@${line.name}(${line.code}) ${stationCode}=>${validStation.code}`)
-          station.code = validStation.code
-          write = true
-        } else if (stationName !== validStation.name) {
-          // 駅名変更は慎重に
-          console.log(`路線登録駅の名称に変更があります ${stationCode}@${line.name}(${line.code}) ${stationName}=>${validStation.name}`)
-          const response = await new Promise<string>(resolve => {
-            process.stdout.write(' OK? Y/N => ')
-            process.stdin.once('data', data => {
-              resolve(data.toString().trim())
-            })
+            if (stationCode !== validStation.code) {
+              // 駅名の重複なしのため駅名一致なら同値
+              console.log(`路線登録駅のコードを自動修正します ${stationName}@${line.name}(${line.code}) ${stationCode}=>${validStation.code}`)
+              station.code = validStation.code
+              write = true
+            } else if (stationName !== validStation.name) {
+              // 駅名変更は慎重に
+              console.log(`路線登録駅の名称に変更があります ${stationCode}@${line.name}(${line.code}) ${stationName}=>${validStation.name}`)
+              const response = await new Promise<string>(resolve => {
+                process.stdout.write(' OK? Y/N => ')
+                process.stdin.once('data', data => {
+                  resolve(data.toString().trim())
+                })
+              }).finally(() => {
+                process.stdin.pause()
+              })
+
+              assert(response.match(/^[yY]?$/), 'abort')
+
+              station.name = validStation.name
+              write = true
+            }
+
+            // extra属性の曖昧性を解消
+            // src/*.csv extra: 路線・駅自体のextra属性
+            // src/line/*.json .station_list[].extra:
+            //   路線(extra=true)における駅(extra=true)の登録のうち、
+            //   駅メモ実装には含まれない登録のみextra=trueを指定している
+            const extra = validStation.extra || line.extra || station.extra
+            if (!extra) {
+              implSize++
+            }
+
+            // 駅要素側にも登録路線を記憶
+            if (!validStation.lines.includes(line.code)) {
+              validStation.lines.push(line.code)
+            }
           })
-
-          assert(response.match(/^[yY]?$/), 'abort')
-
-          station.name = validStation.name
-          write = true
         }
 
-        // extra属性の曖昧性を解消
-        // src/*.csv extra: 路線・駅自体のextra属性
-        // src/line/*.json .station_list[].extra:
-        //   路線(extra=true)における駅(extra=true)の登録のうち、
-        //   駅メモ実装には含まれない登録のみextra=trueを指定している
-        const extra = validStation.extra || line.extra || station.extra
-        if (!extra) {
-          implSize++
+        // 駅メモ実装の登録駅数を確認
+        if (!line.extra) {
+          assert(implSizeMap.has(line.name), `路線登録駅の確認数が見つかりません check/line.csv`)
+          const expectedSize = implSizeMap.get(line.name)
+          assert.equals(implSize, expectedSize, `路線詳細の登録駅数と確認駅数（check/line.csv）が異なります`)
+        } else {
+          assert.equals(implSize, 0, `路線(extra)の登録駅はすべてextra=trueです`)
         }
 
-        // 駅要素側にも登録路線を記憶
-        if (!validStation.lines.includes(line.code)) {
-          validStation.lines.push(line.code)
+        if (write) {
+          // 更新あるなら駅登録詳細へ反映
+          await writeJsonSafe(path, jsonLineDetailSrc, details, ['.station_list[]'])
         }
       })
-
-      // 駅メモ実装の登録駅数を確認
-      if (!line.extra) {
-        assert(implSizeMap.has(line.name), `路線登録駅の確認数が見つかりません check/line.csv`)
-        const expectedSize = implSizeMap.get(line.name)
-        assert.equals(implSize, expectedSize, `路線詳細の登録駅数と確認駅数（check/line.csv）が異なります`)
-      } else {
-        assert.equals(implSize, 0, `路線(extra)の登録駅はすべてextra=trueです`)
-      }
-
-      if (write) {
-        // 更新あるなら駅登録詳細へ反映
-        await writeJsonSafe(path, jsonLineDetailSrc, details, ['.station_list[]'])
-      }
     })
-  })
+  }
 
   assertEach(stations, 'station.csv', (station, assert) => {
 
@@ -163,10 +171,12 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
   console.log('polyline/*.json 路線ポリラインの確認')
   const polylineIgnore = readCsvSafe('src/check/polyline_ignore.csv', csvPolylineIgnore).map(line => line.name)
 
-  assertEach(lines, 'station.csv', (line, assert) => {
+  await assertEachAsync(lines, 'station.csv', async (line, assert) => {
     const path = `src/polyline/${line.code}.json`
     if (existsSync(path)) {
-      validatePolylineSrc(line, path)
+      const data = await readJsonSafe(path, jsonPolylineSrc)
+      assert.equals(data.name, line.name, `路線ポリラインの路線名が異なります`)
+      validatePolylineSrc(data, assert)
     } else {
       assert(
         polylineIgnore.includes(line.name),

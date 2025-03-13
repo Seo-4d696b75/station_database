@@ -11,7 +11,7 @@ import { csvPolylineIgnore } from "./model/polylineIgnore"
 import { CSVStationRegister, csvRegister } from "./model/register"
 import { csvStation, jsonStationList, normalizeStation } from "./model/station"
 import { jsonKdTree, jsonKdTreeSegment } from "./model/tree"
-import { assertEach, withAssert } from "./validate/assert"
+import { assertEach, assertEachAsync, withAssert } from "./validate/assert"
 import { validateGeoPolyline, validateGeoVoronoi } from "./validate/geo"
 import { Line, assertLineMatched, assertLineSetMatched, normalizeCSVLine, normalizeJSONLine, validateLines } from "./validate/line"
 import { assertObjectSetPartialMatched } from "./validate/set"
@@ -60,18 +60,18 @@ describe(`${dataset}データセット`, () => {
       })
     })
 
-    test("line.json", () => {
+    test("line.json", async () => {
       const file = `${dir}/line.json`
-      const list = readJsonSafe(file, jsonLineList(dataset)).map(json => normalizeJSONLine(json))
+      const list = (await readJsonSafe(file, jsonLineList(dataset))).map(json => normalizeJSONLine(json))
 
       // 同一集合なら不用かも？
       validateLines(list, "line.json", extra)
       // 同一路線が存在するか
       assertLineSetMatched(list, lineCodemap)
     })
-    test("station.json", () => {
+    test("station.json", async () => {
       const file = `${dir}/station.json`
-      const stations = readJsonSafe(file, jsonStationList(dataset))
+      const stations = await readJsonSafe(file, jsonStationList(dataset))
       assertEach(stations, "station.json", (json, assert) => {
         // 登録路線の確認
         const register = stationRegister.filter(r => r.station_code === json.code).map(r => r.line_code)
@@ -97,9 +97,9 @@ describe(`${dataset}データセット`, () => {
       // 同一駅が存在するか
       assertStationSetMatched(list, stationCodeMap)
     })
-    test("delaunay.json", () => {
+    test("delaunay.json", async () => {
       const file = `${dir}/delaunay.json`
-      const list = readJsonSafe(file, jsonDelaunayList)
+      const list = await readJsonSafe(file, jsonDelaunayList)
       assertEach(list, "root", (s, assert) => {
         assertEach(s.next, "next", (code, assert) => {
           assert(code !== s.code, "自身の駅コードは隣接点に含まれない code:" + code)
@@ -114,16 +114,17 @@ describe(`${dataset}データセット`, () => {
         // line/*.jsonのファイル数と路線数一致
         expect(files.length).toBe(lineCodemap.size)
       })
-      test("各ファイルの確認", () => {
+      test("各ファイルの確認", async () => {
         // 各路線の登録駅数（駅メモ実装のみ）
         const lineStationSize = new Map<string, number>()
         readCsvSafe("src/check/line.csv", csvLineStationSize).forEach(e => {
           lineStationSize.set(e.name, e.size)
         })
-        assertEach(lineCodemap.keys(), "lines", (code, assert) => {
+        const schema = jsonLineDetail(dataset)
+        await assertEachAsync(lineCodemap.keys(), "lines", async (code, assert) => {
           const file = `${dir}/line/${code}.json`
           assert(existsSync(file), "路線ファイルが見つからない file:" + file)
-          const json = readJsonSafe(file, jsonLineDetail(dataset))
+          const json = await readJsonSafe(file, schema)
           // 対応路線の確認
           const line = normalizeJSONLine(json)
           const csv = lineCodemap.get(line.code)
@@ -171,7 +172,7 @@ describe(`${dataset}データセット`, () => {
           }
 
         })
-      })
+      }, 10_000)
     })
 
     describe("polyline/*.json", () => {
@@ -184,23 +185,23 @@ describe(`${dataset}データセット`, () => {
         expect(files.length).toBe(lineCodemap.size - polylineIgnore.length)
       })
 
-      test("各ファイルの確認", () => {
-        assertEach(lineCodemap.values(), "lines", (line, assert) => {
+      test("各ファイルの確認", async () => {
+        await assertEachAsync(lineCodemap.values(), "lines", async (line, assert) => {
           if (polylineIgnore.includes(line.name)) {
             return
           }
           const file = `${dir}/polyline/${line.code}.json`
           assert(existsSync(file), "ポリラインファイルが見つからない file:" + file)
-          const json = readJsonSafe(file, jsonPolyline)
+          const json = await readJsonSafe(file, jsonPolyline)
           validateGeoPolyline(json)
         })
       })
     })
 
     describe("KdTree", () => {
-      test("tree.json", () => {
+      test("tree.json", async () => {
         const file = `${dir}/tree.json`
-        const tree = readJsonSafe(file, jsonKdTree)
+        const tree = await readJsonSafe(file, jsonKdTree)
         withAssert("tree.json", tree, assert => {
           validateTreeSegment(tree, assert)
           assertObjectSetPartialMatched(tree.node_list, stationCodeMap, ["code", "name", "lat", "lng"])
@@ -220,11 +221,12 @@ describe(`${dataset}データセット`, () => {
             })
           })
         })
-        test("各ファイルの確認", () => {
+        test("各ファイルの確認", async () => {
           const list: Station[] = []
           const segmentMap = new Map<string, number>()
-          assertEach(files, "files", (file, assert) => {
-            const segment = readJsonSafe(file, jsonKdTreeSegment(dataset))
+          const schema = jsonKdTreeSegment(dataset)
+          await assertEachAsync(files, "files", async (file, assert) => {
+            const segment = await readJsonSafe(file, schema)
             assert(!segmentMap.has(segment.name), "segment-name重複している")
             segmentMap.set(segment.name, segment.root)
             assertEach(segment.node_list, "node_list", (node, assert) => {
@@ -233,8 +235,8 @@ describe(`${dataset}データセット`, () => {
             })
             validateTreeSegment(segment, assert)
           })
-          withAssert("root", rootFile, assert => {
-            const root = readJsonSafe(rootFile, jsonKdTreeSegment(dataset))
+          await withAssert("root", rootFile, async (assert) => {
+            const root = await readJsonSafe(rootFile, schema)
             assert.equals(root.name, "root")
             root.node_list.filter(node => !node.segment).forEach(node => {
               list.push(normalizeStation(node))

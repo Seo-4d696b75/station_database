@@ -70,19 +70,16 @@ export function assertEach<T, R>(
   return result
 }
 
-export async function assertEachAsync<T, R>(
+export async function assertEachAsync<T>(
   iterable: { [Symbol.iterator](): Iterator<T> },
   listName: string,
-  testCase: (element: T, assert: Assert, idx: number) => Promise<R>,
-): Promise<R[]> {
+  testCase: (element: T, assert: Assert, idx: number) => Promise<void>,
+) {
   let idx = 0
-  let result: Promise<R[]> = Promise.resolve([])
   for (const element of iterable) {
-    const promise = withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx))
+    await withAssert(`${listName}[${idx}]`, element, assert => testCase(element, assert, idx))
     idx++
-    result = result.then(list => promise.then(r => [...list, r]))
   }
-  return result
 }
 
 class JestAssertionError extends Error {

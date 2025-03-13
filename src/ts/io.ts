@@ -6,8 +6,8 @@ import { filterBySchema } from "./filter";
 import { defaultPrimitiveFormatter, formatJson, JSONQuery } from "./json";
 const ajv = new Ajv()
 
-export function readJsonSafe<T>(path: string, schema: JSONSchemaType<T>): T {
-  const str = fs.readFileSync(path).toString()
+export async function readJsonSafe<T>(path: string, schema: JSONSchemaType<T>): Promise<T> {
+  const str = await fs.promises.readFile(path, 'utf-8')
   const validator = ajv.compile(schema)
   const data = JSON.parse(str)
   if (validator(data)) {
