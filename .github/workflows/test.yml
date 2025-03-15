@@ -21,10 +21,12 @@ jobs:
           cache: "npm"
       - name: setup node modules
         run: npm install
-      - name: run test (main)
+      - name: run test (main format)
         run: npm run test-format-main
-      - name: run text (extra)
+      - name: run test (extra format)
         run: npm run test-format-extra
+      - name: run test (subset)
+        run: npm run test-subset
   fetch-base:
     runs-on: ubuntu-latest
     steps:

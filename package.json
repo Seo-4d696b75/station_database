@@ -14,6 +14,7 @@
     "docs": "rm -f docs/*.md && jsonschema2md -d out/schema -o docs/ -x - -i src/schema_locale -h false -n",
     "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
     "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts",
+    "test-subset": "jest -- src/ts/subset.test.ts",
     "check-update": "ts-node src/ts/check_update.ts",
     "download": "ts-node src/ekimemo/download.ts",
     "test-ekimemo": "jest --  src/ekimemo/check.test.ts"
