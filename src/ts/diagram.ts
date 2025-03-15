@@ -1,6 +1,7 @@
 import { JSONSchemaType } from 'ajv'
 import { readCsvSafe, writeJsonSafe } from './io'
 import { csvStation } from './model/station'
+import { normalizeCSVStation } from './validate/station'
 
 // 駅座標図形計算の入力データを用意する
 //
@@ -32,7 +33,7 @@ const jsonDiagramStations: JSONSchemaType<DiagramStation[]> = {
 }
 
 async function main() {
-  const stations = readCsvSafe('src/station.csv', csvStation)
+  const stations = readCsvSafe('src/station.csv', csvStation('extra')).map(s => normalizeCSVStation(s))
 
   // extraデータセット
   console.log(`extraデータセット：${stations.length}`)

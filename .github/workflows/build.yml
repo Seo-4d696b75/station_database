@@ -30,10 +30,13 @@ jobs:
         with:
           ref: ${{ github.ref }}
           token: ${{ steps.generate_token.outputs.token }}
-      - uses: ruby/setup-ruby@v1
+      - name: setup Node.js
+        uses: actions/setup-node@v4
         with:
-          ruby-version: .ruby-version
-          bundler-cache: true
+          node-version-file: .node-version
+          cache: "npm"
+      - name: setup node modules
+        run: npm install
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
@@ -50,14 +53,12 @@ jobs:
           GITHUB_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p src/diagram/build
-          bundle exec ruby src/script/prebuild_diagram.rb
+          npm run prebuild-diagram
           cd src/diagram
           ./gradlew run --args="build/station.json build/diagram.json"
           ./gradlew run --args="build/station.extra.json build/diagram.extra.json"
       - name: build data
-        run: |
-          bundle exec ruby src/script/build.rb 
-          bundle exec ruby src/script/build.rb -e
+        run: npm run build
       - name: Check Diff
         id: check_diff
         run: |
@@ -71,18 +72,12 @@ jobs:
         if: steps.check_diff.outputs.main == 'true'
         run: |
           ./src/zip.sh main
-          bundle exec ruby src/script/release.rb \
-            -s out/main/json.zip \
-            -d latest_info.json \
-            -v ${{ env.VERSION }}
+          npm run bump-version-main
       - name: update summary (extra)
         if: steps.check_diff.outputs.extra == 'true'
         run: |
           ./src/zip.sh extra
-          bundle exec ruby src/script/release.rb \
-            -s out/extra/json.zip \
-            -d latest_info.extra.json \
-            -v ${{ env.VERSION }}
+          npm run bump-version-extra
       - name: Commit and Push
         if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
         run: |

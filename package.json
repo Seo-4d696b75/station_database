@@ -6,8 +6,8 @@
   "main": "not-exist.js",
   "scripts": {
     "check-src": "ts-node src/ts/check.ts",
-    "build-main": "ts-node src/ts/build.ts",
-    "build-extra": "ts-node src/ts/build.ts -e",
+    "prebuild-diagram": "ts-node src/ts/diagram.ts",
+    "build": "ts-node src/ts/build.ts && ts-node src/ts/build.ts -e",
     "bump-version-main": "ts-node src/ts/bump_version.ts",
     "bump-version-extra": "ts-node src/ts/bump_version.ts -e",
     "schema": "rm -f out/schema/*.json && ts-node src/ts/jsonschema",
