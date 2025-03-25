@@ -67,15 +67,15 @@
             "properties": {
               "start": {
                 "type": "string",
-                "minLength": 1
+                "minLength": 1,
+                "title": "ポリライン始点の識別子",
+                "description": "同じ識別子をもつポイライン末端との接続を表現します"
               },
               "end": {
                 "type": "string",
-                "minLength": 1
-              },
-              "closed": {
-                "type": "boolean",
-                "nullable": true
+                "minLength": 1,
+                "title": "ポリライン終点の識別子",
+                "description": "同じ識別子をもつポイライン始端との接続を表現します"
               }
             },
             "required": [

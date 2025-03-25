@@ -1,0 +1,139 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "title": "路線オブジェクト",
+    "examples": [
+      {
+        "code": 11319,
+        "id": "2d2b3a",
+        "name": "JR東北本線(宇都宮線)",
+        "name_kana": "じぇいあーるとうほくほんせん",
+        "name_formal": "JR東北本線",
+        "station_size": 33,
+        "company_code": 2,
+        "closed": false,
+        "color": "#F68B1E",
+        "symbol": "JU"
+      }
+    ],
+    "properties": {
+      "code": {
+        "type": "integer",
+        "minimum": 1000,
+        "maximum": 99999,
+        "title": "路線コード",
+        "description": "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{6}$",
+        "title": "駅・路線ID",
+        "description": "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
+        "examples": [
+          "d8aab0",
+          "e16e64"
+        ]
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "title": "駅・路線の名前",
+        "description": "駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります.",
+        "examples": [
+          "函館",
+          "福島(福島)",
+          "JR函館本線(函館～長万部)"
+        ]
+      },
+      "name_kana": {
+        "type": "string",
+        "pattern": "^[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+$",
+        "title": "駅・路線の名前のかな表現",
+        "description": "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります.",
+        "examples": [
+          "はこだて",
+          "ふくしま",
+          "じぇいあーるはこだてほんせん"
+        ]
+      },
+      "name_formal": {
+        "type": "string",
+        "nullable": true,
+        "minLength": 1,
+        "title": "路線の正式名称",
+        "description": "nameと一致する場合はundefined",
+        "examples": [
+          "JR東北本線"
+        ]
+      },
+      "station_size": {
+        "type": "integer",
+        "minimum": 1,
+        "title": "登録駅数",
+        "description": "かならず１駅以上登録があります",
+        "examples": [
+          3,
+          24
+        ]
+      },
+      "company_code": {
+        "type": "integer",
+        "nullable": true,
+        "minimum": 0,
+        "title": "事業者コード"
+      },
+      "closed": {
+        "type": "boolean",
+        "title": "廃線フラグ",
+        "description": "廃線の場合はtrue"
+      },
+      "color": {
+        "type": "string",
+        "nullable": true,
+        "pattern": "^#[0-9A-F]{6}$",
+        "title": "路線カラー",
+        "description": "RGBチャネル16進数",
+        "examples": [
+          "#F68B1E"
+        ]
+      },
+      "symbol": {
+        "type": "string",
+        "nullable": true,
+        "minLength": 1,
+        "title": "路線記号",
+        "examples": [
+          "JU"
+        ]
+      },
+      "closed_date": {
+        "type": "string",
+        "nullable": true,
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "title": "路線の廃止日",
+        "description": "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
+        "examples": [
+          "2015-03-14"
+        ]
+      },
+      "extra": {
+        "type": "boolean",
+        "title": "駅・路線が独自実装の登録か否かを表します",
+        "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットでは未定義（undefined）です."
+      }
+    },
+    "required": [
+      "code",
+      "id",
+      "name",
+      "name_kana",
+      "station_size",
+      "closed",
+      "extra"
+    ],
+    "additionalProperties": false
+  },
+  "title": "路線リスト",
+  "description": "すべての路線を含むリスト"
+}
