@@ -189,7 +189,7 @@
       "attr": {
         "type": "string",
         "title": "駅の属性",
-        "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合はnullもしくは未定義",
+        "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'.",
         "enum": [
           "eco",
           "heat",

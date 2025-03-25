@@ -48,7 +48,7 @@ export const kanaName: JSONSchemaType<string> = {
 export const stationAttr: JSONSchemaType<string> = {
   type: "string",
   title: "駅の属性",
-  description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合はnullもしくは未定義",
+  description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'.",
   enum: [
     "eco",
     "heat",
@@ -62,5 +62,5 @@ export const dateStringPattern = "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
 export const stationLineExtra = {
   type: "boolean" as const,
   title: "駅・路線が独自実装の登録か否かを表します",
-  description: "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットでは未定義（undefined）です.",
+  description: "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ).",
 }

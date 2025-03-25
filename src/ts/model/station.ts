@@ -191,6 +191,7 @@ const jsonStationExtra: JSONSchemaType<JSONStation<'extra'>> = {
     lines: lineCodes,
     attr: {
       ...stationAttr,
+      description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は未定義",
       nullable: true,
     },
     postal_code: postalCode,
@@ -303,6 +304,7 @@ const csvStationExtra: JSONSchemaType<CSVStation<'extra'>> = {
     attr: {
       ...stationAttr,
       nullable: true,
+      description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合はnull",
       enum: [
         ...stationAttr.enum,
         null,

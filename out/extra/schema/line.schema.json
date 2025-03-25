@@ -120,7 +120,7 @@
       "extra": {
         "type": "boolean",
         "title": "駅・路線が独自実装の登録か否かを表します",
-        "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットでは未定義（undefined）です."
+        "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ)."
       }
     },
     "required": [
