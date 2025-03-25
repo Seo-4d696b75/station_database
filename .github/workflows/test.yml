@@ -65,14 +65,14 @@ jobs:
         with:
           name: base-data
           path: artifact
+      - name: test version
+        run: npm run test-version
       - name: unzip base data
         run: |
           unzip -q artifact/main.zip -d artifact
           mv artifact/json artifact/main
           unzip -q artifact/extra.zip -d artifact
           mv artifact/json artifact/extra
-      - name: test version
-        run: npm run test-version
       - name: compare data
         run: |
           npm run test-update-main
