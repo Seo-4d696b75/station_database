@@ -15,6 +15,9 @@
     "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
     "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts",
     "test-subset": "jest -- src/ts/subset.test.ts",
+    "test-version": "jest -- src/ts/version.test.ts",
+    "test-update-main": "DATASET=main jest -- src/ts/update.test.ts",
+    "test-update-extra": "DATASET=extra jest -- src/ts/update.test.ts",
     "check-update": "ts-node src/ts/check_update.ts",
     "download": "ts-node src/ekimemo/download.ts",
     "test-ekimemo": "jest --  src/ekimemo/check.test.ts"
