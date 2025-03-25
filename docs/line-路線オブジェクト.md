@@ -21,20 +21,19 @@
 
 # itemsのプロパティ
 
-| Property                       | Type      | Required | Nullable | Defined by                                                                                   |
-| :----------------------------- | :-------- | :------- | :------- | :------------------------------------------------------------------------------------------- |
-| [code](#code)                  | `integer` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-路線コード.md "undefined#/items/properties/code")                |
-| [id](#id)                      | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線id.md "undefined#/items/properties/id")                  |
-| [name](#name)                  | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線の名前.md "undefined#/items/properties/name")               |
-| [name\_kana](#name_kana)       | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線の名前のかな表現.md "undefined#/items/properties/name_kana")     |
-| [name\_formal](#name_formal)   | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線の正式名称.md "undefined#/items/properties/name_formal")       |
-| [station\_size](#station_size) | `integer` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-登録駅数.md "undefined#/items/properties/station_size")         |
-| [company\_code](#company_code) | `integer` | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-事業者コード.md "undefined#/items/properties/company_code")       |
-| [closed](#closed)              | `boolean` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-廃線フラグ.md "undefined#/items/properties/closed")              |
-| [color](#color)                | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線カラー.md "undefined#/items/properties/color")               |
-| [symbol](#symbol)              | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線記号.md "undefined#/items/properties/symbol")               |
-| [closed\_date](#closed_date)   | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線の廃止日.md "undefined#/items/properties/closed_date")        |
-| [extra](#extra)                | `boolean` | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/items/properties/extra") |
+| Property                       | Type      | Required | Nullable | Defined by                                                                               |
+| :----------------------------- | :-------- | :------- | :------- | :--------------------------------------------------------------------------------------- |
+| [code](#code)                  | `integer` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-路線コード.md "undefined#/items/properties/code")            |
+| [id](#id)                      | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線id.md "undefined#/items/properties/id")              |
+| [name](#name)                  | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線の名前.md "undefined#/items/properties/name")           |
+| [name\_kana](#name_kana)       | `string`  | Required | non-null | [路線リスト](line-路線オブジェクト-properties-駅路線の名前のかな表現.md "undefined#/items/properties/name_kana") |
+| [name\_formal](#name_formal)   | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線の正式名称.md "undefined#/items/properties/name_formal")   |
+| [station\_size](#station_size) | `integer` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-登録駅数.md "undefined#/items/properties/station_size")     |
+| [company\_code](#company_code) | `integer` | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-事業者コード.md "undefined#/items/properties/company_code")   |
+| [closed](#closed)              | `boolean` | Required | non-null | [路線リスト](line-路線オブジェクト-properties-廃線フラグ.md "undefined#/items/properties/closed")          |
+| [color](#color)                | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線カラー.md "undefined#/items/properties/color")           |
+| [symbol](#symbol)              | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線記号.md "undefined#/items/properties/symbol")           |
+| [closed\_date](#closed_date)   | `string`  | Optional | non-null | [路線リスト](line-路線オブジェクト-properties-路線の廃止日.md "undefined#/items/properties/closed_date")    |
 
 ## code
 
@@ -83,10 +82,10 @@
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9a-f]{6}
+^[0-9a-f]{6}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9a-f%5D%7B6%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9a-f%5D%7B6%7D%24 "try regular expression with regexr.com")
 
 ### idの値の例
 
@@ -157,10 +156,10 @@
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[\p{sc=Hiragana}ー・\p{gc=P}\s]+
+^[\p{sc=Hiragana}ー・\p{gc=P}\s]+$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B%24 "try regular expression with regexr.com")
 
 ### name\_kanaの値の例
 
@@ -299,10 +298,10 @@ RGBチャネル16進数
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-#[0-9A-F]{6}
+^#[0-9A-F]{6}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%23%5B0-9A-F%5D%7B6%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%23%5B0-9A-F%5D%7B6%7D%24 "try regular expression with regexr.com")
 
 ### colorの値の例
 
@@ -361,31 +360,13 @@ RGBチャネル16進数
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9]{4}-[0-9]{2}-[0-9]{2}
+^[0-9]{4}-[0-9]{2}-[0-9]{2}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D%24 "try regular expression with regexr.com")
 
 ### closed\_dateの値の例
 
 ```json
 "2015-03-14"
 ```
-
-## extra
-
-false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です.
-
-`extra`
-
-*   undefinedを許可します
-
-*   Type: `boolean` ([駅・路線が独自実装の登録か否かを表します](line-路線オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md))
-
-*   non-null
-
-*   defined in: [路線リスト](line-路線オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/items/properties/extra")
-
-### extraの型定義
-
-`boolean` ([駅・路線が独自実装の登録か否かを表します](line-路線オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md))
