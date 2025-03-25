@@ -148,7 +148,7 @@ describe(`${dataset}データセット`, () => {
 
             withAssert("register.csv", registration, assert => {
               // 駅登録の順序
-              // TODO mainデータセットの場合、check.rbでextraを飛ばしてindexをカウントしている
+              // TODO mainデータセットの場合、check.tsでextraを飛ばしてindexをカウントしている
               assert.equals(idx + 1, registration.index, "駅の登録順が異なる")
               // 駅ナンバリング
               let numbering = s.numbering ? s.numbering.join("/") : null
