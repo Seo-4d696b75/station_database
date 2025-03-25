@@ -10,7 +10,7 @@
     "build": "ts-node src/ts/build.ts && ts-node src/ts/build.ts -e",
     "bump-version-main": "ts-node src/ts/bump_version.ts",
     "bump-version-extra": "ts-node src/ts/bump_version.ts -e",
-    "schema": "rm -f out/schema/*.json && ts-node src/ts/jsonschema",
+    "schema": "rm -f out/*/schema/*.json && ts-node src/ts/jsonschema && ts-node src/ts/jsonschema -e",
     "docs": "rm -f docs/*.md && jsonschema2md -d out/schema -o docs/ -x - -i src/schema_locale -h false -n",
     "test-format-main": "DATASET=main jest -- src/ts/format.test.ts",
     "test-format-extra": "DATASET=extra jest -- src/ts/format.test.ts",
