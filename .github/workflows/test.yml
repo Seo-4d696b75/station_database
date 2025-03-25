@@ -6,7 +6,6 @@ on:
     paths:
       - 'out/**'
       - 'src/ts/**'
-      - 'src/script/**'
 jobs:
   format:
     runs-on: ubuntu-latest
