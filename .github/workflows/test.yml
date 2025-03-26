@@ -3,9 +3,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - 'out/**'
-      - 'src/ts/**'
 jobs:
   format:
     runs-on: ubuntu-latest
