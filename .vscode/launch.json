@@ -49,12 +49,6 @@
             "smartStep": true,
             "internalConsoleOptions": "neverOpen",
             "port": 9229
-        },
-        {
-            "name": "Ruby: Debug Current File",
-            "type": "ruby_lsp",
-            "request": "launch",
-            "program": "ruby ${file}"
         }
     ]
 }
