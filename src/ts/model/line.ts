@@ -1,6 +1,6 @@
 import { JSONSchemaType } from "ajv"
-import { Line } from "../validate/line"
 import { dateStringPattern, kanaName, stationLineExtra, stationLineId, stationLineName } from "./common"
+import { Dataset, WithExtra } from "./dataset"
 
 export const lineCode: JSONSchemaType<number> = {
   type: "integer",
@@ -10,7 +10,7 @@ export const lineCode: JSONSchemaType<number> = {
   description: "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
 }
 
-export interface JSONLine {
+export type JSONLine<D extends Dataset> = WithExtra<D, {
   code: number
   id: string
   name: string
@@ -22,27 +22,21 @@ export interface JSONLine {
   color?: string
   symbol?: string
   closed_date?: string
-  extra?: boolean
+}>
+
+export const jsonLine = (dataset: Dataset): JSONSchemaType<JSONLine<typeof dataset>> => dataset === 'main' ? jsonLineMain : {
+  ...jsonLineMain,
+  properties: {
+    ...jsonLineMain.properties,
+    extra: stationLineExtra,
+  },
+  required: [
+    ...jsonLineMain.required,
+    'extra',
+  ],
 }
 
-export function normalizeLine(raw: JSONLine): Line {
-  return {
-    code: raw.code,
-    id: raw.id,
-    name: raw.name,
-    name_kana: raw.name_kana,
-    name_formal: raw.name_formal ?? null,
-    station_size: raw.station_size,
-    company_code: raw.company_code ?? null,
-    closed: raw.closed,
-    color: raw.color ?? null,
-    symbol: raw.symbol ?? null,
-    closed_date: raw.closed_date ?? null,
-    extra: !!raw.extra,
-  }
-}
-
-export const jsonLine: JSONSchemaType<JSONLine> = {
+const jsonLineMain: JSONSchemaType<JSONLine<'main'>> = {
   type: "object",
   title: "路線オブジェクト",
   examples: [
@@ -82,7 +76,7 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
     color: {
       type: "string",
       nullable: true,
-      pattern: "#[0-9A-F]{6}",
+      pattern: "^#[0-9A-F]{6}$",
       title: "路線カラー",
       description: "RGBチャネル16進数",
       examples: ["#F68B1E"],
@@ -102,7 +96,6 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
       description: "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
       examples: ["2015-03-14"],
     },
-    extra: stationLineExtra,
   },
   required: [
     "code",
@@ -115,14 +108,14 @@ export const jsonLine: JSONSchemaType<JSONLine> = {
   additionalProperties: false,
 }
 
-export const jsonLineList: JSONSchemaType<JSONLine[]> = {
+export const jsonLineList = <D extends Dataset>(dataset: D): JSONSchemaType<JSONLine<D>[]> => ({
   type: "array",
-  items: jsonLine,
+  items: jsonLine(dataset),
   title: "路線リスト",
   description: "すべての路線を含むリスト",
-}
+})
 
-export interface CSVLine {
+export type CSVLine<D extends Dataset> = WithExtra<D, {
   code: number
   id: string
   name: string
@@ -134,10 +127,21 @@ export interface CSVLine {
   symbol: string | null
   closed: boolean
   closed_date: string | null
-  extra?: boolean
+}>
+
+export const csvLine = (dataset: Dataset): JSONSchemaType<CSVLine<typeof dataset>> => dataset === 'main' ? csvLineMain : {
+  ...csvLineMain,
+  properties: {
+    ...csvLineMain.properties,
+    extra: stationLineExtra,
+  },
+  required: [
+    ...csvLineMain.required,
+    'extra',
+  ],
 }
 
-export const csvLine: JSONSchemaType<CSVLine> = {
+const csvLineMain: JSONSchemaType<CSVLine<'main'>> = {
   type: "object",
   properties: {
     code: lineCode,
@@ -161,7 +165,7 @@ export const csvLine: JSONSchemaType<CSVLine> = {
     color: {
       type: "string",
       nullable: true,
-      pattern: "#[0-9A-F]{6}"
+      pattern: "^#[0-9A-F]{6}$"
     },
     symbol: {
       type: "string",
@@ -176,7 +180,6 @@ export const csvLine: JSONSchemaType<CSVLine> = {
       nullable: true,
       pattern: dateStringPattern,
     },
-    extra: stationLineExtra,
   },
   required: [
     "code",

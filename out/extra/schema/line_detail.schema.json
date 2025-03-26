@@ -11,7 +11,7 @@
     },
     "id": {
       "type": "string",
-      "pattern": "[0-9a-f]{6}",
+      "pattern": "^[0-9a-f]{6}$",
       "title": "駅・路線ID",
       "description": "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
       "examples": [
@@ -32,7 +32,7 @@
     },
     "name_kana": {
       "type": "string",
-      "pattern": "[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+",
+      "pattern": "^[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+$",
       "title": "駅・路線の名前のかな表現",
       "description": "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります.",
       "examples": [
@@ -75,7 +75,7 @@
     "color": {
       "type": "string",
       "nullable": true,
-      "pattern": "#[0-9A-F]{6}",
+      "pattern": "^#[0-9A-F]{6}$",
       "title": "路線カラー",
       "description": "RGBチャネル16進数",
       "examples": [
@@ -90,22 +90,6 @@
       "examples": [
         "JU"
       ]
-    },
-    "closed_date": {
-      "type": "string",
-      "nullable": true,
-      "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
-      "title": "路線の廃止日",
-      "description": "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
-      "examples": [
-        "2015-03-14"
-      ]
-    },
-    "extra": {
-      "type": "boolean",
-      "nullable": true,
-      "title": "駅・路線が独自実装の登録か否かを表します",
-      "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です."
     },
     "station_list": {
       "type": "array",
@@ -127,7 +111,7 @@
           },
           "id": {
             "type": "string",
-            "pattern": "[0-9a-f]{6}",
+            "pattern": "^[0-9a-f]{6}$",
             "title": "駅・路線ID",
             "description": "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
             "examples": [
@@ -158,7 +142,7 @@
           },
           "name_kana": {
             "type": "string",
-            "pattern": "[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+",
+            "pattern": "^[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+$",
             "title": "駅・路線の名前のかな表現",
             "description": "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります.",
             "examples": [
@@ -202,6 +186,23 @@
             "title": "都道府県コード",
             "description": "駅が所在する都道府県を表します.都道府県コードの値は全国地方公共団体コード（JIS X 0401）に従います."
           },
+          "numbering": {
+            "type": "array",
+            "nullable": true,
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "title": "駅ナンバリング",
+            "description": "各路線における駅のナンバリング",
+            "examples": [
+              [
+                "H75"
+              ]
+            ]
+          },
           "lines": {
             "type": "array",
             "items": {
@@ -231,19 +232,19 @@
           },
           "attr": {
             "type": "string",
-            "nullable": true,
             "title": "駅の属性",
-            "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は'undefined'.",
+            "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は未定義",
             "enum": [
               "eco",
               "heat",
               "cool",
               "unknown"
-            ]
+            ],
+            "nullable": true
           },
           "postal_code": {
             "type": "string",
-            "pattern": "[0-9]{3}-[0-9]{4}",
+            "pattern": "^[0-9]{3}-[0-9]{4}$",
             "title": "駅の所在地を表す郵便番号",
             "description": "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します.",
             "examples": [
@@ -264,7 +265,7 @@
           "open_date": {
             "type": "string",
             "nullable": true,
-            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
             "title": "駅の開業日",
             "description": "一部の駅のみ定義されます.",
             "examples": [
@@ -274,7 +275,7 @@
           "closed_date": {
             "type": "string",
             "nullable": true,
-            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
             "title": "駅の廃止日",
             "description": "廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません.",
             "examples": [
@@ -661,25 +662,8 @@
           },
           "extra": {
             "type": "boolean",
-            "nullable": true,
             "title": "駅・路線が独自実装の登録か否かを表します",
-            "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です."
-          },
-          "numbering": {
-            "type": "array",
-            "nullable": true,
-            "minItems": 1,
-            "items": {
-              "type": "string",
-              "minLength": 1
-            },
-            "title": "駅ナンバリング",
-            "description": "各路線における駅のナンバリング",
-            "examples": [
-              [
-                "H75"
-              ]
-            ]
+            "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ)."
           }
         },
         "required": [
@@ -695,12 +679,28 @@
           "lines",
           "postal_code",
           "address",
-          "voronoi"
+          "voronoi",
+          "extra"
         ],
         "additionalProperties": false
       },
       "title": "登録駅リスト",
       "description": "原則として駅メモ実装と同じ順序です"
+    },
+    "closed_date": {
+      "type": "string",
+      "nullable": true,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "title": "路線の廃止日",
+      "description": "廃線の一部のみ定義されます. 現役駅の場合は定義されません.",
+      "examples": [
+        "2015-03-14"
+      ]
+    },
+    "extra": {
+      "type": "boolean",
+      "title": "駅・路線が独自実装の登録か否かを表します",
+      "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ)."
     }
   },
   "required": [
@@ -710,6 +710,7 @@
     "name_kana",
     "station_size",
     "closed",
+    "extra",
     "station_list"
   ],
   "additionalProperties": false

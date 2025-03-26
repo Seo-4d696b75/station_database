@@ -7,10 +7,10 @@
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-#[0-9A-F]{6}
+^#[0-9A-F]{6}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%23%5B0-9A-F%5D%7B6%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%23%5B0-9A-F%5D%7B6%7D%24 "try regular expression with regexr.com")
 
 ## colorの値の例
 

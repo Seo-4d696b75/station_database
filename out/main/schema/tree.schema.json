@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "title": "探索木",
+  "description": "駅の座標点に従い近傍を高速に探索するためのデータ構造(kd-tree)を定義します.",
+  "properties": {
+    "root": {
+      "type": "integer",
+      "title": "ルート駅コード",
+      "description": "kd-treeのルートに位置する頂点の駅コード. node_listに該当する頂点（駅）が必ず含まれます."
+    },
+    "node_list": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "title": "探索木の頂点",
+        "description": "駅の座標点を頂点として扱います. left, rightで下に続く子頂点を表します.",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "駅コード",
+            "description": "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
+            "examples": [
+              1110101,
+              100409
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "駅・路線の名前",
+            "description": "駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります.",
+            "examples": [
+              "函館",
+              "福島(福島)",
+              "JR函館本線(函館～長万部)"
+            ]
+          },
+          "lat": {
+            "type": "number",
+            "exclusiveMinimum": 26,
+            "exclusiveMaximum": 45.8,
+            "title": "駅座標（緯度）",
+            "description": "１０進小数で表記した緯度（小数点以下６桁）",
+            "examples": [
+              41.773709,
+              37.754123
+            ]
+          },
+          "lng": {
+            "type": "number",
+            "exclusiveMinimum": 127.5,
+            "exclusiveMaximum": 146.2,
+            "title": "駅座標（経度）",
+            "description": "１０進小数で表記した経度（小数点以下６桁）",
+            "examples": [
+              140.726413,
+              140.45968
+            ]
+          },
+          "left": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(left)",
+            "description": "緯度または経度の値がこの駅の座標より小さい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          },
+          "right": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(right)",
+            "description": "緯度または経度の値がこの駅の座標より大きい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          }
+        },
+        "required": [
+          "code",
+          "name",
+          "lat",
+          "lng"
+        ],
+        "additionalProperties": false
+      },
+      "title": "頂点リスト",
+      "description": "kd-treeを構成する頂点（駅）のリスト"
+    }
+  },
+  "required": [
+    "root",
+    "node_list"
+  ],
+  "additionalProperties": false
+}

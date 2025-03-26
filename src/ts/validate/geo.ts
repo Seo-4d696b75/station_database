@@ -1,26 +1,26 @@
-import { JSONPolylineGeo, JSONVoronoiGeo } from "../model/geo";
-import { Assert, eachAssert, withAssert } from "./assert";
+import { JSONPolylineGeo, JSONPolylineSrc, JSONVoronoiGeo } from "../model/geo";
+import { Assert, assertEach, withAssert } from "./assert";
 
-export function validateGeoVoronoi(obj: JSONVoronoiGeo): RectBounds {
+export function validateGeoVoronoi(obj: JSONVoronoiGeo) {
   const geometry = obj.geometry
   if (geometry.type === "Polygon") {
-    return withAssert("Feature(Polygon)", geometry, assert => {
+    withAssert("Feature(Polygon)", geometry, assert => {
       const list = geometry.coordinates[0]
       assert(list.length >= 4, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert.equals(start[0], end[0], "始点と終点の座標が違う[0]")
       assert.equals(start[1], end[1], "始点と終点の座標が違う[1]")
-      return validateGeoCoordinates("coordinates[0]", list)
+      validateGeoCoordinates("coordinates[0]", list)
     })
   } else {
-    return withAssert("Feature(LineString)", geometry, assert => {
+    withAssert("Feature(LineString)", geometry, assert => {
       const list = geometry.coordinates
       assert(list.length >= 2, "座標リストが短い")
       const start = list[0]
       const end = list[list.length - 1]
       assert(`${start[0]}/${start[1]}` !== `${end[0]}/${end[1]}`, "始点と終点の座標が重複している")
-      return validateGeoCoordinates("coordinates", list)
+      validateGeoCoordinates("coordinates", list)
     })
   }
 }
@@ -28,13 +28,13 @@ export function validateGeoVoronoi(obj: JSONVoronoiGeo): RectBounds {
 function validateGeoCoordinates(name: string, list: [number, number][]): RectBounds {
   const rect = initRect()
   let previous = ""
-  list.forEach(eachAssert(name, (pos, assert) => {
+  assertEach(list, name, (pos, assert) => {
     const [lng, lat] = pos
     const current = `${lat}/${lng}`
     assert(previous !== current, "直前の座標と重複している")
     previous = current
     addPoint(rect, lat, lng)
-  }))
+  })
   return rect
 }
 
@@ -89,7 +89,7 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
         joinMap.set(tag, str)
       }
     }
-    obj.features.forEach(eachAssert("FeatureCollection", (feature, assert) => {
+    assertEach(obj.features, "FeatureCollection", (feature, assert) => {
       const list = feature.geometry.coordinates
       const start = list[0]
       const end = list[list.length - 1]
@@ -106,44 +106,85 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
       rect = unionRect(rect, r)
       checkJoinCoordinate(feature.properties.start, start, assert)
       checkJoinCoordinate(feature.properties.end, end, assert)
-    }))
+    })
     // rect範囲の確認
     assert.equals(rect.north, obj.properties.north)
     assert.equals(rect.south, obj.properties.south)
     assert.equals(rect.east, obj.properties.east)
     assert.equals(rect.west, obj.properties.west)
-    // 幅優先探索でグラフの連結判定
-    const queue = [edges[0].start] // 次に探索する頂点のtag
-    const history = new Set<string>() // 探索済みの頂点
-    let remain = edges // 探索されていない辺
-    while (queue.length > 0) {
-      const tag = queue.splice(0, 1)[0]
-      // 隣接点を探してまだ探索していない場合は、
-      // 辺を削除＆隣接点を次の探索点として追加
-      remain = remain.filter(edge => {
-        if (edge.start === edge.end) {
-          // 例外
-          // 環状線など一部の路線では辺でループを表現している
-          return false
-        }
-        let next: string | null = null
-        if (edge.start === tag) {
-          next = edge.end
-        } else if (edge.end === tag) {
-          next = edge.start
-        }
-        if (next) {
-          if (!history.has(next)) {
-            history.add(next)
-            queue.push(next)
-          }
-          return false
-        }
-        return true
-      })
-    }
-    // queueが空になったら探索終了
-    // すべての辺が探索済みなら連結グラフ
-    assert(remain.length === 0, "グラフが連結でない")
+
+    assert(isJointPolyline(edges), "グラフが連結でない")
   })
+}
+
+// TODO 独自フォーマット廃止の検討
+export function validatePolylineSrc(data: JSONPolylineSrc, assert: Assert) {
+  const pointMap = new Map<string, [number, number]>()
+  const validatePoint = (tag: string, pos: [number, number], assert: Assert) => {
+    if (pointMap.has(tag)) {
+      const existingPos = pointMap.get(tag)
+      assert(
+        pos[0] === existingPos![0] && pos[1] === existingPos![1],
+        `路線ポリラインのセグメント末端の座標が一致しません tag:${tag}`
+      )
+    } else {
+      pointMap.set(tag, pos)
+    }
+  }
+  assertEach(data.point_list, 'point_list', (item, assert) => {
+    validatePoint(item.start, [item.points[0].lng, item.points[0].lat], assert)
+    validatePoint(item.end, [item.points[item.points.length - 1].lng, item.points[item.points.length - 1].lat], assert)
+
+    // 重複確認
+    let previous: [number, number] | null = null
+    assertEach(item.points, 'points', (p, assert) => {
+      const point: [number, number] = [p.lng, p.lat]
+      assert(
+        !previous || previous[0] !== point[0] || previous[1] !== point[1],
+        `路線ポリラインの座標が重複しています`
+      )
+      previous = point
+    })
+  })
+
+  // ポリラインの各セグメントが正しく連結されているか（互いに到達可能か）確認する
+  assert(isJointPolyline(data.point_list), `路線ポリラインの各セグメントが連結ではありません. `)
+}
+
+// 幅優先探索でグラフの連結判定
+function isJointPolyline(edges: Edge[]): boolean {
+  const queue: string[] = [] // 次に探索する頂点のtag
+  const history = new Set<string>() // 探索済みの頂点
+  queue.push(edges[0].start)
+  history.add(edges[0].start)
+  let remain = [...edges] // 探索されていない辺
+  while (queue.length > 0) {
+    const tag = queue.shift()!
+    // 隣接点を探してまだ探索していない場合は、
+    // 辺を削除＆隣接点を次の探索点として追加
+    remain = remain.filter(edge => {
+      if (edge.start === edge.end) {
+        // 例外
+        // 環状線など一部の路線では辺でループを表現している
+        return false
+      }
+      let next: string | null = null
+      if (edge.start === tag) {
+        next = edge.end
+      } else if (edge.end === tag) {
+        next = edge.start
+      }
+      if (next) {
+        if (!history.has(next)) {
+          history.add(next)
+          queue.push(next)
+        }
+        return false
+      }
+      return true
+    })
+  }
+  // queueが空になったら探索終了
+  // すべての辺が探索済みなら連結グラフ
+  return remain.length === 0
 }

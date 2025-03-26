@@ -1,19 +1,14 @@
 import axios from "axios";
 import * as fs from 'fs';
 import { JSDOM } from "jsdom";
-import { readCsvSafe } from "../ts/io";
+import { readCsvSafe, writeCsvSafe } from "../ts/io";
 import { csvLine } from "../ts/model/line";
 import { csvStation } from "../ts/model/station";
-
+import { normalizeCSVLine } from "../ts/validate/line";
+import { normalizeCSVStation } from "../ts/validate/station";
+import { csvEkimemo, CSVEkimemo } from "./model";
 const MAX_LINE_CODE = 700
 const MIN_INTERVAL = 300
-
-interface CSVEkimemo {
-  code: number
-  name: string
-  /** https://ekimemo.com/database/ で駅・路線を指定するcode */
-  ekimemo: number | null
-}
 
 async function delay(milliseconds: number): Promise<void> {
   if (milliseconds <= 0) return
@@ -22,21 +17,18 @@ async function delay(milliseconds: number): Promise<void> {
   })
 }
 
-function writeCsv(path: string, lines: CSVEkimemo[]) {
-  const csv = "code,name,ekimemo\n" + lines.map(r => `${r.code},${r.name},${r.ekimemo ?? 'NULL'}`).join("\n")
-  fs.writeFileSync(path, csv)
-}
-
 (async () => {
   // 路線・駅一覧をコピー
-  const lines: CSVEkimemo[] = readCsvSafe("src/line.csv", csvLine)
+  const lines: CSVEkimemo[] = readCsvSafe("src/line.csv", csvLine('extra'))
+    .map(l => normalizeCSVLine(l))
     .filter(line => !line.extra)
     .map(line => ({
       code: line.code,
       name: line.name,
       ekimemo: null,
     }))
-  const stations: CSVEkimemo[] = readCsvSafe("src/station.csv", csvStation)
+  const stations: CSVEkimemo[] = readCsvSafe("src/station.csv", csvStation('extra'))
+    .map(s => normalizeCSVStation(s))
     .filter(line => !line.extra)
     .map(s => ({
       code: s.code,
@@ -66,7 +58,7 @@ function writeCsv(path: string, lines: CSVEkimemo[]) {
       const r = lines.find(r => r.name === name)
       if (!r) throw Error("line not found name:" + name)
       r.ekimemo = code
-      writeCsv("src/ekimemo/line.csv", lines)
+      writeCsvSafe("src/ekimemo/line.csv", csvEkimemo, lines)
       fs.writeFileSync(`src/ekimemo/line/${code}.html`, html)
 
       // 対応する駅を検索
@@ -80,7 +72,7 @@ function writeCsv(path: string, lines: CSVEkimemo[]) {
         if (r.ekimemo && r.ekimemo !== parseInt(code)) throw Error(`station code mismatch ${name} ${code} !== ${r.code}`)
         r.ekimemo = parseInt(code)
       })
-      writeCsv("src/ekimemo/station.csv", stations)
+      writeCsvSafe("src/ekimemo/station.csv", csvEkimemo, stations)
 
       console.log(code, name)
       dom.window.close()

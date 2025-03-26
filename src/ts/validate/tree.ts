@@ -1,12 +1,10 @@
-import { JSONKdTreeSegment, JSONKdTreeSegmentNode } from "../model/tree";
+import { JSONKdTreeSegmentNode } from "../model/tree";
 import { Assert } from "./assert";
 
-interface Segment {
-  root: number
-  node_list: JSONKdTreeSegmentNode[]
-}
-
-export function validateTreeSegment(segment: Segment, assert: Assert) {
+export function validateTreeSegment(
+  segment: { root: number, node_list: JSONKdTreeSegmentNode[] },
+  assert: Assert,
+) {
   const map = new Map<number, JSONKdTreeSegmentNode>()
   segment.node_list.forEach(node => map.set(node.code, node))
   const queue = [segment.root]

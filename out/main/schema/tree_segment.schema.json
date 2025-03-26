@@ -35,7 +35,7 @@
           },
           "id": {
             "type": "string",
-            "pattern": "[0-9a-f]{6}",
+            "pattern": "^[0-9a-f]{6}$",
             "title": "駅・路線ID",
             "description": "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
             "examples": [
@@ -66,7 +66,7 @@
           },
           "name_kana": {
             "type": "string",
-            "pattern": "[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+",
+            "pattern": "^[\\p{sc=Hiragana}ー・\\p{gc=P}\\s]+$",
             "title": "駅・路線の名前のかな表現",
             "description": "駅メモに実装されているのと同じ名称です. ひらがな以外に一部記号を含む場合があります.",
             "examples": [
@@ -102,6 +102,37 @@
               140.726413,
               140.45968
             ]
+          },
+          "left": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(left)",
+            "description": "緯度または経度の値がこの駅の座標より小さい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          },
+          "right": {
+            "type": "integer",
+            "minimum": 100000,
+            "maximum": 9999999,
+            "title": "子頂点の駅コード(right)",
+            "description": "緯度または経度の値がこの駅の座標より大きい頂点の駅コード",
+            "examples": [
+              1110101,
+              100409
+            ],
+            "nullable": true
+          },
+          "segment": {
+            "type": "string",
+            "minLength": 1,
+            "nullable": true,
+            "title": "部分木の名前",
+            "description": "segmentが定義されている場合、指定された名前の部分木がこの頂点の下に続きます."
           },
           "prefecture": {
             "type": "integer",
@@ -139,9 +170,8 @@
           },
           "attr": {
             "type": "string",
-            "nullable": true,
             "title": "駅の属性",
-            "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は'undefined'.",
+            "description": "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'.",
             "enum": [
               "eco",
               "heat",
@@ -151,7 +181,7 @@
           },
           "postal_code": {
             "type": "string",
-            "pattern": "[0-9]{3}-[0-9]{4}",
+            "pattern": "^[0-9]{3}-[0-9]{4}$",
             "title": "駅の所在地を表す郵便番号",
             "description": "駅データ.jp由来の値、もしくは駅の緯度・軽度をGoogle Geocoding APIで自動検索した最も近い地点を指します.",
             "examples": [
@@ -172,7 +202,7 @@
           "open_date": {
             "type": "string",
             "nullable": true,
-            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
             "title": "駅の開業日",
             "description": "一部の駅のみ定義されます.",
             "examples": [
@@ -182,7 +212,7 @@
           "closed_date": {
             "type": "string",
             "nullable": true,
-            "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
             "title": "駅の廃止日",
             "description": "廃駅の一部の駅のみ定義されます. 現役駅の場合は定義されません.",
             "examples": [
@@ -566,43 +596,6 @@
               "properties"
             ],
             "additionalProperties": false
-          },
-          "extra": {
-            "type": "boolean",
-            "nullable": true,
-            "title": "駅・路線が独自実装の登録か否かを表します",
-            "description": "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です."
-          },
-          "left": {
-            "type": "integer",
-            "minimum": 100000,
-            "maximum": 9999999,
-            "title": "子頂点の駅コード(left)",
-            "description": "緯度または経度の値がこの駅の座標より小さい頂点の駅コード",
-            "examples": [
-              1110101,
-              100409
-            ],
-            "nullable": true
-          },
-          "right": {
-            "type": "integer",
-            "minimum": 100000,
-            "maximum": 9999999,
-            "title": "子頂点の駅コード(right)",
-            "description": "緯度または経度の値がこの駅の座標より大きい頂点の駅コード",
-            "examples": [
-              1110101,
-              100409
-            ],
-            "nullable": true
-          },
-          "segment": {
-            "type": "string",
-            "minLength": 1,
-            "nullable": true,
-            "title": "部分木の名前",
-            "description": "segmentが定義されている場合、指定された名前の部分木がこの頂点の下に続きます."
           }
         },
         "required": [
@@ -616,6 +609,7 @@
           "lng",
           "prefecture",
           "lines",
+          "attr",
           "postal_code",
           "address",
           "voronoi"

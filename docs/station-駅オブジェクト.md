@@ -73,25 +73,24 @@
 
 # itemsのプロパティ
 
-| Property                         | Type      | Required | Nullable | Defined by                                                                                    |
-| :------------------------------- | :-------- | :------- | :------- | :-------------------------------------------------------------------------------------------- |
-| [code](#code)                    | `integer` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅コード.md "undefined#/items/properties/code")                 |
-| [id](#id)                        | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線id.md "undefined#/items/properties/id")                  |
-| [name](#name)                    | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線の名前.md "undefined#/items/properties/name")               |
-| [original\_name](#original_name) | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-オリジナルの駅名称.md "undefined#/items/properties/original_name")   |
-| [name\_kana](#name_kana)         | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線の名前のかな表現.md "undefined#/items/properties/name_kana")     |
-| [closed](#closed)                | `boolean` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-廃駅フラグ.md "undefined#/items/properties/closed")              |
-| [lat](#lat)                      | `number`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅座標緯度.md "undefined#/items/properties/lat")                 |
-| [lng](#lng)                      | `number`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅座標経度.md "undefined#/items/properties/lng")                 |
-| [prefecture](#prefecture)        | `integer` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-都道府県コード.md "undefined#/items/properties/prefecture")        |
-| [lines](#lines)                  | `array`   | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅が登録されている路線.md "undefined#/items/properties/lines")         |
-| [attr](#attr)                    | `string`  | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅の属性.md "undefined#/items/properties/attr")                 |
-| [postal\_code](#postal_code)     | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅の所在地を表す郵便番号.md "undefined#/items/properties/postal_code")  |
-| [address](#address)              | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅の所在地の住所.md "undefined#/items/properties/address")          |
-| [open\_date](#open_date)         | `string`  | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅の開業日.md "undefined#/items/properties/open_date")           |
-| [closed\_date](#closed_date)     | `string`  | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅の廃止日.md "undefined#/items/properties/closed_date")         |
-| [voronoi](#voronoi)              | `object`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲.md "undefined#/items/properties/voronoi")            |
-| [extra](#extra)                  | `boolean` | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/items/properties/extra") |
+| Property                         | Type      | Required | Nullable | Defined by                                                                                   |
+| :------------------------------- | :-------- | :------- | :------- | :------------------------------------------------------------------------------------------- |
+| [code](#code)                    | `integer` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅コード.md "undefined#/items/properties/code")                |
+| [id](#id)                        | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線id.md "undefined#/items/properties/id")                 |
+| [name](#name)                    | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線の名前.md "undefined#/items/properties/name")              |
+| [original\_name](#original_name) | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-オリジナルの駅名称.md "undefined#/items/properties/original_name")  |
+| [name\_kana](#name_kana)         | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅路線の名前のかな表現.md "undefined#/items/properties/name_kana")    |
+| [closed](#closed)                | `boolean` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-廃駅フラグ.md "undefined#/items/properties/closed")             |
+| [lat](#lat)                      | `number`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅座標緯度.md "undefined#/items/properties/lat")                |
+| [lng](#lng)                      | `number`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅座標経度.md "undefined#/items/properties/lng")                |
+| [prefecture](#prefecture)        | `integer` | Required | non-null | [駅リスト](station-駅オブジェクト-properties-都道府県コード.md "undefined#/items/properties/prefecture")       |
+| [lines](#lines)                  | `array`   | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅が登録されている路線.md "undefined#/items/properties/lines")        |
+| [attr](#attr)                    | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅の属性.md "undefined#/items/properties/attr")                |
+| [postal\_code](#postal_code)     | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅の所在地を表す郵便番号.md "undefined#/items/properties/postal_code") |
+| [address](#address)              | `string`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-駅の所在地の住所.md "undefined#/items/properties/address")         |
+| [open\_date](#open_date)         | `string`  | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅の開業日.md "undefined#/items/properties/open_date")          |
+| [closed\_date](#closed_date)     | `string`  | Optional | non-null | [駅リスト](station-駅オブジェクト-properties-駅の廃止日.md "undefined#/items/properties/closed_date")        |
+| [voronoi](#voronoi)              | `object`  | Required | non-null | [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲.md "undefined#/items/properties/voronoi")           |
 
 ## code
 
@@ -150,10 +149,10 @@
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9a-f]{6}
+^[0-9a-f]{6}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9a-f%5D%7B6%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9a-f%5D%7B6%7D%24 "try regular expression with regexr.com")
 
 ### idの値の例
 
@@ -256,10 +255,10 @@
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[\p{sc=Hiragana}ー・\p{gc=P}\s]+
+^[\p{sc=Hiragana}ー・\p{gc=P}\s]+$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B%5Cp%7Bsc%3DHiragana%7D%E3%83%BC%E3%83%BB%5Cp%7Bgc%3DP%7D%5Cs%5D%2B%24 "try regular expression with regexr.com")
 
 ### name\_kanaの値の例
 
@@ -430,11 +429,11 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 ## attr
 
-駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合は'undefined'.
+駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'.
 
 `attr`
 
-*   undefinedを許可します
+*   undefinedを許可しません
 
 *   Type: `string` ([駅の属性](station-駅オブジェクト-properties-駅の属性.md))
 
@@ -480,10 +479,10 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9]{3}-[0-9]{4}
+^[0-9]{3}-[0-9]{4}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B3%7D-%5B0-9%5D%7B4%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9%5D%7B3%7D-%5B0-9%5D%7B4%7D%24 "try regular expression with regexr.com")
 
 ### postal\_codeの値の例
 
@@ -550,10 +549,10 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9]{4}-[0-9]{2}-[0-9]{2}
+^[0-9]{4}-[0-9]{2}-[0-9]{2}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D%24 "try regular expression with regexr.com")
 
 ### open\_dateの値の例
 
@@ -584,10 +583,10 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 **pattern**: 次の正規表現にマッチする文字列です
 
 ```regexp
-[0-9]{4}-[0-9]{2}-[0-9]{2}
+^[0-9]{4}-[0-9]{2}-[0-9]{2}$
 ```
 
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D "try regular expression with regexr.com")
+[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7D%24 "try regular expression with regexr.com")
 
 ### closed\_dateの値の例
 
@@ -664,21 +663,3 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
   "properties": {}
 }
 ```
-
-## extra
-
-false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ). mainデータセットの一部ではこの属性は未定義（undefined）です.
-
-`extra`
-
-*   undefinedを許可します
-
-*   Type: `boolean` ([駅・路線が独自実装の登録か否かを表します](station-駅オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md))
-
-*   non-null
-
-*   defined in: [駅リスト](station-駅オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md "undefined#/items/properties/extra")
-
-### extraの型定義
-
-`boolean` ([駅・路線が独自実装の登録か否かを表します](station-駅オブジェクト-properties-駅路線が独自実装の登録か否かを表します.md))

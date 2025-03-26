@@ -6,7 +6,6 @@ on:
     paths:
       - 'out/**'
       - 'src/ts/**'
-      - 'src/script/**'
 jobs:
   format:
     runs-on: ubuntu-latest
@@ -21,10 +20,12 @@ jobs:
           cache: "npm"
       - name: setup node modules
         run: npm install
-      - name: run test (main)
+      - name: run test (main format)
         run: npm run test-format-main
-      - name: run text (extra)
+      - name: run test (extra format)
         run: npm run test-format-extra
+      - name: run test (subset)
+        run: npm run test-subset
   fetch-base:
     runs-on: ubuntu-latest
     steps:
@@ -41,6 +42,8 @@ jobs:
         with:
           name: base-data
           path: artifact
+          # .env ファイルもアップロードする
+          include-hidden-files: true
   consistency:
     runs-on: ubuntu-latest
     needs: fetch-base
@@ -50,32 +53,30 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{github.head_ref}}
-      - uses: ruby/setup-ruby@v1
+      - name: setup Node.js
+        uses: actions/setup-node@v4
         with:
-          ruby-version: .ruby-version
-          bundler-cache: true
+          node-version-file: .node-version
+          cache: "npm"
+      - name: setup node modules
+        run: npm install
       - name: download base data
         uses: actions/download-artifact@v4
         with:
           name: base-data
           path: artifact
+      - name: test version
+        run: npm run test-version
       - name: unzip base data
         run: |
           unzip -q artifact/main.zip -d artifact
           mv artifact/json artifact/main
           unzip -q artifact/extra.zip -d artifact
           mv artifact/json artifact/extra
-      - name: enable problem matcher
-        run: |
-          echo "::add-matcher::.github/problem-matcher.json"
-      - name: check version
-        run: bundle exec ruby src/script/test_version.rb
-      - name: check subset
-        run: bundle exec ruby src/script/test_subset.rb
       - name: compare data
         run: |
-          bundle exec ruby src/script/test_update.rb 
-          bundle exec ruby src/script/test_update.rb -e
+          npm run test-update-main
+          npm run test-update-extra
           cat artifact/diff.extra.md >> artifact/diff.md
           rm artifact/diff.extra.md
       - name: comment on PR
