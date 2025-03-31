@@ -37,7 +37,12 @@ async function main() {
 
   // clean
   console.log('cleaning')
-  const files = await glob(`${dir}/**/*.{json,csv}`)
+  const files = await glob([
+    `${dir}/*.{json,csv}`,
+    `${dir}/line/*`,
+    `${dir}/polyline/*`,
+    `${dir}/tree/*`
+  ])
   files.forEach(file => {
     if (existsSync(file)) {
       unlinkSync(file)
