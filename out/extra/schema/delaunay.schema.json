@@ -1,0 +1,94 @@
+{
+  "type": "array",
+  "title": "隣接点リスト",
+  "description": "ドロネー分割による隣接点（駅座標）を各駅ごとに定義します.",
+  "items": {
+    "type": "object",
+    "title": "駅オブジェクト(隣接点)",
+    "description": "ドロネー分割による隣接点（駅座標）を定義",
+    "properties": {
+      "code": {
+        "type": "integer",
+        "minimum": 100000,
+        "maximum": 9999999,
+        "title": "駅コード",
+        "description": "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
+        "examples": [
+          1110101,
+          100409
+        ]
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "title": "駅・路線の名前",
+        "description": "駅メモに実装されているのと同じ名称です. データセット内で重複はありません. 重複防止の接尾語が付加される場合があります.",
+        "examples": [
+          "函館",
+          "福島(福島)",
+          "JR函館本線(函館～長万部)"
+        ]
+      },
+      "lat": {
+        "type": "number",
+        "exclusiveMinimum": 26,
+        "exclusiveMaximum": 45.8,
+        "title": "駅座標（緯度）",
+        "description": "１０進小数で表記した緯度（小数点以下６桁）",
+        "examples": [
+          41.773709,
+          37.754123
+        ]
+      },
+      "lng": {
+        "type": "number",
+        "exclusiveMinimum": 127.5,
+        "exclusiveMaximum": 146.2,
+        "title": "駅座標（経度）",
+        "description": "１０進小数で表記した経度（小数点以下６桁）",
+        "examples": [
+          140.726413,
+          140.45968
+        ]
+      },
+      "next": {
+        "type": "array",
+        "title": "隣接駅コードリスト",
+        "description": "隣接駅の駅コードを要素に持ちます.",
+        "items": {
+          "type": "integer",
+          "minimum": 100000,
+          "maximum": 9999999,
+          "title": "駅コード",
+          "description": "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
+          "examples": [
+            1110101,
+            100409
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true,
+        "examples": [
+          [
+            9910514,
+            1110102,
+            9910518,
+            9910622,
+            9910621,
+            9910515,
+            9910623,
+            9910517
+          ]
+        ]
+      }
+    },
+    "required": [
+      "code",
+      "name",
+      "lat",
+      "lng",
+      "next"
+    ],
+    "additionalProperties": false
+  }
+}
