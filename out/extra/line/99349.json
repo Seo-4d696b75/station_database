@@ -1,12 +1,12 @@
 {
   "code":99349,
-  "id":"706519",
+  "id":623,
   "name":"鉄道院中央本線",
   "name_kana":"てつどういんちゅうおうほんせん",
   "station_size":1,
   "closed":true,
   "station_list":[
-    {"code":9934901,"id":"6d7c2b","name":"昌平橋","original_name":"昌平橋","name_kana":"しょうへいばし","closed":true,"lat":35.698278,"lng":139.768583,"prefecture":13,"lines":[99349],"attr":"unknown","postal_code":"101-0063","address":"東京都千代田区神田淡路町２丁目９-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767153,35.699991],[139.767927,35.702106],[139.77081,35.700184],[139.771145,35.695559],[139.767775,35.696702],[139.7674,35.696909],[139.767153,35.699991]]]},"properties":{}},"extra":false}
+    {"code":9934901,"id":9289,"name":"昌平橋","original_name":"昌平橋","name_kana":"しょうへいばし","closed":true,"lat":35.698278,"lng":139.768583,"prefecture":13,"lines":[99349],"attr":"unknown","postal_code":"101-0063","address":"東京都千代田区神田淡路町２丁目９-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.767153,35.699991],[139.767927,35.702106],[139.77081,35.700184],[139.771145,35.695559],[139.767775,35.696702],[139.7674,35.696909],[139.767153,35.699991]]]},"properties":{}},"extra":false}
   ],
   "extra":false
 }

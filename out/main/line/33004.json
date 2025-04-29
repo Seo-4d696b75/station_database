@@ -1,6 +1,6 @@
 {
   "code":33004,
-  "id":"8efcb0",
+  "id":337,
   "name":"京阪鴨東線",
   "name_kana":"けいはんおうとうせん",
   "station_size":3,
@@ -9,8 +9,8 @@
   "color":"#66CC33",
   "symbol":"KH",
   "station_list":[
-    {"code":3300401,"id":"11fb58","name":"出町柳","original_name":"出町柳","name_kana":"でまちやなぎ","closed":false,"lat":35.029654,"lng":135.772519,"prefecture":26,"numbering":["KH42"],"lines":[33001,33004,99606],"attr":"eco","postal_code":"606-0821","address":"京都市左京区賀茂大橋東詰","open_date":"1989-10-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.770167,35.040678],[135.771702,35.041118],[135.782283,35.023412],[135.76571,35.023735],[135.766103,35.033779],[135.770167,35.040678]]]},"properties":{}}},
-    {"code":3300402,"id":"cb3f5d","name":"神宮丸太町","original_name":"神宮丸太町","name_kana":"じんぐうまるたまち","closed":false,"lat":35.017555,"lng":135.772283,"prefecture":26,"numbering":["KH41"],"lines":[33001,33004],"attr":"eco","postal_code":"606-8395","address":"京都市左京区東丸太町","open_date":"1989-10-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.76571,35.023735],[135.76541,35.023427],[135.765937,35.016714],[135.772348,35.013334],[135.772571,35.013334],[135.777005,35.014132],[135.784886,35.022047],[135.782283,35.023412],[135.76571,35.023735]]]},"properties":{}}},
-    {"code":3300101,"id":"e81894","name":"三条(京都)","original_name":"三条","name_kana":"さんじょう","closed":false,"lat":35.009114,"lng":135.772274,"prefecture":26,"numbering":["KH40"],"lines":[33001,33004],"attr":"eco","postal_code":"605-0000","address":"京都市東山区三条大橋東詰","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.770796,35.006478],[135.769082,35.007378],[135.772348,35.013334],[135.772571,35.013334],[135.773337,35.006331],[135.770796,35.006478]]]},"properties":{}}}
+    {"code":3300401,"id":6034,"name":"出町柳","original_name":"出町柳","name_kana":"でまちやなぎ","closed":false,"lat":35.029654,"lng":135.772519,"prefecture":26,"numbering":["KH42"],"lines":[33001,33004,99606],"attr":"eco","postal_code":"606-0821","address":"京都市左京区賀茂大橋東詰","open_date":"1989-10-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.770167,35.040678],[135.771702,35.041118],[135.782283,35.023412],[135.76571,35.023735],[135.766103,35.033779],[135.770167,35.040678]]]},"properties":{}}},
+    {"code":3300402,"id":6035,"name":"神宮丸太町","original_name":"神宮丸太町","name_kana":"じんぐうまるたまち","closed":false,"lat":35.017555,"lng":135.772283,"prefecture":26,"numbering":["KH41"],"lines":[33001,33004],"attr":"eco","postal_code":"606-8395","address":"京都市左京区東丸太町","open_date":"1989-10-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.76571,35.023735],[135.76541,35.023427],[135.765937,35.016714],[135.772348,35.013334],[135.772571,35.013334],[135.777005,35.014132],[135.784886,35.022047],[135.782283,35.023412],[135.76571,35.023735]]]},"properties":{}}},
+    {"code":3300101,"id":5984,"name":"三条(京都)","original_name":"三条","name_kana":"さんじょう","closed":false,"lat":35.009114,"lng":135.772274,"prefecture":26,"numbering":["KH40"],"lines":[33001,33004],"attr":"eco","postal_code":"605-0000","address":"京都市東山区三条大橋東詰","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.770796,35.006478],[135.769082,35.007378],[135.772348,35.013334],[135.772571,35.013334],[135.773337,35.006331],[135.770796,35.006478]]]},"properties":{}}}
   ]
 }

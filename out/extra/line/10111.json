@@ -1,6 +1,6 @@
 {
   "code":10111,
-  "id":"ea8d8d",
+  "id":1015,
   "name":"手宮線",
   "name_kana":"てみやせん",
   "name_formal":"国鉄手宮線",
@@ -8,9 +8,9 @@
   "company_code":0,
   "closed":true,
   "station_list":[
-    {"code":1110302,"id":"d2ca10","name":"南小樽","original_name":"南小樽","name_kana":"みなみおたる","closed":false,"lat":43.186529,"lng":141.007883,"prefecture":1,"lines":[11103,10111],"attr":"cool","postal_code":"047-0015","address":"小樽市住吉町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[141.020261,43.204882],[141.02476,43.206698],[140.976195,43.028747],[140.935902,43.035358],[140.953736,43.128967],[140.995739,43.185127],[141.020261,43.204882]]]},"properties":{}},"extra":false},
-    {"code":1011102,"id":"66196e","name":"色内","original_name":"色内","name_kana":"いろない","closed":true,"lat":43.196694,"lng":140.999694,"prefecture":1,"lines":[10111],"postal_code":"047-0031","address":"北海道小樽市色内１丁目９-５","open_date":"1912-08-06","closed_date":"1962-05-15","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.995739,43.185127],[140.997148,43.202927],[141.020261,43.204882],[140.995739,43.185127]]]},"properties":{}},"extra":true},
-    {"code":1011103,"id":"0826e0","name":"手宮","original_name":"手宮","name_kana":"てみや","closed":true,"lat":43.2095,"lng":140.998611,"prefecture":1,"lines":[10111],"postal_code":"047-0041","address":"北海道小樽市手宮１丁目３","open_date":"1880-11-28","closed_date":"1985-11-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.997148,43.202927],[141.020261,43.204882],[141.02476,43.206698],[141.052913,43.236509],[141.219044,43.569015],[140.901977,43.828221],[140.960455,43.217684],[140.997148,43.202927]]]},"properties":{}},"extra":true}
+    {"code":1110302,"id":57,"name":"南小樽","original_name":"南小樽","name_kana":"みなみおたる","closed":false,"lat":43.186529,"lng":141.007883,"prefecture":1,"lines":[11103,10111],"attr":"cool","postal_code":"047-0015","address":"小樽市住吉町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[141.020261,43.204882],[141.02476,43.206698],[140.976195,43.028747],[140.935902,43.035358],[140.953736,43.128967],[140.995739,43.185127],[141.020261,43.204882]]]},"properties":{}},"extra":false},
+    {"code":1011102,"id":10409,"name":"色内","original_name":"色内","name_kana":"いろない","closed":true,"lat":43.196694,"lng":140.999694,"prefecture":1,"lines":[10111],"postal_code":"047-0031","address":"北海道小樽市色内１丁目９-５","open_date":"1912-08-06","closed_date":"1962-05-15","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.995739,43.185127],[140.997148,43.202927],[141.020261,43.204882],[140.995739,43.185127]]]},"properties":{}},"extra":true},
+    {"code":1011103,"id":10410,"name":"手宮","original_name":"手宮","name_kana":"てみや","closed":true,"lat":43.2095,"lng":140.998611,"prefecture":1,"lines":[10111],"postal_code":"047-0041","address":"北海道小樽市手宮１丁目３","open_date":"1880-11-28","closed_date":"1985-11-05","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[140.997148,43.202927],[141.020261,43.204882],[141.02476,43.206698],[141.052913,43.236509],[141.219044,43.569015],[140.901977,43.828221],[140.960455,43.217684],[140.997148,43.202927]]]},"properties":{}},"extra":true}
   ],
   "closed_date":"1985-11-05",
   "extra":true

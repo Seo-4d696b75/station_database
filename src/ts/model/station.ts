@@ -1,6 +1,6 @@
 import { JSONSchemaType } from "ajv"
 import { Station } from "../validate/station"
-import { dateStringPattern, kanaName, originalStationName, stationAttr, stationLineExtra, stationLineId, stationLineName } from "./common"
+import { dateStringPattern, kanaName, originalStationName, stationAttr, stationLineExtra, stationLineName } from "./common"
 import { Dataset, hasExtra } from "./dataset"
 import { jsonVoronoi, JSONVoronoiGeo } from "./geo"
 import { lineCode } from "./line"
@@ -11,6 +11,17 @@ export const stationCode: JSONSchemaType<number> = {
   title: "駅コード",
   description: "データセット内の駅を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません.",
   examples: [1110101, 100409],
+}
+
+export const stationId: JSONSchemaType<number> = {
+  type: "integer",
+  minimum: 1,
+  title: "駅ID",
+  description: "駅の識別子. 駅コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅のIDは異なるデータセットでも同じIDになります）. IDは駅メモ公式Webサイトの「駅の思い出」ページのURL https://ekimemo.com/database/station/{id}/activity に対応しています. 独自追加の廃駅のIDは10000番台の連番を使用しています.",
+  examples: [
+    1,
+    2,
+  ],
 }
 
 export const stationLat: JSONSchemaType<number> = {
@@ -98,7 +109,7 @@ export const stationClosed = {
 
 export type JSONStation<D extends Dataset> = {
   code: number
-  id: string
+  id: number
   name: string
   original_name: string
   name_kana: string
@@ -136,7 +147,7 @@ const jsonStationMain: JSONSchemaType<JSONStation<'main'>> = {
   ],
   properties: {
     code: stationCode,
-    id: stationLineId,
+    id: stationId,
     name: stationLineName,
     original_name: originalStationName,
     name_kana: kanaName,
@@ -180,7 +191,7 @@ const jsonStationExtra: JSONSchemaType<JSONStation<'extra'>> = {
   ],
   properties: {
     code: stationCode,
-    id: stationLineId,
+    id: stationId,
     name: stationLineName,
     original_name: originalStationName,
     name_kana: kanaName,
@@ -230,7 +241,7 @@ export const jsonStationList = (dataset: Dataset): JSONSchemaType<JSONStation<ty
 
 export type CSVStation<D extends Dataset> = {
   code: number
-  id: string
+  id: number
   name: string
   original_name: string
   name_kana: string
@@ -251,7 +262,7 @@ const csvStationMain: JSONSchemaType<CSVStation<'main'>> = {
   type: "object",
   properties: {
     code: stationCode,
-    id: stationLineId,
+    id: stationId,
     name: stationLineName,
     original_name: stationLineName,
     name_kana: kanaName,
@@ -288,7 +299,7 @@ const csvStationExtra: JSONSchemaType<CSVStation<'extra'>> = {
   type: "object",
   properties: {
     code: stationCode,
-    id: stationLineId,
+    id: stationId,
     name: stationLineName,
     original_name: stationLineName,
     name_kana: kanaName,

@@ -1,6 +1,6 @@
 {
   "code":24005,
-  "id":"5b2e9a",
+  "id":251,
   "name":"京王動物園線",
   "name_kana":"けいおうどうぶつえんせん",
   "station_size":2,
@@ -9,7 +9,7 @@
   "color":"#DD3377",
   "symbol":"KO",
   "station_list":[
-    {"code":2400129,"id":"3129f8","name":"高幡不動","original_name":"高幡不動","name_kana":"たかはたふどう","closed":false,"lat":35.662361,"lng":139.412953,"prefecture":13,"numbering":["KO29"],"lines":[24001,24005,99334],"attr":"heat","postal_code":"191-0031","address":"日野市高幡１３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.411899,35.670507],[139.400862,35.667896],[139.399526,35.666391],[139.401147,35.66204],[139.421031,35.655871],[139.422668,35.661873],[139.411899,35.670507]]]},"properties":{}}},
-    {"code":2400502,"id":"3b3e52","name":"多摩動物公園","original_name":"多摩動物公園","name_kana":"たまどうぶつこうえん","closed":false,"lat":35.649215,"lng":139.404627,"prefecture":13,"numbering":["KO47"],"lines":[24005,99334],"attr":"cool","postal_code":"191-0042","address":"日野市程久保３-３６-３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.393687,35.638355],[139.39301,35.638473],[139.392954,35.639221],[139.40124,35.658788],[139.411431,35.648262],[139.393687,35.638355]]]},"properties":{}}}
+    {"code":2400129,"id":4946,"name":"高幡不動","original_name":"高幡不動","name_kana":"たかはたふどう","closed":false,"lat":35.662361,"lng":139.412953,"prefecture":13,"numbering":["KO29"],"lines":[24001,24005,99334],"attr":"heat","postal_code":"191-0031","address":"日野市高幡１３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.411899,35.670507],[139.400862,35.667896],[139.399526,35.666391],[139.401147,35.66204],[139.421031,35.655871],[139.422668,35.661873],[139.411899,35.670507]]]},"properties":{}}},
+    {"code":2400502,"id":4968,"name":"多摩動物公園","original_name":"多摩動物公園","name_kana":"たまどうぶつこうえん","closed":false,"lat":35.649215,"lng":139.404627,"prefecture":13,"numbering":["KO47"],"lines":[24005,99334],"attr":"cool","postal_code":"191-0042","address":"日野市程久保３-３６-３９","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.393687,35.638355],[139.39301,35.638473],[139.392954,35.639221],[139.40124,35.658788],[139.411431,35.648262],[139.393687,35.638355]]]},"properties":{}}}
   ]
 }
