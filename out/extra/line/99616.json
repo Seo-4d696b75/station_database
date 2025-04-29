@@ -1,13 +1,13 @@
 {
   "code":99616,
   "id":488,
-  "name":"泉北高速鉄道線",
-  "name_kana":"せんぼくこうそくてつどう",
+  "name":"南海泉北線",
+  "name_kana":"なんかいせんぼくせん",
   "station_size":6,
-  "company_code":198,
+  "company_code":22,
   "closed":false,
-  "color":"#007FFF",
-  "symbol":"SB",
+  "color":"#B1BC3A",
+  "symbol":"NK",
   "station_list":[
     {"code":3200715,"id":5952,"name":"中百舌鳥","original_name":"中百舌鳥","name_kana":"なかもず","closed":false,"lat":34.556232,"lng":135.504454,"prefecture":27,"numbering":["SB01"],"lines":[32007,99616],"attr":"heat","postal_code":"591-8023","address":"堺市北区中百舌鳥町２丁１９６","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.495825,34.550821],[135.49503,34.54492],[135.501802,34.543086],[135.503908,34.54614],[135.506113,34.564325],[135.495825,34.550821]]]},"properties":{}},"extra":false},
     {"code":9961602,"id":7991,"name":"深井","original_name":"深井","name_kana":"ふかい","closed":false,"lat":34.530398,"lng":135.497461,"prefecture":27,"numbering":["SB02"],"lines":[99616],"attr":"eco","postal_code":"599-8236","address":"堺市中区深井沢町３２９０","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.512779,34.534406],[135.501802,34.543086],[135.49503,34.54492],[135.491606,34.543874],[135.481784,34.533873],[135.477873,34.524216],[135.477416,34.510349],[135.491307,34.508149],[135.518775,34.519791],[135.518769,34.519821],[135.512779,34.534406]]]},"properties":{}},"extra":false},

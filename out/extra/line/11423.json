@@ -1,6 +1,6 @@
 {
   "code":11423,
-  "id":1088,
+  "id":2088,
   "name":"JR富山港線",
   "name_kana":"じぇいあーるとやまこうせん",
   "station_size":10,
@@ -8,7 +8,7 @@
   "closed":true,
   "station_list":[
     {"code":100911,"id":2066,"name":"富山","original_name":"富山","name_kana":"とやま","closed":false,"lat":36.701612,"lng":137.213252,"prefecture":16,"lines":[1009,11405,11416,99425,11423],"attr":"eco","postal_code":"930-0001","address":"富山市明輪町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.212651,36.702887],[137.213042,36.700913],[137.213471,36.700933],[137.214123,36.701627],[137.212651,36.702887]]]},"properties":{}},"extra":false},
-    {"code":1142302,"id":11005,"name":"富山口","original_name":"富山口","name_kana":"とやまぐち","closed":true,"lat":36.698833,"lng":137.220694,"prefecture":16,"lines":[11423],"postal_code":"930-0854","address":"富山県富山市城北町１９","open_date":"1924-07-23","closed_date":"2006-03-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.224595,36.691222],[137.226171,36.698663],[137.2219,36.701344],[137.218306,36.700429],[137.218438,36.698008],[137.219101,36.695834],[137.221779,36.692815],[137.224429,36.691045],[137.224595,36.691222]]]},"properties":{}},"extra":true},
+    {"code":1142302,"id":21005,"name":"富山口","original_name":"富山口","name_kana":"とやまぐち","closed":true,"lat":36.698833,"lng":137.220694,"prefecture":16,"lines":[11423],"postal_code":"930-0854","address":"富山県富山市城北町１９","open_date":"1924-07-23","closed_date":"2006-03-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.224595,36.691222],[137.226171,36.698663],[137.2219,36.701344],[137.218306,36.700429],[137.218438,36.698008],[137.219101,36.695834],[137.221779,36.692815],[137.224429,36.691045],[137.224595,36.691222]]]},"properties":{}},"extra":true},
     {"code":9941507,"id":7311,"name":"下奥井","original_name":"下奥井","name_kana":"しもおくい","closed":false,"lat":36.711311,"lng":137.224478,"prefecture":16,"lines":[99415,11423],"attr":"heat","postal_code":"930-0817","address":"富山市下奥井","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.215597,36.712443],[137.212959,36.715811],[137.232802,36.71503],[137.236111,36.708819],[137.234719,36.707108],[137.233235,36.706426],[137.22102,36.707745],[137.219251,36.708771],[137.215597,36.712443]]]},"properties":{}},"extra":false},
     {"code":9941509,"id":7313,"name":"越中中島","original_name":"越中中島","name_kana":"えっちゅうなかじま","closed":false,"lat":36.722121,"lng":137.224844,"prefecture":16,"lines":[99415,11423],"attr":"heat","postal_code":"930-0801","address":"富山市中島３丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.232634,36.720619],[137.23334,36.725526],[137.211152,36.728585],[137.212033,36.720981],[137.232634,36.720619]]]},"properties":{}},"extra":false},
     {"code":9941510,"id":7314,"name":"城川原","original_name":"城川原","name_kana":"じょうがわら","closed":false,"lat":36.731103,"lng":137.226082,"prefecture":16,"lines":[99415,11423],"attr":"heat","postal_code":"931-8325","address":"富山市城川原","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[137.20911,36.73541],[137.208952,36.733518],[137.211152,36.728585],[137.23334,36.725526],[137.238222,36.731803],[137.20911,36.73541]]]},"properties":{}},"extra":false},

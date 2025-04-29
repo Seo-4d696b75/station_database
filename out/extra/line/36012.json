@@ -1,6 +1,6 @@
 {
   "code":36012,
-  "id":1194,
+  "id":2194,
   "name":"西鉄福岡市内線(呉服町線)",
   "name_kana":"にしてつふくおかしないせん(ごふくまちせん)",
   "station_size":3,
@@ -8,8 +8,8 @@
   "closed":true,
   "station_list":[
     {"code":9990602,"id":8795,"name":"呉服町(福岡)","original_name":"呉服町","name_kana":"ごふくまち","closed":false,"lat":33.59829,"lng":130.409892,"prefecture":40,"lines":[99906,36011,36012],"attr":"eco","postal_code":"812-0024","address":"福岡市博多区綱場町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.408791,33.601386],[130.412402,33.597546],[130.410589,33.595721],[130.406304,33.599765],[130.406828,33.60063],[130.408791,33.601386]]]},"properties":{}},"extra":false},
-    {"code":3601202,"id":11826,"name":"奥の堂","original_name":"奥の堂","name_kana":"おくのどう","closed":true,"lat":33.59504,"lng":130.413163,"prefecture":40,"lines":[36012],"postal_code":"812-0039","address":"福岡県福岡市博多区４冷泉町","closed_date":"1975-11-02","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.41441,33.597816],[130.414923,33.59622],[130.412794,33.592848],[130.410358,33.594743],[130.410589,33.595721],[130.412402,33.597546],[130.414196,33.598024],[130.41441,33.597816]]]},"properties":{}},"extra":true},
-    {"code":3601005,"id":11787,"name":"祇園町","original_name":"祇園町","name_kana":"ぎおんまち","closed":true,"lat":33.592935,"lng":130.416136,"prefecture":40,"lines":[36010,36012],"postal_code":"812-0011","address":"福岡県福岡市博多区博多駅前２丁目２０","closed_date":"1979-02-11","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.419797,33.593638],[130.419857,33.593729],[130.416284,33.594693],[130.413652,33.591324],[130.413988,33.589488],[130.415311,33.589486],[130.419797,33.593638]]]},"properties":{}},"extra":true}
+    {"code":3601202,"id":21826,"name":"奥の堂","original_name":"奥の堂","name_kana":"おくのどう","closed":true,"lat":33.59504,"lng":130.413163,"prefecture":40,"lines":[36012],"postal_code":"812-0039","address":"福岡県福岡市博多区４冷泉町","closed_date":"1975-11-02","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.41441,33.597816],[130.414923,33.59622],[130.412794,33.592848],[130.410358,33.594743],[130.410589,33.595721],[130.412402,33.597546],[130.414196,33.598024],[130.41441,33.597816]]]},"properties":{}},"extra":true},
+    {"code":3601005,"id":21787,"name":"祇園町","original_name":"祇園町","name_kana":"ぎおんまち","closed":true,"lat":33.592935,"lng":130.416136,"prefecture":40,"lines":[36010,36012],"postal_code":"812-0011","address":"福岡県福岡市博多区博多駅前２丁目２０","closed_date":"1979-02-11","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.419797,33.593638],[130.419857,33.593729],[130.416284,33.594693],[130.413652,33.591324],[130.413988,33.589488],[130.415311,33.589486],[130.419797,33.593638]]]},"properties":{}},"extra":true}
   ],
   "closed_date":"1975-11-02",
   "extra":true
