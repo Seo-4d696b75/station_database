@@ -1,9 +1,11 @@
 {
-  "name":"南海天王寺支線",
+  "name":"南海泉北線",
   "station_list":[
-    {"code":1160719,"name":"天王寺"},
-    {"code":3201002,"name":"飛田本通"},
-    {"code":3201003,"name":"今池町"},
-    {"code":3200103,"name":"天下茶屋"}
+    {"code":3200715,"name":"中百舌鳥","numbering":["SB01"]},
+    {"code":9961602,"name":"深井","numbering":["SB02"]},
+    {"code":9961603,"name":"泉ヶ丘","numbering":["SB03"]},
+    {"code":9961604,"name":"栂・美木多","numbering":["SB04"]},
+    {"code":9961605,"name":"光明池","numbering":["SB05"]},
+    {"code":9961606,"name":"和泉中央","numbering":["SB06"]}
   ]
 }
