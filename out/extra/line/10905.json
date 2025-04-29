@@ -1,6 +1,6 @@
 {
   "code":10905,
-  "id":"cf51c8",
+  "id":1180,
   "name":"香月線",
   "name_kana":"かつきせん",
   "name_formal":"国鉄香月線",
@@ -8,10 +8,10 @@
   "company_code":0,
   "closed":true,
   "station_list":[
-    {"code":1191103,"id":"2d292f","name":"中間","original_name":"中間","name_kana":"なかま","closed":false,"lat":33.828132,"lng":130.709302,"prefecture":40,"lines":[11911,10905],"attr":"eco","postal_code":"809-0034","address":"中間市大字中間","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.720515,33.833734],[130.720421,33.835446],[130.69211,33.833126],[130.708002,33.821659],[130.714658,33.823481],[130.715094,33.823756],[130.71952,33.830311],[130.720515,33.833734]]]},"properties":{}},"extra":false},
-    {"code":1090502,"id":"c09866","name":"新手","original_name":"新手","name_kana":"あらて","closed":true,"lat":33.81675,"lng":130.712417,"prefecture":40,"lines":[10905],"postal_code":"809-0034","address":"福岡県中間市中間３丁目５-３","open_date":"1912-01-07","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.706657,33.813312],[130.714384,33.812443],[130.714658,33.823481],[130.708002,33.821659],[130.706657,33.813312]]]},"properties":{}},"extra":true},
-    {"code":1090503,"id":"ee8088","name":"岩崎","original_name":"岩崎","name_kana":"いわさき","closed":true,"lat":33.807667,"lng":130.720417,"prefecture":40,"lines":[10905],"postal_code":"809-0028","address":"福岡県中間市弥生１丁目２２-２２","open_date":"1912-01-07","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.723284,33.803015],[130.715519,33.804269],[130.71631,33.811222],[130.722192,33.813746],[130.728466,33.813289],[130.72967,33.812774],[130.723284,33.803015]]]},"properties":{}},"extra":true},
-    {"code":1090504,"id":"272d2d","name":"香月","original_name":"香月","name_kana":"かつき","closed":true,"lat":33.80225,"lng":130.728694,"prefecture":40,"lines":[10905],"postal_code":"807-1102","address":"福岡県北九州市八幡西区香月中央３丁目１-３八幡西警察署香月交番","open_date":"1908-07-01","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.789477,33.80571],[130.797705,33.796562],[130.796873,33.789956],[130.753723,33.787049],[130.725237,33.796195],[130.723284,33.803015],[130.72967,33.812774],[130.744371,33.81399],[130.764192,33.811376],[130.789477,33.80571]]]},"properties":{}},"extra":true}
+    {"code":1191103,"id":4300,"name":"中間","original_name":"中間","name_kana":"なかま","closed":false,"lat":33.828132,"lng":130.709302,"prefecture":40,"lines":[11911,10905],"attr":"eco","postal_code":"809-0034","address":"中間市大字中間","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.720515,33.833734],[130.720421,33.835446],[130.69211,33.833126],[130.708002,33.821659],[130.714658,33.823481],[130.715094,33.823756],[130.71952,33.830311],[130.720515,33.833734]]]},"properties":{}},"extra":false},
+    {"code":1090502,"id":11659,"name":"新手","original_name":"新手","name_kana":"あらて","closed":true,"lat":33.81675,"lng":130.712417,"prefecture":40,"lines":[10905],"postal_code":"809-0034","address":"福岡県中間市中間３丁目５-３","open_date":"1912-01-07","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.706657,33.813312],[130.714384,33.812443],[130.714658,33.823481],[130.708002,33.821659],[130.706657,33.813312]]]},"properties":{}},"extra":true},
+    {"code":1090503,"id":11660,"name":"岩崎","original_name":"岩崎","name_kana":"いわさき","closed":true,"lat":33.807667,"lng":130.720417,"prefecture":40,"lines":[10905],"postal_code":"809-0028","address":"福岡県中間市弥生１丁目２２-２２","open_date":"1912-01-07","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.723284,33.803015],[130.715519,33.804269],[130.71631,33.811222],[130.722192,33.813746],[130.728466,33.813289],[130.72967,33.812774],[130.723284,33.803015]]]},"properties":{}},"extra":true},
+    {"code":1090504,"id":11661,"name":"香月","original_name":"香月","name_kana":"かつき","closed":true,"lat":33.80225,"lng":130.728694,"prefecture":40,"lines":[10905],"postal_code":"807-1102","address":"福岡県北九州市八幡西区香月中央３丁目１-３八幡西警察署香月交番","open_date":"1908-07-01","closed_date":"1985-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[130.789477,33.80571],[130.797705,33.796562],[130.796873,33.789956],[130.753723,33.787049],[130.725237,33.796195],[130.723284,33.803015],[130.72967,33.812774],[130.744371,33.81399],[130.764192,33.811376],[130.789477,33.80571]]]},"properties":{}},"extra":true}
   ],
   "closed_date":"1985-04-01",
   "extra":true

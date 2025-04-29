@@ -1,6 +1,6 @@
 {
   "code":34006,
-  "id":"8a4ff8",
+  "id":347,
   "name":"阪急伊丹線",
   "name_kana":"はんきゅういたみせん",
   "station_size":4,
@@ -9,9 +9,9 @@
   "color":"#0000FF",
   "symbol":"HK",
   "station_list":[
-    {"code":3400106,"id":"b09c72","name":"塚口(阪急電鉄)","original_name":"塚口","name_kana":"つかぐち","closed":false,"lat":34.752826,"lng":135.41585,"prefecture":28,"numbering":["HK06"],"lines":[34001,34006],"attr":"eco","postal_code":"661-0001","address":"兵庫県尼崎市塚口本町一丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.417577,34.737648],[135.421428,34.757135],[135.41849,34.758896],[135.40448,34.758524],[135.405059,34.748238],[135.415926,34.736405],[135.417577,34.737648]]]},"properties":{}}},
-    {"code":3400602,"id":"5c2bf2","name":"稲野","original_name":"稲野","name_kana":"いなの","closed":false,"lat":34.764817,"lng":135.415532,"prefecture":28,"numbering":["HK18"],"lines":[34006],"attr":"eco","postal_code":"664-0861","address":"伊丹市稲野町１-５０-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.41849,34.758896],[135.419507,34.768723],[135.398354,34.768578],[135.40448,34.758524],[135.41849,34.758896]]]},"properties":{}}},
-    {"code":3400603,"id":"a6e5fc","name":"新伊丹","original_name":"新伊丹","name_kana":"しんいたみ","closed":false,"lat":34.772574,"lng":135.415479,"prefecture":28,"numbering":["HK19"],"lines":[34006],"attr":"cool","postal_code":"664-0856","address":"伊丹市梅ノ木２-４-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.419507,34.768723],[135.423973,34.772469],[135.417956,34.777093],[135.39562,34.7714],[135.398354,34.768578],[135.419507,34.768723]]]},"properties":{}}},
-    {"code":3400604,"id":"e4d595","name":"伊丹(阪急電鉄)","original_name":"伊丹","name_kana":"いたみ","closed":false,"lat":34.779875,"lng":135.413618,"prefecture":28,"numbering":["HK20"],"lines":[34006],"attr":"cool","postal_code":"664-0858","address":"兵庫県伊丹市西台一丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.39562,34.7714],[135.385416,34.778541],[135.385008,34.780214],[135.384351,34.788057],[135.390294,34.794465],[135.393892,34.796614],[135.416663,34.790561],[135.417956,34.777093],[135.39562,34.7714]]]},"properties":{}}}
+    {"code":3400106,"id":6073,"name":"塚口(阪急電鉄)","original_name":"塚口","name_kana":"つかぐち","closed":false,"lat":34.752826,"lng":135.41585,"prefecture":28,"numbering":["HK06"],"lines":[34001,34006],"attr":"eco","postal_code":"661-0001","address":"兵庫県尼崎市塚口本町一丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.417577,34.737648],[135.421428,34.757135],[135.41849,34.758896],[135.40448,34.758524],[135.405059,34.748238],[135.415926,34.736405],[135.417577,34.737648]]]},"properties":{}}},
+    {"code":3400602,"id":6136,"name":"稲野","original_name":"稲野","name_kana":"いなの","closed":false,"lat":34.764817,"lng":135.415532,"prefecture":28,"numbering":["HK18"],"lines":[34006],"attr":"eco","postal_code":"664-0861","address":"伊丹市稲野町１-５０-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.41849,34.758896],[135.419507,34.768723],[135.398354,34.768578],[135.40448,34.758524],[135.41849,34.758896]]]},"properties":{}}},
+    {"code":3400603,"id":6137,"name":"新伊丹","original_name":"新伊丹","name_kana":"しんいたみ","closed":false,"lat":34.772574,"lng":135.415479,"prefecture":28,"numbering":["HK19"],"lines":[34006],"attr":"cool","postal_code":"664-0856","address":"伊丹市梅ノ木２-４-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.419507,34.768723],[135.423973,34.772469],[135.417956,34.777093],[135.39562,34.7714],[135.398354,34.768578],[135.419507,34.768723]]]},"properties":{}}},
+    {"code":3400604,"id":6138,"name":"伊丹(阪急電鉄)","original_name":"伊丹","name_kana":"いたみ","closed":false,"lat":34.779875,"lng":135.413618,"prefecture":28,"numbering":["HK20"],"lines":[34006],"attr":"cool","postal_code":"664-0858","address":"兵庫県伊丹市西台一丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.39562,34.7714],[135.385416,34.778541],[135.385008,34.780214],[135.384351,34.788057],[135.390294,34.794465],[135.393892,34.796614],[135.416663,34.790561],[135.417956,34.777093],[135.39562,34.7714]]]},"properties":{}}}
   ]
 }

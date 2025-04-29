@@ -1,6 +1,6 @@
 {
   "code":11640,
-  "id":"db091c",
+  "id":158,
   "name":"JR紀勢本線(和歌山～和歌山市)",
   "name_kana":"じぇいあーるきせいほんせん",
   "name_formal":"紀勢本線(和歌山～和歌山市)",
@@ -8,8 +8,8 @@
   "company_code":4,
   "closed":false,
   "station_list":[
-    {"code":1162635,"id":"9365fa","name":"和歌山","original_name":"和歌山","name_kana":"わかやま","closed":false,"lat":34.232436,"lng":135.191454,"prefecture":30,"lines":[11626,11636,11639,11640,99651],"attr":"cool","postal_code":"640-8331","address":"和歌山市美園町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.178013,34.228343],[135.177587,34.225884],[135.197701,34.231357],[135.202149,34.238996],[135.186396,34.237142],[135.178013,34.228343]]]},"properties":{}}},
-    {"code":1164002,"id":"49ca1d","name":"紀和","original_name":"紀和","name_kana":"きわ","closed":false,"lat":34.241966,"lng":135.181451,"prefecture":30,"lines":[11640],"attr":"eco","postal_code":"640-8392","address":"和歌山市中之島","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.178013,34.228343],[135.171692,34.24607],[135.183904,34.260703],[135.186396,34.237142],[135.178013,34.228343]]]},"properties":{}}},
-    {"code":1164003,"id":"71b015","name":"和歌山市","original_name":"和歌山市","name_kana":"わかやまし","closed":false,"lat":34.236717,"lng":135.166731,"prefecture":30,"lines":[11640,32001,32003,32005],"attr":"eco","postal_code":"640-8203","address":"和歌山市東蔵前丁","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.177587,34.225884],[135.177004,34.224272],[135.167706,34.215438],[135.150194,34.233714],[135.155228,34.245326],[135.171692,34.24607],[135.178013,34.228343],[135.177587,34.225884]]]},"properties":{}}}
+    {"code":1162635,"id":3132,"name":"和歌山","original_name":"和歌山","name_kana":"わかやま","closed":false,"lat":34.232436,"lng":135.191454,"prefecture":30,"lines":[11626,11636,11639,11640,99651],"attr":"cool","postal_code":"640-8331","address":"和歌山市美園町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.178013,34.228343],[135.177587,34.225884],[135.197701,34.231357],[135.202149,34.238996],[135.186396,34.237142],[135.178013,34.228343]]]},"properties":{}}},
+    {"code":1164002,"id":3349,"name":"紀和","original_name":"紀和","name_kana":"きわ","closed":false,"lat":34.241966,"lng":135.181451,"prefecture":30,"lines":[11640],"attr":"eco","postal_code":"640-8392","address":"和歌山市中之島","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.178013,34.228343],[135.171692,34.24607],[135.183904,34.260703],[135.186396,34.237142],[135.178013,34.228343]]]},"properties":{}}},
+    {"code":1164003,"id":3350,"name":"和歌山市","original_name":"和歌山市","name_kana":"わかやまし","closed":false,"lat":34.236717,"lng":135.166731,"prefecture":30,"lines":[11640,32001,32003,32005],"attr":"eco","postal_code":"640-8203","address":"和歌山市東蔵前丁","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.177587,34.225884],[135.177004,34.224272],[135.167706,34.215438],[135.150194,34.233714],[135.155228,34.245326],[135.171692,34.24607],[135.178013,34.228343],[135.177587,34.225884]]]},"properties":{}}}
   ]
 }

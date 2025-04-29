@@ -1,16 +1,16 @@
 {
   "code":11619,
-  "id":"2bd9c6",
+  "id":1140,
   "name":"JR信楽線",
   "name_kana":"じぇいあーるしがらきせん",
   "station_size":4,
   "company_code":4,
   "closed":true,
   "station_list":[
-    {"code":1151106,"id":"2fb546","name":"貴生川","original_name":"貴生川","name_kana":"きぶかわ","closed":false,"lat":34.952236,"lng":136.153806,"prefecture":25,"lines":[11511,99601,99604,11619],"attr":"eco","postal_code":"528-0041","address":"甲賀市水口町虫生野","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.115394,34.943897],[136.141188,34.973977],[136.172804,34.950496],[136.129553,34.918354],[136.115394,34.943897]]]},"properties":{}},"extra":false},
-    {"code":9960403,"id":"2f9b72","name":"雲井","original_name":"雲井","name_kana":"くもい","closed":false,"lat":34.911249,"lng":136.084317,"prefecture":25,"lines":[99604,11619],"attr":"eco","postal_code":"529-1803","address":"甲賀市信楽町牧字永楽","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.135377,34.86629],[136.010231,34.94618],[136.012697,34.947987],[136.035446,34.954689],[136.138513,34.870941],[136.138684,34.868725],[136.135377,34.86629]]]},"properties":{}},"extra":false},
-    {"code":9960404,"id":"51a447","name":"勅旨","original_name":"勅旨","name_kana":"ちょくし","closed":false,"lat":34.893681,"lng":136.073102,"prefecture":25,"lines":[99604,11619],"attr":"heat","postal_code":"529-1804","address":"甲賀市信楽町勅旨字鳥居迫","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.135377,34.86629],[136.010231,34.94618],[136.005837,34.943752],[135.997934,34.934733],[136.045579,34.900807],[136.131816,34.862705],[136.135377,34.86629]]]},"properties":{}},"extra":false},
-    {"code":9960406,"id":"ba1668","name":"信楽","original_name":"信楽","name_kana":"しがらき","closed":false,"lat":34.87713,"lng":136.061317,"prefecture":25,"lines":[99604,11619],"attr":"cool","postal_code":"529-1851","address":"甲賀市信楽町長野","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.099229,34.838119],[136.104821,34.842032],[136.045579,34.900807],[135.997934,34.934733],[135.989182,34.926862],[135.975443,34.909935],[135.954568,34.87332],[136.020518,34.827208],[136.029511,34.824248],[136.071597,34.821506],[136.099229,34.838119]]]},"properties":{}},"extra":false}
+    {"code":1151106,"id":2713,"name":"貴生川","original_name":"貴生川","name_kana":"きぶかわ","closed":false,"lat":34.952236,"lng":136.153806,"prefecture":25,"lines":[11511,99601,99604,11619],"attr":"eco","postal_code":"528-0041","address":"甲賀市水口町虫生野","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.115394,34.943897],[136.141188,34.973977],[136.172804,34.950496],[136.129553,34.918354],[136.115394,34.943897]]]},"properties":{}},"extra":false},
+    {"code":9960403,"id":7876,"name":"雲井","original_name":"雲井","name_kana":"くもい","closed":false,"lat":34.911249,"lng":136.084317,"prefecture":25,"lines":[99604,11619],"attr":"eco","postal_code":"529-1803","address":"甲賀市信楽町牧字永楽","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.135377,34.86629],[136.010231,34.94618],[136.012697,34.947987],[136.035446,34.954689],[136.138513,34.870941],[136.138684,34.868725],[136.135377,34.86629]]]},"properties":{}},"extra":false},
+    {"code":9960404,"id":7877,"name":"勅旨","original_name":"勅旨","name_kana":"ちょくし","closed":false,"lat":34.893681,"lng":136.073102,"prefecture":25,"lines":[99604,11619],"attr":"heat","postal_code":"529-1804","address":"甲賀市信楽町勅旨字鳥居迫","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.135377,34.86629],[136.010231,34.94618],[136.005837,34.943752],[135.997934,34.934733],[136.045579,34.900807],[136.131816,34.862705],[136.135377,34.86629]]]},"properties":{}},"extra":false},
+    {"code":9960406,"id":7879,"name":"信楽","original_name":"信楽","name_kana":"しがらき","closed":false,"lat":34.87713,"lng":136.061317,"prefecture":25,"lines":[99604,11619],"attr":"cool","postal_code":"529-1851","address":"甲賀市信楽町長野","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[136.099229,34.838119],[136.104821,34.842032],[136.045579,34.900807],[135.997934,34.934733],[135.989182,34.926862],[135.975443,34.909935],[135.954568,34.87332],[136.020518,34.827208],[136.029511,34.824248],[136.071597,34.821506],[136.099229,34.838119]]]},"properties":{}},"extra":false}
   ],
   "closed_date":"1987-07-13",
   "extra":true

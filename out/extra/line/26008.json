@@ -1,6 +1,6 @@
 {
   "code":26008,
-  "id":"fe06ac",
+  "id":263,
   "name":"東急こどもの国線",
   "name_kana":"とうきゅうこどものくにせん",
   "station_size":3,
@@ -9,9 +9,9 @@
   "color":"#0068B7",
   "symbol":"KD",
   "station_list":[
-    {"code":1130609,"id":"15eb4a","name":"長津田","original_name":"長津田","name_kana":"ながつた","closed":false,"lat":35.531698,"lng":139.49468,"prefecture":14,"numbering":["KD01"],"lines":[11306,26003,26008],"attr":"cool","postal_code":"226-0027","address":"横浜市緑区長津田４丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.504354,35.523594],[139.501599,35.512456],[139.494693,35.518602],[139.486558,35.537354],[139.497377,35.53935],[139.504354,35.523594]]]},"properties":{}},"extra":false},
-    {"code":2600802,"id":"645f34","name":"恩田","original_name":"恩田","name_kana":"おんだ","closed":false,"lat":35.545535,"lng":139.492127,"prefecture":14,"numbering":["KD02"],"lines":[26008],"attr":"cool","postal_code":"227-0065","address":"横浜市青葉区恩田町２０４３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.478955,35.547218],[139.483521,35.538534],[139.486558,35.537354],[139.497377,35.53935],[139.505399,35.550292],[139.506345,35.559203],[139.478955,35.547218]]]},"properties":{}},"extra":false},
-    {"code":2600803,"id":"d23557","name":"こどもの国(神奈川)","original_name":"こどもの国","name_kana":"こどものくに","closed":false,"lat":35.558035,"lng":139.486657,"prefecture":14,"numbering":["KD03"],"lines":[26008],"attr":"cool","postal_code":"227-0036","address":"横浜市青葉区奈良町宇島９９５-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.506345,35.559203],[139.478955,35.547218],[139.472737,35.551005],[139.476986,35.569143],[139.495285,35.572723],[139.510427,35.567466],[139.506345,35.559203]]]},"properties":{}},"extra":false}
+    {"code":1130609,"id":1377,"name":"長津田","original_name":"長津田","name_kana":"ながつた","closed":false,"lat":35.531698,"lng":139.49468,"prefecture":14,"numbering":["KD01"],"lines":[11306,26003,26008],"attr":"cool","postal_code":"226-0027","address":"横浜市緑区長津田４丁目","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.504354,35.523594],[139.501599,35.512456],[139.494693,35.518602],[139.486558,35.537354],[139.497377,35.53935],[139.504354,35.523594]]]},"properties":{}},"extra":false},
+    {"code":2600802,"id":5129,"name":"恩田","original_name":"恩田","name_kana":"おんだ","closed":false,"lat":35.545535,"lng":139.492127,"prefecture":14,"numbering":["KD02"],"lines":[26008],"attr":"cool","postal_code":"227-0065","address":"横浜市青葉区恩田町２０４３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.478955,35.547218],[139.483521,35.538534],[139.486558,35.537354],[139.497377,35.53935],[139.505399,35.550292],[139.506345,35.559203],[139.478955,35.547218]]]},"properties":{}},"extra":false},
+    {"code":2600803,"id":5130,"name":"こどもの国(神奈川)","original_name":"こどもの国","name_kana":"こどものくに","closed":false,"lat":35.558035,"lng":139.486657,"prefecture":14,"numbering":["KD03"],"lines":[26008],"attr":"cool","postal_code":"227-0036","address":"横浜市青葉区奈良町宇島９９５-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[139.506345,35.559203],[139.478955,35.547218],[139.472737,35.551005],[139.476986,35.569143],[139.495285,35.572723],[139.510427,35.567466],[139.506345,35.559203]]]},"properties":{}},"extra":false}
   ],
   "extra":false
 }
