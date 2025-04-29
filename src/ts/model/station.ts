@@ -17,7 +17,7 @@ export const stationId: JSONSchemaType<number> = {
   type: "integer",
   minimum: 1,
   title: "駅ID",
-  description: "駅の識別子. 駅コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅のIDは異なるデータセットでも同じIDになります）. IDは駅メモ公式Webサイトの「駅の思い出」ページのURL https://ekimemo.com/database/station/{id}/activity に対応しています. 独自追加の廃駅のIDは10000番台の連番を使用しています.",
+  description: "駅の識別子. 駅コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅のIDは異なるデータセットでも同じIDになります）. IDは駅メモ公式Webサイトの「駅の思い出」ページのURL https://ekimemo.com/database/station/{id}/activity に対応しています. 独自追加の廃駅のIDは20000番台の連番を使用しています.",
   examples: [
     1,
     2,

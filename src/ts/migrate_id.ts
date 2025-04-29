@@ -1,7 +1,6 @@
-import { csvEkimemo, CSVEkimemo } from "../ekimemo/model"
+import { csvEkimemo } from "../ekimemo/model"
 import { readCsvSafe, writeCsvSafe } from "./io"
-import { Dataset } from "./model/dataset"
-import { csvLine, CSVLine } from "./model/line"
+import { csvLine } from "./model/line"
 import { csvStation } from "./model/station"
 import { normalizeCSVLine } from "./validate/line"
 import { normalizeCSVStation } from "./validate/station"
@@ -16,7 +15,7 @@ async function main() {
   )
   // 路線一覧
   const lines = readCsvSafe('src/line.csv', csvLine('extra')).map(l => normalizeCSVLine(l))
-  let extraLineId = 1000
+  let extraLineId = 2000
   lines.forEach(l => {
     let id = lineIds.get(l.code)
     if (l.extra) {
@@ -26,7 +25,7 @@ async function main() {
     } else if (!id) {
       throw Error(`id not found for line ${l.code}`)
     }
-    l.id = id.toString()
+    l.id = id
   })
   writeCsvSafe('src/line.csv', csvLine('extra'), lines)
 
@@ -37,7 +36,7 @@ async function main() {
     ])
   )
   const stations = readCsvSafe('src/station.csv', csvStation('extra')).map(s => normalizeCSVStation(s))
-  let extraStationId = 10000
+  let extraStationId = 20000
   stations.forEach(s => {
     let id = stationIds.get(s.code)
     if (s.extra) {
@@ -47,7 +46,7 @@ async function main() {
     } else if (!id) {
       throw Error(`id not found for station ${s.code}`)
     }
-    s.id = id.toString()
+    s.id = id
   })
   writeCsvSafe('src/station.csv', csvStation('extra'), stations)
 }
