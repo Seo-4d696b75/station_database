@@ -8,7 +8,7 @@ import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set
  */
 export interface Line {
   code: number
-  id: string
+  id: number
   name: string
   name_kana: string
   name_formal: string | null
@@ -43,7 +43,7 @@ export function normalizeCSVLine(csv: CSVLine<Dataset>): Line {
 // TODO id独自定義 => 公式定義への移行
 // 移行後を見越して駅・路線ごとにid重複確認を分離している
 export function validateLines(lines: Line[], where: string, extra: boolean) {
-  const ids = new Set<string>()
+  const ids = new Set<number>()
   const codes = new Set<number>()
   const names = new Set<string>()
   assertEach(lines, where, (line, assert) => {

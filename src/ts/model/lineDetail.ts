@@ -1,8 +1,8 @@
 import { JSONSchemaType } from "ajv";
-import { kanaName, originalStationName, stationLineId, stationLineName } from "./common";
+import { kanaName, originalStationName, stationLineName } from "./common";
 import { Dataset } from "./dataset";
 import { jsonLine, JSONLine } from "./line";
-import { jsonStation, JSONStation, prefectureCode, stationClosed, stationCode, stationLat, stationLng } from "./station";
+import { jsonStation, JSONStation, prefectureCode, stationClosed, stationCode, stationId, stationLat, stationLng } from "./station";
 
 // 駅ナンバリングが追加されている
 export interface JSONStationRegistration {
@@ -33,7 +33,7 @@ const jsonStationRegistration = (dataset: Dataset): JSONSchemaType<JSONStationRe
   properties: {
     // 順序に注意
     code: stationCode,
-    id: stationLineId,
+    id: stationId,
     name: stationLineName,
     original_name: originalStationName,
     name_kana: kanaName,
