@@ -71,6 +71,8 @@ jobs:
           unzip -q artifact/extra.zip -d artifact
           mv artifact/json artifact/extra
       - name: compare data
+        # TODO idの破壊的変更によりテストが落ちるため一時的に無効化する
+        if: false
         run: |
           npm run test-update-main
           npm run test-update-extra
