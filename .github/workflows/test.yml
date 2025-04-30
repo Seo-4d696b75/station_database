@@ -79,6 +79,7 @@ jobs:
           cat artifact/diff.extra.md >> artifact/diff.md
           rm artifact/diff.extra.md
       - name: comment on PR
+        if: false
         uses: thollander/actions-comment-pull-request@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -86,6 +87,7 @@ jobs:
           filePath: artifact/diff.md
           comment_tag: diff
       - uses: actions/upload-artifact@v4
+        if: false
         with:
           name: diff
           path: artifact/*.md
