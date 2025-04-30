@@ -25,7 +25,7 @@ async function delay(milliseconds: number): Promise<void> {
     .map(line => ({
       code: line.code,
       name: line.name,
-      ekimemo: null,
+      id: null,
     }))
   const stations: CSVEkimemo[] = readCsvSafe("src/station.csv", csvStation('extra'))
     .map(s => normalizeCSVStation(s))
@@ -33,7 +33,7 @@ async function delay(milliseconds: number): Promise<void> {
     .map(s => ({
       code: s.code,
       name: s.name,
-      ekimemo: null,
+      id: null,
     }))
 
   // 路線データをダウンロード
@@ -57,7 +57,7 @@ async function delay(milliseconds: number): Promise<void> {
       if (!name) throw Error(`line name not found at ${code}`)
       const r = lines.find(r => r.name === name)
       if (!r) throw Error("line not found name:" + name)
-      r.ekimemo = code
+      r.id = code
       writeCsvSafe("src/ekimemo/line.csv", csvEkimemo, lines)
       fs.writeFileSync(`src/ekimemo/line/${code}.html`, html)
 
@@ -69,8 +69,8 @@ async function delay(milliseconds: number): Promise<void> {
         if (!name || !code) throw Error("station name or code not found at line HTML " + code)
         const r = stations.find(r => r.name === name)
         if (!r) throw Error("station not found " + name)
-        if (r.ekimemo && r.ekimemo !== parseInt(code)) throw Error(`station code mismatch ${name} ${code} !== ${r.code}`)
-        r.ekimemo = parseInt(code)
+        if (r.id && r.id !== parseInt(code)) throw Error(`station code mismatch ${name} ${code} !== ${r.code}`)
+        r.id = parseInt(code)
       })
       writeCsvSafe("src/ekimemo/station.csv", csvEkimemo, stations)
 
@@ -84,7 +84,7 @@ async function delay(milliseconds: number): Promise<void> {
 
   // 路線・駅一覧の欠損を確認
   [...lines, ...stations].forEach(line => {
-    if (!line.ekimemo) {
+    if (!line.id) {
       console.error("line/station not found in ekimemo", line)
       throw Error()
     }
@@ -94,9 +94,9 @@ async function delay(milliseconds: number): Promise<void> {
   for (const s of stations) {
     const start = Date.now()
 
-    const res = await axios.get<string>(`https://ekimemo.com/database/station/${s.ekimemo}/activity`)
-    fs.writeFileSync(`src/ekimemo/station/${s.ekimemo}.html`, res.data)
-    console.log(s.ekimemo, s.name)
+    const res = await axios.get<string>(`https://ekimemo.com/database/station/${s.id}/activity`)
+    fs.writeFileSync(`src/ekimemo/station/${s.id}.html`, res.data)
+    console.log(s.id, s.name)
 
     const time = Date.now() - start
     await delay(MIN_INTERVAL - time)
