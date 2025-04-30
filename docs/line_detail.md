@@ -7,7 +7,7 @@
 | Property                       | Type      | Required | Nullable | Defined by                                                                            |
 | :----------------------------- | :-------- | :------- | :------- | :------------------------------------------------------------------------------------ |
 | [code](#code)                  | `integer` | Required | non-null | [路線詳細オブジェクト](line_detail-properties-路線コード.md "undefined#/properties/code")            |
-| [id](#id)                      | `string`  | Required | non-null | [路線詳細オブジェクト](line_detail-properties-駅路線id.md "undefined#/properties/id")              |
+| [id](#id)                      | `integer` | Required | non-null | [路線詳細オブジェクト](line_detail-properties-路線id.md "undefined#/properties/id")               |
 | [name](#name)                  | `string`  | Required | non-null | [路線詳細オブジェクト](line_detail-properties-駅路線の名前.md "undefined#/properties/name")           |
 | [name\_kana](#name_kana)       | `string`  | Required | non-null | [路線詳細オブジェクト](line_detail-properties-駅路線の名前のかな表現.md "undefined#/properties/name_kana") |
 | [name\_formal](#name_formal)   | `string`  | Optional | non-null | [路線詳細オブジェクト](line_detail-properties-路線の正式名称.md "undefined#/properties/name_formal")   |
@@ -45,40 +45,34 @@
 
 ## id
 
-データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.
+路線の識別子. 路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」路線のIDは異なるデータセットでも同じIDになります）. IDは駅メモ公式Webサイトの「駅の思い出」ページのURL <https://ekimemo.com/database/line/{id}> に対応しています. 独自追加の廃線のIDは2000番台の連番を使用しています.
 
 `id`
 
 *   undefinedを許可しません
 
-*   Type: `string` ([駅・路線ID](line_detail-properties-駅路線id.md))
+*   Type: `integer` ([路線ID](line_detail-properties-路線id.md))
 
 *   non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-駅路線id.md "undefined#/properties/id")
+*   defined in: [路線詳細オブジェクト](line_detail-properties-路線id.md "undefined#/properties/id")
 
 ### idの型定義
 
-`string` ([駅・路線ID](line_detail-properties-駅路線id.md))
+`integer` ([路線ID](line_detail-properties-路線id.md))
 
 ### idの値の制限
 
-**pattern**: 次の正規表現にマッチする文字列です
-
-```regexp
-^[0-9a-f]{6}$
-```
-
-[正規表現を試す(別サイト)](https://regexr.com/?expression=%5E%5B0-9a-f%5D%7B6%7D%24 "try regular expression with regexr.com")
+**minimum**: この数値の最小値を指定します value >= `1`
 
 ### idの値の例
 
 ```json
-"d8aab0"
+1
 ```
 
 ```json
-"e16e64"
+2
 ```
 
 ## name

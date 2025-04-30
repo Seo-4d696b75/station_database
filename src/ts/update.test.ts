@@ -1,16 +1,14 @@
 import { existsSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { readJsonSafe } from './io'
-import { jsonStationList } from './model/station'
 import { parseDataset } from './model/dataset'
+import { jsonPolyline, JSONPolylineGeo } from './model/geo'
 import { jsonLineList } from './model/line'
-import { normalizeJSONStation } from './validate/station'
-import { Line } from './validate/line'
-import { Station } from './validate/station'
-import { normalizeJSONLine } from './validate/line'
-import { jsonPolyline, JSONPolylineGeo, JSONVoronoiGeo } from './model/geo'
 import { jsonLineDetail } from './model/lineDetail'
+import { jsonStationList } from './model/station'
 import { assertEach } from './validate/assert'
+import { Line, normalizeJSONLine } from './validate/line'
+import { normalizeJSONStation, Station } from './validate/station'
 
 
 const dataset = parseDataset(process.env.DATASET)
@@ -171,7 +169,7 @@ describe('データ更新の差分を検出', () => {
     interface LineDetail extends Line {
       // 登録駅の識別子とナンバリングのみ分かれば十分
       station_list: {
-        id: string
+        id: number
         code: number
         name: string
         numbering?: string[]

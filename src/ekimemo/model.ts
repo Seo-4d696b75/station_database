@@ -4,8 +4,8 @@ import { stationLineName } from "../ts/model/common"
 export interface CSVEkimemo {
   code: number
   name: string
-  /** https://ekimemo.com/database/ で駅・路線を指定するcode */
-  ekimemo: number | null
+  /** https://ekimemo.com/database/ で駅・路線を指定するid */
+  id: number | null
 }
 
 export const csvEkimemo: JSONSchemaType<CSVEkimemo> = {
@@ -17,7 +17,7 @@ export const csvEkimemo: JSONSchemaType<CSVEkimemo> = {
       maximum: 9999999,
     },
     name: stationLineName,
-    ekimemo: {
+    id: {
       type: "integer",
       nullable: true,
     },
@@ -25,7 +25,7 @@ export const csvEkimemo: JSONSchemaType<CSVEkimemo> = {
   required: [
     "code",
     "name",
-    "ekimemo",
+    "id",
   ],
   additionalProperties: false,
 }

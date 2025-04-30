@@ -1,5 +1,5 @@
 import { JSONSchemaType } from "ajv"
-import { dateStringPattern, kanaName, stationLineExtra, stationLineId, stationLineName } from "./common"
+import { dateStringPattern, kanaName, stationLineExtra, stationLineName } from "./common"
 import { Dataset, WithExtra } from "./dataset"
 
 export const lineCode: JSONSchemaType<number> = {
@@ -10,9 +10,20 @@ export const lineCode: JSONSchemaType<number> = {
   description: "データセット内の路線を一意に区別する値. 駅・路線IDとは異なり、別バージョンのデータセット間では一貫性を保証しません."
 }
 
+const lineId: JSONSchemaType<number> = {
+  type: "integer",
+  minimum: 1,
+  title: "路線ID",
+  description: "路線の識別子. 路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」路線のIDは異なるデータセットでも同じIDになります）. IDは駅メモ公式Webサイトの「駅の思い出」ページのURL https://ekimemo.com/database/line/{id} に対応しています. 独自追加の廃線のIDは2000番台の連番を使用しています.",
+  examples: [
+    1,
+    2,
+  ],
+}
+
 export type JSONLine<D extends Dataset> = WithExtra<D, {
   code: number
-  id: string
+  id: number
   name: string
   name_kana: string
   name_formal?: string
@@ -44,7 +55,7 @@ const jsonLineMain: JSONSchemaType<JSONLine<'main'>> = {
   ],
   properties: {
     code: lineCode,
-    id: stationLineId,
+    id: lineId,
     name: stationLineName,
     name_kana: kanaName,
     name_formal: {
@@ -117,7 +128,7 @@ export const jsonLineList = <D extends Dataset>(dataset: D): JSONSchemaType<JSON
 
 export type CSVLine<D extends Dataset> = WithExtra<D, {
   code: number
-  id: string
+  id: number
   name: string
   name_kana: string
   name_formal: string | null
@@ -145,7 +156,7 @@ const csvLineMain: JSONSchemaType<CSVLine<'main'>> = {
   type: "object",
   properties: {
     code: lineCode,
-    id: stationLineId,
+    id: lineId,
     name: stationLineName,
     name_kana: kanaName,
     name_formal: {

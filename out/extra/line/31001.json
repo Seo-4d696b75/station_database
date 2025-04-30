@@ -1,6 +1,6 @@
 {
   "code":31001,
-  "id":"0a02c8",
+  "id":300,
   "name":"近鉄難波線",
   "name_kana":"きんてつなんばせん",
   "station_size":3,
@@ -9,9 +9,9 @@
   "color":"#FF0000",
   "symbol":"A",
   "station_list":[
-    {"code":3100101,"id":"6a42ec","name":"大阪難波","original_name":"大阪難波","name_kana":"おおさかなんば","closed":false,"lat":34.667113,"lng":135.499144,"prefecture":27,"numbering":["A01"],"lines":[31001,35002],"attr":"heat","postal_code":"542-0076","address":"大阪市中央区難波四丁目1-17","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.496616,34.670158],[135.49771,34.663871],[135.502479,34.670651],[135.499433,34.671108],[135.496616,34.670158]]]},"properties":{}},"extra":false},
-    {"code":3100102,"id":"f0946f","name":"近鉄日本橋","original_name":"近鉄日本橋","name_kana":"きんてつにっぽんばし","closed":false,"lat":34.666949,"lng":135.505818,"prefecture":27,"numbering":["A02"],"lines":[31001],"attr":"heat","postal_code":"542-0073","address":"大阪市中央区日本橋１-１８-１４","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.507625,34.660975],[135.503102,34.666154],[135.502589,34.67065],[135.503111,34.671005],[135.505309,34.670852],[135.507691,34.660974],[135.507625,34.660975]]]},"properties":{}},"extra":false},
-    {"code":3100103,"id":"b0e96b","name":"大阪上本町","original_name":"大阪上本町","name_kana":"おおさかうえほんまち","closed":false,"lat":34.665513,"lng":135.522189,"prefecture":27,"numbering":["A03"],"lines":[31001,31005],"attr":"heat","postal_code":"543-0001","address":"大阪市天王寺区上本町六丁目1-55","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.524815,34.67317],[135.526341,34.671139],[135.52608,34.662819],[135.521022,34.658722],[135.517955,34.662263],[135.520062,34.670505],[135.524815,34.67317]]]},"properties":{}},"extra":false}
+    {"code":3100101,"id":5608,"name":"大阪難波","original_name":"大阪難波","name_kana":"おおさかなんば","closed":false,"lat":34.667113,"lng":135.499144,"prefecture":27,"numbering":["A01"],"lines":[31001,35002],"attr":"heat","postal_code":"542-0076","address":"大阪市中央区難波四丁目1-17","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.496616,34.670158],[135.49771,34.663871],[135.502479,34.670651],[135.499433,34.671108],[135.496616,34.670158]]]},"properties":{}},"extra":false},
+    {"code":3100102,"id":5609,"name":"近鉄日本橋","original_name":"近鉄日本橋","name_kana":"きんてつにっぽんばし","closed":false,"lat":34.666949,"lng":135.505818,"prefecture":27,"numbering":["A02"],"lines":[31001],"attr":"heat","postal_code":"542-0073","address":"大阪市中央区日本橋１-１８-１４","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.507625,34.660975],[135.503102,34.666154],[135.502589,34.67065],[135.503111,34.671005],[135.505309,34.670852],[135.507691,34.660974],[135.507625,34.660975]]]},"properties":{}},"extra":false},
+    {"code":3100103,"id":5610,"name":"大阪上本町","original_name":"大阪上本町","name_kana":"おおさかうえほんまち","closed":false,"lat":34.665513,"lng":135.522189,"prefecture":27,"numbering":["A03"],"lines":[31001,31005],"attr":"heat","postal_code":"543-0001","address":"大阪市天王寺区上本町六丁目1-55","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.524815,34.67317],[135.526341,34.671139],[135.52608,34.662819],[135.521022,34.658722],[135.517955,34.662263],[135.520062,34.670505],[135.524815,34.67317]]]},"properties":{}},"extra":false}
   ],
   "extra":false
 }

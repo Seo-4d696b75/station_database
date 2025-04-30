@@ -1,16 +1,5 @@
 import { JSONSchemaType } from "ajv"
 
-export const stationLineId: JSONSchemaType<string> = {
-  type: "string",
-  pattern: "^[0-9a-f]{6}$",
-  title: "駅・路線ID",
-  description: "データセット内の駅と路線を一意に区別する値. 駅コードや路線コードとは異なり、別バージョンのデータセット間でも一貫性を保証します（駅メモ実装における「同じ」駅・路線のIDは異なるデータセットでも同じIDになります）.",
-  examples: [
-    "d8aab0",
-    "e16e64",
-  ],
-}
-
 export const stationLineName: JSONSchemaType<string> = {
   type: "string",
   minLength: 1,

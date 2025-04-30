@@ -1,6 +1,6 @@
 {
   "code":31012,
-  "id":"2f65d9",
+  "id":309,
   "name":"近鉄道明寺線",
   "name_kana":"きんてつどうみょうじせん",
   "station_size":3,
@@ -9,8 +9,8 @@
   "color":"#006400",
   "symbol":"N",
   "station_list":[
-    {"code":3100315,"id":"1335e5","name":"道明寺","original_name":"道明寺","name_kana":"どうみょうじ","closed":false,"lat":34.56834,"lng":135.620399,"prefecture":27,"numbering":["N15"],"lines":[31003,31012],"attr":"heat","postal_code":"583-0012","address":"藤井寺市道明寺３-２９-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.620115,34.556969],[135.613003,34.56264],[135.621645,34.575292],[135.624865,34.574179],[135.628458,34.571557],[135.626994,34.557456],[135.620115,34.556969]]]},"properties":{}}},
-    {"code":3101202,"id":"1c15c7","name":"柏原南口","original_name":"柏原南口","name_kana":"かしわらみなみぐち","closed":false,"lat":34.58153,"lng":135.624956,"prefecture":27,"numbering":["N16"],"lines":[31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市２-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.615153,34.581395],[135.621645,34.575292],[135.624865,34.574179],[135.628078,34.584204],[135.62644,34.584783],[135.615153,34.581395]]]},"properties":{}}},
-    {"code":1160712,"id":"dd5547","name":"柏原(大阪)","original_name":"柏原","name_kana":"かしわら","closed":false,"lat":34.586681,"lng":135.62341,"prefecture":27,"numbering":["N17"],"lines":[11607,31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.615153,34.581395],[135.606137,34.586052],[135.618851,34.592998],[135.623847,34.59128],[135.62644,34.584783],[135.615153,34.581395]]]},"properties":{}}}
+    {"code":3100315,"id":5642,"name":"道明寺","original_name":"道明寺","name_kana":"どうみょうじ","closed":false,"lat":34.56834,"lng":135.620399,"prefecture":27,"numbering":["N15"],"lines":[31003,31012],"attr":"heat","postal_code":"583-0012","address":"藤井寺市道明寺３-２９-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.620115,34.556969],[135.613003,34.56264],[135.621645,34.575292],[135.624865,34.574179],[135.628458,34.571557],[135.626994,34.557456],[135.620115,34.556969]]]},"properties":{}}},
+    {"code":3101202,"id":5739,"name":"柏原南口","original_name":"柏原南口","name_kana":"かしわらみなみぐち","closed":false,"lat":34.58153,"lng":135.624956,"prefecture":27,"numbering":["N16"],"lines":[31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市２-３","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.615153,34.581395],[135.621645,34.575292],[135.624865,34.574179],[135.628078,34.584204],[135.62644,34.584783],[135.615153,34.581395]]]},"properties":{}}},
+    {"code":1160712,"id":2820,"name":"柏原(大阪)","original_name":"柏原","name_kana":"かしわら","closed":false,"lat":34.586681,"lng":135.62341,"prefecture":27,"numbering":["N17"],"lines":[11607,31012],"attr":"heat","postal_code":"582-0007","address":"柏原市上市１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.615153,34.581395],[135.606137,34.586052],[135.618851,34.592998],[135.623847,34.59128],[135.62644,34.584783],[135.615153,34.581395]]]},"properties":{}}}
   ]
 }

@@ -1,7 +1,7 @@
 import { JSONSchemaType } from "ajv"
-import { kanaName, originalStationName, stationLineId, stationLineName } from "./common"
+import { kanaName, originalStationName, stationLineName } from "./common"
 import { Dataset } from "./dataset"
-import { JSONStation, jsonStation, stationClosed, stationCode, stationLat, stationLng } from "./station"
+import { JSONStation, jsonStation, stationClosed, stationCode, stationId, stationLat, stationLng } from "./station"
 
 export interface JSONKdTreeNode {
   code: number
@@ -80,7 +80,7 @@ const jsonStationNode = (dataset: Dataset): JSONSchemaType<JSONStationNode<typeo
     properties: {
       // 順序に注意
       code: stationCode,
-      id: stationLineId,
+      id: stationId,
       name: stationLineName,
       original_name: originalStationName,
       name_kana: kanaName,

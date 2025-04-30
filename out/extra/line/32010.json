@@ -1,17 +1,20 @@
 {
   "code":32010,
-  "id":"dba021",
-  "name":"南海天王寺支線",
-  "name_kana":"なんかいてんのうじしせん",
-  "station_size":4,
+  "id":488,
+  "name":"南海泉北線",
+  "name_kana":"なんかいせんぼくせん",
+  "station_size":6,
   "company_code":22,
-  "closed":true,
+  "closed":false,
+  "color":"#B1BC3A",
+  "symbol":"NK",
   "station_list":[
-    {"code":1160719,"id":"4382c4","name":"天王寺","original_name":"天王寺","name_kana":"てんのうじ","closed":false,"lat":34.647842,"lng":135.513223,"prefecture":27,"lines":[11607,11623,11626,99618,99619,32010],"attr":"heat","postal_code":"543-0055","address":"大阪市天王寺区悲田院町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.518275,34.652797],[135.511232,34.653397],[135.509133,34.65118],[135.508796,34.648131],[135.508848,34.64778],[135.51431,34.646801],[135.518307,34.649922],[135.518275,34.652797]]]},"properties":{}},"extra":false},
-    {"code":3201002,"id":"828d43","name":"飛田本通","original_name":"飛田本通","name_kana":"とびたほんどおり","closed":true,"lat":34.646583,"lng":135.504639,"prefecture":27,"lines":[32010],"postal_code":"557-0001","address":"大阪府大阪市西成区山王１丁目１３-１５","open_date":"1984-12-10","closed_date":"1993-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.506772,34.641797],[135.504461,34.6436],[135.502955,34.64754],[135.508796,34.648131],[135.508848,34.64778],[135.50873,34.645211],[135.506772,34.641797]]]},"properties":{}},"extra":true},
-    {"code":3201003,"id":"889dd2","name":"今池町","original_name":"今池町","name_kana":"いまいけちょう","closed":true,"lat":34.64481,"lng":135.501713,"prefecture":27,"lines":[32010],"postal_code":"557-0004","address":"大阪府大阪市西成区萩之茶屋３丁目１-８","open_date":"1949-06-20","closed_date":"1993-04-01","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.499947,34.643839],[135.504356,34.643626],[135.500647,34.646223],[135.499947,34.643839]]]},"properties":{}},"extra":true},
-    {"code":3200103,"id":"0d8697","name":"天下茶屋","original_name":"天下茶屋","name_kana":"てんがちゃや","closed":false,"lat":34.636847,"lng":135.496673,"prefecture":27,"lines":[32001,32007,99623,32010],"attr":"cool","postal_code":"557-0041","address":"大阪市西成区岸里１-１-１０","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.49298,34.638209],[135.496723,34.633953],[135.4983,34.635054],[135.49861,34.638335],[135.497342,34.640612],[135.493573,34.640594],[135.49298,34.638209]]]},"properties":{}},"extra":false}
+    {"code":3200715,"id":5952,"name":"中百舌鳥","original_name":"中百舌鳥","name_kana":"なかもず","closed":false,"lat":34.556232,"lng":135.504454,"prefecture":27,"numbering":["NK59"],"lines":[32007,32010],"attr":"heat","postal_code":"591-8023","address":"堺市北区中百舌鳥町２丁１９６","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.495825,34.550821],[135.49503,34.54492],[135.501802,34.543086],[135.503908,34.54614],[135.506113,34.564325],[135.495825,34.550821]]]},"properties":{}},"extra":false},
+    {"code":3201002,"id":7991,"name":"深井","original_name":"深井","name_kana":"ふかい","closed":false,"lat":34.530398,"lng":135.497461,"prefecture":27,"numbering":["NK88"],"lines":[32010],"attr":"eco","postal_code":"599-8236","address":"堺市中区深井沢町３２９０","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.512779,34.534406],[135.501802,34.543086],[135.49503,34.54492],[135.491606,34.543874],[135.481784,34.533873],[135.477873,34.524216],[135.477416,34.510349],[135.491307,34.508149],[135.518775,34.519791],[135.518769,34.519821],[135.512779,34.534406]]]},"properties":{}},"extra":false},
+    {"code":3201003,"id":7992,"name":"泉ヶ丘","original_name":"泉ヶ丘","name_kana":"いずみがおか","closed":false,"lat":34.497099,"lng":135.511575,"prefecture":27,"numbering":["NK89"],"lines":[32010],"attr":"eco","postal_code":"590-0105","address":"堺市南区竹城台1丁","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.535392,34.494897],[135.534938,34.482707],[135.527057,34.45993],[135.522979,34.452016],[135.491307,34.508149],[135.518775,34.519791],[135.519953,34.519099],[135.529731,34.507145],[135.534985,34.497357],[135.535392,34.494897]]]},"properties":{}},"extra":false},
+    {"code":3201004,"id":7993,"name":"栂・美木多","original_name":"栂・美木多","name_kana":"とが・みきた","closed":false,"lat":34.485087,"lng":135.490286,"prefecture":27,"numbering":["NK90"],"lines":[32010],"attr":"heat","postal_code":"590-0141","address":"堺市南区桃山台二丁１-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.477416,34.510349],[135.491307,34.508149],[135.522979,34.452016],[135.521574,34.445421],[135.515004,34.43441],[135.468045,34.501008],[135.476198,34.509524],[135.477416,34.510349]]]},"properties":{}},"extra":false},
+    {"code":3201005,"id":7994,"name":"光明池","original_name":"光明池","name_kana":"こうみょういけ","closed":false,"lat":34.474712,"lng":135.475572,"prefecture":27,"numbering":["NK91"],"lines":[32010],"attr":"cool","postal_code":"590-0143","address":"堺市南区新檜尾台二丁１-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.453353,34.485973],[135.455834,34.490129],[135.466468,34.500203],[135.468045,34.501008],[135.515004,34.43441],[135.505542,34.410559],[135.453353,34.485973]]]},"properties":{}},"extra":false},
+    {"code":3201006,"id":7995,"name":"和泉中央","original_name":"和泉中央","name_kana":"いずみちゅうおう","closed":false,"lat":34.461211,"lng":135.456063,"prefecture":27,"numbering":["NK92"],"lines":[32010],"attr":"cool","postal_code":"594-0041","address":"和泉市いぶき野５-１-１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[135.436635,34.413048],[135.465547,34.37772],[135.499304,34.38553],[135.50242,34.395863],[135.505542,34.410559],[135.453353,34.485973],[135.445633,34.481383],[135.43072,34.463433],[135.428094,34.434048],[135.42879,34.423374],[135.436635,34.413048]]]},"properties":{}},"extra":false}
   ],
-  "closed_date":"1993-04-01",
-  "extra":true
+  "extra":false
 }

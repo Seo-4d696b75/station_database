@@ -10,7 +10,7 @@ import { assertObjectPartialMatched, assertObjectSetPartialMatched } from "./set
  */
 export interface Station {
   code: number
-  id: string
+  id: number
   name: string
   original_name: string
   name_kana: string
@@ -51,7 +51,7 @@ export function normalizeCSVStation(csv: CSVStation<Dataset>): Station {
 // TODO id独自定義 => 公式定義への移行
 // 移行後を見越して駅・路線ごとにid重複確認を分離している
 export function validateStations(stations: Station[], where: string, extra: boolean) {
-  const ids = new Set<string>()
+  const ids = new Set<number>()
   const codes = new Set<number>()
   const map = new Map<string, Station>()
   const coordinates = new Set<string>()
