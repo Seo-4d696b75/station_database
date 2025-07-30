@@ -7,7 +7,7 @@
 ```json
 {
   "code": 11319,
-  "id": "2d2b3a",
+  "id": 68,
   "name": "JR東北本線(宇都宮線)",
   "name_kana": "じぇいあーるとうほくほんせん",
   "name_formal": "JR東北本線",

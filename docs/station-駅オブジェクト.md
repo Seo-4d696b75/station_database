@@ -7,7 +7,7 @@
 ```json
 {
   "code": 100409,
-  "id": "7bfd6b",
+  "id": 852,
   "name": "福島(福島)",
   "original_name": "福島",
   "name_kana": "ふくしま",
