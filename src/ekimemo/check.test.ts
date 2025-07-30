@@ -43,7 +43,9 @@ describe("駅メモとの差分を検査", () => {
       expect(s.name).toBe(name)
       expect(s.name_kana).toBe(kana)
 
-      const path = html.match(/<img\s+src="https:\/\/mfmap.com\/styles\/ekimemo-app\/static\/(?<lng>[\d.]+),(?<lat>[\d.]+),\d+/ms)
+      // TODO スクレイピング由来の低い保守性をどうにかしたい
+      // https://github.com/Seo-4d696b75/station_database/issues/169
+      const path = html.match(/<img\s+src="https:\/\/(?:app\.)?mfmap\.com\/styles\/ekimemo-app\/static\/(?<lng>[\d.]+),(?<lat>[\d.]+),\d+\/\d+x\d+\.png/ms)
       if (!path) throw Error("lat/lng not found " + s.id)
       const lat = parseFloat(path.groups?.["lat"]!!).toFixed(6)
       const lng = parseFloat(path.groups?.["lng"]!!).toFixed(6)
