@@ -51,7 +51,7 @@ const jsonLineMain: JSONSchemaType<JSONLine<'main'>> = {
   type: "object",
   title: "路線オブジェクト",
   examples: [
-    { "code": 11319, "id": "2d2b3a", "name": "JR東北本線(宇都宮線)", "name_kana": "じぇいあーるとうほくほんせん", "name_formal": "JR東北本線", "station_size": 33, "company_code": 2, "closed": false, "color": "#F68B1E", "symbol": "JU" },
+    { "code": 11319, "id": 68, "name": "JR東北本線(宇都宮線)", "name_kana": "じぇいあーるとうほくほんせん", "name_formal": "JR東北本線", "station_size": 33, "company_code": 2, "closed": false, "color": "#F68B1E", "symbol": "JU" },
   ],
   properties: {
     code: lineCode,
