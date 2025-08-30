@@ -1,0 +1,16 @@
+{
+  "code":99731,
+  "id":634,
+  "name":"旧広電２系統(宮島線)",
+  "name_kana":"きゅうひろでんにけいとう(みやじません)",
+  "station_size":4,
+  "company_code":222,
+  "closed":true,
+  "station_list":[
+    {"code":9971001,"id":8486,"name":"広島駅","original_name":"広島駅","name_kana":"ひろしまえき","closed":false,"lat":34.396803,"lng":132.475138,"prefecture":34,"lines":[99710,99711,99713,99714,99730,99731,99732,99733],"attr":"heat","postal_code":"732-0822","address":"広島市南区松原町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.472946,34.395078],[132.470421,34.397112],[132.470069,34.39781],[132.470605,34.399519],[132.471019,34.4002],[132.476455,34.396354],[132.473755,34.395064],[132.472946,34.395078]]]},"properties":{}}},
+    {"code":9971002,"id":8421,"name":"猿猴橋町","original_name":"猿猴橋町","name_kana":"えんこうばしちょう","closed":true,"lat":34.395047,"lng":132.475977,"prefecture":34,"lines":[99730,99731,99732,99733],"attr":"unknown","postal_code":"732-0823","address":"広島市南区猿猴橋町","closed_date":"2025-08-02","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.486275,34.38869],[132.473755,34.395064],[132.476455,34.396354],[132.486714,34.397996],[132.487491,34.394028],[132.486275,34.38869]]]},"properties":{}}},
+    {"code":9971003,"id":8422,"name":"的場町","original_name":"的場町","name_kana":"まとばちょう","closed":false,"lat":34.393277,"lng":132.475076,"prefecture":34,"lines":[99730,99731,99732,99733],"attr":"cool","postal_code":"732-0824","address":"広島市南区的場町１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.472946,34.395078],[132.47357,34.392129],[132.486157,34.38786],[132.486275,34.38869],[132.473755,34.395064],[132.472946,34.395078]]]},"properties":{}}},
+    {"code":9971004,"id":8423,"name":"稲荷町(広島)","original_name":"稲荷町","name_kana":"いなりまち","closed":false,"lat":34.392569,"lng":132.471728,"prefecture":34,"lines":[99710,99711,99713,99714,99730,99731,99733],"attr":"cool","postal_code":"732-0827","address":"広島市南区稲荷町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.469636,34.39175],[132.470421,34.397112],[132.472946,34.395078],[132.47357,34.392129],[132.472649,34.391179],[132.469636,34.39175]]]},"properties":{}}}
+  ],
+  "closed_date":"2025-08-02"
+}

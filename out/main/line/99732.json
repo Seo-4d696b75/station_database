@@ -1,0 +1,17 @@
+{
+  "code":99732,
+  "id":635,
+  "name":"旧広電５系統(比治山線)",
+  "name_kana":"きゅうひろでんごけいとう(ひじやません)",
+  "station_size":5,
+  "company_code":222,
+  "closed":true,
+  "station_list":[
+    {"code":9971001,"id":8486,"name":"広島駅","original_name":"広島駅","name_kana":"ひろしまえき","closed":false,"lat":34.396803,"lng":132.475138,"prefecture":34,"lines":[99710,99711,99713,99714,99730,99731,99732,99733],"attr":"heat","postal_code":"732-0822","address":"広島市南区松原町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.472946,34.395078],[132.470421,34.397112],[132.470069,34.39781],[132.470605,34.399519],[132.471019,34.4002],[132.476455,34.396354],[132.473755,34.395064],[132.472946,34.395078]]]},"properties":{}}},
+    {"code":9971002,"id":8421,"name":"猿猴橋町","original_name":"猿猴橋町","name_kana":"えんこうばしちょう","closed":true,"lat":34.395047,"lng":132.475977,"prefecture":34,"lines":[99730,99731,99732,99733],"attr":"unknown","postal_code":"732-0823","address":"広島市南区猿猴橋町","closed_date":"2025-08-02","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.486275,34.38869],[132.473755,34.395064],[132.476455,34.396354],[132.486714,34.397996],[132.487491,34.394028],[132.486275,34.38869]]]},"properties":{}}},
+    {"code":9971003,"id":8422,"name":"的場町","original_name":"的場町","name_kana":"まとばちょう","closed":false,"lat":34.393277,"lng":132.475076,"prefecture":34,"lines":[99730,99731,99732,99733],"attr":"cool","postal_code":"732-0824","address":"広島市南区的場町１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.472946,34.395078],[132.47357,34.392129],[132.486157,34.38786],[132.486275,34.38869],[132.473755,34.395064],[132.472946,34.395078]]]},"properties":{}}},
+    {"code":9971304,"id":8481,"name":"段原一丁目","original_name":"段原一丁目","name_kana":"だんばらいっちょうめ","closed":false,"lat":34.390302,"lng":132.474067,"prefecture":34,"lines":[99732],"attr":"eco","postal_code":"732-0811","address":"広島市南区段原１","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.47357,34.392129],[132.472649,34.391179],[132.472727,34.388457],[132.485993,34.376306],[132.486157,34.38786],[132.47357,34.392129]]]},"properties":{}}},
+    {"code":9971305,"id":8482,"name":"比治山下","original_name":"比治山下","name_kana":"ひじやました","closed":false,"lat":34.38696,"lng":132.471006,"prefecture":34,"lines":[99713,99732],"attr":"eco","postal_code":"732-0817","address":"広島市南区比治山町","voronoi":{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[132.465508,34.387849],[132.465997,34.388299],[132.467226,34.388924],[132.472727,34.388457],[132.485993,34.376306],[132.486155,34.374833],[132.465508,34.387849]]]},"properties":{}}}
+  ],
+  "closed_date":"2025-08-02"
+}
