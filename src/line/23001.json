@@ -2,9 +2,11 @@
   "name":"京成本線",
   "station_list":[
     {"code":2300101,"name":"京成上野","numbering":["KS01"]},
+    {"code":2300145,"name":"博物館動物園"},
     {"code":1130218,"name":"日暮里","numbering":["KS02"]},
     {"code":2300103,"name":"新三河島","numbering":["KS03"]},
     {"code":2300104,"name":"町屋","numbering":["KS04"]},
+    {"code":2300144,"name":"西千住"},
     {"code":2300105,"name":"千住大橋","numbering":["KS05"]},
     {"code":2300106,"name":"京成関屋","numbering":["KS06"]},
     {"code":2300107,"name":"堀切菖蒲園","numbering":["KS07"]},
@@ -43,8 +45,6 @@
     {"code":2300140,"name":"京成成田","numbering":["KS40"]},
     {"code":2300141,"name":"東成田","numbering":["KS44"]},
     {"code":1132813,"name":"空港第２ビル（成田第２・第３ターミナル）","numbering":["KS41"]},
-    {"code":1132705,"name":"成田空港（成田第１ターミナル）","numbering":["KS42"]},
-    {"code":2300144,"name":"西千住"},
-    {"code":2300145,"name":"博物館動物園"}
+    {"code":1132705,"name":"成田空港（成田第１ターミナル）","numbering":["KS42"]}
   ]
 }
