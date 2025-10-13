@@ -55,7 +55,7 @@ describe("駅メモとの差分を検査", () => {
   })
 
   describe("各路線の登録駅を確認", () => {
-    test.concurrent.each(lines)("$name code:$code html:$ekimemo", async (line) => {
+    test.concurrent.each(lines)("$name code:$code id:$id", async (line) => {
       // 駅メモ登録駅のみ検査対象
       const detail = await readJsonSafe(`src/line/${line.code}.json`, jsonLineDetailSrc)
       const list_json = detail.station_list.filter(s => set.has(s.name) && !s.extra).map(s => s.name)
