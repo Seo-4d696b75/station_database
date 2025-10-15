@@ -28,4 +28,5 @@ jobs:
           path: |
             src/ekimemo/station
             src/ekimemo/line
+            src/ekimemo/*.csv
           key: ekimemo-data-latest
