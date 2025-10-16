@@ -17,6 +17,7 @@ jobs:
           path: |
             src/ekimemo/station
             src/ekimemo/line
+            src/ekimemo/*.csv
           key: ekimemo-data-latest
       - name: setup Node.js
         uses: actions/setup-node@v4
