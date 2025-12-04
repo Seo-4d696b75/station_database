@@ -18,7 +18,8 @@ jobs:
             src/ekimemo/station
             src/ekimemo/line
             src/ekimemo/*.csv
-          key: ekimemo-data-latest
+          key: ekimemo-data-latest # 完全一致ではヒットしない前提
+          restore-keys: ekimemo-data-latest-
       - name: setup Node.js
         uses: actions/setup-node@v4
         with:
