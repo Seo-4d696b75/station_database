@@ -29,4 +29,4 @@ jobs:
             src/ekimemo/station
             src/ekimemo/line
             src/ekimemo/*.csv
-          key: ekimemo-data-latest
+          key: ekimemo-data-latest-${{ github.run_id }}
