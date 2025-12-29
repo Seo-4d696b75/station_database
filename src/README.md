@@ -6,10 +6,10 @@
 
 ### Node + TypeScript の環境構築
 
-`nodenv`でNodeバージョンを管理しています（バージョンの定義場所：`/.node-version`）
+`mise`でNodeバージョンを管理しています（バージョンの定義場所：`/.tool-versions`）
 
 ```bash
-nodenv install 
+mise install 
 npm install
 
 npm run ${package.jsonで定義したscript名称}
