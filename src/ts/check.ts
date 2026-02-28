@@ -103,6 +103,7 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
               console.log(`路線登録駅の名称に変更があります ${stationCode}@${line.name}(${line.code}) ${stationName}=>${validStation.name}`)
               const response = await new Promise<string>(resolve => {
                 process.stdout.write(' OK? Y/N => ')
+                process.stdin.resume()
                 process.stdin.once('data', data => {
                   resolve(data.toString().trim())
                 })
