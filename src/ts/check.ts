@@ -103,6 +103,7 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
               console.log(`路線登録駅の名称に変更があります ${stationCode}@${line.name}(${line.code}) ${stationName}=>${validStation.name}`)
               const response = await new Promise<string>(resolve => {
                 process.stdout.write(' OK? Y/N => ')
+                process.stdin.resume()
                 process.stdin.once('data', data => {
                   resolve(data.toString().trim())
                 })
@@ -164,12 +165,7 @@ import { normalizeCSVStation, Station, validateStations } from "./validate/stati
         const line = lineMap.get(code)
         return line && !line.closed
       })
-      assert(
-        // FIXME 休止駅の暫定対応
-        // https://github.com/Seo-4d696b75/station_database/issues/173
-        hasActiveLine || station.name === '的場町' || station.name === '段原一丁目',
-        '現役駅は１つ以上の現役路線に登録される必要があります',
-      )
+      assert(hasActiveLine, '現役駅は１つ以上の現役路線に登録される必要があります')
     }
   })
 

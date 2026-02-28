@@ -2,7 +2,7 @@ name: ekimemo
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12 1 * *" # JSTで毎月１日21:00に実行（ダウンロード完了から3時間後）
+    - cron: "0 12 * * 5" # JSTで毎週金曜21:00に実行（ダウンロード開始から3時間後）
   pull_request:
     branches: [ main ]
 jobs:

@@ -5,6 +5,8 @@ import { csvPrefecture } from '../ts/model/prefecture';
 import { csvStation } from '../ts/model/station';
 import { normalizeCSVStation } from '../ts/validate/station';
 import { csvEkimemo } from './model';
+import { csvLine } from "../ts/model/line";
+import { normalizeCSVLine } from "../ts/validate/line";
 
 describe("駅メモとの差分を検査", () => {
   const lines = readCsvSafe("src/ekimemo/line.csv", csvEkimemo)
@@ -26,8 +28,8 @@ describe("駅メモとの差分を検査", () => {
       expect(data.size).toBe(stations.length)
     })
 
-    test.concurrent.each(stations)("$name code:$code id:$id", async (station) => {
-      const s = data.get(station.id!!)
+    test.concurrent.each(stations)("$name id:$id", async (station) => {
+      const s = data.get(station.id)
       expect(s).not.toBeUndefined()
       if (!s) throw Error()
 
@@ -55,9 +57,26 @@ describe("駅メモとの差分を検査", () => {
   })
 
   describe("各路線の登録駅を確認", () => {
-    test.concurrent.each(lines)("$name code:$code id:$id", async (line) => {
+
+    const data = new Map(
+      readCsvSafe("src/line.csv", csvLine('extra'))
+        .map(l => normalizeCSVLine(l))
+        .filter(l => !l.extra)
+        .map(l => [l.id, l])
+    )
+
+    test('路線数の確認', () => {
+      expect(data.size).toBe(lines.length)
+    })
+
+    test.concurrent.each(lines)("$name id:$id", async (line) => {
+      // 対応する路線の確認
+      const l = data.get(line.id)
+      expect(l).not.toBeUndefined()
+      if (!l) throw Error()
+
       // 駅メモ登録駅のみ検査対象
-      const detail = await readJsonSafe(`src/line/${line.code}.json`, jsonLineDetailSrc)
+      const detail = await readJsonSafe(`src/line/${l.code}.json`, jsonLineDetailSrc)
       const list_json = detail.station_list.filter(s => set.has(s.name) && !s.extra).map(s => s.name)
 
       const html = (await readFile(`src/ekimemo/line/${line.id}.html`)).toString()
