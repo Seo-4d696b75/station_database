@@ -15,8 +15,10 @@ jobs:
         with:
           node-version-file: .tool-versions
           cache: "npm"
+      - name: Install safe-chain
+        run: curl -fsSL https://github.com/AikidoSec/safe-chain/releases/latest/download/install-safe-chain.sh | sh -s -- --ci
       - name: setup node modules
-        run: npm install
+        run: npm ci
       - name: run test (main format)
         run: npm run test-format-main
       - name: run test (extra format)
@@ -55,8 +57,10 @@ jobs:
         with:
           node-version-file: .tool-versions
           cache: "npm"
+      - name: Install safe-chain
+        run: curl -fsSL https://github.com/AikidoSec/safe-chain/releases/latest/download/install-safe-chain.sh | sh -s -- --ci
       - name: setup node modules
-        run: npm install
+        run: npm ci
       - name: download base data
         uses: actions/download-artifact@v4
         with:
