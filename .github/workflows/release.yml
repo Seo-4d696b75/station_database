@@ -14,11 +14,11 @@ jobs:
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           ref: 'main'
       - name: Load version
-        uses: xom9ikk/dotenv@v2
+        uses: xom9ikk/dotenv@eff1dce037c4c0143cc4180a810511024c2560c0 # v2
         with:
           path: src
       - name: Add Tag
@@ -28,7 +28,7 @@ jobs:
           git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
-        uses: actions/create-release@v1
+        uses: actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # v1.1.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
