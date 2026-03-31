@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6.0.2
       - name: restore cached data
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v5.0.4
         with:
           path: |
             src/ekimemo/station

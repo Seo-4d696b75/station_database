@@ -25,7 +25,7 @@ jobs:
           npm run download
       - name: cache downloaded data
         if: success()
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v5.0.4
         with:
           path: |
             src/ekimemo/station
