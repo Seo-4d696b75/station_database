@@ -21,7 +21,7 @@ jobs:
           key: ekimemo-data-latest # 完全一致ではヒットしない前提
           restore-keys: ekimemo-data-latest-
       - name: setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6.3.0
         with:
           node-version-file: .tool-versions
           cache: "npm"

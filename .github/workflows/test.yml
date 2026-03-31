@@ -11,7 +11,7 @@ jobs:
         with:
           ref: ${{github.head_ref}}
       - name: setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6.3.0
         with:
           node-version-file: .tool-versions
           cache: "npm"
@@ -53,7 +53,7 @@ jobs:
         with:
           ref: ${{github.head_ref}}
       - name: setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6.3.0
         with:
           node-version-file: .tool-versions
           cache: "npm"
