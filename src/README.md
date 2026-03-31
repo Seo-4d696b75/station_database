@@ -4,6 +4,11 @@
 
 ## Setup
 
+### Safe Chain 導入
+
+npmパッケージを安全に利用するため必ず導入してください
+https://www.npmjs.com/package/@aikidosec/safe-chain
+
 ### Node + TypeScript の環境構築
 
 `mise`でNodeバージョンを管理しています（バージョンの定義場所：`/.tool-versions`）
