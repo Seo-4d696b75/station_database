@@ -7,7 +7,7 @@ jobs:
   format:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
         with:
           ref: ${{github.head_ref}}
       - name: setup Node.js
@@ -28,7 +28,7 @@ jobs:
   fetch-base:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
         with:
           ref: ${{github.base_ref}}
       - name: fetch data
@@ -49,7 +49,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6.0.2
         with:
           ref: ${{github.head_ref}}
       - name: setup Node.js
