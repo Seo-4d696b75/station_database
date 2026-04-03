@@ -81,12 +81,13 @@ jobs:
           cat artifact/diff.extra.md >> artifact/diff.md
           rm artifact/diff.extra.md
       - name: comment on PR
-        uses: thollander/actions-comment-pull-request@fabd468d3a1a0b97feee5f6b9e499eab0dd903f6 # v2.5.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filePath: artifact/diff.md
-          comment_tag: diff
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --edit-last \
+            --create-if-none \
+            --body-file artifact/diff.md
       - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: diff
