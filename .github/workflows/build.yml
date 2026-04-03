@@ -46,7 +46,7 @@ jobs:
           java-version: "11"
           cache: "gradle"
       - name: Load version
-        uses: xom9ikk/dotenv@eff1dce037c4c0143cc4180a810511024c2560c0 # v2
+        uses: ./.github/actions/load-dotenv
         with:
           path: src
       - name: build diagram
