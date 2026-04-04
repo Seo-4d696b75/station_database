@@ -81,11 +81,18 @@ jobs:
         run: |
           ./src/zip.sh extra
           npm run bump-version-extra
+      - name: Configure GPG
+        if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
+        uses: ./.github/actions/configure-gpg
+        with:
+          private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          key-id: ${{ secrets.GPG_KEY_ID }}
+          user-email: ${{ secrets.GPG_USER_EMAIL }}
+          user-name: ${{ secrets.GPG_USER_NAME }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - name: Commit and Push
         if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "actions-user"
           git add ./src ./out
           git commit -m "feat: build v${{ env.VERSION }}"
           git add ./latest*

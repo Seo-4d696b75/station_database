@@ -23,11 +23,17 @@ jobs:
         uses: ./.github/actions/load-dotenv
         with:
           path: src
+      - name: Configure GPG
+        uses: ./.github/actions/configure-gpg
+        with:
+          private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          key-id: ${{ secrets.GPG_KEY_ID }}
+          user-email: ${{ secrets.GPG_USER_EMAIL }}
+          user-name: ${{ secrets.GPG_USER_NAME }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - name: Add Tag
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "actions-user"
-          git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
+          git tag -s "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
         env:
