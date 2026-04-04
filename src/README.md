@@ -2,7 +2,38 @@
 
 開発者向けの説明です
 
-## Setup
+## Setup（リポジトリ）
+
+### GitHub App 関連
+
+GitHub Action においてデフォルトのアクセストークンでは権限が不足するため、
+一部のワークフローでは GitHub App から発行しています
+[Create GitHub App Token](https://github.com/marketplace/actions/create-github-app-token)の説明に従って準備してください
+
+次にActionから参照する機密情報をリポジトリのSecretに登録します。
+
+| name | value |
+|----|----|
+| APP_ID | 登録した GitHub App 識別子 |
+| PRIVATE_KEY | 認証情報 |
+
+### GPG 関連
+
+GitHub Action で自動化するコミット・タグに署名するため、署名に使う秘密鍵が必要です。
+参考：[著名を有効化するための初期化処理（Composite Action）](../.github/actions/configure-gpg/action.yml)
+
+リポジトリのSecretへ登録してください
+
+| name | value |
+|----|----|
+| GPG_PRIVATE_KEY | ASCII形式の秘密鍵 |
+| GPG_KEY_ID | keyid（長さ16の16進数文字列）|
+| GPG_USER_EMAIL | git config user.email | 
+| GPG_USER_NAME | git config user.name | 
+| GPG_PASSPHRASE | 鍵のパスフレーズ（必要なら）|
+| GPG_KEY_GRIP | 鍵のkeygrip（パスフレーズ有りの場合のみ）|
+
+## Setup（ローカル）
 
 ### Safe Chain 導入
 
