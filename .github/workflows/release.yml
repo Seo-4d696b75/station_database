@@ -10,6 +10,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     # PRがmainにマージされたとき
     if: github.event.pull_request.merged == true
     steps:
@@ -18,7 +20,7 @@ jobs:
         with:
           ref: 'main'
       - name: Load version
-        uses: xom9ikk/dotenv@eff1dce037c4c0143cc4180a810511024c2560c0 # v2
+        uses: ./.github/actions/load-dotenv
         with:
           path: src
       - name: Add Tag
@@ -28,11 +30,10 @@ jobs:
           git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
-        uses: actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # v1.1.4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: "v${{ env.VERSION }}"
-          release_name: "駅情報更新 ${{ env.VERSION }}"
-          draft: true
-          prerelease: false
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v${{ env.VERSION }}" \
+            --repo "${{ github.repository }}" \
+            --title "駅情報更新 ${{ env.VERSION }}" \
+            --draft

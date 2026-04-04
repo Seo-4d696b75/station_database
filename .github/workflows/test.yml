@@ -37,7 +37,7 @@ jobs:
           cp out/main/json.zip artifact/main.zip
           cp out/extra/json.zip artifact/extra.zip
           cp src/.env artifact/.env
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: base-data
           path: artifact
@@ -62,7 +62,7 @@ jobs:
       - name: setup node modules
         run: npm ci
       - name: download base data
-        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: base-data
           path: artifact
@@ -81,13 +81,14 @@ jobs:
           cat artifact/diff.extra.md >> artifact/diff.md
           rm artifact/diff.extra.md
       - name: comment on PR
-        uses: thollander/actions-comment-pull-request@fabd468d3a1a0b97feee5f6b9e499eab0dd903f6 # v2.5.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filePath: artifact/diff.md
-          comment_tag: diff
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" \
+            --edit-last \
+            --create-if-none \
+            --body-file artifact/diff.md
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: diff
           path: artifact/*.md
