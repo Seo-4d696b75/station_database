@@ -18,6 +18,10 @@ inputs:
     description: Key passphrase (omit or leave empty if none)
     required: false
     default: ""
+  key-grip:
+    description: Keygrip for gpg-preset-passphrase (required when passphrase is set; gpg --with-keygrip --list-secret-keys)
+    required: false
+    default: ""
 
 runs:
   using: composite
@@ -28,6 +32,7 @@ runs:
         GPG_PRIVATE_KEY: ${{ inputs.private-key }}
         GPG_PASSPHRASE: ${{ inputs.passphrase }}
         GPG_KEY_ID: ${{ inputs.key-id }}
+        GPG_KEY_GRIP: ${{ inputs.key-grip }}
       run: |
         set -euo pipefail
         mkdir -p ~/.gnupg
@@ -41,6 +46,10 @@ runs:
         echo "$GPG_PRIVATE_KEY" | gpg --batch --import
 
         if [ -n "${GPG_PASSPHRASE:-}" ]; then
+          if [ -z "${GPG_KEY_GRIP:-}" ]; then
+            echo "configure-gpg: key-grip is required when passphrase is set" >&2
+            exit 1
+          fi
           PRESET="$(command -v gpg-preset-passphrase 2>/dev/null || true)"
           if [ -z "$PRESET" ]; then
             for p in /usr/lib/gnupg/gpg-preset-passphrase /usr/lib/gnupg2/gpg-preset-passphrase; do
@@ -51,8 +60,7 @@ runs:
             echo "gpg-preset-passphrase not found" >&2
             exit 1
           fi
-          KEYGRIP=$(gpg --with-keygrip --list-secret-keys "$GPG_KEY_ID" | awk '/Keygrip = / {print $3; exit}')
-          echo "$GPG_PASSPHRASE" | "$PRESET" --preset "$KEYGRIP"
+          echo "$GPG_PASSPHRASE" | "$PRESET" --preset "$GPG_KEY_GRIP"
         fi
 
         git config --global gpg.program gpg

@@ -31,6 +31,7 @@ jobs:
           user-email: ${{ secrets.GPG_USER_EMAIL }}
           user-name: ${{ secrets.GPG_USER_NAME }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          key-grip: ${{ secrets.GPG_KEY_GRIP }}
       - name: Add Tag
         run: |
           git tag -s "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
