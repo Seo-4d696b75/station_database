@@ -90,6 +90,7 @@ jobs:
           user-email: ${{ secrets.GPG_USER_EMAIL }}
           user-name: ${{ secrets.GPG_USER_NAME }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          key-grip: ${{ secrets.GPG_KEY_GRIP }}
       - name: Commit and Push
         if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
         run: |
