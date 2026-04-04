@@ -33,7 +33,7 @@ runs:
         mkdir -p ~/.gnupg
         chmod 700 ~/.gnupg
         printf '%s\n' 'pinentry-mode loopback' >> ~/.gnupg/gpg.conf
-        printf '%s\n' 'allow-loopback-pinentry' >> ~/.gnupg/gpg-agent.conf
+        printf '%s\n' 'allow-loopback-pinentry' 'allow-preset-passphrase' > ~/.gnupg/gpg-agent.conf
         gpgconf --kill gpg-agent 2>/dev/null || true
         gpgconf --launch gpg-agent
         export GPG_TTY=$(tty)
