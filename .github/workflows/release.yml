@@ -7,6 +7,9 @@ on:
       - 'out/**/*'
     types: 
       - closed
+concurrency:
+  group: release-main
+  cancel-in-progress: false
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -34,6 +37,10 @@ jobs:
           key-grip: ${{ secrets.GPG_KEY_GRIP }}
       - name: Add Tag
         run: |
+          if git rev-parse -q --verify "refs/tags/v${{ env.VERSION }}" >/dev/null; then
+            echo "Tag v${{ env.VERSION }} already exists; skipping release workflow."
+            exit 0
+          fi
           git tag -s "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
