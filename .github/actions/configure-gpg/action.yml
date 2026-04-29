@@ -1,0 +1,70 @@
+name: Configure GPG for git
+description: Import a GPG secret key and enable signed commits in the job
+
+inputs:
+  private-key:
+    description: Armored GPG private key block
+    required: true
+  key-id:
+    description: Long key ID used for signing (e.g. 16 hex chars)
+    required: true
+  user-email:
+    description: Commit author email (must match GPG UID and a verified GitHub email)
+    required: true
+  user-name:
+    description: Commit author name
+    required: true
+  passphrase:
+    description: Key passphrase (omit or leave empty if none)
+    required: false
+    default: ""
+  key-grip:
+    description: Keygrip for gpg-preset-passphrase (required when passphrase is set; gpg --with-keygrip --list-secret-keys)
+    required: false
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    - name: Import GPG key and configure git
+      shell: bash
+      env:
+        GPG_PRIVATE_KEY: ${{ inputs.private-key }}
+        GPG_PASSPHRASE: ${{ inputs.passphrase }}
+        GPG_KEY_ID: ${{ inputs.key-id }}
+        GPG_KEY_GRIP: ${{ inputs.key-grip }}
+      run: |
+        set -euo pipefail
+        mkdir -p ~/.gnupg
+        chmod 700 ~/.gnupg
+        printf '%s\n' 'pinentry-mode loopback' >> ~/.gnupg/gpg.conf
+        printf '%s\n' 'allow-loopback-pinentry' 'allow-preset-passphrase' > ~/.gnupg/gpg-agent.conf
+        gpgconf --kill gpg-agent 2>/dev/null || true
+        gpgconf --launch gpg-agent
+        export GPG_TTY=$(tty)
+
+        echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+
+        if [ -n "${GPG_PASSPHRASE:-}" ]; then
+          if [ -z "${GPG_KEY_GRIP:-}" ]; then
+            echo "configure-gpg: key-grip is required when passphrase is set" >&2
+            exit 1
+          fi
+          PRESET="$(command -v gpg-preset-passphrase 2>/dev/null || true)"
+          if [ -z "$PRESET" ]; then
+            for p in /usr/lib/gnupg/gpg-preset-passphrase /usr/lib/gnupg2/gpg-preset-passphrase; do
+              [ -x "$p" ] && PRESET=$p && break
+            done
+          fi
+          if [ -z "$PRESET" ]; then
+            echo "gpg-preset-passphrase not found" >&2
+            exit 1
+          fi
+          echo "$GPG_PASSPHRASE" | "$PRESET" --preset "$GPG_KEY_GRIP"
+        fi
+
+        git config --global gpg.program gpg
+        git config --global user.email "${{ inputs.user-email }}"
+        git config --global user.name "${{ inputs.user-name }}"
+        git config --global user.signingkey "$GPG_KEY_ID"
+        git config --global commit.gpgsign true
