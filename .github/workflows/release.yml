@@ -7,6 +7,9 @@ on:
       - 'out/**/*'
     types: 
       - closed
+concurrency:
+  group: release-main
+  cancel-in-progress: false
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -18,16 +21,27 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: 'main'
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
       - name: Load version
         uses: ./.github/actions/load-dotenv
         with:
           path: src
+      - name: Configure GPG
+        uses: ./.github/actions/configure-gpg
+        with:
+          private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          key-id: ${{ secrets.GPG_KEY_ID }}
+          user-email: ${{ secrets.GPG_USER_EMAIL }}
+          user-name: ${{ secrets.GPG_USER_NAME }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          key-grip: ${{ secrets.GPG_KEY_GRIP }}
       - name: Add Tag
         run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "actions-user"
-          git tag -a "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
+          if git rev-parse -q --verify "refs/tags/v${{ env.VERSION }}" >/dev/null; then
+            echo "Tag v${{ env.VERSION }} already exists; skipping release workflow."
+            exit 0
+          fi
+          git tag -s "v${{ env.VERSION }}" -m "駅情報更新 ${{ env.VERSION }}"
           git push origin "v${{ env.VERSION }}"
       - name: Create Release
         env:
