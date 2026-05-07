@@ -39,5 +39,5 @@ test('バージョン更新の確認', async () => {
 async function md5(path: string): Promise<string> {
   const md5 = crypto.createHash('md5')
   const bin = await readFile(path)
-  return md5.update(bin).digest('hex')
+  return md5.update(new Uint8Array(bin)).digest('hex')
 }
