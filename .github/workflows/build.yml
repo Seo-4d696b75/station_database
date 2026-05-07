@@ -62,27 +62,34 @@ jobs:
           ./gradlew run --args="build/station.extra.json build/diagram.extra.json"
       - name: build data
         run: npm run build
-      - name: Check Diff
-        id: check_diff
+      - name: Check Diff (out/**)
+        id: diff_out
         run: |
           git add -N .
           main=$(git diff --name-only -- out/main/ | wc -l)
           extra=$(git diff --name-only -- out/extra/ | wc -l)
-          echo "detected file changes main: $main, extra: $extra"
+          echo "detected file changes out/main: $main, out/extra: $extra"
           echo "main=$([ "$main" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
           echo "extra=$([ "$extra" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
-      - name: update summary (main)
-        if: steps.check_diff.outputs.main == 'true'
+      - name: zip data (main)
+        if: steps.diff_out.outputs.main == 'true'
+        run: ./src/zip.sh main
+      - name: zip data (extra)
+        if: steps.diff_out.outputs.extra == 'true'
+        run: ./src/zip.sh extra
+      - name: update latest info
+        # src/.env のバージョン定義も考慮する必要があるため無条件で更新処理を実行する
         run: |
-          ./src/zip.sh main
           npm run bump-version-main
-      - name: update summary (extra)
-        if: steps.check_diff.outputs.extra == 'true'
-        run: |
-          ./src/zip.sh extra
           npm run bump-version-extra
+      - name: Check Diff (latest_info*.json)
+        id: diff_info
+        run: |
+          info_changes=$(git diff --name-only -- ':(glob)latest_info*.json' | wc -l)
+          echo "detected file changes latest_info: $info_changes"
+          echo "info=$([ "$info_changes" -gt 0 ] && echo 'true' || echo 'false' )" >> $GITHUB_OUTPUT
       - name: Configure GPG
-        if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
+        if: steps.diff_out.outputs.main == 'true' || steps.diff_out.outputs.extra == 'true' || steps.diff_info.outputs.info == 'true'
         uses: ./.github/actions/configure-gpg
         with:
           private-key: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -91,11 +98,17 @@ jobs:
           user-name: ${{ secrets.GPG_USER_NAME }}
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
           key-grip: ${{ secrets.GPG_KEY_GRIP }}
-      - name: Commit and Push
-        if: steps.check_diff.outputs.main == 'true' || steps.check_diff.outputs.extra == 'true'
+      - name: Commit (out/**)
+        if: steps.diff_out.outputs.main == 'true' || steps.diff_out.outputs.extra == 'true'
         run: |
-          git add ./src ./out
+          git add ./out/main ./out/extra
           git commit -m "feat: build v${{ env.VERSION }}"
-          git add ./latest*
+      - name: Commit (latest info)
+        if: steps.diff_info.outputs.info == 'true'
+        run: |
+          git add ./latest_info*.json
           git commit -m "feat: update version info v${{ env.VERSION }}"
+      - name: Push
+        if: steps.diff_out.outputs.main == 'true' || steps.diff_out.outputs.extra == 'true' || steps.diff_info.outputs.info == 'true'
+        run: |
           git push origin ${{ github.ref_name }}
