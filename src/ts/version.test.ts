@@ -16,6 +16,13 @@ test('バージョン更新の確認', async () => {
     throw new Error('新バージョンが不明です')
   }
 
+  // 最新バージョンが各データセットで一致する
+  const latestMain = JSON.parse(await readFile('latest_info.json', 'utf8'))
+  const latestExtra = JSON.parse(await readFile('latest_info.extra.json', 'utf8'))
+  expect(latestMain.version).toBe(newVersion)
+  expect(latestExtra.version).toBe(newVersion)
+
+  // バージョン更新の有無とデータ差分の有無が一致する
   const oldMainHash = await md5('artifact/main.zip')
   const oldExtraHash = await md5('artifact/extra.zip')
   const newMainHash = await md5('out/main/json.zip')
