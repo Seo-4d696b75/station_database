@@ -1,5 +1,14 @@
 import { JSONPolylineGeo, JSONPolylineSrc, JSONVoronoiGeo } from "../model/geo";
 import { Assert, assertEach, withAssert } from "./assert";
+import { Station } from "./station";
+
+/** 
+ * ポリライン矩形の余白（10進小数のオイラー角）。約20km相当 
+ * 
+ * v20250501時点で最も距離が外れるJR舞鶴線(11622)の福知山を基準に設定しています
+ * @see https://github.com/Seo-4d696b75/station_database/issues/210#issuecomment-4535086831
+ */
+const POLYLINE_STATION_MARGIN = 0.15
 
 export function validateGeoVoronoi(obj: JSONVoronoiGeo) {
   const geometry = obj.geometry
@@ -70,12 +79,35 @@ function unionRect(r1: RectBounds, r2: RectBounds): RectBounds {
   }
 }
 
+function expandRect(rect: RectBounds, margin: number): RectBounds {
+  return {
+    north: rect.north + margin,
+    south: rect.south - margin,
+    east: rect.east + margin,
+    west: rect.west - margin,
+  }
+}
+
+function isInRect(lat: number, lng: number, rect: RectBounds): boolean {
+  return lat >= rect.south && lat <= rect.north && lng >= rect.west && lng <= rect.east
+}
+
+function validateStationsInPolylineBounds(rect: RectBounds, stations: Station[], assert: Assert) {
+  const bounds = expandRect(rect, POLYLINE_STATION_MARGIN)
+  assertEach(stations, "stations", (station, assert) => {
+    assert(
+      isInRect(station.lat, station.lng, bounds),
+      `駅座標がポリライン範囲外 station:${station.name} lat:${station.lat} lng:${station.lng}`
+    )
+  })
+}
+
 interface Edge {
   start: string
   end: string
 }
 
-export function validateGeoPolyline(obj: JSONPolylineGeo) {
+export function validateGeoPolyline(obj: JSONPolylineGeo, stations?: Station[]) {
   withAssert("polyline_list", obj, assert => {
     const edges: Edge[] = []
     let rect = initRect()
@@ -114,6 +146,10 @@ export function validateGeoPolyline(obj: JSONPolylineGeo) {
     assert.equals(rect.west, obj.properties.west)
 
     assert(isJointPolyline(edges), "グラフが連結でない")
+
+    if (stations) {
+      validateStationsInPolylineBounds(rect, stations, assert)
+    }
   })
 }
 

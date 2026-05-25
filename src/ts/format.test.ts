@@ -193,7 +193,11 @@ describe(`${dataset}データセット`, () => {
           const file = `${dir}/polyline/${line.code}.json`
           assert(existsSync(file), "ポリラインファイルが見つからない file:" + file)
           const json = await readJsonSafe(file, jsonPolyline)
-          validateGeoPolyline(json)
+          const stations = stationRegister
+            .filter(r => r.line_code === line.code)
+            .map(r => stationCodeMap.get(r.station_code)!)
+
+          validateGeoPolyline(json, stations)
         })
       })
     })
