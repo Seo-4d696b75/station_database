@@ -2,7 +2,9 @@ import axios from "axios";
 import * as fs from 'fs';
 import { JSDOM } from "jsdom";
 import { writeCsvSafe } from "../ts/io";
+import { ekimemoGetConfig } from "./http";
 import { csvEkimemo, CSVEkimemo } from "./model";
+
 const MAX_LINE_CODE = 700
 const MIN_INTERVAL = 500
 
@@ -43,7 +45,7 @@ async function withRetry<T>(
     let html = ''
     try {
       const res = await withRetry(
-        () => axios.get<string>(`https://ekimemo.com/database/line/${lineId}`),
+        () => axios.get<string>(`https://ekimemo.com/database/line/${lineId}`, ekimemoGetConfig),
         // 404HTTPステータスはリトライ不要
         (e, c) => c < 5 && (!axios.isAxiosError(e) || e.response?.status !== 404),
       )
@@ -98,7 +100,7 @@ async function withRetry<T>(
   for (const s of stations) {
     const start = Date.now()
 
-    const res = await withRetry(() => axios.get<string>(`https://ekimemo.com/database/station/${s.id}/activity`))
+    const res = await withRetry(() => axios.get<string>(`https://ekimemo.com/database/station/${s.id}/activity`, ekimemoGetConfig))
     fs.writeFileSync(`src/ekimemo/station/${s.id}.html`, res.data)
     console.log(s.id, s.name)
 
