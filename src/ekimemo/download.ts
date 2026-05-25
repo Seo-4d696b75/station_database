@@ -4,7 +4,7 @@ import { JSDOM } from "jsdom";
 import { writeCsvSafe } from "../ts/io";
 import { csvEkimemo, CSVEkimemo } from "./model";
 const MAX_LINE_CODE = 700
-const MIN_INTERVAL = 300
+const MIN_INTERVAL = 500
 
 async function delay(milliseconds: number): Promise<void> {
   if (milliseconds <= 0) return
