@@ -2,7 +2,7 @@ name: download
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * 5" # JSTで毎週金曜18:00に実行
+    - cron: "0 19 * * 3" # JSTで毎週木曜04:00に実行（UTC水曜19:00）
 jobs:
   download:
     runs-on: ubuntu-latest

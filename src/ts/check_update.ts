@@ -1,5 +1,6 @@
 import axios from "axios"
 import dotenv from "dotenv"
+import { ekimemoGetConfig } from "../ekimemo/http"
 import { JSDOM } from "jsdom"
 import { Octokit } from "octokit"
 import path from "path"
@@ -7,7 +8,7 @@ import path from "path"
 // お知らせ一覧から駅情報更新のpathを抽出
 async function getNewsPath(page: number) {
   console.log(`お知らせ一覧を探索中 page: ${page}`)
-  const body = (await axios.get<string>(`https://ekimemo.com/news?page=${page}`)).data
+  const body = (await axios.get<string>(`https://ekimemo.com/news?page=${page}`, ekimemoGetConfig)).data
   const dom = new JSDOM(body)
   const list = dom.window.document.querySelectorAll(".news-list > .news-item")
   const paths: string[] = []
@@ -75,7 +76,7 @@ async function getUpdateIssues(octokit: Octokit): Promise<Set<number>> {
 // 駅情報更新のお知らせを確認＆必要ならissue登録
 async function processNewsItem(path: string, issues: Set<number>, octokit: Octokit) {
   const url = `https://ekimemo.com${path}`
-  const body = (await axios.get<string>(url)).data
+  const body = (await axios.get<string>(url, ekimemoGetConfig)).data
   const dom = new JSDOM(body)
   const publish = new Date(dom.window.document.querySelector(".news-status > .news-publish-time")?.getAttribute("datetime")!)
   const update = getUpdateDate(dom, publish)
