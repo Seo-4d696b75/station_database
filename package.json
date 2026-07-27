@@ -40,6 +40,7 @@
     "@adobe/jsonschema2md": "^8.0.11",
     "@types/jest": "^28.1.1",
     "@types/jsdom": "^21.1.6",
+    "@types/yargs": "^17.0.35",
     "ajv": "8.11.0",
     "axios": "1.18.0",
     "csv-parse": "^5.5.6",
@@ -51,10 +52,7 @@
     "octokit": "^3.1.2",
     "ts-jest": "^28.0.4",
     "ts-node": "^10.8.1",
-    "typescript": "^4.7.3"
-  },
-  "dependencies": {
-    "@types/yargs": "^17.0.33",
-    "yargs": "^17.7.2"
+    "typescript": "^4.7.3",
+    "yargs": "^18.1.0"
   }
 }
