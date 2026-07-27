@@ -47,7 +47,7 @@ function getUpdateDate(dom: JSDOM, publish: Date): Date {
 
 async function getUpdateIssues(octokit: Octokit): Promise<Set<number>> {
   // 直近のissueを登録が新しい順に最大30件取得する
-  const res = await octokit.request("GET /repos/{owner}/{repo}/issues", {
+  const res = await octokit.rest.issues.listForRepo({
     owner: "Seo-4d696b75",
     repo: "station_database",
     state: "all",
@@ -101,7 +101,7 @@ async function processNewsItem(path: string, issues: Set<number>, octokit: Octok
 
 ${newsBody?.replace(/^\s+/, "")}
     `
-    await octokit.request("POST /repos/{owner}/{repo}/issues", {
+    await octokit.rest.issues.create({
       owner: "Seo-4d696b75",
       repo: "station_database",
       title: title,
