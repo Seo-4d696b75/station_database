@@ -39,7 +39,7 @@
   "devDependencies": {
     "@adobe/jsonschema2md": "^8.0.11",
     "@types/jest": "^30.0.0",
-    "@types/jsdom": "^21.1.6",
+    "@types/jsdom": "^28.0.3",
     "@types/yargs": "^17.0.35",
     "ajv": "8.11.0",
     "axios": "^1.18.1",
@@ -48,7 +48,7 @@
     "dotenv": "^17.4.2",
     "glob": "^13.0.6",
     "jest": "^30.4.2",
-    "jsdom": "^24.0.0",
+    "jsdom": "^29.1.1",
     "octokit": "^5.0.5",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.8.1",
