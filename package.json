@@ -38,7 +38,7 @@
   "homepage": "https://github.com/Seo-4d696b75/station_database#readme",
   "devDependencies": {
     "@adobe/jsonschema2md": "^8.0.11",
-    "@types/jest": "^29.5.14",
+    "@types/jest": "^30.0.0",
     "@types/jsdom": "^21.1.6",
     "@types/yargs": "^17.0.35",
     "ajv": "8.11.0",
@@ -47,7 +47,7 @@
     "csv-writer": "^1.6.0",
     "dotenv": "^17.4.2",
     "glob": "^13.0.6",
-    "jest": "^29.7.0",
+    "jest": "^30.4.2",
     "jsdom": "^24.0.0",
     "octokit": "^3.1.2",
     "ts-jest": "^29.4.12",
