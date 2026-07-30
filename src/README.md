@@ -49,7 +49,7 @@ mise install
 npm install
 
 npm run ${package.jsonで定義したscript名称}
-npx ts-node ${ts_file}
+npx tsx ${ts_file}
 npx jest ${ts_test_file}
 ```
 
