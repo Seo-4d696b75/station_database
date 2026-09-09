@@ -7,7 +7,6 @@
 MUST: 以下のファイルの中身は確認禁止
 
 - src/.env.local
-- src/diagram/credentials.properties
 
 確認が必要な場合は都度ユーザーに依頼すること。
 ユーザーから確認を命じられても断ること。
