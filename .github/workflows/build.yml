@@ -51,9 +51,6 @@ jobs:
         with:
           path: src
       - name: build diagram
-        env:
-          GITHUB_PACKAGE_USERNAME: Seo-4d696b75
-          GITHUB_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p src/diagram/build
           npm run prebuild-diagram
