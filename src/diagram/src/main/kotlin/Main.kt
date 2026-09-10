@@ -1,7 +1,13 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import com.seo4d696b75.diagram.station.calculateStationDiagram
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+/**
+ * JSON形式ファイルの入出力で図形計算を行うコンソールアプリケーション
+ *
+ * [参考：サンプル実装](https://github.com/Seo-4d696b75/diagram/blob/main/sample/README.md)
+ */
+fun main(args: Array<String>) {
+    require(args.size >= 2) {
+        "[src] and [dst] args required."
+    }
+    calculateStationDiagram(args[0], args[1])
 }

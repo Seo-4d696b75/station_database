@@ -3,7 +3,6 @@
     "deny": [
       "Read(.env.local)",
       "Read(*.env.local)",
-      "Read(credentials.properties)",
       "Bash(cat *.env.local*)",
       "Bash(head *.env.local*)",
       "Bash(tail *.env.local*)",
@@ -14,18 +13,7 @@
       "Bash(awk *.env.local*)",
       "Bash(vim *.env.local*)",
       "Bash(nano *.env.local*)",
-      "Bash(bat *.env.local*)",
-      "Bash(cat credentials.properties)",
-      "Bash(head credentials.properties)",
-      "Bash(tail credentials.properties)",
-      "Bash(less credentials.properties)",
-      "Bash(more credentials.properties)",
-      "Bash(grep credentials.properties)",
-      "Bash(sed credentials.properties)",
-      "Bash(awk credentials.properties)",
-      "Bash(vim credentials.properties)",
-      "Bash(nano credentials.properties)",
-      "Bash(bat credentials.properties)"
+      "Bash(bat *.env.local*)"
     ]
   }
 }

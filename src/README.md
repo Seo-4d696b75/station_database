@@ -120,22 +120,7 @@ npm run check
 
 ### 4. ビルド作業
 
-**リモート**  
-
 作業ブランチをpushすると[auto-build ワークフロー](../.github/workflows/build.yml)が起動して自動ビルドが実行され、ビルド成功すると差分がcommit&pushされます
-
-**ローカル**  
-
-基本的にはワークフローと同様にshellスクリプトを実行します
-
-ただし図形計算にGitHub Packageを利用する関係でGitHubアカウントの認証情報が必要です
-
-`src/diagram/credentials.properties`
-
-```properties
-username=${github_user_name}
-token=${github_access_token}
-```
 
 ### 5. リリース作業
 
