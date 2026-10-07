@@ -18,13 +18,13 @@
 
 `code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅コード](delaunay-駅オブジェクト隣接点-properties-駅コード.md))
+* Type: `integer` ([駅コード](delaunay-駅オブジェクト隣接点-properties-駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅コード.md "undefined#/items/properties/code")
+* defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅コード.md "undefined#/items/properties/code")
 
 ### codeの型定義
 
@@ -52,13 +52,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前](delaunay-駅オブジェクト隣接点-properties-駅路線の名前.md))
+* Type: `string` ([駅・路線の名前](delaunay-駅オブジェクト隣接点-properties-駅路線の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅路線の名前.md "undefined#/items/properties/name")
+* defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅路線の名前.md "undefined#/items/properties/name")
 
 ### nameの型定義
 
@@ -88,13 +88,13 @@
 
 `lat`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（緯度）](delaunay-駅オブジェクト隣接点-properties-駅座標緯度.md))
+* Type: `number` ([駅座標（緯度）](delaunay-駅オブジェクト隣接点-properties-駅座標緯度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅座標緯度.md "undefined#/items/properties/lat")
+* defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅座標緯度.md "undefined#/items/properties/lat")
 
 ### latの型定義
 
@@ -122,13 +122,13 @@
 
 `lng`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（経度）](delaunay-駅オブジェクト隣接点-properties-駅座標経度.md))
+* Type: `number` ([駅座標（経度）](delaunay-駅オブジェクト隣接点-properties-駅座標経度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅座標経度.md "undefined#/items/properties/lng")
+* defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-駅座標経度.md "undefined#/items/properties/lng")
 
 ### lngの型定義
 
@@ -156,13 +156,13 @@
 
 `next`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer[]` ([駅コード](delaunay-駅オブジェクト隣接点-properties-隣接駅コードリスト-駅コード.md))
+* Type: `integer[]` ([駅コード](delaunay-駅オブジェクト隣接点-properties-隣接駅コードリスト-駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-隣接駅コードリスト.md "undefined#/items/properties/next")
+* defined in: [隣接点リスト](delaunay-駅オブジェクト隣接点-properties-隣接駅コードリスト.md "undefined#/items/properties/next")
 
 ### nextの型定義
 

@@ -15,13 +15,13 @@
 
 `start`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([ポリライン始点の識別子](polyline-properties-features-items-properties-properties-properties-ポリライン始点の識別子.md))
+* Type: `string` ([ポリライン始点の識別子](polyline-properties-features-items-properties-properties-properties-ポリライン始点の識別子.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-properties-properties-ポリライン始点の識別子.md "undefined#/properties/features/items/properties/properties/properties/start")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-properties-properties-ポリライン始点の識別子.md "undefined#/properties/features/items/properties/properties/properties/start")
 
 ### startの型定義
 
@@ -37,13 +37,13 @@
 
 `end`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([ポリライン終点の識別子](polyline-properties-features-items-properties-properties-properties-ポリライン終点の識別子.md))
+* Type: `string` ([ポリライン終点の識別子](polyline-properties-features-items-properties-properties-properties-ポリライン終点の識別子.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-properties-properties-ポリライン終点の識別子.md "undefined#/properties/features/items/properties/properties/properties/end")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-properties-properties-ポリライン終点の識別子.md "undefined#/properties/features/items/properties/properties/properties/end")
 
 ### endの型定義
 

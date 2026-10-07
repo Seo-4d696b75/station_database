@@ -19,13 +19,13 @@
 
 `code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅コード](tree-properties-頂点リスト-探索木の頂点-properties-駅コード.md))
+* Type: `integer` ([駅コード](tree-properties-頂点リスト-探索木の頂点-properties-駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")
 
 ### codeの型定義
 
@@ -53,13 +53,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前](tree-properties-頂点リスト-探索木の頂点-properties-駅路線の名前.md))
+* Type: `string` ([駅・路線の名前](tree-properties-頂点リスト-探索木の頂点-properties-駅路線の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")
 
 ### nameの型定義
 
@@ -89,13 +89,13 @@
 
 `lat`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（緯度）](tree-properties-頂点リスト-探索木の頂点-properties-駅座標緯度.md))
+* Type: `number` ([駅座標（緯度）](tree-properties-頂点リスト-探索木の頂点-properties-駅座標緯度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")
 
 ### latの型定義
 
@@ -123,13 +123,13 @@
 
 `lng`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（経度）](tree-properties-頂点リスト-探索木の頂点-properties-駅座標経度.md))
+* Type: `number` ([駅座標（経度）](tree-properties-頂点リスト-探索木の頂点-properties-駅座標経度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")
 
 ### lngの型定義
 
@@ -157,13 +157,13 @@
 
 `left`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `integer` ([子頂点の駅コード(left)](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードleft.md))
+* Type: `integer` ([子頂点の駅コード(left)](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードleft.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")
 
 ### leftの型定義
 
@@ -191,13 +191,13 @@
 
 `right`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `integer` ([子頂点の駅コード(right)](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードright.md))
+* Type: `integer` ([子頂点の駅コード(right)](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードright.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")
+* defined in: [探索木](tree-properties-頂点リスト-探索木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")
 
 ### rightの型定義
 

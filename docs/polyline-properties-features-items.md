@@ -16,13 +16,13 @@
 
 `type`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string`
+* Type: `string`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-type.md "undefined#/properties/features/items/properties/type")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-type.md "undefined#/properties/features/items/properties/type")
 
 ### typeの型定義
 
@@ -42,13 +42,13 @@
 
 `geometry`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([Details](polyline-properties-features-items-properties-geometry.md))
+* Type: `object` ([Details](polyline-properties-features-items-properties-geometry.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry.md "undefined#/properties/features/items/properties/geometry")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry.md "undefined#/properties/features/items/properties/geometry")
 
 ### geometryの型定義
 
@@ -60,13 +60,13 @@
 
 `properties`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([Details](polyline-properties-features-items-properties-properties.md))
+* Type: `object` ([Details](polyline-properties-features-items-properties-properties.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-properties.md "undefined#/properties/features/items/properties/properties")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-properties.md "undefined#/properties/features/items/properties/properties")
 
 ### propertiesの型定義
 

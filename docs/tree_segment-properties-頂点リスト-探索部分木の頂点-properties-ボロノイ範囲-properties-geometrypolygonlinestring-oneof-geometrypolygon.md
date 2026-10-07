@@ -63,13 +63,13 @@
 
 `type`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string`
+* Type: `string`
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-type.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry/oneOf/0/properties/type")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-type.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry/oneOf/0/properties/type")
 
 ### typeの型定義
 
@@ -89,25 +89,25 @@
 
 `coordinates`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: リスト. 各要素は次のとおりです
+* Type: リスト. 各要素は次のとおりです
 
-    1.  [経度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-経度.md "check type definition")
+  1. [経度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-経度.md "check type definition")
 
-    2.  [緯度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-緯度.md "check type definition")
+  2. [緯度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-緯度.md "check type definition")
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry/oneOf/0/properties/coordinates")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト.md "undefined#/properties/node_list/items/properties/voronoi/properties/geometry/oneOf/0/properties/coordinates")
 
 ### coordinatesの型定義
 
 リスト. 各要素は次のとおりです
 
-1.  [経度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-経度.md "check type definition")
+1. [経度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-経度.md "check type definition")
 
-2.  [緯度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-緯度.md "check type definition")
+2. [緯度](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon-properties-polygonの座標リスト-polygonの座標リスト0-座標点-items-緯度.md "check type definition")
 
 ### coordinatesの値の制限
 

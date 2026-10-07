@@ -32,13 +32,13 @@
 
 `code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md))
+* Type: `integer` ([駅コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅コード.md "undefined#/properties/node_list/items/properties/code")
 
 ### codeの型定義
 
@@ -66,13 +66,13 @@
 
 `id`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅ID](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅id.md))
+* Type: `integer` ([駅ID](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅id.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅id.md "undefined#/properties/node_list/items/properties/id")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅id.md "undefined#/properties/node_list/items/properties/id")
 
 ### idの型定義
 
@@ -98,13 +98,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md))
+* Type: `string` ([駅・路線の名前](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前.md "undefined#/properties/node_list/items/properties/name")
 
 ### nameの型定義
 
@@ -134,13 +134,13 @@
 
 `original_name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([オリジナルの駅名称](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md))
+* Type: `string` ([オリジナルの駅名称](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md "undefined#/properties/node_list/items/properties/original_name")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-オリジナルの駅名称.md "undefined#/properties/node_list/items/properties/original_name")
 
 ### original\_nameの型定義
 
@@ -166,13 +166,13 @@
 
 `name_kana`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前のかな表現](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md))
+* Type: `string` ([駅・路線の名前のかな表現](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md "undefined#/properties/node_list/items/properties/name_kana")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅路線の名前のかな表現.md "undefined#/properties/node_list/items/properties/name_kana")
 
 ### name\_kanaの型定義
 
@@ -208,13 +208,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `closed`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `boolean` ([廃駅フラグ](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md))
+* Type: `boolean` ([廃駅フラグ](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md "undefined#/properties/node_list/items/properties/closed")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-廃駅フラグ.md "undefined#/properties/node_list/items/properties/closed")
 
 ### closedの型定義
 
@@ -226,13 +226,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `lat`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（緯度）](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md))
+* Type: `number` ([駅座標（緯度）](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標緯度.md "undefined#/properties/node_list/items/properties/lat")
 
 ### latの型定義
 
@@ -260,13 +260,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `lng`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（経度）](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md))
+* Type: `number` ([駅座標（経度）](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅座標経度.md "undefined#/properties/node_list/items/properties/lng")
 
 ### lngの型定義
 
@@ -294,13 +294,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `left`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `integer` ([子頂点の駅コード(left)](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md))
+* Type: `integer` ([子頂点の駅コード(left)](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードleft.md "undefined#/properties/node_list/items/properties/left")
 
 ### leftの型定義
 
@@ -328,13 +328,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `right`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `integer` ([子頂点の駅コード(right)](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md))
+* Type: `integer` ([子頂点の駅コード(right)](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-子頂点の駅コードright.md "undefined#/properties/node_list/items/properties/right")
 
 ### rightの型定義
 
@@ -362,13 +362,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `segment`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([部分木の名前](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md))
+* Type: `string` ([部分木の名前](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md "undefined#/properties/node_list/items/properties/segment")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-部分木の名前.md "undefined#/properties/node_list/items/properties/segment")
 
 ### segmentの型定義
 
@@ -384,13 +384,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `prefecture`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([都道府県コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md))
+* Type: `integer` ([都道府県コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md "undefined#/properties/node_list/items/properties/prefecture")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-都道府県コード.md "undefined#/properties/node_list/items/properties/prefecture")
 
 ### prefectureの型定義
 
@@ -408,13 +408,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `lines`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer[]` ([路線コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線-路線コード.md))
+* Type: `integer[]` ([路線コード](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線-路線コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線.md "undefined#/properties/node_list/items/properties/lines")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅が登録されている路線.md "undefined#/properties/node_list/items/properties/lines")
 
 ### linesの型定義
 
@@ -451,13 +451,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `attr`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の属性](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md))
+* Type: `string` ([駅の属性](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md "undefined#/properties/node_list/items/properties/attr")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の属性.md "undefined#/properties/node_list/items/properties/attr")
 
 ### attrの型定義
 
@@ -480,13 +480,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `postal_code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の所在地を表す郵便番号](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md))
+* Type: `string` ([駅の所在地を表す郵便番号](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md "undefined#/properties/node_list/items/properties/postal_code")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地を表す郵便番号.md "undefined#/properties/node_list/items/properties/postal_code")
 
 ### postal\_codeの型定義
 
@@ -518,13 +518,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `address`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の所在地の住所](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md))
+* Type: `string` ([駅の所在地の住所](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md "undefined#/properties/node_list/items/properties/address")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の所在地の住所.md "undefined#/properties/node_list/items/properties/address")
 
 ### addressの型定義
 
@@ -550,13 +550,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `open_date`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([駅の開業日](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md))
+* Type: `string` ([駅の開業日](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md "undefined#/properties/node_list/items/properties/open_date")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の開業日.md "undefined#/properties/node_list/items/properties/open_date")
 
 ### open\_dateの型定義
 
@@ -584,13 +584,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `closed_date`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([駅の廃止日](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md))
+* Type: `string` ([駅の廃止日](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md "undefined#/properties/node_list/items/properties/closed_date")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-駅の廃止日.md "undefined#/properties/node_list/items/properties/closed_date")
 
 ### closed\_dateの型定義
 
@@ -618,13 +618,13 @@ segmentが定義されている場合、指定された名前の部分木がこ�
 
 `voronoi`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([ボロノイ範囲](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md))
+* Type: `object` ([ボロノイ範囲](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md "undefined#/properties/node_list/items/properties/voronoi")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト-探索部分木の頂点-properties-ボロノイ範囲.md "undefined#/properties/node_list/items/properties/voronoi")
 
 ### voronoiの型定義
 
