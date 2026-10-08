@@ -15,13 +15,13 @@
 
 `type`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string`
+* Type: `string`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry-properties-type.md "undefined#/properties/features/items/properties/geometry/properties/type")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry-properties-type.md "undefined#/properties/features/items/properties/geometry/properties/type")
 
 ### typeの型定義
 
@@ -41,25 +41,25 @@
 
 `coordinates`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: リスト. 各要素は次のとおりです
+* Type: リスト. 各要素は次のとおりです
 
-    1.  [経度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-経度.md "check type definition")
+  1. [経度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-経度.md "check type definition")
 
-    2.  [緯度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-緯度.md "check type definition")
+  2. [緯度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-緯度.md "check type definition")
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry-properties-coordinates.md "undefined#/properties/features/items/properties/geometry/properties/coordinates")
+* defined in: [路線ポリライン](polyline-properties-features-items-properties-geometry-properties-coordinates.md "undefined#/properties/features/items/properties/geometry/properties/coordinates")
 
 ### coordinatesの型定義
 
 リスト. 各要素は次のとおりです
 
-1.  [経度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-経度.md "check type definition")
+1. [経度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-経度.md "check type definition")
 
-2.  [緯度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-緯度.md "check type definition")
+2. [緯度](polyline-properties-features-items-properties-geometry-properties-coordinates-座標点-items-緯度.md "check type definition")
 
 ### coordinatesの値の制限
 

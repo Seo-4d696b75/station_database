@@ -18,13 +18,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([路線名](polyline-properties-路線ポリライン付加情報-properties-路線名.md))
+* Type: `string` ([路線名](polyline-properties-路線ポリライン付加情報-properties-路線名.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-路線名.md "undefined#/properties/properties/properties/name")
+* defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-路線名.md "undefined#/properties/properties/properties/name")
 
 ### nameの型定義
 
@@ -40,13 +40,13 @@
 
 `north`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number`
+* Type: `number`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-north.md "undefined#/properties/properties/properties/north")
+* defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-north.md "undefined#/properties/properties/properties/north")
 
 ### northの型定義
 
@@ -58,13 +58,13 @@
 
 `south`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number`
+* Type: `number`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-south.md "undefined#/properties/properties/properties/south")
+* defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-south.md "undefined#/properties/properties/properties/south")
 
 ### southの型定義
 
@@ -76,13 +76,13 @@
 
 `east`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number`
+* Type: `number`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-east.md "undefined#/properties/properties/properties/east")
+* defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-east.md "undefined#/properties/properties/properties/east")
 
 ### eastの型定義
 
@@ -94,13 +94,13 @@
 
 `west`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number`
+* Type: `number`
 
-*   non-null
+* non-null
 
-*   defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-west.md "undefined#/properties/properties/properties/west")
+* defined in: [路線ポリライン](polyline-properties-路線ポリライン付加情報-properties-west.md "undefined#/properties/properties/properties/west")
 
 ### westの型定義
 

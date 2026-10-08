@@ -16,13 +16,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([部分木の名前](tree_segment-properties-部分木の名前.md))
+* Type: `string` ([部分木の名前](tree_segment-properties-部分木の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-部分木の名前.md "undefined#/properties/name")
+* defined in: [探索部分木](tree_segment-properties-部分木の名前.md "undefined#/properties/name")
 
 ### nameの型定義
 
@@ -38,13 +38,13 @@
 
 `root`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([ルート駅コード](tree_segment-properties-ルート駅コード.md))
+* Type: `integer` ([ルート駅コード](tree_segment-properties-ルート駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-ルート駅コード.md "undefined#/properties/root")
+* defined in: [探索部分木](tree_segment-properties-ルート駅コード.md "undefined#/properties/root")
 
 ### rootの型定義
 
@@ -56,13 +56,13 @@
 
 `node_list`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object[]` ([探索部分木の頂点](tree_segment-properties-頂点リスト-探索部分木の頂点.md))
+* Type: `object[]` ([探索部分木の頂点](tree_segment-properties-頂点リスト-探索部分木の頂点.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索部分木](tree_segment-properties-頂点リスト.md "undefined#/properties/node_list")
+* defined in: [探索部分木](tree_segment-properties-頂点リスト.md "undefined#/properties/node_list")
 
 ### node\_listの型定義
 

@@ -25,13 +25,13 @@
 
 `code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([路線コード](line_detail-properties-路線コード.md))
+* Type: `integer` ([路線コード](line_detail-properties-路線コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線コード.md "undefined#/properties/code")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線コード.md "undefined#/properties/code")
 
 ### codeの型定義
 
@@ -49,13 +49,13 @@
 
 `id`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([路線ID](line_detail-properties-路線id.md))
+* Type: `integer` ([路線ID](line_detail-properties-路線id.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線id.md "undefined#/properties/id")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線id.md "undefined#/properties/id")
 
 ### idの型定義
 
@@ -81,13 +81,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前](line_detail-properties-駅路線の名前.md))
+* Type: `string` ([駅・路線の名前](line_detail-properties-駅路線の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-駅路線の名前.md "undefined#/properties/name")
+* defined in: [路線詳細オブジェクト](line_detail-properties-駅路線の名前.md "undefined#/properties/name")
 
 ### nameの型定義
 
@@ -117,13 +117,13 @@
 
 `name_kana`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前のかな表現](line_detail-properties-駅路線の名前のかな表現.md))
+* Type: `string` ([駅・路線の名前のかな表現](line_detail-properties-駅路線の名前のかな表現.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-駅路線の名前のかな表現.md "undefined#/properties/name_kana")
+* defined in: [路線詳細オブジェクト](line_detail-properties-駅路線の名前のかな表現.md "undefined#/properties/name_kana")
 
 ### name\_kanaの型定義
 
@@ -159,13 +159,13 @@ nameと一致する場合はundefined
 
 `name_formal`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([路線の正式名称](line_detail-properties-路線の正式名称.md))
+* Type: `string` ([路線の正式名称](line_detail-properties-路線の正式名称.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線の正式名称.md "undefined#/properties/name_formal")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線の正式名称.md "undefined#/properties/name_formal")
 
 ### name\_formalの型定義
 
@@ -187,13 +187,13 @@ nameと一致する場合はundefined
 
 `station_size`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([登録駅数](line_detail-properties-登録駅数.md))
+* Type: `integer` ([登録駅数](line_detail-properties-登録駅数.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅数.md "undefined#/properties/station_size")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅数.md "undefined#/properties/station_size")
 
 ### station\_sizeの型定義
 
@@ -219,13 +219,13 @@ nameと一致する場合はundefined
 
 `company_code`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `integer` ([事業者コード](line_detail-properties-事業者コード.md))
+* Type: `integer` ([事業者コード](line_detail-properties-事業者コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-事業者コード.md "undefined#/properties/company_code")
+* defined in: [路線詳細オブジェクト](line_detail-properties-事業者コード.md "undefined#/properties/company_code")
 
 ### company\_codeの型定義
 
@@ -241,13 +241,13 @@ nameと一致する場合はundefined
 
 `closed`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `boolean` ([廃線フラグ](line_detail-properties-廃線フラグ.md))
+* Type: `boolean` ([廃線フラグ](line_detail-properties-廃線フラグ.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-廃線フラグ.md "undefined#/properties/closed")
+* defined in: [路線詳細オブジェクト](line_detail-properties-廃線フラグ.md "undefined#/properties/closed")
 
 ### closedの型定義
 
@@ -259,13 +259,13 @@ RGBチャネル16進数
 
 `color`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([路線カラー](line_detail-properties-路線カラー.md))
+* Type: `string` ([路線カラー](line_detail-properties-路線カラー.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線カラー.md "undefined#/properties/color")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線カラー.md "undefined#/properties/color")
 
 ### colorの型定義
 
@@ -293,13 +293,13 @@ RGBチャネル16進数
 
 `symbol`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([路線記号](line_detail-properties-路線記号.md))
+* Type: `string` ([路線記号](line_detail-properties-路線記号.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線記号.md "undefined#/properties/symbol")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線記号.md "undefined#/properties/symbol")
 
 ### symbolの型定義
 
@@ -321,13 +321,13 @@ RGBチャネル16進数
 
 `station_list`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object[]` ([駅オブジェクト(路線登録)](line_detail-properties-登録駅リスト-駅オブジェクト路線登録.md))
+* Type: `object[]` ([駅オブジェクト(路線登録)](line_detail-properties-登録駅リスト-駅オブジェクト路線登録.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト.md "undefined#/properties/station_list")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト.md "undefined#/properties/station_list")
 
 ### station\_listの型定義
 
@@ -343,13 +343,13 @@ RGBチャネル16進数
 
 `closed_date`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([路線の廃止日](line_detail-properties-路線の廃止日.md))
+* Type: `string` ([路線の廃止日](line_detail-properties-路線の廃止日.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-路線の廃止日.md "undefined#/properties/closed_date")
+* defined in: [路線詳細オブジェクト](line_detail-properties-路線の廃止日.md "undefined#/properties/closed_date")
 
 ### closed\_dateの型定義
 

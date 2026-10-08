@@ -30,13 +30,13 @@
 
 `code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅コード.md))
+* Type: `integer` ([駅コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅コード.md "undefined#/properties/station_list/items/properties/code")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅コード.md "undefined#/properties/station_list/items/properties/code")
 
 ### codeの型定義
 
@@ -64,13 +64,13 @@
 
 `id`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([駅ID](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅id.md))
+* Type: `integer` ([駅ID](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅id.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅id.md "undefined#/properties/station_list/items/properties/id")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅id.md "undefined#/properties/station_list/items/properties/id")
 
 ### idの型定義
 
@@ -96,13 +96,13 @@
 
 `name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前.md))
+* Type: `string` ([駅・路線の名前](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前.md "undefined#/properties/station_list/items/properties/name")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前.md "undefined#/properties/station_list/items/properties/name")
 
 ### nameの型定義
 
@@ -132,13 +132,13 @@
 
 `original_name`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([オリジナルの駅名称](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-オリジナルの駅名称.md))
+* Type: `string` ([オリジナルの駅名称](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-オリジナルの駅名称.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-オリジナルの駅名称.md "undefined#/properties/station_list/items/properties/original_name")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-オリジナルの駅名称.md "undefined#/properties/station_list/items/properties/original_name")
 
 ### original\_nameの型定義
 
@@ -164,13 +164,13 @@
 
 `name_kana`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅・路線の名前のかな表現](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前のかな表現.md))
+* Type: `string` ([駅・路線の名前のかな表現](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前のかな表現.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前のかな表現.md "undefined#/properties/station_list/items/properties/name_kana")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅路線の名前のかな表現.md "undefined#/properties/station_list/items/properties/name_kana")
 
 ### name\_kanaの型定義
 
@@ -206,13 +206,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `closed`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `boolean` ([廃駅フラグ](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-廃駅フラグ.md))
+* Type: `boolean` ([廃駅フラグ](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-廃駅フラグ.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-廃駅フラグ.md "undefined#/properties/station_list/items/properties/closed")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-廃駅フラグ.md "undefined#/properties/station_list/items/properties/closed")
 
 ### closedの型定義
 
@@ -224,13 +224,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `lat`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（緯度）](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標緯度.md))
+* Type: `number` ([駅座標（緯度）](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標緯度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標緯度.md "undefined#/properties/station_list/items/properties/lat")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標緯度.md "undefined#/properties/station_list/items/properties/lat")
 
 ### latの型定義
 
@@ -258,13 +258,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `lng`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `number` ([駅座標（経度）](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標経度.md))
+* Type: `number` ([駅座標（経度）](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標経度.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標経度.md "undefined#/properties/station_list/items/properties/lng")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅座標経度.md "undefined#/properties/station_list/items/properties/lng")
 
 ### lngの型定義
 
@@ -292,13 +292,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `prefecture`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([都道府県コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-都道府県コード.md))
+* Type: `integer` ([都道府県コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-都道府県コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-都道府県コード.md "undefined#/properties/station_list/items/properties/prefecture")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-都道府県コード.md "undefined#/properties/station_list/items/properties/prefecture")
 
 ### prefectureの型定義
 
@@ -316,13 +316,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `numbering`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string[]`
+* Type: `string[]`
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅ナンバリング.md "undefined#/properties/station_list/items/properties/numbering")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅ナンバリング.md "undefined#/properties/station_list/items/properties/numbering")
 
 ### numberingの型定義
 
@@ -348,13 +348,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `lines`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer[]` ([路線コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅が登録されている路線-路線コード.md))
+* Type: `integer[]` ([路線コード](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅が登録されている路線-路線コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅が登録されている路線.md "undefined#/properties/station_list/items/properties/lines")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅が登録されている路線.md "undefined#/properties/station_list/items/properties/lines")
 
 ### linesの型定義
 
@@ -391,13 +391,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `attr`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の属性](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の属性.md))
+* Type: `string` ([駅の属性](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の属性.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の属性.md "undefined#/properties/station_list/items/properties/attr")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の属性.md "undefined#/properties/station_list/items/properties/attr")
 
 ### attrの型定義
 
@@ -420,13 +420,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `postal_code`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の所在地を表す郵便番号](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地を表す郵便番号.md))
+* Type: `string` ([駅の所在地を表す郵便番号](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地を表す郵便番号.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地を表す郵便番号.md "undefined#/properties/station_list/items/properties/postal_code")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地を表す郵便番号.md "undefined#/properties/station_list/items/properties/postal_code")
 
 ### postal\_codeの型定義
 
@@ -458,13 +458,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `address`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string` ([駅の所在地の住所](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地の住所.md))
+* Type: `string` ([駅の所在地の住所](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地の住所.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地の住所.md "undefined#/properties/station_list/items/properties/address")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の所在地の住所.md "undefined#/properties/station_list/items/properties/address")
 
 ### addressの型定義
 
@@ -490,13 +490,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `open_date`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([駅の開業日](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の開業日.md))
+* Type: `string` ([駅の開業日](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の開業日.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の開業日.md "undefined#/properties/station_list/items/properties/open_date")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の開業日.md "undefined#/properties/station_list/items/properties/open_date")
 
 ### open\_dateの型定義
 
@@ -524,13 +524,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `closed_date`
 
-*   undefinedを許可します
+* undefinedを許可します
 
-*   Type: `string` ([駅の廃止日](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の廃止日.md))
+* Type: `string` ([駅の廃止日](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の廃止日.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の廃止日.md "undefined#/properties/station_list/items/properties/closed_date")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-駅の廃止日.md "undefined#/properties/station_list/items/properties/closed_date")
 
 ### closed\_dateの型定義
 
@@ -558,13 +558,13 @@ true: 廃駅, false: 現役駅 'main'データセットの一部では省略さ�
 
 `voronoi`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([ボロノイ範囲](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲.md))
+* Type: `object` ([ボロノイ範囲](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲.md))
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲.md "undefined#/properties/station_list/items/properties/voronoi")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲.md "undefined#/properties/station_list/items/properties/voronoi")
 
 ### voronoiの型定義
 

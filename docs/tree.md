@@ -15,13 +15,13 @@ kd-treeのルートに位置する頂点の駅コード. node\_listに該当す�
 
 `root`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `integer` ([ルート駅コード](tree-properties-ルート駅コード.md))
+* Type: `integer` ([ルート駅コード](tree-properties-ルート駅コード.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-ルート駅コード.md "undefined#/properties/root")
+* defined in: [探索木](tree-properties-ルート駅コード.md "undefined#/properties/root")
 
 ### rootの型定義
 
@@ -33,13 +33,13 @@ kd-treeを構成する頂点（駅）のリスト
 
 `node_list`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object[]` ([探索木の頂点](tree-properties-頂点リスト-探索木の頂点.md))
+* Type: `object[]` ([探索木の頂点](tree-properties-頂点リスト-探索木の頂点.md))
 
-*   non-null
+* non-null
 
-*   defined in: [探索木](tree-properties-頂点リスト.md "undefined#/properties/node_list")
+* defined in: [探索木](tree-properties-頂点リスト.md "undefined#/properties/node_list")
 
 ### node\_listの型定義
 

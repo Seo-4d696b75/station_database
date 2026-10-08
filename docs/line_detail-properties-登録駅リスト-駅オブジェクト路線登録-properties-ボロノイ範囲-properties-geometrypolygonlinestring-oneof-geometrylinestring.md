@@ -73,13 +73,13 @@
 
 `type`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string`
+* Type: `string`
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-type.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry/oneOf/1/properties/type")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-type.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry/oneOf/1/properties/type")
 
 ### typeの型定義
 
@@ -99,25 +99,25 @@
 
 `coordinates`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: リスト. 各要素は次のとおりです
+* Type: リスト. 各要素は次のとおりです
 
-    1.  [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
+  1. [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
 
-    2.  [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
+  2. [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
 
-*   non-null
+* non-null
 
-*   defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry/oneOf/1/properties/coordinates")
+* defined in: [路線詳細オブジェクト](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト.md "undefined#/properties/station_list/items/properties/voronoi/properties/geometry/oneOf/1/properties/coordinates")
 
 ### coordinatesの型定義
 
 リスト. 各要素は次のとおりです
 
-1.  [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
+1. [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
 
-2.  [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
+2. [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
 
 ### coordinatesの値の制限
 

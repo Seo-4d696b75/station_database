@@ -2,9 +2,9 @@
 
 リスト. 各要素は次のとおりです
 
-1.  [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
+1. [経度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-経度.md "check type definition")
 
-2.  [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
+2. [緯度](line_detail-properties-登録駅リスト-駅オブジェクト路線登録-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring-properties-linestringの座標リスト-座標点-items-緯度.md "check type definition")
 
 ## coordinatesの値の制限
 

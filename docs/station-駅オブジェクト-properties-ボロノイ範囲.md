@@ -68,13 +68,13 @@
 
 `type`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `string`
+* Type: `string`
 
-*   non-null
+* non-null
 
-*   defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-type.md "undefined#/items/properties/voronoi/properties/type")
+* defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-type.md "undefined#/items/properties/voronoi/properties/type")
 
 ### typeの型定義
 
@@ -94,13 +94,13 @@
 
 `geometry`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([geometry(Polygon/LineString)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md))
+* Type: `object` ([geometry(Polygon/LineString)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md))
 
-*   non-null
+* non-null
 
-*   defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/items/properties/voronoi/properties/geometry")
+* defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring.md "undefined#/items/properties/voronoi/properties/geometry")
 
 ### geometryの型定義
 
@@ -108,9 +108,9 @@
 
 次のいずれかひとつに一致します
 
-*   [geometry(Polygon)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon.md "check type definition")
+* [geometry(Polygon)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrypolygon.md "check type definition")
 
-*   [geometry(LineString)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring.md "check type definition")
+* [geometry(LineString)](station-駅オブジェクト-properties-ボロノイ範囲-properties-geometrypolygonlinestring-oneof-geometrylinestring.md "check type definition")
 
 ## properties
 
@@ -118,13 +118,13 @@
 
 `properties`
 
-*   undefinedを許可しません
+* undefinedを許可しません
 
-*   Type: `object` ([Featureのプロパティ](station-駅オブジェクト-properties-ボロノイ範囲-properties-featureのプロパティ.md))
+* Type: `object` ([Featureのプロパティ](station-駅オブジェクト-properties-ボロノイ範囲-properties-featureのプロパティ.md))
 
-*   non-null
+* non-null
 
-*   defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-featureのプロパティ.md "undefined#/items/properties/voronoi/properties/properties")
+* defined in: [駅リスト](station-駅オブジェクト-properties-ボロノイ範囲-properties-featureのプロパティ.md "undefined#/items/properties/voronoi/properties/properties")
 
 ### propertiesの型定義
 
