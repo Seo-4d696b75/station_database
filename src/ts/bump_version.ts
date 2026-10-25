@@ -5,7 +5,7 @@ import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 
 // .envファイルを明示的に指定して読み込む
-const envPath = join(__dirname, '../.env')
+const envPath = join(import.meta.dirname, '../.env')
 const result = config({ path: envPath })
 
 if (result.error) {
