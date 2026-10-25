@@ -120,7 +120,7 @@ ${newsBody?.replace(/^\s+/, "")}
   process.env.TZ = "Asia/Tokyo"
 
   // issueに登録済みなissueの駅情報更新日時(Unix Timestamp)を取得
-  dotenv.config({ path: path.resolve(__dirname, "../.env.local") })
+  dotenv.config({ path: path.resolve(import.meta.dirname, "../.env.local") })
   const octokit = new Octokit({
     auth: process.env.GITHUB_ACCESS_TOKEN,
   })
