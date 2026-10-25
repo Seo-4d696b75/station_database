@@ -47,10 +47,11 @@ describe("駅メモとの差分を検査", () => {
 
       // TODO スクレイピング由来の低い保守性をどうにかしたい
       // https://github.com/Seo-4d696b75/station_database/issues/169
-      const path = html.match(/<img\s+src="https:\/\/(?:app\.)?mfmap\.com\/styles\/ekimemo-app\/static\/(?<lng>[\d.]+),(?<lat>[\d.]+),\d+\/\d+x\d+\.png/ms)
-      if (!path) throw Error("lat/lng not found " + s.id)
-      const lat = parseFloat(path.groups?.["lat"]!!).toFixed(6)
-      const lng = parseFloat(path.groups?.["lng"]!!).toFixed(6)
+      // https://github.com/Seo-4d696b75/station_database/issues/249
+      const map = html.match(/<div\s+id="station-map"\s+lat="(?<lat>[\d.]+)"\s+lng="(?<lng>[\d.]+)"/ms)
+      if (!map) throw Error("lat/lng not found " + s.id)
+      const lat = parseFloat(map.groups?.["lat"]!!).toFixed(6)
+      const lng = parseFloat(map.groups?.["lng"]!!).toFixed(6)
       expect(s.lat.toFixed(6)).toBe(lat)
       expect(s.lng.toFixed(6)).toBe(lng)
     })
