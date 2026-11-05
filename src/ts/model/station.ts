@@ -1,6 +1,6 @@
 import { JSONSchemaType } from "ajv"
 import { Station } from "../validate/station"
-import { dateStringPattern, kanaName, originalStationName, stationAttr, stationLineExtra, stationLineName } from "./common"
+import { dateStringPattern, kanaName, nullableValue, originalStationName, stationAttr, stationLineExtra, stationLineName } from "./common"
 import { Dataset, hasExtra } from "./dataset"
 import { jsonVoronoi, JSONVoronoiGeo } from "./geo"
 import { lineCode } from "./line"
@@ -271,8 +271,8 @@ const csvStationMain: JSONSchemaType<CSVStation<'main'>> = {
     postal_code: postalCode,
     address: stationAddress,
     closed: stationClosed,
-    open_date: openDate,
-    closed_date: closedDate,
+    open_date: { ...openDate, nullable: nullableValue },
+    closed_date: { ...closedDate, nullable: nullableValue },
     attr: stationAttr,
   },
   required: [
@@ -308,12 +308,12 @@ const csvStationExtra: JSONSchemaType<CSVStation<'extra'>> = {
     postal_code: postalCode,
     address: stationAddress,
     closed: stationClosed,
-    open_date: openDate,
-    closed_date: closedDate,
+    open_date: { ...openDate, nullable: nullableValue },
+    closed_date: { ...closedDate, nullable: nullableValue },
     extra: stationLineExtra,
     attr: {
       ...stationAttr,
-      nullable: true,
+      nullable: nullableValue,
       description: "駅メモで定義された各駅の属性値. 廃駅の場合は'unknown'. 駅メモに実装されていない独自廃駅の場合はnull",
       enum: [
         ...stationAttr.enum,
