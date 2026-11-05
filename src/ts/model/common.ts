@@ -53,3 +53,7 @@ export const stationLineExtra = {
   title: "駅・路線が独自実装の登録か否かを表します",
   description: "false: 駅メモに登録されています. true: 独自追加された廃駅・廃線です(extraデータセットのみ).",
 }
+
+// ajv の JSONSchemaType は undefined を含まない T | null に nullable: true を許可しないため、型のみ false として扱う
+// see https://github.com/ajv-validator/ajv/issues/2163
+export const nullableValue = true as false

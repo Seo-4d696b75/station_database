@@ -1,5 +1,5 @@
 import { JSONSchemaType } from "ajv"
-import { dateStringPattern, kanaName, stationLineExtra, stationLineName } from "./common"
+import { dateStringPattern, kanaName, nullableValue, stationLineExtra, stationLineName } from "./common"
 import { Dataset, WithExtra } from "./dataset"
 
 export const lineCode: JSONSchemaType<number> = {
@@ -161,7 +161,7 @@ const csvLineMain: JSONSchemaType<CSVLine<'main'>> = {
     name_kana: kanaName,
     name_formal: {
       type: "string",
-      nullable: true,
+      nullable: nullableValue,
       minLength: 1
     },
     station_size: {
@@ -170,17 +170,17 @@ const csvLineMain: JSONSchemaType<CSVLine<'main'>> = {
     },
     company_code: {
       type: "integer",
-      nullable: true,
+      nullable: nullableValue,
       minimum: 0,
     },
     color: {
       type: "string",
-      nullable: true,
+      nullable: nullableValue,
       pattern: "^#[0-9A-F]{6}$"
     },
     symbol: {
       type: "string",
-      nullable: true,
+      nullable: nullableValue,
       minLength: 1,
     },
     closed: {
@@ -188,7 +188,7 @@ const csvLineMain: JSONSchemaType<CSVLine<'main'>> = {
     },
     closed_date: {
       type: "string",
-      nullable: true,
+      nullable: nullableValue,
       pattern: dateStringPattern,
     },
   },
