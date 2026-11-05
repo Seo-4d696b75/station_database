@@ -102,9 +102,8 @@ const closedDate = {
 
 export const stationClosed = {
   type: "boolean" as "boolean",
-  nullable: true as true,
   title: "廃駅フラグ",
-  description: "true: 廃駅, false: 現役駅 'main'データセットの一部では省略されます. 'undefined'の場合はfalseとして扱います."
+  description: "true: 廃駅, false: 現役駅",
 }
 
 export type JSONStation<D extends Dataset> = {

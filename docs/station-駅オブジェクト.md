@@ -270,7 +270,7 @@
 
 ## closed
 
-true: 廃駅, false: 現役駅 'main'データセットの一部では省略されます. 'undefined'の場合はfalseとして扱います.
+true: 廃駅, false: 現役駅
 
 `closed`
 
