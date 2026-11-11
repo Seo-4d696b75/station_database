@@ -1,4 +1,5 @@
 import { JSONSchemaType } from "ajv"
+import { nullableValue } from "./common"
 import { Dataset, WithExtra } from "./dataset"
 import { lineCode } from "./line"
 import { stationCode } from "./station"
@@ -35,7 +36,7 @@ const csvRegisterMain: JSONSchemaType<CSVStationRegister<'main'>> = {
     },
     numbering: {
       type: "string",
-      nullable: true,
+      nullable: nullableValue,
       title: "駅ナンバリング",
       description: "各路線における駅のナンバリング.複数路線のナンバリングを持つ場合は'/'で連結して表現します",
       examples: [
