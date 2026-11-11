@@ -1,0 +1,26 @@
+# Actions の依存ロックファイル（.github/workflows/actions.lock）がワークフローと整合しているか検証する
+# see https://docs.github.com/ja/actions/how-tos/secure-your-work/lock-workflow-dependencies
+name: verify-lockfile
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6.0.2
+        with:
+          persist-credentials: false
+      - name: Install gh-actions-lock
+        run: gh extension install github/gh-actions-lock --pin v0.4.1
+      - name: Verify lockfile
+        run: gh actions-lock --verify
