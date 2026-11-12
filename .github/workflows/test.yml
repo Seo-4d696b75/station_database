@@ -37,7 +37,7 @@ jobs:
           cp out/main/json.zip artifact/main.zip
           cp out/extra/json.zip artifact/extra.zip
           cp src/.env artifact/.env
-      - uses: actions/upload-artifact@v7.0.0
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: base-data
           path: artifact
@@ -89,7 +89,7 @@ jobs:
             --edit-last \
             --create-if-none \
             --body-file artifact/diff.md
-      - uses: actions/upload-artifact@v7.0.0
+      - uses: actions/upload-artifact@v7.0.2
         with:
           name: diff
           path: artifact/*.md
