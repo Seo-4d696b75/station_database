@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # actions.lock に登録済みのワークフローはロックファイルも同じPRで更新される
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
