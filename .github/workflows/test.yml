@@ -63,7 +63,7 @@ jobs:
       - name: setup node modules
         run: npm ci
       - name: download base data
-        uses: actions/download-artifact@v8.0.1
+        uses: actions/download-artifact@v8.0.2
         with:
           name: base-data
           path: artifact
