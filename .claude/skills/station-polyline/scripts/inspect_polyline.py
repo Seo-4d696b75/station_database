@@ -7,61 +7,18 @@ usage:
 リポジトリのルートで実行すること。ファイルは一切書き換えない。
 --geojson を指定すると build 相当の GeoJSON を標準出力へ出す（地図での目視確認用）。
 """
-import csv
 import json
-import math
+import os
 import sys
 from collections import deque
 
+# python3 -I ではスクリプトのディレクトリが sys.path に入らないため明示的に追加する
+sys.dont_write_bytecode = True  # skills 配下に __pycache__ を作らない
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from polyline_lib import find_line, line_stations, load_lines, load_src, to_geojson  # noqa: E402
+
 # src/ts/validate/geo.ts POLYLINE_STATION_MARGIN
 MARGIN = 0.15
-
-
-def load_lines():
-    with open("src/line.csv", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
-
-
-def find_line(lines, key):
-    for line in lines:
-        if key in (line["code"], line["name"]):
-            return line
-    cands = [l for l in lines if key in l["name"]]
-    if len(cands) == 1:
-        return cands[0]
-    if cands:
-        sys.exit("候補が複数あります: " + ", ".join(f'{l["code"]}:{l["name"]}' for l in cands))
-    sys.exit(f"路線が見つかりません: {key}")
-
-
-def round5(v):
-    # convertToPolylineGeo と同じ丸め
-    return math.floor(v * 1e5 + 2 ** -10 + 0.5) / 1e5
-
-
-def to_geojson(src, dataset):
-    features = []
-    for seg in src["point_list"]:
-        if dataset == "main" and seg.get("extra"):
-            continue
-        coords = [[round5(p["lng"]), round5(p["lat"])] for p in seg["points"]]
-        features.append({
-            "type": "Feature",
-            "geometry": {"type": "LineString", "coordinates": coords},
-            "properties": {"start": seg["start"], "end": seg["end"]},
-        })
-    all_pts = [c for f in features for c in f["geometry"]["coordinates"]]
-    return {
-        "type": "FeatureCollection",
-        "features": features,
-        "properties": {
-            "name": src["name"],
-            "north": max(c[1] for c in all_pts),
-            "south": min(c[1] for c in all_pts),
-            "east": max(c[0] for c in all_pts),
-            "west": min(c[0] for c in all_pts),
-        },
-    }
 
 
 def is_connected(segments):
@@ -82,23 +39,6 @@ def is_connected(segments):
     return seen == set(adj)
 
 
-def line_stations(code):
-    try:
-        with open(f"src/line/{code}.json", encoding="utf-8") as f:
-            detail = json.load(f)
-    except FileNotFoundError:
-        return []
-    with open("src/station.csv", encoding="utf-8") as f:
-        stations = {r["code"]: r for r in csv.DictReader(f)}
-    result = []
-    for s in detail["station_list"]:
-        st = stations.get(str(s["code"]))
-        if st:
-            # 駅自体の extra に加えて路線登録単位の extra も考慮する
-            result.append({**st, "extra": "1" if s.get("extra") else st["extra"]})
-    return result
-
-
 def main():
     args = sys.argv[1:]
     dataset = None
@@ -111,10 +51,8 @@ def main():
 
     line = find_line(load_lines(), args[0])
     path = f"src/polyline/{line['code']}.json"
-    try:
-        with open(path, encoding="utf-8") as f:
-            src = json.load(f)
-    except FileNotFoundError:
+    src = load_src(line["code"])
+    if src is None:
         sys.exit(f"{path} がありません（src/check/polyline_ignore.csv への登録有無を確認）")
 
     if dataset:

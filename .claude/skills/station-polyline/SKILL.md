@@ -1,6 +1,6 @@
 ---
 name: station-polyline
-description: 路線ポリラインデータ（src/polyline/{code}.json と out/*/polyline/{code}.json）の確認・編集・検証の手引き。路線の線形・座標・セグメント・ポリライン欠損・ポリライン範囲外エラー・Polyline Editor に関する作業や質問のときに使う。
+description: 路線ポリラインデータ（src/polyline/{code}.json と out/*/polyline/{code}.json）の確認・編集・検証の手引き。路線の線形・座標・セグメント・ポリライン欠損・ポリライン範囲外エラー・Polyline Editor・ポリラインの地図画像での確認・ポリライン編集を含む PR の作成に関する作業や質問のときに使う。
 ---
 
 # 路線ポリライン
@@ -72,6 +72,8 @@ description: 路線ポリラインデータ（src/polyline/{code}.json と out/*
 
 ## 補助スクリプト（読み取り専用）
 
+`scripts/` 配下のスクリプトはどれも `src/` を読むだけで、書き換えない。共通処理は `scripts/polyline_lib.py` にある。
+
 ```bash
 python3 -I .claude/skills/station-polyline/scripts/inspect_polyline.py <code|路線名>
 ```
@@ -84,9 +86,50 @@ python3 -I .claude/skills/station-polyline/scripts/inspect_polyline.py <code> --
 
 ビルドと同一の GeoJSON を標準出力に出す（`out/` に書かずに変換結果を確認・地図表示する用）。結果は scratchpad など作業ディレクトリ外に保存する。
 
+## 地図画像での確認（人間のレビュー用）
+
+ポリラインを編集したら、地図に描画した PNG を作ってユーザーに確認してもらう。ユーザーに見せる前に、エージェント自身も Read で画像を見て、明らかな破綻（飛び点、逆走、接続切れ、線路からの大きなずれ）がないか確かめる。
+
+```bash
+uv run --script .claude/skills/station-polyline/scripts/render_polyline.py <code|路線名> --out <DIR> [--base REV] [--dataset main|extra]
+```
+
+- 出力
+  - `overview.png`: 路線全体
+  - `region_NN.png`: 変更箇所ごとの拡大図（`--base` との差分から自動で切り出す）
+- 凡例
+  - 灰の太線: 変更前（`--base`、既定 `HEAD`）
+  - 赤の細線: 変更後（作業ツリー）
+  - 青の点: 登録駅
+  - 見え方: 変更のない区間は灰の縁取りの付いた赤線、削除された区間は灰だけ、追加された区間は赤だけになる
+- 背景は地理院タイル（淡色地図）。画像を共有するときは「出典：国土地理院」を併記する
+- `--out` は scratchpad などリポジトリ外にする。画像はコミットしない
+- コミット済みの変更を確認するときは `--base` に変更前のリビジョンを指定する（例 `--base main`）
+
+### 依存パッケージ（uv）
+
+- 依存（`staticmap`、Pillow、requests）はスクリプト先頭の PEP 723 メタデータで宣言している。`uv run --script` を実行すると uv のキャッシュにある一時環境へインストールされる。リポジトリには何も追加されない
+- MUST: このスクリプトを初めて `uv run` する前（パッケージのインストールが発生するとき）は、必ず人間の許可を求める。許可を得るまで実行しない
+- `pip install` や、プロジェクトへの `pyproject.toml` / `requirements.txt` の追加はしない
+- uv が無い環境では、画像の生成をやめてユーザーに相談する
+
+## ポリライン編集を含む PR の作成
+
+路線ポリラインの編集を含む PR を作るよう頼まれたときは、PR を作成した後、変更箇所を GitHub の ```` ```geojson ```` コードブロック（地図として描画される）で PR にコメントする。
+
+```bash
+python3 -I .claude/skills/station-polyline/scripts/pr_comment_polyline.py <code> [<code> ...] \
+    --base "$(git merge-base origin/main HEAD)" --out <DIR>
+gh pr comment <PR番号> --body-file <DIR>/comment_01.md   # comment_NN.md ごとに投稿
+```
+
+- 変更した路線は `git diff --name-only "$(git merge-base origin/main HEAD)" -- src/polyline/` で洗い出す
+- 変更箇所の前後だけを切り出す。GitHub のコメント上限（65,536文字）に収まるよう、コメントを分割したり座標を間引いたりする
+- 投稿前に生成したコメント本文をユーザーに見せて、投稿してよいか確認する（外部への書き込みのため）
+
 ## よくある作業
 
-- **欠損区間の追加**: ユーザーに確認 → Polyline Editor で作成された座標をセグメントとして追加。端点タグと座標を接続先セグメントの端点に一致させる → `inspect_polyline.py` → `npm run check`
+- **欠損区間の追加**: ユーザーに確認 → Polyline Editor で作成された座標をセグメントとして追加。端点タグと座標を接続先セグメントの端点に一致させる → `inspect_polyline.py` → `npm run check` → `render_polyline.py` の画像でユーザーに確認してもらう
 - **「ポリライン範囲外」エラー**: どの駅が外れているか確認し、欠けている区間を特定してユーザーに報告（座標は創作しない）
 - **「ポリラインが見つかりません」エラー**: ポリラインを用意するか、欠損を許すなら `src/check/polyline_ignore.csv` に追記（確認データなのでユーザー確認必須）
 - **路線名変更**: `src/line.csv` と `src/polyline/{code}.json` の `name`、必要なら `polyline_ignore.csv` を揃える
