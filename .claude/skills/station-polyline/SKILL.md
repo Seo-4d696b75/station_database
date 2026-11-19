@@ -39,7 +39,7 @@ description: 路線ポリラインデータ（src/polyline/{code}.json と out/*
 - `origin`: 任意の出典メモ。ルート直下の未知属性は許容され、ビルドで破棄される
 - `point_list[]`: セグメント。1要素が GeoJSON の `Feature(LineString)` 1つになる
   - `start` / `end`: 端点のタグ。**同じタグの端点同士が接続する**。駅名が多いが分岐点・トンネル等の任意名でもよい（例 `旧線分岐`, `塩山１`）。`start === end` は環状
-  - `points`: `start` → `end` の順の `{lng, lat}` 列。キー順・小数桁はファイルにより揃っていない
+  - `points`: `start` → `end` の順に並んだ `{lng, lat}` の列。既存ファイルではキーの順序や小数の桁数が揃っていない（エージェントが書くときは「ファイルの書式」に従う）
   - `extra: true`: 独自追加の廃止区間。**main ビルドで除外**、extra ビルドのみ出力
   - `closed: true`: 廃止区間の注記。ビルド結果には影響しない
 
@@ -68,11 +68,47 @@ description: 路線ポリラインデータ（src/polyline/{code}.json と out/*
 - `extra` 属性を持つ区間・独自追加路線の追加・修正は禁止
 - 座標の作成・修正は原則 [Polyline Editor](https://seo-4d696b75.github.io/polyline-editor/) でユーザーが行う。エージェントは手で座標を創作しない
 - 大きなファイルを丸ごと読まない（数千行ある）。下の補助スクリプトや `grep -n '"start"'` で構造を把握する
-- 編集時は既存ファイルの書式（インデント・キー順・桁数）に合わせ、差分を最小にする
+- エージェントが編集・追加したファイルは、下の「ファイルの書式」に従って整形する
+
+## ファイルの書式
+
+エージェントが編集・追加する `src/polyline/{code}.json` は次の書式にする。
+
+- インデントは 2 スペースの、一般的な pretty format にする（`"key": value`、要素ごとに改行）
+- 座標点だけは 1 行にまとめ、空白を入れず、`lat`, `lng` の順に書く
+- 座標の値は小数点以下 5 桁までを推奨する。6 桁目以降は四捨五入する。ビルドでも 5 桁に丸められるので、それより細かい値は成果物に残らない
+
+```json
+{
+  "name": "JR石勝線",
+  "point_list": [
+    {
+      "start": "紅葉山",
+      "end": "登川",
+      "extra": true,
+      "points": [
+        {"lat":42.93544,"lng":142.03598},
+        {"lat":42.93817,"lng":142.03905}
+      ]
+    }
+  ]
+}
+```
+
+整形は手作業ではなく、スクリプトで行う。
+
+```bash
+python3 -I .claude/skills/station-polyline/scripts/format_polyline.py <code|路線名|path> [...]          # 整形して上書き
+python3 -I .claude/skills/station-polyline/scripts/format_polyline.py <code|路線名|path> [...] --check  # 確認のみ
+```
+
+- 数値の表記（末尾の 0 など）は元のまま残す。小数点以下の桁数の丸めは行わないので、5 桁に丸めるのは座標を書くときに行う。座標点以外のキーの順序もそのまま残す。整形の前後で内容が変わらないことはスクリプトが検査する
+- 現時点では、この書式に従っていない既存ファイルがほとんどである。整形するのは、エージェントが編集・追加したファイルだけにする。編集していないファイルを一括で整形しない（差分が膨れてレビューできなくなるため）
+- 書式に従っていない既存ファイルを編集した場合は、整形による差分もそのファイル全体に出る。この点をユーザーに伝える
 
 ## 補助スクリプト（読み取り専用）
 
-`scripts/` 配下のスクリプトはどれも `src/` を読むだけで、書き換えない。共通処理は `scripts/polyline_lib.py` にある。
+`scripts/` 配下のスクリプトは、`format_polyline.py`（指定したファイルを整形して上書きする）を除いて、どれも `src/` を読むだけで書き換えない。共通処理は `scripts/polyline_lib.py` にある。
 
 ```bash
 python3 -I .claude/skills/station-polyline/scripts/inspect_polyline.py <code|路線名>
