@@ -1,11 +1,11 @@
 {
-  "name":"京阪京津線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "京阪京津線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"御陵",
-      "end":"山科",
-      "points":[
+      "start": "御陵",
+      "end": "山科",
+      "points": [
         {"lat":34.99598,"lng":135.80188},
         {"lat":34.99576,"lng":135.80238},
         {"lat":34.99545,"lng":135.80302},
@@ -27,9 +27,9 @@
       ]
     },
     {
-      "start":"山科",
-      "end":"びわ湖浜大津",
-      "points":[
+      "start": "山科",
+      "end": "びわ湖浜大津",
+      "points": [
         {"lat":34.99272,"lng":135.81000},
         {"lat":34.99271,"lng":135.81025},
         {"lat":34.99267,"lng":135.81046},
@@ -168,10 +168,10 @@
       ]
     },
     {
-      "start":"京津三条",
-      "end":"山科",
-      "extra":true,
-      "points":[
+      "start": "京津三条",
+      "end": "山科",
+      "extra": true,
+      "points": [
         {"lat":35.00854,"lng":135.77272},
         {"lat":35.00886,"lng":135.77284},
         {"lat":35.00901,"lng":135.77293},
