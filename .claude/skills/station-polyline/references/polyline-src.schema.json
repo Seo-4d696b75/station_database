@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "src/polyline/{code}.json",
+  "title": "路線ポリライン（マスターデータ・独自形式）",
+  "description": "src/polyline/{code}.json の形式。src/ts/model/geo.ts の jsonPolylineSrc と同等の制約を JSON Schema で表現したもの。ビルド時に convertToPolylineGeo で out/{dataset}/polyline/{code}.json (GeoJSON FeatureCollection) へ変換される。スキーマで表現できない制約は $comment を参照。",
+  "$comment": "スキーマ外の制約（src/ts/validate/geo.ts validatePolylineSrc / src/ts/check.ts）: (1) name は src/line.csv で code が一致する路線の name と完全一致 (2) 同じタグ名を持つセグメント端点の座標は完全一致 (3) 同一セグメント内で連続する座標の重複禁止 (4) start/end をノード、セグメントを辺とみなしたグラフが連結 (5) start === end の環状セグメントは始点と終点の座標が一致",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "title": "路線名",
+      "description": "src/line.csv の name と同じ値（駅メモの路線名。重複防止の接尾語を含む）"
+    },
+    "origin": {
+      "type": "string",
+      "title": "データの出典（任意）",
+      "description": "例: \"rail-history.org\"。ビルド時に破棄される。ルート直下ではこれ以外の未知の属性も許容される"
+    },
+    "point_list": {
+      "type": "array",
+      "title": "セグメントのリスト",
+      "description": "各要素がGeoJSONの Feature(LineString) 1つに対応する",
+      "items": { "$ref": "#/definitions/segment" }
+    }
+  },
+  "required": ["name", "point_list"],
+  "additionalProperties": true,
+  "definitions": {
+    "segment": {
+      "type": "object",
+      "title": "セグメント",
+      "properties": {
+        "start": {
+          "type": "string",
+          "minLength": 1,
+          "title": "始点タグ",
+          "description": "端点の識別子。駅名のほか分岐点・トンネル等の任意の地点名も使える（例: \"旧線分岐\", \"塩山１\"）。同じタグを持つ他セグメントの端点と接続する"
+        },
+        "end": {
+          "type": "string",
+          "minLength": 1,
+          "title": "終点タグ",
+          "description": "start と同じ意味。start と同値の場合は環状セグメント"
+        },
+        "extra": {
+          "type": "boolean",
+          "title": "extraデータセット専用",
+          "description": "true の場合 main データセットのビルドで除外される（独自追加の廃止区間）。省略時 false"
+        },
+        "closed": {
+          "type": "boolean",
+          "title": "廃止区間",
+          "description": "情報用の注記。ビルド結果には影響しない。省略時 false"
+        },
+        "points": {
+          "type": "array",
+          "minItems": 2,
+          "title": "座標点のリスト",
+          "description": "start から end の順に並ぶ。先頭が start、末尾が end の座標",
+          "$comment": "jsonPolylineSrc 自体は minItems を課さないが、ビルド後の GeoJSON は LineString の座標数 >= 2（環状は >= 3）を要求する",
+          "items": { "$ref": "#/definitions/point" }
+        }
+      },
+      "required": ["start", "end", "points"],
+      "additionalProperties": false
+    },
+    "point": {
+      "type": "object",
+      "title": "座標点",
+      "description": "キーの順序は任意（既存ファイルには {\"lng\",\"lat\"} と {\"lat\",\"lng\"} の両方がある）。エージェントが書くときは1行・空白なし・lat, lng の順にする（例: {\"lat\":42.9399,\"lng\":142.03949}）。既存ファイルの小数点以下は通常5〜6桁。ビルド時に5桁へ四捨五入されるため、エージェントが書くときは小数点以下5桁まで（6桁目以降は四捨五入）を推奨する",
+      "properties": {
+        "lng": { "type": "number", "minimum": 112, "maximum": 160, "title": "経度" },
+        "lat": { "type": "number", "minimum": 20, "maximum": 60, "title": "緯度" }
+      },
+      "required": ["lng", "lat"],
+      "additionalProperties": false
+    }
+  }
+}

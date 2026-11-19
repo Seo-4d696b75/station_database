@@ -1,11 +1,11 @@
 {
-  "name":"JR弥彦線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "JR弥彦線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"旧線分岐",
-      "end":"東三条",
-      "points":[
+      "start": "旧線分岐",
+      "end": "東三条",
+      "points": [
         {"lat":37.62845,"lng":138.96692},
         {"lat":37.62819,"lng":138.96708},
         {"lat":37.62797,"lng":138.96729},
@@ -25,9 +25,9 @@
       ]
     },
     {
-      "start":"弥彦",
-      "end":"旧線分岐",
-      "points":[
+      "start": "弥彦",
+      "end": "旧線分岐",
+      "points": [
         {"lat":37.69897,"lng":138.83101},
         {"lat":37.69942,"lng":138.83251},
         {"lat":37.69970,"lng":138.83337},
@@ -259,10 +259,10 @@
       ]
     },
     {
-      "start":"旧線分岐",
-      "end":"越後長沢",
-      "extra":true,
-      "points":[
+      "start": "旧線分岐",
+      "end": "越後長沢",
+      "extra": true,
+      "points": [
         {"lat":37.62845,"lng":138.96692},
         {"lat":37.62791,"lng":138.96719},
         {"lat":37.62755,"lng":138.96736},

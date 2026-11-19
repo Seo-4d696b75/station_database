@@ -1,11 +1,11 @@
 {
-  "name":"JR舞鶴線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "JR舞鶴線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"支線",
-      "end":"東舞鶴",
-      "points":[
+      "start": "支線",
+      "end": "東舞鶴",
+      "points": [
         {"lat":35.46566,"lng":135.39131},
         {"lat":35.46601,"lng":135.39169},
         {"lat":35.46640,"lng":135.39216},
@@ -18,10 +18,10 @@
       ]
     },
     {
-      "start":"支線",
-      "end":"中舞鶴",
-      "extra":true,
-      "points":[
+      "start": "支線",
+      "end": "中舞鶴",
+      "extra": true,
+      "points": [
         {"lat":35.46566,"lng":135.39131},
         {"lat":35.46583,"lng":135.39145},
         {"lat":35.46622,"lng":135.39173},
@@ -91,9 +91,9 @@
       ]
     },
     {
-      "start":"綾部",
-      "end":"支線",
-      "points":[
+      "start": "綾部",
+      "end": "支線",
+      "points": [
         {"lat":35.30215,"lng":135.25194},
         {"lat":35.30202,"lng":135.25326},
         {"lat":35.30193,"lng":135.25404},

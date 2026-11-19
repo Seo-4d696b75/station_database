@@ -1,11 +1,11 @@
 {
-  "name":"アルピコ交通上高地線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "アルピコ交通上高地線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"新島々",
-      "end":"松本",
-      "points":[
+      "start": "新島々",
+      "end": "松本",
+      "points": [
         {"lat":36.18980,"lng":137.82176},
         {"lat":36.18996,"lng":137.82215},
         {"lat":36.19051,"lng":137.82360},
@@ -194,10 +194,10 @@
       ]
     },
     {
-      "start":"島々",
-      "end":"新島々",
-      "extra":true,
-      "points":[
+      "start": "島々",
+      "end": "新島々",
+      "extra": true,
+      "points": [
         {"lat":36.18523,"lng":137.80864},
         {"lat":36.18598,"lng":137.80972},
         {"lat":36.18625,"lng":137.81018},

@@ -1,11 +1,11 @@
 {
-  "name":"近鉄八王子線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "近鉄八王子線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"近鉄四日市",
-      "end":"西日野",
-      "points":[
+      "start": "近鉄四日市",
+      "end": "西日野",
+      "points": [
         {"lat":34.96765,"lng":136.61866},
         {"lat":34.96626,"lng":136.61848},
         {"lat":34.96546,"lng":136.61838},
@@ -67,10 +67,10 @@
       ]
     },
     {
-      "start":"西日野",
-      "end":"伊勢八王子",
+      "start": "西日野",
+      "end": "伊勢八王子",
       "extra": true,
-      "points":[
+      "points": [
         {"lat":34.95279,"lng":136.59081},
         {"lat":34.95271,"lng":136.59051},
         {"lat":34.95268,"lng":136.59021},

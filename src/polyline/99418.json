@@ -1,12 +1,12 @@
 {
-  "name":"のと鉄道七尾線",
-  "origin":"rail-history.org",
-  "point_list":[
+  "name": "のと鉄道七尾線",
+  "origin": "rail-history.org",
+  "point_list": [
     {
-      "start":"輪島",
-      "end":"穴水",
-      "extra":true,
-      "points":[
+      "start": "輪島",
+      "end": "穴水",
+      "extra": true,
+      "points": [
         {"lat":37.38966,"lng":136.90596},
         {"lat":37.38718,"lng":136.90732},
         {"lat":37.38616,"lng":136.90787},
@@ -410,9 +410,9 @@
       ]
     },
     {
-      "start":"穴水",
-      "end":"和倉温泉",
-      "points":[
+      "start": "穴水",
+      "end": "和倉温泉",
+      "points": [
         {"lat":37.22880,"lng":136.90372},
         {"lat":37.22803,"lng":136.90458},
         {"lat":37.22735,"lng":136.90536},
@@ -912,9 +912,9 @@
       ]
     },
     {
-      "start":"和倉温泉",
-      "end":"七尾",
-      "points":[
+      "start": "和倉温泉",
+      "end": "七尾",
+      "points": [
         {"lat":37.07469,"lng":136.92585},
         {"lat":37.07451,"lng":136.92649},
         {"lat":37.07401,"lng":136.92796},
