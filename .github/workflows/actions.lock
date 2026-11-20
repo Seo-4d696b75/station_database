@@ -5,7 +5,7 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/build.yml':
         - 'actions/checkout@v6.0.2'
-        - 'actions/create-github-app-token@v3.0.0'
+        - 'actions/create-github-app-token@v3.3.0'
         - 'actions/setup-java@v6.2.0'
         - 'actions/setup-node@v7.1.0'
     '.github/workflows/check_update.yml':
@@ -39,9 +39,9 @@ dependencies:
         commit: 'sha1-de0fac2e4500dabe0009e67214ff5f5447ce83dd'
         owner_id: 44036562
         repo_id: 197814629
-    'actions/create-github-app-token@v3.0.0':
-        ref: 'v3.0.0'
-        commit: 'sha1-f8d387b68d61c58ab83c6c016672934102569859'
+    'actions/create-github-app-token@v3.3.0':
+        ref: 'v3.3.0'
+        commit: 'sha1-64ab729a6294000f5aa4a4bc0b73d1f32bc45510'
         owner_id: 44036562
         repo_id: 642580244
     'actions/download-artifact@v8.0.2':
