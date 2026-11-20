@@ -19,7 +19,7 @@ jobs:
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v7.0.1
         with:
           ref: ${{ github.event.pull_request.merge_commit_sha }}
       - name: Load version
