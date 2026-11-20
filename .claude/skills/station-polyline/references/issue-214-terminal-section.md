@@ -59,21 +59,36 @@ https://github.com/Seo-4d696b75/station_database/issues/214 の「末端区間�
 
 並行して作業するため、必ず専用の git worktree で作業する。
 
+- 隔離された worktree では、`git` を含む複合コマンド（`&&` やコマンド置換 `$(git ...)` を含むもの）が権限で拒否されることがある。下のコマンドは1行ずつ、単独で実行する
+- 隔離された worktree は main をもとに作られるので、起動した時点ではこの手順書が worktree の中にないことがある。その場合は依頼文に書かれた絶対パスの手順書を読むか、`git show origin/develop/issue-214:.claude/skills/station-polyline/references/issue-214-terminal-section.md` で読む
+
 ```bash
 git fetch origin
 # 既に隔離された worktree の中にいる場合
-git switch -c feature/issue-214/{code} origin/develop/issue-214
+git switch --no-track -c feature/issue-214/{code} origin/develop/issue-214
 # そうでない場合（リポジトリのルートから）
-git worktree add ../station_database-214-{code} -b feature/issue-214/{code} origin/develop/issue-214
+git worktree add --no-track ../station_database-214-{code} -b feature/issue-214/{code} origin/develop/issue-214
 cd ../station_database-214-{code}
 ```
 
+`--no-track` を付けるのは、作業ブランチの追跡先が `develop/issue-214` にならないようにするため。追跡先は、最初の `git push -u` で自分のブランチに設定される。
+
 worktree には git 管理外の `node_modules` と `src/.env.local`（`npm run check` が使う API キー）がない。どちらも、メインの作業ツリーにあるものへのシンボリックリンクを張る（`npm ci` はしない）。どちらのリンクも `.gitignore` の対象なのでコミットされない。
 
+メインの作業ツリーの絶対パス（以下 `{MAIN}`）は、依頼文に書かれていればそれを使う。書かれていなければ、次のコマンドを単独で実行し、出力の末尾の `/.git` を除いた部分を使う。
+
 ```bash
-MAIN="$(dirname "$(git rev-parse --path-format=absolute --git-common-dir)")"
-ln -s "$MAIN/node_modules" node_modules
-ln -s "$MAIN/src/.env.local" src/.env.local
+git rev-parse --path-format=absolute --git-common-dir
+```
+
+リンクは1つずつ、絶対パスで張る。
+
+```bash
+ln -s {MAIN}/node_modules node_modules
+```
+
+```bash
+ln -s {MAIN}/src/.env.local src/.env.local
 ```
 
 - MUST: `src/.env.local` の中身は読まない（CLAUDE.md）。リンクを張るだけにする
