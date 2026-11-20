@@ -108,7 +108,7 @@ python3 -I .claude/skills/station-polyline/scripts/format_polyline.py <code|路�
 
 ## 補助スクリプト（読み取り専用）
 
-`scripts/` 配下のスクリプトは、`format_polyline.py`（指定したファイルを整形して上書きする）を除いて、どれも `src/` を読むだけで書き換えない。共通処理は `scripts/polyline_lib.py` にある。
+`scripts/` 配下のスクリプトは、`format_polyline.py`（指定したファイルを整形して上書きする）と `copy_section.py`（対象路線のファイルに区間を追加する）を除いて、どれも `src/` を読むだけで書き換えない。共通処理は `scripts/polyline_lib.py` にある。
 
 ```bash
 python3 -I .claude/skills/station-polyline/scripts/inspect_polyline.py <code|路線名>
@@ -160,8 +160,21 @@ gh pr comment <PR番号> --body-file <DIR>/comment_01.md   # comment_NN.md ご�
 ```
 
 - 変更した路線は `git diff --name-only "$(git merge-base origin/main HEAD)" -- src/polyline/` で洗い出す
-- 変更箇所の前後だけを切り出す。GitHub のコメント上限（65,536文字）に収まるよう、コメントを分割したり座標を間引いたりする
+- コメントには、路線ごとに「変更後の路線全体」の地図と、変更箇所ごとに「変更後」「変更前」の地図を別々に載せる（GitHub の geojson 表示は線の色指定を反映しないため）
+- 変更箇所の地図には、変更箇所の前後だけを切り出して載せる。GitHub のコメント上限（65,536文字）に収まるよう、コメントを分割したり座標を間引いたりする
 - 投稿前に生成したコメント本文をユーザーに見せて、投稿してよいか確認する（外部への書き込みのため）
+
+## 他路線からの区間の複製
+
+```bash
+python3 -I .claude/skills/station-polyline/scripts/copy_section.py <対象code> --source <移植元code> --to <駅名|タグ> [--join <既存タグ>] [--extend N] [--dry-run]
+```
+
+移植元のポリラインから、`--join`（対象路線の既存タグ。省略時は終点に最も近い末端タグ）から `--to` までの経路の座標をそのまま複製する。複製した区間は、対象路線に新しいセグメントとして追加される。始点は既存タグの座標に合わせて接続する。対象ファイルを書き換えるスクリプトなので、使ってよいのは座標の複製が許可された作業に限る。
+
+## issue #214 末端区間の補完
+
+issue #214 の「末端区間のポリラインが欠けている路線」の作業を頼まれたときは、[references/issue-214-terminal-section.md](references/issue-214-terminal-section.md) の手順に従う。対象路線、例外の範囲、ブランチ、コミットメッセージ、PR の作り方はそこに書いてある。
 
 ## よくある作業
 

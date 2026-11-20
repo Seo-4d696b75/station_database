@@ -17,7 +17,9 @@ import sys
 
 sys.dont_write_bytecode = True  # skills 配下に __pycache__ を作らない
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from polyline_lib import changed_regions, find_line, in_bbox, line_stations, load_lines, load_src, round5  # noqa: E402
+from polyline_lib import (  # noqa: E402
+    changed_regions, coords, find_line, in_bbox, line_stations, load_lines, load_src, round5, segments,
+)
 
 COMMENT_LIMIT = 60000  # GitHub 上限 65,536 文字に余裕をもたせる
 BLOCK_LIMIT = 50000
@@ -40,37 +42,59 @@ def part(pts, rng):
     return pts[max(0, rng[0] - CONTEXT_POINTS):rng[1] + CONTEXT_POINTS + 1]
 
 
-def feature(pts, name, stroke, width):
-    return {
-        "type": "Feature",
-        "geometry": {"type": "LineString", "coordinates": [[round5(lng), round5(lat)] for lng, lat in pts]},
-        "properties": {"name": name, "stroke": stroke, "stroke-width": width},
-    }
+def block(pts, region, stations):
+    """変更前・変更後のどちらか一方の線と、範囲内の登録駅を1つの地図にする
 
-
-def block(region, stations):
-    new_pts = part(region["new"], region["new_range"])
-    old_pts = part(region["old"], region["old_range"])
-    limit = None
+    GitHub の geojson 表示は線の色指定（stroke）を反映しないため、変更前と変更後は別々の地図に分ける
+    """
+    limit = len(pts)
     while True:
-        features = []
-        if len(old_pts) >= 2:
-            features.append(feature(thin(old_pts, limit or len(old_pts)), "変更前", "#8c8c8c", 6))
-        if len(new_pts) >= 2:
-            features.append(feature(thin(new_pts, limit or len(new_pts)), "変更後", "#e60012", 3))
+        line = thin(pts, limit)
+        features = [{
+            "type": "Feature",
+            "geometry": {"type": "LineString", "coordinates": [[round5(lng), round5(lat)] for lng, lat in line]},
+            "properties": {},
+        }]
         for st in stations:
             p = (float(st["lng"]), float(st["lat"]))
             if in_bbox(p, region["bbox"]):
                 features.append({
                     "type": "Feature",
                     "geometry": {"type": "Point", "coordinates": [round5(p[0]), round5(p[1])]},
-                    "properties": {"name": st["name"], "marker-color": "#0050ff", "marker-size": "small"},
+                    "properties": {"name": st["name"]},
                 })
         text = json.dumps({"type": "FeatureCollection", "features": features},
                           ensure_ascii=False, separators=(",", ":"))
         if len(text) <= BLOCK_LIMIT:
-            return text, limit is not None
-        limit = int(max(len(old_pts), len(new_pts)) * BLOCK_LIMIT / len(text) * 0.9)
+            note = "（座標を間引いて表示）" if limit < len(pts) else ""
+            return f"```geojson\n{text}\n```\n", note
+        limit = int(limit * BLOCK_LIMIT / len(text) * 0.9)
+
+
+def overview_block(src, stations):
+    """変更後の路線全体（全セグメント）と全登録駅を1つの地図にする"""
+    seg_pts = [coords(seg) for seg in segments(src)]
+    ratio = 1.0
+    while True:
+        features = [{
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [[round5(lng), round5(lat)] for lng, lat in thin(pts, max(2, int(len(pts) * ratio)))],
+            },
+            "properties": {},
+        } for pts in seg_pts]
+        features += [{
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [round5(float(st["lng"])), round5(float(st["lat"]))]},
+            "properties": {"name": st["name"]},
+        } for st in stations]
+        text = json.dumps({"type": "FeatureCollection", "features": features},
+                          ensure_ascii=False, separators=(",", ":"))
+        if len(text) <= BLOCK_LIMIT:
+            note = "（座標を間引いて表示）" if ratio < 1.0 else ""
+            return f"```geojson\n{text}\n```\n", note
+        ratio *= BLOCK_LIMIT / len(text) * 0.9
 
 
 def main():
@@ -91,18 +115,25 @@ def main():
         old_src = load_src(line["code"], opts["--base"])
         new_src = load_src(line["code"])
         stations = line_stations(line["code"])
-        for r in changed_regions(old_src, new_src):
-            text, thinned = block(r, stations)
-            note = "（座標を間引いて表示）" if thinned else ""
-            sections.append(
-                f"#### {line['name']} ({line['code']}) {r['label']} [{STATUS_LABEL[r['status']]}]{note}\n\n"
-                f"```geojson\n{text}\n```\n"
-            )
+        regions = changed_regions(old_src, new_src)
+        if regions and new_src is not None:
+            code_block, note = overview_block(new_src, stations)
+            sections.append(f"#### {line['name']} ({line['code']}) 路線全体（変更後）{note}\n\n{code_block}\n")
+        for r in regions:
+            sec = f"#### {line['name']} ({line['code']}) {r['label']} [{STATUS_LABEL[r['status']]}]\n\n"
+            for title, pts, rng in (("変更後", r["new"], r["new_range"]), ("変更前", r["old"], r["old_range"])):
+                pts = part(pts, rng)
+                if len(pts) >= 2:
+                    code_block, note = block(pts, r, stations)
+                    sec += f"**{title}**{note}\n\n{code_block}\n"
+            sections.append(sec)
 
     if not sections:
         sys.exit("変更箇所がありません")
 
-    header = f"### 路線ポリラインの変更箇所\n\n灰（太）: 変更前 `{opts['--base']}` / 赤（細）: 変更後 / 青: 登録駅\n\n"
+    header = (f"### 路線ポリラインの変更箇所\n\n"
+              f"路線ごとに、変更後の路線全体の地図と、変更箇所ごとの変更後・変更前（`{opts['--base']}`）の地図を示します。"
+              f"点は範囲内の登録駅です（クリックで駅名を表示）。\n\n")
     comments = []
     body = header
     for sec in sections:
