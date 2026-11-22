@@ -3,12 +3,12 @@ import { Assert, assertEach, withAssert } from "./assert";
 import { Station } from "./station";
 
 /** 
- * ポリライン矩形の余白（10進小数のオイラー角）。約20km相当 
+ * ポリライン矩形の余白（10進小数のオイラー角）。約1km相当 
  * 
- * v20250501時点で最も距離が外れるJR舞鶴線(11622)の福知山を基準に設定しています
- * @see https://github.com/Seo-4d696b75/station_database/issues/210#issuecomment-4535086831
+ * issue #214 で末端区間のポリライン欠損を解消した時点で、最も距離が外れるのは湘南軌道(99350)の秦野（約0.0037）です
+ * @see https://github.com/Seo-4d696b75/station_database/issues/214
  */
-const POLYLINE_STATION_MARGIN = 0.15
+const POLYLINE_STATION_MARGIN = 0.01
 
 export function validateGeoVoronoi(obj: JSONVoronoiGeo) {
   const geometry = obj.geometry
